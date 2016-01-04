@@ -2,7 +2,7 @@ class CfgPatches
 {
 	class FP_Factions_USAREUR90
 	{
-		units[] = {"FP_Faction_USAREUR90_Soldier_BASE","FP_Faction_USAREUR90_Rifleman","FP_Faction_USAREUR90_AR","FP_Faction_USAREUR90_AAR","FP_Faction_USAREUR90_SL","FP_Faction_USAREUR90_TL","FP_Faction_USAREUR90_DM","FP_Faction_USAREUR90_RAT","FP_Faction_USAREUR90_Medic","FP_Faction_USAREUR90_Crewman","FP_Faction_USAREUR90_Engineer","FP_Faction_USAREUR90_MMG","FP_Faction_USAREUR90_AMMG","FP_Faction_USAREUR90_MAT","FP_Faction_USAREUR90_AMAT","FP_Faction_USAREUR90_MANPADS","FP_Faction_USAREUR90_AMANPADS","FP_Faction_USAREUR90_Vehicle_Gavin","FP_Faction_USAREUR90_Vehicle_M163","FP_Faction_USAREUR90_Vehicle_HumveeM2","FP_Faction_USAREUR90_Vehicle_Humvee"};
+		units[] = {"FP_Faction_USAREUR90_Soldier_BASE","FP_Faction_USAREUR90_Rifleman","FP_Faction_USAREUR90_AR","FP_Faction_USAREUR90_AAR","FP_Faction_USAREUR90_SL","FP_Faction_USAREUR90_TL","FP_Faction_USAREUR90_DM","FP_Faction_USAREUR90_RAT","FP_Faction_USAREUR90_Medic","FP_Faction_USAREUR90_Crewman","FP_Faction_USAREUR90_Engineer","FP_Faction_USAREUR90_MMG","FP_Faction_USAREUR90_AMMG","FP_Faction_USAREUR90_MAT","FP_Faction_USAREUR90_AMAT","FP_Faction_USAREUR90_MANPADS","FP_Faction_USAREUR90_AMANPADS","FP_Faction_USAREUR90_Vehicle_Gavin","FP_Faction_USAREUR90_Vehicle_M163","FP_Faction_USAREUR90_Vehicle_HumveeM2","FP_Faction_USAREUR90_Vehicle_Humvee","FP_Faction_USAREUR90_Vehicle_M60A3","FP_Faction_USAREUR90_Vehicle_M1","FP_Faction_USAREUR90_Vehicle_M2A1","FP_Faction_USAREUR90_Vehicle_TOW"};
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {};
@@ -240,7 +240,7 @@ class CfgGroups
 				name = "USAREUR 1990 Mechanized Infantry";
 				class USAREUR90_MechRiflesquad
 				{
-					name = "Mechanized Rifle Squad (M113)";
+					name = "Mechanized Rifle Squad (M2A1)";
 					side = 1;
 					faction = "FP_Faction_USAREUR90";
 					class Unit0
@@ -302,7 +302,7 @@ class CfgGroups
 					class Unit8
 					{
 						side = 1;
-						vehicle = "FP_Faction_USAREUR90_Vehicle_Gavin";
+						vehicle = "FP_Faction_USAREUR90_Vehicle_M2A1";
 						rank = "PRIVATE";
 						position[] = {25,-25,0};
 					};
@@ -706,7 +706,7 @@ class cfgvehicles
 		armorStructural = 5;
 		author = "FP Mod Team";
 		expansion = 1;
-		identityTypes[] = {"LanguageENG_F", "Head_NATO", "G_NATO_default"};
+		identityTypes[] = {"LanguageENG_F", "Head_NATO", "G_CIVIL_male"};
 		faceType = "Man_A3";
 		side = 1;
 		faction = "FP_Faction_USAREUR90";
@@ -724,16 +724,16 @@ class cfgvehicles
 		canCarryBackPack = 1;
 		scope = 0;
 		scopeCurator = 0;
-		model = "\A3\characters_F\OPFOR\o_officer.p3d";
-		uniformClass = "FP_Uniform_m81";  
+		model = "\us_military_units\usm_uniform_bdu.p3d";
+		uniformClass = "usm_bdu_w";  
 		weapons[] = {"RH_M16A2","Throw","Put"};
 		respawnWeapons[] = {"RH_M16A2","Throw","Put"};
 		magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
-		linkedItems[] = {"V_mas_gue_alice_webb2","FP_Helmet_M81","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_mas_gue_alice_webb2","FP_Helmet_M81","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_w","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_w","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
 	class FP_Faction_USAREUR90_Rifleman: FP_Faction_USAREUR90_Soldier_BASE
 	{
@@ -744,7 +744,7 @@ class cfgvehicles
 		displayName = "Rifleman";
 		cost = 100000;
 		headgearProbability = 100;
-		allowedHeadgear[] = {"FP_Helmet_M81","FP_Helmet_M81"};
+		allowedHeadgear[] = {"usm_helmet_pasgt_w","usm_helmet_pasgt_w"};
 	};
 	class FP_Faction_USAREUR90_AR: FP_Faction_USAREUR90_Soldier_BASE
 	{
@@ -770,10 +770,10 @@ class cfgvehicles
 		cost = 95000;
 		threat[] = {1,0.1,0.3};
 		icon = "iconManMG";
-		linkedItems[] = {"V_mas_gue_alice_webb2","FP_Helmet_M81","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_mas_gue_alice_webb2","FP_Helmet_M81","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"usm_vest_pasgt_lbv_mg","usm_helmet_pasgt_g_w","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"usm_vest_pasgt_lbv_mg","usm_helmet_pasgt_g_w","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 100;
-		allowedHeadgear[] = {"FP_Helmet_M81","FP_Helmet_M81"};
+		allowedHeadgear[] = {"usm_helmet_pasgt_g_w","usm_helmet_pasgt_g_w"};
 	};
 	class FP_Faction_USAREUR90_AAR: FP_Faction_USAREUR90_Soldier_BASE
 	{
@@ -783,7 +783,7 @@ class cfgvehicles
 		displayName = "Assistant Automatic Rifleman";
 		backpack = "CUP_B_AlicePack_Khaki_AAR_USAREUR90";
 		headgearProbability = 100;
-		allowedHeadgear[] = {"FP_Helmet_M81","FP_Helmet_M81"};
+		allowedHeadgear[] = {"usm_helmet_pasgt_w","usm_helmet_pasgt_w"};
 		cost = 65000;
 		threat[] = {1,0.1,0.3};
 	};
@@ -801,11 +801,11 @@ class cfgvehicles
 		camouflage = 1.6;
 		sensitivity = 3;
 		icon = "iconManLeader";
-		linkedItems[] = {"V_mas_gue_alice_webb2","FP_Helmet_M81","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_mas_gue_alice_webb2","FP_Helmet_M81","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"usm_vest_pasgt_lbv_gr","usm_bdu_8point_wdl","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"usm_vest_pasgt_lbv_gr","usm_bdu_8point_wdl","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		identitytypes[] = {"LanguageENG_F", "Head_NATO", "G_NATO_default"};
 		headgearProbability = 80;
-		allowedHeadgear[] = {"FP_Helmet_M81","FP_Helmet_M81"};
+		allowedHeadgear[] = {"usm_bdu_8point_wdl","usm_bdu_8point_wdl"};
 	};
 	class FP_Faction_USAREUR90_TL: FP_Faction_USAREUR90_Soldier_BASE
 	{
@@ -821,10 +821,10 @@ class cfgvehicles
 		camouflage = 1.6;
 		sensitivity = 3;
 		icon = "iconManLeader";
-		linkedItems[] = {"V_mas_gue_alice_webb2","FP_Helmet_M81","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_mas_gue_alice_webb2","FP_Helmet_M81","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"usm_vest_pasgt_lbv_gr","usm_helmet_pasgt_g_w","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"usm_vest_pasgt_lbv_gr","usm_helmet_pasgt_g_w","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 90;
-		allowedHeadgear[] = {"FP_Helmet_M81","FP_Helmet_M81"};
+		allowedHeadgear[] = {"usm_helmet_pasgt_w","usm_helmet_pasgt_w"};
 	};
 	class FP_Faction_USAREUR90_DM: FP_Faction_USAREUR90_Soldier_BASE
 	{
@@ -848,11 +848,11 @@ class cfgvehicles
 		magazines[] = {"20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","RH_15Rnd_9x19_M9","RH_15Rnd_9x19_M9","RH_15Rnd_9x19_M9","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
 		respawnMagazines[] = {"20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","RH_15Rnd_9x19_M9","RH_15Rnd_9x19_M9","RH_15Rnd_9x19_M9","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
 		cost = 150000;
-		linkedItems[] = {"V_mas_gue_alice_webb2","FP_Helmet_M81","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_mas_gue_alice_webb2","FP_Helmet_M81","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_w","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_w","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		sensitivity = 3;
 		headgearProbability = 60;
-		allowedHeadgear[] = {"FP_Helmet_M81"};
+		allowedHeadgear[] = {"usm_helmet_pasgt_w"};
 	};
 	class FP_Faction_USAREUR90_RAT: FP_Faction_USAREUR90_Soldier_BASE
 	{
@@ -880,7 +880,7 @@ class cfgvehicles
 		secondaryAmmoCoef = 0.5;
 		icon = "iconManAT";
 		headgearProbability = 100;
-		allowedHeadgear[] = {"FP_Helmet_M81"};
+		allowedHeadgear[] = {"usm_helmet_pasgt_w"};
 	};
 	class FP_Faction_USAREUR90_Medic: FP_Faction_USAREUR90_Soldier_BASE
 	{
@@ -911,7 +911,7 @@ class cfgvehicles
 		icon = "iconManMedic";
 		picture = "pictureHeal";
 		headgearProbability = 100;
-		allowedHeadgear[] = {"FP_Helmet_M81","FP_Helmet_M81"};
+		allowedHeadgear[] = {"usm_helmet_pasgt_w","usm_helmet_pasgt_w"};
 	};
 	class FP_Faction_USAREUR90_Crewman: FP_Faction_USAREUR90_Soldier_BASE
 	{
@@ -925,8 +925,8 @@ class cfgvehicles
 		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","RH_15Rnd_9x19_M9","RH_15Rnd_9x19_M9","RH_15Rnd_9x19_M9","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
 		camouflage = 1.6;
 		sensitivity = 2.4;
-		linkedItems[] = {"V_mas_gue_alice_webb2","H_HelmetCrew_I","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_mas_gue_alice_webb2","H_HelmetCrew_I","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"usm_vest_pasgt_lbe_rmp","H_HelmetCrew_I","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"usm_vest_pasgt_lbe_rmp","H_HelmetCrew_I","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		cost = 90000;
 		headgearProbability = 100;
 		allowedHeadgear[] = {"H_HelmetCrew_I"};
@@ -952,7 +952,7 @@ class cfgvehicles
 		icon = "iconManEngineer";
 		picture = "pictureRepair";
 		headgearProbability = 100;
-		allowedHeadgear[] = {"FP_Helmet_M81","FP_Helmet_M81"};
+		allowedHeadgear[] = {"usm_helmet_pasgt_w","usm_helmet_pasgt_w"};
 	};
 	class FP_Faction_USAREUR90_MMG: FP_Faction_USAREUR90_Soldier_BASE
 	{
@@ -978,10 +978,10 @@ class cfgvehicles
 		cost = 95000;
 		threat[] = {1,0.1,0.3};
 		icon = "iconManMG";
-		linkedItems[] = {"V_mas_gue_alice_webb2","FP_Helmet_M81","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_mas_gue_alice_webb2","FP_Helmet_M81","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"usm_vest_pasgt_lbv_mg","usm_helmet_pasgt_g_w","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"usm_vest_pasgt_lbv_mg","usm_helmet_pasgt_g_w","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 100;
-		allowedHeadgear[] = {"FP_Helmet_M81","FP_Helmet_M81"};
+		allowedHeadgear[] = {"usm_helmet_pasgt_w","usm_helmet_pasgt_w"};
 	};
 	class FP_Faction_USAREUR90_AMMG: FP_Faction_USAREUR90_Soldier_BASE
 	{
@@ -995,7 +995,7 @@ class cfgvehicles
 		magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShell","SmokeShellRed"};
 		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShell","SmokeShellRed"};
 		headgearProbability = 100;
-		allowedHeadgear[] = {"FP_Helmet_M81","FP_Helmet_M81"};
+		allowedHeadgear[] = {"usm_helmet_pasgt_w","usm_helmet_pasgt_w"};
 		cost = 65000;
 		threat[] = {1,0.1,0.3};
 	};
@@ -1026,7 +1026,7 @@ class cfgvehicles
 		secondaryAmmoCoef = 0.5;
 		icon = "iconManAT";
 		headgearProbability = 100;
-		allowedHeadgear[] = {"FP_Helmet_M81","FP_Helmet_M81"};
+		allowedHeadgear[] = {"usm_helmet_pasgt_w","usm_helmet_pasgt_w"};
 	};
 	class FP_Faction_USAREUR90_AMAT: FP_Faction_USAREUR90_Soldier_BASE
 	{
@@ -1040,7 +1040,7 @@ class cfgvehicles
 		magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShell","SmokeShellRed"};
 		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShell","SmokeShellRed"};
 		headgearProbability = 100;
-		allowedHeadgear[] = {"FP_Helmet_M81","FP_Helmet_M81"};
+		allowedHeadgear[] = {"usm_helmet_pasgt_w","usm_helmet_pasgt_w"};
 		cost = 65000;
 		threat[] = {1,0.1,0.3};
 	};
@@ -1071,7 +1071,7 @@ class cfgvehicles
 		secondaryAmmoCoef = 0.5;
 		icon = "iconManAT";
 		headgearProbability = 100;
-		allowedHeadgear[] = {"FP_Helmet_M81","FP_Helmet_M81"};
+		allowedHeadgear[] = {"usm_helmet_pasgt_w","usm_helmet_pasgt_w"};
 	};
 	class FP_Faction_USAREUR90_AMANPADS: FP_Faction_USAREUR90_Soldier_BASE
 	{
@@ -1085,7 +1085,7 @@ class cfgvehicles
 		magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShell","SmokeShellRed"};
 		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShell","SmokeShellRed"};
 		headgearProbability = 100;
-		allowedHeadgear[] = {"FP_Helmet_M81","FP_Helmet_M81"};
+		allowedHeadgear[] = {"usm_helmet_pasgt_w","usm_helmet_pasgt_w"};
 		cost = 65000;
 		threat[] = {1,0.1,0.3};
 	};
@@ -1093,6 +1093,10 @@ class cfgvehicles
     class CUP_B_M163_USA;
     class CUP_B_HMMWV_M2_USMC;
 	class CUP_B_HMMWV_Unarmed_USMC;
+	class CUP_B_HMMWV_TOW_USMC;
+	class cwr2_M60A3_USMC;
+	class CUP_B_M1A1_Woodland_USMC;
+	class CUP_B_M2Bradley_USA_W;
 	class FP_Faction_USAREUR90_Vehicle_Gavin: CUP_B_M113_USA
 	{
 	    displayName = "Gavin";
@@ -1112,7 +1116,40 @@ class cfgvehicles
 		vehicleClass = "Armored";
 		crew = "FP_Faction_USAREUR90_Crewman";
 	};
+	class FP_Faction_USAREUR90_Vehicle_M60A3: cwr2_M60A3_USMC
+	{
+		author = "RHS & FP Mod Team";
+		faction = "FP_Faction_USAREUR90";
+		category = "Armored";
+		vehicleClass = "Armored";
+		crew = "FP_Faction_USAREUR90_Crewman";
+	};
+	class FP_Faction_USAREUR90_Vehicle_M1: CUP_B_M1A1_Woodland_USMC
+	{
+	    displayName = "M1 Abrams";
+		author = "RHS & FP Mod Team";
+		faction = "FP_Faction_USAREUR90";
+		category = "Armored";
+		vehicleClass = "Armored";
+		crew = "FP_Faction_USAREUR90_Crewman";
+	};
+	class FP_Faction_USAREUR90_Vehicle_M2A1: CUP_B_M2Bradley_USA_W
+	{
+	    displayName = "M2A1 Bradley";
+		author = "RHS & FP Mod Team";
+		faction = "FP_Faction_USAREUR90";
+		category = "Armored";
+		vehicleClass = "Armored";
+		crew = "FP_Faction_USAREUR90_Crewman";
+	};
 	class FP_Faction_USAREUR90_Vehicle_HumveeM2: CUP_B_HMMWV_M2_USMC
+	{
+		author = "RHS & FP Mod Team";
+		faction = "FP_Faction_USAREUR90";
+		vehicleClass = "Car";
+		crew = "FP_Faction_USAREUR90_Rifleman";
+	};
+	class FP_Faction_USAREUR90_Vehicle_TOW: CUP_B_HMMWV_TOW_USMC
 	{
 		author = "RHS & FP Mod Team";
 		faction = "FP_Faction_USAREUR90";

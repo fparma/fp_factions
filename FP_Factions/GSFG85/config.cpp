@@ -1,8 +1,8 @@
 class CfgPatches
 {
-	class FP_Factions_GSFG70
+	class FP_Factions_GSFG85
 	{
-		units[] = {"FP_Faction_GSFG70_Soldier_BASE","FP_Faction_GSFG70_Rifleman","FP_Faction_GSFG70_AR","FP_Faction_GSFG70_AAR","FP_Faction_GSFG70_SL","FP_Faction_GSFG70_TL","FP_Faction_GSFG70_DM","FP_Faction_GSFG70_RAT","FP_Faction_GSFG70_Medic","FP_Faction_GSFG70_Crewman","FP_Faction_GSFG70_Engineer","FP_Faction_GSFG70_MMG","FP_Faction_GSFG70_AMMG","FP_Faction_GSFG70_MAT","FP_Faction_GSFG70_AMAT","FP_Faction_GSFG70_MANPADS","FP_Faction_GSFG70_AMANPADS","FP_Faction_GSFG70_Vehicle_BTR60"};
+		units[] = {"FP_Faction_GSFG85_Soldier_BASE","FP_Faction_GSFG85_Rifleman","FP_Faction_GSFG85_AR","FP_Faction_GSFG85_AAR","FP_Faction_GSFG85_SL","FP_Faction_GSFG85_TL","FP_Faction_GSFG85_DM","FP_Faction_GSFG85_RAT","FP_Faction_GSFG85_Medic","FP_Faction_GSFG85_Crewman","FP_Faction_GSFG85_Engineer","FP_Faction_GSFG85_MMG","FP_Faction_GSFG85_AMMG","FP_Faction_GSFG85_MAT","FP_Faction_GSFG85_AMAT","FP_Faction_GSFG85_MANPADS","FP_Faction_GSFG85_AMANPADS","FP_Faction_GSFG85_Vehicle_BTR60","FP_Faction_GSFG85_Vehicle_BMP2","FP_Faction_GSFG85_Vehicle_T72"};
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {};
@@ -10,267 +10,267 @@ class CfgPatches
 };
 class CfgFactionClasses
 {
-	class FP_Faction_GSFG70
+	class FP_Faction_GSFG85
 	{
-		displayName = "GSFG 1970";
+		displayName = "GSFG 1985";
 		priority = 2;
 		side = 0;
-		icon = "\FP_Factions\GSFG\cfgfactionclasses_ussr_ca.paa";
-		flag = "\FP_Factions\GSFG\flag_ussr.paa";
+		icon = "\FP_Factions\GSFG70\cfgfactionclasses_ussr_ca.paa";
+		flag = "\FP_Factions\GSFG70\flag_ussr.paa";
 	};
 };
 class CfgGroups
 {
 	class East
 	{
-		class FP_Faction_GSFG70_Units
+		class FP_Faction_GSFG85_Units
 		{
-			name = "GFSG (1970)";
+			name = "GFSG (1985)";
 			class Infantry
 			{
-				name = "GSFG Infantry";
-				class GSFG70_Riflesquad
+				name = "GSFG (1985) Infantry";
+				class GSFG85_Riflesquad
 				{
 					name = "Rifle Section";
 					side = 0;
-					faction = "FP_Faction_GSFG70";
+					faction = "FP_Faction_GSFG85";
 					class Unit0
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_TL";
+						vehicle = "FP_Faction_GSFG85_TL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_AR";
+						vehicle = "FP_Faction_GSFG85_AR";
 						rank = "PRIVATE";
 						position[] = {5,-5,0};
 					};
 					class Unit2
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_MAT";
+						vehicle = "FP_Faction_GSFG85_MAT";
 						rank = "CORPORAL";
 						position[] = {-5,-5,0};
 					};
 					class Unit3
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_Rifleman";
+						vehicle = "FP_Faction_GSFG85_Rifleman";
 						rank = "PRIVATE";
 						position[] = {10,-10,0};
 					};
 					class Unit4
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_Rifleman";
+						vehicle = "FP_Faction_GSFG85_Rifleman";
 						rank = "PRIVATE";
 						position[] = {-10,-10,0};
 					};
 					class Unit5
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_Rifleman";
+						vehicle = "FP_Faction_GSFG85_Rifleman";
 						rank = "CORPORAL";
 						position[] = {15,-15,0};
 					};
 					class Unit6
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_Rifleman";
+						vehicle = "FP_Faction_GSFG85_Rifleman";
 						rank = "PRIVATE";
 						position[] = {-15,-15,0};
 					};
 				};
-				class GSFG70_RiflesquadMarksman
+				class GSFG85_RiflesquadMarksman
 				{
 					name = "Rifle Section (Marksman)";
 					side = 0;
-					faction = "FP_Faction_GSFG70";
+					faction = "FP_Faction_GSFG85";
 					class Unit0
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_TL";
+						vehicle = "FP_Faction_GSFG85_TL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_AR";
+						vehicle = "FP_Faction_GSFG85_AR";
 						rank = "PRIVATE";
 						position[] = {5,-5,0};
 					};
 					class Unit2
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_MAT";
+						vehicle = "FP_Faction_GSFG85_MAT";
 						rank = "CORPORAL";
 						position[] = {-5,-5,0};
 					};
 					class Unit3
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_Rifleman";
+						vehicle = "FP_Faction_GSFG85_Rifleman";
 						rank = "PRIVATE";
 						position[] = {10,-10,0};
 					};
 					class Unit4
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_Rifleman";
+						vehicle = "FP_Faction_GSFG85_Rifleman";
 						rank = "PRIVATE";
 						position[] = {-10,-10,0};
 					};
 					class Unit5
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_Rifleman";
+						vehicle = "FP_Faction_GSFG85_Rifleman";
 						rank = "CORPORAL";
 						position[] = {15,-15,0};
 					};
 					class Unit6
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_DM";
+						vehicle = "FP_Faction_GSFG85_DM";
 						rank = "PRIVATE";
 						position[] = {-15,-15,0};
 					};
 				};
-				class GSFG70_WeaponsSquad
+				class GSFG85_WeaponsSquad
 				{
 					name = "Machinegun Section";
 					side = 0;
-					faction = "FP_Faction_GSFG70";
+					faction = "FP_Faction_GSFG85";
 					class Unit0
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_TL";
+						vehicle = "FP_Faction_GSFG85_TL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_MMG";
+						vehicle = "FP_Faction_GSFG85_MMG";
 						rank = "PRIVATE";
 						position[] = {5,-5,0};
 					};
 					class Unit2
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_MMG";
+						vehicle = "FP_Faction_GSFG85_MMG";
 						rank = "CORPORAL";
 						position[] = {-5,-5,0};
 					};
 					class Unit3
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_AMMG";
+						vehicle = "FP_Faction_GSFG85_AMMG";
 						rank = "PRIVATE";
 						position[] = {10,-10,0};
 					};
 					class Unit4
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_AMMG";
+						vehicle = "FP_Faction_GSFG85_AMMG";
 						rank = "PRIVATE";
 						position[] = {-10,-10,0};
 					};
 					class Unit5
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_Rifleman";
+						vehicle = "FP_Faction_GSFG85_Rifleman";
 						rank = "CORPORAL";
 						position[] = {15,-15,0};
 					};
 					class Unit6
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_Rifleman";
+						vehicle = "FP_Faction_GSFG85_Rifleman";
 						rank = "PRIVATE";
 						position[] = {-15,-15,0};
 					};
 				};
-				class GSFG70_Patrol
+				class GSFG85_Patrol
 				{
 					name = "Rifle Patrol";
 					side = 0;
-					faction = "FP_Faction_GSFG70";
+					faction = "FP_Faction_GSFG85";
 					class Unit0
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_TL";
+						vehicle = "FP_Faction_GSFG85_TL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_AR";
+						vehicle = "FP_Faction_GSFG85_AR";
 						rank = "CORPORAL";
 						position[] = {5,-5,0};
 					};
 					class Unit2
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_Rifleman";
+						vehicle = "FP_Faction_GSFG85_Rifleman";
 						rank = "PRIVATE";
 						position[] = {-5,-5,0};
 					};
 					class Unit3
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_Rifleman";
+						vehicle = "FP_Faction_GSFG85_Rifleman";
 						rank = "PRIVATE";
 						position[] = {10,-10,0};
 					};
 				};
-				class GFSG70_RifleSentry
+				class GFSG85_RifleSentry
 				{
 					name = "Sentries";
 					side = 0;
-					faction = "FP_Faction_GFSG70";
+					faction = "FP_Faction_GFSG85";
 					class Unit0
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_Rifleman";
+						vehicle = "FP_Faction_GSFG85_Rifleman";
 						rank = "CORPORAL";
 						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_Rifleman";
+						vehicle = "FP_Faction_GSFG85_Rifleman";
 						rank = "PRIVATE";
 						position[] = {5,-2,0};
 					};
 				};
-				class GFSG70_PltHQ
+				class GFSG85_PltHQ
 				{
 					name = "Platoon HQ";
 					side = 0;
-					faction = "FP_Faction_GFSG70";
+					faction = "FP_Faction_GFSG85";
 					class Unit0
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_SL";
+						vehicle = "FP_Faction_GSFG85_SL";
 						rank = "CORPORAL";
 						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_Medic";
+						vehicle = "FP_Faction_GSFG85_Medic";
 						rank = "PRIVATE";
 						position[] = {5,-2,0};
 					};
 					class Unit2
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_Rifleman";
+						vehicle = "FP_Faction_GSFG85_Rifleman";
 						rank = "PRIVATE";
 						position[] = {10,-5,0};
 					};
@@ -278,250 +278,501 @@ class CfgGroups
 			};
 			class Motorized
 			{
-				name = "GSFG Motorized Infantry";
-				class GSFG70_MotoRiflesquad
+				name = "GSFG (1985) Motorized Infantry";
+				class GSFG85_MotoRiflesquad
 				{
 					name = "Motorized Rifle Section (BTR-60)";
 					side = 0;
-					faction = "FP_Faction_GSFG70";
+					faction = "FP_Faction_GSFG85";
 					class Unit0
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_TL";
+						vehicle = "FP_Faction_GSFG85_TL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_AR";
+						vehicle = "FP_Faction_GSFG85_AR";
 						rank = "PRIVATE";
 						position[] = {5,-5,0};
 					};
 					class Unit2
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_MAT";
+						vehicle = "FP_Faction_GSFG85_MAT";
 						rank = "CORPORAL";
 						position[] = {-5,-5,0};
 					};
 					class Unit3
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_Rifleman";
+						vehicle = "FP_Faction_GSFG85_Rifleman";
 						rank = "PRIVATE";
 						position[] = {10,-10,0};
 					};
 					class Unit4
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_Rifleman";
+						vehicle = "FP_Faction_GSFG85_Rifleman";
 						rank = "PRIVATE";
 						position[] = {-10,-10,0};
 					};
 					class Unit5
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_Rifleman";
+						vehicle = "FP_Faction_GSFG85_Rifleman";
 						rank = "CORPORAL";
 						position[] = {15,-15,0};
 					};
 					class Unit6
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_Rifleman";
+						vehicle = "FP_Faction_GSFG85_Rifleman";
 						rank = "PRIVATE";
 						position[] = {-15,-15,0};
 					};
 					class Unit7
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_Vehicle_BTR60";
+						vehicle = "FP_Faction_GSFG85_Vehicle_BTR60";
 						rank = "CORPORAL";
 						position[] = {20,-15,0};
 					};
 				};
-				class GSFG70_MotoRiflesquadMarksman
+				class GSFG85_MotoRiflesquadMarksman
 				{
 					name = "Motorized Rifle Section (Marksman/BTR-60)";
 					side = 0;
-					faction = "FP_Faction_GSFG70";
+					faction = "FP_Faction_GSFG85";
 					class Unit0
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_TL";
+						vehicle = "FP_Faction_GSFG85_TL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_AR";
+						vehicle = "FP_Faction_GSFG85_AR";
 						rank = "PRIVATE";
 						position[] = {5,-5,0};
 					};
 					class Unit2
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_MAT";
+						vehicle = "FP_Faction_GSFG85_MAT";
 						rank = "CORPORAL";
 						position[] = {-5,-5,0};
 					};
 					class Unit3
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_Rifleman";
+						vehicle = "FP_Faction_GSFG85_Rifleman";
 						rank = "PRIVATE";
 						position[] = {10,-10,0};
 					};
 					class Unit4
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_Rifleman";
+						vehicle = "FP_Faction_GSFG85_Rifleman";
 						rank = "PRIVATE";
 						position[] = {-10,-10,0};
 					};
 					class Unit5
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_Rifleman";
+						vehicle = "FP_Faction_GSFG85_Rifleman";
 						rank = "CORPORAL";
 						position[] = {15,-15,0};
 					};
 					class Unit6
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_DM";
+						vehicle = "FP_Faction_GSFG85_DM";
 						rank = "PRIVATE";
 						position[] = {-15,-15,0};
 					};
 					class Unit7
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_Vehicle_BTR60";
+						vehicle = "FP_Faction_GSFG85_Vehicle_BTR60";
 						rank = "CORPORAL";
 						position[] = {20,-15,0};
 					};
 				};
-				class GSFG70_MotoWeaponsSquad
+				class GSFG85_MotoWeaponsSquad
 				{
 					name = "Motorized Machinegun Section (BTR-60)";
 					side = 0;
-					faction = "FP_Faction_GSFG70";
+					faction = "FP_Faction_GSFG85";
 					class Unit0
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_TL";
+						vehicle = "FP_Faction_GSFG85_TL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_MMG";
+						vehicle = "FP_Faction_GSFG85_MMG";
 						rank = "PRIVATE";
 						position[] = {5,-5,0};
 					};
 					class Unit2
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_MMG";
+						vehicle = "FP_Faction_GSFG85_MMG";
 						rank = "CORPORAL";
 						position[] = {-5,-5,0};
 					};
 					class Unit3
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_AMMG";
+						vehicle = "FP_Faction_GSFG85_AMMG";
 						rank = "PRIVATE";
 						position[] = {10,-10,0};
 					};
 					class Unit4
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_AMMG";
+						vehicle = "FP_Faction_GSFG85_AMMG";
 						rank = "PRIVATE";
 						position[] = {-10,-10,0};
 					};
 					class Unit5
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_Rifleman";
+						vehicle = "FP_Faction_GSFG85_Rifleman";
 						rank = "CORPORAL";
 						position[] = {15,-15,0};
 					};
 					class Unit6
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_Rifleman";
+						vehicle = "FP_Faction_GSFG85_Rifleman";
 						rank = "PRIVATE";
 						position[] = {-15,-15,0};
 					};
 					class Unit7
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_Vehicle_BTR60";
+						vehicle = "FP_Faction_GSFG85_Vehicle_BTR60";
 						rank = "CORPORAL";
 						position[] = {20,-15,0};
 					};
 				};
-				class GFSG70_MotoPltHQ
+				class GFSG85_MotoPltHQ
 				{
 					name = "Motorized Platoon HQ (BTR-60)";
 					side = 0;
-					faction = "FP_Faction_GFSG70";
+					faction = "FP_Faction_GFSG85";
 					class Unit0
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_SL";
+						vehicle = "FP_Faction_GSFG85_SL";
 						rank = "CORPORAL";
 						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_Medic";
+						vehicle = "FP_Faction_GSFG85_Medic";
 						rank = "PRIVATE";
 						position[] = {5,-2,0};
 					};
 					class Unit2
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_Rifleman";
+						vehicle = "FP_Faction_GSFG85_Rifleman";
 						rank = "PRIVATE";
 						position[] = {10,-5,0};
 					};
 					class Unit3
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_Vehicle_BTR60";
+						vehicle = "FP_Faction_GSFG85_Vehicle_BTR60";
 						rank = "CORPORAL";
 						position[] = {15,-15,0};
 					};
 				};
-				class GFSG70_MotoMANPADSTeam
+				class GFSG85_MotoMANPADSTeam
 				{
 					name = "Motorized MANPADS Team (BTR-60)";
 					side = 0;
-					faction = "FP_Faction_GFSG70";
+					faction = "FP_Faction_GFSG85";
 					class Unit0
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_MANPADS";
+						vehicle = "FP_Faction_GSFG85_MANPADS";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_AMANPADS";
+						vehicle = "FP_Faction_GSFG85_AMANPADS";
 						rank = "CORPORAL";
 						position[] = {5,-5,0};
 					};
 					class Unit2
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_Vehicle_BTR60";
+						vehicle = "FP_Faction_GSFG85_Vehicle_BTR60";
+						rank = "CORPORAL";
+						position[] = {10,-10,0};
+					};
+				};
+            };
+			class Mechanized
+			{
+				name = "GSFG (1985) Mechanized Infantry";
+				class GSFG85_MechRiflesquad
+				{
+					name = "Mechanized Rifle Section (BMP-2)";
+					side = 0;
+					faction = "FP_Faction_GSFG85";
+					class Unit0
+					{
+						side = 0;
+						vehicle = "FP_Faction_GSFG85_TL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 0;
+						vehicle = "FP_Faction_GSFG85_AR";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 0;
+						vehicle = "FP_Faction_GSFG85_MAT";
+						rank = "CORPORAL";
+						position[] = {-5,-5,0};
+					};
+					class Unit3
+					{
+						side = 0;
+						vehicle = "FP_Faction_GSFG85_Rifleman";
+						rank = "PRIVATE";
+						position[] = {10,-10,0};
+					};
+					class Unit4
+					{
+						side = 0;
+						vehicle = "FP_Faction_GSFG85_Rifleman";
+						rank = "PRIVATE";
+						position[] = {-10,-10,0};
+					};
+					class Unit5
+					{
+						side = 0;
+						vehicle = "FP_Faction_GSFG85_Rifleman";
+						rank = "CORPORAL";
+						position[] = {15,-15,0};
+					};
+					class Unit6
+					{
+						side = 0;
+						vehicle = "FP_Faction_GSFG85_Rifleman";
+						rank = "PRIVATE";
+						position[] = {-15,-15,0};
+					};
+					class Unit7
+					{
+						side = 0;
+						vehicle = "FP_Faction_GSFG85_Vehicle_BMP2";
+						rank = "CORPORAL";
+						position[] = {20,-15,0};
+					};
+				};
+				class GSFG85_MechRiflesquadMarksman
+				{
+					name = "Mechanized Rifle Section (Marksman/BMP-2)";
+					side = 0;
+					faction = "FP_Faction_GSFG85";
+					class Unit0
+					{
+						side = 0;
+						vehicle = "FP_Faction_GSFG85_TL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 0;
+						vehicle = "FP_Faction_GSFG85_AR";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 0;
+						vehicle = "FP_Faction_GSFG85_MAT";
+						rank = "CORPORAL";
+						position[] = {-5,-5,0};
+					};
+					class Unit3
+					{
+						side = 0;
+						vehicle = "FP_Faction_GSFG85_Rifleman";
+						rank = "PRIVATE";
+						position[] = {10,-10,0};
+					};
+					class Unit4
+					{
+						side = 0;
+						vehicle = "FP_Faction_GSFG85_Rifleman";
+						rank = "PRIVATE";
+						position[] = {-10,-10,0};
+					};
+					class Unit5
+					{
+						side = 0;
+						vehicle = "FP_Faction_GSFG85_Rifleman";
+						rank = "CORPORAL";
+						position[] = {15,-15,0};
+					};
+					class Unit6
+					{
+						side = 0;
+						vehicle = "FP_Faction_GSFG85_DM";
+						rank = "PRIVATE";
+						position[] = {-15,-15,0};
+					};
+					class Unit7
+					{
+						side = 0;
+						vehicle = "FP_Faction_GSFG85_Vehicle_BMP2";
+						rank = "CORPORAL";
+						position[] = {20,-15,0};
+					};
+				};
+				class GSFG85_MechWeaponsSquad
+				{
+					name = "Mechanized Machinegun Section (BMP-2)";
+					side = 0;
+					faction = "FP_Faction_GSFG85";
+					class Unit0
+					{
+						side = 0;
+						vehicle = "FP_Faction_GSFG85_TL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 0;
+						vehicle = "FP_Faction_GSFG85_MMG";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 0;
+						vehicle = "FP_Faction_GSFG85_MMG";
+						rank = "CORPORAL";
+						position[] = {-5,-5,0};
+					};
+					class Unit3
+					{
+						side = 0;
+						vehicle = "FP_Faction_GSFG85_AMMG";
+						rank = "PRIVATE";
+						position[] = {10,-10,0};
+					};
+					class Unit4
+					{
+						side = 0;
+						vehicle = "FP_Faction_GSFG85_AMMG";
+						rank = "PRIVATE";
+						position[] = {-10,-10,0};
+					};
+					class Unit5
+					{
+						side = 0;
+						vehicle = "FP_Faction_GSFG85_Rifleman";
+						rank = "CORPORAL";
+						position[] = {15,-15,0};
+					};
+					class Unit6
+					{
+						side = 0;
+						vehicle = "FP_Faction_GSFG85_Rifleman";
+						rank = "PRIVATE";
+						position[] = {-15,-15,0};
+					};
+					class Unit7
+					{
+						side = 0;
+						vehicle = "FP_Faction_GSFG85_Vehicle_BMP2";
+						rank = "CORPORAL";
+						position[] = {20,-15,0};
+					};
+				};
+				class GFSG85_MechPltHQ
+				{
+					name = "Mechanized Platoon HQ (BMP-2)";
+					side = 0;
+					faction = "FP_Faction_GFSG85";
+					class Unit0
+					{
+						side = 0;
+						vehicle = "FP_Faction_GSFG85_SL";
+						rank = "CORPORAL";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 0;
+						vehicle = "FP_Faction_GSFG85_Medic";
+						rank = "PRIVATE";
+						position[] = {5,-2,0};
+					};
+					class Unit2
+					{
+						side = 0;
+						vehicle = "FP_Faction_GSFG85_Rifleman";
+						rank = "PRIVATE";
+						position[] = {10,-5,0};
+					};
+					class Unit3
+					{
+						side = 0;
+						vehicle = "FP_Faction_GSFG85_Vehicle_BMP2";
+						rank = "CORPORAL";
+						position[] = {15,-15,0};
+					};
+				};
+				class GFSG85_MechMANPADSTeam
+				{
+					name = "Mechanized MANPADS Team (BMP-2)";
+					side = 0;
+					faction = "FP_Faction_GFSG85";
+					class Unit0
+					{
+						side = 0;
+						vehicle = "FP_Faction_GSFG85_MANPADS";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 0;
+						vehicle = "FP_Faction_GSFG85_AMANPADS";
+						rank = "CORPORAL";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 0;
+						vehicle = "FP_Faction_GSFG85_Vehicle_BMP2";
 						rank = "CORPORAL";
 						position[] = {10,-10,0};
 					};
@@ -529,8 +780,8 @@ class CfgGroups
             };
 			class Support
 			{
-				name = "GFSG70 Company Attachments";
-				class GFSG70_DoctorTeam
+				name = "GFSG (1985) Company Attachments";
+				class GFSG85_DoctorTeam
 				{
 					name = "Doctor Team";
 					side = 0;
@@ -538,33 +789,33 @@ class CfgGroups
 					class Unit0
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_TL";
+						vehicle = "FP_Faction_GSFG85_TL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_Medic";
+						vehicle = "FP_Faction_GSFG85_Medic";
 						rank = "CORPORAL";
 						position[] = {5,-5,0};
 					};
 					class Unit2
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_Medic";
+						vehicle = "FP_Faction_GSFG85_Medic";
 						rank = "PRIVATE";
 						position[] = {-5,-5,0};
 					};
 					class Unit3
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_Rifleman";
+						vehicle = "FP_Faction_GSFG85_Rifleman";
 						rank = "PRIVATE";
 						position[] = {10,-10,0};
 					};
 				};
-				class GFSG70_MMGTeam
+				class GFSG85_MMGTeam
 				{
 					name = "MMG Team";
 					side = 0;
@@ -572,88 +823,88 @@ class CfgGroups
 					class Unit0
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_MMG";
+						vehicle = "FP_Faction_GSFG85_MMG";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_AMMG";
+						vehicle = "FP_Faction_GSFG85_AMMG";
 						rank = "CORPORAL";
 						position[] = {5,-5,0};
 					};
 				};
-				class GFSG70_EngineerTeam
+				class GFSG85_EngineerTeam
 				{
 					name = "Engineering Support Team";
 					side = 0;
-					faction = "FP_Faction_GFSG70";
+					faction = "FP_Faction_GFSG85";
 					class Unit0
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_TL";
+						vehicle = "FP_Faction_GSFG85_TL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_Engineer";
+						vehicle = "FP_Faction_GSFG85_Engineer";
 						rank = "CORPORAL";
 						position[] = {5,-5,0};
 					};
 					class Unit2
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_Engineer";
+						vehicle = "FP_Faction_GSFG85_Engineer";
 						rank = "PRIVATE";
 						position[] = {-5,-5,0};
 					};
 					class Unit3
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_Engineer";
+						vehicle = "FP_Faction_GSFG85_Engineer";
 						rank = "PRIVATE";
 						position[] = {10,-10,0};
 					};
 				};
-				class GFSG70_MATTeam
+				class GFSG85_MATTeam
 				{
 					name = "MAT Team";
 					side = 0;
-					faction = "FP_Faction_GFSG70";
+					faction = "FP_Faction_GFSG85";
 					class Unit0
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_MAT";
+						vehicle = "FP_Faction_GSFG85_MAT";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_AMAT";
+						vehicle = "FP_Faction_GSFG85_AMAT";
 						rank = "CORPORAL";
 						position[] = {5,-5,0};
 					};
 				};
-				class GFSG70_MANPADSTeam
+				class GFSG85_MANPADSTeam
 				{
 					name = "MANPADS Team";
 					side = 0;
-					faction = "FP_Faction_GFSG70";
+					faction = "FP_Faction_GFSG85";
 					class Unit0
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_MANPADS";
+						vehicle = "FP_Faction_GSFG85_MANPADS";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 0;
-						vehicle = "FP_Faction_GSFG70_AMANPADS";
+						vehicle = "FP_Faction_GSFG85_AMANPADS";
 						rank = "CORPORAL";
 						position[] = {5,-5,0};
 					};
@@ -665,8 +916,8 @@ class CfgGroups
 class cfgvehicles
 {
 	class B_Carryall_cbr;
-	class CUP_B_CivPack_WDL;
-	class B_Carryall_cbr_Eng_GSFG70: B_Carryall_cbr
+	class CUP_B_AlicePack_Khaki;
+	class B_Carryall_cbr_Eng_GSFG85: B_Carryall_cbr
 	{
 		scope = 1;
 		class TransportMagazines
@@ -696,7 +947,7 @@ class cfgvehicles
 			};
 		};
 	};
-	class CUP_B_CivPack_WDL_GSFG70_AAR: CUP_B_CivPack_WDL
+	class CUP_B_AlicePack_Khaki_GSFG85_AAR: CUP_B_AlicePack_Khaki
 	{
 		scope = 1;
 		class TransportMagazines
@@ -708,7 +959,7 @@ class cfgvehicles
 			};
 		};
 	};
-	class CUP_B_CivPack_WDL_GSFG70_MMG: CUP_B_CivPack_WDL
+	class CUP_B_AlicePack_Khaki_GSFG85_MMG: CUP_B_AlicePack_Khaki
 	{
 		scope = 1;
 		class TransportMagazines
@@ -720,7 +971,7 @@ class cfgvehicles
 			};
 		};
 	};
-	class CUP_B_CivPack_WDL_GSFG70_MAT: CUP_B_CivPack_WDL
+	class CUP_B_AlicePack_Khaki_GSFG85_MAT: CUP_B_AlicePack_Khaki
 	{
 		scope = 1;
 		class TransportMagazines
@@ -732,7 +983,7 @@ class cfgvehicles
 			};
 		};
 	};
-	class B_Carryall_cbr_GSFG70_MANPADS: B_Carryall_cbr
+	class B_Carryall_cbr_GSFG85_MANPADS: B_Carryall_cbr
 	{
 		scope = 1;
 		class TransportMagazines
@@ -744,7 +995,7 @@ class cfgvehicles
 			};
 		};
 	};
-	class B_Carryall_cbr_Exp_GSFG70: B_Carryall_cbr
+	class B_Carryall_cbr_Exp_GSFG85: B_Carryall_cbr
 	{
 		scope = 1;
 		class TransportMagazines
@@ -785,7 +1036,7 @@ class cfgvehicles
 		};
 	};
 	class B_Soldier_F;
-	class FP_Faction_GSFG70_Soldier_BASE: B_Soldier_F
+	class FP_Faction_GSFG85_Soldier_BASE: B_Soldier_F
 	{
 		class Wounds
 		{
@@ -795,10 +1046,10 @@ class cfgvehicles
 		armorStructural = 5;
 		author = "FP Mod Team";
 		expansion = 1;
-		identityTypes[] = {"LanguagePER_F", "Head_NATO"};
+		identityTypes[] = {"LanguageGRE_F","Head_Greek","G_CIVIL_male"};
 		faceType = "Man_A3";
 		side = 0;
-		faction = "FP_Faction_GSFG70";
+		faction = "FP_Faction_GSFG85";
 		genericNames = "RussianMen";
 		vehicleClass = "Men";
 		portrait = "";
@@ -815,19 +1066,19 @@ class cfgvehicles
 		scopeCurator = 0;
 		model = "\A3\characters_F\OPFOR\o_officer.p3d";
 		uniformClass = "FP_Uniform_klmk";  
-		weapons[] = {"hlc_rifle_akm2","Throw","Put"};
-		respawnWeapons[] = {"hlc_rifle_akm2","Throw","Put"};
-		magazines[] = {"hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
-		respawnMagazines[] = {"hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
+		weapons[] = {"hlc_rifle_ak74","Throw","Put"};
+		respawnWeapons[] = {"hlc_rifle_ak74","Throw","Put"};
+		magazines[] = {"hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
-		linkedItems[] = {"V_mas_gue_ind_chicom","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_mas_gue_Sovest","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"FP_V_TK_Kamysh","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_V_TK_Kamysh","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class FP_Faction_GSFG70_Rifleman: FP_Faction_GSFG70_Soldier_BASE
+	class FP_Faction_GSFG85_Rifleman: FP_Faction_GSFG85_Soldier_BASE
 	{
 		author = "FP Mod Team";
-		_generalMacro = "FP_Faction_GSFG70_Soldier_BASE";
+		_generalMacro = "FP_Faction_GSFG85_Soldier_BASE";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Conscript Rifleman";
@@ -835,7 +1086,7 @@ class cfgvehicles
 		headgearProbability = 100;
 		allowedHeadgear[] = {"FP_Helmet_SSH68","FP_Helmet_SSH68"};
 	};
-	class FP_Faction_GSFG70_AR: FP_Faction_GSFG70_Soldier_BASE
+	class FP_Faction_GSFG85_AR: FP_Faction_GSFG85_Soldier_BASE
 	{
 		class SpeechVariants
 		{
@@ -852,70 +1103,70 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Automatic Rifleman";
-		weapons[] = {"hlc_rifle_rpk","RH_mak","Throw","Put"};
-		respawnWeapons[] = {"hlc_rifle_rpk","RH_mak","Throw","Put"};
+		weapons[] = {"hlc_rifle_rpk74","RH_mak","Throw","Put"};
+		respawnWeapons[] = {"hlc_rifle_rpk74","RH_mak","Throw","Put"};
 		magazines[] = {"hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		respawnMagazines[] = {"hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		cost = 95000;
 		threat[] = {1,0.1,0.3};
 		icon = "iconManMG";
-		linkedItems[] = {"V_mas_gue_Sovest","FP_Helmet_VSRSSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_mas_gue_Sovest","FP_Helmet_VSRSSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"FP_V_TK_Kamysh","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_V_TK_Kamysh","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 100;
-		allowedHeadgear[] = {"FP_Helmet_VSRSSH68","FP_Helmet_VSRSSH68"};
+		allowedHeadgear[] = {"FP_Helmet_SSH68","FP_Helmet_SSH68"};
 	};
-	class FP_Faction_GSFG70_AAR: FP_Faction_GSFG70_Soldier_BASE
+	class FP_Faction_GSFG85_AAR: FP_Faction_GSFG85_Soldier_BASE
 	{
 		author = "FP Mod Team";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Assistant Automatic Rifleman";
-		backpack = "CUP_B_CivPack_WDL_GSFG70_AAR";
+		backpack = "CUP_B_AlicePack_Khaki_GSFG85_AAR";
 		headgearProbability = 100;
 		allowedHeadgear[] = {"FP_Helmet_SSH68","FP_Helmet_SSH68"};
 		cost = 65000;
 		threat[] = {1,0.1,0.3};
 	};
-	class FP_Faction_GSFG70_SL: FP_Faction_GSFG70_Soldier_BASE
+	class FP_Faction_GSFG85_SL: FP_Faction_GSFG85_Soldier_BASE
 	{
 		author = "FP Mod Team";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Squad Leader";
-		weapons[] = {"hlc_rifle_akms","RH_mak","Throw","Put","Binocular"};
-		respawnWeapons[] = {"hlc_rifle_akms","RH_mak","Throw","Put","Binocular"};
-		magazines[] = {"hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell"};
-		respawnMagazines[] = {"hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell"};
+		weapons[] = {"hlc_rifle_ak74","RH_mak","Throw","Put","Binocular"};
+		respawnWeapons[] = {"hlc_rifle_ak74","RH_mak","Throw","Put","Binocular"};
+		magazines[] = {"hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell"};
 		cost = 500000;
 		camouflage = 1.6;
 		sensitivity = 3;
 		icon = "iconManLeader";
-		linkedItems[] = {"V_mas_gue_Sovest","FP_Helmet_SSH68","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_mas_gue_Sovest","FP_Helmet_SSH68","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"FP_V_TK_Kamysh","FP_Helmet_SSH68","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_V_TK_Kamysh","FP_Helmet_SSH68","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		identitytypes[] = {"LanguageENG_F", "Head_NATO", "G_NATO_default"};
 		headgearProbability = 80;
 		allowedHeadgear[] = {"FP_Helmet_SSH68","FP_Helmet_SSH68"};
 	};
-	class FP_Faction_GSFG70_TL: FP_Faction_GSFG70_Soldier_BASE
+	class FP_Faction_GSFG85_TL: FP_Faction_GSFG85_Soldier_BASE
 	{
 		author = "FP Mod Team";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Team Leader";
-		weapons[] = {"hlc_rifle_akm2","RH_mak","Throw","Put"};
-		respawnWeapons[] = {"hlc_rifle_akm2","RH_mak","Throw","Put"};
-		magazines[] = {"hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell"};
-		respawnMagazines[] = {"hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell"};
+		weapons[] = {"hlc_rifle_aks74_GL","RH_mak","Throw","Put"};
+		respawnWeapons[] = {"hlc_rifle_aks74_GL","RH_mak","Throw","Put"};
+		magazines[] = {"hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell"};
 		cost = 450000;
 		camouflage = 1.6;
 		sensitivity = 3;
 		icon = "iconManLeader";
-		linkedItems[] = {"V_mas_gue_Sovest","FP_Helmet_SSH68","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_mas_gue_Sovest","FP_Helmet_SSH68","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"FP_V_TK_Kamysh","FP_Helmet_SSH68","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_V_TK_Kamysh","FP_Helmet_SSH68","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 90;
 		allowedHeadgear[] = {"FP_Helmet_SSH68","FP_Helmet_SSH68"};
 	};
-	class FP_Faction_GSFG70_DM: FP_Faction_GSFG70_Soldier_BASE
+	class FP_Faction_GSFG85_DM: FP_Faction_GSFG85_Soldier_BASE
 	{
 		class SpeechVariants
 		{
@@ -937,13 +1188,13 @@ class cfgvehicles
 		magazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		respawnMagazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		cost = 150000;
-		linkedItems[] = {"V_mas_gue_Sovest","FP_Helmet_VSRSSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_mas_gue_Sovest","FP_Helmet_VSRSSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"FP_V_TK_Kamysh","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_V_TK_Kamysh","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		sensitivity = 3;
 		headgearProbability = 60;
-		allowedHeadgear[] = {"FP_Helmet_VSRSSH68","FP_Helmet_VSRSSH68"};
+		allowedHeadgear[] = {"FP_Helmet_SSH68","FP_Helmet_SSH68"};
 	};
-	class FP_Faction_GSFG70_RAT: FP_Faction_GSFG70_Soldier_BASE
+	class FP_Faction_GSFG85_RAT: FP_Faction_GSFG85_Soldier_BASE
 	{
 		class SpeechVariants
 		{
@@ -960,10 +1211,10 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Antitank Grenadier";
-		weapons[] = {"hlc_rifle_akm2","Throw","Put"};
-		respawnWeapons[] = {"hlc_rifle_akm2","Throw","Put"};
-		magazines[] = {"hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","FP_HandGrenade_RKG3EM","FP_HandGrenade_RKG3EM","FP_HandGrenade_RKG3EM","SmokeShell","SmokeShell"};
-		respawnMagazines[] = {"hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","FP_HandGrenade_RKG3EM","FP_HandGrenade_RKG3EM","FP_HandGrenade_RKG3EM","SmokeShell","SmokeShell"};
+		weapons[] = {"hlc_rifle_ak74","CUP_launch_RPG18","Throw","Put"};
+		respawnWeapons[] = {"hlc_rifle_ak74","CUP_launch_RPG18","Throw","Put"};
+		magazines[] = {"hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","CUP_RPG18_M","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","CUP_RPG18_M","SmokeShell","SmokeShell"};
 		cost = 180000;
 		threat[] = {1,0.7,0.3};
 		secondaryAmmoCoef = 0.5;
@@ -971,7 +1222,7 @@ class cfgvehicles
 		headgearProbability = 100;
 		allowedHeadgear[] = {"FP_Helmet_SSH68","FP_Helmet_SSH68"};
 	};
-	class FP_Faction_GSFG70_Medic: FP_Faction_GSFG70_Soldier_BASE
+	class FP_Faction_GSFG85_Medic: FP_Faction_GSFG85_Soldier_BASE
 	{
 		class SpeechVariants
 		{
@@ -989,40 +1240,40 @@ class cfgvehicles
 		scopeCurator = 2;
 		displayName = "Medic";
 		attendant = 1;
-		weapons[] = {"hlc_rifle_akms","RH_mak","Throw","Put"};
-		respawnWeapons[] = {"hlc_rifle_akms","RH_mak","Throw","Put"};
-		magazines[] = {"hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","SmokeShell","SmokeShell","SmokeShell","SmokeShell"};
-		respawnMagazines[] = {="hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","SmokeShell","SmokeShell","SmokeShell","SmokeShell"};
+		weapons[] = {"hlc_rifle_ak74","RH_mak","Throw","Put"};
+		respawnWeapons[] = {"hlc_rifle_ak74","RH_mak","Throw","Put"};
+		magazines[] = {"hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","SmokeShell","SmokeShell","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {="hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","SmokeShell","SmokeShell","SmokeShell","SmokeShell"};
 		backpack = "B_FieldPack_cbr_Medic";
 		cost = 300000;
 		camouflage = 1.6;
-		linkedItems[] = {"V_mas_gue_Sovest","FP_Helmet_VSRSSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_mas_gue_Sovest","FP_Helmet_VSRSSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"FP_V_TK_Kamysh","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_V_TK_Kamysh","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		sensitivity = 2.4;
 		icon = "iconManMedic";
 		picture = "pictureHeal";
 		headgearProbability = 100;
-		allowedHeadgear[] = {"FP_Helmet_VSRSSH68","FP_Helmet_VSRSSH68"};
+		allowedHeadgear[] = {"FP_Helmet_SSH68","FP_Helmet_SSH68"};
 	};
-	class FP_Faction_GSFG70_Crewman: FP_Faction_GSFG70_Soldier_BASE
+	class FP_Faction_GSFG85_Crewman: FP_Faction_GSFG85_Soldier_BASE
 	{
 		author = "FP Mod Team";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Crewman";
-		weapons[] = {"hlc_rifle_akms","RH_mak","Throw","Put"};
-		respawnWeapons[] = {"hlc_rifle_akms","RH_mak","Throw","Put"};
-		magazines[] = {"hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
-		respawnMagazines[] = {"hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
+		weapons[] = {"hlc_rifle_aks74u","RH_mak","Throw","Put"};
+		respawnWeapons[] = {"hlc_rifle_aks74u","RH_mak","Throw","Put"};
+		magazines[] = {"hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		camouflage = 1.6;
 		sensitivity = 2.4;
 		cost = 90000;
-	    linkedItems[] = {"V_mas_gue_Sovest","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_mas_gue_Sovest","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	    linkedItems[] = {"FP_V_TK_Kamysh","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_V_TK_Kamysh","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 100;
 		allowedHeadgear[] = {"CUP_H_TK_TankerHelmet"};
 	};
-	class FP_Faction_GSFG70_Engineer: FP_Faction_GSFG70_Soldier_BASE
+	class FP_Faction_GSFG85_Engineer: FP_Faction_GSFG85_Soldier_BASE
 	{
 		author = "Toadie";
 		scope = 2;
@@ -1031,23 +1282,23 @@ class cfgvehicles
 		cost = 220000;
 		camouflage = 1.6;
 		sensitivity = 2.4;
-		backpack = "B_Carryall_cbr_Eng_GSFG70";
-		weapons[] = {"hlc_rifle_akms","Throw","Put"};
-		respawnWeapons[] = {"hlc_rifle_akms","Throw","Put"};
-		magazines[] = {"hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
-		respawnMagazines[] = {"hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
+		backpack = "B_Carryall_cbr_Eng_GSFG85";
+		weapons[] = {"hlc_rifle_ak74","Throw","Put"};
+		respawnWeapons[] = {"hlc_rifle_ak74","Throw","Put"};
+		magazines[] = {"hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		canDeactivateMines = 1;
 		engineer = 1;
 		detectSkill = 60;
 		threat[] = {1,0.5,0.1};
-	    linkedItems[] = {"V_mas_gue_Sovest","FP_Helmet_VSRSSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_mas_gue_Sovest","FP_Helmet_VSRSSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	    linkedItems[] = {"FP_V_TK_Kamysh","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_V_TK_Kamysh","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		icon = "iconManEngineer";
 		picture = "pictureRepair";
 		headgearProbability = 100;
-		allowedHeadgear[] = {"FP_Helmet_VSRSSH68","FP_Helmet_VSRSSH68"};
+		allowedHeadgear[] = {"FP_Helmet_SSH68","FP_Helmet_SSH68"};
 	};
-	class FP_Faction_GSFG70_MMG: FP_Faction_GSFG70_Soldier_BASE
+	class FP_Faction_GSFG85_MMG: FP_Faction_GSFG85_Soldier_BASE
 	{
 		class SpeechVariants
 		{
@@ -1071,24 +1322,24 @@ class cfgvehicles
 		cost = 95000;
 		threat[] = {1,0.1,0.3};
 		icon = "iconManMG";
-		linkedItems[] = {"V_mas_gue_Sovest","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_mas_gue_Sovest","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"FP_V_TK_Kamysh","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_V_TK_Kamysh","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 100;
 		allowedHeadgear[] = {"FP_Helmet_SSH68","FP_Helmet_SSH68"};
 	};
-	class FP_Faction_GSFG70_AMMG: FP_Faction_GSFG70_Soldier_BASE
+	class FP_Faction_GSFG85_AMMG: FP_Faction_GSFG85_Soldier_BASE
 	{
 		author = "FP Mod Team";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "MMG Assistant";
-		backpack = "CUP_B_CivPack_WDL_GSFG70_MMG";
+		backpack = "CUP_B_AlicePack_Khaki_GSFG85_MMG";
 		headgearProbability = 100;
 		allowedHeadgear[] = {"FP_Helmet_SSH68","FP_Helmet_SSH68"};
 		cost = 65000;
 		threat[] = {1,0.1,0.3};
 	};
-	class FP_Faction_GSFG70_MAT: FP_Faction_GSFG70_Soldier_BASE
+	class FP_Faction_GSFG85_MAT: FP_Faction_GSFG85_Soldier_BASE
 	{
 		class SpeechVariants
 		{
@@ -1105,11 +1356,11 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "MAT Gunner";
-		backpack = "CUP_B_CivPack_WDL_GSFG70_MAT";
-		weapons[] = {"hlc_rifle_akm2","CUP_launch_RPG7V_gsfgpgo","Throw","Put"};
-		respawnWeapons[] = {"hlc_rifle_akm2","CUP_launch_RPG7V_gsfgpgo","Throw","Put"};
-		magazines[] = {"hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","SmokeShell","SmokeShell"};
-		respawnMagazines[] = {"hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","SmokeShell","SmokeShell"};
+		backpack = "CUP_B_AlicePack_Khaki_GSFG85_MAT";
+		weapons[] = {"hlc_rifle_ak74","CUP_launch_RPG7V_gsfgpgo","Throw","Put"};
+		respawnWeapons[] = {"hlc_rifle_ak74","CUP_launch_RPG7V_gsfgpgo","Throw","Put"};
+		magazines[] = {"hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","SmokeShell","SmokeShell"};
 		cost = 180000;
 		threat[] = {1,0.7,0.3};
 		secondaryAmmoCoef = 0.5;
@@ -1117,19 +1368,19 @@ class cfgvehicles
 		headgearProbability = 100;
 		allowedHeadgear[] = {"FP_Helmet_SSH68","FP_Helmet_SSH68"};
 	};
-	class FP_Faction_GSFG70_AMAT: FP_Faction_GSFG70_Soldier_BASE
+	class FP_Faction_GSFG85_AMAT: FP_Faction_GSFG85_Soldier_BASE
 	{
 		author = "FP Mod Team";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "MAT Assistant";
-		backpack = "CUP_B_CivPack_WDL_GSFG70_MAT";
+		backpack = "CUP_B_AlicePack_Khaki_GSFG85_MAT";
 		headgearProbability = 100;
 		allowedHeadgear[] = {"FP_Helmet_SSH68","FP_Helmet_SSH68"};
 		cost = 65000;
 		threat[] = {1,0.1,0.3};
 	};
-	class FP_Faction_GSFG70_MANPADS: FP_Faction_GSFG70_Soldier_BASE
+	class FP_Faction_GSFG85_MANPADS: FP_Faction_GSFG85_Soldier_BASE
 	{
 		class SpeechVariants
 		{
@@ -1146,11 +1397,11 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "MANPADS Gunner";
-		backpack = "B_Carryall_cbr_GSFG70_MANPADS";
-		weapons[] = {"hlc_rifle_akms","CUP_launch_9K32Strela","Throw","Put"};
-		respawnWeapons[] = {"hlc_rifle_akm2","CUP_launch_9K32Strela","Throw","Put"};
-		magazines[] = {"hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","SmokeShell","SmokeShell"};
-		respawnMagazines[] = {"hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","SmokeShell","SmokeShell"};
+		backpack = "B_Carryall_cbr_GSFG85_MANPADS";
+		weapons[] = {"hlc_rifle_ak74","CUP_launch_9K32Strela","Throw","Put"};
+		respawnWeapons[] = {"hlc_rifle_ak74","CUP_launch_9K32Strela","Throw","Put"};
+		magazines[] = {"hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","SmokeShell","SmokeShell"};
 		cost = 180000;
 		threat[] = {1,0.7,0.3};
 		secondaryAmmoCoef = 0.5;
@@ -1158,26 +1409,45 @@ class cfgvehicles
 		headgearProbability = 100;
 		allowedHeadgear[] = {"FP_Helmet_SSH68","FP_Helmet_SSH68"};
 	};
-	class FP_Faction_GSFG70_AMANPADS: FP_Faction_GSFG70_Soldier_BASE
+	class FP_Faction_GSFG85_AMANPADS: FP_Faction_GSFG85_Soldier_BASE
 	{
 		author = "FP Mod Team";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "MANPADS Assistant";
-		backpack = "B_Carryall_cbr_GSFG70_MANPADS";
+		backpack = "B_Carryall_cbr_GSFG85_MANPADS";
 		headgearProbability = 100;
 		allowedHeadgear[] = {"FP_Helmet_SSH68","FP_Helmet_SSH68"};
 		cost = 65000;
 		threat[] = {1,0.1,0.3};
 	};
 	class CUP_O_BTR60_TK;
-	class FP_Faction_GSFG70_Vehicle_BTR60: CUP_O_BTR60_TK
+	class FP_Faction_GSFG85_Vehicle_BTR60: CUP_O_BTR60_TK
 	{
 		author = "FP Mod Team";
-		faction = "FP_Faction_GSFG70";
+		faction = "FP_Faction_GSFG85";
 		category = "Armored";
 		vehicleClass = "Armored";
-		crew = "FP_Faction_GSFG70_Crewman";
+		crew = "FP_Faction_GSFG85_Crewman";
+		hiddenSelectionsTextures[] = {"FP_Factions\GSFG70\btr60_body_co_edited.paa","FP_Factions\GSFG70\btr60_details_co_edited.paa"};
+	};
+	class CUP_O_BMP2_SLA;
+	class FP_Faction_GSFG85_Vehicle_BMP2: CUP_O_BMP2_SLA
+	{
+		author = "FP Mod Team";
+		faction = "FP_Faction_GSFG85";
+		category = "Armored";
+		vehicleClass = "Armored";
+		crew = "FP_Faction_GSFG85_Crewman";
+	};
+	class CUP_O_T72_SLA;
+	class FP_Faction_GSFG85_Vehicle_T72: CUP_O_T72_SLA
+	{
+		author = "FP Mod Team";
+		faction = "FP_Faction_GSFG85";
+		category = "Armored";
+		vehicleClass = "Armored";
+		crew = "FP_Faction_GSFG85_Crewman";
 	};
 };
 class cfgWeapons

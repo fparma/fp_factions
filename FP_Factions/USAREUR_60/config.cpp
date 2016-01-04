@@ -2,7 +2,7 @@ class CfgPatches
 {
 	class FP_Factions_USAREUR60
 	{
-		units[] = {"FP_Faction_USAREUR60_Soldier_BASE","FP_Faction_USAREUR60_Rifleman","FP_Faction_USAREUR60_AR","FP_Faction_USAREUR60_AAR","FP_Faction_USAREUR60_SL","FP_Faction_USAREUR60_TL","FP_Faction_USAREUR60_DM","FP_Faction_USAREUR60_RAT","FP_Faction_USAREUR60_Medic","FP_Faction_USAREUR60_Crewman","FP_Faction_USAREUR60_MMG","FP_Faction_USAREUR60_AMMG","FP_Faction_USAREUR60_Vehicle_M113"};
+		units[] = {"FP_Faction_USAREUR60_Soldier_BASE","FP_Faction_USAREUR60_Rifleman","FP_Faction_USAREUR60_AR","FP_Faction_USAREUR60_AAR","FP_Faction_USAREUR60_SL","FP_Faction_USAREUR60_TL","FP_Faction_USAREUR60_RTO","FP_Faction_USAREUR60_DM","FP_Faction_USAREUR60_RAT","FP_Faction_USAREUR60_Medic","FP_Faction_USAREUR60_Crewman","FP_Faction_USAREUR60_AR","FP_Faction_USAREUR60_AAR","FP_Faction_USAREUR60_Vehicle_M113"};
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {};
@@ -106,7 +106,7 @@ class CfgGroups
 					class Unit1
 					{
 						side = 1;
-						vehicle = "FP_Faction_USAREUR60_MMG";
+						vehicle = "FP_Faction_USAREUR60_AR";
 						rank = "SERGEANT";
 						position[] = {5,-5,0};
 					};
@@ -120,7 +120,7 @@ class CfgGroups
 					class Unit3
 					{
 						side = 1;
-						vehicle = "FP_Faction_USAREUR60_AMMG";
+						vehicle = "FP_Faction_USAREUR60_AAR";
 						rank = "SERGEANT";
 						position[] = {10,-10,0};
 					};
@@ -134,7 +134,7 @@ class CfgGroups
 					class Unit5
 					{
 						side = 1;
-						vehicle = "FP_Faction_USAREUR60_MMG";
+						vehicle = "FP_Faction_USAREUR60_AR";
 						rank = "PRIVATE";
 						position[] = {15,-15,0};
 					};
@@ -148,7 +148,7 @@ class CfgGroups
 					class Unit7
 					{
 						side = 1;
-						vehicle = "FP_Faction_USAREUR60_AMMG";
+						vehicle = "FP_Faction_USAREUR60_AAR";
 						rank = "PRIVATE";
 						position[] = {20,-20,0};
 					};
@@ -229,9 +229,16 @@ class CfgGroups
 					class Unit3
 					{
 						side = 1;
-						vehicle = "FP_Faction_USAREUR60_Rifleman";
+						vehicle = "FP_Faction_USAREUR60_RTO";
 						rank = "PRIVATE";
 						position[] = {10,-4,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR60_Rifleman";
+						rank = "PRIVATE";
+						position[] = {10, 4,0};
 					};
 				};
 			};
@@ -322,7 +329,7 @@ class CfgGroups
 					class Unit1
 					{
 						side = 1;
-						vehicle = "FP_Faction_USAREUR60_MMG";
+						vehicle = "FP_Faction_USAREUR60_AR";
 						rank = "SERGEANT";
 						position[] = {5,-5,0};
 					};
@@ -336,7 +343,7 @@ class CfgGroups
 					class Unit3
 					{
 						side = 1;
-						vehicle = "FP_Faction_USAREUR60_AMMG";
+						vehicle = "FP_Faction_USAREUR60_AAR";
 						rank = "SERGEANT";
 						position[] = {10,-10,0};
 					};
@@ -350,7 +357,7 @@ class CfgGroups
 					class Unit6
 					{
 						side = 1;
-						vehicle = "FP_Faction_USAREUR60_MMG";
+						vehicle = "FP_Faction_USAREUR60_AR";
 						rank = "PRIVATE";
 						position[] = {15,-15,0};
 					};
@@ -364,7 +371,7 @@ class CfgGroups
 					class Unit7
 					{
 						side = 1;
-						vehicle = "FP_Faction_USAREUR60_AMMG";
+						vehicle = "FP_Faction_USAREUR60_AAR";
 						rank = "PRIVATE";
 						position[] = {20,-20,0};
 					};
@@ -398,7 +405,7 @@ class CfgGroups
 					class Unit2
 					{
 						side = 1;
-						vehicle = "FP_Faction_USAREUR60_Rifleman";
+						vehicle = "FP_Faction_USAREUR60_RTO";
 						rank = "PRIVATE";
 						position[] = {10,-4,0};
 					};
@@ -414,22 +421,22 @@ class CfgGroups
 			class Support
 			{
 				name = "USAREUR 1960 Company Attachments";
-				class USAREUR60_MMGTeam
+				class USAREUR60_ARTeam
 				{
-					name = "MMG Team";
+					name = "AR Team";
 					side = 1;
 					faction = "FP_Faction_USAREUR60";
 					class Unit0
 					{
 						side = 1;
-						vehicle = "FP_Faction_USAREUR60_MMG";
+						vehicle = "FP_Faction_USAREUR60_AR";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 1;
-						vehicle = "FP_Faction_USAREUR60_AMMG";
+						vehicle = "FP_Faction_USAREUR60_AAR";
 						rank = "CORPORAL";
 						position[] = {5,-5,0};
 					};
@@ -453,7 +460,7 @@ class cfgvehicles
 			};
 		};
 	};
-	class CUP_B_AlicePack_Khaki_MMG_USAREUR60: CUP_B_AlicePack_Khaki
+	class CUP_B_AlicePack_Khaki_AR_USAREUR60: CUP_B_AlicePack_Khaki
 	{
 		scope = 1;
 		class TransportMagazines
@@ -476,7 +483,7 @@ class cfgvehicles
 		armorStructural = 5;
 		author = "FP Mod Team";
 		expansion = 1;
-		identityTypes[] = {"LanguageENG_F", "Head_NATO", "G_NATO_default"};
+		identityTypes[] = {"LanguageENG_F", "Head_NATO", "G_CIVIL_male"};
 		faceType = "Man_A3";
 		side = 1;
 		faction = "FP_Faction_USAREUR60";
@@ -495,16 +502,16 @@ class cfgvehicles
 		scope = 0;
 		scopeCurator = 0;
 		modelSides[] = {1,2,3};
-		model = "\A3\characters_F\OPFOR\o_officer.p3d";
-		uniformClass = "FP_Uniform_grn";  
+		model = "\us_military_units\usm_uniform_bdu.p3d";
+		uniformClass = "usm_bdu_odg";  
 		weapons[] = {"hlc_rifle_M14","Throw","Put"};
 		respawnWeapons[] = {"hlc_rifle_M14","Throw","Put"};
 		magazines[] = {"hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		respawnMagazines[] = {"hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
-		linkedItems[] = {"V_mas_gue_alice_webb2","H_mas_gue_HelmetI","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_mas_gue_alice_webb2","H_mas_gue_HelmetI","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"usm_vest_LBE_rm","H_mas_gue_HelmetI","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"usm_vest_LBE_rm","H_mas_gue_HelmetI","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
 	class FP_Faction_USAREUR60_Rifleman: FP_Faction_USAREUR60_Soldier_BASE
 	{
@@ -541,8 +548,8 @@ class cfgvehicles
 		cost = 95000;
 		threat[] = {1,0.1,0.3};
 		icon = "iconManMG";
-		linkedItems[] = {"V_mas_gue_alice_webb2","H_mas_gue_HelmetI","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_mas_gue_alice_webb2","H_mas_gue_HelmetI","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"usm_vest_LBE_mg","H_mas_gue_HelmetI","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"usm_vest_LBE_mg","H_mas_gue_HelmetI","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 100;
 		allowedHeadgear[] = {"H_mas_gue_HelmetI"};
 	};
@@ -572,11 +579,11 @@ class cfgvehicles
 		camouflage = 1.6;
 		sensitivity = 3;
 		icon = "iconManLeader";
-		linkedItems[] = {"V_mas_gue_alice_webb2","H_mas_gue_HelmetI","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_mas_gue_alice_webb2","H_mas_gue_HelmetI","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"usm_vest_LBE_rm","usm_bdu_8point_odg","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"usm_vest_LBE_rm","usm_bdu_8point_odg","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		identitytypes[] = {"LanguageENG_F", "Head_NATO", "G_NATO_default"};
 		headgearProbability = 80;
-		allowedHeadgear[] = {"H_mas_gue_HelmetI"};
+		allowedHeadgear[] = {"usm_bdu_8point_odg"};
 	};
 	class FP_Faction_USAREUR60_TL: FP_Faction_USAREUR60_Soldier_BASE
 	{
@@ -592,9 +599,25 @@ class cfgvehicles
 		camouflage = 1.6;
 		sensitivity = 3;
 		icon = "iconManLeader";
-		linkedItems[] = {"V_mas_gue_alice_webb2","H_mas_gue_HelmetI","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_mas_gue_alice_webb2","H_mas_gue_HelmetI","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"usm_vest_LBE_rm","H_mas_gue_HelmetI","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"usm_vest_LBE_rm","H_mas_gue_HelmetI","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 90;
+		allowedHeadgear[] = {"H_mas_gue_HelmetI"};
+	};
+	class FP_Faction_USAREUR60_RTO: FP_Faction_USAREUR60_Soldier_BASE
+	{
+		author = "FP Mod Team";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "RTO";
+		weapons[] = {"hlc_rifle_M14","RH_m1911","Throw","Put"};
+		respawnWeapons[] = {"hlc_rifle_M14","RH_m1911","Throw","Put"};
+		magazines[] = {"hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","RH_7Rnd_45cal_m1911","RH_7Rnd_45cal_m1911","RH_7Rnd_45cal_m1911","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","RH_7Rnd_45cal_m1911","RH_7Rnd_45cal_m1911","RH_7Rnd_45cal_m1911","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell"};
+		linkedItems[] = {"usm_vest_LBE_rm","H_mas_gue_HelmetI","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"usm_vest_LBE_rm","H_mas_gue_HelmetI","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		headgearProbability = 90;
+		backpack = "usm_pack_st138_prc77";
 		allowedHeadgear[] = {"H_mas_gue_HelmetI"};
 	};
 	class FP_Faction_USAREUR60_DM: FP_Faction_USAREUR60_Soldier_BASE
@@ -619,8 +642,8 @@ class cfgvehicles
 		magazines[] = {"20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","RH_7Rnd_45cal_m1911","RH_7Rnd_45cal_m1911","RH_7Rnd_45cal_m1911","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		respawnMagazines[] = {"20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","RH_7Rnd_45cal_m1911","RH_7Rnd_45cal_m1911","RH_7Rnd_45cal_m1911","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		cost = 150000;
-		linkedItems[] = {"V_mas_gue_alice_webb2","H_mas_gue_HelmetI","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_mas_gue_alice_webb2","H_mas_gue_HelmetI","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"usm_vest_LBE_rm","H_mas_gue_HelmetI","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"usm_vest_LBE_rm","H_mas_gue_HelmetI","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		sensitivity = 3;
 		headgearProbability = 60;
 		allowedHeadgear[] = {"H_mas_gue_HelmetI"};
@@ -696,13 +719,13 @@ class cfgvehicles
 		respawnMagazines[] = {"sfp_36Rnd_9mm_kpistm45","sfp_36Rnd_9mm_kpistm45","sfp_36Rnd_9mm_kpistm45","sfp_36Rnd_9mm_kpistm45","sfp_36Rnd_9mm_kpistm45","sfp_36Rnd_9mm_kpistm45","RH_7Rnd_45cal_m1911","RH_7Rnd_45cal_m1911","RH_7Rnd_45cal_m1911","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		camouflage = 1.6;
 		sensitivity = 2.4;
-		linkedItems[] = {"V_mas_gue_alice_webb2","H_HelmetCrew_I","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_mas_gue_alice_webb2","H_HelmetCrew_I","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"usm_vest_LBE_rm","H_HelmetCrew_I","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"usm_vest_LBE_rm","H_HelmetCrew_I","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		cost = 90000;
 		headgearProbability = 100;
 		allowedHeadgear[] = {"H_HelmetCrew_I"};
 	};
-	class FP_Faction_USAREUR60_MMG: FP_Faction_USAREUR60_Soldier_BASE
+	class FP_Faction_USAREUR60_AR: FP_Faction_USAREUR60_Soldier_BASE
 	{
 		class SpeechVariants
 		{
@@ -718,7 +741,7 @@ class cfgvehicles
 		author = "FP Mod Team";
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "MMG Gunner";
+		displayName = "AR Gunner";
 		weapons[] = {"hlc_lmg_m60","RH_m1911","Throw","Put"};
 		respawnWeapons[] = {"hlc_lmg_m60","RH_m1911","Throw","Put"};
 		magazines[] = {"hlc_100Rnd_762x51_B_M60E4","hlc_100Rnd_762x51_B_M60E4","RH_7Rnd_45cal_m1911","RH_7Rnd_45cal_m1911","RH_7Rnd_45cal_m1911","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
@@ -726,26 +749,26 @@ class cfgvehicles
 		cost = 95000;
 		threat[] = {1,0.1,0.3};
 		icon = "iconManMG";
-		linkedItems[] = {"V_mas_gue_ind_webbmg","H_mas_gue_HelmetI","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_mas_gue_ind_webbmg","H_mas_gue_HelmetI","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"usm_vest_LBE_mg","H_mas_gue_HelmetI","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"usm_vest_LBE_mg","H_mas_gue_HelmetI","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 100;
 		allowedHeadgear[] = {"H_mas_gue_HelmetI"};
 	};
-	class FP_Faction_USAREUR60_AMMG: FP_Faction_USAREUR60_Soldier_BASE
+	class FP_Faction_USAREUR60_AAR: FP_Faction_USAREUR60_Soldier_BASE
 	{
 		author = "FP Mod Team";
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "MMG Assistant";
-		backpack = "CUP_B_AlicePack_Khaki_MMG_USAREUR60";
+		displayName = "AR Assistant";
+		backpack = "CUP_B_AlicePack_Khaki_AR_USAREUR60";
 		weapons[] = {"hlc_rifle_M14","Throw","Put"};
 		respawnWeapons[] = {"hlc_rifle_M14","Throw","Put"};
 		magazines[] = {"hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","SmokeShell","SmokeShell"};
 		respawnMagazines[] = {"hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","SmokeShell","SmokeShell"};
 		headgearProbability = 100;
 		allowedHeadgear[] = {"H_mas_gue_HelmetI"};
-		linkedItems[] = {"V_mas_gue_ind_webbmg","H_mas_gue_HelmetI","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_mas_gue_ind_webbmg","H_mas_gue_HelmetI","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"usm_vest_LBE_mg","H_mas_gue_HelmetI","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"usm_vest_LBE_mg","H_mas_gue_HelmetI","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		cost = 65000;
 		threat[] = {1,0.1,0.3};
 	};

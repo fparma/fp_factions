@@ -636,7 +636,7 @@ class cfgvehicles
 		scope = 1;
 		class TransportMagazines
 		{
-			class _xx_rhs_rpg7_PG7VL_mag
+			class _xx_Titan_AT
 			{
 				magazine = "Titan_AT";
 				count = 2;
@@ -648,7 +648,7 @@ class cfgvehicles
 		scope = 1;
 		class TransportMagazines
 		{
-			class _xx_rhs_mag_9k38_rocket
+			class _xx_CUP_launch_FIM92Stinger
 			{
 				magazine = "CUP_launch_FIM92Stinger";
 				count = 3;

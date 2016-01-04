@@ -543,7 +543,7 @@ class cfgvehicles
 		armorStructural = 5;
 		author = "FP Mod Team";
 		expansion = 1;
-		identityTypes[] = {"LanguagePER_F","Head_NATO", "G_NATO_default"};
+		identityTypes[] = {"LanguageGRE_F","Head_Greek","G_CIVIL_male"};
 		faceType = "Man_A3";
 		side = 2;
 		faction = "FP_Faction_FEC";
@@ -659,7 +659,6 @@ class cfgvehicles
 		headgearProbability = 100;
 		model = "\A3\characters_F\OPFOR\o_officer.p3d";
 		uniformClass = "FP_Uniform_Strich";
-		uniformClass = "LOP_U_Afg_civ_03"; 
 	    linkedItems[] = {"V_mas_gue_alice_webb_she","H_mas_gue_HelmetO","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_mas_gue_alice_webb_she","H_mas_gue_HelmetO","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		allowedHeadgear[] = {"H_mas_gue_HelmetO"};

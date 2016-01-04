@@ -336,9 +336,6 @@ class CfgGroups
 					name = "Veteran Rifle Section (8)";
 					side = 0;
 					faction = "FP_Faction_Takiban";
-					name = "Veteran Rifle Section (6)";
-					side = 0;
-					faction = "FP_Faction_Takiban";
 					class Unit0
 					{
 						side = 0;
