@@ -12,7 +12,7 @@ class CfgFactionClasses
 {
 	class FP_Faction_USAREUR60
 	{
-		displayName = "USAREUR (1960)";
+		displayName = "USA (1960)";
 		priority = 2;
 		side = 1;
 		icon = "\FP_Factions\USAREUR_60\cfgFactionClasses_usa_ca.paa";
@@ -25,7 +25,7 @@ class CfgGroups
 	{
 		class FP_Faction_USAREUR60_Units
 		{
-			name = "USAREUR (1960)";
+			name = "USA (1960)";
 			class Infantry
 			{
 				name = "USAREUR 1960 Infantry";
@@ -244,7 +244,7 @@ class CfgGroups
 			};
 		    class Mechanized
 			{
-				name = "USAREUR 1960 Mechanized Infantry";
+				name = "USA (1960) Mechanized Infantry";
 				class USAREUR60_MechRiflesquad
 				{
 					name = "Mechanized Rifle Squad (M113)";
@@ -420,7 +420,7 @@ class CfgGroups
 			};
 			class Support
 			{
-				name = "USAREUR 1960 Company Attachments";
+				name = "USA (1960) Company Attachments";
 				class USAREUR60_ARTeam
 				{
 					name = "AR Team";

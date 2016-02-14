@@ -12,7 +12,7 @@ class CfgFactionClasses
 {
 	class FP_Faction_EGER85
 	{
-		displayName = "National Volksarmee (1985)";
+		displayName = "East Germany (1985)";
 		priority = 2;
 		side = 0;
 		icon = "\FP_Factions\EGER\cfgfactionclasses_EGER_ca.paa";
@@ -25,10 +25,10 @@ class CfgGroups
 	{
 		class FP_Faction_EGER85_Units
 		{
-			name = "GFSG (1970)";
+			name = "East Germany (1985)";
 			class Infantry
 			{
-				name = "National Volksarmee (1985) Infantry";
+				name = "East Germany (1985) Infantry";
 				class EGER85_Riflesquad
 				{
 					name = "Rifle Section";
@@ -278,7 +278,7 @@ class CfgGroups
 			};
 			class Motorized
 			{
-				name = "National Volksarmee (1985) Motorized Infantry";
+				name = "East Germany (1985) Motorized Infantry";
 				class EGER85_MotoRiflesquad
 				{
 					name = "Motorized Rifle Section (BTR-60)";
@@ -529,7 +529,7 @@ class CfgGroups
             };
 			class Mechanized
 			{
-				name = "National Volksarmee (1985) Mechanized Infantry";
+				name = "East Germany (1985) Mechanized Infantry";
 				class EGER85_MotoRiflesquad
 				{
 					name = "Mechanized Rifle Section (BMP-1)";
@@ -780,7 +780,7 @@ class CfgGroups
             };
 			class Support
 			{
-				name = "National Volksarmee (1985) Company Attachments";
+				name = "East Germany (1985) Company Attachments";
 				class GFSG70_DoctorTeam
 				{
 					name = "Doctor Team";

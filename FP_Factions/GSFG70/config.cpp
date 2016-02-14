@@ -12,7 +12,7 @@ class CfgFactionClasses
 {
 	class FP_Faction_GSFG70
 	{
-		displayName = "GSFG 1970";
+		displayName = "Soviet Union (1970)";
 		priority = 2;
 		side = 0;
 		icon = "\FP_Factions\GSFG70\cfgfactionclasses_ussr_ca.paa";
@@ -25,10 +25,10 @@ class CfgGroups
 	{
 		class FP_Faction_GSFG70_Units
 		{
-			name = "GFSG (1970)";
+			name = "Soviet Union (1970)";
 			class Infantry
 			{
-				name = "GSFG (1970) Infantry";
+				name = "Soviet Union (1970) Infantry";
 				class GSFG70_Riflesquad
 				{
 					name = "Rifle Section";
@@ -278,7 +278,7 @@ class CfgGroups
 			};
 			class Motorized
 			{
-				name = "GSFG (1970) Motorized Infantry";
+				name = "Soviet Union (1970) Motorized Infantry";
 				class GSFG70_MotoRiflesquad
 				{
 					name = "Motorized Rifle Section (BTR-60)";
@@ -529,7 +529,7 @@ class CfgGroups
             };
 			class Mechanized
 			{
-				name = "GSFG (1970) Mechanized Infantry";
+				name = "Soviet Union (1970) Mechanized Infantry";
 				class GSFG70_MechRiflesquad
 				{
 					name = "Mechanized Rifle Section (BMP-1)";
@@ -780,7 +780,7 @@ class CfgGroups
             };
 			class Support
 			{
-				name = "GFSG (1970) Company Attachments";
+				name = "Soviet Union (1970) Company Attachments";
 				class GFSG70_DoctorTeam
 				{
 					name = "Doctor Team";

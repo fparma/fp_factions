@@ -12,7 +12,7 @@ class CfgFactionClasses
 {
 	class FP_Faction_GSFG85
 	{
-		displayName = "GSFG 1985";
+		displayName = "Soviet Union (1985)";
 		priority = 2;
 		side = 0;
 		icon = "\FP_Factions\GSFG70\cfgfactionclasses_ussr_ca.paa";
@@ -25,10 +25,10 @@ class CfgGroups
 	{
 		class FP_Faction_GSFG85_Units
 		{
-			name = "GFSG (1985)";
+			name = "Soviet Union (1985)";
 			class Infantry
 			{
-				name = "GSFG (1985) Infantry";
+				name = "Soviet Union (1985) Infantry";
 				class GSFG85_Riflesquad
 				{
 					name = "Rifle Section";
@@ -278,7 +278,7 @@ class CfgGroups
 			};
 			class Motorized
 			{
-				name = "GSFG (1985) Motorized Infantry";
+				name = "Soviet Union (1985) Motorized Infantry";
 				class GSFG85_MotoRiflesquad
 				{
 					name = "Motorized Rifle Section (BTR-60)";
@@ -529,7 +529,7 @@ class CfgGroups
             };
 			class Mechanized
 			{
-				name = "GSFG (1985) Mechanized Infantry";
+				name = "Soviet Union (1985) Mechanized Infantry";
 				class GSFG85_MechRiflesquad
 				{
 					name = "Mechanized Rifle Section (BMP-2)";
@@ -780,7 +780,7 @@ class CfgGroups
             };
 			class Support
 			{
-				name = "GFSG (1985) Company Attachments";
+				name = "Soviet Union (1985) Company Attachments";
 				class GFSG85_DoctorTeam
 				{
 					name = "Doctor Team";

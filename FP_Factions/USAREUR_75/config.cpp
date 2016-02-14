@@ -12,7 +12,7 @@ class CfgFactionClasses
 {
 	class FP_Faction_USAREUR75
 	{
-		displayName = "USAREUR (1975)";
+		displayName = "USA (1975)";
 		priority = 2;
 		side = 1;
 		icon = "\FP_Factions\USAREUR_60\cfgFactionClasses_usa_ca.paa";
@@ -25,7 +25,7 @@ class CfgGroups
 	{
 		class FP_Faction_USAREUR75_Units
 		{
-			name = "USAREUR (1975)";
+			name = "USA (1975)";
 			class Infantry
 			{
 				name = "USAREUR 1975 Infantry";
@@ -244,7 +244,7 @@ class CfgGroups
 			};
 		    class Mechanized
 			{
-				name = "USAREUR 1975 Mechanized Infantry";
+				name = "USA (1975) Mechanized Infantry";
 				class USAREUR75_MechRiflesquad
 				{
 					name = "Mechanized Rifle Squad (M113)";
@@ -420,7 +420,7 @@ class CfgGroups
 			};
 			class Support
 			{
-				name = "USAREUR 1975 Company Attachments";
+				name = "USA (1975) Company Attachments";
 				class USAREUR75_MMGTeam
 				{
 					name = "MMG Team";

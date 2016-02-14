@@ -12,7 +12,7 @@ class CfgFactionClasses
 {
 	class FP_Faction_PLA
 	{
-		displayName = "People's Liberation Army";
+		displayName = "People's Republic of China (2010)";
 		priority = 2;
 		side = 0;
 		icon = "\FP_Factions\PLA\cfgFactionClasses_china_ca.paa";
@@ -25,10 +25,10 @@ class CfgGroups
 	{
 		class FP_Faction_PLA_Units
 		{
-			name = "PLA(Universal)";
+			name = "People's Republic of China (2010/Universal)";
 			class Infantry
 			{
-				name = "PLA Infantry";
+				name = "PRC (2010/Universal) Infantry ";
 				class PLA_Riflesquad
 				{
 					name = "Rifle Squad";
@@ -244,7 +244,7 @@ class CfgGroups
 			};
 			class Support
 			{
-				name = "PLA Company Attachments";
+				name = "PRC (2010/Universal) Company Attachments";
 				class PLA_DoctorTeam
 				{
 					name = "Doctor Team";
@@ -503,7 +503,7 @@ class cfgvehicles
 		side = 0;
 		faction = "FP_Faction_PLA";
 		genericNames = "ChineseMen";
-		vehicleClass = "Men";
+		vehicleClass = "fp_men_universal";
 		portrait = "";
 		picture = "";
 		icon = "iconMan";

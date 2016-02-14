@@ -2,7 +2,7 @@ class CfgPatches
 {
 	class FP_Factions_USAREUR90
 	{
-		units[] = {"FP_Faction_USAREUR90_Soldier_BASE","FP_Faction_USAREUR90_Rifleman","FP_Faction_USAREUR90_AR","FP_Faction_USAREUR90_AAR","FP_Faction_USAREUR90_SL","FP_Faction_USAREUR90_TL","FP_Faction_USAREUR90_DM","FP_Faction_USAREUR90_RAT","FP_Faction_USAREUR90_Medic","FP_Faction_USAREUR90_Crewman","FP_Faction_USAREUR90_Engineer","FP_Faction_USAREUR90_MMG","FP_Faction_USAREUR90_AMMG","FP_Faction_USAREUR90_MAT","FP_Faction_USAREUR90_AMAT","FP_Faction_USAREUR90_MANPADS","FP_Faction_USAREUR90_AMANPADS","FP_Faction_USAREUR90_Vehicle_Gavin","FP_Faction_USAREUR90_Vehicle_M163","FP_Faction_USAREUR90_Vehicle_HumveeM2","FP_Faction_USAREUR90_Vehicle_Humvee","FP_Faction_USAREUR90_Vehicle_M60A3","FP_Faction_USAREUR90_Vehicle_M1","FP_Faction_USAREUR90_Vehicle_M2A1","FP_Faction_USAREUR90_Vehicle_TOW"};
+		units[] = {"FP_Faction_USAREUR90_Soldier_BASE","FP_Faction_USAREUR90_Rifleman","FP_Faction_USAREUR90_AR","FP_Faction_USAREUR90_AAR","FP_Faction_USAREUR90_SL","FP_Faction_USAREUR90_TL","FP_Faction_USAREUR90_DM","FP_Faction_USAREUR90_RAT","FP_Faction_USAREUR90_Medic","FP_Faction_USAREUR90_Crewman","FP_Faction_USAREUR90_Engineer","FP_Faction_USAREUR90_MMG","FP_Faction_USAREUR90_AMMG","FP_Faction_USAREUR90_MAT","FP_Faction_USAREUR90_AMAT","FP_Faction_USAREUR90_MANPADS","FP_Faction_USAREUR90_AMANPADS","FP_Faction_USAREUR90_Rifleman_D","FP_Faction_USAREUR90_AR_D","FP_Faction_USAREUR90_AAR_D","FP_Faction_USAREUR90_SL_D","FP_Faction_USAREUR90_TL_D","FP_Faction_USAREUR90_DM_D","FP_Faction_USAREUR90_RAT_D","FP_Faction_USAREUR90_Medic_D","FP_Faction_USAREUR90_Crewman_D","FP_Faction_USAREUR90_Engineer_D","FP_Faction_USAREUR90_MMG_D","FP_Faction_USAREUR90_AMMG_D","FP_Faction_USAREUR90_MAT_D","FP_Faction_USAREUR90_AMAT_D","FP_Faction_USAREUR90_MANPADS_D","FP_Faction_USAREUR90_AMANPADS_D","FP_Faction_USAREUR90_Vehicle_Gavin","FP_Faction_USAREUR90_Vehicle_M163","FP_Faction_USAREUR90_Vehicle_HumveeM2","FP_Faction_USAREUR90_Vehicle_Humvee","FP_Faction_USAREUR90_Vehicle_M60A3","FP_Faction_USAREUR90_Vehicle_M1","FP_Faction_USAREUR90_Vehicle_M2A1","FP_Faction_USAREUR90_Vehicle_TOW","FP_Faction_USAREUR90_Vehicle_M2A1_d"};
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {};
@@ -12,7 +12,7 @@ class CfgFactionClasses
 {
 	class FP_Faction_USAREUR90
 	{
-		displayName = "USAREUR (1990)";
+		displayName = "USA (1990)";
 		priority = 2;
 		side = 1;
 		icon = "\FP_Factions\USAREUR_60\cfgFactionClasses_usa_ca.paa";
@@ -25,10 +25,10 @@ class CfgGroups
 	{
 		class FP_Faction_USAREUR90_Units
 		{
-			name = "USAREUR (1990)";
+			name = "USA (1990)";
 			class Infantry
 			{
-				name = "USAREUR 1990 Infantry";
+				name = "USA (1990) Infantry";
 				class USAREUR90_Riflesquad
 				{
 					name = "Rifle Squad";
@@ -234,10 +234,216 @@ class CfgGroups
 						position[] = {10,-4,0};
 					};
 				};
+                //----------------------------------------------------------------------------------------Desert guys -------------------------------------------------------------------------------------------
+				class USAREUR90_Riflesquad_des
+				{
+					name = "Rifle Squad (Desert)";
+					side = 1;
+					faction = "FP_Faction_USAREUR90";
+					class Unit0
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_TL_D";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_Medic_D";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_AR_D";
+						rank = "CORPORAL";
+						position[] = {-5,-5,0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_Rifleman_D";
+						rank = "PRIVATE";
+						position[] = {10,-10,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_TL_D";
+						rank = "PRIVATE";
+						position[] = {-10,-10,0};
+					};
+					class Unit5
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_AR_D";
+						rank = "CORPORAL";
+						position[] = {15,-15,0};
+					};
+					class Unit6
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_RAT_D";
+						rank = "PRIVATE";
+						position[] = {-15,-15,0};
+					};
+					class Unit7
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_Rifleman_D";
+						rank = "PRIVATE";
+						position[] = {20,-20,0};
+					};
+				};
+				class USAREUR90_WeaponsSquad_des
+				{
+					name = "Weapons Squad (Desert)";
+					side = 1;
+					faction = "FP_Faction_USAREUR90";
+					class Unit0
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_TL_D";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_Medic_D";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_MMG_D";
+						rank = "CORPORAL";
+						position[] = {-5,-5,0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_AMMG_D";
+						rank = "PRIVATE";
+						position[] = {10,-10,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_TL_D";
+						rank = "PRIVATE";
+						position[] = {-10,-10,0};
+					};
+					class Unit5
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_MMG_D";
+						rank = "CORPORAL";
+						position[] = {15,-15,0};
+					};
+					class Unit6
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_RAT_D";
+						rank = "PRIVATE";
+						position[] = {-15,-15,0};
+					};
+					class Unit7
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_AMMG_D";
+						rank = "PRIVATE";
+						position[] = {20,-20,0};
+					};
+				};
+				class USAREUR90_Patrol_des
+				{
+					name = "Rifle Patrol (Desert)";
+					side = 1;
+					faction = "FP_Faction_USAREUR90";
+					class Unit0
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_TL_D";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_AR_D";
+						rank = "CORPORAL";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_Rifleman_D";
+						rank = "PRIVATE";
+						position[] = {-5,-5,0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_Rifleman_D";
+						rank = "PRIVATE";
+						position[] = {10,-10,0};
+					};
+				};
+				class USAREUR90_RifleSentry_des
+				{
+					name = "Sentries (Desert)";
+					side = 1;
+					faction = "FP_Faction_USAREUR90";
+					class Unit0
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_Rifleman_D";
+						rank = "CORPORAL";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_Rifleman_D";
+						rank = "PRIVATE";
+						position[] = {5,-2,0};
+					};
+				};
+				class USAREUR90_PltHQ_des
+				{
+					name = "Platoon HQ (Desert)";
+					side = 1;
+					faction = "FP_Faction_USAREUR90";
+					class Unit0
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_SL_D";
+						rank = "CORPORAL";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_Medic_D";
+						rank = "PRIVATE";
+						position[] = {5,-2,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_Rifleman_D";
+						rank = "PRIVATE";
+						position[] = {10,-4,0};
+					};
+				};
 			};
 			class Mechanized
 			{
-				name = "USAREUR 1990 Mechanized Infantry";
+				name = "USA (1990) Mechanized Infantry";
 				class USAREUR90_MechRiflesquad
 				{
 					name = "Mechanized Rifle Squad (M2A1)";
@@ -437,10 +643,210 @@ class CfgGroups
 						position[] = {10,-10,0};
 					};
 				};
+                //---------------------------------------------------------------------------desert guys----------------------------------------------------------------------------------
+				class USAREUR90_MechRiflesquad_des
+				{
+					name = "Mechanized Rifle Squad (M2A1/Desert)";
+					side = 1;
+					faction = "FP_Faction_USAREUR90";
+					class Unit0
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_TL_D";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_Medic_D";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_AR_D";
+						rank = "CORPORAL";
+						position[] = {-5,-5,0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_Rifleman_D";
+						rank = "PRIVATE";
+						position[] = {10,-10,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_TL_D";
+						rank = "PRIVATE";
+						position[] = {-10,-10,0};
+					};
+					class Unit5
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_AR_D";
+						rank = "CORPORAL";
+						position[] = {15,-15,0};
+					};
+					class Unit6
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_RAT_D";
+						rank = "PRIVATE";
+						position[] = {-15,-15,0};
+					};
+					class Unit7
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_Rifleman_D";
+						rank = "PRIVATE";
+						position[] = {20,-20,0};
+					};
+					class Unit8
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_Vehicle_M2A1_d";
+						rank = "PRIVATE";
+						position[] = {25,-25,0};
+					};
+				};
+				class USAREUR90_MechWeaponsSquad_des
+				{
+					name = "Mechanized Weapons Squad (M2A1/Desert)";
+					side = 1;
+					faction = "FP_Faction_USAREUR90";
+					class Unit0
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_TL_D";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_Medic_D";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_MMG_D";
+						rank = "CORPORAL";
+						position[] = {-5,-5,0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_AMMG_D";
+						rank = "PRIVATE";
+						position[] = {10,-10,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_TL_D";
+						rank = "PRIVATE";
+						position[] = {-10,-10,0};
+					};
+					class Unit5
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_MMG_D";
+						rank = "CORPORAL";
+						position[] = {15,-15,0};
+					};
+					class Unit6
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_RAT_D";
+						rank = "PRIVATE";
+						position[] = {-15,-15,0};
+					};
+					class Unit7
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_AMMG_D";
+						rank = "PRIVATE";
+						position[] = {20,-20,0};
+					};
+					class Unit8
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_Vehicle_M2A1_d";
+						rank = "PRIVATE";
+						position[] = {25,-25,0};
+					};
+				};
+				class USAREUR90_MechPltHQ_des
+				{
+					name = "Mechanized Platoon HQ (M2A1/Desert)";
+					side = 1;
+					faction = "FP_Faction_USAREUR90";
+					class Unit0
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_SL_D";
+						rank = "CORPORAL";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_Medic_D";
+						rank = "PRIVATE";
+						position[] = {5,-2,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_Medic_D";
+						rank = "PRIVATE";
+						position[] = {10,-4,0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_Vehicle_M2A1_d";
+						rank = "PRIVATE";
+						position[] = {15,-6,0};
+					};
+				};
+				class USAREUR90_MANPADSTeam_des
+				{
+					name = "Mechanized MANPADS Team (M2A1/Desert)";
+					side = 1;
+					faction = "FP_Faction_USAREUR90";
+					class Unit0
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_MANPADS_D";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_AMANPADS_D";
+						rank = "CORPORAL";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_Vehicle_M2A1_d";
+						rank = "PRIVATE";
+						position[] = {10,-10,0};
+					};
+				};
 			};
 			class Support
 			{
-				name = "USAREUR 1990 Company Attachments";
+				name = "USA (1990) Company Attachments";
 				class USAREUR90_DoctorTeam
 				{
 					name = "Medical Team";
@@ -569,6 +975,135 @@ class CfgGroups
 						position[] = {5,-5,0};
 					};
 				};
+             //------------------------------------------------------------Desert guys------------------------------------------------------------
+				class USAREUR90_DoctorTeam_Des
+				{
+					name = "Medical Team (Desert)";
+					side = 1;
+					faction = "FP_Faction_USAREUR90";
+					class Unit0
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_TL_D";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_Medic_D";
+						rank = "CORPORAL";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_Medic_D";
+						rank = "PRIVATE";
+						position[] = {-5,-5,0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_Rifleman_D";
+						rank = "PRIVATE";
+						position[] = {10,-10,0};
+					};
+				};
+				class USAREUR90_MMGTeam_Des
+				{
+					name = "MMG Team (Desert)";
+					side = 1;
+					faction = "FP_Faction_USAREUR90";
+					class Unit0
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_MMG_D";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_AMMG_D";
+						rank = "CORPORAL";
+						position[] = {5,-5,0};
+					};
+				};
+				class USAREUR90_EngineerTeam_Des
+				{
+					name = "Engineering Support Team (Desert)";
+					side = 1;
+					faction = "FP_Faction_USAREUR90";
+					class Unit0
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_TL_D";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_Engineer_D";
+						rank = "CORPORAL";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_Engineer_D";
+						rank = "PRIVATE";
+						position[] = {-5,-5,0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_Engineer_D";
+						rank = "PRIVATE";
+						position[] = {10,-10,0};
+					};
+				};
+				class USAREUR90_MATTeam_Des
+				{
+					name = "MAT Team (Desert)";
+					side = 1;
+					faction = "FP_Faction_USAREUR90";
+					class Unit0
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_MAT_D";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_AMAT_D";
+						rank = "CORPORAL";
+						position[] = {5,-5,0};
+					};
+				};
+				class USAREUR90_MANPADSTeam_Des
+				{
+					name = "MANPADS Team (Desert)";
+					side = 1;
+					faction = "FP_Faction_USAREUR90";
+					class Unit0
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_MANPADS_D";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "FP_Faction_USAREUR90_AMANPADS_D";
+						rank = "CORPORAL";
+						position[] = {5,-5,0};
+					};
+				};
 			};
 		};
 	};
@@ -612,9 +1147,9 @@ class cfgvehicles
 		scope = 1;
 		class TransportMagazines
 		{
-			class _xx_hlc_200rnd_556x45_M_SAW
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249
 			{
-				magazine = "hlc_200rnd_556x45_M_SAW";
+				magazine = "CUP_200Rnd_TE4_Red_Tracer_556x45_M249";
 				count = 5;
 			};
 		};
@@ -711,7 +1246,7 @@ class cfgvehicles
 		side = 1;
 		faction = "FP_Faction_USAREUR90";
 		genericNames = "NATOMen";
-		vehicleClass = "Men";
+		vehicleClass = "fp_men_woodland";
 		portrait = "";
 		picture = "";
 		icon = "iconMan";
@@ -763,10 +1298,10 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Automatic Rifleman";
-		weapons[] = {"hlc_lmg_minimi","RH_m9","Throw","Put"};
-		respawnWeapons[] = {"hlc_lmg_minimi","RH_m9","Throw","Put"};
-		magazines[] = {"hlc_200rnd_556x45_M_SAW","hlc_200rnd_556x45_M_SAW","hlc_200rnd_556x45_M_SAW","hlc_200rnd_556x45_M_SAW","RH_15Rnd_9x19_M9","RH_15Rnd_9x19_M9","RH_15Rnd_9x19_M9","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
-		respawnMagazines[] = {"hlc_200rnd_556x45_M_SAW","hlc_200rnd_556x45_M_SAW","hlc_200rnd_556x45_M_SAW","hlc_200rnd_556x45_M_SAW","RH_15Rnd_9x19_M9","RH_15Rnd_9x19_M9","RH_15Rnd_9x19_M9","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
+		weapons[] = {"CUP_lmg_minimi","RH_m9","Throw","Put"};
+		respawnWeapons[] = {"CUP_lmg_minimi","RH_m9","Throw","Put"};
+		magazines[] = {"CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","RH_15Rnd_9x19_M9","RH_15Rnd_9x19_M9","RH_15Rnd_9x19_M9","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
+		respawnMagazines[] = {"CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","RH_15Rnd_9x19_M9","RH_15Rnd_9x19_M9","RH_15Rnd_9x19_M9","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
 		cost = 95000;
 		threat[] = {1,0.1,0.3};
 		icon = "iconManMG";
@@ -1089,6 +1624,182 @@ class cfgvehicles
 		cost = 65000;
 		threat[] = {1,0.1,0.3};
 	};
+	class FP_Faction_USAREUR90_Rifleman_D: FP_Faction_USAREUR90_Rifleman
+	{
+		author = "FP Mod Team";
+		scope = 2;
+		scopeCurator = 2;
+		vehicleClass = "fp_men_desert";
+		headgearProbability = 100;
+		uniformClass = "usm_bdu_dcu";
+		linkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	};
+	class FP_Faction_USAREUR90_AR_D: FP_Faction_USAREUR90_AR
+	{
+		author = "FP Mod Team";
+		scope = 2;
+		scopeCurator = 2;
+		vehicleClass = "fp_men_desert";
+		headgearProbability = 100;
+		uniformClass = "usm_bdu_dcu";
+		linkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_g_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_g_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	};
+	class FP_Faction_USAREUR90_AAR_D: FP_Faction_USAREUR90_AAR
+	{
+		author = "FP Mod Team";
+		scope = 2;
+		scopeCurator = 2;
+		vehicleClass = "fp_men_desert";
+		headgearProbability = 100;
+		uniformClass = "usm_bdu_dcu";
+		linkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	};
+	class FP_Faction_USAREUR90_TL_D: FP_Faction_USAREUR90_TL
+	{
+		author = "FP Mod Team";
+		scope = 2;
+		scopeCurator = 2;
+		vehicleClass = "fp_men_desert";
+		headgearProbability = 100;
+		uniformClass = "usm_bdu_dcu";
+		linkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_g_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_g_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	};
+	class FP_Faction_USAREUR90_SL_D: FP_Faction_USAREUR90_SL
+	{
+		author = "FP Mod Team";
+		scope = 2;
+		scopeCurator = 2;
+		vehicleClass = "fp_men_desert";
+		headgearProbability = 100;
+		uniformClass = "usm_bdu_dcu";
+		linkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	};
+	class FP_Faction_USAREUR90_DM_D: FP_Faction_USAREUR90_DM
+	{
+		author = "FP Mod Team";
+		scope = 2;
+		scopeCurator = 2;
+		vehicleClass = "fp_men_desert";
+		headgearProbability = 100;
+		uniformClass = "usm_bdu_dcu";
+		linkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	};
+	class FP_Faction_USAREUR90_RAT_D: FP_Faction_USAREUR90_RAT
+	{
+		author = "FP Mod Team";
+		scope = 2;
+		scopeCurator = 2;
+		vehicleClass = "fp_men_desert";
+		headgearProbability = 100;
+		uniformClass = "usm_bdu_dcu";
+		linkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_g_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_g_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	};
+	class FP_Faction_USAREUR90_Medic_D: FP_Faction_USAREUR90_Medic
+	{
+		author = "FP Mod Team";
+		scope = 2;
+		scopeCurator = 2;
+		vehicleClass = "fp_men_desert";
+		headgearProbability = 100;
+		uniformClass = "usm_bdu_dcu";
+		linkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_g_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_g_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	};
+	class FP_Faction_USAREUR90_Crewman_D: FP_Faction_USAREUR90_Crewman
+	{
+		author = "FP Mod Team";
+		scope = 2;
+		scopeCurator = 2;
+		vehicleClass = "fp_men_desert";
+		headgearProbability = 100;
+		uniformClass = "usm_bdu_dcu";
+		linkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	};
+	class FP_Faction_USAREUR90_Engineer_D: FP_Faction_USAREUR90_Engineer
+	{
+		author = "FP Mod Team";
+		scope = 2;
+		scopeCurator = 2;
+		vehicleClass = "fp_men_desert";
+		headgearProbability = 100;
+		uniformClass = "usm_bdu_dcu";
+		linkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_g_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_g_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	};
+	class FP_Faction_USAREUR90_MMG_D: FP_Faction_USAREUR90_MMG
+	{
+		author = "FP Mod Team";
+		scope = 2;
+		scopeCurator = 2;
+		vehicleClass = "fp_men_desert";
+		headgearProbability = 100;
+		uniformClass = "usm_bdu_dcu";
+		linkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_g_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_g_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	};
+	class FP_Faction_USAREUR90_AMMG_D: FP_Faction_USAREUR90_AMMG
+	{
+		author = "FP Mod Team";
+		scope = 2;
+		scopeCurator = 2;
+		vehicleClass = "fp_men_desert";
+		headgearProbability = 100;
+		uniformClass = "usm_bdu_dcu";
+		linkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	};
+	class FP_Faction_USAREUR90_MAT_D: FP_Faction_USAREUR90_MAT
+	{
+		author = "FP Mod Team";
+		scope = 2;
+		scopeCurator = 2;
+		vehicleClass = "fp_men_desert";
+		headgearProbability = 100;
+		uniformClass = "usm_bdu_dcu";
+		linkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_g_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_g_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	};
+	class FP_Faction_USAREUR90_AMAT_D: FP_Faction_USAREUR90_AMAT
+	{
+		author = "FP Mod Team";
+		scope = 2;
+		scopeCurator = 2;
+		vehicleClass = "fp_men_desert";
+		headgearProbability = 100;
+		uniformClass = "usm_bdu_dcu";
+		linkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_g_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_g_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	};
+	class FP_Faction_USAREUR90_MANPADS_D: FP_Faction_USAREUR90_MANPADS
+	{
+		author = "FP Mod Team";
+		scope = 2;
+		scopeCurator = 2;
+		vehicleClass = "fp_men_desert";
+		headgearProbability = 100;
+		uniformClass = "usm_bdu_dcu";
+		linkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	};
+	class FP_Faction_USAREUR90_AMANPADS_D: FP_Faction_USAREUR90_AMANPADS
+	{
+		author = "FP Mod Team";
+		scope = 2;
+		scopeCurator = 2;
+		vehicleClass = "fp_men_desert";
+		headgearProbability = 100;
+		uniformClass = "usm_bdu_dcu";
+		linkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	};
 	class CUP_B_M113_USA;
     class CUP_B_M163_USA;
     class CUP_B_HMMWV_M2_USMC;
@@ -1097,6 +1808,7 @@ class cfgvehicles
 	class cwr2_M60A3_USMC;
 	class CUP_B_M1A1_Woodland_USMC;
 	class CUP_B_M2Bradley_USA_W;
+	class CUP_B_M2Bradley_USA_D;
 	class FP_Faction_USAREUR90_Vehicle_Gavin: CUP_B_M113_USA
 	{
 	    displayName = "Gavin";
@@ -1136,6 +1848,15 @@ class cfgvehicles
 	class FP_Faction_USAREUR90_Vehicle_M2A1: CUP_B_M2Bradley_USA_W
 	{
 	    displayName = "M2A1 Bradley";
+		author = "RHS & FP Mod Team";
+		faction = "FP_Faction_USAREUR90";
+		category = "Armored";
+		vehicleClass = "Armored";
+		crew = "FP_Faction_USAREUR90_Crewman";
+	};
+	class FP_Faction_USAREUR90_Vehicle_M2A1_d: CUP_B_M2Bradley_USA_D
+	{
+	    displayName = "M2A1 Bradley (Desert)";
 		author = "RHS & FP Mod Team";
 		faction = "FP_Faction_USAREUR90";
 		category = "Armored";
