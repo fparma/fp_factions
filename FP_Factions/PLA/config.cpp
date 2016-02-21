@@ -504,6 +504,7 @@ class cfgvehicles
 		faction = "FP_Faction_PLA";
 		genericNames = "ChineseMen";
 		vehicleClass = "fp_men_universal";
+	    editorSubcategory = "fp_men_universal_EdSubcat";
 		portrait = "";
 		picture = "";
 		icon = "iconMan";

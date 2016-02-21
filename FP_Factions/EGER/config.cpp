@@ -1439,7 +1439,6 @@ class cfgvehicles
 		category = "Armored";
 		vehicleClass = "Armored";
 		crew = "FP_Faction_EGER85_Crewman";
-		hiddenSelectionsTextures[] = {"FP_Factions\EGER\trup_ext0_co.paa","FP_Factions\EGER\bmp1_turret_eger.paa"};
 		side = 0;
 	};
 	class CUP_I_T55_TK_GUE;

@@ -2,7 +2,7 @@ class CfgPatches
 {
 	class FP_Factions_MEC
 	{
-		units[] = {"FP_Faction_MEC_Soldier_BASE","FP_Faction_MEC_Rifleman","FP_Faction_MEC_Rifleman_Optics","FP_Faction_MEC_RTO","FP_Faction_MEC_AR","FP_Faction_MEC_AAR","FP_Faction_MEC_SL","FP_Faction_MEC_TL","FP_Faction_MEC_DM","FP_Faction_MEC_RAT","FP_Faction_MEC_Medic","FP_Faction_MEC_Crewman","FP_Faction_MEC_Engineer","FP_Faction_MEC_MMG","FP_Faction_MEC_AMMG","FP_Faction_MEC_MAT","FP_Faction_MEC_AMAT","FP_Faction_MEC_MANPADS","FP_Faction_MEC_AMANPADS","FP_Faction_MEC_Recon_Rifleman","FP_Faction_MEC_Recon_Marksman","FP_Faction_MEC_Recon_Gunner","FP_Faction_MEC_Recon_Grenadier","FP_Faction_MEC_Recon_PatrolLeader","FP_Faction_MEC_Recon_Medic","FP_Faction_MEC_Vehicle_BTR90","FP_Faction_MEC_Vehicle_UAZ_Open","FP_Faction_MEC_Vehicle_UAZ_AGS30","FP_Faction_MEC_Vehicle_UAZ_Metis"};
+		units[] = {"FP_Faction_MEC_Soldier_BASE","FP_Faction_MEC_Rifleman","FP_Faction_MEC_Rifleman_Optics","FP_Faction_MEC_RTO","FP_Faction_MEC_AR","FP_Faction_MEC_AAR","FP_Faction_MEC_SL","FP_Faction_MEC_TL","FP_Faction_MEC_DM","FP_Faction_MEC_RAT","FP_Faction_MEC_Medic","FP_Faction_MEC_Crewman","FP_Faction_MEC_Engineer","FP_Faction_MEC_MMG","FP_Faction_MEC_AMMG","FP_Faction_MEC_MAT","FP_Faction_MEC_AMAT","FP_Faction_MEC_MANPADS","FP_Faction_MEC_AMANPADS","FP_Faction_MEC_Recon_Rifleman","FP_Faction_MEC_Recon_Marksman","FP_Faction_MEC_Recon_Gunner","FP_Faction_MEC_Recon_Grenadier","FP_Faction_MEC_Recon_PatrolLeader","FP_Faction_MEC_Recon_Medic","FP_Faction_MEC_Vehicle_BTR90_U","FP_Faction_MEC_Vehicle_BTR90_d","FP_Faction_MEC_Vehicle_BTR90_o","FP_Faction_MEC_Vehicle_BTR90_w","FP_Faction_MEC_Vehicle_UAZ_Open","FP_Faction_MEC_Vehicle_UAZ_AGS30","FP_Faction_MEC_Vehicle_UAZ_Metis"};
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {};
@@ -361,7 +361,7 @@ class CfgGroups
 					class Unit8
 					{
 						side = 2;
-						vehicle = "FP_Faction_MEC_Vehicle_BTR90";
+						vehicle = "FP_Faction_MEC_Vehicle_BTR90_d";
 						rank = "PRIVATE";
 						position[] = {-20,-20,0};
 					};
@@ -430,7 +430,7 @@ class CfgGroups
 					class Unit8
 					{
 						side = 2;
-						vehicle = "FP_Faction_MEC_Vehicle_BTR90";
+						vehicle = "FP_Faction_MEC_Vehicle_BTR90_d";
 						rank = "PRIVATE";
 						position[] = {-20,-20,0};
 					};
@@ -627,6 +627,7 @@ class cfgvehicles
 		faction = "FP_Faction_MEC";
 		genericNames = "TakistaniMen";
 		vehicleClass = "fp_men_shockdesert";
+	    editorSubcategory = "fp_men_desert_EdSubcat";
 		portrait = "";
 		picture = "";
 		icon = "iconMan";
@@ -1029,7 +1030,8 @@ class cfgvehicles
 		cost = 100000;
 		headgearProbability = 100;
 		vehicleClass = "fp_men_sfdesert";
-		uniformClass = "FP_Uniform_MECDigiDesert"; 
+	    editorSubcategory = "fp_men_sfdesert_EdSubcat";
+		uniformClass = "FP_Uniform_MECDigiDesert";
         weapons[] = {"hlc_rifle_hk53_MEC_surpressed","Throw","Put"};
         respawnWeapons[] = {"hlc_rifle_hk53_MEC_surpressed","Throw","Put"};
 		magazines[] = {"hlc_30rnd_556x45_SOST_HK33","hlc_30rnd_556x45_SOST_HK33","hlc_30rnd_556x45_SOST_HK33","hlc_30rnd_556x45_SOST_HK33","hlc_30rnd_556x45_SOST_HK33","hlc_30rnd_556x45_SOST_HK33","hlc_30rnd_556x45_SOST_HK33","hlc_30rnd_556x45_SOST_HK33","hlc_30rnd_556x45_SOST_HK33","hlc_30rnd_556x45_SOST_HK33","HandGrenade","HandGrenade","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2"};
@@ -1129,12 +1131,32 @@ class cfgvehicles
 		crew = "FP_Faction_MEC_Rifleman";
 		side = 2;
 	};
-	class FP_Faction_MEC_Vehicle_BTR90: CUP_O_BTR90_RU
+	class FP_Faction_MEC_Vehicle_BTR90_U: CUP_O_BTR90_RU
 	{
 		author = "CUP & FP Mod Team";
 		faction = "FP_Faction_MEC";
-		crew = "FP_Faction_MEC_Rifleman";
+		crew = "FP_Faction_MEC_Crewman";
 		side = 2;
+		displayName = "BTR-90 (Universal)";
+		hiddenSelectionsTextures[] = {"FP_Factions\MEC\oink2.paa","FP_Factions\MEC\oink.paa"};
+	};
+	class FP_Faction_MEC_Vehicle_BTR90_d: FP_Faction_MEC_Vehicle_BTR90_U
+	{
+		author = "CUP & FP Mod Team";
+		displayName = "BTR-90 (Desert)";
+		hiddenSelectionsTextures[] = {"FP_Factions\MEC\desert.paa","FP_Factions\MEC\desert2.paa"};
+	};
+	class FP_Faction_MEC_Vehicle_BTR90_o: FP_Faction_MEC_Vehicle_BTR90_U
+	{
+		author = "CUP & FP Mod Team";
+		displayName = "BTR-90 (Olive)";
+		hiddenSelectionsTextures[] = {"FP_Factions\MEC\olive.paa","FP_Factions\MEC\olive2.paa"};
+	};
+	class FP_Faction_MEC_Vehicle_BTR90_w: FP_Faction_MEC_Vehicle_BTR90_U
+	{
+		author = "CUP & FP Mod Team";
+		displayName = "BTR-90 (Woodland)";
+		hiddenSelectionsTextures[] = {"FP_Factions\MEC\woodland.paa","FP_Factions\MEC\woodland2.paa"};
 	};
 };
 class cfgWeapons
