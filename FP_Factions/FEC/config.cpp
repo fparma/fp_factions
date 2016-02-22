@@ -5,7 +5,7 @@ class CfgPatches
 		units[] = {"FP_Faction_FEC_Soldier_BASE","FP_Faction_FEC_Rifleman","FP_Faction_FEC_Rifleman_AK74","FP_Faction_FEC_Rifleman_Stg58","FP_Faction_FEC_AR","FP_Faction_FEC_AAR","FP_Faction_FEC_Commander","FP_Faction_FEC_SL","FP_Faction_FEC_TL","FP_Faction_FEC_DM","FP_Faction_FEC_RAT","FP_Faction_FEC_Medic","FP_Faction_FEC_Crewman","FP_Faction_FEC_Engineer","FP_Faction_FEC_MMG","FP_Faction_FEC_AMMG","FP_Faction_FEC_MAT","FP_Faction_FEC_AMAT","FP_Faction_FEC_MANPADS","FP_Faction_FEC_AMANPADS","FP_Faction_FEC_Vehicle_LandRover","FP_Faction_FEC_Vehicle_DatsunPK","FP_Faction_FEC_Vehicle_Brdm2","FP_Faction_FEC_Vehicle_UralZU23","FP_Faction_FEC_Vehicle_DshkmUAZ","FP_Faction_FEC_Vehicle_UAZ"};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {};
+		requiredAddons[] = {"CUP_WheeledVehicles_LR", "CUP_WheeledVehicles_BRDM2", "CUP_WheeledVehicles_Datsun", "CUP_WheeledVehicles_UAZ", "CUP_WheeledVehicles_Ural"};
 	};
 };
 class CfgFactionClasses
@@ -1071,6 +1071,3 @@ class cfgvehicles
 		side = 2;
 	};
 };
-
-
-

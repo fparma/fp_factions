@@ -5,7 +5,7 @@ class CfgPatches
 		units[] = {"FP_Faction_MEC_Soldier_BASE","FP_Faction_MEC_Rifleman","FP_Faction_MEC_Rifleman_Optics","FP_Faction_MEC_RTO","FP_Faction_MEC_AR","FP_Faction_MEC_AAR","FP_Faction_MEC_SL","FP_Faction_MEC_TL","FP_Faction_MEC_DM","FP_Faction_MEC_RAT","FP_Faction_MEC_Medic","FP_Faction_MEC_Crewman","FP_Faction_MEC_Engineer","FP_Faction_MEC_MMG","FP_Faction_MEC_AMMG","FP_Faction_MEC_MAT","FP_Faction_MEC_AMAT","FP_Faction_MEC_MANPADS","FP_Faction_MEC_AMANPADS","FP_Faction_MEC_Recon_Rifleman","FP_Faction_MEC_Recon_Marksman","FP_Faction_MEC_Recon_Gunner","FP_Faction_MEC_Recon_Grenadier","FP_Faction_MEC_Recon_PatrolLeader","FP_Faction_MEC_Recon_Medic","FP_Faction_MEC_Vehicle_BTR90_U","FP_Faction_MEC_Vehicle_BTR90_d","FP_Faction_MEC_Vehicle_BTR90_o","FP_Faction_MEC_Vehicle_BTR90_w","FP_Faction_MEC_Vehicle_UAZ_Open","FP_Faction_MEC_Vehicle_UAZ_AGS30","FP_Faction_MEC_Vehicle_UAZ_Metis"};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {};
+		requiredAddons[] = {"CUP_WheeledVehicles_UAZ", "CUP_WheeledVehicles_BTR90"};
 	};
 };
 class CfgFactionClasses

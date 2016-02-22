@@ -5,7 +5,7 @@ class CfgPatches
 		units[] = {"FP_Faction_GSFG85_Soldier_BASE","FP_Faction_GSFG85_Rifleman","FP_Faction_GSFG85_AR","FP_Faction_GSFG85_AAR","FP_Faction_GSFG85_SL","FP_Faction_GSFG85_TL","FP_Faction_GSFG85_DM","FP_Faction_GSFG85_RAT","FP_Faction_GSFG85_Medic","FP_Faction_GSFG85_Crewman","FP_Faction_GSFG85_Engineer","FP_Faction_GSFG85_MMG","FP_Faction_GSFG85_AMMG","FP_Faction_GSFG85_MAT","FP_Faction_GSFG85_AMAT","FP_Faction_GSFG85_MANPADS","FP_Faction_GSFG85_AMANPADS","FP_Faction_GSFG85_Vehicle_BTR60","FP_Faction_GSFG85_Vehicle_BMP2","FP_Faction_GSFG85_Vehicle_T72"};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {};
+		requiredAddons[] = {"CUP_Weapons_RPG7", "CUP_TrackedVehicles_BMP", "CUP_TrackedVehicles_T72"};
 	};
 };
 class CfgFactionClasses
