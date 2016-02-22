@@ -5,7 +5,7 @@ class CfgPatches
 		units[] = {"FP_Faction_IDF_Soldier_BASE","FP_Faction_IDF_Rifleman","FP_Faction_IDF_AR","FP_Faction_IDF_AAR","FP_Faction_IDF_SL","FP_Faction_IDF_TL","FP_Faction_IDF_DM","FP_Faction_IDF_RAT","FP_Faction_IDF_Medic","FP_Faction_IDF_Crewman","FP_Faction_IDF_Engineer","FP_Faction_IDF_MMG","FP_Faction_IDF_AMMG","FP_Faction_IDF_MAT","FP_Faction_IDF_AMAT","FP_Faction_IDF_MANPADS","FP_Faction_IDF_AMANPADS","FP_Faction_IDF_Vehicle_Bardehlas","FP_Faction_IDF_Vehicle_Namer","FP_Faction_IDF_Vehicle_HumveeM2","FP_Faction_IDF_Vehicle_Humvee"};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {};
+		requiredAddons[] = {"RH_m4", "A3_Weapons_F", "A3_Data_F"};
 	};
 };
 class CfgFactionClasses

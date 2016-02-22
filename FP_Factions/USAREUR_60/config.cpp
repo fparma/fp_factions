@@ -5,7 +5,7 @@ class CfgPatches
 		units[] = {"FP_Faction_USAREUR60_Soldier_BASE","FP_Faction_USAREUR60_Rifleman","FP_Faction_USAREUR60_AR","FP_Faction_USAREUR60_AAR","FP_Faction_USAREUR60_SL","FP_Faction_USAREUR60_TL","FP_Faction_USAREUR60_RTO","FP_Faction_USAREUR60_DM","FP_Faction_USAREUR60_RAT","FP_Faction_USAREUR60_Medic","FP_Faction_USAREUR60_Crewman","FP_Faction_USAREUR60_AR","FP_Faction_USAREUR60_AAR","FP_Faction_USAREUR60_Vehicle_M113"};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {};
+		requiredAddons[] = {"hlcweapons_m14", "CUP_TrackedVehicles_M113"};
 	};
 };
 class CfgFactionClasses
@@ -523,47 +523,6 @@ class cfgvehicles
 		cost = 100000;
 		headgearProbability = 100;
 		allowedHeadgear[] = {"H_mas_gue_HelmetI"};
-	};
-	class FP_Faction_USAREUR60_AR: FP_Faction_USAREUR60_Soldier_BASE
-	{
-		class SpeechVariants
-		{
-			class Default
-			{
-				speechSingular[] = {"veh_infantry_MG_s"};
-				speechPlural[] = {"veh_infantry_MG_p"};
-			};
-		};
-		textSingular = "$STR_A3_nameSound_veh_infantry_MG_s";
-		textPlural = "$STR_A3_nameSound_veh_infantry_MG_p";
-		nameSound = "veh_infantry_MG_s";
-		author = "FP Mod Team";
-		scope = 2;
-		scopeCurator = 2;
-		displayName = "Automatic Rifleman";
-		weapons[] = {"hlc_rifle_M14_Bipod","RH_m1911","Throw","Put"};
-		respawnWeapons[] = {"hlc_rifle_M14_Bipod","RH_m1911","Throw","Put"};
-		magazines[] = {"hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","RH_7Rnd_45cal_m1911","RH_7Rnd_45cal_m1911","RH_7Rnd_45cal_m1911","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
-		respawnMagazines[] = {"hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_B_M14","RH_7Rnd_45cal_m1911","RH_7Rnd_45cal_m1911","RH_7Rnd_45cal_m1911","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
-		cost = 95000;
-		threat[] = {1,0.1,0.3};
-		icon = "iconManMG";
-		linkedItems[] = {"usm_vest_LBE_mg","H_mas_gue_HelmetI","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"usm_vest_LBE_mg","H_mas_gue_HelmetI","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		headgearProbability = 100;
-		allowedHeadgear[] = {"H_mas_gue_HelmetI"};
-	};
-	class FP_Faction_USAREUR60_AAR: FP_Faction_USAREUR60_Soldier_BASE
-	{
-		author = "FP Mod Team";
-		scope = 2;
-		scopeCurator = 2;
-		displayName = "Assistant Automatic Rifleman";
-		backpack = "CUP_B_AlicePack_Khaki_AAR_USAREUR60";
-		headgearProbability = 100;
-		allowedHeadgear[] = {"H_mas_gue_HelmetI"};
-		cost = 65000;
-		threat[] = {1,0.1,0.3};
 	};
 	class FP_Faction_USAREUR60_SL: FP_Faction_USAREUR60_Soldier_BASE
 	{

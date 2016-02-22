@@ -5,7 +5,7 @@ class CfgPatches
 		units[] = {"FP_Faction_USAREUR75_Soldier_BASE","FP_Faction_USAREUR75_Rifleman","FP_Faction_USAREUR75_AR","FP_Faction_USAREUR75_AAR","FP_Faction_USAREUR75_SL","FP_Faction_USAREUR75_TL","FP_Faction_USAREUR75_RTO","FP_Faction_USAREUR75_Grenadier","FP_Faction_USAREUR75_DM","FP_Faction_USAREUR75_RAT","FP_Faction_USAREUR75_Medic","FP_Faction_USAREUR75_Crewman","FP_Faction_USAREUR75_Vehicle_M113","FP_Faction_USAREUR75_Vehicle_M60A1"};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {};
+		requiredAddons[] = {"A3_Data_F", "cwr2_M60_tank", "CUP_TrackedVehicles_M113"};
 	};
 };
 class CfgFactionClasses

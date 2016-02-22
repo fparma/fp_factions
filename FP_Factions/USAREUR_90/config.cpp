@@ -5,7 +5,7 @@ class CfgPatches
 		units[] = {"FP_Faction_USAREUR90_Soldier_BASE","FP_Faction_USAREUR90_Rifleman","FP_Faction_USAREUR90_AR","FP_Faction_USAREUR90_AAR","FP_Faction_USAREUR90_SL","FP_Faction_USAREUR90_TL","FP_Faction_USAREUR90_DM","FP_Faction_USAREUR90_RAT","FP_Faction_USAREUR90_Medic","FP_Faction_USAREUR90_Crewman","FP_Faction_USAREUR90_Engineer","FP_Faction_USAREUR90_MMG","FP_Faction_USAREUR90_AMMG","FP_Faction_USAREUR90_MAT","FP_Faction_USAREUR90_AMAT","FP_Faction_USAREUR90_MANPADS","FP_Faction_USAREUR90_AMANPADS","FP_Faction_USAREUR90_Rifleman_D","FP_Faction_USAREUR90_AR_D","FP_Faction_USAREUR90_AAR_D","FP_Faction_USAREUR90_SL_D","FP_Faction_USAREUR90_TL_D","FP_Faction_USAREUR90_DM_D","FP_Faction_USAREUR90_RAT_D","FP_Faction_USAREUR90_Medic_D","FP_Faction_USAREUR90_Crewman_D","FP_Faction_USAREUR90_Engineer_D","FP_Faction_USAREUR90_MMG_D","FP_Faction_USAREUR90_AMMG_D","FP_Faction_USAREUR90_MAT_D","FP_Faction_USAREUR90_AMAT_D","FP_Faction_USAREUR90_MANPADS_D","FP_Faction_USAREUR90_AMANPADS_D","FP_Faction_USAREUR90_Vehicle_Gavin","FP_Faction_USAREUR90_Vehicle_M163","FP_Faction_USAREUR90_Vehicle_HumveeM2","FP_Faction_USAREUR90_Vehicle_Humvee","FP_Faction_USAREUR90_Vehicle_M60A3","FP_Faction_USAREUR90_Vehicle_M1","FP_Faction_USAREUR90_Vehicle_M2A1","FP_Faction_USAREUR90_Vehicle_TOW","FP_Faction_USAREUR90_Vehicle_M2A1_d"};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {};
+		requiredAddons[] = {"CUP_TrackedVehicles_M113", "cwr2_M60_tank", "CUP_TrackedVehicles_Bradley", "CUP_TrackedVehicles_M1_Abrams", "CUP_WheeledVehicles_HMMWV"};
 	};
 };
 class CfgFactionClasses

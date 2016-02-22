@@ -5,7 +5,7 @@ class CfgPatches
 		units[] = {"FP_Faction_EGER85_Soldier_BASE","FP_Faction_EGER85_Rifleman","FP_Faction_EGER85_AR","FP_Faction_EGER85_AAR","FP_Faction_EGER85_SL","FP_Faction_EGER85_TL","FP_Faction_EGER85_DM","FP_Faction_EGER85_RAT","FP_Faction_EGER85_Medic","FP_Faction_EGER85_Crewman","FP_Faction_EGER85_Engineer","FP_Faction_EGER85_MMG","FP_Faction_EGER85_AMMG","FP_Faction_EGER85_MAT","FP_Faction_EGER85_AMAT","FP_Faction_EGER85_MANPADS","FP_Faction_EGER85_AMANPADS","FP_Faction_EGER85_Vehicle_BTR60","FP_Faction_EGER85_Vehicle_BMP1","FP_Faction_EGER85_Vehicle_T55","FP_Faction_EGER85_Vehicle_BRDM2"};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {};
+		requiredAddons[] = {"CUP_Weapons_RPG7"};
 	};
 };
 class CfgFactionClasses
