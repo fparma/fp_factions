@@ -977,6 +977,7 @@ class cfgvehicles
 		respawnMagazines[] = {"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M","RH_17Rnd_9x19_g17","RH_17Rnd_9x19_g17","RH_17Rnd_9x19_g17","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
 		cost = 95000;
 		threat[] = {1,0.1,0.3};
+		backpack = "B_FieldPack_khk_MMG_IDF";
 		icon = "iconManMG";
 		linkedItems[] = {"FP_Carrier_GreenPatchless","IDF_Helmet_Mitsnefet_1","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"FP_Carrier_GreenPatchless","IDF_Helmet_Mitsnefet_1","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
@@ -1061,7 +1062,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "MANPADS Gunner";
-		backpack = "B_FieldPack_khk_MANPADS_IDF";
+		backpack = "B_FieldPack_cbr_MANPADS_IDF";
 		weapons[] = {"RH_m4_IDF","CUP_launch_FIM92Stinger","Throw","Put"};
 		respawnWeapons[] = {"RH_m4_IDF","CUP_launch_FIM92Stinger","Throw","Put"};
 		magazines[] = {"RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","SmokeShell","SmokeShellRed"};
@@ -1079,7 +1080,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "MANPADS Assistant";
-		backpack = "B_FieldPack_khk_MANPADS_IDF";
+		backpack = "B_FieldPack_cbr_MANPADS_IDF";
 		weapons[] = {"RH_m4_IDF","Throw","Put"};
 		respawnWeapons[] = {"RH_m4_IDF","Throw","Put"};
 		magazines[] = {"RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","RH_30Rnd_556x45_M855A1","SmokeShell","SmokeShellRed"};

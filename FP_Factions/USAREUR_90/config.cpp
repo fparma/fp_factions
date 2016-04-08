@@ -234,7 +234,10 @@ class CfgGroups
 						position[] = {10,-4,0};
 					};
 				};
-                //----------------------------------------------------------------------------------------Desert guys -------------------------------------------------------------------------------------------
+			};
+			class InfantryDesert
+			{
+				name = "USA (1990) Infantry Desert";				
 				class USAREUR90_Riflesquad_des
 				{
 					name = "Rifle Squad (Desert)";
@@ -643,7 +646,10 @@ class CfgGroups
 						position[] = {10,-10,0};
 					};
 				};
-                //---------------------------------------------------------------------------desert guys----------------------------------------------------------------------------------
+			};
+			class MechanizedDesert
+			{
+				name = "USA (1990) Mechanized Infantry Desert";
 				class USAREUR90_MechRiflesquad_des
 				{
 					name = "Mechanized Rifle Squad (M2A1/Desert)";
@@ -975,7 +981,10 @@ class CfgGroups
 						position[] = {5,-5,0};
 					};
 				};
-             //------------------------------------------------------------Desert guys------------------------------------------------------------
+			};
+			class SupportDes
+			{
+				name = "USA (1990) Company Attachments Desert";
 				class USAREUR90_DoctorTeam_Des
 				{
 					name = "Medical Team (Desert)";
@@ -1247,6 +1256,7 @@ class cfgvehicles
 		faction = "FP_Faction_USAREUR90";
 		genericNames = "NATOMen";
 		vehicleClass = "fp_men_woodland";
+	    editorSubcategory = "fp_men_woodland_EdSubcat";
 		portrait = "";
 		picture = "";
 		icon = "iconMan";
@@ -1276,6 +1286,8 @@ class cfgvehicles
 		_generalMacro = "FP_Faction_USAREUR90_Soldier_BASE";
 		scope = 2;
 		scopeCurator = 2;
+		vehicleClass = "fp_men_woodland";
+	    editorSubcategory = "fp_men_woodland_EdSubcat";
 		displayName = "Rifleman";
 		cost = 100000;
 		headgearProbability = 100;
@@ -1297,6 +1309,8 @@ class cfgvehicles
 		author = "FP Mod Team";
 		scope = 2;
 		scopeCurator = 2;
+		vehicleClass = "fp_men_woodland";
+	    editorSubcategory = "fp_men_woodland_EdSubcat";
 		displayName = "Automatic Rifleman";
 		weapons[] = {"CUP_lmg_minimi","RH_m9","Throw","Put"};
 		respawnWeapons[] = {"CUP_lmg_minimi","RH_m9","Throw","Put"};
@@ -1315,6 +1329,8 @@ class cfgvehicles
 		author = "FP Mod Team";
 		scope = 2;
 		scopeCurator = 2;
+		vehicleClass = "fp_men_woodland";
+	    editorSubcategory = "fp_men_woodland_EdSubcat";
 		displayName = "Assistant Automatic Rifleman";
 		backpack = "CUP_B_AlicePack_Khaki_AAR_USAREUR90";
 		headgearProbability = 100;
@@ -1327,6 +1343,8 @@ class cfgvehicles
 		author = "FP Mod Team";
 		scope = 2;
 		scopeCurator = 2;
+		vehicleClass = "fp_men_woodland";
+	    editorSubcategory = "fp_men_woodland_EdSubcat";
 		displayName = "Squad Leader";
 		weapons[] = {"RH_M16A2gl","RH_m9","Throw","Put","Binocular"};
 		respawnWeapons[] = {"RH_M16A2gl","RH_m9","Throw","Put","Binocular"};
@@ -1347,6 +1365,8 @@ class cfgvehicles
 		author = "FP Mod Team";
 		scope = 2;
 		scopeCurator = 2;
+		vehicleClass = "fp_men_woodland";
+	    editorSubcategory = "fp_men_woodland_EdSubcat";
 		displayName = "Team Leader";
 		weapons[] = {"RH_M16A2gl","RH_m9","Throw","Put"};
 		respawnWeapons[] = {"RH_M16A2gl","RH_m9","Throw","Put"};
@@ -1377,6 +1397,8 @@ class cfgvehicles
 		author = "FP Mod Team";
 		scope = 2;
 		scopeCurator = 2;
+		vehicleClass = "fp_men_woodland";
+	    editorSubcategory = "fp_men_woodland_EdSubcat";
 		displayName = "Designated Marksman";
 		weapons[] = {"hlc_rifle_M21_USAREUR90_marksman","RH_m9","Throw","Put"};
 		respawnWeapons[] = {"hlc_rifle_M21_USAREUR90_marksman","RH_m9","Throw","Put"};
@@ -1405,6 +1427,8 @@ class cfgvehicles
 		author = "FP Mod Team";
 		scope = 2;
 		scopeCurator = 2;
+		vehicleClass = "fp_men_woodland";
+	    editorSubcategory = "fp_men_woodland_EdSubcat";
 		displayName = "Rifleman Antitank";
 		weapons[] = {"RH_M16A2","CUP_launch_M136","Throw","Put"};
 		respawnWeapons[] = {"RH_M16A2","CUP_launch_M136","Throw","Put"};
@@ -1433,6 +1457,8 @@ class cfgvehicles
 		author = "FP Mod Team";
 		scope = 2;
 		scopeCurator = 2;
+		vehicleClass = "fp_men_woodland";
+	    editorSubcategory = "fp_men_woodland_EdSubcat";
 		displayName = "Medic";
 		attendant = 1;
 		weapons[] = {"RH_m4","Throw","Put"};
@@ -1453,6 +1479,8 @@ class cfgvehicles
 		author = "FP Mod Team";
 		scope = 2;
 		scopeCurator = 2;
+		vehicleClass = "fp_men_woodland";
+	    editorSubcategory = "fp_men_woodland_EdSubcat";
 		displayName = "Crewman";
 		weapons[] = {"RH_m4","RH_m9","Throw","Put"};
 		respawnWeapons[] = {"RH_m4","RH_m9","Throw","Put"};
@@ -1475,6 +1503,8 @@ class cfgvehicles
 		cost = 220000;
 		camouflage = 1.6;
 		sensitivity = 2.4;
+		vehicleClass = "fp_men_woodland";
+	    editorSubcategory = "fp_men_woodland_EdSubcat";
 		backpack = "B_Carryall_cbr_Eng_USAREUR90";
 		weapons[] = {"RH_m4","Throw","Put"};
 		respawnWeapons[] = {"RH_m4","Throw","Put"};
@@ -1505,6 +1535,8 @@ class cfgvehicles
 		author = "FP Mod Team";
 		scope = 2;
 		scopeCurator = 2;
+		vehicleClass = "fp_men_woodland";
+	    editorSubcategory = "fp_men_woodland_EdSubcat";
 		displayName = "MMG Gunner";
 		weapons[] = {"CUP_lmg_M240","RH_m9","Throw","Put"};
 		respawnWeapons[] = {"CUP_lmg_M240","RH_m9","Throw","Put"};
@@ -1523,6 +1555,8 @@ class cfgvehicles
 		author = "FP Mod Team";
 		scope = 2;
 		scopeCurator = 2;
+		vehicleClass = "fp_men_woodland";
+	    editorSubcategory = "fp_men_woodland_EdSubcat";
 		displayName = "MMG Assistant";
 		backpack = "CUP_B_AlicePack_Khaki_MMG_USAREUR90";
 		weapons[] = {"RH_m4","Throw","Put"};
@@ -1550,6 +1584,8 @@ class cfgvehicles
 		author = "FP Mod Team";
 		scope = 2;
 		scopeCurator = 2;
+		vehicleClass = "fp_men_woodland";
+	    editorSubcategory = "fp_men_woodland_EdSubcat";
 		displayName = "MAT Gunner";
 		backpack = "CUP_B_AlicePack_Khaki_MAT_USAREUR90";
 		weapons[] = {"RH_m4","launch_B_Titan_short_F","Throw","Put"};
@@ -1568,6 +1604,8 @@ class cfgvehicles
 		author = "FP Mod Team";
 		scope = 2;
 		scopeCurator = 2;
+		vehicleClass = "fp_men_woodland";
+	    editorSubcategory = "fp_men_woodland_EdSubcat";
 		displayName = "MAT Assistant";
 		backpack = "CUP_B_AlicePack_Khaki_MAT_USAREUR90";
 		weapons[] = {"RH_m4","Throw","Put"};
@@ -1595,6 +1633,8 @@ class cfgvehicles
 		author = "FP Mod Team";
 		scope = 2;
 		scopeCurator = 2;
+		vehicleClass = "fp_men_woodland";
+	    editorSubcategory = "fp_men_woodland_EdSubcat";
 		displayName = "MANPADS Gunner";
 		backpack = "B_FieldPack_khk_MANPADS_USAREUR90";
 		weapons[] = {"RH_m4","CUP_launch_FIM92Stinger","Throw","Put"};
@@ -1613,6 +1653,8 @@ class cfgvehicles
 		author = "FP Mod Team";
 		scope = 2;
 		scopeCurator = 2;
+		vehicleClass = "fp_men_woodland";
+	    editorSubcategory = "fp_men_woodland_EdSubcat";
 		displayName = "MANPADS Assistant";
 		backpack = "B_FieldPack_khk_MANPADS_USAREUR90";
 		weapons[] = {"RH_m4","Throw","Put"};
@@ -1630,6 +1672,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		vehicleClass = "fp_men_desert";
+	    editorSubcategory = "fp_men_desert_EdSubcat";
 		headgearProbability = 100;
 		uniformClass = "usm_bdu_dcu";
 		linkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
@@ -1641,6 +1684,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		vehicleClass = "fp_men_desert";
+	    editorSubcategory = "fp_men_desert_EdSubcat";
 		headgearProbability = 100;
 		uniformClass = "usm_bdu_dcu";
 		linkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_g_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
@@ -1652,6 +1696,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		vehicleClass = "fp_men_desert";
+	    editorSubcategory = "fp_men_desert_EdSubcat";
 		headgearProbability = 100;
 		uniformClass = "usm_bdu_dcu";
 		linkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
@@ -1663,6 +1708,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		vehicleClass = "fp_men_desert";
+	    editorSubcategory = "fp_men_desert_EdSubcat";
 		headgearProbability = 100;
 		uniformClass = "usm_bdu_dcu";
 		linkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_g_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
@@ -1674,6 +1720,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		vehicleClass = "fp_men_desert";
+	    editorSubcategory = "fp_men_desert_EdSubcat";
 		headgearProbability = 100;
 		uniformClass = "usm_bdu_dcu";
 		linkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
@@ -1685,6 +1732,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		vehicleClass = "fp_men_desert";
+	    editorSubcategory = "fp_men_desert_EdSubcat";
 		headgearProbability = 100;
 		uniformClass = "usm_bdu_dcu";
 		linkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
@@ -1696,6 +1744,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		vehicleClass = "fp_men_desert";
+	    editorSubcategory = "fp_men_desert_EdSubcat";
 		headgearProbability = 100;
 		uniformClass = "usm_bdu_dcu";
 		linkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_g_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
@@ -1707,6 +1756,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		vehicleClass = "fp_men_desert";
+	    editorSubcategory = "fp_men_desert_EdSubcat";
 		headgearProbability = 100;
 		uniformClass = "usm_bdu_dcu";
 		linkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_g_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
@@ -1718,6 +1768,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		vehicleClass = "fp_men_desert";
+	    editorSubcategory = "fp_men_desert_EdSubcat";
 		headgearProbability = 100;
 		uniformClass = "usm_bdu_dcu";
 		linkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
@@ -1729,6 +1780,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		vehicleClass = "fp_men_desert";
+	    editorSubcategory = "fp_men_desert_EdSubcat";
 		headgearProbability = 100;
 		uniformClass = "usm_bdu_dcu";
 		linkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_g_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
@@ -1740,6 +1792,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		vehicleClass = "fp_men_desert";
+	    editorSubcategory = "fp_men_desert_EdSubcat";
 		headgearProbability = 100;
 		uniformClass = "usm_bdu_dcu";
 		linkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_g_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
@@ -1751,6 +1804,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		vehicleClass = "fp_men_desert";
+	    editorSubcategory = "fp_men_desert_EdSubcat";
 		headgearProbability = 100;
 		uniformClass = "usm_bdu_dcu";
 		linkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
@@ -1762,6 +1816,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		vehicleClass = "fp_men_desert";
+	    editorSubcategory = "fp_men_desert_EdSubcat";
 		headgearProbability = 100;
 		uniformClass = "usm_bdu_dcu";
 		linkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_g_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
@@ -1773,6 +1828,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		vehicleClass = "fp_men_desert";
+	    editorSubcategory = "fp_men_desert_EdSubcat";
 		headgearProbability = 100;
 		uniformClass = "usm_bdu_dcu";
 		linkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_g_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
@@ -1784,6 +1840,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		vehicleClass = "fp_men_desert";
+	    editorSubcategory = "fp_men_desert_EdSubcat";
 		headgearProbability = 100;
 		uniformClass = "usm_bdu_dcu";
 		linkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
@@ -1795,6 +1852,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		vehicleClass = "fp_men_desert";
+	    editorSubcategory = "fp_men_desert_EdSubcat";
 		headgearProbability = 100;
 		uniformClass = "usm_bdu_dcu";
 		linkedItems[] = {"usm_vest_pasgt_lbe_rmp","usm_helmet_pasgt_dcu","ItemMap","ItemCompass","ItemWatch","ItemRadio"};

@@ -603,7 +603,7 @@ class cfgvehicles
 		scope = 1;
 		class TransportMagazines
 		{
-			class _xx_CUP_rpg7_PG7VM_mag
+			class _xx_RPG32_F_MEC
 			{
 				magazine = "RPG32_F";
 				count = 3;
@@ -955,7 +955,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "MAT Gunner";
-		backpack = "CUP_B_CivPack_WDL_MAT";
+		backpack = "CUP_B_CivPack_WDL_MEC_MAT";
 		weapons[] = {"hlc_rifle_g3a3ris_MEC_Zeiss","launch_RPG32_F","Throw","Put"};
 		respawnWeapons[] = {"hlc_rifle_g3a3ris_MEC_Zeiss","launch_RPG32_F","Throw","Put"};
 		magazines[] = {"hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2"};
@@ -973,7 +973,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "MAT Assistant";
-		backpack = "CUP_B_CivPack_WDL_MAT";
+		backpack = "CUP_B_CivPack_WDL_MEC_MAT";
 		headgearProbability = 100;
 		allowedHeadgear[] = {"FP_Helmet_MECTiger","FP_Helmet_MECTiger"};
 		cost = 65000;
