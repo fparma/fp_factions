@@ -197,6 +197,7 @@ class CfgVehicles
 	{
 		crew = "B_crew_F";
 		_generalMacro = "B_APC_Tracked_03_cannon_F";
+		author = "Night515";
 		typicalCargo[] = 
 		{
 			"B_Soldier_F"
