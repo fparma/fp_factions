@@ -136,11 +136,6 @@ class CfgVehicles
 				{
 					class CommanderOptics: CommanderOptics
 					{
-						weapons[] = 
-						{
-							"HMG_127_APC",
-							"SmokeLauncher"
-						};
 						magazines[] = 
 						{
 							"500Rnd_127x99_mag_Tracer_Red",
@@ -148,11 +143,6 @@ class CfgVehicles
 							"SmokeLauncherMag"
 						};
 					};
-				};
-				weapons[] = 
-				{
-					"cannon_120mm_long",
-					"LMG_coax"
 				};
 				magazines[] = 
 				{
@@ -228,12 +218,6 @@ class CfgVehicles
 		{
 			class MainTurret: MainTurret
 			{
-				weapons[] = 
-				{
-					"autocannon_30mm",
-					"LMG_coax"
-				};
-				
 				magazines[] = 
 				{
 					"140Rnd_30mm_MP_shells_Tracer_Red",
@@ -328,17 +312,11 @@ class CfgVehicles
 		{
 			class MainTurret: MainTurret
 			{
-				weapons[] = 
-				{
-					"autocannon_30mm_CTWS",
-					"LMG_M200",
-					"missiles_titan"
-				};
 				magazines[] = 
 				{
 					"140Rnd_30mm_MP_shells_Tracer_Red",
 					"60Rnd_30mm_APFSDS_shells_Tracer_Red",
-					"1000Rnd_65x39_Belt_Tracer_Red",
+					"1000Rnd_762x51_Belt_Red",
 					"2Rnd_GAT_missiles"
 				};
 			};
