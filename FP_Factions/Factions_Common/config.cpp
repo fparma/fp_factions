@@ -126,3 +126,21 @@ class CfgEditorSubcategories
 		displayName="Men (Armed Civilians)";
 	};
 };
+class cfgWeapons
+{
+	class ItemCore;
+	class InventoryItem_Base_F;
+	class CUP_srifle_SVD;
+	class CUP_srifle_SVD_FPFac_PSO: CUP_srifle_SVD
+	{
+		scope = 1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				item = "CUP_optic_PSO_1";
+				slot = "CowsSlot";
+			};
+		};
+	};
+};

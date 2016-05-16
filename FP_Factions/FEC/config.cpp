@@ -673,8 +673,8 @@ class cfgvehicles
 		displayName = "The Commander";
 		model = "\A3\characters_F\OPFOR\o_officer.p3d";
 		uniformClass = "FP_Uniform_LithOPFORStrich"; 
-		weapons[] = {"hlc_rifle_ak104","Throw","Put"};
-		respawnWeapons[] = {"hlc_rifle_ak104","Throw","Put"};
+		weapons[] = {"hlc_rifle_aek971worn","Throw","Put"};
+		respawnWeapons[] = {"hlc_rifle_aek971worn","Throw","Put"};
 		magazines[] = {"hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		respawnMagazines[] = {"hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		cost = 500000;
@@ -747,8 +747,8 @@ class cfgvehicles
 		displayName = "Guerilla Sharpshooter";
 		model = "\A3\characters_F\OPFOR\o_officer.p3d";
 		uniformClass = "FP_Uniform_TTsMKKOlive"; 
-		weapons[] = {"CUP_srifle_SVD_takipso","RH_cz75","Throw","Put"};
-		respawnWeapons[] = {"CUP_srifle_SVD_takipso","RH_cz75","Throw","Put"};
+		weapons[] = {"CUP_srifle_SVD_FPFac_PSO","RH_cz75","Throw","Put"};
+		respawnWeapons[] = {"CUP_srifle_SVD_FPFac_PSO","RH_cz75","Throw","Put"};
 		magazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		respawnMagazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		cost = 150000;
@@ -807,8 +807,8 @@ class cfgvehicles
 		attendant = 1;
 		model = "\A3\characters_F\OPFOR\o_officer.p3d";
 		uniformClass = "FP_Uniform_StrichTTsMKK"; 
-		weapons[] = {"hlc_rifle_akms","RH_cz75","Throw","Put"};
-		respawnWeapons[] = {"hlc_rifle_akms","RH_cz75","Throw","Put"};
+		weapons[] = {"hlc_rifle_akm","RH_cz75","Throw","Put"};
+		respawnWeapons[] = {"hlc_rifle_akm","RH_cz75","Throw","Put"};
 		magazines[] = {"hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","SmokeShell","SmokeShell","SmokeShell","SmokeShell"};
 		respawnMagazines[] = {="hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","SmokeShell","SmokeShell","SmokeShell","SmokeShell"};
 		backpack = "B_FieldPack_cbr_Medic";

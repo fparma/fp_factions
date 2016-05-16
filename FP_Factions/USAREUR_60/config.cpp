@@ -28,7 +28,7 @@ class CfgGroups
 			name = "USA (1960)";
 			class Infantry
 			{
-				name = "USAREUR 1960 Infantry";
+				name = "USA (1960) Infantry";
 				class USAREUR60_Riflesquad
 				{
 					name = "Rifle Squad";

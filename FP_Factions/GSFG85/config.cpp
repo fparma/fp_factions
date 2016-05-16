@@ -952,9 +952,9 @@ class cfgvehicles
 		scope = 1;
 		class TransportMagazines
 		{
-			class _xx_hlc_75Rnd_762x39_m_rpk
+			class _xx_hlc_45Rnd_545x39_t_rpk
 			{
-				magazine = "hlc_75Rnd_762x39_m_rpk";
+				magazine = "hlc_45Rnd_545x39_t_rpk";
 				count = 5;
 			};
 		};
@@ -1072,8 +1072,8 @@ class cfgvehicles
 		respawnMagazines[] = {"hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
-		linkedItems[] = {"FP_V_TK_Kamysh","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_V_TK_Kamysh","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"V_mas_gue_Sovest","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_mas_gue_Sovest","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
 	class FP_Faction_GSFG85_Rifleman: FP_Faction_GSFG85_Soldier_BASE
 	{
@@ -1103,15 +1103,15 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Automatic Rifleman";
-		weapons[] = {"hlc_rifle_rpk74","RH_mak","Throw","Put"};
-		respawnWeapons[] = {"hlc_rifle_rpk74","RH_mak","Throw","Put"};
-		magazines[] = {"hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
-		respawnMagazines[] = {"hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
+		weapons[] = {"hlc_rifle_rpk74n","RH_mak","Throw","Put"};
+		respawnWeapons[] = {"hlc_rifle_rpk74n","RH_mak","Throw","Put"};
+		magazines[] = {"hlc_45Rnd_545x39_t_rpk","hlc_45Rnd_545x39_t_rpk","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"hlc_45Rnd_545x39_t_rpk","hlc_45Rnd_545x39_t_rpk","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		cost = 95000;
 		threat[] = {1,0.1,0.3};
 		icon = "iconManMG";
-		linkedItems[] = {"FP_V_TK_Kamysh","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_V_TK_Kamysh","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"V_mas_gue_Sovest","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_mas_gue_Sovest","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 100;
 		allowedHeadgear[] = {"FP_Helmet_SSH68","FP_Helmet_SSH68"};
 	};
@@ -1141,8 +1141,8 @@ class cfgvehicles
 		camouflage = 1.6;
 		sensitivity = 3;
 		icon = "iconManLeader";
-		linkedItems[] = {"FP_V_TK_Kamysh","FP_Helmet_SSH68","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_V_TK_Kamysh","FP_Helmet_SSH68","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"V_mas_gue_Sovest","FP_Helmet_SSH68","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_mas_gue_Sovest","FP_Helmet_SSH68","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		identitytypes[] = {"LanguageENG_F", "Head_NATO", "G_NATO_default"};
 		headgearProbability = 80;
 		allowedHeadgear[] = {"FP_Helmet_SSH68","FP_Helmet_SSH68"};
@@ -1161,8 +1161,8 @@ class cfgvehicles
 		camouflage = 1.6;
 		sensitivity = 3;
 		icon = "iconManLeader";
-		linkedItems[] = {"FP_V_TK_Kamysh","FP_Helmet_SSH68","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_V_TK_Kamysh","FP_Helmet_SSH68","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"V_mas_gue_Sovest","FP_Helmet_SSH68","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_mas_gue_Sovest","FP_Helmet_SSH68","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 90;
 		allowedHeadgear[] = {"FP_Helmet_SSH68","FP_Helmet_SSH68"};
 	};
@@ -1183,13 +1183,13 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Designated Marksman";
-		weapons[] = {"CUP_srifle_SVD_takipso","RH_mak","Throw","Put"};
-		respawnWeapons[] = {"CUP_srifle_SVD_takipso","RH_mak","Throw","Put"};
+		weapons[] = {"CUP_srifle_SVD_FPFac_PSO","RH_mak","Throw","Put"};
+		respawnWeapons[] = {"CUP_srifle_SVD_FPFac_PSO","RH_mak","Throw","Put"};
 		magazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		respawnMagazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		cost = 150000;
-		linkedItems[] = {"FP_V_TK_Kamysh","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_V_TK_Kamysh","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"V_mas_gue_Sovest","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_mas_gue_Sovest","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		sensitivity = 3;
 		headgearProbability = 60;
 		allowedHeadgear[] = {"FP_Helmet_SSH68","FP_Helmet_SSH68"};
@@ -1247,8 +1247,8 @@ class cfgvehicles
 		backpack = "B_FieldPack_cbr_Medic";
 		cost = 300000;
 		camouflage = 1.6;
-		linkedItems[] = {"FP_V_TK_Kamysh","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_V_TK_Kamysh","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"V_mas_gue_Sovest","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_mas_gue_Sovest","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		sensitivity = 2.4;
 		icon = "iconManMedic";
 		picture = "pictureHeal";
@@ -1268,8 +1268,8 @@ class cfgvehicles
 		camouflage = 1.6;
 		sensitivity = 2.4;
 		cost = 90000;
-	    linkedItems[] = {"FP_V_TK_Kamysh","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_V_TK_Kamysh","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	    linkedItems[] = {"V_mas_gue_Sovest","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_mas_gue_Sovest","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 100;
 		allowedHeadgear[] = {"CUP_H_TK_TankerHelmet"};
 	};
@@ -1291,8 +1291,8 @@ class cfgvehicles
 		engineer = 1;
 		detectSkill = 60;
 		threat[] = {1,0.5,0.1};
-	    linkedItems[] = {"FP_V_TK_Kamysh","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_V_TK_Kamysh","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	    linkedItems[] = {"V_mas_gue_Sovest","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_mas_gue_Sovest","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		icon = "iconManEngineer";
 		picture = "pictureRepair";
 		headgearProbability = 100;
@@ -1322,8 +1322,8 @@ class cfgvehicles
 		cost = 95000;
 		threat[] = {1,0.1,0.3};
 		icon = "iconManMG";
-		linkedItems[] = {"FP_V_TK_Kamysh","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_V_TK_Kamysh","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"V_mas_gue_Sovest","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_mas_gue_Sovest","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 100;
 		allowedHeadgear[] = {"FP_Helmet_SSH68","FP_Helmet_SSH68"};
 	};
