@@ -964,9 +964,9 @@ class cfgvehicles
 		scope = 1;
 		class TransportMagazines
 		{
-			class _xx_CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M
+			class _xx_100rnd_korob_pkp
 			{
-				magazine = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
+				magazine = "100rnd_korob_pkp";
 				count = 4;
 			};
 		};
@@ -1322,10 +1322,10 @@ class cfgvehicles
 		scopeCurator = 2;
 		displayName = "MMG Gunner";
 		uniformClass = "FP_Uniform_SovUniform_Efreitor";
-		weapons[] = {"CUP_lmg_PKM","RH_mak","Throw","Put"};
-		respawnWeapons[] = {"CUP_lmg_PKM","RH_mak","Throw","Put"};
-		magazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","HandGrenade","HandGrenade","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2"};
-		respawnMagazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","HandGrenade","HandGrenade","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2"};
+		weapons[] = {"str_pkm","RH_mak","Throw","Put"};
+		respawnWeapons[] = {"str_pkm","RH_mak","Throw","Put"};
+		magazines[] = {"100rnd_korob_pkp","100rnd_korob_pkp","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","HandGrenade","HandGrenade","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2"};
+		respawnMagazines[] = {"100rnd_korob_pkp","100rnd_korob_pkp","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","HandGrenade","HandGrenade","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2"};
 		cost = 95000;
 		threat[] = {1,0.1,0.3};
 		icon = "iconManMG";

@@ -579,9 +579,9 @@ class cfgvehicles
 		scope = 1;
 		class TransportMagazines
 		{
-			class _xx_CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M
+			class _xx_hlc_100Rnd_762x51_M_M60E4
 			{
-				magazine = "CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M";
+				magazine = "hlc_100Rnd_762x51_M_M60E4";
 				count = 5;
 			};
 		};
@@ -705,10 +705,10 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Automatic Rifleman";
-		weapons[] = {"CUP_lmg_M60E4","hgun_Rook40_F","Throw","Put"};
-		respawnWeapons[] = {"CUP_lmg_M60E4","hgun_Rook40_F","Throw","Put"};
-		magazines[] = {"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","HandGrenade","HandGrenade","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2"};
-		respawnMagazines[] = {"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","HandGrenade","HandGrenade","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2"};
+		weapons[] = {"hlc_lmg_M60E4","hgun_Rook40_F","Throw","Put"};
+		respawnWeapons[] = {"hlc_lmg_M60E4","hgun_Rook40_F","Throw","Put"};
+		magazines[] = {"hlc_100Rnd_762x51_M_M60E4","hlc_100Rnd_762x51_M_M60E4","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","HandGrenade","HandGrenade","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2"};
+		respawnMagazines[] = {"hlc_100Rnd_762x51_M_M60E4","hlc_100Rnd_762x51_M_M60E4","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","HandGrenade","HandGrenade","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2"};
 		cost = 95000;
 		threat[] = {1,0.1,0.3};
 		icon = "iconManMG";
@@ -1060,10 +1060,10 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Army Recon (Gunner)";
-        weapons[] = {"CUP_lmg_M60E4","Throw","Put"};
-        respawnWeapons[] = {"CUP_lmg_M60E4","Throw","Put"};
-		magazines[] = {"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M","HandGrenade","HandGrenade","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2"};
-		respawnMagazines[] = {"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M","HandGrenade","HandGrenade","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2"};
+        weapons[] = {"hlc_lmg_M60E4","Throw","Put"};
+        respawnWeapons[] = {"hlc_lmg_M60E4","Throw","Put"};
+		magazines[] = {"hlc_100Rnd_762x51_M_M60E4","hlc_100Rnd_762x51_M_M60E4","HandGrenade","HandGrenade","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2"};
+		respawnMagazines[] = {"hlc_100Rnd_762x51_M_M60E4","hlc_100Rnd_762x51_M_M60E4","HandGrenade","HandGrenade","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2"};
 		backpack = "CUP_B_CivPack_WDL_AAR";
 	};
 	class FP_Faction_MEC_Recon_Grenadier: FP_Faction_MEC_Recon_Rifleman

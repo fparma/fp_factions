@@ -2,7 +2,7 @@ class CfgPatches
 {
 	class FP_Factions_KLG
 	{
-		units[] = {"FP_Faction_KLG_Soldier_BASE","FP_Faction_KLG_Rifleman_Mosin","FP_Faction_KLG_Rifleman_AK47","FP_Faction_KLG_Rifleman_FAL","FP_Faction_KLG_Rifleman_SKS","FP_Faction_KLG_Rifleman_DP27","FP_Faction_KLG_Rifleman_PPSH","FP_Faction_KLG_Rifleman_MP133","FP_Faction_KLG_Rifleman_TT33","FP_Faction_KLG_Vehicle_DatsunPK"};
+		units[] = {"FP_Faction_KLG_Soldier_BASE","FP_Faction_KLG_Rifleman_Mosin","FP_Faction_KLG_Rifleman_AK47","FP_Faction_KLG_Rifleman_FAL","FP_Faction_KLG_Rifleman_SKS","FP_Faction_KLG_Rifleman_DP27","FP_Faction_KLG_Rifleman_PPSH","FP_Faction_KLG_Rifleman_MP133","FP_Faction_KLG_Rifleman_TT33","FP_Faction_KLG_Rifleman_RPG","FP_Faction_KLG_Vehicle_DatsunPK"};
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"CUP_WheeledVehicles_LR", "CUP_WheeledVehicles_BRDM2", "CUP_WheeledVehicles_Datsun", "CUP_WheeledVehicles_UAZ", "CUP_WheeledVehicles_Ural"};
@@ -297,6 +297,19 @@ class CfgGroups
 };
 class cfgvehicles
 {
+    class CUP_B_RPGPack_Khaki;
+	class CUP_B_RPGPack_Khaki_KLG_RPG: CUP_B_RPGPack_Khaki
+	{
+		scope = 1;
+		class TransportMagazines
+		{
+			class _xx_CUP_PG7V_M
+			{
+				magazine = "CUP_PG7V_M";
+				count = 2;
+			};
+		};
+	};
 	class B_Soldier_F;
 	class FP_Faction_KLG_Soldier_BASE: B_Soldier_F
 	{
@@ -470,6 +483,25 @@ class cfgvehicles
 		uniformClass = "LOP_U_Civ_06";  
 		weapons[] = {"RH_tt33","Throw","Put"};
 		respawnWeapons[] = {"RH_tt33","Throw","Put"};
+		magazines[] = {"RH_8Rnd_762_tt33","RH_8Rnd_762_tt33","RH_8Rnd_762_tt33"};
+		respawnMagazines[] = {"RH_8Rnd_762_tt33","RH_8Rnd_762_tt33","RH_8Rnd_762_tt33"};
+		linkedItems[] = {"ItemWatch"};
+		respawnLinkedItems[] = {"ItemWatch"};
+	};
+	class FP_Faction_KLG_Rifleman_RPG: FP_Faction_KLG_Soldier_BASE
+	{
+		author = "FP Mod Team";
+		_generalMacro = "FP_Faction_KLG_Soldier_BASE";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "Armed Civilian (RPG-7)";
+		cost = 100000;
+		headgearProbability = 100;
+		model = "\A3\characters_F\civil\c_poor";
+		uniformClass = "LOP_U_Civ_06";  
+		backpack = "B_FieldPack_cbr_Medic";
+		weapons[] = {"RH_tt33","CUP_launch_RPG7V","Throw","Put"};
+		respawnWeapons[] = {"RH_tt33","CUP_launch_RPG7V","Throw","Put"};
 		magazines[] = {"RH_8Rnd_762_tt33","RH_8Rnd_762_tt33","RH_8Rnd_762_tt33"};
 		respawnMagazines[] = {"RH_8Rnd_762_tt33","RH_8Rnd_762_tt33","RH_8Rnd_762_tt33"};
 		linkedItems[] = {"ItemWatch"};
