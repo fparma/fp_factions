@@ -1222,4 +1222,3 @@ class cfgWeapons
 	};
 };
 
-
