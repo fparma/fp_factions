@@ -377,4 +377,59 @@ class cfgMarkers
 		size = 32;
 		texture = "\FP_Factions\Factions_Common\ukr_ca.paa";
 	};
+    class flag_BlackCountry
+	{
+	    color[] = {1,1,1,1};
+		icon = "\FP_Factions\Factions_Common\blkcunt_ca.paa";
+		markerClass = "Flags";
+		name = "Black Country";
+		scope = 1;
+		shadow = 0;
+		size = 32;
+		texture = "\FP_Factions\Factions_Common\blkcunt_ca.paa";
+	};
+    class flag_NorthKorea
+	{
+	    color[] = {1,1,1,1};
+		icon = "\FP_Factions\Factions_Common\Nork_ca.paa";
+		markerClass = "Flags";
+		name = "North Korea";
+		scope = 1;
+		shadow = 0;
+		size = 32;
+		texture = "\FP_Factions\Factions_Common\Nork_ca.paa";
+	};
+    class flag_SouthKorea
+	{
+	    color[] = {1,1,1,1};
+		icon = "\FP_Factions\Factions_Common\Sork_ca.paa";
+		markerClass = "Flags";
+		name = "South Korea";
+		scope = 1;
+		shadow = 0;
+		size = 32;
+		texture = "\FP_Factions\Factions_Common\Sork_ca.paa";
+	};
+    class flag_osea
+	{
+	    color[] = {1,1,1,1};
+		icon = "\FP_Factions\Factions_Common\osea_ca.paa";
+		markerClass = "Flags";
+		name = "Osean Federation";
+		scope = 1;
+		shadow = 0;
+		size = 32;
+		texture = "\FP_Factions\Factions_Common\osea_ca.paa";
+	};
+    class flag_yukt
+	{
+	    color[] = {1,1,1,1};
+		icon = "\FP_Factions\Factions_Common\yukt_ca.paa";
+		markerClass = "Flags";
+		name = "Union of Yuktobanian Republics";
+		scope = 1;
+		shadow = 0;
+		size = 32;
+		texture = "\FP_Factions\Factions_Common\yukt_ca.paa";
+	};
 }
