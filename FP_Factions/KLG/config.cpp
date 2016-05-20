@@ -306,7 +306,7 @@ class cfgvehicles
 			class _xx_CUP_PG7V_M
 			{
 				magazine = "CUP_PG7V_M";
-				count = 2;
+				count = 3;
 			};
 		};
 	};
@@ -499,7 +499,7 @@ class cfgvehicles
 		headgearProbability = 100;
 		model = "\A3\characters_F\civil\c_poor";
 		uniformClass = "LOP_U_Civ_06";  
-		backpack = "B_FieldPack_cbr_Medic";
+		backpack = "CUP_B_RPGPack_Khaki_KLG_RPG";
 		weapons[] = {"RH_tt33","CUP_launch_RPG7V","Throw","Put"};
 		respawnWeapons[] = {"RH_tt33","CUP_launch_RPG7V","Throw","Put"};
 		magazines[] = {"RH_8Rnd_762_tt33","RH_8Rnd_762_tt33","RH_8Rnd_762_tt33"};
