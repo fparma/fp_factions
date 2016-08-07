@@ -1103,7 +1103,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Automatic Rifleman";
-		uniformClass = "FP_Uniform_SovUniform_Efreitor"; 
+		uniformClass = "FP_Uniform_SovUniform_Private"; 
 		weapons[] = {"hlc_rifle_rpk","RH_mak","Throw","Put"};
 		respawnWeapons[] = {"hlc_rifle_rpk","RH_mak","Throw","Put"};
 		magazines[] = {"hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","HandGrenade","HandGrenade","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2"};
@@ -1155,7 +1155,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Team Leader";
-		uniformClass = "FP_Uniform_SovUniform_Efreitor";
+		uniformClass = "FP_Uniform_SovUniform_Private";
 		weapons[] = {"hlc_rifle_akm","RH_mak","Throw","Put"};
 		respawnWeapons[] = {"hlc_rifle_akm","RH_mak","Throw","Put"};
 		magazines[] = {"hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","HandGrenade","HandGrenade","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2"};
@@ -1186,7 +1186,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Designated Marksman";
-		uniformClass = "FP_Uniform_SovUniform_Efreitor";
+		uniformClass = "FP_Uniform_SovUniform_Private";
 		weapons[] = {"CUP_srifle_SVD_FPFac_PSO","RH_mak","Throw","Put"};
 		respawnWeapons[] = {"CUP_srifle_SVD_FPFac_PSO","RH_mak","Throw","Put"};
 		magazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","HandGrenade","HandGrenade","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2"};
@@ -1215,7 +1215,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Antitank Grenadier";
-		uniformClass = "FP_Uniform_SovUniform_Efreitor";
+		uniformClass = "FP_Uniform_SovUniform_Private";
 		weapons[] = {"hlc_rifle_akm","Throw","Put"};
 		respawnWeapons[] = {"hlc_rifle_akm","Throw","Put"};
 		magazines[] = {"hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","FP_HandGrenade_RKG3EM","FP_HandGrenade_RKG3EM","FP_HandGrenade_RKG3EM","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2"};
@@ -1245,7 +1245,7 @@ class cfgvehicles
 		scopeCurator = 2;
 		displayName = "Medic";
 		attendant = 1;
-		uniformClass = "FP_Uniform_SovUniform_Efreitor";
+		uniformClass = "FP_Uniform_SovUniform_Private";
 		weapons[] = {"hlc_rifle_akm","RH_mak","Throw","Put"};
 		respawnWeapons[] = {"hlc_rifle_akm","RH_mak","Throw","Put"};
 		magazines[] = {"hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2"};
@@ -1321,7 +1321,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "MMG Gunner";
-		uniformClass = "FP_Uniform_SovUniform_Efreitor";
+		uniformClass = "FP_Uniform_SovUniform_Private";
 		weapons[] = {"str_pkm","RH_mak","Throw","Put"};
 		respawnWeapons[] = {"str_pkm","RH_mak","Throw","Put"};
 		magazines[] = {"100rnd_korob_pkp","100rnd_korob_pkp","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","HandGrenade","HandGrenade","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2"};
@@ -1363,7 +1363,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "MAT Gunner";
-		uniformClass = "FP_Uniform_SovUniform_Efreitor";
+		uniformClass = "FP_Uniform_SovUniform_Private";
 		backpack = "CUP_B_CivPack_WDL_GSFG70_MAT";
 		weapons[] = {"hlc_rifle_akm","CUP_launch_RPG7V_gsfgpgo","Throw","Put"};
 		respawnWeapons[] = {"hlc_rifle_akm","CUP_launch_RPG7V_gsfgpgo","Throw","Put"};
@@ -1405,7 +1405,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "MANPADS Gunner";
-		uniformClass = "FP_Uniform_SovUniform_Efreitor";
+		uniformClass = "FP_Uniform_SovUniform_Private";
 		backpack = "B_Carryall_cbr_GSFG70_MANPADS";
 		weapons[] = {"hlc_rifle_akm","CUP_launch_9K32Strela","Throw","Put"};
 		respawnWeapons[] = {"hlc_rifle_akm","CUP_launch_9K32Strela","Throw","Put"};

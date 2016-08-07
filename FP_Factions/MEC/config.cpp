@@ -737,8 +737,8 @@ class cfgvehicles
 		displayName = "Squad Leader";
 		weapons[] = {"hlc_rifle_hk33a2_MEC_ZFSG1","hgun_Rook40_F","Throw","Put","Binocular"};
 		respawnWeapons[] = {"hlc_rifle_hk33a2_MEC_ZFSG1","hgun_Rook40_F","Throw","Put","Binocular"};
-		magazines[] = {"hlc_30rnd_556x45_b_HK33","hlc_30rnd_556x45_b_HK33","hlc_30rnd_556x45_b_HK33","hlc_30rnd_556x45_b_HK33","hlc_30rnd_556x45_b_HK33","FH_L5_30Rnd_556x45_Tracer","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","HandGrenade","HandGrenade","O_IR_Grenade","O_IR_Grenade","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2","Chemlight_red","Chemlight_red"};
-		respawnMagazines[] = {"hlc_30rnd_556x45_b_HK33","hlc_30rnd_556x45_b_HK33","hlc_30rnd_556x45_b_HK33","hlc_30rnd_556x45_b_HK33","hlc_30rnd_556x45_b_HK33","FH_L5_30Rnd_556x45_Tracer","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","HandGrenade","HandGrenade","O_IR_Grenade","O_IR_Grenade","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2","Chemlight_red","Chemlight_red"};
+		magazines[] = {"hlc_30rnd_556x45_b_HK33","hlc_30rnd_556x45_b_HK33","hlc_30rnd_556x45_b_HK33","hlc_30rnd_556x45_b_HK33","hlc_30rnd_556x45_b_HK33","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","HandGrenade","HandGrenade","O_IR_Grenade","O_IR_Grenade","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2","Chemlight_red","Chemlight_red"};
+		respawnMagazines[] = {"hlc_30rnd_556x45_b_HK33","hlc_30rnd_556x45_b_HK33","hlc_30rnd_556x45_b_HK33","hlc_30rnd_556x45_b_HK33","hlc_30rnd_556x45_b_HK33","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","HandGrenade","HandGrenade","O_IR_Grenade","O_IR_Grenade","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2","Chemlight_red","Chemlight_red"};
 		cost = 500000;
 		camouflage = 1.6;
 		sensitivity = 3;

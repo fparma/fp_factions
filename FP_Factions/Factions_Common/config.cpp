@@ -128,8 +128,6 @@ class CfgEditorSubcategories
 };
 class cfgWeapons
 {
-	class ItemCore;
-	class InventoryItem_Base_F;
 	class CUP_srifle_SVD;
 	class CUP_srifle_SVD_FPFac_PSO: CUP_srifle_SVD
 	{
@@ -139,6 +137,19 @@ class cfgWeapons
 			class LinkedItemsOptic
 			{
 				item = "CUP_optic_PSO_1";
+				slot = "CowsSlot";
+			};
+		};
+	};
+	class srifle_DMR_07_blk_F;
+	class srifle_DMR_07_blk_F_FPFac_Kahlia: srifle_DMR_07_blk_F
+	{
+		scope = 1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				item = "optic_KHS_old";
 				slot = "CowsSlot";
 			};
 		};

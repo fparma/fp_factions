@@ -494,8 +494,8 @@ class cfgvehicles
 		uniformClass = "usm_bdu_odg";  
 		weapons[] = {"RH_M16a1","Throw","Put"};
 		respawnWeapons[] = {"RH_M16a1","Throw","Put"};
-		magazines[] = {"RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
-		respawnMagazines[] = {"RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
+		magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
 		linkedItems[] = {"usm_vest_LBE_rm","fp_helmet_m1_camo","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
@@ -561,8 +561,8 @@ class cfgvehicles
 		displayName = "Squad Leader";
 		weapons[] = {"RH_M16a1","RH_m1911","Throw","Put","Binocular"};
 		respawnWeapons[] = {"RH_M16a1","RH_m1911","Throw","Put","Binocular"};
-		magazines[] = {"RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_7Rnd_45cal_m1911","RH_7Rnd_45cal_m1911","RH_7Rnd_45cal_m1911","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell"};
-		respawnMagazines[] = {"RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_7Rnd_45cal_m1911","RH_7Rnd_45cal_m1911","RH_7Rnd_45cal_m1911","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell"};
+		magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","RH_7Rnd_45cal_m1911","RH_7Rnd_45cal_m1911","RH_7Rnd_45cal_m1911","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","RH_7Rnd_45cal_m1911","RH_7Rnd_45cal_m1911","RH_7Rnd_45cal_m1911","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell"};
 		cost = 500000;
 		camouflage = 1.6;
 		sensitivity = 3;
@@ -581,8 +581,8 @@ class cfgvehicles
 		displayName = "Team Leader";
 		weapons[] = {"RH_M16a1","RH_m1911","Throw","Put"};
 		respawnWeapons[] = {"RH_M16a1","RH_m1911","Throw","Put"};
-		magazines[] = {"RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_7Rnd_45cal_m1911","RH_7Rnd_45cal_m1911","RH_7Rnd_45cal_m1911","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell"};
-		respawnMagazines[] = {"RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_7Rnd_45cal_m1911","RH_7Rnd_45cal_m1911","RH_7Rnd_45cal_m1911","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell"};
+		magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","RH_7Rnd_45cal_m1911","RH_7Rnd_45cal_m1911","RH_7Rnd_45cal_m1911","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","RH_7Rnd_45cal_m1911","RH_7Rnd_45cal_m1911","RH_7Rnd_45cal_m1911","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell"};
 		cost = 450000;
 		camouflage = 1.6;
 		sensitivity = 3;
@@ -600,8 +600,8 @@ class cfgvehicles
 		displayName = "RTO";
 		weapons[] = {"RH_M16a1","RH_m1911","Throw","Put"};
 		respawnWeapons[] = {"RH_M16a1","RH_m1911","Throw","Put"};
-		magazines[] = {"RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_7Rnd_45cal_m1911","RH_7Rnd_45cal_m1911","RH_7Rnd_45cal_m1911","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell"};
-		respawnMagazines[] = {"RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_7Rnd_45cal_m1911","RH_7Rnd_45cal_m1911","RH_7Rnd_45cal_m1911","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell"};
+		magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","RH_7Rnd_45cal_m1911","RH_7Rnd_45cal_m1911","RH_7Rnd_45cal_m1911","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","RH_7Rnd_45cal_m1911","RH_7Rnd_45cal_m1911","RH_7Rnd_45cal_m1911","HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShell","SmokeShell"};
 		linkedItems[] = {"usm_vest_LBE_rm","fp_helmet_m1_camo","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"usm_vest_LBE_rm","fp_helmet_m1_camo","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		backpack = "usm_pack_st138_prc77";
@@ -671,8 +671,8 @@ class cfgvehicles
 		displayName = "Rifleman Antitank";
 		weapons[] = {"RH_M16a1","CUP_launch_RPG18","Throw","Put"};
 		respawnWeapons[] = {"RH_M16a1","CUP_launch_RPG18","Throw","Put"};
-		magazines[] = {"RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","SmokeShell","SmokeShell"};
-		respawnMagazines[] = {"RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","SmokeShell","SmokeShell"};
+		magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShell","SmokeShell"};
 		cost = 180000;
 		threat[] = {1,0.7,0.3};
 		secondaryAmmoCoef = 0.5;
@@ -700,8 +700,8 @@ class cfgvehicles
 		attendant = 1;
 		weapons[] = {"RH_M16a1","Throw","Put"};
 		respawnWeapons[] = {"RH_M16a1","Throw","Put"};
-		magazines[] = {"RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","SmokeShell","SmokeShell"};
-		respawnMagazines[] = {"RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","RH_20Rnd_556x45_M193","SmokeShell","SmokeShell"};
+		magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShell","SmokeShell"};
 		backpack = "B_FieldPack_cbr_Medic";
 		cost = 300000;
 		camouflage = 1.6;

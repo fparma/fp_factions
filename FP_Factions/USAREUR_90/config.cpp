@@ -1461,8 +1461,8 @@ class cfgvehicles
 	    editorSubcategory = "fp_men_woodland_EdSubcat";
 		displayName = "Medic";
 		attendant = 1;
-		weapons[] = {"RH_m4","Throw","Put"};
-		respawnWeapons[] = {"RH_m4","Throw","Put"};
+		weapons[] = {"RH_M16A2","Throw","Put"};
+		respawnWeapons[] = {"RH_M16A2","Throw","Put"};
 		magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShell","SmokeShellRed"};
 		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShell","SmokeShellRed"};
 		backpack = "B_FieldPack_cbr_Medic";
@@ -1482,8 +1482,8 @@ class cfgvehicles
 		vehicleClass = "fp_men_woodland";
 	    editorSubcategory = "fp_men_woodland_EdSubcat";
 		displayName = "Crewman";
-		weapons[] = {"RH_m4","RH_m9","Throw","Put"};
-		respawnWeapons[] = {"RH_m4","RH_m9","Throw","Put"};
+		weapons[] = {"RH_M16A2","RH_m9","Throw","Put"};
+		respawnWeapons[] = {"RH_M16A2","RH_m9","Throw","Put"};
 		magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","RH_15Rnd_9x19_M9","RH_15Rnd_9x19_M9","RH_15Rnd_9x19_M9","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
 		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","RH_15Rnd_9x19_M9","RH_15Rnd_9x19_M9","RH_15Rnd_9x19_M9","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
 		camouflage = 1.6;
@@ -1506,8 +1506,8 @@ class cfgvehicles
 		vehicleClass = "fp_men_woodland";
 	    editorSubcategory = "fp_men_woodland_EdSubcat";
 		backpack = "B_Carryall_cbr_Eng_USAREUR90";
-		weapons[] = {"RH_m4","Throw","Put"};
-		respawnWeapons[] = {"RH_m4","Throw","Put"};
+		weapons[] = {"RH_M16A2","Throw","Put"};
+		respawnWeapons[] = {"RH_M16A2","Throw","Put"};
 		magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShell","SmokeShellRed"};
 		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShell","SmokeShellRed"};
 		canDeactivateMines = 1;
@@ -1559,8 +1559,8 @@ class cfgvehicles
 	    editorSubcategory = "fp_men_woodland_EdSubcat";
 		displayName = "MMG Assistant";
 		backpack = "CUP_B_AlicePack_Khaki_MMG_USAREUR90";
-		weapons[] = {"RH_m4","Throw","Put"};
-		respawnWeapons[] = {"RH_m4","Throw","Put"};
+		weapons[] = {"RH_M16A2","Throw","Put"};
+		respawnWeapons[] = {"RH_M16A2","Throw","Put"};
 		magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShell","SmokeShellRed"};
 		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShell","SmokeShellRed"};
 		headgearProbability = 100;
@@ -1588,8 +1588,8 @@ class cfgvehicles
 	    editorSubcategory = "fp_men_woodland_EdSubcat";
 		displayName = "MAT Gunner";
 		backpack = "CUP_B_AlicePack_Khaki_MAT_USAREUR90";
-		weapons[] = {"RH_m4","launch_B_Titan_short_F","Throw","Put"};
-		respawnWeapons[] = {"RH_m4","launch_B_Titan_short_F","Throw","Put"};
+		weapons[] = {"RH_M16A2","launch_B_Titan_short_F","Throw","Put"};
+		respawnWeapons[] = {"RH_M16A2","launch_B_Titan_short_F","Throw","Put"};
 		magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShell","SmokeShellRed"};
 		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShell","SmokeShellRed"};
 		cost = 180000;
@@ -1608,8 +1608,8 @@ class cfgvehicles
 	    editorSubcategory = "fp_men_woodland_EdSubcat";
 		displayName = "MAT Assistant";
 		backpack = "CUP_B_AlicePack_Khaki_MAT_USAREUR90";
-		weapons[] = {"RH_m4","Throw","Put"};
-		respawnWeapons[] = {"RH_m4","Throw","Put"};
+		weapons[] = {"RH_M16A2","Throw","Put"};
+		respawnWeapons[] = {"RH_M16A2","Throw","Put"};
 		magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShell","SmokeShellRed"};
 		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShell","SmokeShellRed"};
 		headgearProbability = 100;
@@ -1637,8 +1637,8 @@ class cfgvehicles
 	    editorSubcategory = "fp_men_woodland_EdSubcat";
 		displayName = "MANPADS Gunner";
 		backpack = "B_FieldPack_khk_MANPADS_USAREUR90";
-		weapons[] = {"RH_m4","CUP_launch_FIM92Stinger","Throw","Put"};
-		respawnWeapons[] = {"RH_m4","CUP_launch_FIM92Stinger","Throw","Put"};
+		weapons[] = {"RH_M16A2","CUP_launch_FIM92Stinger","Throw","Put"};
+		respawnWeapons[] = {"RH_M16A2","CUP_launch_FIM92Stinger","Throw","Put"};
 		magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShell","SmokeShellRed"};
 		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShell","SmokeShellRed"};
 		cost = 180000;
@@ -1657,8 +1657,8 @@ class cfgvehicles
 	    editorSubcategory = "fp_men_woodland_EdSubcat";
 		displayName = "MANPADS Assistant";
 		backpack = "B_FieldPack_khk_MANPADS_USAREUR90";
-		weapons[] = {"RH_m4","Throw","Put"};
-		respawnWeapons[] = {"RH_m4","Throw","Put"};
+		weapons[] = {"RH_M16A2","Throw","Put"};
+		respawnWeapons[] = {"RH_M16A2","Throw","Put"};
 		magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShell","SmokeShellRed"};
 		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShell","SmokeShellRed"};
 		headgearProbability = 100;
