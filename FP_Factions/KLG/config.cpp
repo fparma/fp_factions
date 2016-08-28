@@ -321,7 +321,7 @@ class cfgvehicles
 		armorStructural = 5;
 		author = "FP Mod Team";
 		expansion = 1;
-        identityTypes[] = {"Head_African","G_CIVIL_male"};
+        identityTypes[] = {"Head_African","G_CIVIL_male","LanguageFRE_F"};
 		faceType = "Man_A3";
 		side = 2;
 		faction = "FP_Faction_KLG";

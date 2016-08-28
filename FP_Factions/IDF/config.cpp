@@ -732,8 +732,8 @@ class cfgvehicles
 		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
-		linkedItems[] = {"FP_Carrier_GreenPatchless","IDF_Helmet_Mitsnefet_1","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_Carrier_GreenPatchless","IDF_Helmet_Mitsnefet_1","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"FP_Carrier_CoyotePatchless","IDF_Helmet_Mitsnefet_1","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_Carrier_CoyotePatchless","IDF_Helmet_Mitsnefet_1","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
 	class FP_Faction_IDF_Rifleman: FP_Faction_IDF_Soldier_BASE
 	{
@@ -770,8 +770,8 @@ class cfgvehicles
 		cost = 95000;
 		threat[] = {1,0.1,0.3};
 		icon = "iconManMG";
-		linkedItems[] = {"FP_Carrier_GreenPatchless","IDF_Helmet_Mitsnefet_1","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_Carrier_GreenPatchless","IDF_Helmet_Mitsnefet_1","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"FP_Carrier_CoyotePatchless","IDF_Helmet_Mitsnefet_1","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_Carrier_CoyotePatchless","IDF_Helmet_Mitsnefet_1","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 100;
 		allowedHeadgear[] = {"IDF_Helmet_Mitsnefet_2","IDF_Helmet_Mitsnefet_1"};
 	};
@@ -801,8 +801,8 @@ class cfgvehicles
 		camouflage = 1.6;
 		sensitivity = 3;
 		icon = "iconManLeader";
-		linkedItems[] = {"FP_Carrier_GreenPatchless","IDF_Helmet_Mitsnefet_2","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_Carrier_GreenPatchless","IDF_Helmet_Mitsnefet_2","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"FP_Carrier_CoyotePatchless","IDF_Helmet_Mitsnefet_2","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_Carrier_CoyotePatchless","IDF_Helmet_Mitsnefet_2","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		identitytypes[] = {"LanguageENG_F", "Head_NATO", "G_NATO_default"};
 		headgearProbability = 80;
 		allowedHeadgear[] = {"IDF_Helmet_Mitsnefet_2","IDF_Helmet_Mitsnefet_1"};
@@ -821,8 +821,8 @@ class cfgvehicles
 		camouflage = 1.6;
 		sensitivity = 3;
 		icon = "iconManLeader";
-		linkedItems[] = {"FP_Carrier_GreenPatchless","IDF_Helmet_Mitsnefet_2","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_Carrier_GreenPatchless","IDF_Helmet_Mitsnefet_2","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"FP_Carrier_CoyotePatchless","IDF_Helmet_Mitsnefet_2","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_Carrier_CoyotePatchless","IDF_Helmet_Mitsnefet_2","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 90;
 		allowedHeadgear[] = {"IDF_Helmet_Mitsnefet_2","IDF_Helmet_Mitsnefet_1"};
 	};
@@ -848,8 +848,8 @@ class cfgvehicles
 		magazines[] = {"20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","RH_17Rnd_9x19_g17","RH_17Rnd_9x19_g17","RH_17Rnd_9x19_g17","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
 		respawnMagazines[] = {"20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","RH_17Rnd_9x19_g17","RH_17Rnd_9x19_g17","RH_17Rnd_9x19_g17","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
 		cost = 150000;
-		linkedItems[] = {"FP_Carrier_GreenPatchless","IDF_Helmet_Mitsnefet_2","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_Carrier_GreenPatchless","IDF_Helmet_Mitsnefet_2","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"FP_Carrier_CoyotePatchless","IDF_Helmet_Mitsnefet_2","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_Carrier_CoyotePatchless","IDF_Helmet_Mitsnefet_2","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		sensitivity = 3;
 		headgearProbability = 60;
 		allowedHeadgear[] = {"IDF_Helmet_Mitsnefet_2","IDF_Helmet_Mitsnefet_1"};
@@ -925,8 +925,8 @@ class cfgvehicles
 		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","RH_17Rnd_9x19_g17","RH_17Rnd_9x19_g17","RH_17Rnd_9x19_g17","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
 		camouflage = 1.6;
 		sensitivity = 2.4;
-		linkedItems[] = {"FP_Carrier_GreenPatchless","H_HelmetCrew_I","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_Carrier_GreenPatchless","H_HelmetCrew_I","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"FP_Carrier_CoyotePatchless","H_HelmetCrew_I","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_Carrier_CoyotePatchless","H_HelmetCrew_I","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		cost = 90000;
 		headgearProbability = 100;
 		allowedHeadgear[] = {"H_HelmetCrew_I"};
@@ -979,8 +979,8 @@ class cfgvehicles
 		threat[] = {1,0.1,0.3};
 		backpack = "B_FieldPack_khk_MMG_IDF";
 		icon = "iconManMG";
-		linkedItems[] = {"FP_Carrier_GreenPatchless","IDF_Helmet_Mitsnefet_1","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_Carrier_GreenPatchless","IDF_Helmet_Mitsnefet_1","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"FP_Carrier_CoyotePatchless","IDF_Helmet_Mitsnefet_1","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_Carrier_CoyotePatchless","IDF_Helmet_Mitsnefet_1","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 100;
 		allowedHeadgear[] = {"IDF_Helmet_Mitsnefet_2","IDF_Helmet_Mitsnefet_1"};
 	};
@@ -1192,7 +1192,7 @@ class cfgWeapons
 		{
 			class LinkedItemsOptic
 			{
-				item = "RH_ta31rco";
+				item = "rhsusf_acc_ACOG3_3d";
 				slot = "CowsSlot";
 			};
 		};
