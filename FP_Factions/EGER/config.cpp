@@ -1072,8 +1072,8 @@ class cfgvehicles
 		respawnMagazines[] = {"hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
-		linkedItems[] = {"V_mas_gue_ind_chicom","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_mas_gue_ind_webb","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"V_mas_gue_ind_chicom","CUP_H_TK_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_mas_gue_ind_webb","CUP_H_TK_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
 	class FP_Faction_EGER85_Rifleman: FP_Faction_EGER85_Soldier_BASE
 	{
@@ -1084,7 +1084,7 @@ class cfgvehicles
 		displayName = "Conscript Rifleman";
 		cost = 100000;
 		headgearProbability = 100;
-		allowedHeadgear[] = {"FP_Helmet_SSH68","FP_Helmet_SSH68"};
+		allowedHeadgear[] = {"CUP_H_TK_Helmet","CUP_H_TK_Helmet"};
 	};
 	class FP_Faction_EGER85_AR: FP_Faction_EGER85_Soldier_BASE
 	{
@@ -1110,10 +1110,10 @@ class cfgvehicles
 		cost = 95000;
 		threat[] = {1,0.1,0.3};
 		icon = "iconManMG";
-		linkedItems[] = {"V_mas_gue_ind_webb","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_mas_gue_ind_webb","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"V_mas_gue_ind_webb","CUP_H_TK_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_mas_gue_ind_webb","CUP_H_TK_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 100;
-		allowedHeadgear[] = {"FP_Helmet_SSH68","FP_Helmet_SSH68"};
+		allowedHeadgear[] = {"CUP_H_TK_Helmet","CUP_H_TK_Helmet"};
 	};
 	class FP_Faction_EGER85_AAR: FP_Faction_EGER85_Soldier_BASE
 	{
@@ -1123,7 +1123,7 @@ class cfgvehicles
 		displayName = "Assistant Automatic Rifleman";
 		backpack = "CUP_B_CivPack_WDL_EGER85_AAR";
 		headgearProbability = 100;
-		allowedHeadgear[] = {"FP_Helmet_SSH68","FP_Helmet_SSH68"};
+		allowedHeadgear[] = {"CUP_H_TK_Helmet","CUP_H_TK_Helmet"};
 		cost = 65000;
 		threat[] = {1,0.1,0.3};
 	};
@@ -1141,11 +1141,11 @@ class cfgvehicles
 		camouflage = 1.6;
 		sensitivity = 3;
 		icon = "iconManLeader";
-		linkedItems[] = {"V_mas_gue_ind_webb","FP_Helmet_SSH68","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_mas_gue_ind_webb","FP_Helmet_SSH68","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"V_mas_gue_ind_webb","CUP_H_TK_Helmet","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_mas_gue_ind_webb","CUP_H_TK_Helmet","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		identitytypes[] = {"LanguageENG_F", "Head_NATO", "G_NATO_default"};
 		headgearProbability = 80;
-		allowedHeadgear[] = {"FP_Helmet_SSH68","FP_Helmet_SSH68"};
+		allowedHeadgear[] = {"CUP_H_TK_Helmet","CUP_H_TK_Helmet"};
 	};
 	class FP_Faction_EGER85_TL: FP_Faction_EGER85_Soldier_BASE
 	{
@@ -1161,10 +1161,10 @@ class cfgvehicles
 		camouflage = 1.6;
 		sensitivity = 3;
 		icon = "iconManLeader";
-		linkedItems[] = {"V_mas_gue_ind_webb","FP_Helmet_SSH68","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_mas_gue_ind_webb","FP_Helmet_SSH68","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"V_mas_gue_ind_webb","CUP_H_TK_Helmet","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_mas_gue_ind_webb","CUP_H_TK_Helmet","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 90;
-		allowedHeadgear[] = {"FP_Helmet_SSH68","FP_Helmet_SSH68"};
+		allowedHeadgear[] = {"CUP_H_TK_Helmet","CUP_H_TK_Helmet"};
 	};
 	class FP_Faction_EGER85_DM: FP_Faction_EGER85_Soldier_BASE
 	{
@@ -1188,11 +1188,11 @@ class cfgvehicles
 		magazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		respawnMagazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		cost = 150000;
-		linkedItems[] = {"V_mas_gue_ind_webb","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_mas_gue_ind_webb","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"V_mas_gue_ind_webb","CUP_H_TK_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_mas_gue_ind_webb","CUP_H_TK_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		sensitivity = 3;
 		headgearProbability = 60;
-		allowedHeadgear[] = {"FP_Helmet_SSH68","FP_Helmet_SSH68"};
+		allowedHeadgear[] = {"CUP_H_TK_Helmet","CUP_H_TK_Helmet"};
 	};
 	class FP_Faction_EGER85_RAT: FP_Faction_EGER85_Soldier_BASE
 	{
@@ -1220,7 +1220,7 @@ class cfgvehicles
 		secondaryAmmoCoef = 0.5;
 		icon = "iconManAT";
 		headgearProbability = 100;
-		allowedHeadgear[] = {"FP_Helmet_SSH68","FP_Helmet_SSH68"};
+		allowedHeadgear[] = {"CUP_H_TK_Helmet","CUP_H_TK_Helmet"};
 	};
 	class FP_Faction_EGER85_Medic: FP_Faction_EGER85_Soldier_BASE
 	{
@@ -1247,13 +1247,13 @@ class cfgvehicles
 		backpack = "B_FieldPack_cbr_Medic";
 		cost = 300000;
 		camouflage = 1.6;
-		linkedItems[] = {"V_mas_gue_ind_webb","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_mas_gue_ind_webb","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"V_mas_gue_ind_webb","CUP_H_TK_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_mas_gue_ind_webb","CUP_H_TK_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		sensitivity = 2.4;
 		icon = "iconManMedic";
 		picture = "pictureHeal";
 		headgearProbability = 100;
-		allowedHeadgear[] = {"FP_Helmet_SSH68","FP_Helmet_SSH68"};
+		allowedHeadgear[] = {"CUP_H_TK_Helmet","CUP_H_TK_Helmet"};
 	};
 	class FP_Faction_EGER85_Crewman: FP_Faction_EGER85_Soldier_BASE
 	{
@@ -1268,8 +1268,8 @@ class cfgvehicles
 		camouflage = 1.6;
 		sensitivity = 2.4;
 		cost = 90000;
-	    linkedItems[] = {"V_mas_gue_ind_webb","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_mas_gue_ind_webb","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	    linkedItems[] = {"V_mas_gue_ind_webb","CUP_H_TK_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_mas_gue_ind_webb","CUP_H_TK_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 100;
 		allowedHeadgear[] = {"CUP_H_TK_TankerHelmet"};
 	};
@@ -1291,12 +1291,12 @@ class cfgvehicles
 		engineer = 1;
 		detectSkill = 60;
 		threat[] = {1,0.5,0.1};
-	    linkedItems[] = {"V_mas_gue_ind_webb","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_mas_gue_ind_webb","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	    linkedItems[] = {"V_mas_gue_ind_webb","CUP_H_TK_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_mas_gue_ind_webb","CUP_H_TK_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		icon = "iconManEngineer";
 		picture = "pictureRepair";
 		headgearProbability = 100;
-		allowedHeadgear[] = {"FP_Helmet_SSH68","FP_Helmet_SSH68"};
+		allowedHeadgear[] = {"CUP_H_TK_Helmet","CUP_H_TK_Helmet"};
 	};
 	class FP_Faction_EGER85_MMG: FP_Faction_EGER85_Soldier_BASE
 	{
@@ -1322,10 +1322,10 @@ class cfgvehicles
 		cost = 95000;
 		threat[] = {1,0.1,0.3};
 		icon = "iconManMG";
-		linkedItems[] = {"V_mas_gue_ind_webb","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_mas_gue_ind_webb","FP_Helmet_SSH68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"V_mas_gue_ind_webb","CUP_H_TK_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_mas_gue_ind_webb","CUP_H_TK_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 100;
-		allowedHeadgear[] = {"FP_Helmet_SSH68","FP_Helmet_SSH68"};
+		allowedHeadgear[] = {"CUP_H_TK_Helmet","CUP_H_TK_Helmet"};
 	};
 	class FP_Faction_EGER85_AMMG: FP_Faction_EGER85_Soldier_BASE
 	{
@@ -1335,7 +1335,7 @@ class cfgvehicles
 		displayName = "MMG Assistant";
 		backpack = "CUP_B_CivPack_WDL_EGER85_MMG";
 		headgearProbability = 100;
-		allowedHeadgear[] = {"FP_Helmet_SSH68","FP_Helmet_SSH68"};
+		allowedHeadgear[] = {"CUP_H_TK_Helmet","CUP_H_TK_Helmet"};
 		cost = 65000;
 		threat[] = {1,0.1,0.3};
 	};
@@ -1366,7 +1366,7 @@ class cfgvehicles
 		secondaryAmmoCoef = 0.5;
 		icon = "iconManAT";
 		headgearProbability = 100;
-		allowedHeadgear[] = {"FP_Helmet_SSH68","FP_Helmet_SSH68"};
+		allowedHeadgear[] = {"CUP_H_TK_Helmet","CUP_H_TK_Helmet"};
 	};
 	class FP_Faction_EGER85_AMAT: FP_Faction_EGER85_Soldier_BASE
 	{
@@ -1376,7 +1376,7 @@ class cfgvehicles
 		displayName = "MAT Assistant";
 		backpack = "CUP_B_CivPack_WDL_EGER85_MAT";
 		headgearProbability = 100;
-		allowedHeadgear[] = {"FP_Helmet_SSH68","FP_Helmet_SSH68"};
+		allowedHeadgear[] = {"CUP_H_TK_Helmet","CUP_H_TK_Helmet"};
 		cost = 65000;
 		threat[] = {1,0.1,0.3};
 	};
@@ -1407,7 +1407,7 @@ class cfgvehicles
 		secondaryAmmoCoef = 0.5;
 		icon = "iconManAT";
 		headgearProbability = 100;
-		allowedHeadgear[] = {"FP_Helmet_SSH68","FP_Helmet_SSH68"};
+		allowedHeadgear[] = {"CUP_H_TK_Helmet","CUP_H_TK_Helmet"};
 	};
 	class FP_Faction_EGER85_AMANPADS: FP_Faction_EGER85_Soldier_BASE
 	{
@@ -1417,7 +1417,7 @@ class cfgvehicles
 		displayName = "MANPADS Assistant";
 		backpack = "B_Carryall_cbr_EGER85_MANPADS";
 		headgearProbability = 100;
-		allowedHeadgear[] = {"FP_Helmet_SSH68","FP_Helmet_SSH68"};
+		allowedHeadgear[] = {"CUP_H_TK_Helmet","CUP_H_TK_Helmet"};
 		cost = 65000;
 		threat[] = {1,0.1,0.3};
 	};
