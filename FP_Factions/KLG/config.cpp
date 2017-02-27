@@ -327,7 +327,6 @@ class cfgvehicles
 		faction = "FP_Faction_KLG";
         genericNames = "AfroMen";
 		vehicleClass = "Men";
-		vehicleClass = "fp_men_armedcivs";
 	    editorSubcategory = "fp_men_armedcivs_EdSubcat";
 		portrait = "";
 		picture = "";

@@ -789,7 +789,7 @@ class cfgvehicles
 		respawnWeapons[] = {"hlc_rifle_g3sg1_MEC_TR20","hgun_Rook40_F","Throw","Put"};
 		magazines[] = {"hlc_20rnd_762x51_barrier_G3","hlc_20rnd_762x51_barrier_G3","hlc_20rnd_762x51_barrier_G3","hlc_20rnd_762x51_barrier_G3","hlc_20rnd_762x51_barrier_G3","hlc_20rnd_762x51_barrier_G3","hlc_20rnd_762x51_barrier_G3","hlc_20rnd_762x51_barrier_G3","hlc_20rnd_762x51_barrier_G3","hlc_20rnd_762x51_barrier_G3","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","HandGrenade","HandGrenade","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2"};
 		respawnMagazines[] = {"hlc_20rnd_762x51_barrier_G3","hlc_20rnd_762x51_barrier_G3","hlc_20rnd_762x51_barrier_G3","hlc_20rnd_762x51_barrier_G3","hlc_20rnd_762x51_barrier_G3","hlc_20rnd_762x51_barrier_G3","hlc_20rnd_762x51_barrier_G3","hlc_20rnd_762x51_barrier_G3","hlc_20rnd_762x51_barrier_G3","hlc_20rnd_762x51_barrier_G3","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","HandGrenade","HandGrenade","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2"};
-		cost = 150000
+		cost = 150000;
 		linkedItems[] = {"CUP_V_I_RACS_Carrier_Vest_3","FP_Helmet_MECTiger_Goggles","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"CUP_V_I_RACS_Carrier_Vest_3","FP_Helmet_MECTiger_Goggles","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		sensitivity = 3;

@@ -1,17 +1,17 @@
 class CfgPatches
 {
-  class FPX_Factions_O {
-    name = "FPX Factions - OPFOR";
-    units[] = {
-      #include "CfgPatches_Units.hpp"
-    };
-    weapons[] = {};
-    requiredAddons[] = {
-      "A3_Characters_F",
-      "A3_Weapons_F"
-    };
-    authors[] = {"Versten", "Croguy"};
-  };
+	class FPX_Factions_O {
+		name = "FPX Factions - OPFOR";
+		units[] = {
+			#include "CfgPatches_Units.hpp"
+		};
+		weapons[] = {};
+		requiredAddons[] = {
+			"A3_Characters_F",
+			"A3_Weapons_F"
+		};
+		authors[] = {"Versten", "Croguy"};
+	};
 };
 class CfgWorlds {
 	class GenericNames {
@@ -59,11 +59,11 @@ class CfgWorlds {
 class CfgFactionClasses
 {
   class FPX_O_CCR {
-    displayName = "Caribbean Communists (CCR)";
-  };
+	displayName = "Caribbean Communists (CCR)";
+	};
 };
 class CfgEditorSubcategories {
-  #include "CfgEditorSubcategories.hpp"
+	#include "CfgEditorSubcategories.hpp"
 };
 class CfgVehicles
 {
@@ -92,24 +92,24 @@ class CfgVehicles
 	class CUP_I_BMP1_TK_GUE;
 	class CUP_I_T55_TK_GUE;
 	class I_C_Boat_Transport_02_F;
-  #include "CfgVehicles.hpp"
+	#include "CfgVehicles.hpp"
 };
 class CfgWeapons
 {
   class Default;
 	class ItemCore: Default{};
-  class VestItem;
-  class Vest_NoCamo_Base;
-  class str_3xlin_sn;
-  class CUP_srifle_SVD;
-  class srifle_LRR_F;
+	class VestItem;
+	class Vest_NoCamo_Base;
+	class str_3xlin_sn;
+	class CUP_srifle_SVD;
+	class srifle_LRR_F;
 	class UniformItem;
 	class InventoryItem_Base_F;
 	class InventoryMuzzleItem_Base_F;
 	class InventoryFlashLightItem_Base_F;
 	class InventoryOpticsItem_Base_F;
 	class GrenadeLauncher;
-  #include "CfgWeapons.hpp"
+	#include "CfgWeapons.hpp"
 };
 class cfgGroups {
 	#include "CfgGroups.hpp"
