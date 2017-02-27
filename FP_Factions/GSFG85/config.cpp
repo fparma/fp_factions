@@ -1046,7 +1046,7 @@ class cfgvehicles
 		armorStructural = 5;
 		author = "FP Mod Team";
 		expansion = 1;
-		identityTypes[] = {"LanguageGRE_F","Head_Greek","G_CIVIL_male"};
+		identityTypes[] = {"CUP_D_Language_RU","Head_Euro","G_GUERIL_default"};
 		faceType = "Man_A3";
 		side = 0;
 		faction = "FP_Faction_GSFG85";
