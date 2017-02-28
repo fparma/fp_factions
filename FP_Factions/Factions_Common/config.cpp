@@ -443,4 +443,4 @@ class cfgMarkers
 		size = 32;
 		texture = "\FP_Factions\Factions_Common\yukt_ca.paa";
 	};
-}
+};

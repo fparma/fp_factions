@@ -25,7 +25,7 @@ class FPX_O_CCR_srifle_SVD : CUP_srifle_SVD {
 };
 class FPX_O_CCR_srifle_LLR : srifle_LRR_F {
 	scope = 1;
-	displayName = "Alejandro SR"
+	displayName = "Alejandro SR";
 	class LinkedItems {
 		class LinkedItemsOptic {
 			item = "RH_m3lr";
