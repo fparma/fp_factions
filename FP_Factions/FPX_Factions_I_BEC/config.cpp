@@ -8,7 +8,8 @@ class CfgPatches
     weapons[] = {};
     requiredAddons[] = {
       "A3_Characters_F",
-      "A3_Weapons_F"
+      "A3_Weapons_F",
+		"CUP_Creatures_People_Core"
     };
     authors[] = {"Versten", "Croguy"};
   };
