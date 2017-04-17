@@ -647,8 +647,8 @@ class cfgvehicles
 		respawnMagazines[] = {"hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","HandGrenade","HandGrenade","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2"};
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
-		linkedItems[] = {"CUP_V_I_RACS_Carrier_Vest_2","FP_Helmet_MECTiger","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"CUP_V_I_RACS_Carrier_Vest_2","FP_Helmet_MECTiger","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"CUP_V_PMC_IOTV_Black_Patrol","FP_Helmet_MECTiger","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"CUP_V_PMC_IOTV_Black_Patrol","FP_Helmet_MECTiger","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
 	class FP_Faction_MEC_Rifleman: FP_Faction_MEC_Soldier_BASE
 	{
@@ -672,8 +672,8 @@ class cfgvehicles
 		headgearProbability = 100;
 		weapons[] = {"hlc_rifle_g3a3_MEC_ZFSG1","Throw","Put"};
 		respawnWeapons[] = {"hlc_rifle_g3a3_MEC_ZFSG1","Throw","Put"};
-		linkedItems[] = {"CUP_V_I_RACS_Carrier_Vest_2","FP_Helmet_MECTiger_Goggles","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"CUP_V_I_RACS_Carrier_Vest_2","FP_Helmet_MECTiger_Goggles","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"CUP_V_PMC_IOTV_Black_Patrol","FP_Helmet_MECTiger_Goggles","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"CUP_V_PMC_IOTV_Black_Patrol","FP_Helmet_MECTiger_Goggles","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		allowedHeadgear[] = {"FP_Helmet_MECTiger","FP_Helmet_MECTiger"};
 	};
 	class FP_Faction_MEC_RTO: FP_Faction_MEC_Soldier_BASE
@@ -711,8 +711,8 @@ class cfgvehicles
 		cost = 95000;
 		threat[] = {1,0.1,0.3};
 		icon = "iconManMG";
-		linkedItems[] = {"CUP_V_I_RACS_Carrier_Vest_3","FP_Helmet_MECTiger_Headset","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"CUP_V_I_RACS_Carrier_Vest_3","FP_Helmet_MECTiger_Headset","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"CUP_V_PMC_IOTV_Black_AR","FP_Helmet_MECTiger_Headset","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"CUP_V_PMC_IOTV_Black_AR","FP_Helmet_MECTiger_Headset","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 100;
 		allowedHeadgear[] = {"FP_Helmet_MECTiger","FP_Helmet_MECTiger"};
 	};
@@ -742,8 +742,8 @@ class cfgvehicles
 		camouflage = 1.6;
 		sensitivity = 3;
 		icon = "iconManLeader";
-		linkedItems[] = {"CUP_V_I_RACS_Carrier_Vest","FP_Helmet_MECTiger_Goggles","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","CUP_NVG_PVS7"};
-		respawnLinkedItems[] = {"CUP_V_I_RACS_Carrier_Vest","FP_Helmet_MECTiger_Goggles","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","CUP_NVG_PVS7"};
+		linkedItems[] = {"CUP_V_PMC_IOTV_Black_TL","FP_Helmet_MECTiger_Goggles","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","CUP_NVG_PVS7"};
+		respawnLinkedItems[] = {"CUP_V_PMC_IOTV_Black_TL","FP_Helmet_MECTiger_Goggles","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","CUP_NVG_PVS7"};
 		identitytypes[] = {"LanguageENG_F", "Head_NATO", "G_NATO_default"};
 		headgearProbability = 80;
 		allowedHeadgear[] = {"FP_Helmet_MECTiger","FP_Helmet_MECTiger"};
@@ -762,8 +762,8 @@ class cfgvehicles
 		camouflage = 1.6;
 		sensitivity = 3;
 		icon = "iconManLeader";
-		linkedItems[] = {"CUP_V_I_RACS_Carrier_Vest","FP_Helmet_MECTiger_Goggles","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","CUP_NVG_PVS7"};
-		respawnLinkedItems[] = {"CUP_V_I_RACS_Carrier_Vest","FP_Helmet_MECTiger_Goggles","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","CUP_NVG_PVS7"};
+		linkedItems[] = {"CUP_V_PMC_IOTV_Black_TL","FP_Helmet_MECTiger_Goggles","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","CUP_NVG_PVS7"};
+		respawnLinkedItems[] = {"CUP_V_PMC_IOTV_Black_TL","FP_Helmet_MECTiger_Goggles","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","CUP_NVG_PVS7"};
 		headgearProbability = 90;
 		allowedHeadgear[] = {"FP_Helmet_MECTiger","FP_Helmet_MECTiger"};
 	};
@@ -789,8 +789,8 @@ class cfgvehicles
 		magazines[] = {"hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","HandGrenade","HandGrenade","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2"};
 		respawnMagazines[] = {"hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","HandGrenade","HandGrenade","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2"};
 		cost = 150000;
-		linkedItems[] = {"CUP_V_I_RACS_Carrier_Vest_3","FP_Helmet_MECTiger_Goggles","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"CUP_V_I_RACS_Carrier_Vest_3","FP_Helmet_MECTiger_Goggles","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"CUP_V_PMC_IOTV_Black_Patrol","FP_Helmet_MECTiger_Goggles","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"CUP_V_PMC_IOTV_Black_Patrol","FP_Helmet_MECTiger_Goggles","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		sensitivity = 3;
 		headgearProbability = 60;
 		allowedHeadgear[] = {"FP_Helmet_MECTiger","FP_Helmet_MECTiger"};
@@ -867,11 +867,11 @@ class cfgvehicles
 		respawnMagazines[] = {"hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","HandGrenade","HandGrenade","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2"};
 		camouflage = 1.6;
 		sensitivity = 2.4;
-		linkedItems[] = {"V_mas_gue_ind_chicom","usm_helmet_cvc","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_mas_gue_ind_chicom","usm_helmet_cvc","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"CUP_V_PMC_IOTV_Black_Empty","CUP_H_RUS_TSH_4_Brown", "G_Aviator", "ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"CUP_V_PMC_IOTV_Black_Empty","CUP_H_RUS_TSH_4_Brown", "G_Aviator", "ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		cost = 90000;
 		headgearProbability = 100;
-		allowedHeadgear[] = {"usm_helmet_cvc"};
+		allowedHeadgear[] = {"CUP_H_RUS_TSH_4_Brown"};
 	};
 	class FP_Faction_MEC_Engineer: FP_Faction_MEC_Soldier_BASE
 	{
@@ -920,8 +920,8 @@ class cfgvehicles
 		cost = 95000;
 		threat[] = {1,0.1,0.3};
 		icon = "iconManMG";
-		linkedItems[] = {"CUP_V_I_RACS_Carrier_Vest_3","FP_Helmet_MECTiger_Headset","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"CUP_V_I_RACS_Carrier_Vest_3","FP_Helmet_MECTiger_Headset","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"CUP_V_PMC_IOTV_Black_AR","FP_Helmet_MECTiger_Headset","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"CUP_V_PMC_IOTV_Black_AR","FP_Helmet_MECTiger_Headset","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 100;
 		allowedHeadgear[] = {"FP_Helmet_MECTiger","FP_Helmet_MECTiger"};
 	};
