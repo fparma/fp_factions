@@ -8,7 +8,8 @@ class CfgPatches
 		weapons[] = {};
 		requiredAddons[] = {
 			"A3_Characters_F",
-			"A3_Weapons_F"
+			"A3_Weapons_F",
+			"CUP_Creatures_People_Core"
 		};
 		authors[] = {"Versten", "Croguy"};
 	};
@@ -67,7 +68,6 @@ class CfgEditorSubcategories {
 };
 class CfgVehicles
 {
-	class eventhandlers;
 	class O_Officer_F;
 	class CUP_O_TK_Soldier;
 	class CUP_O_TK_Crew;

@@ -106,7 +106,7 @@ class East {
 				class FPX_Factions_O_CCR_Militia {
 					name = "Militia Unit";
 					side = 0;
-					faction = "FPX_I_BEC";
+					faction = "FPX_O_CCR";
 					class Unit0 {
 						side = 0;
 						vehicle = "FPX_O_CCR_Soldier_TL";

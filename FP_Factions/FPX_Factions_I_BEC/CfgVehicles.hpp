@@ -46,9 +46,6 @@ class FPX_I_BEC_Soldier_TL : I_G_Soldier_GL_F {
 	"B_IR_Grenade",
     "Chemlight_green"
   };
-  class EventHandlers: EventHandlers { 
-        init = "[_this select 0, ['H_Booniehat_khk_hs',1],['', 0.2, '', 0.2, '', 0.2, '', 0.2, '', 0.2, '', 0.2, '', 0.2, '', 0.2, 'L_Shemagh_OD', 0.2, 'L_Shemagh_Tan', 0.2, 'PU_shemagh_OD', 0.2, 'PU_shemagh_Tan', 0.2, 'G_Sport_Blackred', 0.2, 'G_Combat', 0.2, 'G_Aviator', 0.2,'G_Squares_Tinted',0.2,'',0.2]] call BIS_fnc_unitHeadgear";
-    };
   linkedItems[] = {"H_Booniehat_khk_hs", "CUP_V_B_RRV_Officer", "ItemMap", "ItemCompass", "ItemRadio"};
   respawnLinkedItems[] = {"H_Booniehat_khk_hs", "CUP_V_B_RRV_Officer", "ItemMap", "ItemCompass", "ItemRadio"};
 };
@@ -146,9 +143,6 @@ class FPX_I_BEC_Soldier_Crew : FPX_I_BEC_Soldier_TL {
     "SmokeShell",
     "Chemlight_green"
   };
-  class EventHandlers: EventHandlers { 
-        init = "[_this select 0, ['CUP_H_PMC_Cap_PRR_Tan',1],['', 0.2, '', 0.2, '', 0.2, '', 0.2, '', 0.2, '', 0.2, '', 0.2, '', 0.2, 'L_Shemagh_OD', 0.2, 'L_Shemagh_Tan', 0.2, 'PU_shemagh_OD', 0.2, 'PU_shemagh_Tan', 0.2, 'G_Sport_Blackred', 0.2, 'G_Combat', 0.2, 'G_Aviator', 0.2,'G_Squares_Tinted',0.2,'',0.2]] call BIS_fnc_unitHeadgear";
-    };
   linkedItems[] = {"CUP_H_PMC_Cap_PRR_Tan", "V_BandollierB_khk", "ItemMap", "ItemCompass", "ItemRadio"}; 
   respawnLinkedItems[] = {"CUP_H_PMC_Cap_PRR_Tan", "V_BandollierB_khk", "ItemMap", "ItemCompass", "ItemRadio"};
 };
@@ -183,9 +177,6 @@ class FPX_I_BEC_Soldier_Security : I_G_Soldier_exp_F {
     "SmokeShell",
     "Chemlight_green"
   };
-  class EventHandlers: EventHandlers { 
-        init = "[_this select 0, ['H_Cap_blk',1],['', 0.2, '', 0.2, '', 0.2, '', 0.2, '', 0.2, '', 0.2, '', 0.2, '', 0.2, 'L_Shemagh_OD', 0.2, 'L_Shemagh_Tan', 0.2, 'PU_shemagh_OD', 0.2, 'PU_shemagh_Tan', 0.2, 'G_Sport_Blackred', 0.2, 'G_Combat', 0.2, 'G_Aviator', 0.2,'G_Squares_Tinted',0.2,'',0.2]] call BIS_fnc_unitHeadgear";
-    };
   linkedItems[] = {"H_Cap_blk", "LOP_V_Carrier_TAN", "ItemMap", "ItemCompass", "ItemRadio"};
   respawnLinkedItems[] = {"H_Cap_blk", "LOP_V_Carrier_TAN", "ItemMap", "ItemCompass", "ItemRadio"};
 };
