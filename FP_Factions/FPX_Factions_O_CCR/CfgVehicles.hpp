@@ -163,8 +163,8 @@ class FPX_O_CCR_Soldier_AR : FPX_O_CCR_Soldier_AKM {
 	"hlc_45Rnd_762x39_m_rpk",
 	"hlc_45Rnd_762x39_m_rpk",
 	"hlc_45Rnd_762x39_m_rpk",
-	"hlc_75Rnd_762x39_m_rpk",
-	"hlc_75Rnd_762x39_m_rpk",
+	"hlc_45Rnd_762x39_m_rpk",
+	"hlc_45Rnd_762x39_m_rpk",
     "HandGrenade"
   };
   respawnMagazines[] = {
@@ -173,8 +173,8 @@ class FPX_O_CCR_Soldier_AR : FPX_O_CCR_Soldier_AKM {
 	"hlc_45Rnd_762x39_m_rpk",
 	"hlc_45Rnd_762x39_m_rpk",
 	"hlc_45Rnd_762x39_m_rpk",
-	"hlc_75Rnd_762x39_m_rpk",
-	"hlc_75Rnd_762x39_m_rpk",
+	"hlc_45Rnd_762x39_m_rpk",
+	"hlc_45Rnd_762x39_m_rpk",
     "HandGrenade"
   };
   backpack="CUP_B_AlicePack_Bedroll";
@@ -483,22 +483,22 @@ class FPX_O_CCR_Cuban_Soldier_AR : I_C_Soldier_Para_2_F {
 	items[] = {"FirstAidKit"};
 	respawnItems[] = {"FirstAidKit"};
 	magazines[] = {
-		"hlc_75Rnd_762x39_m_rpk",
-		"hlc_75Rnd_762x39_m_rpk",
-		"hlc_75Rnd_762x39_m_rpk",
-		"hlc_75Rnd_762x39_m_rpk",
-		"hlc_75Rnd_762x39_m_rpk",
-		"hlc_75Rnd_762x39_m_rpk",
+		"hlc_45Rnd_762x39_m_rpk",
+		"hlc_45Rnd_762x39_m_rpk",
+		"hlc_45Rnd_762x39_m_rpk",
+		"hlc_45Rnd_762x39_m_rpk",
+		"hlc_45Rnd_762x39_m_rpk",
+		"hlc_45Rnd_762x39_m_rpk",
 		"HandGrenade",
 		"HandGrenade"
 	};
 	respawnMagazines[] = {
-		"hlc_75Rnd_762x39_m_rpk",
-		"hlc_75Rnd_762x39_m_rpk",
-		"hlc_75Rnd_762x39_m_rpk",
-		"hlc_75Rnd_762x39_m_rpk",
-		"hlc_75Rnd_762x39_m_rpk",
-		"hlc_75Rnd_762x39_m_rpk",
+		"hlc_45Rnd_762x39_m_rpk",
+		"hlc_45Rnd_762x39_m_rpk",
+		"hlc_45Rnd_762x39_m_rpk",
+		"hlc_45Rnd_762x39_m_rpk",
+		"hlc_45Rnd_762x39_m_rpk",
+		"hlc_45Rnd_762x39_m_rpk",
 		"HandGrenade",
 		"HandGrenade"
 	};

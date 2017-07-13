@@ -732,7 +732,7 @@ class cfgvehicles
 	class CUP_B_M113_USA;
 	class FP_Faction_USAREUR75_Vehicle_M113: CUP_B_M113_USA
 	{
-	    displayName = "M113 Gavin (M2)";
+	    displayName = "M113A1";
 		author = "FP Mod Team";
 		faction = "FP_Faction_USAREUR75";
 		category = "Armored";
