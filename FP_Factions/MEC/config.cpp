@@ -814,8 +814,8 @@ class cfgvehicles
 		scopeCurator = 2;
 		displayName = "Rifleman Antitank";
 		backpack = "B_FieldPack_cbr_RPG_AT";
-		weapons[] = {"hlc_rifle_g3a3_MEC_ZFSG1","CUP_launch_RPG18","Throw","Put"};
-		respawnWeapons[] = {"hlc_rifle_g3a3_MEC_ZFSG1","CUP_launch_RPG18","Throw","Put"};
+		weapons[] = {"hlc_rifle_g3a3_MEC_ZFSG1","CUP_launch_M72A6","Throw","Put"};
+		respawnWeapons[] = {"hlc_rifle_g3a3_MEC_ZFSG1","CUP_launch_M72A6","Throw","Put"};
 		magazines[] = {"hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2"};
 		respawnMagazines[] = {"hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2"};
 		cost = 180000;
@@ -843,8 +843,8 @@ class cfgvehicles
 		scopeCurator = 2;
 		displayName = "Medic";
 		attendant = 1;
-		weapons[] = {"hlc_rifle_hk33a2","hgun_Rook40_F","Throw","Put"};
-		respawnWeapons[] = {"hlc_rifle_hk33a2","hgun_Rook40_F","Throw","Put"};
+		weapons[] = {"hlc_rifle_g3a3","hgun_Rook40_F","Throw","Put"};
+		respawnWeapons[] = {"hlc_rifle_g3a3","hgun_Rook40_F","Throw","Put"};
 		magazines[] = {"hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2","Chemlight_red","Chemlight_red"};
 		respawnMagazines[] = {"hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2","Chemlight_red","Chemlight_red"};
 		backpack = "B_FieldPack_cbr_Medic";
@@ -868,11 +868,11 @@ class cfgvehicles
 		respawnMagazines[] = {"hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","HandGrenade","HandGrenade","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2"};
 		camouflage = 1.6;
 		sensitivity = 2.4;
-		linkedItems[] = {"CUP_V_PMC_IOTV_Black_Empty","CUP_H_RUS_TSH_4_Brown", "G_Aviator", "ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"CUP_V_PMC_IOTV_Black_Empty","CUP_H_RUS_TSH_4_Brown", "G_Aviator", "ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"CUP_V_PMC_IOTV_Black_Empty","usm_helmet_cvc", "G_Aviator", "ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"CUP_V_PMC_IOTV_Black_Empty","usm_helmet_cvc", "G_Aviator", "ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		cost = 90000;
 		headgearProbability = 100;
-		allowedHeadgear[] = {"CUP_H_RUS_TSH_4_Brown"};
+		allowedHeadgear[] = {"usm_helmet_cvc"};
 	};
 	class FP_Faction_MEC_Engineer: FP_Faction_MEC_Soldier_BASE
 	{
