@@ -53,7 +53,7 @@ class CfgVehicles
 	class FP_Faction_GSFG85_Rifleman;
 	class C_man_polo_1_F_asia;
 	class I_C_Soldier_Bandit_8_F;
-  #include "CfgVehicles.hpp"
+  	#include "CfgVehicles.hpp"
 };
 class CfgWeapons
 {
@@ -69,9 +69,9 @@ class CfgWeapons
 	class GrenadeLauncher;
 	class str_3xlin_sn;
 	class hlc_rifle_akmgl;
-  #include "CfgWeapons.hpp"
+ 	#include "CfgWeapons.hpp"
 };
-class cfgGroups {
+class CfgGroups {
 	#include "CfgGroups.hpp"
 };
 
