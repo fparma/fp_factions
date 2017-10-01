@@ -1,6 +1,6 @@
 class CfgPatches
 {
-  class FPX_Factions_O {
+  class FPX_Factions_O_NorthVN {
     name = "FPX Factions - OPFOR";
     units[] = {
       #include "CfgPatches_Units.hpp"
