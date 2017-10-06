@@ -9,7 +9,7 @@ class FPX_O_NVA_Soldier_Base : O_T_Officer_F {
 	uniformClass = "FP_Uniform_grn";
 	editorSubcategory = "FPX_EDSubCat_O_NVA_Soldiers";
 	hiddenSelections[] = {"camo", "insignia", "Clan"};
-	hiddenSelectionsTextures[] = {"FP_Factions\FP_UniformsEverywhereElse\SkinsUniform\officer_grn.paa"};
+	hiddenSelectionsTextures[] = {"FP_Uniforms\FP_UniformsEverywhereElse\SkinsUniform\officer_grn.paa"};
 	backpack="";
 	items[] = {"FirstAidKit"};
 	respawnItems[] = {"FirstAidKit"};
@@ -204,22 +204,22 @@ class FPX_O_NVA_VC_MG_MG42 : FPX_O_NVA_VC_MG_DP27 {
 };
 class FPX_O_NVA_VC_AT : FPX_O_NVA_VC_Guerrila_AVT {
 	displayName = "Rifleman(RPG-7)";
-	weapons[] = {"CUP_arifle_Sa58P","CUP_launch_RPG7V","Put","Throw"};
-	respawnwWeapons[] = {"CUP_arifle_Sa58P","CUP_launch_RPG7V","Put","Throw"};	
+	weapons[] = {"CUP_arifle_Sa58V","CUP_launch_RPG7V","Put","Throw"};
+	respawnwWeapons[] = {"CUP_arifle_Sa58V","CUP_launch_RPG7V","Put","Throw"};	
 	magazines[] = {
-		"CUP_arifle_Sa58P",
-		"CUP_arifle_Sa58P",
-		"CUP_arifle_Sa58P",
-		"CUP_arifle_Sa58P",
+		"CUP_30Rnd_Sa58_M_TracerR",
+		"CUP_30Rnd_Sa58_M_TracerR",
+		"CUP_30Rnd_Sa58_M_TracerR",
+		"CUP_30Rnd_Sa58_M_TracerR",
 		"CUP_PG7V_M",
 		"CUP_PG7V_M",
 		"CUP_PG7V_M"
 	};
 	respawnMagazines[] = {
-		"CUP_arifle_Sa58P",
-		"CUP_arifle_Sa58P",
-		"CUP_arifle_Sa58P",
-		"CUP_arifle_Sa58P",
+		"CUP_30Rnd_Sa58_M_TracerR",
+		"CUP_30Rnd_Sa58_M_TracerR",
+		"CUP_30Rnd_Sa58_M_TracerR",
+		"CUP_30Rnd_Sa58_M_TracerR",
 		"CUP_PG7V_M",
 		"CUP_PG7V_M",
 		"CUP_PG7V_M"
@@ -291,7 +291,7 @@ class FPX_O_NVA_VC_CL : O_T_Officer_F {
 	uniformClass = "FP_Uniform_KHK";
 	faction = "FPX_O_NVA";
 	hiddenSelections[] = {"camo", "insignia", "Clan"};
-	hiddenSelectionsTextures[] = {"FP_Factions\FP_UniformsEverywhereElse\SkinsUniform\officer_grn.paa"};
+	hiddenSelectionsTextures[] = {"FP_Uniforms\FP_UniformsEverywhereElse\SkinsUniform\officer_grn.paa"};
 	editorSubcategory = "FPX_EDSubCat_O_NVA_Vietcong";
 	backpack = "CUP_B_SLA_Medicbag";
 	weapons[] = {"hlc_rifle_akm","Put","Throw"};
