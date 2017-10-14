@@ -3,13 +3,14 @@ class FPX_O_NVA_Soldier_Base : O_T_Officer_F {
 	author = "FPX Mod Team";
 	scope = 1;
 	side = 0;
+	modelSides[]={3,2,1,0};
 	identityTypes[] = {"LanguageCHI_F","Head_Asian","G_CIVIL_male"};
 	faction = "FPX_O_NVA";
 	displayName = "Soldier(unarmed)";
 	uniformClass = "FP_Uniform_grn";
 	editorSubcategory = "FPX_EDSubCat_O_NVA_Soldiers";
 	hiddenSelections[] = {"camo", "insignia", "Clan"};
-	hiddenSelectionsTextures[] = {"FP_Uniforms\FP_UniformsEverywhereElse\SkinsUniform\officer_grn.paa"};
+	hiddenSelectionsTextures[] = {"\FP_UniformsEverywhereElse\SkinsUniform\officer_grn.paa"};
 	backpack="";
 	items[] = {"FirstAidKit"};
 	respawnItems[] = {"FirstAidKit"};
@@ -17,13 +18,14 @@ class FPX_O_NVA_Soldier_Base : O_T_Officer_F {
 	respawnwWeapons[] = {"Put","Throw"};
 	magazines[] = {};
 	respawnMagazines[] = {};
-	linkedItems[] = {"CUP_V_O_Ins_Carrier_Rig","ItemCompass"};
-	respawnLinkedItems[] = {"CUP_V_O_Ins_Carrier_Rig","ItemCompass"};
+	linkedItems[] = {"UNS_NVA_HG","CUP_V_O_Ins_Carrier_Rig","ItemCompass"};
+	respawnLinkedItems[] = {"UNS_NVA_HG","CUP_V_O_Ins_Carrier_Rig","ItemCompass"};
 };
-class FPX_O_NVA_VC_Base : I_C_Soldier_Para_5_F {
+class FPX_O_NVA_VC_Base : O_G_Soldier_M_F {
 	author = "FPX Mod Team";
 	scope = 1;
 	side = 0;
+	modelSides[]={3,2,1,0};
 	identityTypes[] = {"LanguageCHI_F","Head_Asian","G_CIVIL_male"};
 	faction = "FPX_O_NVA";
 	displayName = "Vietcong";
@@ -40,6 +42,8 @@ class FPX_O_NVA_VC_Base : I_C_Soldier_Para_5_F {
 };
 class FPX_O_NVA_VC_Guerrila : FPX_O_NVA_VC_Base {
 	scope = 2;
+	modelSides[]={3,2,1,0};
+	headgearList[] = {"UNS_NVA_HK",1};
 	displayName = "Vietcong(SKS)";
 	backpack = "CUP_B_SLA_Medicbag";
 	weapons[] = {"str_sks_old","Put","Throw"};
@@ -75,7 +79,9 @@ class FPX_O_NVA_VC_Guerrila : FPX_O_NVA_VC_Base {
 };
 class FPX_O_NVA_VC_Guerrila_AKM : FPX_O_NVA_VC_Base {
 	scope = 2;
+	modelSides[]={3,2,1,0};
 	displayName = "Vietcong(AKM)";
+	headgearList[] = {"UNS_NVA_HK",1};
 	backpack = "CUP_B_SLA_Medicbag";
 	weapons[] = {"hlc_rifle_akms","Put","Throw"};
 	respawnwWeapons[] = {"hlc_rifle_akms","Put","Throw"};
@@ -108,10 +114,12 @@ class FPX_O_NVA_VC_Guerrila_AKM : FPX_O_NVA_VC_Base {
 	linkedItems[] = {"UNS_NVA_HK","ItemCompass"};
 	respawnLinkedItems[] = {"UNS_NVA_HK","ItemCompass"};
 };
-class FPX_O_NVA_VC_Guerrila_AVT : C_man_polo_1_F_asia {
+class FPX_O_NVA_VC_Guerrila_AVT : CUP_O_TK_INS_Soldier_FNFAL {
 	author = "FPX Mod Team";
 	scope = 2;
 	side = 0;
+	headgearList[] = {"usm_bdu_boonie_blk",1};
+	modelSides[]={3,2,1,0};
 	displayName = "Vietcong(AVT)";
 	identityTypes[] = {"LanguageCHI_F","Head_Asian","G_CIVIL_male"};
 	faction = "FPX_O_NVA";
@@ -149,12 +157,14 @@ class FPX_O_NVA_VC_Guerrila_AVT : C_man_polo_1_F_asia {
 		"CUP_HandGrenade_RGD5",
 		"CUP_HandGrenade_RGD5"
 	};	
-	linkedItems[] = {"UNS_NVA_HK","ItemCompass"};
-	respawnLinkedItems[] = {"UNS_NVA_HK","ItemCompass"};
+	linkedItems[] = {"usm_bdu_boonie_blk","ItemCompass"};
+	respawnLinkedItems[] = {"usm_bdu_boonie_blk","ItemCompass"};
 };
-class FPX_O_NVA_VC_MG_DP27 : I_C_Soldier_Bandit_8_F {
+class FPX_O_NVA_VC_MG_DP27 : CUP_O_TK_INS_Commander {
 	scope = 2;
 	side = 0;
+	modelSides[]={3,2,1,0};
+	headgearList[] = {"usm_bdu_boonie_odg",1};
 	displayName = "Machinegunner(DP-27)";
 	identityTypes[] = {"LanguageCHI_F","Head_Asian","G_CIVIL_male"};
 	faction = "FPX_O_NVA";
@@ -182,6 +192,8 @@ class FPX_O_NVA_VC_MG_DP27 : I_C_Soldier_Bandit_8_F {
 	respawnLinkedItems[] = {"usm_bdu_boonie_odg","ItemCompass"};
 };
 class FPX_O_NVA_VC_MG_MG42 : FPX_O_NVA_VC_MG_DP27 {
+	modelSides[]={3,2,1,0};
+	headgearList[] = {"UNS_NVA_HK",1};
 	displayName = "Machinegunner(MG-42)";
 	weapons[] = {"hlc_lmg_mg42_bakelite","Put","Throw"};
 	respawnwWeapons[] = {"hlc_lmg_mg42_bakelite","Put","Throw"};
@@ -203,7 +215,9 @@ class FPX_O_NVA_VC_MG_MG42 : FPX_O_NVA_VC_MG_DP27 {
 	respawnLinkedItems[] = {"UNS_NVA_HK","ItemCompass"};
 };
 class FPX_O_NVA_VC_AT : FPX_O_NVA_VC_Guerrila_AVT {
+	modelSides[]={3,2,1,0};
 	displayName = "Rifleman(RPG-7)";
+	headgearList[] = {"usm_bdu_boonie_blk",1};
 	weapons[] = {"CUP_arifle_Sa58V","CUP_launch_RPG7V","Put","Throw"};
 	respawnwWeapons[] = {"CUP_arifle_Sa58V","CUP_launch_RPG7V","Put","Throw"};	
 	magazines[] = {
@@ -224,10 +238,12 @@ class FPX_O_NVA_VC_AT : FPX_O_NVA_VC_Guerrila_AVT {
 		"CUP_PG7V_M",
 		"CUP_PG7V_M"
 	};	
-	linkedItems[] = {"UNS_NVA_HK","CUP_V_OI_TKI_Jacket1_06","ItemCompass"};
-	respawnLinkedItems[] = {"UNS_NVA_HK","CUP_V_OI_TKI_Jacket1_06","ItemCompass"};
+	linkedItems[] = {"usm_bdu_boonie_blk","CUP_V_OI_TKI_Jacket1_06","ItemCompass"};
+	respawnLinkedItems[] = {"usm_bdu_boonie_blk","CUP_V_OI_TKI_Jacket1_04","ItemCompass"};
 };
 class FPX_O_NVA_VC_CQC : FPX_O_NVA_VC_MG_DP27 {
+	modelSides[]={3,2,1,0};
+	headgearList[] = {"H_Bandanna_gry",1};
 	displayName = "Urban Fighter";
 	weapons[] = {"str_ppsh_old","Put","Throw"};
 	respawnwWeapons[] = {"str_ppsh_old","Put","Throw"};
@@ -245,12 +261,14 @@ class FPX_O_NVA_VC_CQC : FPX_O_NVA_VC_MG_DP27 {
 		"71rnd_psh_bar",
 		"71rnd_psh_bar"
 	};	
-	linkedItems[] = {"H_Bandanna_khk","CUP_V_O_Ins_Carrier_Rig","ItemMap","ItemCompass"};
-	respawnLinkedItems[] = {"H_Bandanna_khk","CUP_V_O_Ins_Carrier_Rig","ItemMap","ItemCompass"};
+	linkedItems[] = {"H_Bandanna_gry","CUP_V_O_Ins_Carrier_Rig","ItemMap","ItemCompass"};
+	respawnLinkedItems[] = {"H_Bandanna_gry","CUP_V_O_Ins_Carrier_Rig","ItemMap","ItemCompass"};
 };
 class FPX_O_NVA_VC_Raider : FPX_O_NVA_VC_Base {
 	scope = 2;
+	modelSides[]={3,2,1,0};
 	displayName = "Raider";
+	headgearList[] = {"H_Bandanna_khk",1};
 	backpack = "CUP_B_SLA_Medicbag";
 	weapons[] = {"hlc_rifle_akms","Put","Throw"};
 	respawnwWeapons[] = {"hlc_rifle_akms","Put","Throw"};
@@ -286,12 +304,13 @@ class FPX_O_NVA_VC_Raider : FPX_O_NVA_VC_Base {
 class FPX_O_NVA_VC_CL : O_T_Officer_F {
 	scope = 2;
 	side = 0;
+	modelSides[]={3,2,1,0};
 	displayName = "Cell Leader";
 	identityTypes[] = {"LanguageCHI_F","Head_Asian","G_CIVIL_male"};
 	uniformClass = "FP_Uniform_KHK";
 	faction = "FPX_O_NVA";
 	hiddenSelections[] = {"camo", "insignia", "Clan"};
-	hiddenSelectionsTextures[] = {"FP_Uniforms\FP_UniformsEverywhereElse\SkinsUniform\officer_grn.paa"};
+	hiddenSelectionsTextures[] = {"\FP_UniformsEverywhereElse\SkinsUniform\officer_khk.paa"};
 	editorSubcategory = "FPX_EDSubCat_O_NVA_Vietcong";
 	backpack = "CUP_B_SLA_Medicbag";
 	weapons[] = {"hlc_rifle_akm","Put","Throw"};
@@ -321,6 +340,7 @@ class FPX_O_NVA_VC_CL : O_T_Officer_F {
 };
 class FPX_O_NVA_Soldier_SQL : FPX_O_NVA_Soldier_Base {
   scope = 2;
+	modelSides[]={3,2,1,0};
   displayName = "Squad Leader";
   weapons[] = {"str_pps43","Binocular","RH_tt33","Put","Throw"};
   respawnWeapons[] = {"str_pps43","Binocular","RH_tt33","Put","Throw"};
@@ -355,6 +375,7 @@ class FPX_O_NVA_Soldier_SQL : FPX_O_NVA_Soldier_Base {
 
 class FPX_O_NVA_Soldier : FPX_O_NVA_Soldier_Base {
   scope = 2;
+	modelSides[]={3,2,1,0};
 	displayName = "Rifleman";
 	weapons[] = {"hlc_rifle_ak47","Put","Throw"};
 	respawnWeapons[] = {"hlc_rifle_ak47","Put","Throw"};
@@ -383,6 +404,7 @@ class FPX_O_NVA_Soldier : FPX_O_NVA_Soldier_Base {
 };
 class FPX_O_NVA_Soldier_SKS : FPX_O_NVA_Soldier_Base {
   scope = 2;
+	modelSides[]={3,2,1,0};
 	displayName = "Rifleman(SKS)";
 	weapons[] = {"str_sks_old","Put","Throw"};
 	respawnWeapons[] = {"str_sks_old","Put","Throw"};
@@ -411,6 +433,7 @@ class FPX_O_NVA_Soldier_SKS : FPX_O_NVA_Soldier_Base {
 };
 class FPX_O_NVA_Soldier_AR : FPX_O_NVA_Soldier_Base {
   scope = 2;
+	modelSides[]={3,2,1,0};
 	displayName = "Autorifleman";
 	weapons[] = {"str_rpd","Put","Throw"};
 	respawnWeapons[] = {"str_rpd","Put","Throw"};
@@ -436,6 +459,7 @@ class FPX_O_NVA_Soldier_AR : FPX_O_NVA_Soldier_Base {
 };
 class FPX_O_NVA_Soldier_AT : FPX_O_NVA_Soldier_Base {
   scope = 2;
+	modelSides[]={3,2,1,0};
 	displayName = "Anti-Tank (RPG-7)";
 	weapons[] = {"hlc_rifle_akms","CUP_launch_RPG7V","RH_tt33","Put","Throw"};
 	respawnWeapons[] = {"hlc_rifle_akms","CUP_launch_RPG7V","RH_tt33","Put","Throw"};
@@ -477,6 +501,7 @@ class FPX_O_NVA_Soldier_AT : FPX_O_NVA_Soldier_Base {
 };
 class FPX_O_NVA_Soldier_AA : FPX_O_NVA_Soldier_Base {
   scope = 2;
+	modelSides[]={3,2,1,0};
 	displayName = "AA Specialist (Strela)";
 	backpack = "CUP_B_HikingPack_Civ";
 	weapons[] = {"str_oc_kipa","CUP_launch_9K32Strela","Put","Throw"};
@@ -495,8 +520,9 @@ class FPX_O_NVA_Soldier_AA : FPX_O_NVA_Soldier_Base {
 	linkedItems[] = {"UNS_NVA_HG","CUP_V_O_Ins_Carrier_Rig","ItemCompass"};
 	respawnLinkedItems[] = {"UNS_NVA_HG","CUP_V_O_Ins_Carrier_Rig","ItemCompass"};
 };
-class FPX_O_NVA_Soldier_Scout : I_C_Soldier_Para_5_F {
+class FPX_O_NVA_Soldier_Scout : O_G_Soldier_M_F {
   scope = 2;
+	modelSides[]={3,2,1,0};
 	displayName = "Scout";
 	side = 0;
 	identityTypes[] = {"LanguageCHI_F","Head_Asian","G_CIVIL_male"};
@@ -538,6 +564,7 @@ class FPX_O_NVA_Soldier_Scout : I_C_Soldier_Para_5_F {
 };
 class FPX_O_NVA_Soldier_MG : FPX_O_NVA_Soldier_Base {
   scope = 2;
+	modelSides[]={3,2,1,0};
 	displayName = "Machinegunner";
 	backpack = "CUP_B_HikingPack_Civ";
 	weapons[] = {"str_pkm","RH_mak","Put","Throw"};
@@ -571,6 +598,7 @@ class FPX_O_NVA_Soldier_MG : FPX_O_NVA_Soldier_Base {
 };
 class FPX_O_NVA_Soldier_Demo : FPX_O_NVA_Soldier_Base {
   scope = 2;
+	modelSides[]={3,2,1,0};
 	displayName = "Engineer";
 	backpack = "CUP_B_HikingPack_Civ";
 	items[] = {"FirstAidKit","MineDetector","ACE_Clacker"};
@@ -612,6 +640,7 @@ class FPX_O_NVA_Soldier_Demo : FPX_O_NVA_Soldier_Base {
 };
 class FPX_O_NVA_Medic : FPX_O_NVA_Soldier_Base {
   scope = 2;
+	modelSides[]={3,2,1,0};
 	displayName = "Medic";
 	backpack = "CUP_B_CivPack_WDL";
 	weapons[] = {"CUP_arifle_Sa58V","Put","Throw"};

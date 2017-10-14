@@ -8,7 +8,9 @@ class CfgPatches
     weapons[] = {};
     requiredAddons[] = {
       "A3_Characters_F",
+	  "A3_Characters_F_Exp",
       "A3_Weapons_F",
+	  "A3_Weapons_F_Exp",
       "CUP_Creatures_People_Core"
     };
     authors[] = {"Versten", "Croguy"};
@@ -29,7 +31,6 @@ class CfgVehicles
 	class O_T_Officer_F;
 	class O_Officer_F;
 	class CUP_I_GUE_Soldier_Scout;
-	class I_C_Soldier_Para_5_F;
 	class CUP_O_Ural_SLA;
 	class CUP_O_UAZ_Unarmed_SLA;
 	class CUP_O_UAZ_MG_SLA; 
@@ -51,8 +52,9 @@ class CfgVehicles
 	class CUP_O_SPG9_SLA;
 	class fp_mim23;
 	class FP_Faction_GSFG85_Rifleman;
-	class C_man_polo_1_F_asia;
-	class I_C_Soldier_Bandit_8_F;
+	class CUP_O_TK_INS_Soldier_FNFAL;
+	class CUP_O_TK_INS_Commander;
+	class O_G_Soldier_M_F;
   	#include "CfgVehicles.hpp"
 };
 class CfgWeapons
