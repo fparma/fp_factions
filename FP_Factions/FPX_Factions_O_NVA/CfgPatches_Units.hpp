@@ -38,5 +38,3 @@
 "FPX_O_NVA_turret_dushka_mini",
 "FPX_O_NVA_turret_dushka",
 "FPX_O_NVA_turret_podnos",
-
-
