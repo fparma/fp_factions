@@ -191,7 +191,7 @@ class East {
 					};
 					class Unit3 {
 						side = 0;
-						vehicle = "FPX_O_CCR_Soldier_AK";
+						vehicle = "FPX_O_CCR_Soldier_AKM";
 						rank = "PRIVATE";
 						position[] = {5,-6,0};
 					};
