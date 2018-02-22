@@ -2,7 +2,7 @@ class CfgPatches
 {
 	class FP_Factions_KLG
 	{
-		units[] = {"FP_Faction_KLG_Soldier_BASE","FP_Faction_KLG_Rifleman_Mosin","FP_Faction_KLG_Rifleman_AK47","FP_Faction_KLG_Rifleman_FAL","FP_Faction_KLG_Rifleman_SKS","FP_Faction_KLG_Rifleman_DP27","FP_Faction_KLG_Rifleman_PPSH","FP_Faction_KLG_Rifleman_MP133","FP_Faction_KLG_Rifleman_TT33","FP_Faction_KLG_Rifleman_RPG","FP_Faction_KLG_Vehicle_DatsunPK"};
+		units[] = {"FP_Faction_KLG_Soldier_BASE","FP_Faction_KLG_Rifleman_Mosin","FP_Faction_KLG_Rifleman_AK47","FP_Faction_KLG_Rifleman_FAL","FP_Faction_KLG_Rifleman_SKS","FP_Faction_KLG_Rifleman_DP27","FP_Faction_KLG_Rifleman_PPSH","FP_Faction_KLG_Rifleman_TT33","FP_Faction_KLG_Rifleman_RPG","FP_Faction_KLG_Vehicle_DatsunPK"};
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"CUP_WheeledVehicles_LR", "CUP_WheeledVehicles_BRDM2", "CUP_WheeledVehicles_Datsun", "CUP_WheeledVehicles_UAZ", "CUP_WheeledVehicles_Ural"};
@@ -65,18 +65,11 @@ class CfgGroups
 					class Unit4
 					{
 						side = 2;
-						vehicle = "FP_Faction_KLG_Rifleman_MP133";
-						rank = "PRIVATE";
-						position[] = {-10,-10,0};
-					};
-					class Unit5
-					{
-						side = 2;
 						vehicle = "FP_Faction_KLG_Rifleman_TT33";
 						rank = "CORPORAL";
 						position[] = {15,-15,0};
 					};
-					class Unit6
+					class Unit5
 					{
 						side = 2;
 						vehicle = "FP_Faction_KLG_Rifleman_Mosin";
@@ -120,32 +113,25 @@ class CfgGroups
 					class Unit4
 					{
 						side = 2;
-						vehicle = "FP_Faction_KLG_Rifleman_MP133";
-						rank = "PRIVATE";
-						position[] = {-10,-10,0};
-					};
-					class Unit5
-					{
-						side = 2;
 						vehicle = "FP_Faction_KLG_Rifleman_TT33";
 						rank = "CORPORAL";
 						position[] = {15,-15,0};
 					};
-					class Unit6
+					class Unit5
 					{
 						side = 2;
 						vehicle = "FP_Faction_KLG_Rifleman_Mosin";
 						rank = "PRIVATE";
 						position[] = {-15,-15,0};
 					};
-					class Unit7
+					class Unit6
 					{
 						side = 2;
 						vehicle = "FP_Faction_KLG_Rifleman_DP27";
 						rank = "PRIVATE";
 						position[] = {20,-20,0};
 					};
-					class Unit8
+					class Unit7
 					{
 						side = 2;
 						vehicle = "FP_Faction_KLG_Rifleman_SKS";
@@ -161,7 +147,7 @@ class CfgGroups
 					class Unit0
 					{
 						side = 2;
-						vehicle = "FP_Faction_KLG_Rifleman_MP133";
+						vehicle = "FP_Faction_KLG_Rifleman_TT33";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -272,14 +258,14 @@ class CfgGroups
 					class Unit4
 					{
 						side = 2;
-						vehicle = "FP_Faction_KLG_Rifleman_MP133";
+						vehicle = "FP_Faction_KLG_Rifleman_FAL";
 						rank = "PRIVATE";
 						position[] = {-10,-10,0};
 					};
 					class Unit5
 					{
 						side = 2;
-						vehicle = "FP_Faction_KLG_Rifleman_MP133";
+						vehicle = "FP_Faction_KLG_Rifleman_FAL";
 						rank = "CORPORAL";
 						position[] = {15,-15,0};
 					};
@@ -432,24 +418,6 @@ class cfgvehicles
 		respawnMagazines[] = {"hlc_20Rnd_762x51_B_fal","hlc_20Rnd_762x51_B_fal","hlc_20Rnd_762x51_B_fal"};
 		linkedItems[] = {"CUP_V_OI_TKI_Jacket3_05","H_Cap_red","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_V_OI_TKI_Jacket3_05","H_Cap_red","ItemWatch"};
-	};
-	class FP_Faction_KLG_Rifleman_MP133: FP_Faction_KLG_Soldier_BASE
-	{
-		author = "FP Mod Team";
-		_generalMacro = "FP_Faction_KLG_Soldier_BASE";
-		scope = 2;
-		scopeCurator = 2;
-		displayName = "Armed Civilian (MP133)";
-		cost = 100000;
-		headgearProbability = 100;
-		model = "\A3\characters_F\civil\c_poor";
-		uniformClass = "LOP_U_Civ_04";  
-		weapons[] = {"str_mp133","Throw","Put"};
-		respawnWeapons[] = {"str_mp133","Throw","Put"};
-		magazines[] = {"7pul_drob","7pul_drob","7pul_drob"};
-		respawnMagazines[] = {"7pul_drob","7pul_drob","7pul_drob"};
-		linkedItems[] = {"CUP_V_I_Carrier_Belt","rds_worker_cap4","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_V_I_Carrier_Belt","rds_worker_cap4","ItemWatch"};
 	};
 	class FP_Faction_KLG_Rifleman_PPSH: FP_Faction_KLG_Soldier_BASE
 	{
