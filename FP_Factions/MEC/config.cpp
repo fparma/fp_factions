@@ -956,8 +956,8 @@ class cfgvehicles
 		scopeCurator = 2;
 		displayName = "MAT Gunner";
 		backpack = "CUP_B_CivPack_WDL_MEC_MAT";
-		weapons[] = {"hlc_rifle_g3a3ris_MEC_Zeiss","launch_RPG32_F","Throw","Put"};
-		respawnWeapons[] = {"hlc_rifle_g3a3ris_MEC_Zeiss","launch_RPG32_F","Throw","Put"};
+		weapons[] = {"hlc_rifle_g3a3ris_MEC_Zeiss","launch_RPG32_F_black","Throw","Put"};
+		respawnWeapons[] = {"hlc_rifle_g3a3ris_MEC_Zeiss","launch_RPG32_F_black","Throw","Put"};
 		magazines[] = {"hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2"};
 		respawnMagazines[] = {"hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","FP_HandGrenade_RDG2","FP_HandGrenade_RDG2"};
 		cost = 180000;
@@ -1247,7 +1247,7 @@ class cfgWeapons
 		{
 			class LinkedItemsOptic
 			{
-				item = "HLC_Optic_ZFSG1";
+				item = "hlc_optic_STANAGZF_G3";
 				slot = "CowsSlot";
 			};
 		};
@@ -1293,6 +1293,20 @@ class cfgWeapons
 				slot = "CowsSlot";
 			};
 		};
+	};
+	class launch_RPG32_F_black: launch_RPG32_F
+	{
+		scope = 2;
+		displayName = "RPG-32 (Black)";
+		_generalMacro = "launch_RPG32_Black_F";
+		baseWeapon = "launch_RPG32_Black_F";
+		author = "Bohemia Interactive";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_Factions\MEC\RPG_32_body_Black_CO.paa",
+			"\A3\Weapons_F\Launchers\RPG32\Data\RPG_32_optics_CO.paa"
+		};
+		picture="FP_Factions\MEC\gear_RPG32_Black_X_CA.paa";
 	};
 };
 
