@@ -713,8 +713,8 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Crewman";
-		weapons[] = {"arifle_CTAR_blk_FB","hgun_Pistol_01_F","Throw","Put"};
-		respawnWeapons[] = {"arifle_CTAR_blk_FB","hgun_Pistol_01_F","Throw","Put"};
+		weapons[] = {"arifle_CTAR_blk_F","hgun_Pistol_01_F","Throw","Put"};
+		respawnWeapons[] = {"arifle_CTAR_blk_B","hgun_Pistol_01_F","Throw","Put"};
 		magazines[] = {"30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
 		respawnMagazines[] = {"30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
 		camouflage = 1.6;
