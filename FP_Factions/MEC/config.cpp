@@ -1294,6 +1294,7 @@ class cfgWeapons
 			};
 		};
 	};
+	class launch_RPG32_F;
 	class launch_RPG32_F_black: launch_RPG32_F
 	{
 		scope = 2;
