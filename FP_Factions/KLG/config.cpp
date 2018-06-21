@@ -2,10 +2,10 @@ class CfgPatches
 {
 	class FP_Factions_KLG
 	{
-		units[] = {"FP_Faction_KLG_Soldier_BASE","FP_Faction_KLG_Rifleman_Mosin","FP_Faction_KLG_Rifleman_AK47","FP_Faction_KLG_Rifleman_FAL","FP_Faction_KLG_Rifleman_SKS","FP_Faction_KLG_Rifleman_DP27","FP_Faction_KLG_Rifleman_PPSH","FP_Faction_KLG_Rifleman_TT33","FP_Faction_KLG_Rifleman_RPG","FP_Faction_KLG_Vehicle_DatsunPK"};
+		units[] = {"FP_Faction_KLG_Soldier_BASE","FP_Faction_KLG_Rifleman_Mosin","FP_Faction_KLG_Rifleman_AK47","FP_Faction_KLG_Rifleman_FAL","FP_Faction_KLG_Rifleman_SKS","FP_Faction_KLG_Rifleman_DP27","FP_Faction_KLG_Rifleman_PPSH","FP_Faction_KLG_Rifleman_TT33","FP_Faction_KLG_Rifleman_RPG"};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"CUP_WheeledVehicles_LR", "CUP_WheeledVehicles_BRDM2", "CUP_WheeledVehicles_Datsun", "CUP_WheeledVehicles_UAZ", "CUP_WheeledVehicles_Ural"};
+		requiredAddons[] = {"fpa_main"};
 	};
 };
 class CfgFactionClasses
@@ -283,15 +283,15 @@ class CfgGroups
 };
 class cfgvehicles
 {
-    class CUP_B_RPGPack_Khaki;
-	class CUP_B_RPGPack_Khaki_KLG_RPG: CUP_B_RPGPack_Khaki
+    class B_Messenger_IDAP_F;
+	class B_Messenger_IDAP_F_KLG_RPG: B_Messenger_IDAP_F
 	{
 		scope = 1;
 		class TransportMagazines
 		{
-			class _xx_CUP_PG7V_M
+			class _xx_rhs_rpg7_type69_airburst_mag
 			{
-				magazine = "CUP_PG7V_M";
+				magazine = "rhs_rpg7_type69_airburst_mag";
 				count = 3;
 			};
 		};
@@ -327,15 +327,15 @@ class cfgvehicles
 		scope = 0;
 		scopeCurator = 0;
 		model = "\A3\characters_F\civil\c_poor";
-		uniformClass = "LOP_U_Civ_01";  
+		uniformClass = "FP_U_Civ_01";  
 		weapons[] = {"str_3xlin_sn","Throw","Put"};
 		respawnWeapons[] = {"str_3xlin_sn","Throw","Put"};
 		magazines[] = {"5rnd_762_mos","5rnd_762_mos","5rnd_762_mos","5rnd_762_mos","5rnd_762_mos","5rnd_762_mos","5rnd_762_mos"};
 		respawnMagazines[] = {"5rnd_762_mos","5rnd_762_mos","5rnd_762_mos","5rnd_762_mos","5rnd_762_mos","5rnd_762_mos","5rnd_762_mos"};
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
-		linkedItems[] = {"V_mas_gue_ind_chicom","ItemRadio"};
-		respawnLinkedItems[] = {"V_mas_gue_ind_chicom","ItemRadio"};
+		linkedItems[] = {"rhsgref_alice_webbing","ItemRadio"};
+		respawnLinkedItems[] = {"rhsgref_alice_webbing","ItemRadio"};
 	};
 	class FP_Faction_KLG_Rifleman_Mosin: FP_Faction_KLG_Soldier_BASE
 	{
@@ -357,13 +357,13 @@ class cfgvehicles
 		cost = 100000;
 		headgearProbability = 100;
 		model = "\A3\characters_F\civil\c_poor";
-		uniformClass = "LOP_U_Civ_02";  
+		uniformClass = "FP_U_Civ_02";  
 		weapons[] = {"str_sks_old","Throw","Put"};
 		respawnWeapons[] = {"str_sks_old","Throw","Put"};
 		magazines[] = {"10rnd_sks_mag","10rnd_sks_mag","10rnd_sks_mag","10rnd_sks_mag","10rnd_sks_mag","10rnd_sks_mag","10rnd_sks_mag"};
 		respawnMagazines[] = {"10rnd_sks_mag","10rnd_sks_mag","10rnd_sks_mag","10rnd_sks_mag","10rnd_sks_mag","10rnd_sks_mag","10rnd_sks_mag"};
-		linkedItems[] = {"CUP_V_OI_TKI_Jacket2_02","H_Hat_brown","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_V_OI_TKI_Jacket2_02","H_Hat_brown","ItemWatch"};
+		linkedItems[] = {"V_Pocketed_black_F","ItemWatch"};
+		respawnLinkedItems[] = {"V_Pocketed_black_F","ItemWatch"};
 	};
 	class FP_Faction_KLG_Rifleman_AK47: FP_Faction_KLG_Soldier_BASE
 	{
@@ -375,13 +375,13 @@ class cfgvehicles
 		cost = 100000;
 		headgearProbability = 100;
 		model = "\A3\characters_F\civil\c_poor";
-		uniformClass = "LOP_U_Civ_03";  
+		uniformClass = "FP_U_Civ_03";  
 		weapons[] = {"hlc_rifle_ak47","Throw","Put"};
 		respawnWeapons[] = {"hlc_rifle_ak47","Throw","Put"};
 		magazines[] = {"hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak"};
 		respawnMagazines[] = {"hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak"};
-		linkedItems[] = {"V_mas_gue_ind_webb","rds_Profiteer_cap2","ItemWatch"};
-		respawnLinkedItems[] = {"V_mas_gue_ind_webb","rds_Profiteer_cap2","ItemWatch"};
+		linkedItems[] = {"rhsgref_alice_webbing","H_StrawHat","ItemWatch"};
+		respawnLinkedItems[] = {"rhsgref_alice_webbing","H_StrawHat","ItemWatch"};
 	};
 	class FP_Faction_KLG_Rifleman_DP27: FP_Faction_KLG_Soldier_BASE
 	{
@@ -393,13 +393,13 @@ class cfgvehicles
 		cost = 100000;
 		headgearProbability = 100;
 		model = "\A3\characters_F\civil\c_poor";
-		uniformClass = "LOP_U_Civ_04";  
+		uniformClass = "FP_U_Civ_04";  
 		weapons[] = {"str_pul_DP","Throw","Put"};
 		respawnWeapons[] = {"str_pul_DP","Throw","Put"};
 		magazines[] = {"47rnd_dpbar","47rnd_dpbar","47rnd_dpbar"};
 		respawnMagazines[] = {"47rnd_dpbar","47rnd_dpbar","47rnd_dpbar"};
-		linkedItems[] = {"CUP_V_OI_TKI_Jacket3_03","H_Cap_police","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_V_OI_TKI_Jacket3_03","H_Cap_police","ItemWatch"};
+		linkedItems[] = {"rhs_6sh46","H_Cap_police","ItemWatch"};
+		respawnLinkedItems[] = {"rhs_6sh46","H_Cap_police","ItemWatch"};
 	};
 	class FP_Faction_KLG_Rifleman_FAL: FP_Faction_KLG_Soldier_BASE
 	{
@@ -411,13 +411,13 @@ class cfgvehicles
 		cost = 100000;
 		headgearProbability = 100;
 		model = "\A3\characters_F\civil\c_poor";
-		uniformClass = "LOP_U_Civ_05";  
+		uniformClass = "FP_U_Civ_05";  
 		weapons[] = {"hlc_rifle_FAL5000","Throw","Put"};
 		respawnWeapons[] = {"hlc_rifle_FAL5000","Throw","Put"};
 		magazines[] = {"hlc_20Rnd_762x51_B_fal","hlc_20Rnd_762x51_B_fal","hlc_20Rnd_762x51_B_fal"};
 		respawnMagazines[] = {"hlc_20Rnd_762x51_B_fal","hlc_20Rnd_762x51_B_fal","hlc_20Rnd_762x51_B_fal"};
-		linkedItems[] = {"CUP_V_OI_TKI_Jacket3_05","H_Cap_red","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_V_OI_TKI_Jacket3_05","H_Cap_red","ItemWatch"};
+		linkedItems[] = {"V_Safety_yellow_F","H_Cap_red","ItemWatch"};
+		respawnLinkedItems[] = {"V_Safety_yellow_F","H_Cap_red","ItemWatch"};
 	};
 	class FP_Faction_KLG_Rifleman_PPSH: FP_Faction_KLG_Soldier_BASE
 	{
@@ -429,13 +429,13 @@ class cfgvehicles
 		cost = 100000;
 		headgearProbability = 100;
 		model = "\A3\characters_F\civil\c_poor";
-		uniformClass = "LOP_U_Civ_06";  
+		uniformClass = "FP_U_Civ_06";  
 		weapons[] = {"str_ppsh_old","Throw","Put"};
 		respawnWeapons[] = {"str_ppsh_old","Throw","Put"};
 		magazines[] = {"35rnd_psh_mag","35rnd_psh_mag","35rnd_psh_mag"};
 		respawnMagazines[] = {"35rnd_psh_mag","35rnd_psh_mag","35rnd_psh_mag"};
-		linkedItems[] = {"V_Press_F","H_mas_gue_HelmetO","ItemWatch"};
-		respawnLinkedItems[] = {"V_Press_F","H_mas_gue_HelmetO","ItemWatch"};
+		linkedItems[] = {"V_EOD_blue_F","H_PASGT_basic_blue_press_F","ItemWatch"};
+		respawnLinkedItems[] = {"V_EOD_blue_F","H_PASGT_basic_blue_press_F","ItemWatch"};
 	};
 	class FP_Faction_KLG_Rifleman_TT33: FP_Faction_KLG_Soldier_BASE
 	{
@@ -447,11 +447,11 @@ class cfgvehicles
 		cost = 100000;
 		headgearProbability = 100;
 		model = "\A3\characters_F\civil\c_poor";
-		uniformClass = "LOP_U_Civ_06";  
-		weapons[] = {"RH_tt33","Throw","Put"};
-		respawnWeapons[] = {"RH_tt33","Throw","Put"};
-		magazines[] = {"RH_8Rnd_762_tt33","RH_8Rnd_762_tt33","RH_8Rnd_762_tt33"};
-		respawnMagazines[] = {"RH_8Rnd_762_tt33","RH_8Rnd_762_tt33","RH_8Rnd_762_tt33"};
+		uniformClass = "FP_U_Civ_06";  
+		weapons[] = {"rhs_weap_tt33","Throw","Put"};
+		respawnWeapons[] = {"rhs_weap_tt33","Throw","Put"};
+		magazines[] = {"rhs_mag_762x25_8","rhs_mag_762x25_8","rhs_mag_762x25_8"};
+		respawnMagazines[] = {"rhs_mag_762x25_8","rhs_mag_762x25_8","rhs_mag_762x25_8"};
 		linkedItems[] = {"ItemWatch"};
 		respawnLinkedItems[] = {"ItemWatch"};
 	};
@@ -465,21 +465,67 @@ class cfgvehicles
 		cost = 100000;
 		headgearProbability = 100;
 		model = "\A3\characters_F\civil\c_poor";
-		uniformClass = "LOP_U_Civ_06";  
-		backpack = "CUP_B_RPGPack_Khaki_KLG_RPG";
-		weapons[] = {"RH_tt33","CUP_launch_RPG7V","Throw","Put"};
-		respawnWeapons[] = {"RH_tt33","CUP_launch_RPG7V","Throw","Put"};
-		magazines[] = {"RH_8Rnd_762_tt33","RH_8Rnd_762_tt33","RH_8Rnd_762_tt33"};
-		respawnMagazines[] = {"RH_8Rnd_762_tt33","RH_8Rnd_762_tt33","RH_8Rnd_762_tt33"};
+		uniformClass = "FP_U_Civ_06";  
+		backpack = "B_Messenger_IDAP_F_KLG_RPG";
+		weapons[] = {"rhs_weap_tt33","rhs_weap_rpg7","Throw","Put"};
+		respawnWeapons[] = {"rhs_weap_tt33","rhs_weap_rpg7","Throw","Put"};
+		magazines[] = {"rhs_mag_762x25_8","rhs_mag_762x25_8","rhs_mag_762x25_8"};
+		respawnMagazines[] = {"rhs_mag_762x25_8","rhs_mag_762x25_8","rhs_mag_762x25_8"};
 		linkedItems[] = {"ItemWatch"};
 		respawnLinkedItems[] = {"ItemWatch"};
 	};
-    class CUP_I_Datsun_PK;
-	class FP_Faction_KLG_Vehicle_DatsunPK: CUP_I_Datsun_PK
+	class FP_Faction_KLG_Rifleman_Izh18: FP_Faction_KLG_Soldier_BASE
 	{
-		author = "CUP & FP Mod Team";
-		faction = "FP_Faction_KLG";
-		crew = "FP_Faction_KLG_Rifleman_TT33";
-		side = 2;
+		author = "FP Mod Team";
+		_generalMacro = "FP_Faction_KLG_Soldier_BASE";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "Armed Civilian (Izh-18)";
+		cost = 100000;
+		headgearProbability = 100;
+		model = "\A3\characters_F\civil\c_poor";
+		uniformClass = "FP_U_Civ_01";  
+		weapons[] = {"rhs_weap_Izh18","Throw","Put"};
+		respawnWeapons[] = {"rhs_weap_Izh18","Throw","Put"};
+		magazines[] = {"rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck"};
+		respawnMagazines[] = {"rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck"};
+		linkedItems[] = {"V_TacVest_gen_F","ItemWatch"};
+		respawnLinkedItems[] = {"V_TacVest_gen_F","ItemWatch"};
+	};
+	class FP_Faction_KLG_Rifleman_M590: FP_Faction_KLG_Soldier_BASE
+	{
+		author = "FP Mod Team";
+		_generalMacro = "FP_Faction_KLG_Soldier_BASE";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "Armed Civilian (M590)";
+		cost = 100000;
+		headgearProbability = 100;
+		model = "\A3\characters_F\civil\c_poor";
+		uniformClass = "FP_U_Civ_02";  
+		weapons[] = {"rhs_weap_M590_5RD","Throw","Put"};
+		respawnWeapons[] = {"rhs_weap_M590_5RD","Throw","Put"};
+		magazines[] = {"rhsusf_5Rnd_00Buck","rhsusf_5Rnd_00Buck","rhsusf_5Rnd_00Buck","rhsusf_5Rnd_00Buck"};
+		respawnMagazines[] = {"rhsusf_5Rnd_00Buck","rhsusf_5Rnd_00Buck","rhsusf_5Rnd_00Buck","rhsusf_5Rnd_00Buck"};
+		linkedItems[] = {"V_BandollierB_rgr","H_Booniehat_oli","ItemWatch"};
+		respawnLinkedItems[] = {"V_BandollierB_rgr","H_Booniehat_oli","ItemWatch"};
+	};
+	class FP_Faction_KLG_Rifleman_M1903: FP_Faction_KLG_Soldier_BASE
+	{
+		author = "FP Mod Team";
+		_generalMacro = "FP_Faction_KLG_Soldier_BASE";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "Armed Civilian (M1903)";
+		cost = 100000;
+		headgearProbability = 100;
+		model = "\A3\characters_F\civil\c_poor";
+		uniformClass = "FP_U_Civ_06";  
+		weapons[] = {"hlc_rifle_M1903A1","Throw","Put"};
+		respawnWeapons[] = {"hlc_rifle_M1903A1","Throw","Put"};
+		magazines[] = {"hlc_5rnd_3006_1903","hlc_5rnd_3006_1903","hlc_5rnd_3006_1903","hlc_5rnd_3006_1903","hlc_5rnd_3006_1903"};
+		respawnMagazines[] = {"hlc_5rnd_3006_1903","hlc_5rnd_3006_1903","hlc_5rnd_3006_1903","hlc_5rnd_3006_1903","hlc_5rnd_3006_1903"};
+		linkedItems[] = {"rhsgref_alice_webbing","ItemWatch"};
+		respawnLinkedItems[] = {"rhsgref_alice_webbing","ItemWatch"};
 	};
 };

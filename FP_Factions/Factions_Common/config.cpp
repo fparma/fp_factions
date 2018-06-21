@@ -128,15 +128,15 @@ class CfgEditorSubcategories
 };
 class cfgWeapons
 {
-	class CUP_srifle_SVD;
-	class CUP_srifle_SVD_FPFac_PSO: CUP_srifle_SVD
+	class hlc_rifle_FN3011;
+	class hlc_rifle_FN3011_FP_kern: hlc_rifle_FN3011
 	{
 		scope = 1;
 		class LinkedItems
 		{
 			class LinkedItemsOptic
 			{
-				item = "CUP_optic_PSO_1";
+				item = "hlc_optic_Kern_3011";
 				slot = "CowsSlot";
 			};
 		};

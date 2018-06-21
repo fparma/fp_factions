@@ -1,4 +1,4 @@
-class CfgPatches
+/*class CfgPatches
 {
 	class FP_BLU_F
 	{
@@ -406,4 +406,5 @@ class CfgVehicles
 			"A3\armor_f_gamma\APC_Wheeled_03\data\apc_wheeled_03_ext_alpha_co.paa"
 		};
 	};
-};
+};*/
+};*/

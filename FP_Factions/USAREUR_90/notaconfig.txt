@@ -1,4 +1,4 @@
-class CfgPatches
+/*class CfgPatches
 {
 	class FP_Factions_USAREUR90
 	{
@@ -7,8 +7,8 @@ class CfgPatches
 		requiredVersion = 0.1;
 		requiredAddons[] = {"CUP_TrackedVehicles_M113", "cwr2_M60_tank", "CUP_TrackedVehicles_Bradley", "CUP_TrackedVehicles_M1_Abrams", "CUP_WheeledVehicles_HMMWV"};
 	};
-};
-class CfgFactionClasses
+};*/
+/*class CfgFactionClasses
 {
 	class FP_Faction_USAREUR90
 	{
@@ -18,8 +18,8 @@ class CfgFactionClasses
 		icon = "\FP_Factions\USAREUR_60\cfgFactionClasses_usa_ca.paa";
 		flag = "\FP_Factions\USAREUR_60\flag_usa.paa";
 	};
-};
-class CfgGroups
+};*/
+/*class CfgGroups
 {
 	class West
 	{
@@ -1116,8 +1116,8 @@ class CfgGroups
 			};
 		};
 	};
-};
-class cfgvehicles
+};*/
+/*class cfgvehicles
 {
 	class B_Carryall_cbr;
 	class CUP_B_AlicePack_Khaki;
@@ -1942,8 +1942,8 @@ class cfgvehicles
 		vehicleClass = "Car";
 		crew = "FP_Faction_USAREUR90_Rifleman";
 	};
-};
-class cfgWeapons
+}; */
+/*class cfgWeapons
 {
 	class ItemCore;
 	class InventoryItem_Base_F;
@@ -1960,4 +1960,4 @@ class cfgWeapons
 			};
 		};
 	};
-};
+};*/
