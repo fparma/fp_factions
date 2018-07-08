@@ -435,6 +435,23 @@ class cfgvehicles
 			};
 		};
 	};
+	class B_Kitbag_sgg_MAT: B_Kitbag_sgg
+	{
+		scope = 1;
+		class TransportMagazines
+		{
+			class _xx_RPG32_HE_F
+			{
+				magazine = "RPG32_HE_F";
+				count = 2;
+			};
+			class _xx_RPG32_F
+			{
+				magazine = "RPG32_F";
+				count = 2;
+			};
+		};
+	};
 	class B_FieldPack_cbr_MANPADS: B_Carryall_cbr
 	{
 		scope = 1;
