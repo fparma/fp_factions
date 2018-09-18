@@ -59,9 +59,9 @@ class CfgVehicles
 				author="Gordon Weedman";
 				textures[]=
 				{
-					"\FP_Factions\gordon_reskins\data\MRAP_02_ext_01_blufor_co.paa",
-					"\FP_Factions\gordon_reskins\data\MRAP_02_ext_02_blufor_co.paa",
-					"\FP_Factions\gordon_reskins\data\MRAP_02_rcws_blufor_co.paa"
+					"\FP_Factions\gordon_reskins\MRAP_02_ext_01_blufor_co.paa",
+					"\FP_Factions\gordon_reskins\MRAP_02_ext_02_blufor_co.paa",
+					"\FP_Factions\gordon_reskins\MRAP_02_rcws_blufor_co.paa"
 				};
 				factions[]=
 				{
@@ -74,9 +74,9 @@ class CfgVehicles
 				author="Gordon Weedman";
 				textures[]=
 				{
-					"\FP_Factions\gordon_reskins\data\MRAP_02_ext_01_bluforpacific_co.paa",
-					"\FP_Factions\gordon_reskins\data\MRAP_02_ext_02_bluforpacific_co.paa",
-					"\FP_Factions\gordon_reskins\data\MRAP_02_rcws_bluforpacific_co.paa"
+					"\FP_Factions\gordon_reskins\MRAP_02_ext_01_bluforpacific_co.paa",
+					"\FP_Factions\gordon_reskins\MRAP_02_ext_02_bluforpacific_co.paa",
+					"\FP_Factions\gordon_reskins\MRAP_02_rcws_bluforpacific_co.paa"
 				};
 				factions[]=
 				{
@@ -89,9 +89,9 @@ class CfgVehicles
 				author="Gordon Weedman";
 				textures[]=
 				{
-					"\FP_Factions\gordon_reskins\data\MRAP_02_ext_01_black_co.paa",
-					"\FP_Factions\gordon_reskins\data\MRAP_02_ext_02_black_co.paa",
-					"\FP_Factions\gordon_reskins\data\MRAP_02_rcws_black_co.paa"
+					"\FP_Factions\gordon_reskins\MRAP_02_ext_01_black_co.paa",
+					"\FP_Factions\gordon_reskins\MRAP_02_ext_02_black_co.paa",
+					"\FP_Factions\gordon_reskins\MRAP_02_rcws_black_co.paa"
 				};
 				factions[]=
 				{
@@ -106,9 +106,9 @@ class CfgVehicles
 				author="Gordon Weedman";
 				textures[]=
 				{
-					"\FP_Factions\gordon_reskins\data\MRAP_02_ext_01_winter_co.paa",
-					"\FP_Factions\gordon_reskins\data\MRAP_02_ext_02_winter_co.paa",
-					"\FP_Factions\gordon_reskins\data\MRAP_02_rcws_winter_co.paa"
+					"\FP_Factions\gordon_reskins\MRAP_02_ext_01_winter_co.paa",
+					"\FP_Factions\gordon_reskins\MRAP_02_ext_02_winter_co.paa",
+					"\FP_Factions\gordon_reskins\MRAP_02_rcws_winter_co.paa"
 				};
 				factions[]=
 				{
@@ -123,9 +123,9 @@ class CfgVehicles
 				author="Gordon Weedman";
 				textures[]=
 				{
-					"\FP_Factions\gordon_reskins\data\MRAP_02_ext_01_rae1_co.paa",
-					"\FP_Factions\gordon_reskins\data\MRAP_02_ext_02_rae1_co.paa",
-					"\FP_Factions\gordon_reskins\data\MRAP_02_rcws_rae1_co.paa"
+					"\FP_Factions\gordon_reskins\MRAP_02_ext_01_rae1_co.paa",
+					"\FP_Factions\gordon_reskins\MRAP_02_ext_02_rae1_co.paa",
+					"\FP_Factions\gordon_reskins\MRAP_02_rcws_rae1_co.paa"
 				};
 				factions[]=
 				{
@@ -140,9 +140,9 @@ class CfgVehicles
 				author="Gordon Weedman";
 				textures[]=
 				{
-					"\FP_Factions\gordon_reskins\data\MRAP_02_ext_01_rae2_co.paa",
-					"\FP_Factions\gordon_reskins\data\MRAP_02_ext_02_rae2_co.paa",
-					"\FP_Factions\gordon_reskins\data\MRAP_02_rcws_rae2_co.paa"
+					"\FP_Factions\gordon_reskins\MRAP_02_ext_01_rae2_co.paa",
+					"\FP_Factions\gordon_reskins\MRAP_02_ext_02_rae2_co.paa",
+					"\FP_Factions\gordon_reskins\MRAP_02_rcws_rae2_co.paa"
 				};
 				factions[]=
 				{
@@ -157,9 +157,9 @@ class CfgVehicles
 				author="Gordon Weedman";
 				textures[]=
 				{
-					"\FP_Factions\gordon_reskins\data\MRAP_02_ext_01_rae3_co.paa",
-					"\FP_Factions\gordon_reskins\data\MRAP_02_ext_02_rae3_co.paa",
-					"\FP_Factions\gordon_reskins\data\MRAP_02_rcws_rae3_co.paa"
+					"\FP_Factions\gordon_reskins\MRAP_02_ext_01_rae3_co.paa",
+					"\FP_Factions\gordon_reskins\MRAP_02_ext_02_rae3_co.paa",
+					"\FP_Factions\gordon_reskins\MRAP_02_rcws_rae3_co.paa"
 				};
 				factions[]=
 				{
@@ -174,9 +174,9 @@ class CfgVehicles
 				author="Gordon Weedman";
 				textures[]=
 				{
-					"\FP_Factions\gordon_reskins\data\MRAP_02_ext_01_t-pat_co.paa",
-					"\FP_Factions\gordon_reskins\data\MRAP_02_ext_02_t-pat_co.paa",
-					"\FP_Factions\gordon_reskins\data\MRAP_02_rcws_t-pat_co.paa"
+					"\FP_Factions\gordon_reskins\MRAP_02_ext_01_t-pat_co.paa",
+					"\FP_Factions\gordon_reskins\MRAP_02_ext_02_t-pat_co.paa",
+					"\FP_Factions\gordon_reskins\MRAP_02_rcws_t-pat_co.paa"
 				};
 				factions[]=
 				{
@@ -191,8 +191,8 @@ class CfgVehicles
 				author="Gordon Weedman";
 				textures[]=
 				{
-					"\FP_Factions\gordon_reskins\data\MRAP_02_ext_01_AAF_co.paa",
-					"\FP_Factions\gordon_reskins\data\MRAP_02_ext_02_AAF_co.paa",
+					"\FP_Factions\gordon_reskins\MRAP_02_ext_01_AAF_co.paa",
+					"\FP_Factions\gordon_reskins\MRAP_02_ext_02_AAF_co.paa",
 					"\a3\data_f\vehicles\turret_indp_co.paa"
 				};
 				factions[]=
@@ -326,9 +326,9 @@ class CfgVehicles
 		textureList[] = {"Blufor", 1};
 		hiddenSelectionsTextures[] = 
 		{
-			"\FP_Factions\gordon_reskins\data\MRAP_02_ext_01_blufor_co.paa",
-			"\FP_Factions\gordon_reskins\data\MRAP_02_ext_02_blufor_co.paa",
-			"\FP_Factions\gordon_reskins\data\MRAP_02_rcws_blufor_co.paa"
+			"\FP_Factions\gordon_reskins\MRAP_02_ext_01_blufor_co.paa",
+			"\FP_Factions\gordon_reskins\MRAP_02_ext_02_blufor_co.paa",
+			"\FP_Factions\gordon_reskins\MRAP_02_rcws_blufor_co.paa"
 		};
 	};
 
@@ -478,9 +478,9 @@ class CfgVehicles
 		textureList[] = {"Blufor", 1};
 		hiddenSelectionsTextures[] = 
 		{
-			"\FP_Factions\gordon_reskins\data\MRAP_02_ext_01_blufor_co.paa",
-			"\FP_Factions\gordon_reskins\data\MRAP_02_ext_02_blufor_co.paa",
-			"\FP_Factions\gordon_reskins\data\MRAP_02_rcws_blufor_co.paa"
+			"\FP_Factions\gordon_reskins\MRAP_02_ext_01_blufor_co.paa",
+			"\FP_Factions\gordon_reskins\MRAP_02_ext_02_blufor_co.paa",
+			"\FP_Factions\gordon_reskins\MRAP_02_rcws_blufor_co.paa"
 		};
 	};
 	
@@ -608,9 +608,9 @@ class CfgVehicles
 		textureList[] = {"Blufor", 1};
 		hiddenSelectionsTextures[] = 
 		{
-			"\FP_Factions\gordon_reskins\data\MRAP_02_ext_01_blufor_co.paa",
-			"\FP_Factions\gordon_reskins\data\MRAP_02_ext_02_blufor_co.paa",
-			"\FP_Factions\gordon_reskins\data\MRAP_02_rcws_blufor_co.paa"
+			"\FP_Factions\gordon_reskins\MRAP_02_ext_01_blufor_co.paa",
+			"\FP_Factions\gordon_reskins\MRAP_02_ext_02_blufor_co.paa",
+			"\FP_Factions\gordon_reskins\MRAP_02_rcws_blufor_co.paa"
 		};
 	};
 	
@@ -642,9 +642,9 @@ class CfgVehicles
 		textureList[] = {"BluforPacific", 1};
 		hiddenSelectionsTextures[] = 
 		{
-			"\FP_Factions\gordon_reskins\data\MRAP_02_ext_01_bluforpacific_co.paa",
-			"\FP_Factions\gordon_reskins\data\MRAP_02_ext_02_bluforpacific_co.paa",
-			"\FP_Factions\gordon_reskins\data\MRAP_02_rcws_bluforpacific_co.paa"
+			"\FP_Factions\gordon_reskins\MRAP_02_ext_01_bluforpacific_co.paa",
+			"\FP_Factions\gordon_reskins\MRAP_02_ext_02_bluforpacific_co.paa",
+			"\FP_Factions\gordon_reskins\MRAP_02_rcws_bluforpacific_co.paa"
 		};
 	};
 	
@@ -676,9 +676,9 @@ class CfgVehicles
 		textureList[] = {"BluforPacific", 1};
 		hiddenSelectionsTextures[] = 
 		{
-			"\FP_Factions\gordon_reskins\data\MRAP_02_ext_01_bluforpacific_co.paa",
-			"\FP_Factions\gordon_reskins\data\MRAP_02_ext_02_bluforpacific_co.paa",
-			"\FP_Factions\gordon_reskins\data\MRAP_02_rcws_bluforpacific_co.paa"
+			"\FP_Factions\gordon_reskins\MRAP_02_ext_01_bluforpacific_co.paa",
+			"\FP_Factions\gordon_reskins\MRAP_02_ext_02_bluforpacific_co.paa",
+			"\FP_Factions\gordon_reskins\MRAP_02_rcws_bluforpacific_co.paa"
 		};
 	};
 	
@@ -710,9 +710,9 @@ class CfgVehicles
 		textureList[] = {"BluforPacific", 1};
 		hiddenSelectionsTextures[] = 
 		{
-			"\FP_Factions\gordon_reskins\data\MRAP_02_ext_01_bluforpacific_co.paa",
-			"\FP_Factions\gordon_reskins\data\MRAP_02_ext_02_bluforpacific_co.paa",
-			"\FP_Factions\gordon_reskins\data\MRAP_02_rcws_bluforpacific_co.paa"
+			"\FP_Factions\gordon_reskins\MRAP_02_ext_01_bluforpacific_co.paa",
+			"\FP_Factions\gordon_reskins\MRAP_02_ext_02_bluforpacific_co.paa",
+			"\FP_Factions\gordon_reskins\MRAP_02_rcws_bluforpacific_co.paa"
 		};
 	};
 	
@@ -825,8 +825,8 @@ class CfgVehicles
 		textureList[] = {"AAF", 2};
 		hiddenSelectionsTextures[] = 
 		{
-			"\FP_Factions\gordon_reskins\data\MRAP_02_ext_01_aaf_co.paa",
-			"\FP_Factions\gordon_reskins\data\MRAP_02_ext_02_aaf_co.paa",
+			"\FP_Factions\gordon_reskins\MRAP_02_ext_01_aaf_co.paa",
+			"\FP_Factions\gordon_reskins\MRAP_02_ext_02_aaf_co.paa",
 			"\a3\data_f\vehicles\turret_indp_co.paa"
 		};
 	};
@@ -948,8 +948,8 @@ class CfgVehicles
 		textureList[] = {"AAF", 2};
 		hiddenSelectionsTextures[] = 
 		{
-			"\FP_Factions\gordon_reskins\data\MRAP_02_ext_01_aaf_co.paa",
-			"\FP_Factions\gordon_reskins\data\MRAP_02_ext_02_aaf_co.paa",
+			"\FP_Factions\gordon_reskins\MRAP_02_ext_01_aaf_co.paa",
+			"\FP_Factions\gordon_reskins\MRAP_02_ext_02_aaf_co.paa",
 			"\a3\data_f\vehicles\turret_indp_co.paa"
 		};
 	};
@@ -1063,8 +1063,8 @@ class CfgVehicles
 		textureList[] = {"AAF", 2};
 		hiddenSelectionsTextures[] = 
 		{
-			"\FP_Factions\gordon_reskins\data\MRAP_02_ext_01_aaf_co.paa",
-			"\FP_Factions\gordon_reskins\data\MRAP_02_ext_02_aaf_co.paa",
+			"\FP_Factions\gordon_reskins\MRAP_02_ext_01_aaf_co.paa",
+			"\FP_Factions\gordon_reskins\MRAP_02_ext_02_aaf_co.paa",
 			"\a3\data_f\vehicles\turret_indp_co.paa"
 		};
 	};
@@ -1177,8 +1177,8 @@ class CfgVehicles
 		textureList[] = {"AAF", 2};
 		hiddenSelectionsTextures[] = 
 		{
-			"\FP_Factions\gordon_reskins\data\MRAP_01_base_aaf_co.paa",
-			"\FP_Factions\gordon_reskins\data\MRAP_01_adds_aaf_co.paa"
+			"\FP_Factions\gordon_reskins\MRAP_01_base_aaf_co.paa",
+			"\FP_Factions\gordon_reskins\MRAP_01_adds_aaf_co.paa"
 		};
 	};
 	
@@ -1314,8 +1314,8 @@ class CfgVehicles
 		textureList[] = {"AAF", 2};
 		hiddenSelectionsTextures[] = 
 		{
-			"\FP_Factions\gordon_reskins\data\MRAP_01_base_aaf_co.paa",
-			"\FP_Factions\gordon_reskins\data\MRAP_01_adds_aaf_co.paa",
+			"\FP_Factions\gordon_reskins\MRAP_01_base_aaf_co.paa",
+			"\FP_Factions\gordon_reskins\MRAP_01_adds_aaf_co.paa",
 			"\a3\data_f\vehicles\turret_indp_co.paa"
 		};
 	};
@@ -1431,8 +1431,8 @@ class CfgVehicles
 		textureList[] = {"AAF", 2};
 		hiddenSelectionsTextures[] = 
 		{
-			"\FP_Factions\gordon_reskins\data\MRAP_01_base_aaf_co.paa",
-			"\FP_Factions\gordon_reskins\data\MRAP_01_adds_aaf_co.paa",
+			"\FP_Factions\gordon_reskins\MRAP_01_base_aaf_co.paa",
+			"\FP_Factions\gordon_reskins\MRAP_01_adds_aaf_co.paa",
 			"\a3\data_f\vehicles\turret_indp_co.paa"
 		};
 	};
