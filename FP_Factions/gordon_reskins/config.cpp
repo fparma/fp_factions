@@ -5,18 +5,18 @@ class CfgPatches
 		// List of units defined in this "PBO"
 		units[]= 
 		{
-			"GOR_B_MRAP_02_F",
-			"GOR_B_MRAP_02_hmg_F",
-			"GOR_B_MRAP_02_gmg_F",
-			"GOR_B_MRAP_02_F2",
-			"GOR_B_MRAP_02_hmg_F2",
-			"GOR_B_MRAP_02_gmg_F2",
-			"GOR_I_MRAP_02_F",
-			"GOR_I_MRAP_02_hmg_F",
-			"GOR_I_MRAP_02_gmg_F",
-			"GOR_I_MRAP_01_F",
-			"GOR_I_MRAP_01_hmg_F",
-			"GOR_I_MRAP_01_gmg_F",
+			"FP_GOR_B_MRAP_02_F",
+			"FP_GOR_B_MRAP_02_hmg_F",
+			"FP_GOR_B_MRAP_02_gmg_F",
+			"FP_GOR_B_MRAP_02_F2",
+			"FP_GOR_B_MRAP_02_hmg_F2",
+			"FP_GOR_B_MRAP_02_gmg_F2",
+			"FP_GOR_I_MRAP_02_F",
+			"FP_GOR_I_MRAP_02_hmg_F",
+			"FP_GOR_I_MRAP_02_gmg_F",
+			"FP_GOR_I_MRAP_01_F",
+			"FP_GOR_I_MRAP_01_hmg_F",
+			"FP_GOR_I_MRAP_01_gmg_F",
 		};
 		weapons[]={};
 		requiredVersion=0.1;
@@ -203,7 +203,7 @@ class CfgVehicles
 		};
 	};
 	class O_MRAP_02_F;
-	class GOR_B_MRAP_02_F: O_MRAP_02_F
+	class FP_GOR_B_MRAP_02_F: O_MRAP_02_F
 	{
 		author = "Gordon Weedman";
 
@@ -333,12 +333,12 @@ class CfgVehicles
 	};
 
 	class O_MRAP_02_hmg_F;
-	class GOR_B_MRAP_02_hmg_BASE: O_MRAP_02_hmg_F
+	class FP_GOR_B_MRAP_02_hmg_BASE: O_MRAP_02_hmg_F
 	{
 		scope = 0;
 		class Turrets;
 	};
-	class GOR_B_MRAP_02_hmg_BASE2: GOR_B_MRAP_02_hmg_BASE
+	class FP_GOR_B_MRAP_02_hmg_BASE2: FP_GOR_B_MRAP_02_hmg_BASE
 	{
 		scope = 0;
 		class Turrets: Turrets
@@ -346,7 +346,7 @@ class CfgVehicles
 			class MainTurret;
 		};
 	};
-	class GOR_B_MRAP_02_hmg_F: GOR_B_MRAP_02_hmg_BASE2 
+	class FP_GOR_B_MRAP_02_hmg_F: FP_GOR_B_MRAP_02_hmg_BASE2 
 	{
 		author = "Gordon Weedman";
 		
@@ -485,7 +485,7 @@ class CfgVehicles
 	};
 	
 	class O_MRAP_02_gmg_F;
-	class GOR_B_MRAP_02_gmg_F: O_MRAP_02_gmg_F 
+	class FP_GOR_B_MRAP_02_gmg_F: O_MRAP_02_gmg_F 
 	{
 		author = "Gordon Weedman";
 
@@ -614,8 +614,8 @@ class CfgVehicles
 		};
 	};
 	
-	class GOR_B_MRAP_02_F;
-	class GOR_B_MRAP_02_F2: GOR_B_MRAP_02_F 
+	class FP_GOR_B_MRAP_02_F;
+	class FP_GOR_B_MRAP_02_F2: FP_GOR_B_MRAP_02_F 
 	{
 		author = "Gordon Weedman";
 
@@ -648,8 +648,8 @@ class CfgVehicles
 		};
 	};
 	
-	class GOR_B_MRAP_02_hmg_F;
-	class GOR_B_MRAP_02_hmg_F2: GOR_B_MRAP_02_hmg_F 
+	class FP_GOR_B_MRAP_02_hmg_F;
+	class FP_GOR_B_MRAP_02_hmg_F2: FP_GOR_B_MRAP_02_hmg_F 
 	{
 		author = "Gordon Weedman";
 
@@ -682,8 +682,8 @@ class CfgVehicles
 		};
 	};
 	
-	class GOR_B_MRAP_02_gmg_F;
-	class GOR_B_MRAP_02_gmg_F2: GOR_B_MRAP_02_gmg_F 
+	class FP_GOR_B_MRAP_02_gmg_F;
+	class FP_GOR_B_MRAP_02_gmg_F2: FP_GOR_B_MRAP_02_gmg_F 
 	{
 		author = "Gordon Weedman";
 
@@ -716,8 +716,8 @@ class CfgVehicles
 		};
 	};
 	
-	class GOR_B_MRAP_02_F;
-	class GOR_I_MRAP_02_F: GOR_B_MRAP_02_F 
+	class FP_GOR_B_MRAP_02_F;
+	class FP_GOR_I_MRAP_02_F: FP_GOR_B_MRAP_02_F 
 	{
 		author = "Gordon Weedman";
 
@@ -831,8 +831,8 @@ class CfgVehicles
 		};
 	};
 	
-	class GOR_B_MRAP_02_hmg_F;
-	class GOR_I_MRAP_02_hmg_F: GOR_B_MRAP_02_hmg_F 
+	class FP_GOR_B_MRAP_02_hmg_F;
+	class FP_GOR_I_MRAP_02_hmg_F: FP_GOR_B_MRAP_02_hmg_F 
 	{
 		author = "Gordon Weedman";
 
@@ -954,8 +954,8 @@ class CfgVehicles
 		};
 	};
 	
-	class GOR_B_MRAP_02_gmg_F;
-	class GOR_I_MRAP_02_gmg_F: GOR_B_MRAP_02_gmg_F 
+	class FP_GOR_B_MRAP_02_gmg_F;
+	class FP_GOR_I_MRAP_02_gmg_F: FP_GOR_B_MRAP_02_gmg_F 
 	{
 		author = "Gordon Weedman";
 
@@ -1070,7 +1070,7 @@ class CfgVehicles
 	};
 	
 	class B_MRAP_01_F;
-	class GOR_I_MRAP_01_F: B_MRAP_01_F 
+	class FP_GOR_I_MRAP_01_F: B_MRAP_01_F 
 	{
 		author = "Gordon Weedman";
 		
@@ -1183,12 +1183,12 @@ class CfgVehicles
 	};
 	
 	class B_MRAP_01_hmg_F;
-	class GOR_I_MRAP_01_hmg_BASE: B_MRAP_01_hmg_F
+	class FP_GOR_I_MRAP_01_hmg_BASE: B_MRAP_01_hmg_F
 	{
 		scope = 0;
 		class Turrets;
 	};
-	class GOR_I_MRAP_01_hmg_BASE2: GOR_I_MRAP_01_hmg_BASE
+	class FP_GOR_I_MRAP_01_hmg_BASE2: FP_GOR_I_MRAP_01_hmg_BASE
 	{
 		scope = 0;
 		class Turrets: Turrets
@@ -1196,7 +1196,7 @@ class CfgVehicles
 			class MainTurret;
 		};
 	};
-	class GOR_I_MRAP_01_hmg_F: GOR_I_MRAP_01_hmg_BASE2 
+	class FP_GOR_I_MRAP_01_hmg_F: FP_GOR_I_MRAP_01_hmg_BASE2 
 	{
 		author = "Gordon Weedman";
 		
@@ -1320,7 +1320,7 @@ class CfgVehicles
 		};
 	};
 	class B_MRAP_01_gmg_F;
-	class GOR_I_MRAP_01_gmg_F: B_MRAP_01_gmg_F 
+	class FP_GOR_I_MRAP_01_gmg_F: B_MRAP_01_gmg_F 
 	{
 		author = "Gordon Weedman";
 		
