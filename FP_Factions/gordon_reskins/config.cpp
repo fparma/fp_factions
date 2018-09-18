@@ -5,27 +5,54 @@ class CfgPatches
 		// List of units defined in this "PBO"
 		units[]= 
 		{
-			"B_MRAP_02_F",
-			"B_MRAP_02_hmg_F",
-			"B_MRAP_02_gmg_F",
-			"B_MRAP_02_F2",
-			"B_MRAP_02_hmg_F2",
-			"B_MRAP_02_gmg_F2",
+			"FP_GOR_B_MRAP_02_F",
+			"FP_GOR_B_MRAP_02_hmg_F",
+			"FP_GOR_B_MRAP_02_gmg_F",
+			"FP_GOR_B_MRAP_02_F2",
+			"FP_GOR_B_MRAP_02_hmg_F2",
+			"FP_GOR_B_MRAP_02_gmg_F2",
+			"FP_GOR_I_MRAP_02_F",
+			"FP_GOR_I_MRAP_02_hmg_F",
+			"FP_GOR_I_MRAP_02_gmg_F",
+			"FP_GOR_I_MRAP_01_F",
+			"FP_GOR_I_MRAP_01_hmg_F",
+			"FP_GOR_I_MRAP_01_gmg_F",
 		};
 		weapons[]={};
 		requiredVersion=0.1;
-		requiredAddons[] = {"A3_Soft_F"};
+		requiredAddons[]= 
+		{
+			"A3_Soft_F",
+			"A3_Soft_F_Beta"
+		};
 	};
 };
 class CfgVehicles
 {
-	class O_MRAP_02_F; 
-	class B_MRAP_02_F: O_MRAP_02_F 
+	class Car_F;
+	class MRAP_02_base_F: Car_F
 	{
-		author = "Gordon Weedman";
-		
 		class TextureSources
 		{
+			class Hex
+			{
+				displayName="$STR_A3_TEXTURESOURCES_HEX0";
+			};
+			class GreenHex
+			{
+				displayName="$STR_A3_TEXTURESOURCES_GREENHEX0";
+				author="$STR_A3_Bohemia_Interactive";
+				textures[]=
+				{
+					"\A3\Soft_F_Exp\MRAP_02\data\MRAP_02_ext_01_ghex_CO.paa",
+					"\A3\Soft_F_Exp\MRAP_02\data\MRAP_02_ext_02_ghex_CO.paa",
+					"\A3\Data_F_Exp\Vehicles\Turret_ghex_CO.paa"
+				};
+				factions[]=
+				{
+					"OPF_T_F"
+				};
+			};
 			class Blufor
 			{
 				displayName="Blufor";
@@ -68,7 +95,9 @@ class CfgVehicles
 				};
 				factions[]=
 				{
-					"BLU_F"
+					"BLU_F",
+					"OPF_F",
+					"IND_F"
 				};
 			};
 			class Winter
@@ -83,7 +112,9 @@ class CfgVehicles
 				};
 				factions[]=
 				{
-					"BLU_F"
+					"BLU_F",
+					"OPF_F",
+					"IND_F"
 				};
 			};
 			class Rae1
@@ -98,7 +129,9 @@ class CfgVehicles
 				};
 				factions[]=
 				{
-					"BLU_F"
+					"BLU_F",
+					"OPF_F",
+					"IND_F"
 				};
 			};
 			class Rae2
@@ -113,7 +146,9 @@ class CfgVehicles
 				};
 				factions[]=
 				{
-					"BLU_F"
+					"BLU_F",
+					"OPF_F",
+					"IND_F"
 				};
 			};
 			class Rae3
@@ -128,7 +163,9 @@ class CfgVehicles
 				};
 				factions[]=
 				{
-					"BLU_F"
+					"BLU_F",
+					"OPF_F",
+					"IND_F"
 				};
 			};
 			class Tpat
@@ -143,12 +180,33 @@ class CfgVehicles
 				};
 				factions[]=
 				{
-					"BLU_F"
+					"BLU_F",
+					"OPF_F",
+					"IND_F"
+				};
+			};
+			class AAF
+			{
+				displayName="AAF";
+				author="Gordon Weedman";
+				textures[]=
+				{
+					"\FP_Factions\gordon_reskins\MRAP_02_ext_01_AAF_co.paa",
+					"\FP_Factions\gordon_reskins\MRAP_02_ext_02_AAF_co.paa",
+					"\a3\data_f\vehicles\turret_indp_co.paa"
+				};
+				factions[]=
+				{
+					"IND_F"
 				};
 			};
 		};
-		
-		displayName = "Karatel";
+	};
+	class O_MRAP_02_F;
+	class FP_GOR_B_MRAP_02_F: O_MRAP_02_F
+	{
+		author = "Gordon Weedman";
+
 		side = 1;
 		faction = "BLU_F";
 		crew = "B_soldier_f";
@@ -160,7 +218,6 @@ class CfgVehicles
 
 		class TransportMagazines 
 		{
-
 			class _xx_30Rnd_65x39_caseless_mag 
 			{
 				magazine = "30Rnd_65x39_caseless_mag";
@@ -248,7 +305,6 @@ class CfgVehicles
 
 		class TransportItems 
 		{
-
 			class _xx_FirstAidKit 
 			{
 				name = "FirstAidKit";
@@ -258,7 +314,6 @@ class CfgVehicles
 
 		class TransportWeapons 
 		{
-
 			class _xx_arifle_MX_F 
 			{
 				weapon = "arifle_MX_F";
@@ -278,12 +333,12 @@ class CfgVehicles
 	};
 
 	class O_MRAP_02_hmg_F;
-	class B_MRAP_02_hmg_BASE: O_MRAP_02_hmg_F
+	class FP_GOR_B_MRAP_02_hmg_BASE: O_MRAP_02_hmg_F
 	{
 		scope = 0;
 		class Turrets;
 	};
-	class B_MRAP_02_hmg_BASE2: B_MRAP_02_hmg_BASE
+	class FP_GOR_B_MRAP_02_hmg_BASE2: FP_GOR_B_MRAP_02_hmg_BASE
 	{
 		scope = 0;
 		class Turrets: Turrets
@@ -291,136 +346,11 @@ class CfgVehicles
 			class MainTurret;
 		};
 	};
-	class B_MRAP_02_hmg_F: B_MRAP_02_hmg_BASE2 
+	class FP_GOR_B_MRAP_02_hmg_F: FP_GOR_B_MRAP_02_hmg_BASE2 
 	{
 		author = "Gordon Weedman";
 		
-		class TextureSources
-		{
-			class Blufor
-			{
-				displayName="Blufor";
-				author="Gordon Weedman";
-				textures[]=
-				{
-					"\FP_Factions\gordon_reskins\MRAP_02_ext_01_blufor_co.paa",
-					"\FP_Factions\gordon_reskins\MRAP_02_ext_02_blufor_co.paa",
-					"\FP_Factions\gordon_reskins\MRAP_02_rcws_blufor_co.paa"
-				};
-				factions[]=
-				{
-					"BLU_F"
-				};
-			};
-			class BluforPacific
-			{
-				displayName="Blufor Pacific";
-				author="Gordon Weedman";
-				textures[]=
-				{
-					"\FP_Factions\gordon_reskins\MRAP_02_ext_01_bluforpacific_co.paa",
-					"\FP_Factions\gordon_reskins\MRAP_02_ext_02_bluforpacific_co.paa",
-					"\FP_Factions\gordon_reskins\MRAP_02_rcws_bluforpacific_co.paa"
-				};
-				factions[]=
-				{
-					"BLU_T_F"
-				};
-			};
-			class Black
-			{
-				displayName="Black";
-				author="Gordon Weedman";
-				textures[]=
-				{
-					"\FP_Factions\gordon_reskins\MRAP_02_ext_01_black_co.paa",
-					"\FP_Factions\gordon_reskins\MRAP_02_ext_02_black_co.paa",
-					"\FP_Factions\gordon_reskins\MRAP_02_rcws_black_co.paa"
-				};
-				factions[]=
-				{
-					"BLU_F"
-				};
-			};
-			class Winter
-			{
-				displayName="Winter";
-				author="Gordon Weedman";
-				textures[]=
-				{
-					"\FP_Factions\gordon_reskins\MRAP_02_ext_01_winter_co.paa",
-					"\FP_Factions\gordon_reskins\MRAP_02_ext_02_winter_co.paa",
-					"\FP_Factions\gordon_reskins\MRAP_02_rcws_winter_co.paa"
-				};
-				factions[]=
-				{
-					"BLU_F"
-				};
-			};
-			class Rae1
-			{
-				displayName="Russian Arms Expo camo 1";
-				author="Gordon Weedman";
-				textures[]=
-				{
-					"\FP_Factions\gordon_reskins\MRAP_02_ext_01_rae1_co.paa",
-					"\FP_Factions\gordon_reskins\MRAP_02_ext_02_rae1_co.paa",
-					"\FP_Factions\gordon_reskins\MRAP_02_rcws_rae1_co.paa"
-				};
-				factions[]=
-				{
-					"BLU_F"
-				};
-			};
-			class Rae2
-			{
-				displayName="Russian Arms Expo camo 2";
-				author="Gordon Weedman";
-				textures[]=
-				{
-					"\FP_Factions\gordon_reskins\MRAP_02_ext_01_rae2_co.paa",
-					"\FP_Factions\gordon_reskins\MRAP_02_ext_02_rae2_co.paa",
-					"\FP_Factions\gordon_reskins\MRAP_02_rcws_rae2_co.paa"
-				};
-				factions[]=
-				{
-					"BLU_F"
-				};
-			};
-			class Rae3
-			{
-				displayName="Russian Arms Expo camo 3";
-				author="Gordon Weedman";
-				textures[]=
-				{
-					"\FP_Factions\gordon_reskins\MRAP_02_ext_01_rae3_co.paa",
-					"\FP_Factions\gordon_reskins\MRAP_02_ext_02_rae3_co.paa",
-					"\FP_Factions\gordon_reskins\MRAP_02_rcws_rae3_co.paa"
-				};
-				factions[]=
-				{
-					"BLU_F"
-				};
-			};
-			class Tpat
-			{
-				displayName="T-Pat";
-				author="Gordon Weedman";
-				textures[]=
-				{
-					"\FP_Factions\gordon_reskins\MRAP_02_ext_01_t-pat_co.paa",
-					"\FP_Factions\gordon_reskins\MRAP_02_ext_02_t-pat_co.paa",
-					"\FP_Factions\gordon_reskins\MRAP_02_rcws_t-pat_co.paa"
-				};
-				factions[]=
-				{
-					"BLU_F"
-				};
-			};
-		};
-		
 		scope = 2;
-		displayName = "Karatel (HMG)";
 		side = 1;
 		faction = "BLU_F";
 		crew = "B_soldier_f";
@@ -428,12 +358,11 @@ class CfgVehicles
 		{
 			"B_soldier_f",
 			"B_soldier_f"
-	};
+		};
 
-		
+
 		class Turrets: Turrets 
 		{
-
 			class MainTurret: MainTurret 
 			{
 				magazines[] = {"200Rnd_127x99_mag_Tracer_Red", "200Rnd_127x99_mag_Tracer_Red"};
@@ -441,7 +370,6 @@ class CfgVehicles
 		};
 		class TransportMagazines 
 		{
-
 			class _xx_30Rnd_65x39_caseless_mag 
 			{
 				magazine = "30Rnd_65x39_caseless_mag";
@@ -529,7 +457,6 @@ class CfgVehicles
 
 		class TransportItems 
 		{
-
 			class _xx_FirstAidKit 
 			{
 				name = "FirstAidKit";
@@ -539,7 +466,6 @@ class CfgVehicles
 
 		class TransportWeapons 
 		{
-
 			class _xx_arifle_MX_F 
 			{
 				weapon = "arifle_MX_F";
@@ -559,135 +485,10 @@ class CfgVehicles
 	};
 	
 	class O_MRAP_02_gmg_F;
-	class B_MRAP_02_gmg_F: O_MRAP_02_gmg_F 
+	class FP_GOR_B_MRAP_02_gmg_F: O_MRAP_02_gmg_F 
 	{
 		author = "Gordon Weedman";
 
-		class TextureSources
-		{
-			class Blufor
-			{
-				displayName="Blufor";
-				author="Gordon Weedman";
-				textures[]=
-				{
-					"\FP_Factions\gordon_reskins\MRAP_02_ext_01_blufor_co.paa",
-					"\FP_Factions\gordon_reskins\MRAP_02_ext_02_blufor_co.paa",
-					"\FP_Factions\gordon_reskins\MRAP_02_rcws_blufor_co.paa"
-				};
-				factions[]=
-				{
-					"BLU_F"
-				};
-			};
-			class BluforPacific
-			{
-				displayName="Blufor Pacific";
-				author="Gordon Weedman";
-				textures[]=
-				{
-					"\FP_Factions\gordon_reskins\MRAP_02_ext_01_bluforpacific_co.paa",
-					"\FP_Factions\gordon_reskins\MRAP_02_ext_02_bluforpacific_co.paa",
-					"\FP_Factions\gordon_reskins\MRAP_02_rcws_bluforpacific_co.paa"
-				};
-				factions[]=
-				{
-					"BLU_T_F"
-				};
-			};
-			class Black
-			{
-				displayName="Black";
-				author="Gordon Weedman";
-				textures[]=
-				{
-					"\FP_Factions\gordon_reskins\MRAP_02_ext_01_black_co.paa",
-					"\FP_Factions\gordon_reskins\MRAP_02_ext_02_black_co.paa",
-					"\FP_Factions\gordon_reskins\MRAP_02_rcws_black_co.paa"
-				};
-				factions[]=
-				{
-					"BLU_F"
-				};
-			};
-			class Winter
-			{
-				displayName="Winter";
-				author="Gordon Weedman";
-				textures[]=
-				{
-					"\FP_Factions\gordon_reskins\MRAP_02_ext_01_winter_co.paa",
-					"\FP_Factions\gordon_reskins\MRAP_02_ext_02_winter_co.paa",
-					"\FP_Factions\gordon_reskins\MRAP_02_rcws_winter_co.paa"
-				};
-				factions[]=
-				{
-					"BLU_F"
-				};
-			};
-			class Rae1
-			{
-				displayName="Russian Arms Expo camo 1";
-				author="Gordon Weedman";
-				textures[]=
-				{
-					"\FP_Factions\gordon_reskins\MRAP_02_ext_01_rae1_co.paa",
-					"\FP_Factions\gordon_reskins\MRAP_02_ext_02_rae1_co.paa",
-					"\FP_Factions\gordon_reskins\MRAP_02_rcws_rae1_co.paa"
-				};
-				factions[]=
-				{
-					"BLU_F"
-				};
-			};
-			class Rae2
-			{
-				displayName="Russian Arms Expo camo 2";
-				author="Gordon Weedman";
-				textures[]=
-				{
-					"\FP_Factions\gordon_reskins\MRAP_02_ext_01_rae2_co.paa",
-					"\FP_Factions\gordon_reskins\MRAP_02_ext_02_rae2_co.paa",
-					"\FP_Factions\gordon_reskins\MRAP_02_rcws_rae2_co.paa"
-				};
-				factions[]=
-				{
-					"BLU_F"
-				};
-			};
-			class Rae3
-			{
-				displayName="Russian Arms Expo camo 3";
-				author="Gordon Weedman";
-				textures[]=
-				{
-					"\FP_Factions\gordon_reskins\MRAP_02_ext_01_rae3_co.paa",
-					"\FP_Factions\gordon_reskins\MRAP_02_ext_02_rae3_co.paa",
-					"\FP_Factions\gordon_reskins\MRAP_02_rcws_rae3_co.paa"
-				};
-				factions[]=
-				{
-					"BLU_F"
-				};
-			};
-			class Tpat
-			{
-				displayName="T-Pat";
-				author="Gordon Weedman";
-				textures[]=
-				{
-					"\FP_Factions\gordon_reskins\MRAP_02_ext_01_t-pat_co.paa",
-					"\FP_Factions\gordon_reskins\MRAP_02_ext_02_t-pat_co.paa",
-					"\FP_Factions\gordon_reskins\MRAP_02_rcws_t-pat_co.paa"
-				};
-				factions[]=
-				{
-					"BLU_F"
-				};
-			};
-		};
-		
-		displayName = "Karatel (GMG)";
 		side = 1;
 		faction = "BLU_F";
 		crew = "B_soldier_f";
@@ -699,7 +500,6 @@ class CfgVehicles
 
 		class TransportMagazines 
 		{
-
 			class _xx_30Rnd_65x39_caseless_mag 
 			{
 				magazine = "30Rnd_65x39_caseless_mag";
@@ -787,7 +587,6 @@ class CfgVehicles
 
 		class TransportItems 
 		{
-
 			class _xx_FirstAidKit 
 			{
 				name = "FirstAidKit";
@@ -797,7 +596,6 @@ class CfgVehicles
 
 		class TransportWeapons 
 		{
-
 			class _xx_arifle_MX_F 
 			{
 				weapon = "arifle_MX_F";
@@ -816,12 +614,11 @@ class CfgVehicles
 		};
 	};
 	
-	class B_MRAP_02_F;
-	class B_MRAP_02_F2: B_MRAP_02_F 
+	class FP_GOR_B_MRAP_02_F;
+	class FP_GOR_B_MRAP_02_F2: FP_GOR_B_MRAP_02_F 
 	{
 		author = "Gordon Weedman";
-		
-		displayName = "Karatel";
+
 		side = 1;
 		faction = "BLU_T_F";
 		crew = "B_T_soldier_f";
@@ -833,7 +630,6 @@ class CfgVehicles
 
 		class TransportWeapons 
 		{
-
 			class _xx_arifle_MX_khk_F 
 			{
 				weapon = "arifle_MX_khk_F";
@@ -851,12 +647,12 @@ class CfgVehicles
 			"\FP_Factions\gordon_reskins\MRAP_02_rcws_bluforpacific_co.paa"
 		};
 	};
-	class B_MRAP_02_hmg_F;
-	class B_MRAP_02_hmg_F2: B_MRAP_02_hmg_F 
+	
+	class FP_GOR_B_MRAP_02_hmg_F;
+	class FP_GOR_B_MRAP_02_hmg_F2: FP_GOR_B_MRAP_02_hmg_F 
 	{
 		author = "Gordon Weedman";
-		
-		displayName = "Karatel (HMG)";
+
 		side = 1;
 		faction = "BLU_T_F";
 		crew = "B_T_soldier_f";
@@ -868,7 +664,6 @@ class CfgVehicles
 
 		class TransportWeapons 
 		{
-
 			class _xx_arifle_MX_khk_F 
 			{
 				weapon = "arifle_MX_khk_F";
@@ -886,12 +681,12 @@ class CfgVehicles
 			"\FP_Factions\gordon_reskins\MRAP_02_rcws_bluforpacific_co.paa"
 		};
 	};
-	class B_MRAP_02_gmg_F;
-	class B_MRAP_02_gmg_F2: B_MRAP_02_gmg_F 
+	
+	class FP_GOR_B_MRAP_02_gmg_F;
+	class FP_GOR_B_MRAP_02_gmg_F2: FP_GOR_B_MRAP_02_gmg_F 
 	{
 		author = "Gordon Weedman";
-		
-		displayName = "Karatel (GMG)";
+
 		side = 1;
 		faction = "BLU_T_F";
 		crew = "B_T_soldier_f";
@@ -903,7 +698,6 @@ class CfgVehicles
 
 		class TransportWeapons 
 		{
-
 			class _xx_arifle_MX_khk_F 
 			{
 				weapon = "arifle_MX_khk_F";
@@ -919,6 +713,727 @@ class CfgVehicles
 			"\FP_Factions\gordon_reskins\MRAP_02_ext_01_bluforpacific_co.paa",
 			"\FP_Factions\gordon_reskins\MRAP_02_ext_02_bluforpacific_co.paa",
 			"\FP_Factions\gordon_reskins\MRAP_02_rcws_bluforpacific_co.paa"
+		};
+	};
+	
+	class FP_GOR_B_MRAP_02_F;
+	class FP_GOR_I_MRAP_02_F: FP_GOR_B_MRAP_02_F 
+	{
+		author = "Gordon Weedman";
+
+		side = 2;
+		faction = "IND_F";
+		crew = "I_soldier_F";
+		typicalCargo[] = 
+		{
+			"I_Soldier_lite_F",
+			"I_Soldier_lite_F"
+		};
+
+		class TransportMagazines
+		{
+			class _xx_30Rnd_556x45_Stanag
+			{
+				magazine="30Rnd_556x45_Stanag";
+				count=16;
+			};
+			class _xx_200Rnd_65x39_cased_Box
+			{
+				magazine="200Rnd_65x39_cased_Box";
+				count=3;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=10;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=4;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=4;
+			};
+			class _xx_SmokeShellOrange
+			{
+				magazine="SmokeShellOrange";
+				count=4;
+			};
+			class _xx_SmokeShellPurple
+			{
+				magazine="SmokeShellPurple";
+				count=4;
+			};
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_1Rnd_Smoke_Grenade_shell
+			{
+				magazine="1Rnd_Smoke_Grenade_shell";
+				count=4;
+			};
+			class _xx_1Rnd_SmokeGreen_Grenade_shell
+			{
+				magazine="1Rnd_SmokeGreen_Grenade_shell";
+				count=4;
+			};
+			class _xx_1Rnd_SmokeOrange_Grenade_shell
+			{
+				magazine="1Rnd_SmokeOrange_Grenade_shell";
+				count=4;
+			};
+			class _xx_1Rnd_SmokePurple_Grenade_shell
+			{
+				magazine="1Rnd_SmokePurple_Grenade_shell";
+				count=4;
+			};
+			class _xx_9Rnd_45ACP_Mag
+			{
+				magazine="9Rnd_45ACP_Mag";
+				count=12;
+			};
+			class _xx_NLAW_F
+			{
+				magazine="NLAW_F";
+				count=2;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=10;
+			};
+		};
+		class TransportWeapons
+		{
+			class _xx_arifle_Mk20_F
+			{
+				weapon="arifle_Mk20_F";
+				count=2;
+			};
+		};
+		/*extern*/ class Components;
+
+		
+		textureList[] = {"AAF", 2};
+		hiddenSelectionsTextures[] = 
+		{
+			"\FP_Factions\gordon_reskins\MRAP_02_ext_01_aaf_co.paa",
+			"\FP_Factions\gordon_reskins\MRAP_02_ext_02_aaf_co.paa",
+			"\a3\data_f\vehicles\turret_indp_co.paa"
+		};
+	};
+	
+	class FP_GOR_B_MRAP_02_hmg_F;
+	class FP_GOR_I_MRAP_02_hmg_F: FP_GOR_B_MRAP_02_hmg_F 
+	{
+		author = "Gordon Weedman";
+
+		side = 2;
+		faction = "IND_F";
+		crew = "I_soldier_F";
+		typicalCargo[] = 
+		{
+			"I_Soldier_lite_F",
+			"I_Soldier_lite_F"
+		};
+
+		class Turrets: Turrets 
+		{
+			class MainTurret: MainTurret 
+			{
+				magazines[] = {"200Rnd_127x99_mag_Tracer_Yellow", "200Rnd_127x99_mag_Tracer_Yellow"};
+			};
+		};
+		
+		class TransportMagazines
+		{
+			class _xx_30Rnd_556x45_Stanag
+			{
+				magazine="30Rnd_556x45_Stanag";
+				count=16;
+			};
+			class _xx_200Rnd_65x39_cased_Box
+			{
+				magazine="200Rnd_65x39_cased_Box";
+				count=3;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=10;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=4;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=4;
+			};
+			class _xx_SmokeShellOrange
+			{
+				magazine="SmokeShellOrange";
+				count=4;
+			};
+			class _xx_SmokeShellPurple
+			{
+				magazine="SmokeShellPurple";
+				count=4;
+			};
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_1Rnd_Smoke_Grenade_shell
+			{
+				magazine="1Rnd_Smoke_Grenade_shell";
+				count=4;
+			};
+			class _xx_1Rnd_SmokeGreen_Grenade_shell
+			{
+				magazine="1Rnd_SmokeGreen_Grenade_shell";
+				count=4;
+			};
+			class _xx_1Rnd_SmokeOrange_Grenade_shell
+			{
+				magazine="1Rnd_SmokeOrange_Grenade_shell";
+				count=4;
+			};
+			class _xx_1Rnd_SmokePurple_Grenade_shell
+			{
+				magazine="1Rnd_SmokePurple_Grenade_shell";
+				count=4;
+			};
+			class _xx_9Rnd_45ACP_Mag
+			{
+				magazine="9Rnd_45ACP_Mag";
+				count=12;
+			};
+			class _xx_NLAW_F
+			{
+				magazine="NLAW_F";
+				count=2;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=10;
+			};
+		};
+		class TransportWeapons
+		{
+			class _xx_arifle_Mk20_F
+			{
+				weapon="arifle_Mk20_F";
+				count=2;
+			};
+		};
+		/*extern*/ class Components;
+
+		
+		textureList[] = {"AAF", 2};
+		hiddenSelectionsTextures[] = 
+		{
+			"\FP_Factions\gordon_reskins\MRAP_02_ext_01_aaf_co.paa",
+			"\FP_Factions\gordon_reskins\MRAP_02_ext_02_aaf_co.paa",
+			"\a3\data_f\vehicles\turret_indp_co.paa"
+		};
+	};
+	
+	class FP_GOR_B_MRAP_02_gmg_F;
+	class FP_GOR_I_MRAP_02_gmg_F: FP_GOR_B_MRAP_02_gmg_F 
+	{
+		author = "Gordon Weedman";
+
+		side = 2;
+		faction = "IND_F";
+		crew = "I_soldier_F";
+		typicalCargo[] = 
+		{
+			"I_Soldier_lite_F",
+			"I_Soldier_lite_F"
+		};
+
+		class TransportMagazines
+		{
+			class _xx_30Rnd_556x45_Stanag
+			{
+				magazine="30Rnd_556x45_Stanag";
+				count=16;
+			};
+			class _xx_200Rnd_65x39_cased_Box
+			{
+				magazine="200Rnd_65x39_cased_Box";
+				count=3;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=10;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=4;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=4;
+			};
+			class _xx_SmokeShellOrange
+			{
+				magazine="SmokeShellOrange";
+				count=4;
+			};
+			class _xx_SmokeShellPurple
+			{
+				magazine="SmokeShellPurple";
+				count=4;
+			};
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_1Rnd_Smoke_Grenade_shell
+			{
+				magazine="1Rnd_Smoke_Grenade_shell";
+				count=4;
+			};
+			class _xx_1Rnd_SmokeGreen_Grenade_shell
+			{
+				magazine="1Rnd_SmokeGreen_Grenade_shell";
+				count=4;
+			};
+			class _xx_1Rnd_SmokeOrange_Grenade_shell
+			{
+				magazine="1Rnd_SmokeOrange_Grenade_shell";
+				count=4;
+			};
+			class _xx_1Rnd_SmokePurple_Grenade_shell
+			{
+				magazine="1Rnd_SmokePurple_Grenade_shell";
+				count=4;
+			};
+			class _xx_9Rnd_45ACP_Mag
+			{
+				magazine="9Rnd_45ACP_Mag";
+				count=12;
+			};
+			class _xx_NLAW_F
+			{
+				magazine="NLAW_F";
+				count=2;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=10;
+			};
+		};
+		class TransportWeapons
+		{
+			class _xx_arifle_Mk20_F
+			{
+				weapon="arifle_Mk20_F";
+				count=2;
+			};
+		};
+		/*extern*/ class Components;
+
+		
+		textureList[] = {"AAF", 2};
+		hiddenSelectionsTextures[] = 
+		{
+			"\FP_Factions\gordon_reskins\MRAP_02_ext_01_aaf_co.paa",
+			"\FP_Factions\gordon_reskins\MRAP_02_ext_02_aaf_co.paa",
+			"\a3\data_f\vehicles\turret_indp_co.paa"
+		};
+	};
+	
+	class B_MRAP_01_F;
+	class FP_GOR_I_MRAP_01_F: B_MRAP_01_F 
+	{
+		author = "Gordon Weedman";
+		
+		side = 2;
+		faction = "IND_F";
+		crew = "I_soldier_F";
+		typicalCargo[] = 
+		{
+			"I_Soldier_lite_F"
+		};
+
+		class TransportMagazines
+		{
+			class _xx_30Rnd_556x45_Stanag
+			{
+				magazine="30Rnd_556x45_Stanag";
+				count=16;
+			};
+			class _xx_200Rnd_65x39_cased_Box
+			{
+				magazine="200Rnd_65x39_cased_Box";
+				count=3;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=10;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=4;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=4;
+			};
+			class _xx_SmokeShellOrange
+			{
+				magazine="SmokeShellOrange";
+				count=4;
+			};
+			class _xx_SmokeShellPurple
+			{
+				magazine="SmokeShellPurple";
+				count=4;
+			};
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_1Rnd_Smoke_Grenade_shell
+			{
+				magazine="1Rnd_Smoke_Grenade_shell";
+				count=4;
+			};
+			class _xx_1Rnd_SmokeGreen_Grenade_shell
+			{
+				magazine="1Rnd_SmokeGreen_Grenade_shell";
+				count=4;
+			};
+			class _xx_1Rnd_SmokeOrange_Grenade_shell
+			{
+				magazine="1Rnd_SmokeOrange_Grenade_shell";
+				count=4;
+			};
+			class _xx_1Rnd_SmokePurple_Grenade_shell
+			{
+				magazine="1Rnd_SmokePurple_Grenade_shell";
+				count=4;
+			};
+			class _xx_9Rnd_45ACP_Mag
+			{
+				magazine="9Rnd_45ACP_Mag";
+				count=12;
+			};
+			class _xx_NLAW_F
+			{
+				magazine="NLAW_F";
+				count=2;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=10;
+			};
+		};
+		class TransportWeapons
+		{
+			class _xx_arifle_Mk20_F
+			{
+				weapon="arifle_Mk20_F";
+				count=2;
+			};
+		};
+		/*extern*/ class Components;
+
+		
+		textureList[] = {"AAF", 2};
+		hiddenSelectionsTextures[] = 
+		{
+			"\FP_Factions\gordon_reskins\MRAP_01_base_aaf_co.paa",
+			"\FP_Factions\gordon_reskins\MRAP_01_adds_aaf_co.paa"
+		};
+	};
+	
+	class B_MRAP_01_hmg_F;
+	class FP_GOR_I_MRAP_01_hmg_BASE: B_MRAP_01_hmg_F
+	{
+		scope = 0;
+		class Turrets;
+	};
+	class FP_GOR_I_MRAP_01_hmg_BASE2: FP_GOR_I_MRAP_01_hmg_BASE
+	{
+		scope = 0;
+		class Turrets: Turrets
+		{
+			class MainTurret;
+		};
+	};
+	class FP_GOR_I_MRAP_01_hmg_F: FP_GOR_I_MRAP_01_hmg_BASE2 
+	{
+		author = "Gordon Weedman";
+		
+		scope = 2;
+		side = 2;
+		faction = "IND_F";
+		crew = "I_soldier_F";
+		typicalCargo[] = 
+		{
+			"I_Soldier_lite_F"
+		};
+
+
+		class Turrets: Turrets 
+		{
+			class MainTurret: MainTurret 
+			{
+				magazines[] = {"200Rnd_127x99_mag_Tracer_Yellow", "200Rnd_127x99_mag_Tracer_Yellow"};
+			};
+		};
+		class TransportMagazines 
+		{
+			class _xx_30Rnd_556x45_Stanag
+			{
+				magazine="30Rnd_556x45_Stanag";
+				count=16;
+			};
+			class _xx_200Rnd_65x39_cased_Box
+			{
+				magazine="200Rnd_65x39_cased_Box";
+				count=3;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=10;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=4;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=4;
+			};
+			class _xx_SmokeShellOrange
+			{
+				magazine="SmokeShellOrange";
+				count=4;
+			};
+			class _xx_SmokeShellPurple
+			{
+				magazine="SmokeShellPurple";
+				count=4;
+			};
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_1Rnd_Smoke_Grenade_shell
+			{
+				magazine="1Rnd_Smoke_Grenade_shell";
+				count=4;
+			};
+			class _xx_1Rnd_SmokeGreen_Grenade_shell
+			{
+				magazine="1Rnd_SmokeGreen_Grenade_shell";
+				count=4;
+			};
+			class _xx_1Rnd_SmokeOrange_Grenade_shell
+			{
+				magazine="1Rnd_SmokeOrange_Grenade_shell";
+				count=4;
+			};
+			class _xx_1Rnd_SmokePurple_Grenade_shell
+			{
+				magazine="1Rnd_SmokePurple_Grenade_shell";
+				count=4;
+			};
+			class _xx_9Rnd_45ACP_Mag
+			{
+				magazine="9Rnd_45ACP_Mag";
+				count=12;
+			};
+			class _xx_NLAW_F
+			{
+				magazine="NLAW_F";
+				count=2;
+			};
+		};
+
+		class TransportItems 
+		{
+			class _xx_FirstAidKit 
+			{
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+
+		class TransportWeapons 
+		{
+			class _xx_arifle_Mk20_F
+			{
+				weapon="arifle_Mk20_F";
+				count=2;
+			};
+		};
+		/*extern*/ class Components;
+	
+
+		textureList[] = {"AAF", 2};
+		hiddenSelectionsTextures[] = 
+		{
+			"\FP_Factions\gordon_reskins\MRAP_01_base_aaf_co.paa",
+			"\FP_Factions\gordon_reskins\MRAP_01_adds_aaf_co.paa",
+			"\a3\data_f\vehicles\turret_indp_co.paa"
+		};
+	};
+	class B_MRAP_01_gmg_F;
+	class FP_GOR_I_MRAP_01_gmg_F: B_MRAP_01_gmg_F 
+	{
+		author = "Gordon Weedman";
+		
+		scope = 2;
+		side = 2;
+		faction = "IND_F";
+		crew = "I_soldier_F";
+		typicalCargo[] = 
+		{
+			"I_Soldier_lite_F"
+		};
+
+
+		class TransportMagazines 
+		{
+			class _xx_30Rnd_556x45_Stanag
+			{
+				magazine="30Rnd_556x45_Stanag";
+				count=16;
+			};
+			class _xx_200Rnd_65x39_cased_Box
+			{
+				magazine="200Rnd_65x39_cased_Box";
+				count=3;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=10;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=4;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=4;
+			};
+			class _xx_SmokeShellOrange
+			{
+				magazine="SmokeShellOrange";
+				count=4;
+			};
+			class _xx_SmokeShellPurple
+			{
+				magazine="SmokeShellPurple";
+				count=4;
+			};
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_1Rnd_Smoke_Grenade_shell
+			{
+				magazine="1Rnd_Smoke_Grenade_shell";
+				count=4;
+			};
+			class _xx_1Rnd_SmokeGreen_Grenade_shell
+			{
+				magazine="1Rnd_SmokeGreen_Grenade_shell";
+				count=4;
+			};
+			class _xx_1Rnd_SmokeOrange_Grenade_shell
+			{
+				magazine="1Rnd_SmokeOrange_Grenade_shell";
+				count=4;
+			};
+			class _xx_1Rnd_SmokePurple_Grenade_shell
+			{
+				magazine="1Rnd_SmokePurple_Grenade_shell";
+				count=4;
+			};
+			class _xx_9Rnd_45ACP_Mag
+			{
+				magazine="9Rnd_45ACP_Mag";
+				count=12;
+			};
+			class _xx_NLAW_F
+			{
+				magazine="NLAW_F";
+				count=2;
+			};
+		};
+
+		class TransportItems 
+		{
+			class _xx_FirstAidKit 
+			{
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+
+		class TransportWeapons 
+		{
+			class _xx_arifle_Mk20_F
+			{
+				weapon="arifle_Mk20_F";
+				count=2;
+			};
+		};
+		/*extern*/ class Components;
+	
+
+		textureList[] = {"AAF", 2};
+		hiddenSelectionsTextures[] = 
+		{
+			"\FP_Factions\gordon_reskins\MRAP_01_base_aaf_co.paa",
+			"\FP_Factions\gordon_reskins\MRAP_01_adds_aaf_co.paa",
+			"\a3\data_f\vehicles\turret_indp_co.paa"
 		};
 	};
 };
