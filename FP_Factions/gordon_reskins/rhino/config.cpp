@@ -411,7 +411,7 @@ class CfgVehicles
 					"\FP_Factions\gordon_reskins\rhino\data\afv_wheeled_01_wheel_AAF_CO.paa",
 					"\FP_Factions\gordon_reskins\rhino\data\afv_wheeled_01_EXT3_AAF_CO.paa",
 					"\FP_Factions\gordon_reskins\rhino\data\afv_commander_tow_AAF_CO.paa",
-					"a3\Armor_F\Data\camonet_AAF_Digi_Desert_CO_CO.paa",
+					"a3\Armor_F\Data\camonet_AAF_Digi_Desert_CO.paa",
 					"\FP_Factions\gordon_reskins\rhino\data\afv_wheeled_01_EXT3_AAF_CO.paa"
 				};
 				factions[]=
