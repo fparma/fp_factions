@@ -70,7 +70,6 @@ class CfgVehicles
 					"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_ext_01_blufor_co.paa",
 					"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_ext_02_blufor_co.paa",
 					"\a3\data_f\vehicles\turret_co.paa"
-//					"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_rcws_blufor_co.paa"
 				};
 				factions[]=
 				{
@@ -86,7 +85,6 @@ class CfgVehicles
 					"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_ext_01_bluforpacific_co.paa",
 					"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_ext_02_bluforpacific_co.paa",
 					"\a3\data_f_exp\vehicles\turret_olive_co.paa"
-//					"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_rcws_bluforpacific_co.paa"
 				};
 				factions[]=
 				{
@@ -342,7 +340,6 @@ class CfgVehicles
 			"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_ext_01_blufor_co.paa",
 			"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_ext_02_blufor_co.paa",
 			"\a3\data_f\vehicles\turret_co.paa"
-//			"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_rcws_blufor_co.paa"
 		};
 	};
 
@@ -498,7 +495,6 @@ class CfgVehicles
 			"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_ext_01_blufor_co.paa",
 			"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_ext_02_blufor_co.paa",
 			"\a3\data_f\vehicles\turret_co.paa"
-//			"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_rcws_blufor_co.paa"
 		};
 	};
 	
@@ -632,7 +628,6 @@ class CfgVehicles
 			"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_ext_01_blufor_co.paa",
 			"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_ext_02_blufor_co.paa",
 			"\a3\data_f\vehicles\turret_co.paa"
-//			"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_rcws_blufor_co.paa"
 		};
 	};
 	
@@ -669,7 +664,6 @@ class CfgVehicles
 			"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_ext_01_bluforpacific_co.paa",
 			"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_ext_02_bluforpacific_co.paa",
 			"\a3\data_f\vehicles\turret_olive_co.paa"
-//			"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_rcws_bluforpacific_co.paa"
 		};
 	};
 	
@@ -706,7 +700,6 @@ class CfgVehicles
 			"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_ext_01_bluforpacific_co.paa",
 			"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_ext_02_bluforpacific_co.paa",
 			"\a3\data_f\vehicles\turret_olive_co.paa"
-//			"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_rcws_bluforpacific_co.paa"
 		};
 	};
 	
@@ -743,7 +736,6 @@ class CfgVehicles
 			"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_ext_01_bluforpacific_co.paa",
 			"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_ext_02_bluforpacific_co.paa",
 			"\a3\data_f\vehicles\turret_olive_co.paa"
-//			"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_rcws_bluforpacific_co.paa"
 		};
 	};
 	

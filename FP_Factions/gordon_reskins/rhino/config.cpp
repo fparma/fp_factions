@@ -16,23 +16,7 @@ class CfgPatches
 		};
 	};
 };
-/*class CfgAmmo
-{
-	class B_338_NM_Ball;
-	class B_FPGOR_338_NM_Tracer_Yellow: B_338_NM_Ball
-	{
-		model = "\A3\Weapons_f\Data\bullettracer\tracer_yellow";
-	};
-};
-class CfgMagazines
-{
-	class 200Rnd_338_Mag;
-	class 200Rnd_FPGOR_338_Mag_Tracer_Yellow: 200Rnd_338_Mag
-	{
-		ammo = "B_FPGOR_338_NM_Tracer_Yellow";
-	};
-};
-*/
+
 class CfgVehicles
 {
 	class B_AFV_Wheeled_01_cannon_F;
@@ -71,10 +55,6 @@ class CfgVehicles
 					"12Rnd_120mm_APFSDS_shells_Tracer_Yellow",
 					"8Rnd_120mm_HE_shells_Tracer_Yellow",
 					"8Rnd_120mm_HEAT_MP_T_Yellow",
-/*					"200Rnd_FPGOR_338_Mag_Tracer_Yellow",
-					"200Rnd_FPGOR_338_Mag_Tracer_Yellow",
-					"200Rnd_FPGOR_338_Mag_Tracer_Yellow",
-					"200Rnd_FPGOR_338_Mag_Tracer_Yellow",  */
 					"200Rnd_762x51_Belt_T_Yellow",
 					"200Rnd_762x51_Belt_T_Yellow",
 					"200Rnd_762x51_Belt_T_Yellow",
@@ -335,10 +315,6 @@ class CfgVehicles
 					"12Rnd_120mm_APFSDS_shells_Tracer_Yellow",
 					"8Rnd_120mm_HE_shells_Tracer_Yellow",
 					"8Rnd_120mm_HEAT_MP_T_Yellow",
-/*					"200Rnd_FPGOR_338_Mag_Tracer_Yellow",
-					"200Rnd_FPGOR_338_Mag_Tracer_Yellow",
-					"200Rnd_FPGOR_338_Mag_Tracer_Yellow",
-					"200Rnd_FPGOR_338_Mag_Tracer_Yellow",  */
 					"200Rnd_762x51_Belt_T_Yellow",
 					"200Rnd_762x51_Belt_T_Yellow",
 					"200Rnd_762x51_Belt_T_Yellow",
