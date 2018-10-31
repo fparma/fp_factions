@@ -636,7 +636,6 @@ class CfgVehicles
 		};
 	};
 	
-	class FP_GOR_B_MRAP_02_F;
 	class FP_GOR_B_MRAP_02_F2: FP_GOR_B_MRAP_02_F 
 	{
 		author = "Gordon Weedman";
@@ -674,7 +673,6 @@ class CfgVehicles
 		};
 	};
 	
-	class FP_GOR_B_MRAP_02_hmg_F;
 	class FP_GOR_B_MRAP_02_hmg_F2: FP_GOR_B_MRAP_02_hmg_F 
 	{
 		author = "Gordon Weedman";
@@ -712,7 +710,6 @@ class CfgVehicles
 		};
 	};
 	
-	class FP_GOR_B_MRAP_02_gmg_F;
 	class FP_GOR_B_MRAP_02_gmg_F2: FP_GOR_B_MRAP_02_gmg_F 
 	{
 		author = "Gordon Weedman";
@@ -750,7 +747,6 @@ class CfgVehicles
 		};
 	};
 	
-	class FP_GOR_B_MRAP_02_F;
 	class FP_GOR_I_MRAP_02_F: FP_GOR_B_MRAP_02_F 
 	{
 		author = "Gordon Weedman";
@@ -868,7 +864,6 @@ class CfgVehicles
 		};
 	};
 	
-	class FP_GOR_B_MRAP_02_hmg_F;
 	class FP_GOR_I_MRAP_02_hmg_F: FP_GOR_B_MRAP_02_hmg_F 
 	{
 		author = "Gordon Weedman";
@@ -994,7 +989,6 @@ class CfgVehicles
 		};
 	};
 	
-	class FP_GOR_B_MRAP_02_gmg_F;
 	class FP_GOR_I_MRAP_02_gmg_F: FP_GOR_B_MRAP_02_gmg_F 
 	{
 		author = "Gordon Weedman";

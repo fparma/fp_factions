@@ -897,7 +897,6 @@ class CfgVehicles
 		};
 	};
 	
-	class FP_GOR_B_APC_Wheeled_02_rcws_v2_F;
 	class FP_GOR_B_T_APC_Wheeled_02_rcws_v2_F: FP_GOR_B_APC_Wheeled_02_rcws_v2_F 
 	{
 		author = "Gordon Weedman";
@@ -936,7 +935,6 @@ class CfgVehicles
 	};
 	
 
-	class FP_GOR_B_APC_Wheeled_02_rcws_v2_F;
 	class FP_GOR_I_APC_Wheeled_02_rcws_v2_F: FP_GOR_B_APC_Wheeled_02_rcws_v2_F
 	{
 		author = "Gordon Weedman";
