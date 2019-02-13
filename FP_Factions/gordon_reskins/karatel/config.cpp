@@ -88,6 +88,7 @@ class CfgVehicles
 				};
 				factions[]=
 				{
+					"BLU_F",
 					"BLU_T_F"
 				};
 			};
@@ -370,7 +371,6 @@ class CfgVehicles
 			"B_soldier_f",
 			"B_soldier_f"
 		};
-
 
 		class Turrets: Turrets 
 		{

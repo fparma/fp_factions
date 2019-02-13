@@ -12,6 +12,7 @@ class CfgPatches
 		requiredVersion=0.1;
 		requiredAddons[]= 
 		{
+			"A3_Armor_F",
 			"A3_Armor_F_Tank"
 		};
 	};

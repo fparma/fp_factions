@@ -89,6 +89,7 @@ class CfgVehicles
 				};
 				factions[]=
 				{
+					"BLU_F",
 					"BLU_T_F"
 				};
 			};
@@ -333,6 +334,7 @@ class CfgVehicles
 				};
 				factions[]=
 				{
+					"BLU_F",
 					"BLU_T_F"
 				};
 			};
@@ -584,6 +586,7 @@ class CfgVehicles
 				};
 				factions[]=
 				{
+					"BLU_F",
 					"BLU_T_F"
 				};
 			};
@@ -828,6 +831,7 @@ class CfgVehicles
 				};
 				factions[]=
 				{
+					"BLU_F",
 					"BLU_T_F"
 				};
 			};
@@ -1079,6 +1083,7 @@ class CfgVehicles
 				};
 				factions[]=
 				{
+					"BLU_F",
 					"BLU_T_F"
 				};
 			};
@@ -1323,6 +1328,7 @@ class CfgVehicles
 				};
 				factions[]=
 				{
+					"BLU_F",
 					"BLU_T_F"
 				};
 			};
@@ -1580,6 +1586,7 @@ class CfgVehicles
 				};
 				factions[]=
 				{
+					"BLU_F",
 					"BLU_T_F"
 				};
 			};

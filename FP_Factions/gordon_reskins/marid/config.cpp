@@ -146,6 +146,7 @@ class CfgVehicles
 				};
 				factions[]=
 				{
+					"BLU_F",
 					"BLU_T_F"
 				};
 			};
@@ -216,6 +217,25 @@ class CfgVehicles
 					"\FP_Factions\gordon_reskins\marid\data\APC_Wheeled_02_ext_02_winter_CO.paa",
 					"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_rcws_winter_co.paa",
 					"\FP_Factions\gordon_reskins\universalstuff\data\camonet_winterdot_CO.paa",
+					"\FP_Factions\gordon_reskins\universalstuff\data\cage_winter_CO.paa"
+				};
+				factions[]=
+				{
+					"BLU_F",
+					"OPF_F",
+					"IND_F"
+				};
+			};
+			class Winterdotarid
+			{
+				displayname = "Winter (Dotted Arid Camo Net)";
+				author="Gordon Weedman";
+				textures[]=
+				{
+					"\FP_Factions\gordon_reskins\marid\data\APC_Wheeled_02_ext_01_winter_CO.paa",
+					"\FP_Factions\gordon_reskins\marid\data\APC_Wheeled_02_ext_02_winter_CO.paa",
+					"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_rcws_winter_co.paa",
+					"\FP_Factions\gordon_reskins\universalstuff\data\camonet_winterdot_arid_CO.paa",
 					"\FP_Factions\gordon_reskins\universalstuff\data\cage_winter_CO.paa"
 				};
 				factions[]=
