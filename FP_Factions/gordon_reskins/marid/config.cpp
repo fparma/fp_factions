@@ -340,6 +340,25 @@ class CfgVehicles
 					"IND_F"
 				};
 			};
+			class Tpat2
+			{
+				displayname = "T-Pat (Alternate Camo Net)";
+				author="Gordon Weedman";
+				textures[]=
+				{
+					"\FP_Factions\gordon_reskins\marid\data\APC_Wheeled_02_ext_01_t-pat_CO.paa",
+					"\FP_Factions\gordon_reskins\marid\data\APC_Wheeled_02_ext_02_t-pat_CO.paa",
+					"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_rcws_t-pat_co.paa",
+					"\FP_Factions\gordon_reskins\universalstuff\data\camonet_t-pat2_CO.paa",
+					"\FP_Factions\gordon_reskins\universalstuff\data\cage_t-pat_CO.paa"
+				};
+				factions[]=
+				{
+					"BLU_F",
+					"OPF_F",
+					"IND_F"
+				};
+			};
 			class AAF
 			{
 				displayname = "AAF";

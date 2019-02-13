@@ -432,6 +432,31 @@ class CfgVehicles
 					"IND_F"
 				};
 			};
+			class Tpat2
+			{
+				displayname = "T-Pat (Alternate Camo Net)";
+				author="Gordon Weedman";
+				textures[]=
+				{
+					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_body_t-pat_CO.paa",
+					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret_t-pat_CO.paa",
+					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_t-pat_CO.paa",
+					"\FP_Factions\gordon_reskins\universalstuff\data\camonet_t-pat2_CO.paa",
+				};
+				materials[]=
+				{
+					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_body_darker.rvmat",
+					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret_darker.rvmat",
+					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_darker.rvmat",
+					""
+				};
+				factions[]=
+				{
+					"BLU_F",
+					"OPF_F",
+					"IND_F"
+				};
+			};
 			class AAF
 			{
 				displayname = "AAF";

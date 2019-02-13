@@ -461,6 +461,29 @@ class CfgVehicles
 					"BLU_F"
 				};
 			};
+			class Tpat2
+			{
+				displayname = "T-Pat (Alternate Camo Net)";
+				author="Gordon Weedman";
+				textures[]=
+				{
+					"\FP_Factions\gordon_reskins\warrior\data\apc_tracked_03_ext_t-pat_co.paa",
+					"\FP_Factions\gordon_reskins\warrior\data\apc_tracked_03_ext2_t-pat_co.paa",
+					"\FP_Factions\gordon_reskins\universalstuff\data\camonet_t-pat2_CO.paa",
+					"\FP_Factions\gordon_reskins\universalstuff\data\cage_t-pat_CO.paa"
+				};
+				materials[]=
+				{
+					"\FP_Factions\gordon_reskins\warrior\data\APC_Tracked_03_Ext.rvmat",
+					"\FP_Factions\gordon_reskins\warrior\data\APC_Tracked_03_Ext2.rvmat",
+					"",
+					""
+				};
+				factions[]=
+				{
+					"BLU_F"
+				};
+			};
 		};
 	};
 	class I_APC_tracked_03_cannon_F;
