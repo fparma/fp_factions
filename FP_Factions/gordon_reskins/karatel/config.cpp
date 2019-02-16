@@ -61,6 +61,21 @@ class CfgVehicles
 					"OPF_T_F"
 				};
 			};
+			class GreyHex
+			{
+				displayname = "Grey Hex";
+				author="Gordon Weedman";
+				textures[]=
+				{
+					"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_ext_01_csatgrey_co.paa",
+					"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_ext_02_csatgrey_co.paa",
+					"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_rcws_csatgrey_co.paa"
+				};
+				factions[]=
+				{
+					"OPF_F"
+				};
+			};
 			class Blufor
 			{
 				displayname = "Blufor";

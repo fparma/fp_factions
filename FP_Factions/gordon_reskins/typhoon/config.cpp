@@ -62,6 +62,21 @@ class CfgVehicles
 					"OPF_T_F"
 				};
 			};
+			class Greyhex
+			{
+				displayname = "Grey Hex";
+				author="Gordon Weedman";
+				textures[]=
+				{
+					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext01_csatgrey_co.paa",
+					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext02_csatgrey_co.paa",
+					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_cargo_csatgrey_co.paa"
+				};
+				factions[]=
+				{
+					"OPF_F"
+				};
+			};
 			class Blufor
 			{
 				displayname = "Blufor";
@@ -303,6 +318,22 @@ class CfgVehicles
 				factions[]=
 				{
 					"OPF_T_F"
+				};
+			};
+			class Greyhex
+			{
+				displayname = "Grey Hex";
+				author="Gordon Weedman";
+				textures[]=
+				{
+					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext01_csatgrey_co.paa",
+					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext02_csatgrey_co.paa",
+					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_cargo_csatgrey_co.paa",
+					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_cover_csatgrey_co.paa"
+				};
+				factions[]=
+				{
+					"OPF_F"
 				};
 			};
 			class Blufor
@@ -559,6 +590,21 @@ class CfgVehicles
 					"OPF_T_F"
 				};
 			};
+			class Greyhex
+			{
+				displayname = "Grey Hex";
+				author="Gordon Weedman";
+				textures[]=
+				{
+					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext01_csatgrey_co.paa",
+					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext02_csatgrey_co.paa",
+					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ammo_csatgrey_co.paa"
+				};
+				factions[]=
+				{
+					"OPF_F"
+				};
+			};
 			class Blufor
 			{
 				displayname = "Blufor";
@@ -800,6 +846,22 @@ class CfgVehicles
 				factions[]=
 				{
 					"OPF_T_F"
+				};
+			};
+			class Greyhex
+			{
+				displayname = "Grey Hex";
+				author="Gordon Weedman";
+				textures[]=
+				{
+					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext01_csatgrey_co.paa",
+					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext02_csatgrey_co.paa",
+					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_cargo_csatgrey_co.paa",
+					"\A3\Structures_F\Data\Metal\Containers\Containers_colors_02_co.paa"
+				};
+				factions[]=
+				{
+					"OPF_F"
 				};
 			};
 			class Blufor
@@ -1056,6 +1118,21 @@ class CfgVehicles
 					"OPF_T_F"
 				};
 			};
+			class Greyhex
+			{
+				displayname = "Grey Hex";
+				author="Gordon Weedman";
+				textures[]=
+				{
+					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext01_csatgrey_co.paa",
+					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext02_csatgrey_co.paa",
+					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_fuel_csatgrey_co.paa"
+				};
+				factions[]=
+				{
+					"OPF_F"
+				};
+			};
 			class Blufor
 			{
 				displayname = "Blufor";
@@ -1297,6 +1374,22 @@ class CfgVehicles
 				factions[]=
 				{
 					"OPF_T_F"
+				};
+			};
+			class Greyhex
+			{
+				displayname = "Grey Hex";
+				author="Gordon Weedman";
+				textures[]=
+				{
+					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext01_csatgrey_co.paa",
+					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext02_csatgrey_co.paa",
+					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_cargo_csatgrey_co.paa",
+					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_cover_csatgrey_co.paa"
+				};
+				factions[]=
+				{
+					"OPF_F"
 				};
 			};
 			class Blufor
@@ -1553,6 +1646,23 @@ class CfgVehicles
 				factions[]=
 				{
 					"OPF_T_F"
+				};
+			};
+			class Greyhex
+			{
+				displayname = "Grey Hex";
+				author="Gordon Weedman";
+				textures[]=
+				{
+					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext01_csatgrey_co.paa",
+					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext02_csatgrey_co.paa",
+					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_cargo_csatgrey_co.paa",
+					"\A3\Structures_F_EPC\Items\Electronics\Data\The_Device_02_CO.paa",
+					"\A3\Structures_F_EPC\Items\Electronics\Data\The_Device_03_CO.paa"
+				};
+				factions[]=
+				{
+					"OPF_F"
 				};
 			};
 			class Blufor

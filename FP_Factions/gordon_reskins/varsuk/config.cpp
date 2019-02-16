@@ -110,6 +110,29 @@ class CfgVehicles
 					"OPF_T_F"
 				};
 			};
+			class Greyhex
+			{
+				displayname = "Grey Hex";
+				author="Gordon Weedman";
+				textures[]=
+				{
+					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_body_csatgrey_CO.paa",
+					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret_csatgrey_CO.paa",
+					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_csatgrey_CO.paa",
+					"\FP_Factions\gordon_reskins\universalstuff\data\camonet_CSAT_HEX_Grey_CO.paa"
+				};
+				materials[]=
+				{
+					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_body.rvmat",
+					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret.rvmat",
+					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02.rvmat",
+					""
+				};
+				factions[]=
+				{
+					"OPF_F"
+				};
+			};
 			class Blufor
 			{
 				displayname = "Blufor";
@@ -441,7 +464,7 @@ class CfgVehicles
 					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_body_t-pat_CO.paa",
 					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret_t-pat_CO.paa",
 					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_t-pat_CO.paa",
-					"\FP_Factions\gordon_reskins\universalstuff\data\camonet_t-pat2_CO.paa",
+					"\FP_Factions\gordon_reskins\universalstuff\data\camonet_t-pat2_CO.paa"
 				};
 				materials[]=
 				{
