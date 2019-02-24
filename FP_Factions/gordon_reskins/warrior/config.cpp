@@ -18,7 +18,8 @@ class CfgPatches
 };
 class CfgVehicles
 {
-	class APC_Tracked_03_base_F
+	class Tank_F;
+	class APC_Tracked_03_base_F: Tank_F
 	{
 		class TextureSources
 		{
