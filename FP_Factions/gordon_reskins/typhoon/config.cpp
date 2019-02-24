@@ -43,25 +43,6 @@ class CfgVehicles
 	{
 		class TextureSources
 		{
-			class Hex
-			{
-				displayName="$STR_A3_TEXTURESOURCES_HEX0";
-			};
-			class GreenHex
-			{
-				displayName="$STR_A3_TEXTURESOURCES_GREENHEX0";
-				author="$STR_A3_Bohemia_Interactive";
-				textures[]=
-				{
-					"\A3\Soft_F_Exp\Truck_03\Data\Truck_03_ext01_ghex_CO.paa",
-					"\A3\Soft_F_Exp\Truck_03\Data\Truck_03_ext02_ghex_CO.paa",
-					"\A3\Soft_F_Exp\Truck_03\Data\Truck_03_cargo_ghex_CO.paa"
-				};
-				factions[]=
-				{
-					"OPF_T_F"
-				};
-			};
 			class Greyhex
 			{
 				displayname = "Grey Hex";

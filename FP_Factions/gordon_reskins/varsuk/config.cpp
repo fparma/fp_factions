@@ -66,48 +66,22 @@ class CfgVehicles
 		{
 			class Hex
 			{
-				displayName="$STR_A3_TEXTURESOURCES_HEX0";
-				author="$STR_A3_Bohemia_Interactive";
-				textures[]=
-				{
-					"a3\armor_f_gamma\mbt_02\data\mbt_02_body_co.paa",
-					"a3\armor_f_gamma\mbt_02\data\mbt_02_turret_co.paa",
-					"a3\armor_f_gamma\mbt_02\data\mbt_02_co.paa",
-					"A3\Armor_F\Data\camonet_CSAT_HEX_Desert_CO.paa"
-				};
 				materials[]=
 				{
 					"A3\Armor_F_Gamma\MBT_02\Data\MBT_02_body.rvmat",
 					"A3\Armor_F_Gamma\MBT_02\Data\MBT_02_turret.rvmat",
 					"A3\Armor_F_Gamma\MBT_02\Data\MBT_02.rvmat",
 					""
-				};
-				factions[]=
-				{
-					"OPF_F"
 				};
 			};
 			class GreenHex
 			{
-				displayName="$STR_A3_TEXTURESOURCES_GREENHEX0";
-				author="$STR_A3_Bohemia_Interactive";
-				textures[]=
-				{
-					"a3\Armor_F_Exp\MBT_02\Data\MBT_02_body_ghex_CO.paa",
-					"a3\Armor_F_Exp\MBT_02\Data\MBT_02_turret_ghex_CO.paa",
-					"a3\Armor_F_Exp\MBT_02\Data\MBT_02_ghex_CO.paa",
-					"A3\Armor_F\Data\camonet_CSAT_HEX_Green_CO.paa"
-				};
 				materials[]=
 				{
 					"A3\Armor_F_Gamma\MBT_02\Data\MBT_02_body.rvmat",
 					"A3\Armor_F_Gamma\MBT_02\Data\MBT_02_turret.rvmat",
 					"A3\Armor_F_Gamma\MBT_02\Data\MBT_02.rvmat",
 					""
-				};
-				factions[]=
-				{
-					"OPF_T_F"
 				};
 			};
 			class Greyhex
@@ -123,9 +97,9 @@ class CfgVehicles
 				};
 				materials[]=
 				{
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_body.rvmat",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret.rvmat",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02.rvmat",
+					"A3\Armor_F_Gamma\MBT_02\Data\MBT_02_body.rvmat",
+					"A3\Armor_F_Gamma\MBT_02\Data\MBT_02_turret.rvmat",
+					"A3\Armor_F_Gamma\MBT_02\Data\MBT_02.rvmat",
 					""
 				};
 				factions[]=

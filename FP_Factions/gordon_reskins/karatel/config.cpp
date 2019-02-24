@@ -31,36 +31,6 @@ class CfgVehicles
 	{
 		class TextureSources
 		{
-			class Hex
-			{
-				displayname = "$STR_A3_TEXTURESOURCES_HEX0";
-				author="$STR_A3_Bohemia_Interactive";
-				textures[]=
-				{
-					"\A3\soft_F\MRAP_02\data\MRAP_02_ext_01_CO.paa",
-					"\A3\soft_F\MRAP_02\data\MRAP_02_ext_02_CO.paa",
-					"\A3\Data_F\Vehicles\turret_opfor_co.paa"
-				};
-				factions[]=
-				{
-					"OPF_F"
-				};
-			};
-			class GreenHex
-			{
-				displayname = "$STR_A3_TEXTURESOURCES_GREENHEX0";
-				author="$STR_A3_Bohemia_Interactive";
-				textures[]=
-				{
-					"\A3\Soft_F_Exp\MRAP_02\data\MRAP_02_ext_01_ghex_CO.paa",
-					"\A3\Soft_F_Exp\MRAP_02\data\MRAP_02_ext_02_ghex_CO.paa",
-					"\A3\Data_F_Exp\Vehicles\Turret_ghex_CO.paa"
-				};
-				factions[]=
-				{
-					"OPF_T_F"
-				};
-			};
 			class GreyHex
 			{
 				displayname = "Grey Hex";
