@@ -31,34 +31,19 @@ class CfgVehicles
 	{
 		class TextureSources
 		{
-			class Hex
+			class GreyHex
 			{
-				displayname = "$STR_A3_TEXTURESOURCES_HEX0";
-				author="$STR_A3_Bohemia_Interactive";
+				displayname = "Grey Hex";
+				author="Gordon Weedman";
 				textures[]=
 				{
-					"\A3\soft_F\MRAP_02\data\MRAP_02_ext_01_CO.paa",
-					"\A3\soft_F\MRAP_02\data\MRAP_02_ext_02_CO.paa",
-					"\A3\Data_F\Vehicles\turret_opfor_co.paa"
+					"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_ext_01_csatgrey_co.paa",
+					"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_ext_02_csatgrey_co.paa",
+					"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_rcws_csatgrey_co.paa"
 				};
 				factions[]=
 				{
 					"OPF_F"
-				};
-			};
-			class GreenHex
-			{
-				displayname = "$STR_A3_TEXTURESOURCES_GREENHEX0";
-				author="$STR_A3_Bohemia_Interactive";
-				textures[]=
-				{
-					"\A3\Soft_F_Exp\MRAP_02\data\MRAP_02_ext_01_ghex_CO.paa",
-					"\A3\Soft_F_Exp\MRAP_02\data\MRAP_02_ext_02_ghex_CO.paa",
-					"\A3\Data_F_Exp\Vehicles\Turret_ghex_CO.paa"
-				};
-				factions[]=
-				{
-					"OPF_T_F"
 				};
 			};
 			class Blufor
@@ -88,6 +73,7 @@ class CfgVehicles
 				};
 				factions[]=
 				{
+					"BLU_F",
 					"BLU_T_F"
 				};
 			};
@@ -370,7 +356,6 @@ class CfgVehicles
 			"B_soldier_f",
 			"B_soldier_f"
 		};
-
 
 		class Turrets: Turrets 
 		{

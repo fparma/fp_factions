@@ -14,6 +14,7 @@ class CfgPatches
 		requiredAddons[]= 
 		{
 			"A3_Armor_F_Beta",
+			"A3_Armor_F",
 			"A3_Soft_F"
 		};
 	};
@@ -81,38 +82,21 @@ class CfgVehicles
 		};
 		class TextureSources
 		{
-			class Hex
+			class GreyHex
 			{
-				displayName="$STR_A3_TEXTURESOURCES_HEX0";
-				author="$STR_A3_Bohemia_Interactive";
+				displayName = "Grey Hex";
+				author="Gordon Weedman";
 				textures[]=
 				{
-					"a3\armor_f_beta\apc_wheeled_02\data\apc_wheeled_02_ext_01_opfor_co.paa",
-					"a3\armor_f_beta\apc_wheeled_02\data\apc_wheeled_02_ext_02_opfor_co.paa",
-					"a3\data_f\vehicles\turret_opfor_co.paa",
-					"A3\Armor_F\Data\camonet_CSAT_HEX_Desert_CO.paa",
-					"A3\armor_f\data\cage_csat_co.paa"
+					"\FP_Factions\gordon_reskins\marid\data\APC_Wheeled_02_ext_01_csatgrey_CO.paa",
+					"\FP_Factions\gordon_reskins\marid\data\APC_Wheeled_02_ext_02_csatgrey_CO.paa",
+					"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_rcws_csatgrey_co.paa",
+					"\FP_Factions\gordon_reskins\universalstuff\data\camonet_CSAT_HEX_Grey_CO.paa",
+					"\FP_Factions\gordon_reskins\universalstuff\data\cage_t-pat_CO.paa"
 				};
 				factions[]=
 				{
 					"OPF_F"
-				};
-			};
-			class GreenHex
-			{
-				displayName="$STR_A3_TEXTURESOURCES_GREENHEX0";
-				author="$STR_A3_Bohemia_Interactive";
-				textures[]=
-				{
-					"a3\Armor_F_Exp\APC_Wheeled_02\Data\APC_Wheeled_02_ext_01_ghex_CO.paa",
-					"a3\Armor_F_Exp\APC_Wheeled_02\Data\APC_Wheeled_02_ext_02_ghex_CO.paa",
-					"a3\Data_F_Exp\Vehicles\Turret_ghex_CO.paa",
-					"A3\Armor_F\Data\camonet_CSAT_HEX_Green_CO.paa",
-					"A3\armor_f\data\cage_csat_green_CO.paa"
-				};
-				factions[]=
-				{
-					"OPF_T_F"
 				};
 			};
 			class Blufor
@@ -146,6 +130,7 @@ class CfgVehicles
 				};
 				factions[]=
 				{
+					"BLU_F",
 					"BLU_T_F"
 				};
 			};
@@ -216,6 +201,25 @@ class CfgVehicles
 					"\FP_Factions\gordon_reskins\marid\data\APC_Wheeled_02_ext_02_winter_CO.paa",
 					"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_rcws_winter_co.paa",
 					"\FP_Factions\gordon_reskins\universalstuff\data\camonet_winterdot_CO.paa",
+					"\FP_Factions\gordon_reskins\universalstuff\data\cage_winter_CO.paa"
+				};
+				factions[]=
+				{
+					"BLU_F",
+					"OPF_F",
+					"IND_F"
+				};
+			};
+			class Winterdotarid
+			{
+				displayname = "Winter (Dotted Arid Camo Net)";
+				author="Gordon Weedman";
+				textures[]=
+				{
+					"\FP_Factions\gordon_reskins\marid\data\APC_Wheeled_02_ext_01_winter_CO.paa",
+					"\FP_Factions\gordon_reskins\marid\data\APC_Wheeled_02_ext_02_winter_CO.paa",
+					"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_rcws_winter_co.paa",
+					"\FP_Factions\gordon_reskins\universalstuff\data\camonet_winterdot_arid_CO.paa",
 					"\FP_Factions\gordon_reskins\universalstuff\data\cage_winter_CO.paa"
 				};
 				factions[]=
@@ -311,6 +315,25 @@ class CfgVehicles
 					"\FP_Factions\gordon_reskins\marid\data\APC_Wheeled_02_ext_02_t-pat_CO.paa",
 					"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_rcws_t-pat_co.paa",
 					"\FP_Factions\gordon_reskins\universalstuff\data\camonet_t-pat_CO.paa",
+					"\FP_Factions\gordon_reskins\universalstuff\data\cage_t-pat_CO.paa"
+				};
+				factions[]=
+				{
+					"BLU_F",
+					"OPF_F",
+					"IND_F"
+				};
+			};
+			class Tpat2
+			{
+				displayname = "T-Pat (Alternate Camo Net)";
+				author="Gordon Weedman";
+				textures[]=
+				{
+					"\FP_Factions\gordon_reskins\marid\data\APC_Wheeled_02_ext_01_t-pat_CO.paa",
+					"\FP_Factions\gordon_reskins\marid\data\APC_Wheeled_02_ext_02_t-pat_CO.paa",
+					"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_rcws_t-pat_co.paa",
+					"\FP_Factions\gordon_reskins\universalstuff\data\camonet_t-pat2_CO.paa",
 					"\FP_Factions\gordon_reskins\universalstuff\data\cage_t-pat_CO.paa"
 				};
 				factions[]=
