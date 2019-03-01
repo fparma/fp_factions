@@ -329,6 +329,31 @@ class CfgVehicles
 					"IND_F"
 				};
 			};
+			class Russiancamo
+			{
+				displayname = "Russian camo";
+				author="Gordon Weedman";
+				textures[]=
+				{
+					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_body_russiancamo_CO.paa",
+					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret_russiancamo_CO.paa",
+					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_russiancamo_CO.paa",
+					"a3\armor_f\data\camonet_green_CO.paa"
+				};
+				materials[]=
+				{
+					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_body_darker.rvmat",
+					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret_darker.rvmat",
+					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_darker.rvmat",
+					""
+				};
+				factions[]=
+				{
+					"BLU_F",
+					"OPF_F",
+					"IND_F"
+				};
+			};
 			class Rae1
 			{
 				displayname = "Russian Arms Expo camo 1";
