@@ -12,7 +12,7 @@ class CfgFactionClasses
 {
 	class FP_Faction_FEC
 	{
-		displayName = "FEC";
+		displayName = "FP FEC";
 		priority = 2;
 		side = 2;
 		icon = "\FP_Factions\FEC\cfgfactionclasses_FEC_ca.paa";
@@ -717,16 +717,16 @@ class cfgvehicles
 		uniformClass = "FP_Uniform_StrichTTsMKK"; 
 		weapons[] = {"rhs_weap_ak103_gp25","rhs_weap_makarov_pm","Throw","Put"};
 		respawnWeapons[] = {"rhs_weap_ak103_gp25","rhs_weap_makarov_pm","Throw","Put"};
-		magazines[] = {"hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","rhs_mag_9x18_8_57N181S","rhs_mag_9x18_8_57N181S","rhs_mag_9x18_8_57N181S","rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_mag_rdg2_white","rhs_mag_rdg2_white"};
-		respawnMagazines[] = {"hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","rhs_mag_9x18_8_57N181S","rhs_mag_9x18_8_57N181S","rhs_mag_9x18_8_57N181S","rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_mag_rdg2_white","rhs_mag_rdg2_white"};
+		magazines[] = {"rhs_30Rnd_762x39mm_polymer","rhs_30Rnd_762x39mm_polymer","rhs_30Rnd_762x39mm_polymer","rhs_mag_9x18_8_57N181S","rhs_mag_9x18_8_57N181S","rhs_mag_9x18_8_57N181S","rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_mag_rdg2_white","rhs_mag_rdg2_white"};
+		respawnMagazines[] = {"rhs_30Rnd_762x39mm_polymer","rhs_30Rnd_762x39mm_polymer","rhs_30Rnd_762x39mm_polymer","rhs_mag_9x18_8_57N181S","rhs_mag_9x18_8_57N181S","rhs_mag_9x18_8_57N181S","rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_mag_rdg2_white","rhs_mag_rdg2_white"};
 		cost = 450000;
 		camouflage = 1.6;
 		sensitivity = 3;
 		icon = "iconManLeader";
-		linkedItems[] = {"rhsgref_alice_webbing","rhsgref_6b27m_ttsko_mountain","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"rhsgref_alice_webbing","rhsgref_6b27m_ttsko_mountain","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"rhsgref_alice_webbing","rhsgref_hat_M1951","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"rhsgref_alice_webbing","rhsgref_hat_M1951","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 100;
-		allowedHeadgear[] = {"rhsgref_6b27m_ttsko_mountain","rhsgref_6b27m_ttsko_mountain"};
+		allowedHeadgear[] = {"rhsgref_hat_M1951","rhsgref_hat_M1951"};
 	};
 	class FP_Faction_FEC_DM: FP_Faction_FEC_Soldier_BASE
 	{
@@ -814,13 +814,13 @@ class cfgvehicles
 		backpack = "B_FieldPack_cbr_Medic";
 		cost = 300000;
 		camouflage = 1.6;
-		linkedItems[] = {"V_TacChestrig_grn_F","rhs_fieldcap_khk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_TacChestrig_grn_F","rhs_fieldcap_khk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"V_TacChestrig_grn_F","UK3CB_TKP_O_H_Patrolcap_Blk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacChestrig_grn_F","UK3CB_TKP_O_H_Patrolcap_Blk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		sensitivity = 2.4;
 		icon = "iconManMedic";
 		picture = "pictureHeal";
 		headgearProbability = 100;
-		allowedHeadgear[] = {"rhs_fieldcap_khk","rhs_fieldcap_khk"};
+		allowedHeadgear[] = {"UK3CB_TKP_O_H_Patrolcap_Blk","UK3CB_TKP_O_H_Patrolcap_Blk"};
 	};
 	class FP_Faction_FEC_Crewman: FP_Faction_FEC_Soldier_BASE
 	{
@@ -862,12 +862,12 @@ class cfgvehicles
 		engineer = 1;
 		detectSkill = 60;
 		threat[] = {1,0.5,0.1};
-	    linkedItems[] = {"V_TacChestrig_grn_F","rhssaf_helmet_m59_85_oakleaf","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_TacChestrig_grn_F","rhssaf_helmet_m59_85_oakleaf","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	    linkedItems[] = {"V_TacChestrig_grn_F","UK3CB_TKP_O_H_Patrolcap_Blk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacChestrig_grn_F","UK3CB_TKP_O_H_Patrolcap_Blk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		icon = "iconManEngineer";
 		picture = "pictureRepair";
 		headgearProbability = 100;
-		allowedHeadgear[] = {"rhssaf_helmet_m59_85_oakleaf"};
+		allowedHeadgear[] = {"UK3CB_TKP_O_H_Patrolcap_Blk"};
 	};
 	class FP_Faction_FEC_MMG: FP_Faction_FEC_Soldier_BASE
 	{
@@ -914,9 +914,9 @@ class cfgvehicles
 		respawnWeapons[] = {"rhs_weap_m38","Throw","Put"};
 		magazines[] = {"rhsgref_5Rnd_762x54_m38","rhsgref_5Rnd_762x54_m38","rhsgref_5Rnd_762x54_m38","rhsgref_5Rnd_762x54_m38","rhsgref_5Rnd_762x54_m38","rhsgref_5Rnd_762x54_m38","rhsgref_5Rnd_762x54_m38","HandGrenade","HandGrenade","rhs_mag_rdg2_white","rhs_mag_rdg2_white"};
 		respawnMagazines[] = {"rhsgref_5Rnd_762x54_m38","rhsgref_5Rnd_762x54_m38","rhsgref_5Rnd_762x54_m38","rhsgref_5Rnd_762x54_m38","rhsgref_5Rnd_762x54_m38","rhsgref_5Rnd_762x54_m38","rhsgref_5Rnd_762x54_m38","HandGrenade","HandGrenade","rhs_mag_rdg2_white","rhs_mag_rdg2_white"};
-	    linkedItems[] = {"rhsgref_alice_webbing","rhssaf_helmet_m59_85_oakleaf","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"rhsgref_alice_webbing","rhssaf_helmet_m59_85_oakleaf","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		allowedHeadgear[] = {"rhssaf_helmet_m59_85_oakleaf"};
+	    linkedItems[] = {"rhsgref_alice_webbing","UK3CB_H_Ushanka_Cap_01","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"rhsgref_alice_webbing","UK3CB_H_Ushanka_Cap_01","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"UK3CB_H_Ushanka_Cap_01"};
 		cost = 65000;
 		threat[] = {1,0.1,0.3};
 	};
@@ -965,9 +965,9 @@ class cfgvehicles
 		respawnWeapons[] = {"hlc_rifle_M1903A1","Throw","Put"};
 		magazines[] = {"hlc_5rnd_3006_1903","hlc_5rnd_3006_1903","hlc_5rnd_3006_1903","hlc_5rnd_3006_1903","hlc_5rnd_3006_1903","hlc_5rnd_3006_1903","hlc_5rnd_3006_1903","HandGrenade","HandGrenade","rhs_mag_rdg2_white","rhs_mag_rdg2_white"};
 		respawnMagazines[] = {"hlc_5rnd_3006_1903","hlc_5rnd_3006_1903","hlc_5rnd_3006_1903","hlc_5rnd_3006_1903","hlc_5rnd_3006_1903","hlc_5rnd_3006_1903","hlc_5rnd_3006_1903","HandGrenade","HandGrenade","rhs_mag_rdg2_white","rhs_mag_rdg2_white"};
-	    linkedItems[] = {"V_TacChestrig_grn_F","rhssaf_helmet_m59_85_oakleaf","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_TacChestrig_grn_F","rhssaf_helmet_m59_85_oakleaf","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		allowedHeadgear[] = {"rhssaf_helmet_m59_85_oakleaf"};
+	    linkedItems[] = {"V_TacChestrig_grn_F","UK3CB_H_Ushanka_Cap_01","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacChestrig_grn_F","UK3CB_H_Ushanka_Cap_01","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"UK3CB_H_Ushanka_Cap_01"};
 		cost = 65000;
 		threat[] = {1,0.1,0.3};
 	};
@@ -1000,9 +1000,9 @@ class cfgvehicles
 		secondaryAmmoCoef = 0.5;
 		icon = "iconManAT";
 		headgearProbability = 100;
-	    linkedItems[] = {"rhsgref_alice_webbing","rhssaf_helmet_m59_85_oakleaf","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"rhsgref_alice_webbing","rhssaf_helmet_m59_85_oakleaf","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		allowedHeadgear[] = {"rhssaf_helmet_m59_85_oakleaf"};
+	    linkedItems[] = {"rhsgref_alice_webbing","UK3CB_H_Ushanka_Cap_01","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"rhsgref_alice_webbing","UK3CB_H_Ushanka_Cap_01","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"UK3CB_H_Ushanka_Cap_01"};
 	};
 	class FP_Faction_FEC_AMANPADS: FP_Faction_FEC_Soldier_BASE
 	{

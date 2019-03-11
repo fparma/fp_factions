@@ -12,7 +12,7 @@ class CfgFactionClasses
 {
 	class FP_Faction_PLA
 	{
-		displayName = "People's Republic of China (2010)";
+		displayName = "FP People's Republic of China (2010)";
 		priority = 2;
 		side = 0;
 		icon = "\FP_Factions\PLA\cfgFactionClasses_china_ca.paa";

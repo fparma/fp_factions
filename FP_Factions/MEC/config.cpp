@@ -12,7 +12,7 @@ class CfgFactionClasses
 {
 	class FP_Faction_MEC
 	{
-		displayName = "MEC";
+		displayName = "FP MEC";
 		priority = 2;
 		side = 2;
 		icon = "\FP_Factions\MEC\cfgFactionClasses_mec_ca.paa";

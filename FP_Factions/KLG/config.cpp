@@ -2,7 +2,7 @@ class CfgPatches
 {
 	class FP_Factions_KLG
 	{
-		units[] = {"FP_Faction_KLG_Soldier_BASE","FP_Faction_KLG_Rifleman_Mosin","FP_Faction_KLG_Rifleman_AK47","FP_Faction_KLG_Rifleman_FAL","FP_Faction_KLG_Rifleman_SKS","FP_Faction_KLG_Rifleman_DP27","FP_Faction_KLG_Rifleman_PPSH","FP_Faction_KLG_Rifleman_TT33","FP_Faction_KLG_Rifleman_RPG"};
+		units[] = {"FP_Faction_KLG_Soldier_BASE","FP_Faction_KLG_Rifleman_Mosin","FP_Faction_KLG_Rifleman_AK47","FP_Faction_KLG_Rifleman_FAL","FP_Faction_KLG_Rifleman_SKS","FP_Faction_KLG_Rifleman_DP27","FP_Faction_KLG_Rifleman_PPSH","FP_Faction_KLG_Rifleman_TT33","FP_Faction_KLG_Rifleman_RPG", "FP_Faction_KLG_Rifleman_M1", "FP_Faction_KLG_Rifleman_M1903", "FP_Faction_KLG_Rifleman_M590", "FP_Faction_KLG_Rifleman_Izh18"};
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"fpa_main"};
@@ -12,7 +12,7 @@ class CfgFactionClasses
 {
 	class FP_Faction_KLG
 	{
-		displayName = "Kokkono Liberation Group";
+		displayName = "FP Kokkono Liberation Group";
 		priority = 2;
 		side = 2;
 		icon = "\FP_Factions\KLG\cfgfactionclasses_KLG_ca.paa";
@@ -525,7 +525,25 @@ class cfgvehicles
 		respawnWeapons[] = {"hlc_rifle_M1903A1","Throw","Put"};
 		magazines[] = {"hlc_5rnd_3006_1903","hlc_5rnd_3006_1903","hlc_5rnd_3006_1903","hlc_5rnd_3006_1903","hlc_5rnd_3006_1903"};
 		respawnMagazines[] = {"hlc_5rnd_3006_1903","hlc_5rnd_3006_1903","hlc_5rnd_3006_1903","hlc_5rnd_3006_1903","hlc_5rnd_3006_1903"};
-		linkedItems[] = {"rhsgref_alice_webbing","ItemWatch"};
-		respawnLinkedItems[] = {"rhsgref_alice_webbing","ItemWatch"};
+		linkedItems[] = {"rhsgref_alice_webbing","rhssaf_bandana_digital_desert","ItemWatch"};
+		respawnLinkedItems[] = {"rhsgref_alice_webbing","rhssaf_bandana_digital_desert","ItemWatch"};
+	};
+	class FP_Faction_KLG_Rifleman_M1: FP_Faction_KLG_Soldier_BASE
+	{
+		author = "FP Mod Team";
+		_generalMacro = "FP_Faction_KLG_Soldier_BASE";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "Armed Civilian (M1)";
+		cost = 100000;
+		headgearProbability = 100;
+		model = "\A3\characters_F\civil\c_poor";
+		uniformClass = "FP_U_Civ_02";  
+		weapons[] = {"rhs_weap_m1garand_sa43","Throw","Put"};
+		respawnWeapons[] = {"rhs_weap_m1garand_sa43","Throw","Put"};
+		magazines[] = {"rhsgref_8Rnd_762x63_M2B_M1rifle","rhsgref_8Rnd_762x63_M2B_M1rifle","rhsgref_8Rnd_762x63_M2B_M1rifle","rhsgref_8Rnd_762x63_M2B_M1rifle","rhsgref_8Rnd_762x63_M2B_M1rifle","rhsgref_8Rnd_762x63_M2B_M1rifle"};
+		respawnMagazines[] = {"rhsgref_8Rnd_762x63_M2B_M1rifle","rhsgref_8Rnd_762x63_M2B_M1rifle","rhsgref_8Rnd_762x63_M2B_M1rifle","rhsgref_8Rnd_762x63_M2B_M1rifle","rhsgref_8Rnd_762x63_M2B_M1rifle","rhsgref_8Rnd_762x63_M2B_M1rifle"};
+		linkedItems[] = {"UK3CB_V_Pouch","H_Booniehat_oli","ItemWatch"};
+		respawnLinkedItems[] = {"UK3CB_V_Pouch","H_Booniehat_oli","ItemWatch"};
 	};
 };
