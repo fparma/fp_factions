@@ -2,7 +2,7 @@ class CfgPatches
 {
 	class FP_Factions_KLG
 	{
-		units[] = {"FP_Faction_KLG_Soldier_BASE","FP_Faction_KLG_Rifleman_Mosin","FP_Faction_KLG_Rifleman_AK47","FP_Faction_KLG_Rifleman_FAL","FP_Faction_KLG_Rifleman_SKS","FP_Faction_KLG_Rifleman_DP27","FP_Faction_KLG_Rifleman_PPSH","FP_Faction_KLG_Rifleman_TT33","FP_Faction_KLG_Rifleman_RPG", "FP_Faction_KLG_Rifleman_M1", "FP_Faction_KLG_Rifleman_M1903", "FP_Faction_KLG_Rifleman_M590", "FP_Faction_KLG_Rifleman_Izh18"};
+		units[] = {"FP_Faction_KLG_Soldier_BASE","FP_Faction_KLG_Rifleman_Mosin","FP_Faction_KLG_Rifleman_AK47","FP_Faction_KLG_Rifleman_FAL","FP_Faction_KLG_Rifleman_SKS","FP_Faction_KLG_Rifleman_DP27","FP_Faction_KLG_Rifleman_PPSH","FP_Faction_KLG_Rifleman_TT33","FP_Faction_KLG_Rifleman_RPG", "FP_Faction_KLG_Rifleman_M1", "FP_Faction_KLG_Rifleman_M1903", "FP_Faction_KLG_Rifleman_M590","FP_Faction_KLG_Rifleman_Izh18","FP_Faction_KLG_Turret_Dshkm","FP_Faction_KLG_Vehicle_Datsun_PKM","FP_Faction_KLG_Vehicle_Hilux_Dshkm","FP_Faction_KLG_Vehicle_Hilux","FP_Faction_KLG_Vehicle_Datsun","FP_Faction_KLG_Vehicle_Ikarus"};
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"fpa_main"};
@@ -25,7 +25,7 @@ class CfgGroups
 	{
 		class FP_Faction_KLG_Units
 		{
-			name = "Kokkono Liberation Group";
+			name = "FP Kokkono Liberation Group";
 			class ArmedCivilians
 			{
 				name = "KLG Mobs";
@@ -545,5 +545,53 @@ class cfgvehicles
 		respawnMagazines[] = {"rhsgref_8Rnd_762x63_M2B_M1rifle","rhsgref_8Rnd_762x63_M2B_M1rifle","rhsgref_8Rnd_762x63_M2B_M1rifle","rhsgref_8Rnd_762x63_M2B_M1rifle","rhsgref_8Rnd_762x63_M2B_M1rifle","rhsgref_8Rnd_762x63_M2B_M1rifle"};
 		linkedItems[] = {"UK3CB_V_Pouch","H_Booniehat_oli","ItemWatch"};
 		respawnLinkedItems[] = {"UK3CB_V_Pouch","H_Booniehat_oli","ItemWatch"};
+	};
+	class UK3CB_TKC_I_Ikarus;
+	class UK3CB_TKC_I_Hilux_Civ_Open;
+	class UK3CB_TKC_I_Datsun_Civ_Open;
+	class UK3CB_CCM_I_Hilux_Dshkm;
+	class UK3CB_CCM_I_Datsun_Pkm;
+	class FP_Faction_KLG_Vehicle_Ikarus: UK3CB_TKC_I_Ikarus
+	{
+		author = "RHS & FP Mod Team";
+		faction = "FP_Faction_KLG";
+		vehicleClass = "Car";
+		crew = "FP_Faction_KLG_Rifleman_TT33";
+	};
+	class FP_Faction_KLG_Vehicle_Datsun: UK3CB_TKC_I_Datsun_Civ_Open
+	{
+		author = "RHS & FP Mod Team";
+		faction = "FP_Faction_KLG";
+		vehicleClass = "Car";
+		crew = "FP_Faction_KLG_Rifleman_TT33";
+	};
+	class FP_Faction_KLG_Vehicle_Hilux: UK3CB_TKC_I_Hilux_Civ_Open
+	{
+		author = "RHS & FP Mod Team";
+		faction = "FP_Faction_KLG";
+		vehicleClass = "Car";
+		crew = "FP_Faction_KLG_Rifleman_TT33";
+	};
+	class FP_Faction_KLG_Vehicle_Hilux_Dshkm: UK3CB_CCM_I_Hilux_Dshkm
+	{
+		author = "RHS & FP Mod Team";
+		faction = "FP_Faction_KLG";
+		vehicleClass = "Car";
+		crew = "FP_Faction_KLG_Rifleman_TT33";
+	};
+	class FP_Faction_KLG_Vehicle_Datsun_PKM: UK3CB_CCM_I_Datsun_Pkm
+	{
+		author = "RHS & FP Mod Team";
+		faction = "FP_Faction_KLG";
+		vehicleClass = "Car";
+		crew = "FP_Faction_KLG_Rifleman_TT33";
+	};
+	class UK3CB_TKM_I_DSHKM;
+	class FP_Faction_KLG_Turret_Dshkm: UK3CB_TKM_I_DSHKM
+	{
+		author = "RHS & FP Mod Team";
+		faction = "FP_Faction_KLG";
+		vehicleClass = "Static";
+		crew = "FP_Faction_KLG_Rifleman_TT33";
 	};
 };

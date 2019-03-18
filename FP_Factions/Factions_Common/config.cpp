@@ -154,6 +154,19 @@ class cfgWeapons
 			};
 		};
 	};
+	class rhs_weap_m76;
+	class rhs_weap_m76_FP_PSO1M2: rhs_weap_m76
+	{
+		scope = 1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				item = "rhs_acc_pso1m2";
+				slot = "CowsSlot";
+			};
+		};
+	};
 };
 class cfgMarkers
 {

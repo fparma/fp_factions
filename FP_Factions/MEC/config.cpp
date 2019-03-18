@@ -25,7 +25,7 @@ class CfgGroups
 	{
 		class FP_Faction_MEC_Units
 		{
-			name = "MEC";
+			name = "FP MEC";
 			class Infantry
 			{
 				name = "MEC Infantry (Shocktroops)";
