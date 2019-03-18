@@ -435,6 +435,18 @@ class cfgvehicles
 			};
 		};
 	};
+	class B_Kitbag_sgg_MAT_PLA: B_Kitbag_sgg
+	{
+		scope = 1;
+		class TransportMagazines
+		{
+			class _xx_RPG32_F_PLA
+			{
+				magazine = "RPG32_F";
+				count = 3;
+			};
+		};
+	};
 	class B_FieldPack_cbr_MANPADS: B_Carryall_cbr
 	{
 		scope = 1;
@@ -805,7 +817,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "MAT Gunner";
-		backpack = "B_Kitbag_sgg_MAT";
+		backpack = "B_Kitbag_sgg_MAT_PLA";
 		weapons[] = {"arifle_CTAR_blk_F","launch_RPG32_F_black","Throw","Put"};
 		respawnWeapons[] = {"arifle_CTAR_blk_F","launch_RPG32_F_black","Throw","Put"};
 		magazines[] = {"30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","SmokeShell","SmokeShellRed"};
@@ -823,7 +835,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "MAT Assistant";
-		backpack = "B_Kitbag_sgg_MAT";
+		backpack = "B_Kitbag_sgg_MAT_PLA";
 		headgearProbability = 100;
 		allowedHeadgear[] = {"FP_Helmet_Type07Uni","FP_Helmet_Type07Uni"};
 		cost = 65000;
