@@ -453,7 +453,7 @@ class cfgvehicles
 		weapons[] = {"rhs_weap_ak104","hgun_Rook40_F","Throw","Put","Binocular"};
 		respawnWeapons[] = {"rhs_weap_ak104","hgun_Rook40_F","Throw","Put","Binocular"};
 		magazines[] = {"rhs_75Rnd_762x39mm","rhs_75Rnd_762x39mm","rhs_75Rnd_762x39mm","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","rhs_mag_f1","rhs_mag_f1","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rdg2_white"};
-		respawnMagazines[] = {"rhs_75Rnd_762x39mm","rhs_75Rnd_762x39mm","rhs_75Rnd_762x39mm""16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","rhs_mag_f1","rhs_mag_f1","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rdg2_white"};
+		respawnMagazines[] = {"rhs_75Rnd_762x39mm","rhs_75Rnd_762x39mm","rhs_75Rnd_762x39mm","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","rhs_mag_f1","rhs_mag_f1","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rdg2_white"};
 		cost = 500000;
 		camouflage = 1.6;
 		sensitivity = 3;
