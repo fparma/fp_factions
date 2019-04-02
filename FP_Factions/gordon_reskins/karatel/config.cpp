@@ -94,6 +94,23 @@ class CfgVehicles
 					"IND_F"
 				};
 			};
+			class FSB
+			{
+				displayname = "FSB";
+				author="Gordon Weedman";
+				textures[]=
+				{
+					"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_ext_01_FSB_co.paa",
+					"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_ext_02_black_co.paa",
+					"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_rcws_black_co.paa"
+				};
+				factions[]=
+				{
+					"BLU_F",
+					"OPF_F",
+					"IND_F"
+				};
+			};
 			class Winter
 			{
 				displayname = "Winter";
