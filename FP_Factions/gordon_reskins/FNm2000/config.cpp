@@ -15,7 +15,10 @@ class CfgPatches
 			"FP_GOR_arifle_Mk20_GL_F_black",
 			"FP_GOR_arifle_Mk20_F_olive",
 			"FP_GOR_arifle_Mk20C_F_olive",
-			"FP_GOR_arifle_Mk20_GL_F_olive"
+			"FP_GOR_arifle_Mk20_GL_F_olive",
+			"FP_GOR_arifle_Mk20_F_gray",
+			"FP_GOR_arifle_Mk20C_F_gray",
+			"FP_GOR_arifle_Mk20_GL_F_gray"
 		};
 	};
 };
