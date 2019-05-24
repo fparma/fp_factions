@@ -60,7 +60,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="\FP_Factions\gordon_reskins\stoner\data\body_smdi.paa";
+	texture="FP_Factions\gordon_reskins\stoner\data\body_smdi.paa";
 	uvSource="tex";
 	class uvTransform
 	{
