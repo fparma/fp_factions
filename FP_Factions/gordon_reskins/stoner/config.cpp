@@ -297,23 +297,3 @@ class CfgWeapons
 		}; 
 	};
 };
-	class FP_GOR_LMG_Mk200_F_black_woodbox: LMG_Mk200_F
-	{
-		author="Gordon Weedman";
-		_generalMacro="FP_GOR_LMG_Mk200_F_black_woodbox";
-		baseWeapon="FP_GOR_LMG_Mk200_F_black_woodbox";
-		displayName="Stoner 99 LMG (Black, woodland ammobox)";
-		hiddenSelectionsTextures[]=
-		{
-			"\FP_Factions\gordon_reskins\stoner\data\1st_person_black_woodbox_co.paa",
-			"\FP_Factions\gordon_reskins\stoner\data\body_black_co.paa",
-			"\FP_Factions\gordon_reskins\stoner\data\grip_black_co.paa"
-		};
-		hiddenSelectionsMaterials[]=
-		{
-			"\FP_Factions\gordon_reskins\stoner\data\vig_m200_1st_metal.rvmat",
-			"\FP_Factions\gordon_reskins\stoner\data\vig_m200_body_metal.rvmat",
-			"\FP_Factions\gordon_reskins\stoner\data\grip_metal.rvmat"
-		}; 
-	};
-};
