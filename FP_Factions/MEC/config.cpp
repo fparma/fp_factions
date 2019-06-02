@@ -1184,7 +1184,6 @@ class cfgWeapons
 			"FP_Factions\MEC\RPG_32_body_Black_CO.paa",
 			"\A3\Weapons_F\Launchers\RPG32\Data\RPG_32_optics_CO.paa"
 		};
-		picture="FP_Factions\MEC\gear_RPG32_Black_X_CA.paa";
 	};
 };
 
