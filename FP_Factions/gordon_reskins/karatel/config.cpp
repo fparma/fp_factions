@@ -646,6 +646,92 @@ class CfgVehicles
 			"B_T_soldier_f"
 		};
 
+		class TransportMagazines 
+		{
+			class _xx_30Rnd_65x39_caseless_khaki_mag 
+			{
+				magazine = "30Rnd_65x39_caseless_khaki_mag";
+				count = 16;
+			};
+
+			class _xx_100Rnd_65x39_caseless_khaki_mag 
+			{
+				magazine = "100Rnd_65x39_caseless_khaki_mag";
+				count = 6;
+			};
+
+			class _xx_HandGrenade 
+			{
+				magazine = "HandGrenade";
+				count = 10;
+			};
+
+			class _xx_1Rnd_HE_Grenade_shell 
+			{
+				magazine = "1Rnd_HE_Grenade_shell";
+				count = 10;
+			};
+
+			class _xx_1Rnd_Smoke_Grenade_shell 
+			{
+				magazine = "1Rnd_Smoke_Grenade_shell";
+				count = 4;
+			};
+
+			class _xx_1Rnd_SmokeGreen_Grenade_shell 
+			{
+				magazine = "1Rnd_SmokeGreen_Grenade_shell";
+				count = 4;
+			};
+
+			class _xx_1Rnd_SmokeOrange_Grenade_shell 
+			{
+				magazine = "1Rnd_SmokeOrange_Grenade_shell";
+				count = 4;
+			};
+
+			class _xx_1Rnd_SmokeBlue_Grenade_shell 
+			{
+				magazine = "1Rnd_SmokeBlue_Grenade_shell";
+				count = 4;
+			};
+
+			class _xx_16Rnd_9x21_Mag 
+			{
+				magazine = "16Rnd_9x21_Mag";
+				count = 12;
+			};
+
+			class _xx_SmokeShell 
+			{
+				magazine = "SmokeShell";
+				count = 4;
+			};
+
+			class _xx_SmokeShellGreen 
+			{
+				magazine = "SmokeShellGreen";
+				count = 4;
+			};
+
+			class _xx_SmokeShellOrange 
+			{
+				magazine = "SmokeShellOrange";
+				count = 4;
+			};
+
+			class _xx_SmokeShellBlue 
+			{
+				magazine = "SmokeShellBlue";
+				count = 4;
+			};
+
+			class _xx_NLAW_F 
+			{
+				magazine = "NLAW_F";
+				count = 2;
+			};
+		};
 		class TransportWeapons 
 		{
 			class _xx_arifle_MX_khk_F 
@@ -682,6 +768,92 @@ class CfgVehicles
 			"B_T_soldier_f"
 		};
 
+		class TransportMagazines 
+		{
+			class _xx_30Rnd_65x39_caseless_khaki_mag 
+			{
+				magazine = "30Rnd_65x39_caseless_khaki_mag";
+				count = 16;
+			};
+
+			class _xx_100Rnd_65x39_caseless_khaki_mag 
+			{
+				magazine = "100Rnd_65x39_caseless_khaki_mag";
+				count = 6;
+			};
+
+			class _xx_HandGrenade 
+			{
+				magazine = "HandGrenade";
+				count = 10;
+			};
+
+			class _xx_1Rnd_HE_Grenade_shell 
+			{
+				magazine = "1Rnd_HE_Grenade_shell";
+				count = 10;
+			};
+
+			class _xx_1Rnd_Smoke_Grenade_shell 
+			{
+				magazine = "1Rnd_Smoke_Grenade_shell";
+				count = 4;
+			};
+
+			class _xx_1Rnd_SmokeGreen_Grenade_shell 
+			{
+				magazine = "1Rnd_SmokeGreen_Grenade_shell";
+				count = 4;
+			};
+
+			class _xx_1Rnd_SmokeOrange_Grenade_shell 
+			{
+				magazine = "1Rnd_SmokeOrange_Grenade_shell";
+				count = 4;
+			};
+
+			class _xx_1Rnd_SmokeBlue_Grenade_shell 
+			{
+				magazine = "1Rnd_SmokeBlue_Grenade_shell";
+				count = 4;
+			};
+
+			class _xx_16Rnd_9x21_Mag 
+			{
+				magazine = "16Rnd_9x21_Mag";
+				count = 12;
+			};
+
+			class _xx_SmokeShell 
+			{
+				magazine = "SmokeShell";
+				count = 4;
+			};
+
+			class _xx_SmokeShellGreen 
+			{
+				magazine = "SmokeShellGreen";
+				count = 4;
+			};
+
+			class _xx_SmokeShellOrange 
+			{
+				magazine = "SmokeShellOrange";
+				count = 4;
+			};
+
+			class _xx_SmokeShellBlue 
+			{
+				magazine = "SmokeShellBlue";
+				count = 4;
+			};
+
+			class _xx_NLAW_F 
+			{
+				magazine = "NLAW_F";
+				count = 2;
+			};
+		};
 		class TransportWeapons 
 		{
 			class _xx_arifle_MX_khk_F 
@@ -717,7 +889,93 @@ class CfgVehicles
 			"B_T_soldier_f",
 			"B_T_soldier_f"
 		};
+		
+		class TransportMagazines 
+		{
+			class _xx_30Rnd_65x39_caseless_khaki_mag 
+			{
+				magazine = "30Rnd_65x39_caseless_khaki_mag";
+				count = 16;
+			};
 
+			class _xx_100Rnd_65x39_caseless_khaki_mag 
+			{
+				magazine = "100Rnd_65x39_caseless_khaki_mag";
+				count = 6;
+			};
+
+			class _xx_HandGrenade 
+			{
+				magazine = "HandGrenade";
+				count = 10;
+			};
+
+			class _xx_1Rnd_HE_Grenade_shell 
+			{
+				magazine = "1Rnd_HE_Grenade_shell";
+				count = 10;
+			};
+
+			class _xx_1Rnd_Smoke_Grenade_shell 
+			{
+				magazine = "1Rnd_Smoke_Grenade_shell";
+				count = 4;
+			};
+
+			class _xx_1Rnd_SmokeGreen_Grenade_shell 
+			{
+				magazine = "1Rnd_SmokeGreen_Grenade_shell";
+				count = 4;
+			};
+
+			class _xx_1Rnd_SmokeOrange_Grenade_shell 
+			{
+				magazine = "1Rnd_SmokeOrange_Grenade_shell";
+				count = 4;
+			};
+
+			class _xx_1Rnd_SmokeBlue_Grenade_shell 
+			{
+				magazine = "1Rnd_SmokeBlue_Grenade_shell";
+				count = 4;
+			};
+
+			class _xx_16Rnd_9x21_Mag 
+			{
+				magazine = "16Rnd_9x21_Mag";
+				count = 12;
+			};
+
+			class _xx_SmokeShell 
+			{
+				magazine = "SmokeShell";
+				count = 4;
+			};
+
+			class _xx_SmokeShellGreen 
+			{
+				magazine = "SmokeShellGreen";
+				count = 4;
+			};
+
+			class _xx_SmokeShellOrange 
+			{
+				magazine = "SmokeShellOrange";
+				count = 4;
+			};
+
+			class _xx_SmokeShellBlue 
+			{
+				magazine = "SmokeShellBlue";
+				count = 4;
+			};
+
+			class _xx_NLAW_F 
+			{
+				magazine = "NLAW_F";
+				count = 2;
+			};
+		};
 		class TransportWeapons 
 		{
 			class _xx_arifle_MX_khk_F 
