@@ -9,7 +9,15 @@ class CfgPatches
 			"FP_GOR_B_T_MBT_02_cannon_F",
 			"FP_GOR_I_MBT_02_cannon_F"
 		};
-		weapons[]={};
+		weapons[]=
+		{
+			"HMG_NSVT_custom"
+		};
+		magazines[]=
+		{
+			"FP_GOR_150Rnd_127x108_Ball_Red",
+			"FP_GOR_150Rnd_127x108_Ball_Yellow"
+		};
 		requiredVersion=0.1;
 		requiredAddons[]= 
 		{
@@ -64,26 +72,6 @@ class CfgVehicles
 	{
 		class TextureSources
 		{
-			class Hex
-			{
-				materials[]=
-				{
-					"A3\Armor_F_Gamma\MBT_02\Data\MBT_02_body.rvmat",
-					"A3\Armor_F_Gamma\MBT_02\Data\MBT_02_turret.rvmat",
-					"A3\Armor_F_Gamma\MBT_02\Data\MBT_02.rvmat",
-					""
-				};
-			};
-			class GreenHex
-			{
-				materials[]=
-				{
-					"A3\Armor_F_Gamma\MBT_02\Data\MBT_02_body.rvmat",
-					"A3\Armor_F_Gamma\MBT_02\Data\MBT_02_turret.rvmat",
-					"A3\Armor_F_Gamma\MBT_02\Data\MBT_02.rvmat",
-					""
-				};
-			};
 			class Greyhex
 			{
 				displayname = "Grey Hex";
@@ -94,13 +82,6 @@ class CfgVehicles
 					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret_csatgrey_CO.paa",
 					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_csatgrey_CO.paa",
 					"\FP_Factions\gordon_reskins\universalstuff\data\camonet_CSAT_HEX_Grey_CO.paa"
-				};
-				materials[]=
-				{
-					"A3\Armor_F_Gamma\MBT_02\Data\MBT_02_body.rvmat",
-					"A3\Armor_F_Gamma\MBT_02\Data\MBT_02_turret.rvmat",
-					"A3\Armor_F_Gamma\MBT_02\Data\MBT_02.rvmat",
-					""
 				};
 				factions[]=
 				{
@@ -118,13 +99,6 @@ class CfgVehicles
 					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_blufor_CO.paa",
 					"a3\armor_f\data\camonet_NATO_Desert_CO.paa"
 				};
-				materials[]=
-				{
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_body.rvmat",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret.rvmat",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02.rvmat",
-					""
-				};
 				factions[]=
 				{
 					"BLU_F"
@@ -140,13 +114,6 @@ class CfgVehicles
 					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret_bluforpacific_CO.paa",
 					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_bluforpacific_CO.paa",
 					"a3\armor_f\data\camonet_NATO_Green_CO.paa"
-				};
-				materials[]=
-				{
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_body.rvmat",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret.rvmat",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02.rvmat",
-					""
 				};
 				factions[]=
 				{
@@ -164,13 +131,6 @@ class CfgVehicles
 					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret_black_CO.paa",
 					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_black_CO.paa",
 					"\FP_Factions\gordon_reskins\universalstuff\data\camonet_black_CO.paa"
-				};
-				materials[]=
-				{
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_body_darker.rvmat",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret_darker.rvmat",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_darker.rvmat",
-					""
 				};
 				factions[]=
 				{
@@ -190,13 +150,6 @@ class CfgVehicles
 					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_winter_CO.paa",
 					"\FP_Factions\gordon_reskins\universalstuff\data\camonet_winter_CO.paa"
 				};
-				materials[]=
-				{
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_body.rvmat",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret.rvmat",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02.rvmat",
-					""
-				};
 				factions[]=
 				{
 					"BLU_F",
@@ -214,13 +167,6 @@ class CfgVehicles
 					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret_winter_CO.paa",
 					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_winter_CO.paa",
 					"\FP_Factions\gordon_reskins\universalstuff\data\camonet_winterstripe_CO.paa"
-				};
-				materials[]=
-				{
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_body.rvmat",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret.rvmat",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02.rvmat",
-					""
 				};
 				factions[]=
 				{
@@ -240,13 +186,6 @@ class CfgVehicles
 					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_winter_CO.paa",
 					"\FP_Factions\gordon_reskins\universalstuff\data\camonet_winterdot_CO.paa"
 				};
-				materials[]=
-				{
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_body.rvmat",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret.rvmat",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02.rvmat",
-					""
-				};
 				factions[]=
 				{
 					"BLU_F",
@@ -264,13 +203,6 @@ class CfgVehicles
 					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret_winter_CO.paa",
 					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_winter_CO.paa",
 					"\FP_Factions\gordon_reskins\universalstuff\data\camonet_winterdot_arid_CO.paa"
-				};
-				materials[]=
-				{
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_body.rvmat",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret.rvmat",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02.rvmat",
-					""
 				};
 				factions[]=
 				{
@@ -290,13 +222,6 @@ class CfgVehicles
 					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_winter_CO.paa",
 					"\FP_Factions\gordon_reskins\universalstuff\data\camonet_winterdigi_CO.paa"
 				};
-				materials[]=
-				{
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_body.rvmat",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret.rvmat",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02.rvmat",
-					""
-				};
 				factions[]=
 				{
 					"BLU_F",
@@ -314,13 +239,6 @@ class CfgVehicles
 					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret_russian_CO.paa",
 					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_russian_CO.paa",
 					"a3\armor_f\data\camonet_green_CO.paa"
-				};
-				materials[]=
-				{
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_body.rvmat",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret.rvmat",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02.rvmat",
-					""
 				};
 				factions[]=
 				{
@@ -340,13 +258,6 @@ class CfgVehicles
 					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_russiancamo_CO.paa",
 					"a3\armor_f\data\camonet_green_CO.paa"
 				};
-				materials[]=
-				{
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_body_darker.rvmat",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret_darker.rvmat",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_darker.rvmat",
-					""
-				};
 				factions[]=
 				{
 					"BLU_F",
@@ -364,13 +275,6 @@ class CfgVehicles
 					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret_rae1_CO.paa",
 					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_rae1_CO.paa",
 					"\FP_Factions\gordon_reskins\universalstuff\data\camonet_rae1_CO.paa"
-				};
-				materials[]=
-				{
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_body.rvmat",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret.rvmat",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02.rvmat",
-					""
 				};
 				factions[]=
 				{
@@ -390,13 +294,6 @@ class CfgVehicles
 					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_rae2_CO.paa",
 					"\FP_Factions\gordon_reskins\universalstuff\data\camonet_rae2_CO.paa"
 				};
-				materials[]=
-				{
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_body.rvmat",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret.rvmat",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02.rvmat",
-					""
-				};
 				factions[]=
 				{
 					"BLU_F",
@@ -414,13 +311,6 @@ class CfgVehicles
 					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret_rae3_CO.paa",
 					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_rae3_CO.paa",
 					"\FP_Factions\gordon_reskins\universalstuff\data\camonet_rae3_CO.paa"
-				};
-				materials[]=
-				{
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_body.rvmat",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret.rvmat",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02.rvmat",
-					""
 				};
 				factions[]=
 				{
@@ -440,13 +330,6 @@ class CfgVehicles
 					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_t-pat_CO.paa",
 					"\FP_Factions\gordon_reskins\universalstuff\data\camonet_t-pat_CO.paa"
 				};
-				materials[]=
-				{
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_body_darker.rvmat",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret_darker.rvmat",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_darker.rvmat",
-					""
-				};
 				factions[]=
 				{
 					"BLU_F",
@@ -464,13 +347,6 @@ class CfgVehicles
 					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret_t-pat_CO.paa",
 					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_t-pat_CO.paa",
 					"\FP_Factions\gordon_reskins\universalstuff\data\camonet_t-pat2_CO.paa"
-				};
-				materials[]=
-				{
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_body_darker.rvmat",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret_darker.rvmat",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_darker.rvmat",
-					""
 				};
 				factions[]=
 				{
@@ -490,13 +366,6 @@ class CfgVehicles
 					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_AAF_CO.paa",
 					"a3\armor_f\data\camonet_AAF_Digi_Green_CO.paa"
 				};
-				materials[]=
-				{
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_body.rvmat",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret.rvmat",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02.rvmat",
-					""
-				};
 				factions[]=
 				{
 					"IND_F"
@@ -512,13 +381,6 @@ class CfgVehicles
 					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret_AAF_CO.paa",
 					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_AAF_CO.paa",
 					"a3\armor_f\data\camonet_AAF_Digi_Jungle_CO.paa"
-				};
-				materials[]=
-				{
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_body.rvmat",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret.rvmat",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02.rvmat",
-					""
 				};
 				factions[]=
 				{
@@ -536,13 +398,6 @@ class CfgVehicles
 					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_AAF_CO.paa",
 					"a3\armor_f\data\camonet_AAF_Digi_Desert_CO.paa"
 				};
-				materials[]=
-				{
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_body.rvmat",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret.rvmat",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02.rvmat",
-					""
-				};
 				factions[]=
 				{
 					"IND_F"
@@ -558,13 +413,6 @@ class CfgVehicles
 					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret_AAF_CO.paa",
 					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_AAF_CO.paa",
 					"\FP_Factions\gordon_reskins\universalstuff\data\camonet_winterdigi_CO.paa"
-				};
-				materials[]=
-				{
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_body.rvmat",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret.rvmat",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02.rvmat",
-					""
 				};
 				factions[]=
 				{
@@ -666,6 +514,7 @@ class CfgVehicles
 				};
 			};
 		};
+		
 		class TransportMagazines
 		{
 			class _xx_SmokeShell
@@ -714,13 +563,6 @@ class CfgVehicles
 			"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_blufor_CO.paa",
 			"a3\armor_f\data\camonet_NATO_Desert_CO.paa"
 		};
-		hiddenSelectionsMaterials[]=
-		{
-			"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_body.rvmat",
-			"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret.rvmat",
-			"\FP_Factions\gordon_reskins\varsuk\data\MBT_02.rvmat",
-			""
-		};
 	};
 	
 	class FP_GOR_B_T_MBT_02_cannon_F: FP_GOR_B_MBT_02_cannon_F 
@@ -737,6 +579,24 @@ class CfgVehicles
 			"B_T_soldier_f"
 		};
 
+		class TransportMagazines
+		{
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=2;
+			};
+			class _xx_SmokeShellBlue
+			{
+				magazine="SmokeShellBlue";
+				count=2;
+			};
+			class _xx_30Rnd_65x39_caseless_khaki_mag
+			{
+				magazine="30Rnd_65x39_caseless_khaki_mag";
+				count=4;
+			};
+		};
 		class TransportWeapons 
 		{
 			class _xx_arifle_MXC_khk_F 
@@ -758,13 +618,6 @@ class CfgVehicles
 			"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret_bluforpacific_CO.paa",
 			"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_bluforpacific_CO.paa",
 			"a3\armor_f\data\camonet_NATO_Green_CO.paa"
-		};
-		hiddenSelectionsMaterials[]=
-		{
-			"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_body.rvmat",
-			"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret.rvmat",
-			"\FP_Factions\gordon_reskins\varsuk\data\MBT_02.rvmat",
-			""
 		};
 	};
 	
@@ -854,13 +707,6 @@ class CfgVehicles
 			"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret_AAF_CO.paa",
 			"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_AAF_CO.paa",
 			"a3\armor_f\data\camonet_AAF_Digi_Green_CO.paa"
-		};
-		hiddenSelectionsMaterials[]=
-		{
-			"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_body.rvmat",
-			"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret.rvmat",
-			"\FP_Factions\gordon_reskins\varsuk\data\MBT_02.rvmat",
-			""
 		};
 	};
 };

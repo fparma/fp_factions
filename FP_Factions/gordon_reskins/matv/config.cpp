@@ -20,6 +20,27 @@ class CfgPatches
 };
 class CfgVehicles
 {
+	class Car_F;
+	class MRAP_01_base_F: Car_F
+	{
+		class TextureSources
+		{
+			class AAF
+			{
+				displayName="AAF";
+				textures[]=
+				{
+					"\FP_Factions\gordon_reskins\matv\data\MRAP_01_base_aaf_co.paa",
+					"\FP_Factions\gordon_reskins\matv\data\MRAP_01_adds_aaf_co.paa",
+					"\a3\data_f\vehicles\turret_indp_co.paa"
+				};
+				factions[]=
+				{
+					"IND_F"
+				};
+			};
+		};
+	};
 	class B_MRAP_01_F;
 	class FP_GOR_I_MRAP_01_F: B_MRAP_01_F 
 	{
