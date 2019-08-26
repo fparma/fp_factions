@@ -37,7 +37,9 @@ class CfgPatches
 			"FP_GOR_Uniform_Massif_auscamdpdu",
 			"FP_GOR_Uniform_Massif_02_auscamdpdu",
 			"FP_GOR_Uniform_Massif_auscammidpoint",
-			"FP_GOR_Uniform_Massif_02_auscammidpoint"
+			"FP_GOR_Uniform_Massif_02_auscammidpoint",
+			"FP_GOR_Uniform_Massif_smk",
+			"FP_GOR_Uniform_Massif_02_smk"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -628,6 +630,42 @@ class CfgVehicles
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifauscammidpoint_co.paa"
 		};
 	};
+	class FP_GOR_Massif_smk: I_soldier_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_smk";
+		displayName="Massif (SMK)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifsmk_co.paa"
+		};
+	};
+	class FP_GOR_Massif_02_smk: I_Soldier_02_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_02_smk";
+		displayName="Massif (SMK, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifsmk_co.paa"
+		};
+	};
 };
 class CfgWeapons			
 {
@@ -1078,6 +1116,34 @@ class CfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="FP_GOR_Massif_02_auscammidpoint";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massif_smk: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="Massif (SMK)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_smk";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massif_02_smk: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="Massif (SMK, sleeves)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_02_smk";
 			containerClass="Supply40";
 			mass=40;
 		};

@@ -25,17 +25,19 @@ class CfgPatches
 			"FP_GOR_PASGThelmet_tigerstripedesert",
 			"FP_GOR_PASGThelmet_tigerstripedesert_rhino",
 			"FP_GOR_PASGThelmet_tigerstripenaval",
-			"FP_GOR_PASGThelmet_tigerstripenaval_rhino" ,
+			"FP_GOR_PASGThelmet_tigerstripenaval_rhino",
 			"FP_GOR_PASGThelmet_oakleafsummer",
-			"FP_GOR_PASGThelmet_oakleafsummer_rhino" ,
+			"FP_GOR_PASGThelmet_oakleafsummer_rhino",
 			"FP_GOR_PASGThelmet_oakleaffall",
-			"FP_GOR_PASGThelmet_oakleaffall_rhino" ,
+			"FP_GOR_PASGThelmet_oakleaffall_rhino",
 			"FP_GOR_PASGThelmet_auscamdpcu",
-			"FP_GOR_PASGThelmet_auscamdpcu_rhino" ,
+			"FP_GOR_PASGThelmet_auscamdpcu_rhino",
 			"FP_GOR_PASGThelmet_auscamdpdu",
-			"FP_GOR_PASGThelmet_auscamdpdu_rhino" ,
+			"FP_GOR_PASGThelmet_auscamdpdu_rhino",
 			"FP_GOR_PASGThelmet_auscammidpoint",
-			"FP_GOR_PASGThelmet_auscammidpoint_rhino" 
+			"FP_GOR_PASGThelmet_auscammidpoint_rhino",
+			"FP_GOR_PASGThelmet_smk",
+			"FP_GOR_PASGThelmet_smk_rhino"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -378,6 +380,28 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_auscammidpoint_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_smk : rhsgref_helmet_pasgt_erdl
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl";
+		scope=2;
+		displayName="PASGT (SMK midpoint)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_smk_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_smk_rhino : rhsgref_helmet_pasgt_erdl_rhino
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl_rhino";
+		scope=2;
+		displayName="PASGT (SMK, Rhino)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_smk_co.paa"
 		};
 	};
 };
