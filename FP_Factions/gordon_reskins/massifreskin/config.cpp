@@ -27,7 +27,17 @@ class CfgPatches
 			"FP_GOR_Uniform_Massif_tigerstripedesert",
 			"FP_GOR_Uniform_Massif_02_tigerstripedesert",
 			"FP_GOR_Uniform_Massif_tigerstripenaval",
-			"FP_GOR_Uniform_Massif_02_tigerstripenaval"
+			"FP_GOR_Uniform_Massif_02_tigerstripenaval",
+			"FP_GOR_Uniform_Massif_oakleafsummer",
+			"FP_GOR_Uniform_Massif_02_oakleafsummer",
+			"FP_GOR_Uniform_Massif_oakleaffall",
+			"FP_GOR_Uniform_Massif_02_oakleaffall",
+			"FP_GOR_Uniform_Massif_auscamdpcu",
+			"FP_GOR_Uniform_Massif_02_auscamdpcu",
+			"FP_GOR_Uniform_Massif_auscamdpdu",
+			"FP_GOR_Uniform_Massif_02_auscamdpdu",
+			"FP_GOR_Uniform_Massif_auscammidpoint",
+			"FP_GOR_Uniform_Massif_02_auscammidpoint"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -438,8 +448,188 @@ class CfgVehicles
 			"\FP_Factions\gordon_reskins\massifreskin\data\massiftigerstripenaval_co.paa"
 		};
 	};
+	class FP_GOR_Massif_oakleafsummer: I_soldier_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_oakleafsummer";
+		displayName="Massif (Oakleaf summer)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifoakleafsummer_co.paa"
+		};
+	};
+	class FP_GOR_Massif_02_oakleafsummer: I_Soldier_02_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_02_oakleafsummer";
+		displayName="Massif (Oakleaf summer, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifoakleafsummer_co.paa"
+		};
+	};
+	class FP_GOR_Massif_oakleaffall: I_soldier_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_oakleaffall";
+		displayName="Massif (Oakleaf fall)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifoakleaffall_co.paa"
+		};
+	};
+	class FP_GOR_Massif_02_oakleaffall: I_Soldier_02_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_02_oakleaffall";
+		displayName="Massif (Oakleaf fall, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifoakleaffall_co.paa"
+		};
+	};
+	class FP_GOR_Massif_auscamdpcu: I_soldier_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_auscamdpcu";
+		displayName="Massif (AUSCAM DPCU)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifauscamdpcu_co.paa"
+		};
+	};
+	class FP_GOR_Massif_02_auscamdpcu: I_Soldier_02_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_02_auscamdpcu";
+		displayName="Massif (AUSCAM DPCU, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifauscamdpcu_co.paa"
+		};
+	};
+	class FP_GOR_Massif_auscamdpdu: I_soldier_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_auscamdpdu";
+		displayName="Massif (AUSCAM DPDU)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifauscamdpdu_co.paa"
+		};
+	};
+	class FP_GOR_Massif_02_auscamdpdu: I_Soldier_02_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_02_auscamdpdu";
+		displayName="Massif (AUSCAM DPDU, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifauscamdpdu_co.paa"
+		};
+	};
+	class FP_GOR_Massif_auscammidpoint: I_soldier_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_auscammidpoint";
+		displayName="Massif (AUSCAM midpoint)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifauscammidpoint_co.paa"
+		};
+	};
+	class FP_GOR_Massif_02_auscammidpoint: I_Soldier_02_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_02_auscammidpoint";
+		displayName="Massif (AUSCAM midpoint, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifauscammidpoint_co.paa"
+		};
+	};
 };
-class CfgWeapons
+class CfgWeapons			
 {
 	class U_I_CombatUniform;
 	class U_I_CombatUniform_shortsleeve;
@@ -450,7 +640,6 @@ class CfgWeapons
 		displayName="Massif (M81 Woodland)";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		picture="\FP_Factions\gordon_reskins\universalstuff\icons\uniforms\woodland.paa";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -465,7 +654,6 @@ class CfgWeapons
 		displayName="Massif (M81 Woodland, sleeves)";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		picture="\FP_Factions\gordon_reskins\universalstuff\icons\uniforms\woodland.paa";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -480,7 +668,6 @@ class CfgWeapons
 		displayName="Massif (DBC Arid)";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		picture="\FP_Factions\gordon_reskins\universalstuff\icons\uniforms\stripeyarid.paa";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -495,7 +682,6 @@ class CfgWeapons
 		displayName="Massif (DBC Arid, sleeves)";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		picture="\FP_Factions\gordon_reskins\universalstuff\icons\uniforms\stripeyarid.paa";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -510,7 +696,6 @@ class CfgWeapons
 		displayName="Massif (DBC Woodland)";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		picture="\FP_Factions\gordon_reskins\universalstuff\icons\uniforms\stripeywoodland.paa";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -525,7 +710,6 @@ class CfgWeapons
 		displayName="Massif (DBC Woodland, sleeves)";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		picture="\FP_Factions\gordon_reskins\universalstuff\icons\uniforms\stripeywoodland.paa";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -540,7 +724,6 @@ class CfgWeapons
 		displayName="Massif (DBC Desert)";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		picture="\FP_Factions\gordon_reskins\universalstuff\icons\uniforms\stripeydesert.paa";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -555,7 +738,6 @@ class CfgWeapons
 		displayName="Massif (DBC Desert, sleeves)";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		picture="\FP_Factions\gordon_reskins\universalstuff\icons\uniforms\stripeydesert.paa";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -570,7 +752,6 @@ class CfgWeapons
 		displayName="Massif (French Lizard C1)";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		picture="\FP_Factions\gordon_reskins\universalstuff\icons\uniforms\frenchlizardc1.paa";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -585,7 +766,6 @@ class CfgWeapons
 		displayName="Massif (French Lizard C1, sleeves)";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		picture="\FP_Factions\gordon_reskins\universalstuff\icons\uniforms\frenchlizardc1.paa";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -600,7 +780,6 @@ class CfgWeapons
 		displayName="Massif (French Lizard A2)";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		picture="\FP_Factions\gordon_reskins\universalstuff\icons\uniforms\frenchlizarda2.paa";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -615,7 +794,6 @@ class CfgWeapons
 		displayName="Massif (French Lizard A2, sleeves)";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		picture="\FP_Factions\gordon_reskins\universalstuff\icons\uniforms\frenchlizarda2.paa";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -630,7 +808,6 @@ class CfgWeapons
 		displayName="Massif (French Lizard Fictional)";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		picture="\FP_Factions\gordon_reskins\universalstuff\icons\uniforms\frenchlizardfictional.paa";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -645,7 +822,6 @@ class CfgWeapons
 		displayName="Massif (French Lizard Fictional, sleeves)";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		picture="\FP_Factions\gordon_reskins\universalstuff\icons\uniforms\frenchlizardfictional.paa";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -688,7 +864,6 @@ class CfgWeapons
 		displayName="Massif (Tigerstripe jungle)";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		picture="\FP_Factions\gordon_reskins\universalstuff\icons\uniforms\tigerstripejungle.paa";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -703,7 +878,6 @@ class CfgWeapons
 		displayName="Massif (Tigerstripe jungle, sleeves)";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		picture="\FP_Factions\gordon_reskins\universalstuff\icons\uniforms\tigerstripejungle.paa";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -718,7 +892,6 @@ class CfgWeapons
 		displayName="Massif (Tigerstripe desert)";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		picture="\FP_Factions\gordon_reskins\universalstuff\icons\uniforms\tigerstripedesert.paa";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -733,7 +906,6 @@ class CfgWeapons
 		displayName="Massif (Tigerstripe desert, sleeves)";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		picture="\FP_Factions\gordon_reskins\universalstuff\icons\uniforms\tigerstripedesert.paa";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -748,7 +920,6 @@ class CfgWeapons
 		displayName="Massif (Tigerstripe naval)";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		picture="\FP_Factions\gordon_reskins\universalstuff\icons\uniforms\tigerstripenaval.paa";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -763,11 +934,150 @@ class CfgWeapons
 		displayName="Massif (Tigerstripe naval, sleeves)";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		picture="\FP_Factions\gordon_reskins\universalstuff\icons\uniforms\tigerstripenaval.paa";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
 			uniformClass="FP_GOR_Massif_02_tigerstripenaval";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massif_oakleafsummer: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="Massif (Oakleaf summer)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_oakleafsummer";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massif_02_oakleafsummer: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="Massif (Oakleaf summer, sleeves)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_02_oakleafsummer";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massif_oakleaffall: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="Massif (Oakleaf fall)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_oakleaffall";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massif_02_oakleaffall: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="Massif (Oakleaf fall, sleeves)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_02_oakleaffall";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massif_auscamdpcu: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="Massif (AUSCAM DPCU)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_auscamdpcu";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massif_02_auscamdpcu: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="Massif (AUSCAM DPCU, sleeves)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_02_auscamdpcu";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massif_auscamdpdu: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="Massif (AUSCAM DPDU)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_auscamdpdu";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massif_02_auscamdpdu: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="Massif (AUSCAM DPDU, sleeves)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_02_auscamdpdu";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massif_auscammidpoint: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="Massif (AUSCAM midpoint)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_auscammidpoint";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massif_02_auscammidpoint: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="Massif (AUSCAM midpoint, sleeves)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_02_auscammidpoint";
 			containerClass="Supply40";
 			mass=40;
 		};
