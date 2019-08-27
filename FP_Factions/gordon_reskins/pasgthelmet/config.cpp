@@ -37,7 +37,9 @@ class CfgPatches
 			"FP_GOR_PASGThelmet_auscammidpoint",
 			"FP_GOR_PASGThelmet_auscammidpoint_rhino",
 			"FP_GOR_PASGThelmet_smk",
-			"FP_GOR_PASGThelmet_smk_rhino"
+			"FP_GOR_PASGThelmet_smk_rhino",
+			"FP_GOR_PASGThelmet_cropat",
+			"FP_GOR_PASGThelmet_cropat_rhino"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -402,6 +404,50 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_smk_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_smk : rhsgref_helmet_pasgt_erdl
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl";
+		scope=2;
+		displayName="PASGT (SMK)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_smk_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_smk_rhino : rhsgref_helmet_pasgt_erdl_rhino
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl_rhino";
+		scope=2;
+		displayName="PASGT (SMK, Rhino)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_smk_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_cropat : rhsgref_helmet_pasgt_erdl
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl";
+		scope=2;
+		displayName="PASGT (CROPAT)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_cropat_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_cropat_rhino : rhsgref_helmet_pasgt_erdl_rhino
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl_rhino";
+		scope=2;
+		displayName="PASGT (CROPAT, Rhino)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_cropat_co.paa"
 		};
 	};
 };
