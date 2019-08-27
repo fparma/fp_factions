@@ -389,28 +389,6 @@ class CfgWeapons
 		author="Gordon Weedman";
 		_generalMacro="rhsgref_helmet_pasgt_erdl";
 		scope=2;
-		displayName="PASGT (SMK midpoint)";
-		hiddenSelectionsTextures[]=
-		{
-			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_smk_co.paa"
-		};
-	};
-	class FP_GOR_PASGThelmet_smk_rhino : rhsgref_helmet_pasgt_erdl_rhino
-	{
-		author="Gordon Weedman";
-		_generalMacro="rhsgref_helmet_pasgt_erdl_rhino";
-		scope=2;
-		displayName="PASGT (SMK, Rhino)";
-		hiddenSelectionsTextures[]=
-		{
-			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_smk_co.paa"
-		};
-	};
-	class FP_GOR_PASGThelmet_smk : rhsgref_helmet_pasgt_erdl
-	{
-		author="Gordon Weedman";
-		_generalMacro="rhsgref_helmet_pasgt_erdl";
-		scope=2;
 		displayName="PASGT (SMK)";
 		hiddenSelectionsTextures[]=
 		{
