@@ -25,7 +25,9 @@ class CfgPatches
 			"FP_GOR_Uniform_Massif_tigerstripejungle",
 			"FP_GOR_Uniform_Massif_02_tigerstripejungle",
 			"FP_GOR_Uniform_Massif_tigerstripedesert",
-			"FP_GOR_Uniform_Massif_02_tigerstripedesert"
+			"FP_GOR_Uniform_Massif_02_tigerstripedesert",
+			"FP_GOR_Uniform_Massif_tigerstripenaval",
+			"FP_GOR_Uniform_Massif_02_tigerstripenaval"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -400,6 +402,42 @@ class CfgVehicles
 			"\FP_Factions\gordon_reskins\massifreskin\data\massiftigerstripedesert_co.paa"
 		};
 	};
+	class FP_GOR_Massif_tigerstripenaval: I_soldier_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_tigerstripenaval";
+		displayName="Massif (Tigerstripe naval)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massiftigerstripenaval_co.paa"
+		};
+	};
+	class FP_GOR_Massif_02_tigerstripenaval: I_Soldier_02_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_02_tigerstripenaval";
+		displayName="Massif (Tigerstripe naval, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massiftigerstripenaval_co.paa"
+		};
+	};
 };
 class CfgWeapons
 {
@@ -700,6 +738,36 @@ class CfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="FP_GOR_Massif_02_tigerstripedesert";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massif_tigerstripenaval: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="Massif (Tigerstripe naval)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		picture="\FP_Factions\gordon_reskins\universalstuff\icons\uniforms\tigerstripenaval.paa";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_tigerstripenaval";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massif_02_tigerstripenaval: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="Massif (Tigerstripe naval, sleeves)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		picture="\FP_Factions\gordon_reskins\universalstuff\icons\uniforms\tigerstripenaval.paa";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_02_tigerstripenaval";
 			containerClass="Supply40";
 			mass=40;
 		};
