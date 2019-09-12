@@ -25,7 +25,7 @@ class CfgGroups
 	{
 		class FP_Faction_PLA_Units
 		{
-			name = "People's Republic of China (2010/Universal)";
+			name = "People's Republic of China (2010)";
 			class Infantry
 			{
 				name = "PRC (2010/Universal) Infantry ";
@@ -391,6 +391,456 @@ class CfgGroups
 						vehicle = "FP_Faction_PLA_AMANPADS";
 						rank = "CORPORAL";
 						position[] = {5,-5,0};
+					};
+				};
+				class PLA_Tacom
+				{
+					name = "Tacom Team";
+					side = 0;
+					faction = "FP_Faction_PLA";
+					class Unit0
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_FieldOfficer";
+						rank = "LIEUTENANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_TL";
+						rank = "SERGEANT";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_RO";
+						rank = "CORPORAL";
+						position[] = {-5,-5,0};
+					};
+					class Unit3
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Medic";
+						rank = "PRIVATE";
+						position[] = {10,-10,0};
+					};
+					class Unit4
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_UAV";
+						rank = "PRIVATE";
+						position[] = {-10,-10,0};
+					};
+				};
+			};
+			class InfantryDesert
+			{
+				name = "PRC (2010/Desert) Infantry ";
+				class PLA_Desert_Riflesquad
+				{
+					name = "Rifle Squad";
+					side = 0;
+					faction = "FP_Faction_PLA";
+					class Unit0
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_TL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_Rifleman";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_AR";
+						rank = "CORPORAL";
+						position[] = {-5,-5,0};
+					};
+					class Unit3
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_AAR";
+						rank = "PRIVATE";
+						position[] = {10,-10,0};
+					};
+					class Unit4
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_Rifleman";
+						rank = "PRIVATE";
+						position[] = {-10,-10,0};
+					};
+					class Unit5
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_RAT";
+						rank = "CORPORAL";
+						position[] = {15,-15,0};
+					};
+					class Unit6
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_Rifleman";
+						rank = "PRIVATE";
+						position[] = {-15,-15,0};
+					};
+					class Unit7
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_Rifleman";
+						rank = "PRIVATE";
+						position[] = {20,-20,0};
+					};
+				};
+				class PLA_Desert_WeaponsSquad
+				{
+					name = "Weapons Team";
+					side = 0;
+					faction = "FP_Faction_PLA";
+					class Unit0
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_TL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_AR";
+						rank = "SERGEANT";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_AR";
+						rank = "CORPORAL";
+						position[] = {-5,-5,0};
+					};
+					class Unit3
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_RAT";
+						rank = "SERGEANT";
+						position[] = {10,-10,0};
+					};
+					class Unit4
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_RAT";
+						rank = "CORPORAL";
+						position[] = {-10,-10,0};
+					};
+					class Unit6
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_AAR";
+						rank = "PRIVATE";
+						position[] = {15,-15,0};
+					};
+					class Unit5
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_AAR";
+						rank = "PRIVATE";
+						position[] = {-15,-15,0};
+					};
+					class Unit7
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_Medic";
+						rank = "PRIVATE";
+						position[] = {20,-20,0};
+					};
+				};
+				class PLA_Desert_Patrol
+				{
+					name = "Rifle Patrol";
+					side = 0;
+					faction = "FP_Faction_PLA";
+					class Unit0
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_AR";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_Rifleman";
+						rank = "CORPORAL";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_Rifleman";
+						rank = "PRIVATE";
+						position[] = {-5,-5,0};
+					};
+					class Unit3
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_Rifleman";
+						rank = "PRIVATE";
+						position[] = {10,-10,0};
+					};
+				};
+				class PLA_Desert_ATTeam
+				{
+					name = "Antitank Team";
+					side = 0;
+					faction = "FP_Faction_PLA";
+					class Unit0
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_TL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_RAT";
+						rank = "CORPORAL";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_RAT";
+						rank = "PRIVATE";
+						position[] = {-5,-5,0};
+					};
+					class Unit3
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_RAT";
+						rank = "PRIVATE";
+						position[] = {10,-10,0};
+					};
+				};
+				class PLA_Desert_RifleSentry
+				{
+					name = "Sentries";
+					side = 0;
+					faction = "FP_Faction_PLA";
+					class Unit0
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_Rifleman";
+						rank = "CORPORAL";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_Rifleman";
+						rank = "PRIVATE";
+						position[] = {5,-2,0};
+					};
+				};
+			};
+			class SupportDesert
+			{
+				name = "PRC (2010/Desert) Company Attachments";
+				class PLA_Desert_DoctorTeam
+				{
+					name = "Doctor Team";
+					side = 0;
+					faction = "FP_Faction_PLA";
+					class Unit0
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_TL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_Medic";
+						rank = "CORPORAL";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_Medic";
+						rank = "PRIVATE";
+						position[] = {-5,-5,0};
+					};
+					class Unit3
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_Rifleman";
+						rank = "PRIVATE";
+						position[] = {10,-10,0};
+					};
+				};
+				class PLA_Desert_MMGTeam
+				{
+					name = "MMG Team";
+					side = 0;
+					faction = "FP_Faction_PLA";
+					class Unit0
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_MMG";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_AMMG";
+						rank = "CORPORAL";
+						position[] = {5,-5,0};
+					};
+				};
+				class PLA_Desert_EngineerTeam
+				{
+					name = "Engineering Support Team";
+					side = 0;
+					faction = "FP_Faction_PLA";
+					class Unit0
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_TL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_Engineer";
+						rank = "CORPORAL";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_Engineer";
+						rank = "PRIVATE";
+						position[] = {-5,-5,0};
+					};
+					class Unit3
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_Engineer";
+						rank = "PRIVATE";
+						position[] = {10,-10,0};
+					};
+				};
+				class PLA_Desert_MATTeam
+				{
+					name = "MAT Team";
+					side = 0;
+					faction = "FP_Faction_PLA";
+					class Unit0
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_MAT";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_AMAT";
+						rank = "CORPORAL";
+						position[] = {5,-5,0};
+					};
+				};
+				class PLA_Desert_HATTeam
+				{
+					name = "HAT Team";
+					side = 0;
+					faction = "FP_Faction_PLA";
+					class Unit0
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_HAT";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_AHAT";
+						rank = "CORPORAL";
+						position[] = {5,-5,0};
+					};
+				};
+				class PLA_Desert_MANPADSTeam
+				{
+					name = "MANPADS Team";
+					side = 0;
+					faction = "FP_Faction_PLA";
+					class Unit0
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_MANPADS";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_AMANPADS";
+						rank = "CORPORAL";
+						position[] = {5,-5,0};
+					};
+				};
+				class PLA_Desert_Tacom
+				{
+					name = "Tacom Team";
+					side = 0;
+					faction = "FP_Faction_PLA";
+					class Unit0
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_FieldOfficer";
+						rank = "LIEUTENANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_TL";
+						rank = "SERGEANT";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_RO";
+						rank = "CORPORAL";
+						position[] = {-5,-5,0};
+					};
+					class Unit3
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_Medic";
+						rank = "PRIVATE";
+						position[] = {10,-10,0};
+					};
+					class Unit4
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Desert_UAV";
+						rank = "PRIVATE";
+						position[] = {-10,-10,0};
 					};
 				};
 			};
@@ -1148,7 +1598,7 @@ class cfgvehicles
 		displayName = "Conscript Rifleman";
 		cost = 100000;
 		headgearProbability = 100;
-		allowedHeadgear[] = {"FP_Helmet_Type07Uni","FP_Helmet_Type07Uni"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Uni","FP_Helmet_Type07UniESS"};
 	};
 	class FP_Faction_PLA_AR: FP_Faction_PLA_Soldier_BASE
 	{
@@ -1201,7 +1651,7 @@ class cfgvehicles
 		backpack = "B_AssaultPack_rgr_GL_PLA";
 		cost = 100000;
 		headgearProbability = 100;
-		allowedHeadgear[] = {"FP_Helmet_Type07Uni","FP_Helmet_Type07Uni"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Uni","FP_Helmet_Type07UniESS"};
 		weapons[] = {"arifle_CTAR_GL_blk_F","Throw","Put"};
 		respawnWeapons[] = {"arifle_CTAR_GL_blk_F","Throw","Put"};
 		magazines[] = {"30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
@@ -1225,7 +1675,7 @@ class cfgvehicles
 		icon = "iconManLeader";
 		linkedItems[] = {"V_TacVest_camo","FP_Helmet_Type07Uni","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_TacVest_camo","FP_Helmet_Type07Uni","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		headgearProbability = 80;
+		headgearProbability = 100;
 		allowedHeadgear[] = {"FP_Helmet_Type07Uni","FP_Helmet_Type07UniESS"};
 	};
 	class FP_Faction_PLA_TL: FP_Faction_PLA_Soldier_BASE
@@ -1244,9 +1694,31 @@ class cfgvehicles
 		icon = "iconManLeader";
 		linkedItems[] = {"V_TacVest_camo","FP_Helmet_Type07Uni","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_TacVest_camo","FP_Helmet_Type07Uni","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		headgearProbability = 90;
+		headgearProbability = 100;
 		allowedHeadgear[] = {"FP_Helmet_Type07Uni","FP_Helmet_Type07UniESS"};
 	};
+	class FP_Faction_PLA_RO: FP_Faction_PLA_Soldier_BASE
+	{
+		author = "FP Mod Team";
+		_generalMacro = "FP_Faction_PLA_Soldier_BASE";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "Radio Operator";
+		backpack = "B_RadioBag_01_wdl_F"
+		headgearProbability = 100;
+		allowedHeadgear[] = {"FP_Helmet_Type07Uni","FP_Helmet_Type07Uni"};
+	};
+	class FP_Faction_PLA_UAV: FP_Faction_PLA_Soldier_BASE
+	{
+		author = "FP Mod Team";
+		_generalMacro = "FP_Faction_PLA_Soldier_BASE";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "UAV Operator";
+		backpack = "O_UAV_01_backpack_F"
+		headgearProbability = 100;
+		allowedHeadgear[] = {"FP_Helmet_Type07Uni","FP_Helmet_Type07Uni"};
+	};	
 	class FP_Faction_PLA_DM: FP_Faction_PLA_Soldier_BASE
 	{
 		class SpeechVariants
@@ -1272,7 +1744,7 @@ class cfgvehicles
 		linkedItems[] = {"V_TacVest_camo","FP_Helmet_Type07Uni","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_TacVest_camo","FP_Helmet_Type07Uni","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		sensitivity = 3;
-		headgearProbability = 60;
+		headgearProbability = 100;
 		allowedHeadgear[] = {"FP_Helmet_Type07Uni","FP_Helmet_Type07UniESS"};
 	};
 	class FP_Faction_PLA_RAT: FP_Faction_PLA_Soldier_BASE
@@ -1342,7 +1814,7 @@ class cfgvehicles
 		scopeCurator = 2;
 		displayName = "Crewman";
 		weapons[] = {"arifle_CTAR_blk_F","rhs_weap_makarov_pm","Throw","Put"};
-		respawnWeapons[] = {"arifle_CTAR_blk_B","rhs_weap_makarov_pm","Throw","Put"};
+		respawnWeapons[] = {"arifle_CTAR_blk_F","rhs_weap_makarov_pm","Throw","Put"};
 		magazines[] = {"30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","rhs_mag_9x18_8_57N181S","rhs_mag_9x18_8_57N181S","rhs_mag_9x18_8_57N181S","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
 		respawnMagazines[] = {"30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","rhs_mag_9x18_8_57N181S","rhs_mag_9x18_8_57N181S","rhs_mag_9x18_8_57N181S","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
 		camouflage = 1.6;
@@ -1598,15 +2070,252 @@ class cfgvehicles
 	};
 	class FP_Faction_PLA_Officer: FP_Faction_PLA_Soldier_BASE
 	{
+		class SpeechVariants
+		{
+			class Default
+			{
+				speechPlural[] = {"veh_infantry_officer_p"};
+				speechSingular[] = {"veh_infantry_officer_s"};
+			};
+		};
 		author = "FP Mod Team";
 		_generalMacro = "FP_Faction_PLA_Soldier_BASE";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Officer";
 		cost = 250000;
-		linkedItems[] = {"V_TacVest_camo","UK3CB_ANA_B_H_Beret_GRN","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_TacVest_camo","UK3CB_ANA_B_H_Beret_GRN","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		icon = "iconManOfficer";
+		identityTypes[] = {"LanguageCHI_F","Head_Asian","G_CIVIL_male"};
+		weapons[] = {"arifle_CTAR_blk_F","rhs_weap_makarov_pm","Throw","Put"};
+		respawnWeapons[] = {"arifle_CTAR_blk_F","rhs_weap_makarov_pm","Throw","Put"};
+		magazines[] = {"30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","rhs_mag_9x18_8_57N181S","rhs_mag_9x18_8_57N181S","rhs_mag_9x18_8_57N181S","HandGrenade","HandGrenade","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","SmokeShell","SmokeShellRed","SmokeShellOrange","SmokeShellYellow"};
+		respawnMagazines[] = {"30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","rhs_mag_9x18_8_57N181S","rhs_mag_9x18_8_57N181S","rhs_mag_9x18_8_57N181S","HandGrenade","HandGrenade","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","SmokeShell","SmokeShellRed","SmokeShellOrange","SmokeShellYellow"};
+		linkedItems[] = {"V_TacVest_camo","UK3CB_ANA_B_H_Beret_GRN","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_camo","UK3CB_ANA_B_H_Beret_GRN","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 100;
 		allowedHeadgear[] = {"UK3CB_ANA_B_H_Beret_GRN","UK3CB_ANA_B_H_Beret_GRN"};
+	};
+	class FP_Faction_PLA_FieldOfficer: FP_Faction_PLA_Officer
+	{
+
+		displayName = "Field Officer";
+		weapons[] = {"arifle_CTAR_blk_ARCO_F","rhs_weap_makarov_pm","Throw","Put"};
+		respawnWeapons[] = {"arifle_CTAR_blk_ARCO_F","rhs_weap_makarov_pm","Throw","Put"};
+		linkedItems[] = {"V_TacVest_camo","FP_fieldcap_PLA_Type07Uni","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_camo","FP_fieldcap_PLA_Type07Uni","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		headgearProbability = 100;
+		allowedHeadgear[] = {"FP_fieldcap_PLA_Type07Uni","FP_fieldcap_PLA_Type07Uni"};
 	};	
+
+	class FP_Faction_PLA_Desert_Rifleman: FP_Faction_PLA_Rifleman
+	{
+		vehicleClass = "fp_men_desert";
+	    editorSubcategory = "fp_men_desert_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Desert";
+		linkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Desert","FP_Helmet_Type07DesertESS"};
+	};
+	class FP_Faction_PLA_Desert_AR: FP_Faction_PLA_AR
+	{
+		vehicleClass = "fp_men_desert";
+	    editorSubcategory = "fp_men_desert_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Desert";
+		linkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Desert","FP_Helmet_Type07DesertESS"};		
+	};
+	class FP_Faction_PLA_Desert_AAR: FP_Faction_PLA_AAR
+	{
+		vehicleClass = "fp_men_desert";
+	    editorSubcategory = "fp_men_desert_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Desert";
+		linkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Desert","FP_Helmet_Type07DesertESS"};
+	};	
+	class FP_Faction_PLA_Desert_GL: FP_Faction_PLA_GL
+	{
+		vehicleClass = "fp_men_desert";
+	    editorSubcategory = "fp_men_desert_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Desert";
+		linkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Desert","FP_Helmet_Type07DesertESS"};
+	};	
+	class FP_Faction_PLA_Desert_SL: FP_Faction_PLA_SL
+	{
+		vehicleClass = "fp_men_desert";
+	    editorSubcategory = "fp_men_desert_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Desert";
+		linkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Desert","FP_Helmet_Type07DesertESS"};
+	};
+	class FP_Faction_PLA_Desert_TL: FP_Faction_PLA_TL
+	{
+		vehicleClass = "fp_men_desert";
+	    editorSubcategory = "fp_men_desert_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Desert";
+		linkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Desert","FP_Helmet_Type07DesertESS"};
+	};
+	class FP_Faction_PLA_Desert_RO: FP_Faction_PLA_RO
+	{
+		vehicleClass = "fp_men_desert";
+	    editorSubcategory = "fp_men_desert_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Desert";
+		linkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Desert","FP_Helmet_Type07DesertESS"};
+	};
+	class FP_Faction_PLA_Desert_UAV: FP_Faction_PLA_UAV
+	{
+		vehicleClass = "fp_men_desert";
+	    editorSubcategory = "fp_men_desert_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Desert";
+		linkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Desert","FP_Helmet_Type07DesertESS"};
+	};
+	class FP_Faction_PLA_Desert_DM: FP_Faction_PLA_DM
+	{
+		vehicleClass = "fp_men_desert";
+	    editorSubcategory = "fp_men_desert_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Desert";
+		linkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Desert","FP_Helmet_Type07DesertESS"};
+	};
+	class FP_Faction_PLA_Desert_RAT: FP_Faction_PLA_RAT
+	{
+		vehicleClass = "fp_men_desert";
+	    editorSubcategory = "fp_men_desert_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Desert";
+		linkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Desert","FP_Helmet_Type07DesertESS"};
+	};
+	class FP_Faction_PLA_Desert_Medic: FP_Faction_PLA_Medic
+	{
+		vehicleClass = "fp_men_desert";
+	    editorSubcategory = "fp_men_desert_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Desert";
+		linkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Desert","FP_Helmet_Type07DesertESS"};
+	};
+	class FP_Faction_PLA_Desert_Crewman: FP_Faction_PLA_Crewman
+	{
+		vehicleClass = "fp_men_desert";
+	    editorSubcategory = "fp_men_desert_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Desert";
+		linkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Desert","FP_Helmet_Type07DesertESS"};
+	};
+	class FP_Faction_PLA_Desert_Engineer: FP_Faction_PLA_Engineer
+	{
+		vehicleClass = "fp_men_desert";
+	    editorSubcategory = "fp_men_desert_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Desert";
+		linkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Desert","FP_Helmet_Type07DesertESS"};
+	};
+	class FP_Faction_PLA_Desert_MMG: FP_Faction_PLA_MMG
+	{
+		vehicleClass = "fp_men_desert";
+	    editorSubcategory = "fp_men_desert_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Desert";
+		linkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Desert","FP_Helmet_Type07DesertESS"};
+	};
+	class FP_Faction_PLA_Desert_AMMG: FP_Faction_PLA_AMMG
+	{
+		vehicleClass = "fp_men_desert";
+	    editorSubcategory = "fp_men_desert_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Desert";
+		linkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Desert","FP_Helmet_Type07DesertESS"};
+	};
+	class FP_Faction_PLA_Desert_MAT: FP_Faction_PLA_MAT
+	{
+		vehicleClass = "fp_men_desert";
+	    editorSubcategory = "fp_men_desert_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Desert";
+		linkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Desert","FP_Helmet_Type07DesertESS"};
+	};
+	class FP_Faction_PLA_Desert_AMAT: FP_Faction_PLA_AMAT
+	{
+		vehicleClass = "fp_men_desert";
+	    editorSubcategory = "fp_men_desert_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Desert";
+		linkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Desert","FP_Helmet_Type07DesertESS"};
+	};
+	class FP_Faction_PLA_Desert_HAT: FP_Faction_PLA_HAT
+	{
+		vehicleClass = "fp_men_desert";
+	    editorSubcategory = "fp_men_desert_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Desert";
+		weapons[] = {"arifle_CTAR_blk_F","launch_O_Vorona_brown_F","Throw","Put"};
+		respawnWeapons[] = {"arifle_CTAR_blk_F","launch_O_Vorona_brown_F","Throw","Put"};
+		linkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Desert","FP_Helmet_Type07DesertESS"};
+	};
+	class FP_Faction_PLA_Desert_AHAT: FP_Faction_PLA_AHAT
+	{
+		vehicleClass = "fp_men_desert";
+	    editorSubcategory = "fp_men_desert_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Desert";
+		linkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Desert","FP_Helmet_Type07DesertESS"};
+	};
+	class FP_Faction_PLA_Desert_MANPADS: FP_Faction_PLA_MANPADS
+	{
+		vehicleClass = "fp_men_desert";
+	    editorSubcategory = "fp_men_desert_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Desert";
+		linkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Desert","FP_Helmet_Type07DesertESS"};
+	};
+	class FP_Faction_PLA_Desert_AMANPADS: FP_Faction_PLA_AMANPADS
+	{
+		vehicleClass = "fp_men_desert";
+	    editorSubcategory = "fp_men_desert_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Desert";
+		linkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Desert","FP_Helmet_Type07DesertESS"};
+	};
+	class FP_Faction_PLA_Desert_Officer: FP_Faction_PLA_Officer
+	{
+		vehicleClass = "fp_men_desert";
+	    editorSubcategory = "fp_men_desert_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Desert";
+		linkedItems[] = {"V_TacVest_brn","UK3CB_ANA_B_H_Beret_GRN","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_camo","UK3CB_ANA_B_H_Beret_GRN","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		headgearProbability = 100;
+		allowedHeadgear[] = {"UK3CB_ANA_B_H_Beret_GRN","UK3CB_ANA_B_H_Beret_GRN"};
+	};
+	class FP_Faction_PLA_Desert_FieldOfficer: FP_Faction_PLA_FieldOfficer
+	{
+		vehicleClass = "fp_men_desert";
+	    editorSubcategory = "fp_men_desert_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Desert";
+		linkedItems[] = {"V_TacVest_brn","FP_fieldcap_PLA_Type07Desert","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_brn","FP_fieldcap_PLA_Type07Desert","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		headgearProbability = 100;
+		allowedHeadgear[] = {"FP_fieldcap_PLA_Type07Desert","FP_fieldcap_PLA_Type07Desert"};
+	};
 };
