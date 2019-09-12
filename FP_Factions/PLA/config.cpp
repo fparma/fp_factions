@@ -1716,6 +1716,8 @@ class cfgvehicles
 		scopeCurator = 2;
 		displayName = "UAV Operator";
 		backpack = "O_UAV_01_backpack_F"
+		linkedItems[] = {"V_TacVest_camo","FP_Helmet_Type07Uni","O_UavTerminal","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_camo","FP_Helmet_Type07Uni","O_UavTerminal","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 100;
 		allowedHeadgear[] = {"FP_Helmet_Type07Uni","FP_Helmet_Type07Uni"};
 	};	
@@ -2175,8 +2177,8 @@ class cfgvehicles
 		vehicleClass = "fp_men_desert";
 	    editorSubcategory = "fp_men_desert_EdSubcat";
 		uniformClass = "FP_Uniform_Type07Desert";
-		linkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","O_UavTerminal","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_brn","FP_Helmet_Type07Desert","O_UavTerminal","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		allowedHeadgear[] = {"FP_Helmet_Type07Desert","FP_Helmet_Type07DesertESS"};
 	};
 	class FP_Faction_PLA_Desert_DM: FP_Faction_PLA_DM
