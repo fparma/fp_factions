@@ -1062,6 +1062,47 @@ class cfgvehicles
 		hiddenSelections[] = {"Camo_01","Camo_02","Camo_03","number_01","number_02","number_03"};
 		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\gryphon\Fighter_04_fuselage_01_PLA_co.paa","\fp_factions\PLA\data\gryphon\Fighter_04_fuselage_02_PLA_co.paa","a3\air_f_jets\plane_fighter_04\data\Fighter_04_misc_01_co.paa","a3\air_f_jets\plane_fighter_04\data\Numbers\Fighter_04_number_04_ca.paa","a3\air_f_jets\plane_fighter_04\data\Numbers\Fighter_04_number_04_ca.paa","a3\air_f_jets\plane_fighter_04\data\Numbers\Fighter_04_number_08_ca.paa"};
 	};
+	class O_APC_Tracked_02_cannon_F;
+	class O_APC_Tracked_02_AA_F;
+	class FP_Faction_PLA_APC_Tracked_02_cannon_F: O_APC_Tracked_02_cannon_F
+	{
+		class TextureSources
+		{
+			class PLA_APC_Green
+			{
+				author="CSLeader";
+				displayname = "PLA Green";				
+				textures[] = {"\fp_factions\PLA\data\kamysh\APC_Tracked_02_ext_01_PLA_CO.paa","\fp_factions\PLA\data\kamysh\APC_Tracked_02_ext_02_PLA_CO.paa","\fp_factions\PLA\data\kamysh\RCWS30_PLA_CO.paa","A3\Armor_F\Data\camonet_CSAT_HEX_Green_CO.paa","A3\armor_f\data\cage_csat_green_CO.paa"};
+				factions[] = {"FP_Faction_PLA"};
+			};			
+		};
+		author = "FP Mod Team";
+		crew = "FP_Faction_PLA_Crewman";
+		displayName = "ZBD-19";
+		faction = "FP_Faction_PLA";
+		hiddenSelections[] = {"camo1","camo2","camo3","CamoNet","CamoSlat"};
+		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\kamysh\APC_Tracked_02_ext_01_PLA_CO.paa","\fp_factions\PLA\data\kamysh\APC_Tracked_02_ext_02_PLA_CO.paa","\fp_factions\PLA\data\kamysh\RCWS30_PLA_CO.paa","A3\Armor_F\Data\camonet_CSAT_HEX_Green_CO.paa","A3\armor_f\data\cage_csat_green_CO.paa"};
+	};
+	class FP_Faction_PLA_APC_Tracked_02_AA_F: O_APC_Tracked_02_AA_F
+	{
+		class TextureSources
+		{
+			class PLA_AA_Green
+			{
+				author="CSLeader";
+				displayname = "PLA Green";				
+				textures[] = {"\fp_factions\PLA\data\kamysh\APC_Tracked_02_ext_01_PLA_CO.paa","\fp_factions\PLA\data\kamysh\APC_Tracked_02_ext_02_PLA_CO.paa","\fp_factions\PLA\data\kamysh\APC_Tracked_01_AA_Tower_PLA_CO.paa","A3\Armor_F\Data\camonet_CSAT_HEX_Green_CO.paa","A3\armor_f\data\cage_csat_green_CO.paa"};
+				factions[] = {"FP_Faction_PLA"};
+			};			
+		};
+		author = "FP Mod Team";
+		crew = "FP_Faction_PLA_Crewman";
+		displayName = "PGZ-22";
+		faction = "FP_Faction_PLA";
+		hiddenSelections[] = {"camo1","camo2","camo3","CamoNet","CamoSlat"};
+		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\kamysh\APC_Tracked_02_ext_01_PLA_CO.paa","\fp_factions\PLA\data\kamysh\APC_Tracked_02_ext_02_PLA_CO.paa","\fp_factions\PLA\data\kamysh\APC_Tracked_01_AA_Tower_PLA_CO.paa","A3\Armor_F\Data\camonet_CSAT_HEX_Green_CO.paa","A3\armor_f\data\cage_csat_green_CO.paa"};
+	};
+	
 	class O_Quadbike_01_F;
 	class FP_Faction_PLA_Quadbike_01_F: O_Quadbike_01_F
 	{
