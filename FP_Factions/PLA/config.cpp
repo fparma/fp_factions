@@ -867,6 +867,7 @@ class cfgvehicles
 			};			
 		};
 		crew = "FP_Faction_PLA_Helipilot";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Mi8mt_PLA.jpg";
 		editorSubcategory = "EdSubcat_Helicopters";
 		faction = "FP_Faction_PLA";
 		typicalCargo[] = {"FP_Faction_PLA_Helicrew"};
@@ -886,6 +887,7 @@ class cfgvehicles
 			};			
 		};
 		crew = "FP_Faction_PLA_Helipilot";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Mi8mt_Cargo_PLA.jpg";
 		editorSubcategory = "EdSubcat_Helicopters";
 		faction = "FP_Faction_PLA";
 		typicalCargo[] = {"FP_Faction_PLA_Helicrew"};
@@ -905,6 +907,7 @@ class cfgvehicles
 			};			
 		};
 		crew = "FP_Faction_PLA_Helipilot";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Mi8MTV3_PLA.jpg";
 		editorSubcategory = "EdSubcat_Helicopters";
 		faction = "FP_Faction_PLA";
 		typicalCargo[] = {"FP_Faction_PLA_Helicrew"};
@@ -924,6 +927,7 @@ class cfgvehicles
 			};			
 		};
 		crew = "FP_Faction_PLA_Helipilot";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Mi8mtv3_Cargo_PLA.jpg";
 		editorSubcategory = "EdSubcat_Helicopters";
 		faction = "FP_Faction_PLA";
 		typicalCargo[] = {"FP_Faction_PLA_Helicrew"};
@@ -943,6 +947,7 @@ class cfgvehicles
 			};			
 		};
 		crew = "FP_Faction_PLA_Helipilot";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Mi8MTV3_heavy_PLA.jpg";
 		editorSubcategory = "EdSubcat_Helicopters";
 		faction = "FP_Faction_PLA";
 		typicalCargo[] = {"FP_Faction_PLA_Helicrew"};
@@ -984,11 +989,19 @@ class cfgvehicles
 				displayname = "Black (Low-Vis)";				
 				textures[] = {"\fp_factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_03_co.paa","\fp_factions\PLA\data\shikra\Fighter_02_fuselage_02_PLAAF_03_LV_co.paa","\fp_factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_03_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_02_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_00_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_01_co.paa","a3\data_f\clear_empty.paa"};
 				factions[] = {"FP_Faction_PLA"};
-			};			
+			};	
+			class PLASkin04
+			{
+				author="CSLeader";
+				displayname = "Aggressor (Ferris)";				
+				textures[] = {"\fp_factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_04_co.paa","\fp_factions\PLA\data\shikra\Fighter_02_fuselage_02_PLAAF_04_co.paa","\fp_factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_04_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_02_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_00_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_01_co.paa","a3\data_f\clear_empty.paa"};
+				factions[] = {"FP_Faction_PLA"};
+			};				
 		};
 		author = "FP Mod Team";
 		crew = "FP_Faction_PLA_Fighter_Pilot_F";
 		displayName = "J-16B Queying";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_Plane_Fighter_02_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"Camo_01","Camo_02","","number_01","number_02","number_03"};
 		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_01_co.paa","\fp_factions\PLA\data\shikra\Fighter_02_fuselage_02_PLAAF_01_co.paa","\fp_factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_01_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_02_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_00_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_01_co.paa"};
@@ -1024,11 +1037,19 @@ class cfgvehicles
 				displayname = "Black (Low-Vis)";				
 				textures[] = {"\fp_factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_03_co.paa","\fp_factions\PLA\data\shikra\Fighter_02_fuselage_02_PLAAF_03_LV_co.paa","\fp_factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_03_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_02_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_00_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_01_co.paa","a3\data_f\clear_empty.paa"};
 				factions[] = {"FP_Faction_PLA"};
-			};						
+			};
+			class PLASkin04
+			{
+				author="CSLeader";
+				displayname = "Aggressor (Ferris)";				
+				textures[] = {"\fp_factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_04_co.paa","\fp_factions\PLA\data\shikra\Fighter_02_fuselage_02_PLAAF_04_co.paa","\fp_factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_04_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_02_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_00_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_01_co.paa","a3\data_f\clear_empty.paa"};
+				factions[] = {"FP_Faction_PLA"};
+			};			
 		};
 		author = "FP Mod Team";
 		crew = "FP_Faction_PLA_Fighter_Pilot_F";
 		displayName = "J-16B Queying (Stealth)";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_Plane_Fighter_02_Stealth_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"Camo_01","Camo_02","","number_01","number_02","number_03"};
 		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_01_co.paa","\fp_factions\PLA\data\shikra\Fighter_02_fuselage_02_PLAAF_01_co.paa","\fp_factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_01_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_02_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_00_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_01_co.paa"};
@@ -1038,6 +1059,7 @@ class cfgvehicles
 		author = "FP Mod Team";
 		crew = "FP_Faction_PLA_Fighter_Pilot_F";
 		displayName = "Q-15D Lieying";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_Plane_CAS_02_dynamicLoadout_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"Camo_1","Camo_2"};
 		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\neophron\Fighter02_ext01_PLAAF_03_CO.paa","\fp_factions\PLA\data\neophron\Fighter02_ext02_PLAAF_03_CO.paa"};
@@ -1058,6 +1080,7 @@ class cfgvehicles
 		side = 0;
 		crew = "FP_Faction_PLA_Fighter_Pilot_F";
 		displayName = "J-10C Menglong";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_Plane_Fighter_04_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"Camo_01","Camo_02","Camo_03","number_01","number_02","number_03"};
 		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\gryphon\Fighter_04_fuselage_01_PLA_co.paa","\fp_factions\PLA\data\gryphon\Fighter_04_fuselage_02_PLA_co.paa","a3\air_f_jets\plane_fighter_04\data\Fighter_04_misc_01_co.paa","a3\air_f_jets\plane_fighter_04\data\Numbers\Fighter_04_number_04_ca.paa","a3\air_f_jets\plane_fighter_04\data\Numbers\Fighter_04_number_04_ca.paa","a3\air_f_jets\plane_fighter_04\data\Numbers\Fighter_04_number_08_ca.paa"};
@@ -1079,6 +1102,7 @@ class cfgvehicles
 		author = "FP Mod Team";
 		crew = "FP_Faction_PLA_Crewman";
 		displayName = "ZBD-19";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_APC_Tracked_02_cannon_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"camo1","camo2","camo3","CamoNet","CamoSlat"};
 		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\kamysh\APC_Tracked_02_ext_01_PLA_CO.paa","\fp_factions\PLA\data\kamysh\APC_Tracked_02_ext_02_PLA_CO.paa","\fp_factions\PLA\data\kamysh\RCWS30_PLA_CO.paa","A3\Armor_F\Data\camonet_CSAT_HEX_Green_CO.paa","A3\armor_f\data\cage_csat_green_CO.paa"};
@@ -1098,6 +1122,7 @@ class cfgvehicles
 		author = "FP Mod Team";
 		crew = "FP_Faction_PLA_Crewman";
 		displayName = "PGZ-22";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_APC_Tracked_02_AA_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"camo1","camo2","camo3","CamoNet","CamoSlat"};
 		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\kamysh\APC_Tracked_02_ext_01_PLA_CO.paa","\fp_factions\PLA\data\kamysh\APC_Tracked_02_ext_02_PLA_CO.paa","\fp_factions\PLA\data\kamysh\APC_Tracked_01_AA_Tower_PLA_CO.paa","A3\Armor_F\Data\camonet_CSAT_HEX_Green_CO.paa","A3\armor_f\data\cage_csat_green_CO.paa"};
@@ -1118,6 +1143,7 @@ class cfgvehicles
 		};
 		author = "FP Mod Team";
 		crew = "FP_Faction_PLA_Rifleman";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_Quadbike_01_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"camo1","camo2"};
 		hiddenSelectionsTextures[] = {"\A3\Soft_F_Exp\Quadbike_01\Data\Quadbike_01_olive_CO.paa","\A3\Soft_F_Beta\Quadbike_01\Data\Quadbike_01_wheel_CIVBLACK_CO.paa"};
@@ -1139,6 +1165,7 @@ class cfgvehicles
 		};
 		author = "FP Mod Team";
 		crew = "FP_Faction_PLA_Rifleman";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_LSV_02_unarmed_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"Camo1","Camo2","Camo3"};
 		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\qilin\CSAT_LSV_01_PLA_CO.paa","\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_02_black_CO.paa","\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_03_black_CO.paa"};
@@ -1157,6 +1184,7 @@ class cfgvehicles
 		};
 		author = "FP Mod Team";
 		crew = "FP_Faction_PLA_Rifleman";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_LSV_02_armed_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"Camo1","Camo2","Camo3"};
 		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\qilin\CSAT_LSV_01_PLA_CO.paa","\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_02_black_CO.paa","\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_03_black_CO.paa"};
@@ -1175,6 +1203,7 @@ class cfgvehicles
 		};
 		author = "FP Mod Team";
 		crew = "FP_Faction_PLA_Rifleman";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_LSV_02_AT_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"Camo1","Camo2","Camo3","camo_launcher","camo_tube"};	
 		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\qilin\CSAT_LSV_01_PLA_CO.paa","\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_02_black_CO.paa","\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_03_black_CO.paa","\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_green_F_CO.paa","\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_green_F_CO.paa"};
@@ -1201,6 +1230,7 @@ class cfgvehicles
 		author = "FP Mod Team";
 		crew = "FP_Faction_PLA_Rifleman";	
 		displayName = "SX2190 Transport";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_Truck_02_transport_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"Camo1","Camo2","camo3"};
 		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\zamak\truck_02_kab_PLA_CO.paa","\A3\soft_f_beta\Truck_02\Data\truck_02_kuz_olive_CO.paa","\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
@@ -1220,6 +1250,7 @@ class cfgvehicles
 		author = "FP Mod Team";
 		crew = "FP_Faction_PLA_Rifleman";	
 		displayName = "SX2190 Transport (covered)";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_Truck_02_covered_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"Camo1","Camo2","camo3"};
 		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\zamak\truck_02_kab_PLA_CO.paa","\A3\soft_f_beta\Truck_02\Data\truck_02_kuz_olive_CO.paa","\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
@@ -1239,6 +1270,7 @@ class cfgvehicles
 		author = "FP Mod Team";
 		crew = "FP_Faction_PLA_Rifleman";	
 		displayName = "SX2190 Repair";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_Truck_02_box_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"Camo1","Camo2","camo3"};
 		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\zamak\truck_02_kab_PLA_CO.paa","\A3\soft_f_beta\Truck_02\Data\truck_02_repair_green_co.paa","\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
@@ -1258,6 +1290,7 @@ class cfgvehicles
 		author = "FP Mod Team";
 		crew = "FP_Faction_PLA_Rifleman";	
 		displayName = "SX2190 Medical";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_Truck_02_medical_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"Camo1","Camo2","camo3"};
 		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\zamak\truck_02_kab_PLA_CO.paa","\A3\soft_f_beta\Truck_02\Data\truck_02_kuz_olive_CO.paa","\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
@@ -1277,6 +1310,7 @@ class cfgvehicles
 		author = "FP Mod Team";
 		crew = "FP_Faction_PLA_Rifleman";	
 		displayName = "SX2190 Fuel";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_Truck_02_fuel_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"Camo1","Camo2","camo3"};
 		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\zamak\truck_02_kab_PLA_CO.paa","\fp_factions\PLA\data\zamak\truck_02_fuel_PLA_CO.paa","\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
@@ -1296,6 +1330,7 @@ class cfgvehicles
 		author = "FP Mod Team";
 		crew = "FP_Faction_PLA_Rifleman";	
 		displayName = "SX2190 Ammo";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_Truck_02_Ammo_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"Camo1","Camo2","camo3"};
 		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\zamak\truck_02_kab_PLA_CO.paa","\A3\soft_f_beta\Truck_02\Data\truck_02_repair_green_co.paa","\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
@@ -1317,6 +1352,7 @@ class cfgvehicles
 		crew = "FP_Faction_PLA_Rifleman";
 		typicalCargo[] = {"FP_Faction_PLA_Rifleman","FP_Faction_PLA_Rifleman"};
 		displayName = "SX2190 MLRS";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_Truck_02_MRL_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"Camo1","Camo2","camo3"};
 		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\zamak\truck_02_kab_PLA_CO.paa","a3\soft_f_beta\truck_02\data\truck_02_int_co.paa","\fp_factions\PLA\data\zamak\Truck_02_MRL_PLA_CO.paa"};
@@ -1343,6 +1379,7 @@ class cfgvehicles
 		author = "FP Mod Team";
 		crew = "FP_Faction_PLA_Rifleman";
 		displayName = "VP22 Kaijia Transport";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_Truck_03_transport_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"Camo1","Camo2","Camo3"};
 		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\typhoon\Truck_03_ext01_pla_CO.paa","\fp_factions\PLA\data\typhoon\Truck_03_ext02_pla_CO.paa","\fp_factions\PLA\data\typhoon\Truck_03_cargo_pla_CO.paa"};
@@ -1362,6 +1399,7 @@ class cfgvehicles
 		author = "FP Mod Team";
 		crew = "FP_Faction_PLA_Rifleman";
 		displayName = "VP22 Kaijia Transport (covered)";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_Truck_03_covered_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4"};
 		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\typhoon\Truck_03_ext01_pla_CO.paa","\fp_factions\PLA\data\typhoon\Truck_03_ext02_pla_CO.paa","\fp_factions\PLA\data\typhoon\Truck_03_cargo_pla_CO.paa","\fp_factions\PLA\data\typhoon\Truck_03_cover_pla_CO.paa"};
@@ -1381,6 +1419,7 @@ class cfgvehicles
 		author = "FP Mod Team";
 		crew = "FP_Faction_PLA_Rifleman";
 		displayName = "VP22 Kaijia Repair";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_Truck_03_repair_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"Camo1","Camo2","Camo3"};
 		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\typhoon\Truck_03_ext01_pla_CO.paa","\fp_factions\PLA\data\typhoon\Truck_03_ext02_pla_CO.paa","\rhsafrf\addons\rhs_a3retex\Data\truck_03_ammo_co.paa"};
@@ -1400,6 +1439,7 @@ class cfgvehicles
 		author = "FP Mod Team";
 		crew = "FP_Faction_PLA_Rifleman";
 		displayName = "VP22 Kaijia Medical";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_Truck_03_medical_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4"};
 		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\typhoon\Truck_03_ext01_pla_CO.paa","\fp_factions\PLA\data\typhoon\Truck_03_ext02_pla_CO.paa","\fp_factions\PLA\data\typhoon\Truck_03_cargo_pla_CO.paa","\fp_factions\PLA\data\typhoon\Truck_03_cover_pla_CO.paa"};
@@ -1419,6 +1459,7 @@ class cfgvehicles
 		author = "FP Mod Team";
 		crew = "FP_Faction_PLA_Rifleman";
 		displayName = "VP22 Kaijia Fuel";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_Truck_03_fuel_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"Camo1","Camo2","Camo3"};
 		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\typhoon\Truck_03_ext01_pla_CO.paa","\fp_factions\PLA\data\typhoon\Truck_03_ext02_pla_CO.paa","\FP_Factions\gordon_reskins\typhoon\data\Truck_03_fuel_bluforpacific_CO.paa"};
@@ -1438,6 +1479,7 @@ class cfgvehicles
 		author = "FP Mod Team";
 		crew = "FP_Faction_PLA_Rifleman";
 		displayName = "VP22 Kaijia (Device)";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_Truck_03_device_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5"};
 		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\typhoon\Truck_03_ext01_pla_CO.paa","\fp_factions\PLA\data\typhoon\Truck_03_ext02_pla_CO.paa","\fp_factions\PLA\data\typhoon\Truck_03_cargo_pla_CO.paa","\A3\Structures_F_EPC\Items\Electronics\Data\The_Device_02_CO.paa","\A3\Structures_F_EPC\Items\Electronics\Data\The_Device_03_CO.paa"};
@@ -1457,6 +1499,7 @@ class cfgvehicles
 		author = "FP Mod Team";
 		crew = "FP_Faction_PLA_Rifleman";
 		displayName = "VP22 Kaijia Ammo";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_Truck_03_ammo_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4"};
 		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\typhoon\Truck_03_ext01_pla_CO.paa","\fp_factions\PLA\data\typhoon\Truck_03_ext02_pla_CO.paa","\fp_factions\PLA\data\typhoon\Truck_03_cargo_pla_CO.paa","\A3\Structures_F\Data\Metal\Containers\Containers_02_set_CO.paa"};
@@ -1484,6 +1527,7 @@ class cfgvehicles
 		author = "FP Mod Team";
 		crew = "FP_Faction_PLA_Crewman";
 		displayName = "ZTZ-59";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_ZTZ59.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"camo1","camo2"};
 		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\t55\t55_body_pla_co.paa","\fp_factions\PLA\data\t55\t55_tower_pla_co.paa"};
@@ -1504,6 +1548,7 @@ class cfgvehicles
 		author = "FP Mod Team";
 		crew = "FP_Faction_PLA_Crewman";
 		displayName = "ZTZ-100";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_MBT_02_cannon_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"camo1","camo2","camo3","CamoNet"};
 		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\varsuk\MBT_02_body_PLA_CO.paa","\fp_factions\PLA\data\varsuk\MBT_02_turret_PLA_CO.paa","\fp_factions\PLA\data\varsuk\MBT_02_PLA_CO.paa","A3\Armor_F\Data\camonet_CSAT_HEX_Green_CO.paa"};
@@ -1711,6 +1756,7 @@ class cfgvehicles
 		genericNames = "ChineseMen";
 		vehicleClass = "fp_men_universal";
 	    editorSubcategory = "fp_men_universal_EdSubcat";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_Rifleman.jpg";
 		portrait = "";
 		picture = "";
 		icon = "iconMan";
@@ -1731,8 +1777,8 @@ class cfgvehicles
 		respawnMagazines[] = {"30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
-		linkedItems[] = {"V_TacVest_camo","FP_Helmet_Type07Uni","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_TacVest_camo","FP_Helmet_Type07Uni","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"FP_V_PlateCarrierIA1_Type07Uni","FP_Helmet_Type07Uni","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_V_PlateCarrierIA1_Type07Uni","FP_Helmet_Type07Uni","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
 	class FP_Faction_PLA_Rifleman: FP_Faction_PLA_Soldier_BASE
 	{
@@ -1740,7 +1786,7 @@ class cfgvehicles
 		_generalMacro = "FP_Faction_PLA_Soldier_BASE";
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "Conscript Rifleman";
+		displayName = "Rifleman";
 		cost = 100000;
 		headgearProbability = 100;
 		allowedHeadgear[] = {"FP_Helmet_Type07Uni","FP_Helmet_Type07UniESS"};
@@ -1759,6 +1805,7 @@ class cfgvehicles
 		textPlural = "$STR_A3_nameSound_veh_infantry_MG_p";
 		nameSound = "veh_infantry_MG_s";
 		author = "FP Mod Team";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_AR.jpg";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Automatic Rifleman";
@@ -1769,8 +1816,8 @@ class cfgvehicles
 		cost = 95000;
 		threat[] = {1,0.1,0.3};
 		icon = "iconManMG";
-		linkedItems[] = {"V_TacVest_camo","FP_Helmet_Type07Uni","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_TacVest_camo","FP_Helmet_Type07Uni","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"FP_V_PlateCarrierIA2_Type07Uni","FP_Helmet_Type07Uni","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_V_PlateCarrierIA2_Type07Uni","FP_Helmet_Type07Uni","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 100;
 		allowedHeadgear[] = {"FP_Helmet_Type07Uni","FP_Helmet_Type07Uni"};
 	};
@@ -1793,6 +1840,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Grenadier";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_GL.jpg";
 		backpack = "B_AssaultPack_rgr_GL_PLA";
 		cost = 100000;
 		headgearProbability = 100;
@@ -1801,6 +1849,8 @@ class cfgvehicles
 		respawnWeapons[] = {"arifle_CTAR_GL_blk_F","Throw","Put"};
 		magazines[] = {"30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		respawnMagazines[] = {"30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
+		linkedItems[] = {"FP_V_PlateCarrierIAGL_Type07Uni","FP_Helmet_Type07Uni","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_V_PlateCarrierIAGL_Type07Uni","FP_Helmet_Type07Uni","ItemMap","ItemCompass","ItemWatch","ItemRadio"};		
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
 	};
@@ -1810,6 +1860,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Squad Leader";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_SL.jpg";
 		weapons[] = {"arifle_CTAR_blk_ARCO_Pointer_F","rhs_weap_makarov_pm","Throw","Put","Binocular"};
 		respawnWeapons[] = {"arifle_CTAR_blk_ARCO_Pointer_F","rhs_weap_makarov_pm","Throw","Put","Binocular"};
 		magazines[] = {"30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","rhs_mag_9x18_8_57N181S","rhs_mag_9x18_8_57N181S","rhs_mag_9x18_8_57N181S","HandGrenade","HandGrenade","O_IR_Grenade","O_IR_Grenade","SmokeShell","SmokeShellRed","SmokeShellOrange","SmokeShellYellow","Chemlight_red","Chemlight_red"};
@@ -1818,8 +1869,8 @@ class cfgvehicles
 		camouflage = 1.6;
 		sensitivity = 3;
 		icon = "iconManLeader";
-		linkedItems[] = {"V_TacVest_camo","FP_Helmet_Type07Uni","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_TacVest_camo","FP_Helmet_Type07Uni","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"FP_V_PlateCarrierIA2_Type07Uni","FP_Helmet_Type07Uni","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_V_PlateCarrierIA2_Type07Uni","FP_Helmet_Type07Uni","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 100;
 		allowedHeadgear[] = {"FP_Helmet_Type07Uni","FP_Helmet_Type07UniESS"};
 	};
@@ -1829,6 +1880,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Team Leader";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_TL.jpg";
 		weapons[] = {"arifle_CTAR_GL_blk_ARCO_Pointer_F","rhs_weap_makarov_pm","Throw","Put"};
 		respawnWeapons[] = {"arifle_CTAR_GL_blk_ARCO_Pointer_F","rhs_weap_makarov_pm","Throw","Put"};
 		magazines[] = {"30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","rhs_mag_9x18_8_57N181S","rhs_mag_9x18_8_57N181S","rhs_mag_9x18_8_57N181S","HandGrenade","HandGrenade","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","SmokeShell","SmokeShellRed","SmokeShellOrange","SmokeShellYellow"};
@@ -1837,8 +1889,8 @@ class cfgvehicles
 		camouflage = 1.6;
 		sensitivity = 3;
 		icon = "iconManLeader";
-		linkedItems[] = {"V_TacVest_camo","FP_Helmet_Type07Uni","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_TacVest_camo","FP_Helmet_Type07Uni","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"FP_V_PlateCarrierIA2_Type07Uni","FP_Helmet_Type07Uni","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_V_PlateCarrierIA2_Type07Uni","FP_Helmet_Type07Uni","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 100;
 		allowedHeadgear[] = {"FP_Helmet_Type07Uni","FP_Helmet_Type07UniESS"};
 	};
@@ -1861,8 +1913,8 @@ class cfgvehicles
 		scopeCurator = 2;
 		displayName = "UAV Operator";
 		backpack = "O_UAV_01_backpack_F"
-		linkedItems[] = {"V_TacVest_camo","FP_Helmet_Type07Uni","O_UavTerminal","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_TacVest_camo","FP_Helmet_Type07Uni","O_UavTerminal","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"FP_V_PlateCarrierIA1_Type07Uni","FP_Helmet_Type07Uni","O_UavTerminal","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_V_PlateCarrierIA1_Type07Uni","FP_Helmet_Type07Uni","O_UavTerminal","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 100;
 		allowedHeadgear[] = {"FP_Helmet_Type07Uni","FP_Helmet_Type07Uni"};
 	};	
@@ -1882,14 +1934,15 @@ class cfgvehicles
 		author = "FP Mod Team";
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "Designated Marksman";
+		displayName = "Marksman";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_DM.jpg";
 		weapons[] = {"srifle_DMR_07_blk_F_FPFac_Kahlia","rhs_weap_makarov_pm","Throw","Put"};
 		respawnWeapons[] = {"srifle_DMR_07_blk_F_FPFac_Kahlia","rhs_weap_makarov_pm","Throw","Put"};
 		magazines[] = {"20Rnd_650x39_Cased_Mag_F","20Rnd_650x39_Cased_Mag_F","20Rnd_650x39_Cased_Mag_F","20Rnd_650x39_Cased_Mag_F","20Rnd_650x39_Cased_Mag_F","20Rnd_650x39_Cased_Mag_F","20Rnd_650x39_Cased_Mag_F","20Rnd_650x39_Cased_Mag_F","20Rnd_650x39_Cased_Mag_F","20Rnd_650x39_Cased_Mag_F","rhs_mag_9x18_8_57N181S","rhs_mag_9x18_8_57N181S","rhs_mag_9x18_8_57N181S","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
 		respawnMagazines[] = {"20Rnd_650x39_Cased_Mag_F","20Rnd_650x39_Cased_Mag_F","20Rnd_650x39_Cased_Mag_F","20Rnd_650x39_Cased_Mag_F","20Rnd_650x39_Cased_Mag_F","20Rnd_650x39_Cased_Mag_F","20Rnd_650x39_Cased_Mag_F","20Rnd_650x39_Cased_Mag_F","20Rnd_650x39_Cased_Mag_F","20Rnd_650x39_Cased_Mag_F","rhs_mag_9x18_8_57N181S","rhs_mag_9x18_8_57N181S","rhs_mag_9x18_8_57N181S","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
 		cost = 150000;
-		linkedItems[] = {"V_TacVest_camo","FP_Helmet_Type07Uni","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_TacVest_camo","FP_Helmet_Type07Uni","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"FP_V_PlateCarrierIA1_Type07Uni","FP_Helmet_Type07Uni","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_V_PlateCarrierIA1_Type07Uni","FP_Helmet_Type07Uni","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		sensitivity = 3;
 		headgearProbability = 100;
 		allowedHeadgear[] = {"FP_Helmet_Type07Uni","FP_Helmet_Type07UniESS"};
@@ -1911,6 +1964,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Rifleman Antitank";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_RAT.jpg";
 		backpack = "B_FieldPack_cbr_RPG_AT";
 		weapons[] = {"arifle_CTAR_blk_F","rhs_weap_rpg26","Throw","Put"};
 		respawnWeapons[] = {"arifle_CTAR_blk_F","rhs_weap_rpg26","Throw","Put"};
@@ -1960,6 +2014,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Crewman";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_Crewman.jpg";
 		weapons[] = {"arifle_CTAR_blk_F","rhs_weap_makarov_pm","Throw","Put"};
 		respawnWeapons[] = {"arifle_CTAR_blk_F","rhs_weap_makarov_pm","Throw","Put"};
 		magazines[] = {"30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","rhs_mag_9x18_8_57N181S","rhs_mag_9x18_8_57N181S","rhs_mag_9x18_8_57N181S","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
@@ -2012,6 +2067,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "MMG Gunner";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_MMG.jpg";
 		weapons[] = {"rhs_weap_pkp","rhs_weap_makarov_pm","Throw","Put"};
 		respawnWeapons[] = {"rhs_weap_pkp","rhs_weap_makarov_pm","Throw","Put"};
 		magazines[] = {"rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_mag_9x18_8_57N181S","rhs_mag_9x18_8_57N181S","rhs_mag_9x18_8_57N181S","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
@@ -2019,8 +2075,8 @@ class cfgvehicles
 		cost = 95000;
 		threat[] = {1,0.1,0.3};
 		icon = "iconManMG";
-		linkedItems[] = {"V_TacVest_camo","FP_Helmet_Type07Uni","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_TacVest_camo","FP_Helmet_Type07Uni","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"FP_V_PlateCarrierIA2_Type07Uni","FP_Helmet_Type07Uni","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_V_PlateCarrierIA2_Type07Uni","FP_Helmet_Type07Uni","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 100;
 		allowedHeadgear[] = {"FP_Helmet_Type07Uni","FP_Helmet_Type07Uni"};
 	};
@@ -2053,6 +2109,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "MAT Gunner";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_MAT.jpg";
 		backpack = "B_Kitbag_sgg_MAT_PLA";
 		weapons[] = {"arifle_CTAR_blk_F","launch_RPG32_F_black","Throw","Put"};
 		respawnWeapons[] = {"arifle_CTAR_blk_F","launch_RPG32_F_black","Throw","Put"};
@@ -2094,6 +2151,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "HAT Gunner";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_HAT.jpg";
 		backpack = "B_Kitbag_sgg_HAT_PLA";
 		weapons[] = {"arifle_CTAR_blk_F","FP_GOR_launch_O_Vorona_metis_F","Throw","Put"};
 		respawnWeapons[] = {"arifle_CTAR_blk_F","FP_GOR_launch_O_Vorona_metis_F","Throw","Put"};
@@ -2135,6 +2193,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "MANPADS Gunner";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_MANPADS.jpg";
 		backpack = "B_FieldPack_cbr_MANPADS";
 		weapons[] = {"arifle_CTAR_blk_F","rhs_weap_igla","Throw","Put"};
 		respawnWeapons[] = {"arifle_CTAR_blk_F","rhs_weap_igla","Throw","Put"};
@@ -2173,6 +2232,7 @@ class cfgvehicles
 	    editorSubcategory = "fp_men_universal_EdSubcat";
 		uniformClass = "FP_HeliPilotCoveralls_PLA"; 
 		displayName = "Helicopter Pilot";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_Helipilot.jpg";
 		faction = "FP_Faction_PLA";
 		weapons[] = {"arifle_CTAR_blk_F","rhs_weap_makarov_pm","Throw","Put"};
 		respawnWeapons[] = {"arifle_CTAR_blk_B","rhs_weap_makarov_pm","Throw","Put"};
@@ -2192,6 +2252,7 @@ class cfgvehicles
 		_generalMacro = "FP_Faction_PLA_Soldier_BASE";		
 		side = 0;
 		displayName = "Helicopter Crew";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_Helicrew.jpg";
 		faction = "FP_Faction_PLA";
 		linkedItems[] = {"V_TacVest_blk","H_CrewHelmetHeli_B","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_TacVest_blk","H_CrewHelmetHeli_B","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
@@ -2210,6 +2271,7 @@ class cfgvehicles
 		faction = "FP_Faction_PLA";
 		genericNames = "ChineseMen";
 		vehicleClass = "fp_men_universal";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_Fighter_Pilot_F.jpg";
 	    editorSubcategory = "fp_men_universal_EdSubcat";
 		uniformClass = "FP_PilotCoveralls_PLA";
 		linkedItems[] = {"H_PilotHelmetFighter_I","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
@@ -2230,6 +2292,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Officer";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_Officer.jpg";
 		cost = 250000;
 		icon = "iconManOfficer";
 		identityTypes[] = {"LanguageCHI_F","Head_Asian","G_CIVIL_male"};
@@ -2237,8 +2300,8 @@ class cfgvehicles
 		respawnWeapons[] = {"arifle_CTAR_blk_F","rhs_weap_makarov_pm","Throw","Put"};
 		magazines[] = {"30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","rhs_mag_9x18_8_57N181S","rhs_mag_9x18_8_57N181S","rhs_mag_9x18_8_57N181S","HandGrenade","HandGrenade","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","SmokeShell","SmokeShellRed","SmokeShellOrange","SmokeShellYellow"};
 		respawnMagazines[] = {"30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","rhs_mag_9x18_8_57N181S","rhs_mag_9x18_8_57N181S","rhs_mag_9x18_8_57N181S","HandGrenade","HandGrenade","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","SmokeShell","SmokeShellRed","SmokeShellOrange","SmokeShellYellow"};
-		linkedItems[] = {"V_TacVest_camo","UK3CB_ANA_B_H_Beret_GRN","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_TacVest_camo","UK3CB_ANA_B_H_Beret_GRN","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"FP_V_PlateCarrierIA2_Type07Uni","UK3CB_ANA_B_H_Beret_GRN","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_V_PlateCarrierIA2_Type07Uni","UK3CB_ANA_B_H_Beret_GRN","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 100;
 		allowedHeadgear[] = {"UK3CB_ANA_B_H_Beret_GRN","UK3CB_ANA_B_H_Beret_GRN"};
 	};
@@ -2246,10 +2309,11 @@ class cfgvehicles
 	{
 
 		displayName = "Field Officer";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_FieldOfficer.jpg";
 		weapons[] = {"arifle_CTAR_blk_ARCO_F","rhs_weap_makarov_pm","Throw","Put"};
 		respawnWeapons[] = {"arifle_CTAR_blk_ARCO_F","rhs_weap_makarov_pm","Throw","Put"};
-		linkedItems[] = {"V_TacVest_camo","FP_fieldcap_PLA_Type07Uni","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_TacVest_camo","FP_fieldcap_PLA_Type07Uni","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"FP_V_PlateCarrierIA2_Type07Uni","FP_fieldcap_PLA_Type07Uni","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_V_PlateCarrierIA2_Type07Uni","FP_fieldcap_PLA_Type07Uni","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 100;
 		allowedHeadgear[] = {"FP_fieldcap_PLA_Type07Uni","FP_fieldcap_PLA_Type07Uni"};
 	};	
@@ -2451,7 +2515,7 @@ class cfgvehicles
 	    editorSubcategory = "fp_men_desert_EdSubcat";
 		uniformClass = "FP_Uniform_Type07Desert";
 		linkedItems[] = {"V_TacVest_brn","UK3CB_ANA_B_H_Beret_GRN","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_TacVest_camo","UK3CB_ANA_B_H_Beret_GRN","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_brn","UK3CB_ANA_B_H_Beret_GRN","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 100;
 		allowedHeadgear[] = {"UK3CB_ANA_B_H_Beret_GRN","UK3CB_ANA_B_H_Beret_GRN"};
 	};
@@ -2464,5 +2528,427 @@ class cfgvehicles
 		respawnLinkedItems[] = {"V_TacVest_brn","FP_fieldcap_PLA_Type07Desert","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 100;
 		allowedHeadgear[] = {"FP_fieldcap_PLA_Type07Desert","FP_fieldcap_PLA_Type07Desert"};
+	};
+	class FP_Faction_PLA_Woodland_Rifleman: FP_Faction_PLA_Rifleman
+	{
+		vehicleClass = "fp_men_woodland";
+	    editorSubcategory = "fp_men_woodland_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Woodland";
+		linkedItems[] = {"V_TacVest_oli","FP_Helmet_Type07Woodland","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_oli","FP_Helmet_Type07Woodland","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Woodland","FP_Helmet_Type07WoodlandESS"};
+	};
+	class FP_Faction_PLA_Woodland_AR: FP_Faction_PLA_AR
+	{
+		vehicleClass = "fp_men_woodland";
+	    editorSubcategory = "fp_men_woodland_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Woodland";
+		linkedItems[] = {"V_TacVest_oli","FP_Helmet_Type07Woodland","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_oli","FP_Helmet_Type07Woodland","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Woodland","FP_Helmet_Type07WoodlandESS"};		
+	};
+	class FP_Faction_PLA_Woodland_AAR: FP_Faction_PLA_AAR
+	{
+		vehicleClass = "fp_men_woodland";
+	    editorSubcategory = "fp_men_woodland_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Woodland";
+		linkedItems[] = {"V_TacVest_oli","FP_Helmet_Type07Woodland","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_oli","FP_Helmet_Type07Woodland","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Woodland","FP_Helmet_Type07WoodlandESS"};
+	};	
+	class FP_Faction_PLA_Woodland_GL: FP_Faction_PLA_GL
+	{
+		vehicleClass = "fp_men_woodland";
+	    editorSubcategory = "fp_men_woodland_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Woodland";
+		linkedItems[] = {"V_TacVest_oli","FP_Helmet_Type07Woodland","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_oli","FP_Helmet_Type07Woodland","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Woodland","FP_Helmet_Type07WoodlandESS"};
+	};	
+	class FP_Faction_PLA_Woodland_SL: FP_Faction_PLA_SL
+	{
+		vehicleClass = "fp_men_woodland";
+	    editorSubcategory = "fp_men_woodland_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Woodland";
+		linkedItems[] = {"V_TacVest_oli","FP_Helmet_Type07Woodland","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_oli","FP_Helmet_Type07Woodland","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Woodland","FP_Helmet_Type07WoodlandESS"};
+	};
+	class FP_Faction_PLA_Woodland_TL: FP_Faction_PLA_TL
+	{
+		vehicleClass = "fp_men_woodland";
+	    editorSubcategory = "fp_men_woodland_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Woodland";
+		linkedItems[] = {"V_TacVest_oli","FP_Helmet_Type07Woodland","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_oli","FP_Helmet_Type07Woodland","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Woodland","FP_Helmet_Type07WoodlandESS"};
+	};
+	class FP_Faction_PLA_Woodland_RO: FP_Faction_PLA_RO
+	{
+		vehicleClass = "fp_men_woodland";
+	    editorSubcategory = "fp_men_woodland_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Woodland";
+		linkedItems[] = {"V_TacVest_oli","FP_Helmet_Type07Woodland","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_oli","FP_Helmet_Type07Woodland","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Woodland","FP_Helmet_Type07WoodlandESS"};
+	};
+	class FP_Faction_PLA_Woodland_UAV: FP_Faction_PLA_UAV
+	{
+		vehicleClass = "fp_men_woodland";
+	    editorSubcategory = "fp_men_woodland_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Woodland";
+		linkedItems[] = {"V_TacVest_oli","FP_Helmet_Type07Woodland","O_UavTerminal","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_oli","FP_Helmet_Type07Woodland","O_UavTerminal","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Woodland","FP_Helmet_Type07WoodlandESS"};
+	};
+	class FP_Faction_PLA_Woodland_DM: FP_Faction_PLA_DM
+	{
+		vehicleClass = "fp_men_woodland";
+	    editorSubcategory = "fp_men_woodland_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Woodland";
+		linkedItems[] = {"V_TacVest_oli","FP_Helmet_Type07Woodland","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_oli","FP_Helmet_Type07Woodland","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Woodland","FP_Helmet_Type07WoodlandESS"};
+	};
+	class FP_Faction_PLA_Woodland_RAT: FP_Faction_PLA_RAT
+	{
+		vehicleClass = "fp_men_woodland";
+	    editorSubcategory = "fp_men_woodland_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Woodland";
+		linkedItems[] = {"V_TacVest_oli","FP_Helmet_Type07Woodland","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_oli","FP_Helmet_Type07Woodland","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Woodland","FP_Helmet_Type07WoodlandESS"};
+	};
+	class FP_Faction_PLA_Woodland_Medic: FP_Faction_PLA_Medic
+	{
+		vehicleClass = "fp_men_woodland";
+	    editorSubcategory = "fp_men_woodland_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Woodland";
+		linkedItems[] = {"V_TacVest_oli","FP_Helmet_Type07Woodland","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_oli","FP_Helmet_Type07Woodland","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Woodland","FP_Helmet_Type07WoodlandESS"};
+	};
+	class FP_Faction_PLA_Woodland_Crewman: FP_Faction_PLA_Crewman
+	{
+		vehicleClass = "fp_men_woodland";
+	    editorSubcategory = "fp_men_woodland_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Woodland";
+		linkedItems[] = {"V_TacVest_oli","FP_Helmet_Type07Woodland","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_oli","FP_Helmet_Type07Woodland","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Woodland","FP_Helmet_Type07WoodlandESS"};
+	};
+	class FP_Faction_PLA_Woodland_Engineer: FP_Faction_PLA_Engineer
+	{
+		vehicleClass = "fp_men_woodland";
+	    editorSubcategory = "fp_men_woodland_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Woodland";
+		linkedItems[] = {"V_TacVest_oli","FP_Helmet_Type07Woodland","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_oli","FP_Helmet_Type07Woodland","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Woodland","FP_Helmet_Type07WoodlandESS"};
+	};
+	class FP_Faction_PLA_Woodland_MMG: FP_Faction_PLA_MMG
+	{
+		vehicleClass = "fp_men_woodland";
+	    editorSubcategory = "fp_men_woodland_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Woodland";
+		linkedItems[] = {"V_TacVest_oli","FP_Helmet_Type07Woodland","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_oli","FP_Helmet_Type07Woodland","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Woodland","FP_Helmet_Type07WoodlandESS"};
+	};
+	class FP_Faction_PLA_Woodland_AMMG: FP_Faction_PLA_AMMG
+	{
+		vehicleClass = "fp_men_woodland";
+	    editorSubcategory = "fp_men_woodland_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Woodland";
+		linkedItems[] = {"V_TacVest_oli","FP_Helmet_Type07Woodland","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_oli","FP_Helmet_Type07Woodland","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Woodland","FP_Helmet_Type07WoodlandESS"};
+	};
+	class FP_Faction_PLA_Woodland_MAT: FP_Faction_PLA_MAT
+	{
+		vehicleClass = "fp_men_woodland";
+	    editorSubcategory = "fp_men_woodland_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Woodland";
+		linkedItems[] = {"V_TacVest_oli","FP_Helmet_Type07Woodland","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_oli","FP_Helmet_Type07Woodland","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Woodland","FP_Helmet_Type07WoodlandESS"};
+	};
+	class FP_Faction_PLA_Woodland_AMAT: FP_Faction_PLA_AMAT
+	{
+		vehicleClass = "fp_men_woodland";
+	    editorSubcategory = "fp_men_woodland_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Woodland";
+		linkedItems[] = {"V_TacVest_oli","FP_Helmet_Type07Woodland","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_oli","FP_Helmet_Type07Woodland","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Woodland","FP_Helmet_Type07WoodlandESS"};
+	};
+	class FP_Faction_PLA_Woodland_HAT: FP_Faction_PLA_HAT
+	{
+		vehicleClass = "fp_men_woodland";
+	    editorSubcategory = "fp_men_woodland_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Woodland";
+		weapons[] = {"arifle_CTAR_blk_F","launch_O_Vorona_brown_F","Throw","Put"};
+		respawnWeapons[] = {"arifle_CTAR_blk_F","launch_O_Vorona_brown_F","Throw","Put"};
+		linkedItems[] = {"V_TacVest_oli","FP_Helmet_Type07Woodland","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_oli","FP_Helmet_Type07Woodland","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Woodland","FP_Helmet_Type07WoodlandESS"};
+	};
+	class FP_Faction_PLA_Woodland_AHAT: FP_Faction_PLA_AHAT
+	{
+		vehicleClass = "fp_men_woodland";
+	    editorSubcategory = "fp_men_woodland_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Woodland";
+		linkedItems[] = {"V_TacVest_oli","FP_Helmet_Type07Woodland","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_oli","FP_Helmet_Type07Woodland","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Woodland","FP_Helmet_Type07WoodlandESS"};
+	};
+	class FP_Faction_PLA_Woodland_MANPADS: FP_Faction_PLA_MANPADS
+	{
+		vehicleClass = "fp_men_woodland";
+	    editorSubcategory = "fp_men_woodland_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Woodland";
+		linkedItems[] = {"V_TacVest_oli","FP_Helmet_Type07Woodland","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_oli","FP_Helmet_Type07Woodland","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Woodland","FP_Helmet_Type07WoodlandESS"};
+	};
+	class FP_Faction_PLA_Woodland_AMANPADS: FP_Faction_PLA_AMANPADS
+	{
+		vehicleClass = "fp_men_woodland";
+	    editorSubcategory = "fp_men_woodland_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Woodland";
+		linkedItems[] = {"V_TacVest_oli","FP_Helmet_Type07Woodland","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_oli","FP_Helmet_Type07Woodland","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Woodland","FP_Helmet_Type07WoodlandESS"};
+	};
+	class FP_Faction_PLA_Woodland_Officer: FP_Faction_PLA_Officer
+	{
+		vehicleClass = "fp_men_woodland";
+	    editorSubcategory = "fp_men_woodland_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Woodland";
+		linkedItems[] = {"V_TacVest_oli","UK3CB_ANA_B_H_Beret_GRN","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_oli","UK3CB_ANA_B_H_Beret_GRN","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		headgearProbability = 100;
+		allowedHeadgear[] = {"UK3CB_ANA_B_H_Beret_GRN","UK3CB_ANA_B_H_Beret_GRN"};
+	};
+	class FP_Faction_PLA_Woodland_FieldOfficer: FP_Faction_PLA_FieldOfficer
+	{
+		vehicleClass = "fp_men_woodland";
+	    editorSubcategory = "fp_men_woodland_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Woodland";
+		linkedItems[] = {"V_TacVest_oli","FP_fieldcap_PLA_Type07Woodland","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_oli","FP_fieldcap_PLA_Type07Woodland","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		headgearProbability = 100;
+		allowedHeadgear[] = {"FP_fieldcap_PLA_Type07Woodland","FP_fieldcap_PLA_Type07Woodland"};
+	};
+	class FP_Faction_PLA_Oceanic_Rifleman: FP_Faction_PLA_Rifleman
+	{
+		vehicleClass = "fp_men_oceanic";
+	    editorSubcategory = "fp_men_oceanic_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Oceanic";
+		linkedItems[] = {"V_TacVest_blk","FP_Helmet_Type07Oceanic","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_blk","FP_Helmet_Type07Oceanic","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Oceanic","FP_Helmet_Type07OceanicESS"};
+	};
+	class FP_Faction_PLA_Oceanic_AR: FP_Faction_PLA_AR
+	{
+		vehicleClass = "fp_men_oceanic";
+	    editorSubcategory = "fp_men_oceanic_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Oceanic";
+		linkedItems[] = {"V_TacVest_blk","FP_Helmet_Type07Oceanic","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_blk","FP_Helmet_Type07Oceanic","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Oceanic","FP_Helmet_Type07OceanicESS"};		
+	};
+	class FP_Faction_PLA_Oceanic_AAR: FP_Faction_PLA_AAR
+	{
+		vehicleClass = "fp_men_oceanic";
+	    editorSubcategory = "fp_men_oceanic_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Oceanic";
+		linkedItems[] = {"V_TacVest_blk","FP_Helmet_Type07Oceanic","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_blk","FP_Helmet_Type07Oceanic","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Oceanic","FP_Helmet_Type07OceanicESS"};
+	};	
+	class FP_Faction_PLA_Oceanic_GL: FP_Faction_PLA_GL
+	{
+		vehicleClass = "fp_men_oceanic";
+	    editorSubcategory = "fp_men_oceanic_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Oceanic";
+		linkedItems[] = {"V_TacVest_blk","FP_Helmet_Type07Oceanic","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_blk","FP_Helmet_Type07Oceanic","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Oceanic","FP_Helmet_Type07OceanicESS"};
+	};	
+	class FP_Faction_PLA_Oceanic_SL: FP_Faction_PLA_SL
+	{
+		vehicleClass = "fp_men_oceanic";
+	    editorSubcategory = "fp_men_oceanic_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Oceanic";
+		linkedItems[] = {"V_TacVest_blk","FP_Helmet_Type07Oceanic","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_blk","FP_Helmet_Type07Oceanic","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Oceanic","FP_Helmet_Type07OceanicESS"};
+	};
+	class FP_Faction_PLA_Oceanic_TL: FP_Faction_PLA_TL
+	{
+		vehicleClass = "fp_men_oceanic";
+	    editorSubcategory = "fp_men_oceanic_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Oceanic";
+		linkedItems[] = {"V_TacVest_blk","FP_Helmet_Type07Oceanic","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_blk","FP_Helmet_Type07Oceanic","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Oceanic","FP_Helmet_Type07OceanicESS"};
+	};
+	class FP_Faction_PLA_Oceanic_RO: FP_Faction_PLA_RO
+	{
+		vehicleClass = "fp_men_oceanic";
+	    editorSubcategory = "fp_men_oceanic_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Oceanic";
+		linkedItems[] = {"V_TacVest_blk","FP_Helmet_Type07Oceanic","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_blk","FP_Helmet_Type07Oceanic","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Oceanic","FP_Helmet_Type07OceanicESS"};
+	};
+	class FP_Faction_PLA_Oceanic_UAV: FP_Faction_PLA_UAV
+	{
+		vehicleClass = "fp_men_oceanic";
+	    editorSubcategory = "fp_men_oceanic_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Oceanic";
+		linkedItems[] = {"V_TacVest_blk","FP_Helmet_Type07Oceanic","O_UavTerminal","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_blk","FP_Helmet_Type07Oceanic","O_UavTerminal","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Oceanic","FP_Helmet_Type07OceanicESS"};
+	};
+	class FP_Faction_PLA_Oceanic_DM: FP_Faction_PLA_DM
+	{
+		vehicleClass = "fp_men_oceanic";
+	    editorSubcategory = "fp_men_oceanic_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Oceanic";
+		linkedItems[] = {"V_TacVest_blk","FP_Helmet_Type07Oceanic","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_blk","FP_Helmet_Type07Oceanic","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Oceanic","FP_Helmet_Type07OceanicESS"};
+	};
+	class FP_Faction_PLA_Oceanic_RAT: FP_Faction_PLA_RAT
+	{
+		vehicleClass = "fp_men_oceanic";
+	    editorSubcategory = "fp_men_oceanic_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Oceanic";
+		linkedItems[] = {"V_TacVest_blk","FP_Helmet_Type07Oceanic","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_blk","FP_Helmet_Type07Oceanic","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Oceanic","FP_Helmet_Type07OceanicESS"};
+	};
+	class FP_Faction_PLA_Oceanic_Medic: FP_Faction_PLA_Medic
+	{
+		vehicleClass = "fp_men_oceanic";
+	    editorSubcategory = "fp_men_oceanic_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Oceanic";
+		linkedItems[] = {"V_TacVest_blk","FP_Helmet_Type07Oceanic","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_blk","FP_Helmet_Type07Oceanic","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Oceanic","FP_Helmet_Type07OceanicESS"};
+	};
+	class FP_Faction_PLA_Oceanic_Crewman: FP_Faction_PLA_Crewman
+	{
+		vehicleClass = "fp_men_oceanic";
+	    editorSubcategory = "fp_men_oceanic_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Oceanic";
+		linkedItems[] = {"V_TacVest_blk","FP_Helmet_Type07Oceanic","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_blk","FP_Helmet_Type07Oceanic","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Oceanic","FP_Helmet_Type07OceanicESS"};
+	};
+	class FP_Faction_PLA_Oceanic_Engineer: FP_Faction_PLA_Engineer
+	{
+		vehicleClass = "fp_men_oceanic";
+	    editorSubcategory = "fp_men_oceanic_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Oceanic";
+		linkedItems[] = {"V_TacVest_blk","FP_Helmet_Type07Oceanic","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_blk","FP_Helmet_Type07Oceanic","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Oceanic","FP_Helmet_Type07OceanicESS"};
+	};
+	class FP_Faction_PLA_Oceanic_MMG: FP_Faction_PLA_MMG
+	{
+		vehicleClass = "fp_men_oceanic";
+	    editorSubcategory = "fp_men_oceanic_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Oceanic";
+		linkedItems[] = {"V_TacVest_blk","FP_Helmet_Type07Oceanic","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_blk","FP_Helmet_Type07Oceanic","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Oceanic","FP_Helmet_Type07OceanicESS"};
+	};
+	class FP_Faction_PLA_Oceanic_AMMG: FP_Faction_PLA_AMMG
+	{
+		vehicleClass = "fp_men_oceanic";
+	    editorSubcategory = "fp_men_oceanic_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Oceanic";
+		linkedItems[] = {"V_TacVest_blk","FP_Helmet_Type07Oceanic","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_blk","FP_Helmet_Type07Oceanic","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Oceanic","FP_Helmet_Type07OceanicESS"};
+	};
+	class FP_Faction_PLA_Oceanic_MAT: FP_Faction_PLA_MAT
+	{
+		vehicleClass = "fp_men_oceanic";
+	    editorSubcategory = "fp_men_oceanic_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Oceanic";
+		linkedItems[] = {"V_TacVest_blk","FP_Helmet_Type07Oceanic","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_blk","FP_Helmet_Type07Oceanic","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Oceanic","FP_Helmet_Type07OceanicESS"};
+	};
+	class FP_Faction_PLA_Oceanic_AMAT: FP_Faction_PLA_AMAT
+	{
+		vehicleClass = "fp_men_oceanic";
+	    editorSubcategory = "fp_men_oceanic_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Oceanic";
+		linkedItems[] = {"V_TacVest_blk","FP_Helmet_Type07Oceanic","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_blk","FP_Helmet_Type07Oceanic","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Oceanic","FP_Helmet_Type07OceanicESS"};
+	};
+	class FP_Faction_PLA_Oceanic_HAT: FP_Faction_PLA_HAT
+	{
+		vehicleClass = "fp_men_oceanic";
+	    editorSubcategory = "fp_men_oceanic_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Oceanic";
+		weapons[] = {"arifle_CTAR_blk_F","launch_O_Vorona_brown_F","Throw","Put"};
+		respawnWeapons[] = {"arifle_CTAR_blk_F","launch_O_Vorona_brown_F","Throw","Put"};
+		linkedItems[] = {"V_TacVest_blk","FP_Helmet_Type07Oceanic","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_blk","FP_Helmet_Type07Oceanic","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Oceanic","FP_Helmet_Type07OceanicESS"};
+	};
+	class FP_Faction_PLA_Oceanic_AHAT: FP_Faction_PLA_AHAT
+	{
+		vehicleClass = "fp_men_oceanic";
+	    editorSubcategory = "fp_men_oceanic_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Oceanic";
+		linkedItems[] = {"V_TacVest_blk","FP_Helmet_Type07Oceanic","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_blk","FP_Helmet_Type07Oceanic","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Oceanic","FP_Helmet_Type07OceanicESS"};
+	};
+	class FP_Faction_PLA_Oceanic_MANPADS: FP_Faction_PLA_MANPADS
+	{
+		vehicleClass = "fp_men_oceanic";
+	    editorSubcategory = "fp_men_oceanic_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Oceanic";
+		linkedItems[] = {"V_TacVest_blk","FP_Helmet_Type07Oceanic","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_blk","FP_Helmet_Type07Oceanic","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Oceanic","FP_Helmet_Type07OceanicESS"};
+	};
+	class FP_Faction_PLA_Oceanic_AMANPADS: FP_Faction_PLA_AMANPADS
+	{
+		vehicleClass = "fp_men_oceanic";
+	    editorSubcategory = "fp_men_oceanic_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Oceanic";
+		linkedItems[] = {"V_TacVest_blk","FP_Helmet_Type07Oceanic","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_blk","FP_Helmet_Type07Oceanic","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Oceanic","FP_Helmet_Type07OceanicESS"};
+	};
+	class FP_Faction_PLA_Oceanic_Officer: FP_Faction_PLA_Officer
+	{
+		vehicleClass = "fp_men_oceanic";
+	    editorSubcategory = "fp_men_oceanic_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Oceanic";
+		linkedItems[] = {"V_TacVest_blk","UK3CB_ANA_B_H_Beret_GRN","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_blk","UK3CB_ANA_B_H_Beret_GRN","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		headgearProbability = 100;
+		allowedHeadgear[] = {"UK3CB_ANA_B_H_Beret_GRN","UK3CB_ANA_B_H_Beret_GRN"};
+	};
+	class FP_Faction_PLA_Oceanic_FieldOfficer: FP_Faction_PLA_FieldOfficer
+	{
+		vehicleClass = "fp_men_oceanic";
+	    editorSubcategory = "fp_men_oceanic_EdSubcat";
+		uniformClass = "FP_Uniform_Type07Oceanic";
+		linkedItems[] = {"V_TacVest_blk","FP_fieldcap_PLA_Type07Oceanic","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_blk","FP_fieldcap_PLA_Type07Oceanic","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		headgearProbability = 100;
+		allowedHeadgear[] = {"FP_fieldcap_PLA_Type07Oceanic","FP_fieldcap_PLA_Type07Oceanic"};
 	};
 };

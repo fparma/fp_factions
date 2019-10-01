@@ -22,6 +22,10 @@ class CfgVehicleClasses
 	{
 		displayName="Men (Universal)";
 	};
+	class fp_men_oceanic
+	{
+		displayName="Men (Oceanic)";
+	};
 	class fp_men_winter
 	{
 		displayName="Men (Winter)";
@@ -80,6 +84,10 @@ class CfgEditorSubcategories
 	class fp_men_universal_EdSubcat
 	{
 		displayName="Men (Universal)";
+	};
+	class fp_men_oceanic_EdSubcat
+	{
+		displayName="Men (Oceanic)";
 	};
 	class fp_men_winter_EdSubcat
 	{
