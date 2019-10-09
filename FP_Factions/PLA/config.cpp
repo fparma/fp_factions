@@ -12,7 +12,7 @@ class CfgFactionClasses
 {
 	class FP_Faction_PLA
 	{
-		displayName = "FP People's Republic of China";
+		displayName = "FP People's Republic of China (2010)";
 		priority = 2;
 		side = 0;
 		icon = "\FP_Factions\PLA\cfgFactionClasses_china_ca.paa";
@@ -25,10 +25,10 @@ class CfgGroups
 	{
 		class FP_Faction_PLA_Units
 		{
-			name = "People's Republic of China";
+			name = "People's Republic of China (2010)";
 			class Infantry
 			{
-				name = "PRC (Universal) Infantry ";
+				name = "PRC (2010/Universal) Infantry ";
 				class PLA_Riflesquad
 				{
 					name = "Rifle Squad";
@@ -244,7 +244,7 @@ class CfgGroups
 			};
 			class Support
 			{
-				name = "PRC (Universal) Company Attachments";
+				name = "PRC (2010/Universal) Company Attachments";
 				class PLA_DoctorTeam
 				{
 					name = "Doctor Team";
@@ -437,7 +437,7 @@ class CfgGroups
 			};
 			class InfantryDesert
 			{
-				name = "PRC (Desert) Infantry ";
+				name = "PRC (2010/Desert) Infantry ";
 				class PLA_Desert_Riflesquad
 				{
 					name = "Rifle Squad";
@@ -653,7 +653,7 @@ class CfgGroups
 			};
 			class SupportDesert
 			{
-				name = "PRC (Desert) Company Attachments";
+				name = "PRC (2010/Desert) Company Attachments";
 				class PLA_Desert_DoctorTeam
 				{
 					name = "Doctor Team";
@@ -1901,7 +1901,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Radio Operator";
-		backpack = "B_RadioBag_01_wdl_F";
+		backpack = "B_RadioBag_01_wdl_F"
 		headgearProbability = 100;
 		allowedHeadgear[] = {"FP_Helmet_Type07Uni","FP_Helmet_Type07Uni"};
 	};

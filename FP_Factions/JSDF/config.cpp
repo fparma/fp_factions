@@ -58,13 +58,6 @@ class cfgvehicles
 				textures[] = {"\fp_factions\JSDF\data\blackwasp\Fighter_01_fuselage_01_japan01_co.paa","\fp_factions\JSDF\data\blackwasp\Fighter_01_fuselage_02_japan01_co.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_glass_01_ca.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_01_co.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_02_co.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_03_co.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_05_co.paa","a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_01_ca.paa","a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_00_ca.paa","a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_01_ca.paa"};
 				factions[] = {"FP_Faction_JSDF"};
 			};
-			class JSDFSkin02
-			{
-				author="CSLeader";
-				displayname = "Air Superiority Grey";				
-				textures[] = {"\fp_factions\JSDF\data\blackwasp\Fighter_01_fuselage_01_japan02_co.paa","\fp_factions\JSDF\data\blackwasp\Fighter_01_fuselage_02_japan02_co.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_glass_01_ca.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_01_co.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_02_co.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_03_co.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_05_co.paa","a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_01_ca.paa","a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_00_ca.paa","a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_01_ca.paa"};
-				factions[] = {"FP_Faction_JSDF"};
-			};
 			class JSDFSkinAggressor01
 			{
 				author="CSLeader";
@@ -89,13 +82,6 @@ class cfgvehicles
 				author="CSLeader";
 				displayname = "Two-Tone Sea";				
 				textures[] = {"\fp_factions\JSDF\data\blackwasp\Fighter_01_fuselage_01_japan01_co.paa","\fp_factions\JSDF\data\blackwasp\Fighter_01_fuselage_02_japan01_co.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_glass_01_ca.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_01_co.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_02_co.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_03_co.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_05_co.paa","a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_01_ca.paa","a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_00_ca.paa","a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_01_ca.paa"};
-				factions[] = {"FP_Faction_JSDF"};
-			};
-			class JSDFSkin02
-			{
-				author="CSLeader";
-				displayname = "Air Superiority Grey";				
-				textures[] = {"\fp_factions\JSDF\data\blackwasp\Fighter_01_fuselage_01_japan02_co.paa","\fp_factions\JSDF\data\blackwasp\Fighter_01_fuselage_02_japan02_co.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_glass_01_ca.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_01_co.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_02_co.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_03_co.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_05_co.paa","a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_01_ca.paa","a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_00_ca.paa","a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_01_ca.paa"};
 				factions[] = {"FP_Faction_JSDF"};
 			};
 			class JSDFSkinAggressor01

@@ -385,14 +385,14 @@ class cfgvehicles
 		crew = "FP_Faction_KPA_Crewman";
 		faction = "FP_Faction_KPA";
 	};
-	class UK3CB_CW_SOV_O_EARLY_BTR40;
-	class UK3CB_CW_SOV_O_EARLY_BTR40_MG; 
-	class FP_Faction_KPA_BTR40: UK3CB_CW_SOV_O_EARLY_BTR40
+	class UK3CB_O_G_BTR40;
+	class UK3CB_O_G_BTR40_MG; 
+	class FP_Faction_KPA_BTR40: UK3CB_O_G_BTR40
 	{
 		crew = "FP_Faction_KPA_Rifleman";
 		faction = "FP_Faction_KPA";
 	};
-	class FP_Faction_KPA_BTR40_MG: UK3CB_CW_SOV_O_EARLY_BTR40_MG
+	class FP_Faction_KPA_BTR40_MG: UK3CB_O_G_BTR40_MG
 	{
 		crew = "FP_Faction_KPA_Rifleman";
 		faction = "FP_Faction_KPA";
@@ -416,54 +416,6 @@ class cfgvehicles
 		faction = "FP_Faction_KPA";
 		hiddenSelections[] = {"camo1","camo2"};
 		hiddenSelectionsTextures[] = {"\fp_factions\KPA\data\t55\t55_body_kpa_co.paa","\fp_factions\KPA\data\t55\t55_tower_kpa_co.paa"};
-	};
-	class UK3CB_CW_SOV_O_EARLY_T72A;
-	class FP_Faction_KPA_T72M: UK3CB_CW_SOV_O_EARLY_T72A
-	{
-		class TextureSources
-		{
-			class KPA_T72_Green
-			{
-				author = "www.3commandobrigade.com";
-				displayname = "KPA Green";				
-				textures[] = {"UK3CB_Factions\addons\UK3CB_Factions_Vehicles\armour\UK3CB_Factions_Vehicles_T-series\t72\data\t72_sov_khk_1_co.paa","UK3CB_Factions\addons\UK3CB_Factions_Vehicles\armour\UK3CB_Factions_Vehicles_T-series\t72\data\t72_sov_khk_2_co.paa","UK3CB_Factions\addons\UK3CB_Factions_Vehicles\armour\UK3CB_Factions_Vehicles_T-series\t72\data\t72_sov_khk_3_co.paa"};
-				factions[] = {"FP_Faction_KPA"};
-			};
-		};
-		author = "FP Mod Team";
-		crew = "FP_Faction_KPA_Crewman";
-		displayName = "T-72M"
-		faction = "FP_Faction_KPA";
-	};
-	class UK3CB_CW_SOV_O_EARLY_T72B;
-	class FP_Faction_KPA_T72MERA: UK3CB_CW_SOV_O_EARLY_T72B
-	{
-		class TextureSources
-		{
-			class KPA_T72_Green
-			{
-				author = "www.3commandobrigade.com";
-				displayname = "KPA Green";				
-				textures[] = {"UK3CB_Factions\addons\UK3CB_Factions_Vehicles\armour\UK3CB_Factions_Vehicles_T-series\t72\data\t72_sov_khk_1_co.paa","UK3CB_Factions\addons\UK3CB_Factions_Vehicles\armour\UK3CB_Factions_Vehicles_T-series\t72\data\t72_sov_khk_2_co.paa","UK3CB_Factions\addons\UK3CB_Factions_Vehicles\armour\UK3CB_Factions_Vehicles_T-series\t72\data\t72_sov_khk_3_co.paa","UK3CB_Factions\addons\UK3CB_Factions_Vehicles\armour\UK3CB_Factions_Vehicles_T-series\t72\data\t72_sov_khk_4_co.paa"};
-				factions[] = {"FP_Faction_KPA"};
-			};
-		};
-		author = "FP Mod Team";
-		crew = "FP_Faction_KPA_Crewman";
-		displayName = "T-72M1 ERA"
-		faction = "FP_Faction_KPA";
-	};
-	class UK3CB_CW_SOV_O_EARLY_BM21;
-	class FP_Faction_KPA_BM21: UK3CB_CW_SOV_O_EARLY_BM21
-	{
-		crew = "FP_Faction_KPA_Rifleman";
-		faction = "FP_Faction_KPA";
-	};	
-	class UK3CB_CW_SOV_O_EARLY_ZsuTank;
-	class FP_Faction_KPA_ZSU_234_AA: UK3CB_CW_SOV_O_EARLY_ZsuTank
-	{
-		crew = "FP_Faction_KPA_Crewman";
-		faction = "FP_Faction_KPA";
 	};
 	class rhsgref_nat_uaz;
 	class rhsgref_nat_uaz_open;
@@ -504,54 +456,6 @@ class cfgvehicles
 		crew = "FP_Faction_KPA_Rifleman";
 		editorSubcategory = "EdSubcat_Cars";
 		faction = "FP_Faction_KPA";
-	};
-	class UK3CB_CW_SOV_O_EARLY_BTR60;
-	class UK3CB_CW_SOV_O_EARLY_BTR70;
-	class UK3CB_CW_SOV_O_LATE_BTR80a;
-	class FP_Faction_KPA_BTR60: UK3CB_CW_SOV_O_EARLY_BTR60
-	{
-		crew = "FP_Faction_KPA_Crewman";
-		faction = "FP_Faction_KPA";
-	};
-	class FP_Faction_KPA_BTR70: UK3CB_CW_SOV_O_EARLY_BTR70
-	{
-		crew = "FP_Faction_KPA_Crewman";
-		faction = "FP_Faction_KPA";
-	};
-	class FP_Faction_KPA_BTR80A: UK3CB_CW_SOV_O_LATE_BTR80a
-	{
-		crew = "FP_Faction_KPA_SOF_Crewman";
-		faction = "FP_Faction_KPA";
-	};
-	class UK3CB_O_Ural_ZU23_SOV;
-	class UK3CB_CW_SOV_O_EARLY_Ural_Zu23: UK3CB_O_Ural_ZU23_SOV
-	{
-		class CargoTurret_01;
-		class CargoTurret_02;
-		class CargoTurret_03;
-		class MainTurret;
-	};
-	class FP_Faction_KPA_URAL_ZU23: UK3CB_CW_SOV_O_EARLY_Ural_Zu23
-	{
-		class CargoTurret_01: CargoTurret_01
-		{
-			gunnerType = "FP_Faction_KPA_Rifleman";
-		};
-		class CargoTurret_02: CargoTurret_02
-		{
-			gunnerType = "FP_Faction_KPA_Rifleman";
-		};
-		class CargoTurret_03: CargoTurret_03
-		{
-			gunnerType = "FP_Faction_KPA_Rifleman";
-		};
-		class MainTurret: MainTurret
-		{
-			gunnerType = "FP_Faction_KPA_Rifleman";
-		};		
-		crew = "FP_Faction_KPA_Rifleman";
-		faction = "FP_Faction_KPA";
-		typicalCargo[] = {"FP_Faction_KPA_Rifleman"};
 	};	
 	class rhs_zil131_msv;
 	class rhs_zil131_open_msv;
@@ -1170,8 +1074,8 @@ class cfgvehicles
 		uniformClass = "FP_Uniform_KPA_Duckhunter";  
 		weapons[] = {"hlc_rifle_aks74u_ekp8_02_545SUP_AK","RH_cz75_gemtech9","Binocular","Throw","Put"};
 		respawnWeapons[] = {"hlc_rifle_aks74u_ekp8_02_545SUP_AK","RH_cz75_gemtech9","Binocular","Throw","Put"};
-		magazines[] = {"hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","rhs_mag_rgd5","rhs_mag_rgd5","SmokeShell","SmokeShell"};
-		respawnMagazines[] = {"hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","rhs_mag_rgd5","rhs_mag_rgd5","SmokeShell","SmokeShell"};
+		magazines[] = {"hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","rhs_mag_rgd5","rhs_mag_rgd5","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","rhs_mag_rgd5","rhs_mag_rgd5","SmokeShell","SmokeShell"};
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
 		linkedItems[] = {"V_SmershVest_01_F","UK3CB_TKP_I_H_SSh68_BLK","ItemMap","ItemCompass","ItemWatch","ItemRadio","VSM_flightglove_standalone_noNVG"};
@@ -1197,81 +1101,13 @@ class cfgvehicles
 		backpack = "KPA_Recon_FieldPack_RPG_Light_grn";
 		weapons[] = {"hlc_rifle_aks74u_ekp8_02_545SUP_AK","RH_cz75_gemtech9","rhs_weap_rpg7_FP_pgo7v2","Binocular","Throw","Put"};
 		respawnWeapons[] = {"hlc_rifle_aks74u_ekp8_02_545SUP_AK","RH_cz75_gemtech9","rhs_weap_rpg7_FP_pgo7v2","Binocular","Throw","Put"};
-		magazines[] = {"hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","rhs_rpg7_PG7VL_mag","rhs_mag_rgd5","rhs_mag_rgd5","SmokeShell","SmokeShell"};
-		respawnMagazines[] = {"hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","rhs_rpg7_PG7VL_mag","rhs_mag_rgd5","rhs_mag_rgd5","SmokeShell","SmokeShell"};
+		magazines[] = {"hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","rhs_rpg7_PG7VL_mag","rhs_mag_rgd5","rhs_mag_rgd5","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","rhs_rpg7_PG7VL_mag","rhs_mag_rgd5","rhs_mag_rgd5","SmokeShell","SmokeShell"};
 		
 	};
-	class FP_Faction_KPA_SOF_AR: FP_Faction_KPA_SOF_Soldier_BASE
-	{
-		class SpeechVariants
-		{
-			class Default
-			{
-				speechSingular[] = {"veh_infantry_MG_s"};
-				speechPlural[] = {"veh_infantry_MG_p"};
-			};
-		};
-		textSingular = "$STR_A3_nameSound_veh_infantry_MG_s";
-		textPlural = "$STR_A3_nameSound_veh_infantry_MG_p";
-		nameSound = "veh_infantry_MG_s";
-		author = "FP Mod Team";
-		scope = 2;
-		scopeCurator = 2;
-		displayName = "Recon AutoRifleman";
-		weapons[] = {"hlc_rifle_rpk74n_ekp8_02_545SUP_AK","RH_cz75_gemtech9","Binocular","Throw","Put"};
-		respawnWeapons[] = {"hlc_rifle_rpk74n_ekp8_02_545SUP_AK","RH_cz75_gemtech9","Binocular","Throw","Put"};
-		magazines[] = {"hlc_60Rnd_545x39_b_rpk","hlc_60Rnd_545x39_b_rpk","hlc_60Rnd_545x39_b_rpk","hlc_60Rnd_545x39_b_rpk","hlc_60Rnd_545x39_b_rpk","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","rhs_mag_rgd5","rhs_mag_rgd5","SmokeShell","SmokeShellRed"};
-		respawnMagazines[] = {"hlc_60Rnd_545x39_b_rpk","hlc_60Rnd_545x39_b_rpk","hlc_60Rnd_545x39_b_rpk","hlc_60Rnd_545x39_b_rpk","hlc_60Rnd_545x39_b_rpk","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","rhs_mag_rgd5","rhs_mag_rgd5","SmokeShell","SmokeShellRed"};
-		cost = 95000;
-		threat[] = {1,0.1,0.3};
-		icon = "iconManMG";
-	};
-	class FP_Faction_KPA_SOF_Crewman: FP_Faction_KPA_SOF_Soldier_BASE
-	{
-		author = "FP Mod Team";
-		scope = 2;
-		scopeCurator = 2;
-		displayName = "Recon Crewman";
-		camouflage = 1.6;
-		sensitivity = 2.4;
-		linkedItems[] = {"V_SmershVest_01_F","rhs_tsh4","ItemMap","ItemCompass","ItemWatch","ItemRadio","VSM_flightglove_standalone_noNVG"};
-		respawnLinkedItems[] = {"V_SmershVest_01_F","rhs_tsh4","ItemMap","ItemCompass","ItemWatch","ItemRadio","VSM_flightglove_standalone_noNVG"};
-		cost = 90000;
-		headgearProbability = 100;
-		allowedHeadgear[] = {"UK3CB_H_Crew_Cap"};
-	};
-	class FP_Faction_KPA_SOF_SL: FP_Faction_KPA_SOF_Soldier_BASE
-	{
-		author = "FP Mod Team";
-		scope = 2;
-		scopeCurator = 2;
-		displayName = "Recon Squad Leader";
-		weapons[] = {"hlc_rifle_aks74_1p29_545SUP_AK","RH_cz75_gemtech9","Binocular","Throw","Put"};
-		respawnWeapons[] = {"hlc_rifle_aks74_1p29_545SUP_AK","RH_cz75_gemtech9","Binocular","Throw","Put"};
-		cost = 500000;
-		camouflage = 1.6;
-		sensitivity = 3;
-		icon = "iconManLeader";
-		linkedItems[] = {"V_SmershVest_01_radio_F","UK3CB_TKP_I_H_SSh68_BLK","ItemMap","ItemCompass","ItemWatch","ItemRadio","VSM_flightglove_standalone_noNVG"};
-		respawnLinkedItems[] = {"V_SmershVest_01_radio_F","UK3CB_TKP_I_H_SSh68_BLK","ItemMap","ItemCompass","ItemWatch","ItemRadio","VSM_flightglove_standalone_noNVG"};
-	};
-	class FP_Faction_KPA_SOF_TL: FP_Faction_KPA_SOF_Soldier_BASE
-	{
-		author = "FP Mod Team";
-		scope = 2;
-		scopeCurator = 2;
-		displayName = "Recon Team Leader";
-		weapons[] = {"hlc_rifle_aks74_GL_pkas_545SUP_AK","RH_cz75_gemtech9","Binocular","Throw","Put"};
-		respawnWeapons[] = {"hlc_rifle_aks74_GL_pkas_545SUP_AK","RH_cz75_gemtech9","Binocular","Throw","Put"};
-		magazines[] = {"hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","rhs_mag_rgd5","rhs_mag_rgd5","SmokeShell","SmokeShell"};
-		respawnMagazines[] = {"hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","rhs_mag_rgd5","rhs_mag_rgd5","SmokeShell","SmokeShell"};
-		backpack = "B_RadioBag_01_wdl_F";
-		cost = 450000;
-		camouflage = 1.6;
-		sensitivity = 3;
-		icon = "iconManLeader";
-	};	
-
+	
+	
+	
 	class FP_Faction_KPA_WPRG_Base: FP_Faction_KPA_Soldier_BASE
 	{
 		author = "FP Mod Team";
@@ -1538,57 +1374,6 @@ class cfgWeapons
 			};
 		};		
 	};
-	class hlc_rifle_aks74;
-	class hlc_rifle_aks74_1p29_545SUP_AK: hlc_rifle_aks74
-	{
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = "CowsSlot";
-				item = "rhs_acc_1p29";
-			};
-			class LinkedItemsMuzzle
-			{
-				slot = "MuzzleSlot";
-				item = "hlc_muzzle_545SUP_AK";
-			};
-		};		
-	};
-	class hlc_rifle_aks74_GL;
-	class hlc_rifle_aks74_GL_pkas_545SUP_AK : hlc_rifle_aks74_GL
-	{
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = "CowsSlot";
-				item = "rhs_acc_pkas";
-			};
-			class LinkedItemsMuzzle
-			{
-				slot = "MuzzleSlot";
-				item = "hlc_muzzle_545SUP_AK";
-			};
-		};		
-	};
-	class hlc_rifle_rpk74n;
-	class hlc_rifle_rpk74n_ekp8_02_545SUP_AK: hlc_rifle_rpk74n
-	{
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = "CowsSlot";
-				item = "rhs_acc_ekp8_02";
-			};
-			class LinkedItemsMuzzle
-			{
-				slot = "MuzzleSlot";
-				item = "hlc_muzzle_545SUP_AK";
-			};
-		};		
-	};	
 	class RH_cz75;
 	class RH_cz75_gemtech9: RH_cz75
 	{
