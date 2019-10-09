@@ -1901,7 +1901,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Radio Operator";
-		backpack = "B_RadioBag_01_wdl_F"
+		backpack = "B_RadioBag_01_wdl_F";
 		headgearProbability = 100;
 		allowedHeadgear[] = {"FP_Helmet_Type07Uni","FP_Helmet_Type07Uni"};
 	};
