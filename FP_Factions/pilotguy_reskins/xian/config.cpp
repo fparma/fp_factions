@@ -67,16 +67,16 @@ class CfgVehicles
 	};
 	class VTOL_02_infantry_base_F: VTOL_02_base_F
 	{
-	}
+	};
 	class VTOL_02_vehicle_base_F: VTOL_02_base_F
 	{
-	}
+	};
 	class VTOL_02_infantry_dynamicLoadout_base_F: VTOL_02_infantry_base_F
 	{
-	}
+	};
 	class VTOL_02_vehicle_dynamicLoadout_base_F: VTOL_02_vehicle_base_F
 	{
-	}
+	};
 
 	class FP_PIL_T_VTOL_02_infantry_F: VTOL_02_infantry_dynamicLoadout_base_F
 	{
@@ -287,7 +287,7 @@ class CfgVehicles
 			"pilotguy_reskins\xian\data\usmc\VTOL_02_EXT03_L_USMC_CO.paa",
 			"pilotguy_reskins\xian\data\usmc\VTOL_02_EXT03_R_USMC_CO.paa"
 		};
-	}
+	};
 	class FP_PIL_T_VTOL_02_vehicle_F: VTOL_02_vehicle_dynamicLoadout_base_F
 	{
 		author = "Pilotguy";
@@ -496,5 +496,5 @@ class CfgVehicles
 			"pilotguy_reskins\xian\data\usmc\VTOL_02_EXT03_L_USMC_CO.paa",
 			"pilotguy_reskins\xian\data\usmc\VTOL_02_EXT03_R_USMC_CO.paa"
 		};
-	}
+	};
 };
