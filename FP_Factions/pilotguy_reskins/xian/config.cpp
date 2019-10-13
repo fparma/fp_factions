@@ -33,10 +33,10 @@ class CfgVehicles
 				author="Pilotguy";
 				textures[]=
 				{
-					"pilotguy_reskins\xian\data\usmc\VTOL_02_EXT01_USMC_CO.paa",
-					"pilotguy_reskins\xian\data\usmc\VTOL_02_EXT02_USMC_CO.paa",
-					"pilotguy_reskins\xian\data\usmc\VTOL_02_EXT03_L_USMC_CO.paa",
-					"pilotguy_reskins\xian\data\usmc\VTOL_02_EXT03_R_USMC_CO.paa"
+					"\FP_Factions\pilotguy_reskins\xian\data\usmc\VTOL_02_EXT01_USMC_CO.paa",
+					"\FP_Factions\pilotguy_reskins\xian\data\usmc\VTOL_02_EXT02_USMC_CO.paa",
+					"\FP_Factions\pilotguy_reskins\xian\data\usmc\VTOL_02_EXT03_L_USMC_CO.paa",
+					"\FP_Factions\pilotguy_reskins\xian\data\usmc\VTOL_02_EXT03_R_USMC_CO.paa"
 				};
 				factions[]=
 				{
@@ -50,10 +50,10 @@ class CfgVehicles
 				author="Pilotguy";
 				textures[]=
 				{
-					"pilotguy_reskins\xian\data\grey\VTOL_02_EXT01_grey_CO.paa",
-					"pilotguy_reskins\xian\data\grey\VTOL_02_EXT02_grey_CO.paa",
-					"pilotguy_reskins\xian\data\grey\VTOL_02_EXT03_L_grey_CO.paa",
-					"pilotguy_reskins\xian\data\grey\VTOL_02_EXT03_R_grey_CO.paa"
+					"\FP_Factions\pilotguy_reskins\xian\data\grey\VTOL_02_EXT01_grey_CO.paa",
+					"\FP_Factions\pilotguy_reskins\xian\data\grey\VTOL_02_EXT02_grey_CO.paa",
+					"\FP_Factions\pilotguy_reskins\xian\data\grey\VTOL_02_EXT03_L_grey_CO.paa",
+					"\FP_Factions\pilotguy_reskins\xian\data\grey\VTOL_02_EXT03_R_grey_CO.paa"
 				};
 				factions[]=
 				{
@@ -282,10 +282,10 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[] = 
 		{
-			"pilotguy_reskins\xian\data\usmc\VTOL_02_EXT01_USMC_CO.paa",
-			"pilotguy_reskins\xian\data\usmc\VTOL_02_EXT02_USMC_CO.paa",
-			"pilotguy_reskins\xian\data\usmc\VTOL_02_EXT03_L_USMC_CO.paa",
-			"pilotguy_reskins\xian\data\usmc\VTOL_02_EXT03_R_USMC_CO.paa"
+			"\FP_Factions\pilotguy_reskins\xian\data\usmc\VTOL_02_EXT01_USMC_CO.paa",
+			"\FP_Factions\pilotguy_reskins\xian\data\usmc\VTOL_02_EXT02_USMC_CO.paa",
+			"\FP_Factions\pilotguy_reskins\xian\data\usmc\VTOL_02_EXT03_L_USMC_CO.paa",
+			"\FP_Factions\pilotguy_reskins\xian\data\usmc\VTOL_02_EXT03_R_USMC_CO.paa"
 		};
 	};
 	class FP_PIL_T_VTOL_02_vehicle_F: VTOL_02_vehicle_dynamicLoadout_base_F
@@ -491,10 +491,10 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[] = 
 		{
-			"pilotguy_reskins\xian\data\usmc\VTOL_02_EXT01_USMC_CO.paa",
-			"pilotguy_reskins\xian\data\usmc\VTOL_02_EXT02_USMC_CO.paa",
-			"pilotguy_reskins\xian\data\usmc\VTOL_02_EXT03_L_USMC_CO.paa",
-			"pilotguy_reskins\xian\data\usmc\VTOL_02_EXT03_R_USMC_CO.paa"
+			"\FP_Factions\pilotguy_reskins\xian\data\usmc\VTOL_02_EXT01_USMC_CO.paa",
+			"\FP_Factions\pilotguy_reskins\xian\data\usmc\VTOL_02_EXT02_USMC_CO.paa",
+			"\FP_Factions\pilotguy_reskins\xian\data\usmc\VTOL_02_EXT03_L_USMC_CO.paa",
+			"\FP_Factions\pilotguy_reskins\xian\data\usmc\VTOL_02_EXT03_R_USMC_CO.paa"
 		};
 	};
 };
