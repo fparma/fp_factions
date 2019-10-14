@@ -1912,7 +1912,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "UAV Operator";
-		backpack = "O_UAV_01_backpack_F"
+		backpack = "O_UAV_01_backpack_F";
 		linkedItems[] = {"FP_V_PlateCarrierIA1_Type07Uni","FP_Helmet_Type07Uni","O_UavTerminal","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"FP_V_PlateCarrierIA1_Type07Uni","FP_Helmet_Type07Uni","O_UavTerminal","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 100;
