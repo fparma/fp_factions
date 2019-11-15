@@ -87,7 +87,9 @@ class CfgPatches
 			"FP_GOR_Uniform_Massif_mm14",
 			"FP_GOR_Uniform_Massif_02_mm14",
 			"FP_GOR_Uniform_Massifjacket_mm14",
-			"FP_GOR_Uniform_Massifjacket_02_mm14"
+			"FP_GOR_Uniform_Massifjacket_02_mm14",
+			"FP_GOR_Uniform_Massifjacket_aaf",
+			"FP_GOR_Uniform_Massifjacket_02_aaf"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -1441,6 +1443,35 @@ class CfgVehicles
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifmm14_co.paa"
 		};
 	};
+	class FP_GOR_Massifjacket_aaf: I_E_Uniform_01_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_aaf";
+		displayName="Combat Fatigues [AAF] (Jacket)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketaaf_co.paa",
+			"a3\characters_f_beta\indep\data\ia_soldier_01_clothing_co.paa",
+			"a3\characters_f_enoch\uniforms\data\i_e_soldier_01_gloves_black_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_02_aaf: I_E_Uniform_01_shortsleeve_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_02_aaf";
+		displayName="Combat Fatigues [AAF] (Jacket, rolled-up)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketaaf_co.paa",
+			"a3\characters_f_beta\indep\data\ia_soldier_01_clothing_co.paa"
+		};
+	};
 };
 class CfgWeapons			
 {
@@ -2753,6 +2784,42 @@ class CfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="FP_GOR_Massifjacket_02_mm14";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massifjacket_aaf: U_I_E_Uniform_01_F
+	{
+		scope=2;
+		displayName="Combat Fatigues [AAF] (Jacket)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketaaf_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massifjacket_aaf";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massifjacket_02_aaf: U_I_E_Uniform_01_shortsleeve_F
+	{
+		scope=2;
+		displayName="Combat Fatigues [AAF] (Jacket, rolled-up)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketaaf_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massifjacket_02_aaf";
 			containerClass="Supply40";
 			mass=40;
 		};
