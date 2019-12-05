@@ -282,6 +282,44 @@ class CfgVehicles
 			"\FP_Factions\gordon_reskins\gorka\data\Gorka_PautRev_CO.paa"
 		};
 	};
+	class FP_GOR_Gorka_EMR: O_R_Gorka_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="O_R_Gorka_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Gorka_EMR";
+		displayName="Gorka (EMR, armoured)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo_1",
+			"camo_2",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\data\Gorka_EMR_CO.paa"
+		};
+	}; 
+	class FP_GOR_Gorka_Armour_EMR: FP_GOR_Gorka_Armour_Summer
+	{
+		author="Gordon Weedman";
+		_generalMacro="O_R_Gorka_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Gorka_Armour_EMR";
+		displayName="Gorka (EMR)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo_1",
+			"camo_2",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\gorka\data\Gorka_EMR_CO.paa"
+		};
+	};
 };
 class CfgWeapons			
 {
@@ -415,6 +453,50 @@ class CfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="FP_GOR_Gorka_Armour_PautRev";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Gorka_EMR: U_O_R_Gorka_01_F
+	{
+		scope=2;
+		displayName="Gorka (EMR, armoured)";
+		author="Gordon Weedman";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\gorka\data\Gorka_EMR_CO.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Gorka_EMR";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Gorka_Armour_EMR: U_O_R_Gorka_01_F
+	{
+		scope=2;
+		displayName="Gorka (EMR)";
+		author="Gordon Weedman";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\gorka\data\Gorka_EMR_CO.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Gorka_Armour_EMR";
 			containerClass="Supply40";
 			mass=40;
 		};
