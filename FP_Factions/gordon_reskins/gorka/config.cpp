@@ -11,7 +11,11 @@ class CfgPatches
 			"FP_GOR_Gorka_Autumn",
 			"FP_GOR_Gorka_Armour_Autumn",
 			"FP_GOR_Gorka_PautRev",
-			"FP_GOR_Gorka_Armour_PautRev" 
+			"FP_GOR_Gorka_Armour_PautRev",
+			"FP_GOR_Gorka_EMR",
+			"FP_GOR_Gorka_Armour_EMR",
+			"FP_GOR_Gorka_Skol",
+			"FP_GOR_Gorka_Armour_Skol"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -298,7 +302,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\FP_Factions\gordon_reskins\data\Gorka_EMR_CO.paa"
+			"\FP_Factions\gordon_reskins\gorka\data\Gorka_EMR_CO.paa"
 		};
 	}; 
 	class FP_GOR_Gorka_Armour_EMR: FP_GOR_Gorka_Armour_Summer
@@ -318,6 +322,44 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\gorka\data\Gorka_EMR_CO.paa"
+		};
+	};
+	class FP_GOR_Gorka_Skol: O_R_Gorka_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="O_R_Gorka_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Gorka_Skol";
+		displayName="Gorka (Skol, armoured)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo_1",
+			"camo_2",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\gorka\data\Gorka_Skol_CO.paa"
+		};
+	}; 
+	class FP_GOR_Gorka_Armour_Skol: FP_GOR_Gorka_Armour_Summer
+	{
+		author="Gordon Weedman";
+		_generalMacro="O_R_Gorka_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Gorka_Armour_Skol";
+		displayName="Gorka (Skol)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo_1",
+			"camo_2",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\gorka\data\Gorka_Skol_CO.paa"
 		};
 	};
 };
@@ -497,6 +539,50 @@ class CfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="FP_GOR_Gorka_Armour_EMR";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Gorka_Skol: U_O_R_Gorka_01_F
+	{
+		scope=2;
+		displayName="Gorka (Skol, armoured)";
+		author="Gordon Weedman";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\gorka\data\Gorka_Skol_CO.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Gorka_Skol";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Gorka_Armour_Skol: U_O_R_Gorka_01_F
+	{
+		scope=2;
+		displayName="Gorka (Skol)";
+		author="Gordon Weedman";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\gorka\data\Gorka_Skol_CO.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Gorka_Armour_Skol";
 			containerClass="Supply40";
 			mass=40;
 		};
