@@ -265,60 +265,6 @@ class CfgVehicles
 					"IND_F"
 				};
 			};
-			class Rae1
-			{
-				displayname = "Russian Arms Expo camo 1";
-				author="Gordon Weedman";
-				textures[]=
-				{
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_body_rae1_CO.paa",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret_rae1_CO.paa",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_rae1_CO.paa",
-					"\FP_Factions\gordon_reskins\universalstuff\data\camonet_rae1_CO.paa"
-				};
-				factions[]=
-				{
-					"BLU_F",
-					"OPF_F",
-					"IND_F"
-				};
-			};
-			class Rae2
-			{
-				displayname = "Russian Arms Expo camo 2";
-				author="Gordon Weedman";
-				textures[]=
-				{
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_body_rae2_CO.paa",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret_rae2_CO.paa",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_rae2_CO.paa",
-					"\FP_Factions\gordon_reskins\universalstuff\data\camonet_rae2_CO.paa"
-				};
-				factions[]=
-				{
-					"BLU_F",
-					"OPF_F",
-					"IND_F"
-				};
-			};
-			class Rae3
-			{
-				displayname = "Russian Arms Expo camo 3";
-				author="Gordon Weedman";
-				textures[]=
-				{
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_body_rae3_CO.paa",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_turret_rae3_CO.paa",
-					"\FP_Factions\gordon_reskins\varsuk\data\MBT_02_rae3_CO.paa",
-					"\FP_Factions\gordon_reskins\universalstuff\data\camonet_rae3_CO.paa"
-				};
-				factions[]=
-				{
-					"BLU_F",
-					"OPF_F",
-					"IND_F"
-				};
-			};
 			class Tpat
 			{
 				displayname = "T-Pat";

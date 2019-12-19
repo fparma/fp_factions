@@ -123,57 +123,6 @@ class CfgVehicles
 					"IND_F"
 				};
 			};
-			class Rae1
-			{
-				displayname = "Russian Arms Expo camo 1";
-				author="Gordon Weedman";
-				textures[]=
-				{
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext01_rae1_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext02_rae1_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_cargo_rae1_co.paa"
-				};
-				factions[]=
-				{
-					"BLU_F",
-					"OPF_F",
-					"IND_F"
-				};
-			};
-			class Rae2
-			{
-				displayname = "Russian Arms Expo camo 2";
-				author="Gordon Weedman";
-				textures[]=
-				{
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext01_rae2_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext02_rae2_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_cargo_rae2_co.paa"
-				};
-				factions[]=
-				{
-					"BLU_F",
-					"OPF_F",
-					"IND_F"
-				};
-			};
-			class Rae3
-			{
-				displayname = "Russian Arms Expo camo 3";
-				author="Gordon Weedman";
-				textures[]=
-				{
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext01_rae3_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext02_rae3_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_cargo_rae3_co.paa"
-				};
-				factions[]=
-				{
-					"BLU_F",
-					"OPF_F",
-					"IND_F"
-				};
-			};
 			class Tpat
 			{
 				displayname = "T-Pat";
@@ -386,60 +335,6 @@ class CfgVehicles
 					"IND_F"
 				};
 			};
-			class Rae1
-			{
-				displayname = "Russian Arms Expo camo 1";
-				author="Gordon Weedman";
-				textures[]=
-				{
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext01_rae1_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext02_rae1_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_cargo_rae1_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_cover_rae1_co.paa"
-				};
-				factions[]=
-				{
-					"BLU_F",
-					"OPF_F",
-					"IND_F"
-				};
-			};
-			class Rae2
-			{
-				displayname = "Russian Arms Expo camo 2";
-				author="Gordon Weedman";
-				textures[]=
-				{
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext01_rae2_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext02_rae2_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_cargo_rae2_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_cover_rae2_co.paa"
-				};
-				factions[]=
-				{
-					"BLU_F",
-					"OPF_F",
-					"IND_F"
-				};
-			};
-			class Rae3
-			{
-				displayname = "Russian Arms Expo camo 3";
-				author="Gordon Weedman";
-				textures[]=
-				{
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext01_rae3_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext02_rae3_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_cargo_rae3_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_cover_rae3_co.paa"
-				};
-				factions[]=
-				{
-					"BLU_F",
-					"OPF_F",
-					"IND_F"
-				};
-			};
 			class Tpat
 			{
 				displayname = "T-Pat";
@@ -643,57 +538,6 @@ class CfgVehicles
 					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext01_winter_co.paa",
 					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext02_winter_co.paa",
 					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ammo_winter_co.paa"
-				};
-				factions[]=
-				{
-					"BLU_F",
-					"OPF_F",
-					"IND_F"
-				};
-			};
-			class Rae1
-			{
-				displayname = "Russian Arms Expo camo 1";
-				author="Gordon Weedman";
-				textures[]=
-				{
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext01_rae1_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext02_rae1_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ammo_rae1_co.paa"
-				};
-				factions[]=
-				{
-					"BLU_F",
-					"OPF_F",
-					"IND_F"
-				};
-			};
-			class Rae2
-			{
-				displayname = "Russian Arms Expo camo 2";
-				author="Gordon Weedman";
-				textures[]=
-				{
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext01_rae2_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext02_rae2_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ammo_rae2_co.paa"
-				};
-				factions[]=
-				{
-					"BLU_F",
-					"OPF_F",
-					"IND_F"
-				};
-			};
-			class Rae3
-			{
-				displayname = "Russian Arms Expo camo 3";
-				author="Gordon Weedman";
-				textures[]=
-				{
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext01_rae3_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext02_rae3_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ammo_rae3_co.paa"
 				};
 				factions[]=
 				{
@@ -914,60 +758,6 @@ class CfgVehicles
 					"IND_F"
 				};
 			};
-			class Rae1
-			{
-				displayname = "Russian Arms Expo camo 1";
-				author="Gordon Weedman";
-				textures[]=
-				{
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext01_rae1_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext02_rae1_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_cargo_rae1_co.paa",
-					"\A3\Structures_F\Data\Metal\Containers\Containers_colors_05_co.paa"
-				};
-				factions[]=
-				{
-					"BLU_F",
-					"OPF_F",
-					"IND_F"
-				};
-			};
-			class Rae2
-			{
-				displayname = "Russian Arms Expo camo 2";
-				author="Gordon Weedman";
-				textures[]=
-				{
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext01_rae2_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext02_rae2_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_cargo_rae2_co.paa",
-					"\A3\Structures_F\Data\Metal\Containers\Containers_colors_05_co.paa"
-				};
-				factions[]=
-				{
-					"BLU_F",
-					"OPF_F",
-					"IND_F"
-				};
-			};
-			class Rae3
-			{
-				displayname = "Russian Arms Expo camo 3";
-				author="Gordon Weedman";
-				textures[]=
-				{
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext01_rae3_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext02_rae3_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_cargo_rae3_co.paa",
-					"\A3\Structures_F\Data\Metal\Containers\Containers_colors_05_co.paa"
-				};
-				factions[]=
-				{
-					"BLU_F",
-					"OPF_F",
-					"IND_F"
-				};
-			};
 			class Tpat
 			{
 				displayname = "T-Pat";
@@ -1171,57 +961,6 @@ class CfgVehicles
 					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext01_winter_co.paa",
 					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext02_winter_co.paa",
 					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_fuel_winter_co.paa"
-				};
-				factions[]=
-				{
-					"BLU_F",
-					"OPF_F",
-					"IND_F"
-				};
-			};
-			class Rae1
-			{
-				displayname = "Russian Arms Expo camo 1";
-				author="Gordon Weedman";
-				textures[]=
-				{
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext01_rae1_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext02_rae1_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_fuel_rae1_co.paa"
-				};
-				factions[]=
-				{
-					"BLU_F",
-					"OPF_F",
-					"IND_F"
-				};
-			};
-			class Rae2
-			{
-				displayname = "Russian Arms Expo camo 2";
-				author="Gordon Weedman";
-				textures[]=
-				{
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext01_rae2_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext02_rae2_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_fuel_rae2_co.paa"
-				};
-				factions[]=
-				{
-					"BLU_F",
-					"OPF_F",
-					"IND_F"
-				};
-			};
-			class Rae3
-			{
-				displayname = "Russian Arms Expo camo 3";
-				author="Gordon Weedman";
-				textures[]=
-				{
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext01_rae3_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext02_rae3_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_fuel_rae3_co.paa"
 				};
 				factions[]=
 				{
@@ -1434,60 +1173,6 @@ class CfgVehicles
 					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext02_winter_co.paa",
 					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_cargo_winter_co.paa",
 					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_cover_winter_co.paa"
-				};
-				factions[]=
-				{
-					"BLU_F",
-					"OPF_F",
-					"IND_F"
-				};
-			};
-			class Rae1
-			{
-				displayname = "Russian Arms Expo camo 1";
-				author="Gordon Weedman";
-				textures[]=
-				{
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext01_rae1_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext02_rae1_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_cargo_rae1_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_cover_rae1_co.paa"
-				};
-				factions[]=
-				{
-					"BLU_F",
-					"OPF_F",
-					"IND_F"
-				};
-			};
-			class Rae2
-			{
-				displayname = "Russian Arms Expo camo 2";
-				author="Gordon Weedman";
-				textures[]=
-				{
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext01_rae2_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext02_rae2_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_cargo_rae2_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_cover_rae2_co.paa"
-				};
-				factions[]=
-				{
-					"BLU_F",
-					"OPF_F",
-					"IND_F"
-				};
-			};
-			class Rae3
-			{
-				displayname = "Russian Arms Expo camo 3";
-				author="Gordon Weedman";
-				textures[]=
-				{
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext01_rae3_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext02_rae3_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_cargo_rae3_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_cover_rae3_co.paa"
 				};
 				factions[]=
 				{
@@ -1709,63 +1394,6 @@ class CfgVehicles
 					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext01_winter_co.paa",
 					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext02_winter_co.paa",
 					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_cargo_winter_co.paa",
-					"\A3\Structures_F_EPC\Items\Electronics\Data\The_Device_02_CO.paa",
-					"\A3\Structures_F_EPC\Items\Electronics\Data\The_Device_03_CO.paa"
-				};
-				factions[]=
-				{
-					"BLU_F",
-					"OPF_F",
-					"IND_F"
-				};
-			};
-			class Rae1
-			{
-				displayname = "Russian Arms Expo camo 1";
-				author="Gordon Weedman";
-				textures[]=
-				{
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext01_rae1_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext02_rae1_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_cargo_rae1_co.paa",
-					"\A3\Structures_F_EPC\Items\Electronics\Data\The_Device_02_CO.paa",
-					"\A3\Structures_F_EPC\Items\Electronics\Data\The_Device_03_CO.paa"
-				};
-				factions[]=
-				{
-					"BLU_F",
-					"OPF_F",
-					"IND_F"
-				};
-			};
-			class Rae2
-			{
-				displayname = "Russian Arms Expo camo 2";
-				author="Gordon Weedman";
-				textures[]=
-				{
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext01_rae2_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext02_rae2_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_cargo_rae2_co.paa",
-					"\A3\Structures_F_EPC\Items\Electronics\Data\The_Device_02_CO.paa",
-					"\A3\Structures_F_EPC\Items\Electronics\Data\The_Device_03_CO.paa"
-				};
-				factions[]=
-				{
-					"BLU_F",
-					"OPF_F",
-					"IND_F"
-				};
-			};
-			class Rae3
-			{
-				displayname = "Russian Arms Expo camo 3";
-				author="Gordon Weedman";
-				textures[]=
-				{
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext01_rae3_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_ext02_rae3_co.paa",
-					"\FP_Factions\gordon_reskins\typhoon\data\Truck_03_cargo_rae3_co.paa",
 					"\A3\Structures_F_EPC\Items\Electronics\Data\The_Device_02_CO.paa",
 					"\A3\Structures_F_EPC\Items\Electronics\Data\The_Device_03_CO.paa"
 				};
