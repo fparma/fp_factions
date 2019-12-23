@@ -13,9 +13,6 @@ class CfgPatches
 			"FP_GOR_LMG_Mk200_F_black",
 			"FP_GOR_LMG_Mk200_F_FDE_blackbox",
 			"FP_GOR_LMG_Mk200_F_olive_blackbox",
-			"FP_GOR_LMG_Mk200_F_carc",
-			"FP_GOR_LMG_Mk200_F_carcdes",
-			"FP_GOR_LMG_Mk200_F_carcwin",
 			"FP_GOR_LMG_Mk200_F_spraywood",
 			"FP_GOR_LMG_Mk200_F_sprayautumn",
 			"FP_GOR_LMG_Mk200_F_spraydes",
@@ -78,63 +75,6 @@ class CfgWeapons
 		{
 			"\FP_Factions\gordon_reskins\stoner\data\1st_person_black_blackbox_co.paa",
 			"\FP_Factions\gordon_reskins\stoner\data\body_olive_co.paa",
-			"\FP_Factions\gordon_reskins\stoner\data\grip_black_co.paa"
-		};
-		hiddenSelectionsMaterials[]=
-		{
-			"\FP_Factions\gordon_reskins\stoner\data\vig_m200_1st_metal.rvmat",
-			"\FP_Factions\gordon_reskins\stoner\data\vig_m200_body_metal.rvmat",
-			"\FP_Factions\gordon_reskins\stoner\data\grip_metal.rvmat"
-		}; 
-	};
-	class FP_GOR_LMG_Mk200_F_carc: LMG_Mk200_F
-	{
-		author="Gordon Weedman";
-		_generalMacro="FP_GOR_LMG_Mk200_F_carc";
-		baseWeapon="FP_GOR_LMG_Mk200_F_carc";
-		displayName="Stoner 99 LMG (CARC)";
-		hiddenSelectionsTextures[]=
-		{
-			"\FP_Factions\gordon_reskins\stoner\data\1st_person_black_greenbox_co.paa",
-			"\FP_Factions\gordon_reskins\stoner\data\body_carc_co.paa",
-			"\FP_Factions\gordon_reskins\stoner\data\grip_black_co.paa"
-		};
-		hiddenSelectionsMaterials[]=
-		{
-			"\FP_Factions\gordon_reskins\stoner\data\vig_m200_1st_metal.rvmat",
-			"\FP_Factions\gordon_reskins\stoner\data\vig_m200_body_metal.rvmat",
-			"\FP_Factions\gordon_reskins\stoner\data\grip_metal.rvmat"
-		}; 
-	};
-	class FP_GOR_LMG_Mk200_F_carcdes: LMG_Mk200_F
-	{
-		author="Gordon Weedman";
-		_generalMacro="FP_GOR_LMG_Mk200_F_carcdes";
-		baseWeapon="FP_GOR_LMG_Mk200_F_carcdes";
-		displayName="Stoner 99 LMG (CARC Desert)";
-		hiddenSelectionsTextures[]=
-		{
-			"\FP_Factions\gordon_reskins\stoner\data\1st_person_black_tanbox_co.paa",
-			"\FP_Factions\gordon_reskins\stoner\data\body_carcdes_co.paa",
-			"\FP_Factions\gordon_reskins\stoner\data\grip_black_co.paa"
-		};
-		hiddenSelectionsMaterials[]=
-		{
-			"\FP_Factions\gordon_reskins\stoner\data\vig_m200_1st_metal.rvmat",
-			"\FP_Factions\gordon_reskins\stoner\data\vig_m200_body_metal.rvmat",
-			"\FP_Factions\gordon_reskins\stoner\data\grip_metal.rvmat"
-		}; 
-	};
-	class FP_GOR_LMG_Mk200_F_carcwin: LMG_Mk200_F
-	{
-		author="Gordon Weedman";
-		_generalMacro="FP_GOR_LMG_Mk200_F_carcwin";
-		baseWeapon="FP_GOR_LMG_Mk200_F_carcwin";
-		displayName="Stoner 99 LMG (CARC Winter)";
-		hiddenSelectionsTextures[]=
-		{
-			"\FP_Factions\gordon_reskins\stoner\data\1st_person_black_whitebox_co.paa",
-			"\FP_Factions\gordon_reskins\stoner\data\body_carcwin_co.paa",
 			"\FP_Factions\gordon_reskins\stoner\data\grip_black_co.paa"
 		};
 		hiddenSelectionsMaterials[]=

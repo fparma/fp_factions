@@ -128,57 +128,6 @@ class CfgVehicles
 					"IND_F"
 				};
 			};
-			class Rae1
-			{
-				displayname = "Russian Arms Expo camo 1";
-				author="Gordon Weedman";
-				textures[]=
-				{
-					"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_ext_01_rae1_co.paa",
-					"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_ext_02_rae1_co.paa",
-					"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_rcws_rae1_co.paa"
-				};
-				factions[]=
-				{
-					"BLU_F",
-					"OPF_F",
-					"IND_F"
-				};
-			};
-			class Rae2
-			{
-				displayname = "Russian Arms Expo camo 2";
-				author="Gordon Weedman";
-				textures[]=
-				{
-					"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_ext_01_rae2_co.paa",
-					"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_ext_02_rae2_co.paa",
-					"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_rcws_rae2_co.paa"
-				};
-				factions[]=
-				{
-					"BLU_F",
-					"OPF_F",
-					"IND_F"
-				};
-			};
-			class Rae3
-			{
-				displayname = "Russian Arms Expo camo 3";
-				author="Gordon Weedman";
-				textures[]=
-				{
-					"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_ext_01_rae3_co.paa",
-					"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_ext_02_rae3_co.paa",
-					"\FP_Factions\gordon_reskins\karatel\data\MRAP_02_rcws_rae3_co.paa"
-				};
-				factions[]=
-				{
-					"BLU_F",
-					"OPF_F",
-					"IND_F"
-				};
-			};
 			class Tpat
 			{
 				displayname = "T-Pat";
