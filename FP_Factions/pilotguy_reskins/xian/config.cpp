@@ -30,7 +30,7 @@ class CfgVehicles
 			class USMC
 			{
 				displayname = "USMC";
-				author="Pilotguy";
+				author="Pilotguy, Gordon Weedman";
 				textures[]=
 				{
 					"\FP_Factions\pilotguy_reskins\xian\data\usmc\VTOL_02_EXT01_USMC_CO.paa",
@@ -47,7 +47,7 @@ class CfgVehicles
 			class AirSup
 			{
 				displayname = "Air Superiority";
-				author="Pilotguy";
+				author="Pilotguy, Gordon Weedman";
 				textures[]=
 				{
 					"\FP_Factions\pilotguy_reskins\xian\data\grey\VTOL_02_EXT01_grey_CO.paa",
@@ -59,6 +59,23 @@ class CfgVehicles
 				{
 					"BLU_F",
 					"BLU_T_F",
+					"OPF_F",
+					"OPF_T_F"
+				};
+			};
+			class PLAAF
+			{
+				displayname = "PLAAF Black";
+				author="Pilotguy, Gordon Weedman";
+				textures[]=
+				{
+					"\FP_Factions\pilotguy_reskins\xian\data\plaaf\VTOL_02_EXT01_plablk_CO.paa",
+					"\FP_Factions\pilotguy_reskins\xian\data\plaaf\VTOL_02_EXT02_plablk_CO.paa",
+					"\FP_Factions\pilotguy_reskins\xian\data\plaaf\VTOL_02_EXT03_L_plablk_CO.paa",
+					"\FP_Factions\pilotguy_reskins\xian\data\plaaf\VTOL_02_EXT03_R_plablk_CO.paa"
+				};
+				factions[]=
+				{
 					"OPF_F",
 					"OPF_T_F"
 				};
@@ -80,7 +97,7 @@ class CfgVehicles
 
 	class FP_PIL_T_VTOL_02_infantry_F: VTOL_02_infantry_dynamicLoadout_base_F
 	{
-		author = "Pilotguy";
+		author = "Pilotguy, Gordon Weedman";
 		
 		scope = 2;
 		side = 1;
@@ -212,6 +229,9 @@ class CfgVehicles
 		};
 		class Components
 		{
+			class TransportCountermeasuresComponent
+			{
+			};
 			class TransportPylonsComponent
 			{
 				uiPicture = "\A3\Air_F_Exp\VTOL_02\Data\UI\VTOL_02_3DEN_CA.paa";
@@ -278,7 +298,8 @@ class CfgVehicles
 		textureList[] = 
 		{
 			"USMC", 1,
-			"AirSup", 0
+			"AirSup", 1,
+			"PLAAF", 0
 		};
 		hiddenSelectionsTextures[] = 
 		{
@@ -290,7 +311,7 @@ class CfgVehicles
 	};
 	class FP_PIL_T_VTOL_02_vehicle_F: VTOL_02_vehicle_dynamicLoadout_base_F
 	{
-		author = "Pilotguy";
+		author = "Pilotguy, Gordon Weedman";
 		
 		scope = 2;
 		side = 1;
@@ -421,6 +442,9 @@ class CfgVehicles
 		};
 		class Components
 		{
+			class TransportCountermeasuresComponent
+			{
+			};
 			class TransportPylonsComponent
 			{
 				uiPicture = "\A3\Air_F_Exp\VTOL_02\Data\UI\VTOL_02_3DEN_CA.paa";
@@ -487,7 +511,8 @@ class CfgVehicles
 		textureList[] = 
 		{
 			"USMC", 1,
-			"AirSup", 0
+			"AirSup", 1,
+			"PLAAF", 0
 		};
 		hiddenSelectionsTextures[] = 
 		{
