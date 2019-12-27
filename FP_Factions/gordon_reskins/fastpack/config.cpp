@@ -19,7 +19,6 @@ class CfgPatches
 			"FP_GOR_fastpack_oakleafsummer",
 			"FP_GOR_fastpack_oakleaffall",
 			"FP_GOR_fastpack_auscamdpcu",
-			"FP_GOR_fastpack_auscammidpoint",
 			"FP_GOR_fastpack_auscamdpdu",
 			"FP_GOR_fastpack_smk",
 			"FP_GOR_fastpack_cropat"
@@ -149,15 +148,6 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\fastpack\data\fastpack_auscamdpcu_co.paa"
-		};
-	};
-	class FP_GOR_fastpack_auscammidpoint: B_Kitbag_rgr
-	{
-		author="Gordon Weedman";
-		displayName="Kitbag (AUSCAM midpoint)";
-		hiddenSelectionsTextures[]=
-		{
-			"\FP_Factions\gordon_reskins\fastpack\data\fastpack_auscammidpoint_co.paa"
 		};
 	};
 	class FP_GOR_fastpack_auscamdpdu: B_Kitbag_rgr

@@ -64,10 +64,6 @@ class CfgPatches
 			"FP_GOR_Uniform_Massif_02_auscamdpdu",
 			"FP_GOR_Uniform_Massifjacket_auscamdpdu",
 			"FP_GOR_Uniform_Massifjacket_02_auscamdpdu",
-			"FP_GOR_Uniform_Massif_auscammidpoint",
-			"FP_GOR_Uniform_Massif_02_auscammidpoint",
-			"FP_GOR_Uniform_Massifjacket_auscammidpoint",
-			"FP_GOR_Uniform_Massifjacket_02_auscammidpoint",
 			"FP_GOR_Uniform_Massif_smk",
 			"FP_GOR_Uniform_Massif_02_smk",
 			"FP_GOR_Uniform_Massifjacket_smk",
@@ -89,7 +85,15 @@ class CfgPatches
 			"FP_GOR_Uniform_Massifjacket_mm14",
 			"FP_GOR_Uniform_Massifjacket_02_mm14",
 			"FP_GOR_Uniform_Massifjacket_aaf",
-			"FP_GOR_Uniform_Massifjacket_02_aaf"
+			"FP_GOR_Uniform_Massifjacket_02_aaf",
+			"FP_GOR_Uniform_Massif_splitterfall",
+			"FP_GOR_Uniform_Massif_02_splitterfall",
+			"FP_GOR_Uniform_Massifjacket_splitterfall",
+			"FP_GOR_Uniform_Massifjacket_02_splitterfall",
+			"FP_GOR_Uniform_Massif_splittersummer",
+			"FP_GOR_Uniform_Massif_02_splittersummer",
+			"FP_GOR_Uniform_Massifjacket_splittersummer",
+			"FP_GOR_Uniform_Massifjacket_02_splittersummer"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -1053,71 +1057,6 @@ class CfgVehicles
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifauscamdpdu_co.paa"
 		};
 	};
-	class FP_GOR_Massif_auscammidpoint: I_soldier_F
-	{
-		author="Gordon Weedman";
-		_generalMacro="I_Soldier_F";
-		scope=1;
-		uniformClass="FP_GOR_Uniform_Massif_auscammidpoint";
-		displayName="Massif (AUSCAM midpoint)";
-		nakedUniform="U_BasicBody";
-		hiddenSelections[]=
-		{
-			"Camo",
-			"insignia"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"\FP_Factions\gordon_reskins\massifreskin\data\massifauscammidpoint_co.paa"
-		};
-	};
-	class FP_GOR_Massif_02_auscammidpoint: I_Soldier_02_F
-	{
-		author="Gordon Weedman";
-		_generalMacro="I_Soldier_02_F";
-		scope=1;
-		uniformClass="FP_GOR_Uniform_Massif_02_auscammidpoint";
-		displayName="Massif (AUSCAM midpoint, sleeves)";
-		nakedUniform="U_BasicBody";
-		hiddenSelections[]=
-		{
-			"Camo",
-			"insignia"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"\FP_Factions\gordon_reskins\massifreskin\data\massifauscammidpoint_co.paa"
-		};
-	};
-	class FP_GOR_Massifjacket_auscammidpoint: I_E_Uniform_01_F
-	{
-		author="Gordon Weedman";
-		_generalMacro="I_E_Uniform_01_F";
-		scope=1;
-		uniformClass="FP_GOR_Uniform_Massifjacket_auscammidpoint";
-		displayName="Massif (AUSCAM midpoint, jacket)";
-		nakedUniform="U_BasicBody";
-		hiddenSelectionsTextures[]=
-		{
-			"\FP_Factions\gordon_reskins\massifreskin\data\jacketauscammidpoint_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\massifauscammidpoint_co.paa",
-			"a3\characters_f_enoch\uniforms\data\i_e_soldier_01_gloves_black_co.paa"
-		};
-	};
-	class FP_GOR_Massifjacket_02_auscammidpoint: I_E_Uniform_01_shortsleeve_F
-	{
-		author="Gordon Weedman";
-		_generalMacro="I_E_Uniform_01_shortsleeve_F";
-		scope=1;
-		uniformClass="FP_GOR_Uniform_Massifjacket_02_auscammidpoint";
-		displayName="Massif (AUSCAM midpoint, jacket, sleeves)";
-		nakedUniform="U_BasicBody";
-		hiddenSelectionsTextures[]=
-		{
-			"\FP_Factions\gordon_reskins\massifreskin\data\jacketauscammidpoint_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\massifauscammidpoint_co.paa"
-		};
-	};
 	class FP_GOR_Massif_smk: I_soldier_F
 	{
 		author="Gordon Weedman";
@@ -1470,6 +1409,136 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketaaf_co.paa",
 			"a3\characters_f_beta\indep\data\ia_soldier_01_clothing_co.paa"
+		};
+	};
+	class FP_GOR_Massif_splitterfall: I_soldier_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_splitterfall";
+		displayName="Massif (Splitter 31 (Fall))";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifsplitterfall_co.paa"
+		};
+	};
+	class FP_GOR_Massif_02_splitterfall: I_Soldier_02_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_02_splitterfall";
+		displayName="Massif (Splitter 31 (Fall), sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifsplitterfall_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_splitterfall: I_E_Uniform_01_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_splitterfall";
+		displayName="Massif (Splitter 31 (Fall), jacket)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketsplitterfall_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifsplitterfall_co.paa",
+			"a3\characters_f_enoch\uniforms\data\i_e_soldier_01_gloves_black_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_02_splitterfall: I_E_Uniform_01_shortsleeve_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_02_splitterfall";
+		displayName="Massif (Splitter 31 (Fall), jacket, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketsplitterfall_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifsplitterfall_co.paa"
+		};
+	};
+	class FP_GOR_Massif_splittersummer: I_soldier_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_splittersummer";
+		displayName="Massif (Splitter 31 (Summer))";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifsplittersummer_co.paa"
+		};
+	};
+	class FP_GOR_Massif_02_splittersummer: I_Soldier_02_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_02_splittersummer";
+		displayName="Massif (Splitter 31 (Summer), sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifsplittersummer_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_splittersummer: I_E_Uniform_01_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_splittersummer";
+		displayName="Massif (Splitter 31 (Summer), jacket)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketsplittersummer_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifsplittersummer_co.paa",
+			"a3\characters_f_enoch\uniforms\data\i_e_soldier_01_gloves_black_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_02_splittersummer: I_E_Uniform_01_shortsleeve_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_02_splittersummer";
+		displayName="Massif (Splitter 31 (Summer), jacket, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketsplittersummer_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifsplittersummer_co.paa"
 		};
 	};
 };
@@ -2404,70 +2473,6 @@ class CfgWeapons
 			mass=40;
 		};
 	};
-	class FP_GOR_Uniform_Massif_auscammidpoint: U_I_CombatUniform
-	{
-		scope=2;
-		displayName="Massif (AUSCAM midpoint)";
-		author="Gordon Weedman";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass="FP_GOR_Massif_auscammidpoint";
-			containerClass="Supply40";
-			mass=40;
-		};
-	};
-	class FP_GOR_Uniform_Massif_02_auscammidpoint: U_I_CombatUniform_shortsleeve
-	{
-		scope=2;
-		displayName="Massif (AUSCAM midpoint, sleeves)";
-		author="Gordon Weedman";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass="FP_GOR_Massif_02_auscammidpoint";
-			containerClass="Supply40";
-			mass=40;
-		};
-	};
-	class FP_GOR_Uniform_Massifjacket_auscammidpoint: U_I_E_Uniform_01_F
-	{
-		scope=2;
-		displayName="Massif (AUSCAM midpoint, jacket)";
-		author="Gordon Weedman";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
-		hiddenSelectionsTextures[]=
-		{
-			"\FP_Factions\gordon_reskins\massifreskin\data\jacketauscammidpoint_co.paa"
-		};
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass="FP_GOR_Massifjacket_auscammidpoint";
-			containerClass="Supply40";
-			mass=40;
-		};
-	};
-	class FP_GOR_Uniform_Massifjacket_02_auscammidpoint: U_I_E_Uniform_01_shortsleeve_F
-	{
-		scope=2;
-		displayName="Massif (AUSCAM midpoint, jacket, sleeves)";
-		author="Gordon Weedman";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
-		hiddenSelectionsTextures[]=
-		{
-			"\FP_Factions\gordon_reskins\massifreskin\data\jacketauscammidpoint_co.paa"
-		};
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass="FP_GOR_Massifjacket_02_auscammidpoint";
-			containerClass="Supply40";
-			mass=40;
-		};
-	};
 	class FP_GOR_Uniform_Massif_smk: U_I_CombatUniform
 	{
 		scope=2;
@@ -2820,6 +2825,134 @@ class CfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="FP_GOR_Massifjacket_02_aaf";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massif_splitterfall: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="Massif (Splitter 31 (Fall))";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_splitterfall";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massif_02_splitterfall: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="Massif (Splitter 31 (Fall), sleeves)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_02_splitterfall";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massifjacket_splitterfall: U_I_E_Uniform_01_F
+	{
+		scope=2;
+		displayName="Massif (Splitter 31 (Fall), jacket)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketsplitterfall_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massifjacket_splitterfall";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massifjacket_02_splitterfall: U_I_E_Uniform_01_shortsleeve_F
+	{
+		scope=2;
+		displayName="Massif (Splitter 31 (Fall), jacket, sleeves)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketsplitterfall_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massifjacket_02_splitterfall";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massif_splittersummer: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="Massif (Splitter 31 (Summer))";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_splittersummer";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massif_02_splittersummer: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="Massif (Splitter 31 (Summer), sleeves)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_02_splittersummer";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massifjacket_splittersummer: U_I_E_Uniform_01_F
+	{
+		scope=2;
+		displayName="Massif (Splitter 31 (Summer), jacket)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketsplittersummer_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massifjacket_splittersummer";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massifjacket_02_splittersummer: U_I_E_Uniform_01_shortsleeve_F
+	{
+		scope=2;
+		displayName="Massif (Splitter 31 (Summer), jacket, sleeves)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketsplittersummer_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massifjacket_02_splittersummer";
 			containerClass="Supply40";
 			mass=40;
 		};

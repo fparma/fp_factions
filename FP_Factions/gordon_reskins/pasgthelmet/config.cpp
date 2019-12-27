@@ -34,8 +34,6 @@ class CfgPatches
 			"FP_GOR_PASGThelmet_auscamdpcu_rhino",
 			"FP_GOR_PASGThelmet_auscamdpdu",
 			"FP_GOR_PASGThelmet_auscamdpdu_rhino",
-			"FP_GOR_PASGThelmet_auscammidpoint",
-			"FP_GOR_PASGThelmet_auscammidpoint_rhino",
 			"FP_GOR_PASGThelmet_smk",
 			"FP_GOR_PASGThelmet_smk_rhino",
 			"FP_GOR_PASGThelmet_cropat",
@@ -360,28 +358,6 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_auscamdpdu_co.paa"
-		};
-	};
-	class FP_GOR_PASGThelmet_auscammidpoint : rhsgref_helmet_pasgt_erdl
-	{
-		author="Gordon Weedman";
-		_generalMacro="rhsgref_helmet_pasgt_erdl";
-		scope=2;
-		displayName="PASGT (AUSCAM midpoint)";
-		hiddenSelectionsTextures[]=
-		{
-			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_auscammidpoint_co.paa"
-		};
-	};
-	class FP_GOR_PASGThelmet_auscammidpoint_rhino : rhsgref_helmet_pasgt_erdl_rhino
-	{
-		author="Gordon Weedman";
-		_generalMacro="rhsgref_helmet_pasgt_erdl_rhino";
-		scope=2;
-		displayName="PASGT (AUSCAM midpoint, Rhino)";
-		hiddenSelectionsTextures[]=
-		{
-			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_auscammidpoint_co.paa"
 		};
 	};
 	class FP_GOR_PASGThelmet_smk : rhsgref_helmet_pasgt_erdl

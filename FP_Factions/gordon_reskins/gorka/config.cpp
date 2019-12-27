@@ -15,7 +15,11 @@ class CfgPatches
 			"FP_GOR_Gorka_EMR",
 			"FP_GOR_Gorka_Armour_EMR",
 			"FP_GOR_Gorka_Skol",
-			"FP_GOR_Gorka_Armour_Skol"
+			"FP_GOR_Gorka_Armour_Skol",
+			"FP_GOR_Gorka_Birch",
+			"FP_GOR_Gorka_Armour_Birch",
+			"FP_GOR_Gorka_Sunray",
+			"FP_GOR_Gorka_Armour_Sunray"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -362,6 +366,82 @@ class CfgVehicles
 			"\FP_Factions\gordon_reskins\gorka\data\Gorka_Skol_CO.paa"
 		};
 	};
+	class FP_GOR_Gorka_Birch: O_R_Gorka_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="O_R_Gorka_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Gorka_Birch";
+		displayName="Gorka (Birch, armoured)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo_1",
+			"camo_2",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\gorka\data\Gorka_Birch_CO.paa"
+		};
+	}; 
+	class FP_GOR_Gorka_Armour_Birch: FP_GOR_Gorka_Armour_Summer
+	{
+		author="Gordon Weedman";
+		_generalMacro="O_R_Gorka_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Gorka_Armour_Birch";
+		displayName="Gorka (Birch)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo_1",
+			"camo_2",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\gorka\data\Gorka_Birch_CO.paa"
+		};
+	};
+	class FP_GOR_Gorka_Sunray: O_R_Gorka_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="O_R_Gorka_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Gorka_Sunray";
+		displayName="Gorka (Sunray, armoured)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo_1",
+			"camo_2",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\gorka\data\Gorka_Sunray_CO.paa"
+		};
+	}; 
+	class FP_GOR_Gorka_Armour_Sunray: FP_GOR_Gorka_Armour_Summer
+	{
+		author="Gordon Weedman";
+		_generalMacro="O_R_Gorka_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Gorka_Armour_Sunray";
+		displayName="Gorka (Sunray)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo_1",
+			"camo_2",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\gorka\data\Gorka_Sunray_CO.paa"
+		};
+	};
 };
 class CfgWeapons			
 {
@@ -583,6 +663,94 @@ class CfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="FP_GOR_Gorka_Armour_Skol";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Gorka_Birch: U_O_R_Gorka_01_F
+	{
+		scope=2;
+		displayName="Gorka (Birch, armoured)";
+		author="Gordon Weedman";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\gorka\data\Gorka_Birch_CO.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Gorka_Birch";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Gorka_Armour_Birch: U_O_R_Gorka_01_F
+	{
+		scope=2;
+		displayName="Gorka (Birch)";
+		author="Gordon Weedman";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\gorka\data\Gorka_Birch_CO.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Gorka_Armour_Birch";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Gorka_Sunray: U_O_R_Gorka_01_F
+	{
+		scope=2;
+		displayName="Gorka (Sunray, armoured)";
+		author="Gordon Weedman";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\gorka\data\Gorka_Sunray_CO.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Gorka_Sunray";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Gorka_Armour_Sunray: U_O_R_Gorka_01_F
+	{
+		scope=2;
+		displayName="Gorka (Sunray)";
+		author="Gordon Weedman";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\gorka\data\Gorka_Sunray_CO.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Gorka_Armour_Sunray";
 			containerClass="Supply40";
 			mass=40;
 		};
