@@ -93,7 +93,11 @@ class CfgPatches
 			"FP_GOR_Uniform_Massif_splittersummer",
 			"FP_GOR_Uniform_Massif_02_splittersummer",
 			"FP_GOR_Uniform_Massifjacket_splittersummer",
-			"FP_GOR_Uniform_Massifjacket_02_splittersummer"
+			"FP_GOR_Uniform_Massifjacket_02_splittersummer",
+			"FP_GOR_Uniform_Massif_cs95dpm",
+			"FP_GOR_Uniform_Massif_02_cs95dpm",
+			"FP_GOR_Uniform_Massifjacket_cs95dpm",
+			"FP_GOR_Uniform_Massifjacket_02_cs95dpm"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -1541,6 +1545,71 @@ class CfgVehicles
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifsplittersummer_co.paa"
 		};
 	};
+	class FP_GOR_Massif_cs95dpm: I_soldier_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_cs95dpm";
+		displayName="Massif (DPM CS95)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifcs95dpm_co.paa"
+		};
+	};
+	class FP_GOR_Massif_02_cs95dpm: I_Soldier_02_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_02_cs95dpm";
+		displayName="Massif (DPM CS95, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifcs95dpm_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_cs95dpm: I_E_Uniform_01_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_cs95dpm";
+		displayName="Massif (DPM CS95, jacket)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketcs95dpm_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifcs95dpm_co.paa",
+			"a3\characters_f_enoch\uniforms\data\i_e_soldier_01_gloves_black_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_02_cs95dpm: I_E_Uniform_01_shortsleeve_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_02_cs95dpm";
+		displayName="Massif (DPM CS95, jacket, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketcs95dpm_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifcs95dpm_co.paa"
+		};
+	};
 };
 class CfgWeapons			
 {
@@ -2953,6 +3022,70 @@ class CfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="FP_GOR_Massifjacket_02_splittersummer";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massif_cs95dpm: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="Massif (DPM CS95)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_cs95dpm";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massif_02_cs95dpm: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="Massif (DPM CS95, sleeves)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_02_cs95dpm";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massifjacket_cs95dpm: U_I_E_Uniform_01_F
+	{
+		scope=2;
+		displayName="Massif (DPM CS95, jacket)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketcs95dpm_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massifjacket_cs95dpm";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massifjacket_02_cs95dpm: U_I_E_Uniform_01_shortsleeve_F
+	{
+		scope=2;
+		displayName="Massif (DPM CS95, jacket, sleeves)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketcs95dpm_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massifjacket_02_cs95dpm";
 			containerClass="Supply40";
 			mass=40;
 		};
