@@ -32,8 +32,6 @@ class CfgPatches
 			"FP_GOR_H_Booniehat_oakleaffall_hs",
 			"FP_GOR_H_Booniehat_auscamdpcu",
 			"FP_GOR_H_Booniehat_auscamdpcu_hs",
-			"FP_GOR_H_Booniehat_auscammidpoint",
-			"FP_GOR_H_Booniehat_auscammidpoint_hs",
 			"FP_GOR_H_Booniehat_auscamdpdu",
 			"FP_GOR_H_Booniehat_auscamdpdu_hs",
 			"FP_GOR_H_Booniehat_smk",
@@ -261,22 +259,6 @@ class CfgWeapons
 		scope = 2;
 		displayName = "Booniehat (AUSCAM DPCU, headset)";
 		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_auscamdpcu_co.paa"};
-	};
-	class FP_GOR_H_Booniehat_auscammidpoint: H_Booniehat_khk
-	{
-		author = "Gordon Weedman";
-		_generalMacro = "FP_GOR_H_Booniehat_auscammidpoint";
-		scope = 2;
-		displayName = "Booniehat (AUSCAM midpoint)";
-		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_auscammidpoint_co.paa"};
-	};
-	class FP_GOR_H_Booniehat_auscammidpoint_hs: H_Booniehat_khk_hs
-	{
-		author = "Gordon Weedman";
-		_generalMacro = "FP_GOR_H_Booniehat_auscammidpoint_hs";
-		scope = 2;
-		displayName = "Booniehat (AUSCAM midpoint, headset)";
-		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_auscammidpoint_co.paa"};
 	};
 	class FP_GOR_H_Booniehat_auscamdpdu: H_Booniehat_khk
 	{
