@@ -19,7 +19,9 @@ class CfgPatches
 			"FP_GOR_Gorka_Birch",
 			"FP_GOR_Gorka_Armour_Birch",
 			"FP_GOR_Gorka_Sunray",
-			"FP_GOR_Gorka_Armour_Sunray"
+			"FP_GOR_Gorka_Armour_Sunray",
+			"FP_GOR_Gorka_SURPAT",
+			"FP_GOR_Gorka_Armour_SURPAT"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -442,6 +444,44 @@ class CfgVehicles
 			"\FP_Factions\gordon_reskins\gorka\data\Gorka_Sunray_CO.paa"
 		};
 	};
+	class FP_GOR_Gorka_SURPAT: O_R_Gorka_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="O_R_Gorka_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Gorka_SURPAT";
+		displayName="Gorka (SURPAT, armoured)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo_1",
+			"camo_2",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\gorka\data\Gorka_SURPAT_CO.paa"
+		};
+	}; 
+	class FP_GOR_Gorka_Armour_SURPAT: FP_GOR_Gorka_Armour_Summer
+	{
+		author="Gordon Weedman";
+		_generalMacro="O_R_Gorka_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Gorka_Armour_SURPAT";
+		displayName="Gorka (SURPAT)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo_1",
+			"camo_2",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\gorka\data\Gorka_SURPAT_CO.paa"
+		};
+	};
 };
 class CfgWeapons			
 {
@@ -751,6 +791,50 @@ class CfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="FP_GOR_Gorka_Armour_Sunray";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Gorka_SURPAT: U_O_R_Gorka_01_F
+	{
+		scope=2;
+		displayName="Gorka (SURPAT, armoured)";
+		author="Gordon Weedman";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\gorka\data\Gorka_SURPAT_CO.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Gorka_SURPAT";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Gorka_Armour_SURPAT: U_O_R_Gorka_01_F
+	{
+		scope=2;
+		displayName="Gorka (SURPAT)";
+		author="Gordon Weedman";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\gorka\data\Gorka_SURPAT_CO.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Gorka_Armour_SURPAT";
 			containerClass="Supply40";
 			mass=40;
 		};
