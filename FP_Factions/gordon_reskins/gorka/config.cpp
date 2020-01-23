@@ -6,22 +6,22 @@ class CfgPatches
 		units[]={};
 		weapons[]=
 		{
-			"FP_GOR_Gorka_Summer",
-			"FP_GOR_Gorka_Armour_Summer",
-			"FP_GOR_Gorka_Autumn",
-			"FP_GOR_Gorka_Armour_Autumn",
-			"FP_GOR_Gorka_PautRev",
-			"FP_GOR_Gorka_Armour_PautRev",
-			"FP_GOR_Gorka_EMR",
-			"FP_GOR_Gorka_Armour_EMR",
-			"FP_GOR_Gorka_Skol",
-			"FP_GOR_Gorka_Armour_Skol",
-			"FP_GOR_Gorka_Birch",
-			"FP_GOR_Gorka_Armour_Birch",
-			"FP_GOR_Gorka_Sunray",
-			"FP_GOR_Gorka_Armour_Sunray",
-			"FP_GOR_Gorka_SURPAT",
-			"FP_GOR_Gorka_Armour_SURPAT"
+			"FP_GOR_Uniform_Gorka_Summer",
+			"FP_GOR_Uniform_Gorka_Armour_Summer",
+			"FP_GOR_Uniform_Gorka_Autumn",
+			"FP_GOR_Uniform_Gorka_Armour_Autumn",
+			"FP_GOR_Uniform_Gorka_PautRev",
+			"FP_GOR_Uniform_Gorka_Armour_PautRev",
+			"FP_GOR_Uniform_Gorka_EMR",
+			"FP_GOR_Uniform_Gorka_Armour_EMR",
+			"FP_GOR_Uniform_Gorka_Skol",
+			"FP_GOR_Uniform_Gorka_Armour_Skol",
+			"FP_GOR_Uniform_Gorka_Birch",
+			"FP_GOR_Uniform_Gorka_Armour_Birch",
+			"FP_GOR_Uniform_Gorka_Sunray",
+			"FP_GOR_Uniform_Gorka_Armour_Sunray",
+			"FP_GOR_Uniform_Gorka_SURPAT",
+			"FP_GOR_Uniform_Gorka_Armour_SURPAT"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
