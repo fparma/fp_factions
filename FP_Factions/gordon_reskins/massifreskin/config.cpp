@@ -97,7 +97,15 @@ class CfgPatches
 			"FP_GOR_Uniform_Massif_cs95dpm",
 			"FP_GOR_Uniform_Massif_02_cs95dpm",
 			"FP_GOR_Uniform_Massifjacket_cs95dpm",
-			"FP_GOR_Uniform_Massifjacket_02_cs95dpm"
+			"FP_GOR_Uniform_Massifjacket_02_cs95dpm",
+			"FP_GOR_Uniform_Massif_pantera",
+			"FP_GOR_Uniform_Massif_02_pantera",
+			"FP_GOR_Uniform_Massifjacket_pantera",
+			"FP_GOR_Uniform_Massifjacket_02_pantera",
+			"FP_GOR_Uniform_Massif_panteradesert",
+			"FP_GOR_Uniform_Massif_02_panteradesert",
+			"FP_GOR_Uniform_Massifjacket_panteradesert",
+			"FP_GOR_Uniform_Massifjacket_02_panteradesert"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -1610,6 +1618,136 @@ class CfgVehicles
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifcs95dpm_co.paa"
 		};
 	};
+	class FP_GOR_Massif_pantera: I_soldier_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_pantera";
+		displayName="Massif (Polish Pantera)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifpantera_co.paa"
+		};
+	};
+	class FP_GOR_Massif_02_pantera: I_Soldier_02_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_02_pantera";
+		displayName="Massif (Polish Pantera, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifpantera_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_pantera: I_E_Uniform_01_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_pantera";
+		displayName="Massif (Polish Pantera, jacket)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketpantera_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifpantera_co.paa",
+			"a3\characters_f_enoch\uniforms\data\i_e_soldier_01_gloves_black_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_02_pantera: I_E_Uniform_01_shortsleeve_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_02_pantera";
+		displayName="Massif (Polish Pantera, jacket, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketpantera_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifpantera_co.paa"
+		};
+	};
+	class FP_GOR_Massif_panteradesert: I_soldier_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_panteradesert";
+		displayName="Massif (Polish Pantera (Desert))";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifpanteradesert_co.paa"
+		};
+	};
+	class FP_GOR_Massif_02_panteradesert: I_Soldier_02_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_02_panteradesert";
+		displayName="Massif (Polish Pantera (Desert), sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifpanteradesert_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_panteradesert: I_E_Uniform_01_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_panteradesert";
+		displayName="Massif (Polish Pantera (Desert), jacket)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketpanteradesert_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifpanteradesert_co.paa",
+			"a3\characters_f_enoch\uniforms\data\i_e_soldier_01_gloves_black_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_02_panteradesert: I_E_Uniform_01_shortsleeve_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_02_panteradesert";
+		displayName="Massif (Polish Pantera (Desert), jacket, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketpanteradesert_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifpanteradesert_co.paa"
+		};
+	};
 };
 class CfgWeapons			
 {
@@ -3086,6 +3224,134 @@ class CfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="FP_GOR_Massifjacket_02_cs95dpm";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massif_pantera: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="Massif (Polish Pantera)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_pantera";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massif_02_pantera: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="Massif (Polish Pantera, sleeves)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_02_pantera";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massifjacket_pantera: U_I_E_Uniform_01_F
+	{
+		scope=2;
+		displayName="Massif (Polish Pantera, jacket)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketpantera_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massifjacket_pantera";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massifjacket_02_pantera: U_I_E_Uniform_01_shortsleeve_F
+	{
+		scope=2;
+		displayName="Massif (Polish Pantera, jacket, sleeves)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketpantera_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massifjacket_02_pantera";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massif_panteradesert: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="Massif (Polish Pantera (Desert))";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_panteradesert";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massif_02_panteradesert: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="Massif (Polish Pantera (Desert), sleeves)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_02_panteradesert";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massifjacket_panteradesert: U_I_E_Uniform_01_F
+	{
+		scope=2;
+		displayName="Massif (Polish Pantera (Desert), jacket)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketpanteradesert_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massifjacket_panteradesert";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massifjacket_02_panteradesert: U_I_E_Uniform_01_shortsleeve_F
+	{
+		scope=2;
+		displayName="Massif (Polish Pantera (Desert), jacket, sleeves)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketpanteradesert_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massifjacket_02_panteradesert";
 			containerClass="Supply40";
 			mass=40;
 		};
