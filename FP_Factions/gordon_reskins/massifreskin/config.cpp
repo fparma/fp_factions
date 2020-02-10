@@ -105,7 +105,15 @@ class CfgPatches
 			"FP_GOR_Uniform_Massif_panteradesert",
 			"FP_GOR_Uniform_Massif_02_panteradesert",
 			"FP_GOR_Uniform_Massifjacket_panteradesert",
-			"FP_GOR_Uniform_Massifjacket_02_panteradesert"
+			"FP_GOR_Uniform_Massifjacket_02_panteradesert",
+			"FP_GOR_Uniform_Massif_vz95woodland",
+			"FP_GOR_Uniform_Massif_02_vz95woodland",
+			"FP_GOR_Uniform_Massifjacket_vz95woodland",
+			"FP_GOR_Uniform_Massifjacket_02_vz95woodland",
+			"FP_GOR_Uniform_Massif_vz95desert",
+			"FP_GOR_Uniform_Massif_02_vz95desert",
+			"FP_GOR_Uniform_Massifjacket_vz95desert",
+			"FP_GOR_Uniform_Massifjacket_02_vz95desert"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -1748,6 +1756,136 @@ class CfgVehicles
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifpanteradesert_co.paa"
 		};
 	};
+	class FP_GOR_Massif_vz95woodland: I_soldier_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_vz95woodland";
+		displayName="Massif (Czech Vz95)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifvz95woodland_co.paa"
+		};
+	};
+	class FP_GOR_Massif_02_vz95woodland: I_Soldier_02_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_02_vz95woodland";
+		displayName="Massif (Czech Vz95, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifvz95woodland_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_vz95woodland: I_E_Uniform_01_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_vz95woodland";
+		displayName="Massif (Czech Vz95, jacket)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketvz95woodland_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifvz95woodland_co.paa",
+			"a3\characters_f_enoch\uniforms\data\i_e_soldier_01_gloves_black_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_02_vz95woodland: I_E_Uniform_01_shortsleeve_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_02_vz95woodland";
+		displayName="Massif (Czech Vz95, jacket, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketvz95woodland_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifvz95woodland_co.paa"
+		};
+	};
+	class FP_GOR_Massif_vz95desert: I_soldier_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_vz95desert";
+		displayName="Massif (Czech Vz95 (Desert))";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifvz95desert_co.paa"
+		};
+	};
+	class FP_GOR_Massif_02_vz95desert: I_Soldier_02_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_02_vz95desert";
+		displayName="Massif (Czech Vz95 (Desert), sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifvz95desert_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_vz95desert: I_E_Uniform_01_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_vz95desert";
+		displayName="Massif (Czech Vz95 (Desert), jacket)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketvz95desert_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifvz95desert_co.paa",
+			"a3\characters_f_enoch\uniforms\data\i_e_soldier_01_gloves_black_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_02_vz95desert: I_E_Uniform_01_shortsleeve_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_02_vz95desert";
+		displayName="Massif (Czech Vz95 (Desert), jacket, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketvz95desert_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifvz95desert_co.paa"
+		};
+	};
 };
 class CfgWeapons			
 {
@@ -3352,6 +3490,134 @@ class CfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="FP_GOR_Massifjacket_02_panteradesert";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massif_vz95woodland: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="Massif (Czech Vz95)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_vz95woodland";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massif_02_vz95woodland: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="Massif (Czech Vz95, sleeves)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_02_vz95woodland";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massifjacket_vz95woodland: U_I_E_Uniform_01_F
+	{
+		scope=2;
+		displayName="Massif (Czech Vz95, jacket)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketvz95woodland_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massifjacket_vz95woodland";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massifjacket_02_vz95woodland: U_I_E_Uniform_01_shortsleeve_F
+	{
+		scope=2;
+		displayName="Massif (Czech Vz95, jacket, sleeves)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketvz95woodland_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massifjacket_02_vz95woodland";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massif_vz95desert: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="Massif (Czech Vz95 (Desert))";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_vz95desert";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massif_02_vz95desert: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="Massif (Czech Vz95 (Desert), sleeves)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_02_vz95desert";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massifjacket_vz95desert: U_I_E_Uniform_01_F
+	{
+		scope=2;
+		displayName="Massif (Czech Vz95 (Desert), jacket)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketvz95desert_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massifjacket_vz95desert";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massifjacket_02_vz95desert: U_I_E_Uniform_01_shortsleeve_F
+	{
+		scope=2;
+		displayName="Massif (Czech Vz95 (Desert), jacket, sleeves)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketvz95desert_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massifjacket_02_vz95desert";
 			containerClass="Supply40";
 			mass=40;
 		};
