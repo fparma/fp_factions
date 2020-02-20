@@ -1889,4 +1889,199 @@ class CfgVehicles
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifvz95desert_co.paa"
 		};
 	};
+	class FP_GOR_Massif_flecktarnsummer: I_soldier_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_flecktarnsummer";
+		displayName="Massif (Flecktarn (Summer))";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifflecktarnsummer_co.paa"
+		};
+	};
+	class FP_GOR_Massif_02_flecktarnsummer: I_Soldier_02_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_02_flecktarnsummer";
+		displayName="Massif (Flecktarn (Summer), sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifflecktarnsummer_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_flecktarnsummer: I_E_Uniform_01_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_flecktarnsummer";
+		displayName="Massif (Flecktarn (Summer), jacket)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketflecktarnsummer_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifflecktarnsummer_co.paa",
+			"a3\characters_f_enoch\uniforms\data\i_e_soldier_01_gloves_black_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_02_flecktarnsummer: I_E_Uniform_01_shortsleeve_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_02_flecktarnsummer";
+		displayName="Massif (Flecktarn (Summer), jacket, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketflecktarnsummer_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifflecktarnsummer_co.paa"
+		};
+	};
+	class FP_GOR_Massif_flecktarnautumn: I_soldier_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_flecktarnautumn";
+		displayName="Massif (Flecktarn (Autumn))";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifflecktarnautumn_co.paa"
+		};
+	};
+	class FP_GOR_Massif_02_flecktarnautumn: I_Soldier_02_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_02_flecktarnautumn";
+		displayName="Massif (Flecktarn (Autumn), sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifflecktarnautumn_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_flecktarnautumn: I_E_Uniform_01_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_flecktarnautumn";
+		displayName="Massif (Flecktarn (Autumn), jacket)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketflecktarnautumn_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifflecktarnautumn_co.paa",
+			"a3\characters_f_enoch\uniforms\data\i_e_soldier_01_gloves_black_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_02_flecktarnautumn: I_E_Uniform_01_shortsleeve_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_02_flecktarnautumn";
+		displayName="Massif (Flecktarn (Autumn), jacket, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketflecktarnautumn_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifflecktarnautumn_co.paa"
+		};
+	};
+	class FP_GOR_Massif_flecktarndesert: I_soldier_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_flecktarndesert";
+		displayName="Massif (Flecktarn (Desert))";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifflecktarndesert_co.paa"
+		};
+	};
+	class FP_GOR_Massif_02_flecktarndesert: I_Soldier_02_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_02_flecktarndesert";
+		displayName="Massif (Flecktarn (Desert), sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifflecktarndesert_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_flecktarndesert: I_E_Uniform_01_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_flecktarndesert";
+		displayName="Massif (Flecktarn (Desert), jacket)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketflecktarndesert_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifflecktarndesert_co.paa",
+			"a3\characters_f_enoch\uniforms\data\i_e_soldier_01_gloves_black_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_02_flecktarndesert: I_E_Uniform_01_shortsleeve_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_02_flecktarndesert";
+		displayName="Massif (Flecktarn (Desert), jacket, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketflecktarndesert_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifflecktarndesert_co.paa"
+		};
+	};
 };

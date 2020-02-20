@@ -121,7 +121,19 @@ class CfgPatches
 			"FP_GOR_Uniform_Massif_vz95desert",
 			"FP_GOR_Uniform_Massif_02_vz95desert",
 			"FP_GOR_Uniform_Massifjacket_vz95desert",
-			"FP_GOR_Uniform_Massifjacket_02_vz95desert"
+			"FP_GOR_Uniform_Massifjacket_02_vz95desert",
+			"FP_GOR_Uniform_Massif_flecktarnsummer",
+			"FP_GOR_Uniform_Massif_02_flecktarnsummer",
+			"FP_GOR_Uniform_Massifjacket_flecktarnsummer",
+			"FP_GOR_Uniform_Massifjacket_02_flecktarnsummer",
+			"FP_GOR_Uniform_Massif_flecktarnautumn",
+			"FP_GOR_Uniform_Massif_02_flecktarnautumn",
+			"FP_GOR_Uniform_Massifjacket_flecktarnautumn",
+			"FP_GOR_Uniform_Massifjacket_02_flecktarnautumn",
+			"FP_GOR_Uniform_Massif_flecktarndesert",
+			"FP_GOR_Uniform_Massif_02_flecktarndesert",
+			"FP_GOR_Uniform_Massifjacket_flecktarndesert",
+			"FP_GOR_Uniform_Massifjacket_02_flecktarndesert"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=

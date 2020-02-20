@@ -1861,4 +1861,196 @@ class CfgWeapons
 			mass=40;
 		};
 	};
+	class FP_GOR_Uniform_Massif_flecktarnsummer: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="Massif (Flecktarn (Summer))";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_flecktarnsummer";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massif_02_flecktarnsummer: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="Massif (Flecktarn (Summer), sleeves)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_02_flecktarnsummer";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massifjacket_flecktarnsummer: U_I_E_Uniform_01_F
+	{
+		scope=2;
+		displayName="Massif (Flecktarn (Summer), jacket)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketflecktarnsummer_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massifjacket_flecktarnsummer";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massifjacket_02_flecktarnsummer: U_I_E_Uniform_01_shortsleeve_F
+	{
+		scope=2;
+		displayName="Massif (Flecktarn (Summer), jacket, sleeves)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketflecktarnsummer_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massifjacket_02_flecktarnsummer";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massif_flecktarnautumn: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="Massif (Flecktarn (Autumn))";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_flecktarnautumn";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massif_02_flecktarnautumn: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="Massif (Flecktarn (Autumn), sleeves)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_02_flecktarnautumn";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massifjacket_flecktarnautumn: U_I_E_Uniform_01_F
+	{
+		scope=2;
+		displayName="Massif (Flecktarn (Autumn), jacket)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketflecktarnautumn_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massifjacket_flecktarnautumn";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massifjacket_02_flecktarnautumn: U_I_E_Uniform_01_shortsleeve_F
+	{
+		scope=2;
+		displayName="Massif (Flecktarn (Autumn), jacket, sleeves)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketflecktarnautumn_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massifjacket_02_flecktarnautumn";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massif_flecktarndesert: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="Massif (Flecktarn (Desert))";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_flecktarndesert";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massif_02_flecktarndesert: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="Massif (Flecktarn (Desert), sleeves)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_02_flecktarndesert";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massifjacket_flecktarndesert: U_I_E_Uniform_01_F
+	{
+		scope=2;
+		displayName="Massif (Flecktarn (Desert), jacket)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketflecktarndesert_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massifjacket_flecktarndesert";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massifjacket_02_flecktarndesert: U_I_E_Uniform_01_shortsleeve_F
+	{
+		scope=2;
+		displayName="Massif (Flecktarn (Desert), jacket, sleeves)";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketflecktarndesert_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massifjacket_02_flecktarndesert";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
 };
