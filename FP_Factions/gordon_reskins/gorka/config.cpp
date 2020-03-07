@@ -34,8 +34,11 @@ class CfgPatches
 	};
 };
 class CfgVehicles
-{	
-	class O_R_Gorka_F;
+{	class O_R_Gorka_base_F;
+	class O_R_Gorka_F: O_R_Gorka_base_F
+	{
+		class Hitpoints;
+	};
 	class FP_GOR_Gorka_Summer: O_R_Gorka_F
 	{
 		author="Gordon Weedman";
@@ -63,7 +66,7 @@ class CfgVehicles
 		uniformClass="FP_GOR_Uniform_Gorka_Armour_Summer";
 		displayName="Gorka (Partizan Summer)";
 		nakedUniform="U_BasicBody";
-		class HitPoints
+		class HitPoints: Hitpoints
 		{
 			class HitFace
 			{
