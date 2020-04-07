@@ -21,12 +21,25 @@ class CfgPatches
 			"FP_GOR_fastpack_auscamdpcu",
 			"FP_GOR_fastpack_auscamdpdu",
 			"FP_GOR_fastpack_smk",
-			"FP_GOR_fastpack_cropat"
+			"FP_GOR_fastpack_cropat",
+			"FP_GOR_fastpack_cropatdesert",
+			"FP_GOR_fastpack_cs95dpm",
+			"FP_GOR_fastpack_pantera",
+			"FP_GOR_fastpack_panteradesert",
+			"FP_GOR_fastpack_vz95woodland",
+			"FP_GOR_fastpack_vz95desert",
+			"FP_GOR_fastpack_flecktarnsummer",
+			"FP_GOR_fastpack_flecktarnautumn",
+			"FP_GOR_fastpack_flecktarndesert",
+			"FP_GOR_fastpack_mm14",
+			"FP_GOR_fastpack_mm14woodland",
+			"FP_GOR_fastpack_honor"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
 		{
-			"A3_Weapons_F_Ammoboxes"
+			"A3_Weapons_F_Ammoboxes",
+			"A3_Data_F_Enoch_Loadorder"
 		};
 	};
 };
@@ -175,6 +188,114 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\fastpack\data\fastpack_cropat_co.paa"
+		};
+	};
+	class FP_GOR_fastpack_cropatdesert: B_Kitbag_rgr
+	{
+		author="Gordon Weedman";
+		displayName="Kitbag (CROPAT Desert)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\fastpack\data\fastpack_cropatdesert_co.paa"
+		};
+	};
+	class FP_GOR_fastpack_cs95dpm: B_Kitbag_rgr
+	{
+		author="Gordon Weedman";
+		displayName="Kitbag (DPM CS95)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\fastpack\data\fastpack_cs95dpm_co.paa"
+		};
+	};
+	class FP_GOR_fastpack_pantera: B_Kitbag_rgr
+	{
+		author="Gordon Weedman";
+		displayName="Kitbag (Polish Pantera)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\fastpack\data\fastpack_pantera_co.paa"
+		};
+	};
+	class FP_GOR_fastpack_panteradesert: B_Kitbag_rgr
+	{
+		author="Gordon Weedman";
+		displayName="Kitbag (Polish Pantera (Desert))";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\fastpack\data\fastpack_panteradesert_co.paa"
+		};
+	};
+	class FP_GOR_fastpack_vz95woodland: B_Kitbag_rgr
+	{
+		author="Gordon Weedman";
+		displayName="Kitbag (Czech Vz95)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\fastpack\data\fastpack_vz95woodland_co.paa"
+		};
+	};
+	class FP_GOR_fastpack_vz95desert: B_Kitbag_rgr
+	{
+		author="Gordon Weedman";
+		displayName="Kitbag (Czech Vz95 (Desert))";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\fastpack\data\fastpack_vz95desert_co.paa"
+		};
+	};
+	class FP_GOR_fastpack_flecktarnsummer: B_Kitbag_rgr
+	{
+		author="Gordon Weedman";
+		displayName="Kitbag (Flecktarn (Summer))";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\fastpack\data\fastpack_flecktarnsummer_co.paa"
+		};
+	};
+	class FP_GOR_fastpack_flecktarnautumn: B_Kitbag_rgr
+	{
+		author="Gordon Weedman";
+		displayName="Kitbag (Flecktarn (Autumn))";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\fastpack\data\fastpack_flecktarnautumn_co.paa"
+		};
+	};
+	class FP_GOR_fastpack_flecktarndesert: B_Kitbag_rgr
+	{
+		author="Gordon Weedman";
+		displayName="Kitbag (Flecktarn (Desert))";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\fastpack\data\fastpack_flecktarndesert_co.paa"
+		};
+	};
+	class FP_GOR_fastpack_mm14: B_Kitbag_rgr
+	{
+		author="Gordon Weedman";
+		displayName="Kitbag (Ukrainian MM-14)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\fastpack\data\fastpack_mm14_co.paa"
+		};
+	};
+	class FP_GOR_fastpack_mm14woodland: B_Kitbag_rgr
+	{
+		author="Gordon Weedman";
+		displayName="Kitbag (Ukrainian MM-14 Woodland)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\fastpack\data\fastpack_mm14woodland_co.paa"
+		};
+	};
+	class FP_GOR_fastpack_honor: B_Kitbag_rgr
+	{
+		author="Gordon Weedman";
+		displayName="Kitbag (Project Honor)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\fastpack\data\fastpack_honor_co.paa"
 		};
 	};
 }; 
