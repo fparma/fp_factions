@@ -153,7 +153,7 @@ class CfgWeapons
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b7\data\6b7-1m_woodland_co.paa",
-			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_bala1_olive_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b7\data\bala1_olive_co.paa"
 		};
 	};
 	class FP_GOR_6b7_1m_bala2_woodland: rhs_6b7_1m_bala2_emr
@@ -165,7 +165,7 @@ class CfgWeapons
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b7\data\6b7-1m_woodland_co.paa",
-			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_bala2_olive_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b7\data\bala2_olive_co.paa"
 		};
 	};
 	class FP_GOR_6b7_1m_ess_woodland: rhs_6b7_1m_emr_ess
@@ -188,7 +188,7 @@ class CfgWeapons
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b7\data\6b7-1m_woodland_co.paa",
-			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_bala2_olive_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b7\data\bala2_olive_co.paa"
 		};
 	};
 	
