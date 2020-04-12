@@ -37,7 +37,31 @@ class CfgPatches
 			"FP_GOR_PASGThelmet_smk",
 			"FP_GOR_PASGThelmet_smk_rhino",
 			"FP_GOR_PASGThelmet_cropat",
-			"FP_GOR_PASGThelmet_cropat_rhino"
+			"FP_GOR_PASGThelmet_cropat_rhino",
+			"FP_GOR_PASGThelmet_cropatdesert",
+			"FP_GOR_PASGThelmet_cropatdesert_rhino",
+			"FP_GOR_PASGThelmet_honor",
+			"FP_GOR_PASGThelmet_honor_rhino",
+			"FP_GOR_PASGThelmet_mm14",
+			"FP_GOR_PASGThelmet_mm14_rhino",
+			"FP_GOR_PASGThelmet_mm14woodland",
+			"FP_GOR_PASGThelmet_mm14woodland_rhino",
+			"FP_GOR_PASGThelmet_cs95dpm",
+			"FP_GOR_PASGThelmet_cs95dpm_rhino",
+			"FP_GOR_PASGThelmet_pantera",
+			"FP_GOR_PASGThelmet_pantera_rhino",
+			"FP_GOR_PASGThelmet_panteradesert",
+			"FP_GOR_PASGThelmet_panteradesert_rhino",
+			"FP_GOR_PASGThelmet_vz95woodland",
+			"FP_GOR_PASGThelmet_vz95woodland_rhino",
+			"FP_GOR_PASGThelmet_vz95desert",
+			"FP_GOR_PASGThelmet_vz95desert_rhino",
+			"FP_GOR_PASGThelmet_flecktarnsummer",
+			"FP_GOR_PASGThelmet_flecktarnsummer_rhino",
+			"FP_GOR_PASGThelmet_flecktarnautumn",
+			"FP_GOR_PASGThelmet_flecktarnautumn_rhino",
+			"FP_GOR_PASGThelmet_flecktarndesert",
+			"FP_GOR_PASGThelmet_flecktarndesert_rhino"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -402,6 +426,270 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_cropat_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_cropatdesert : rhsgref_helmet_pasgt_erdl
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl";
+		scope=2;
+		displayName="PASGT (CROPAT Desert)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_cropatdesert_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_cropatdesert_rhino : rhsgref_helmet_pasgt_erdl_rhino
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl_rhino";
+		scope=2;
+		displayName="PASGT (CROPAT Desert, Rhino)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_cropatdesert_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_honor : rhsgref_helmet_pasgt_erdl
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl";
+		scope=2;
+		displayName="PASGT (Project Honor)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_honor_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_honor_rhino : rhsgref_helmet_pasgt_erdl_rhino
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl_rhino";
+		scope=2;
+		displayName="PASGT (Project Honor, Rhino)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_honor_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_mm14 : rhsgref_helmet_pasgt_erdl
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl";
+		scope=2;
+		displayName="PASGT (Ukrainian MM-14)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_mm14_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_mm14_rhino : rhsgref_helmet_pasgt_erdl_rhino
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl_rhino";
+		scope=2;
+		displayName="PASGT (Ukrainian MM-14, Rhino)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_mm14_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_mm14woodland : rhsgref_helmet_pasgt_erdl
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl";
+		scope=2;
+		displayName="PASGT (Ukrainian MM-14 Woodland)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_mm14woodland_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_mm14woodland_rhino : rhsgref_helmet_pasgt_erdl_rhino
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl_rhino";
+		scope=2;
+		displayName="PASGT (Ukrainian MM-14 Woodland, Rhino)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_mm14woodland_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_cs95dpm : rhsgref_helmet_pasgt_erdl
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl";
+		scope=2;
+		displayName="PASGT (DPM CS95)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_cs95dpm_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_cs95dpm_rhino : rhsgref_helmet_pasgt_erdl_rhino
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl_rhino";
+		scope=2;
+		displayName="PASGT (DPM CS95, Rhino)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_cs95dpm_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_pantera : rhsgref_helmet_pasgt_erdl
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl";
+		scope=2;
+		displayName="PASGT (Polish Pantera)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_pantera_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_pantera_rhino : rhsgref_helmet_pasgt_erdl_rhino
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl_rhino";
+		scope=2;
+		displayName="PASGT (Polish Pantera, Rhino)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_pantera_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_panteradesert : rhsgref_helmet_pasgt_erdl
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl";
+		scope=2;
+		displayName="PASGT (Polish Pantera  (Desert))";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_panteradesert_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_panteradesert_rhino : rhsgref_helmet_pasgt_erdl_rhino
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl_rhino";
+		scope=2;
+		displayName="PASGT (Polish Pantera  (Desert), Rhino)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_panteradesert_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_vz95woodland : rhsgref_helmet_pasgt_erdl
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl";
+		scope=2;
+		displayName="PASGT (Czech Vz95)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_vz95woodland_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_vz95woodland_rhino : rhsgref_helmet_pasgt_erdl_rhino
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl_rhino";
+		scope=2;
+		displayName="PASGT (Czech Vz95, Rhino)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_vz95woodland_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_vz95desert : rhsgref_helmet_pasgt_erdl
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl";
+		scope=2;
+		displayName="PASGT (Czech Vz95 (Desert))";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_vz95desert_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_vz95desert_rhino : rhsgref_helmet_pasgt_erdl_rhino
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl_rhino";
+		scope=2;
+		displayName="PASGT (Czech Vz95 (Desert), Rhino)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_vz95desert_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_flecktarnsummer : rhsgref_helmet_pasgt_erdl
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl";
+		scope=2;
+		displayName="PASGT (Flecktarn (Summer))";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_flecktarnsummer_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_flecktarnsummer_rhino : rhsgref_helmet_pasgt_erdl_rhino
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl_rhino";
+		scope=2;
+		displayName="PASGT (Flecktarn (Summer), Rhino)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_flecktarnsummer_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_flecktarnautumn : rhsgref_helmet_pasgt_erdl
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl";
+		scope=2;
+		displayName="PASGT (Flecktarn (Autumn))";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_flecktarnautumn_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_flecktarnautumn_rhino : rhsgref_helmet_pasgt_erdl_rhino
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl_rhino";
+		scope=2;
+		displayName="PASGT (Flecktarn (Autumn), Rhino)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_flecktarnautumn_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_flecktarndesert : rhsgref_helmet_pasgt_erdl
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl";
+		scope=2;
+		displayName="PASGT (Flecktarn (Desert))";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_flecktarndesert_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_flecktarndesert_rhino : rhsgref_helmet_pasgt_erdl_rhino
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl_rhino";
+		scope=2;
+		displayName="PASGT (Flecktarn (Desert), Rhino)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_flecktarndesert_co.paa"
 		};
 	};
 };
