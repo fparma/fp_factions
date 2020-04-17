@@ -61,7 +61,19 @@ class CfgPatches
 			"FP_GOR_PASGThelmet_flecktarnautumn",
 			"FP_GOR_PASGThelmet_flecktarnautumn_rhino",
 			"FP_GOR_PASGThelmet_flecktarndesert",
-			"FP_GOR_PASGThelmet_flecktarndesert_rhino"
+			"FP_GOR_PASGThelmet_flecktarndesert_rhino",
+			"FP_GOR_PASGThelmet_m90",
+			"FP_GOR_PASGThelmet_m90_rhino",
+			"FP_GOR_PASGThelmet_m90k",
+			"FP_GOR_PASGThelmet_m90k_rhino",
+			"FP_GOR_PASGThelmet_frenchce",
+			"FP_GOR_PASGThelmet_frenchce_rhino",
+			"FP_GOR_PASGThelmet_frenchcegign",
+			"FP_GOR_PASGThelmet_frenchcegign_rhino",
+			"FP_GOR_PASGThelmet_frenchdaguet",
+			"FP_GOR_PASGThelmet_frenchdaguet_rhino",
+			"FP_GOR_PASGThelmet_multicamwoodland",
+			"FP_GOR_PASGThelmet_multicamwoodland_rhino"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -802,7 +814,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_frenchdaguet_co.paa"
 		};
 	};
-	class FP_GOR_PASGThelmet_flecktarndesert : rhsgref_helmet_pasgt_erdl
+	class FP_GOR_PASGThelmet_multicamwoodland : rhsgref_helmet_pasgt_erdl
 	{
 		author="Gordon Weedman";
 		_generalMacro="rhsgref_helmet_pasgt_erdl";
@@ -810,10 +822,10 @@ class CfgWeapons
 		displayName="PASGT (Multicam Woodland)";
 		hiddenSelectionsTextures[]=
 		{
-			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_flecktarndesert_co.paa"
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_multicamwoodland_co.paa"
 		};
 	};
-	class FP_GOR_PASGThelmet_flecktarndesert_rhino : rhsgref_helmet_pasgt_erdl_rhino
+	class FP_GOR_PASGThelmet_multicamwoodland_rhino : rhsgref_helmet_pasgt_erdl_rhino
 	{
 		author="Gordon Weedman";
 		_generalMacro="rhsgref_helmet_pasgt_erdl_rhino";
@@ -821,7 +833,7 @@ class CfgWeapons
 		displayName="PASGT (Multicam Woodland, Rhino)";
 		hiddenSelectionsTextures[]=
 		{
-			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_flecktarndesert_co.paa"
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_multicamwoodland_co.paa"
 		};
 	};
 };
