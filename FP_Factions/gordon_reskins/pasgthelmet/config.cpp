@@ -692,4 +692,136 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_flecktarndesert_co.paa"
 		};
 	};
+	class FP_GOR_PASGThelmet_m90 : rhsgref_helmet_pasgt_erdl
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl";
+		scope=2;
+		displayName="PASGT (Swedish M90)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_m90_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_m90_rhino : rhsgref_helmet_pasgt_erdl_rhino
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl_rhino";
+		scope=2;
+		displayName="PASGT (Swedish M90, Rhino)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_m90_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_m90k : rhsgref_helmet_pasgt_erdl
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl";
+		scope=2;
+		displayName="PASGT (Swedish M90K)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_m90k_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_m90k_rhino : rhsgref_helmet_pasgt_erdl_rhino
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl_rhino";
+		scope=2;
+		displayName="PASGT (Swedish M90K, Rhino)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_m90k_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_frenchce : rhsgref_helmet_pasgt_erdl
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl";
+		scope=2;
+		displayName="PASGT (French CE)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_frenchce_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_frenchce_rhino : rhsgref_helmet_pasgt_erdl_rhino
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl_rhino";
+		scope=2;
+		displayName="PASGT (French CE, Rhino)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_frenchce_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_frenchcegign : rhsgref_helmet_pasgt_erdl
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl";
+		scope=2;
+		displayName="PASGT (French CE (GIGN))";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_frenchcegign_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_frenchcegign_rhino : rhsgref_helmet_pasgt_erdl_rhino
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl_rhino";
+		scope=2;
+		displayName="PASGT (French CE (GIGN), Rhino)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_frenchcegign_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_frenchdaguet : rhsgref_helmet_pasgt_erdl
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl";
+		scope=2;
+		displayName="PASGT (French Daguet)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_frenchdaguet_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_frenchdaguet_rhino : rhsgref_helmet_pasgt_erdl_rhino
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl_rhino";
+		scope=2;
+		displayName="PASGT (French Daguet, Rhino)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_frenchdaguet_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_flecktarndesert : rhsgref_helmet_pasgt_erdl
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl";
+		scope=2;
+		displayName="PASGT (Multicam Woodland)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_flecktarndesert_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_flecktarndesert_rhino : rhsgref_helmet_pasgt_erdl_rhino
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl_rhino";
+		scope=2;
+		displayName="PASGT (Multicam Woodland, Rhino)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_flecktarndesert_co.paa"
+		};
+	};
 };

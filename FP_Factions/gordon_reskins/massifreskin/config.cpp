@@ -133,7 +133,32 @@ class CfgPatches
 			"FP_GOR_Uniform_Massif_flecktarndesert",
 			"FP_GOR_Uniform_Massif_02_flecktarndesert",
 			"FP_GOR_Uniform_Massifjacket_flecktarndesert",
-			"FP_GOR_Uniform_Massifjacket_02_flecktarndesert"
+			"FP_GOR_Uniform_Massifjacket_02_flecktarndesert",
+			"FP_GOR_Uniform_Massif_m90",
+			"FP_GOR_Uniform_Massif_02_m90",
+			"FP_GOR_Uniform_Massifjacket_m90",
+			"FP_GOR_Uniform_Massifjacket_02_m90",
+			"FP_GOR_Uniform_Massif_m90k",
+			"FP_GOR_Uniform_Massif_02_m90k",
+			"FP_GOR_Uniform_Massifjacket_m90k",
+			"FP_GOR_Uniform_Massifjacket_02_m90k",
+			"FP_GOR_Uniform_Massif_frenchce",
+			"FP_GOR_Uniform_Massif_02_frenchce",
+			"FP_GOR_Uniform_Massifjacket_frenchce",
+			"FP_GOR_Uniform_Massifjacket_02_frenchce",
+			"FP_GOR_Uniform_Massif_frenchcegign",
+			"FP_GOR_Uniform_Massif_02_frenchcegign",
+			"FP_GOR_Uniform_Massifjacket_frenchcegign",
+			"FP_GOR_Uniform_Massifjacket_02_frenchcegign",
+			"FP_GOR_Uniform_Massif_frenchdaguet",
+			"FP_GOR_Uniform_Massif_02_frenchdaguet",
+			"FP_GOR_Uniform_Massifjacket_frenchdaguet",
+			"FP_GOR_Uniform_Massifjacket_02_frenchdaguet",
+			"FP_GOR_Uniform_Massif_multicamwoodland",
+			"FP_GOR_Uniform_Massif_02_multicamwoodland",
+			"FP_GOR_Uniform_Massifjacket_multicamwoodland",
+			"FP_GOR_Uniform_Massifjacket_02_multicamwoodland"
+			
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
