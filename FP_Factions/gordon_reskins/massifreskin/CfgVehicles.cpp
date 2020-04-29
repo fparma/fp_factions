@@ -2415,7 +2415,7 @@ class CfgVehicles
 		_generalMacro="I_Soldier_F";
 		scope=1;
 		uniformClass="FP_GOR_Uniform_Massif_multicamwoodland";
-		displayName="Massif (Multicam Woodland)";
+		displayName="Massif (US 'Chocolate chip')";
 		nakedUniform="U_BasicBody";
 		hiddenSelections[]=
 		{
@@ -2433,7 +2433,7 @@ class CfgVehicles
 		_generalMacro="I_Soldier_02_F";
 		scope=1;
 		uniformClass="FP_GOR_Uniform_Massif_02_multicamwoodland";
-		displayName="Massif (Multicam Woodland, sleeves)";
+		displayName="Massif (US 'Chocolate chip', sleeves)";
 		nakedUniform="U_BasicBody";
 		hiddenSelections[]=
 		{
@@ -2451,7 +2451,7 @@ class CfgVehicles
 		_generalMacro="I_E_Uniform_01_F";
 		scope=1;
 		uniformClass="FP_GOR_Uniform_Massifjacket_multicamwoodland";
-		displayName="Massif (Multicam Woodland, jacket)";
+		displayName="Massif (US 'Chocolate chip', jacket)";
 		nakedUniform="U_BasicBody";
 		hiddenSelectionsTextures[]=
 		{
@@ -2466,12 +2466,207 @@ class CfgVehicles
 		_generalMacro="I_E_Uniform_01_shortsleeve_F";
 		scope=1;
 		uniformClass="FP_GOR_Uniform_Massifjacket_02_multicamwoodland";
-		displayName="Massif (Multicam Woodland, jacket, sleeves)";
+		displayName="Massif (US 'Chocolate chip', jacket, sleeves)";
 		nakedUniform="U_BasicBody";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketmulticamwoodland_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifmulticamwoodland_co.paa"
+		};
+	};
+	class FP_GOR_Massif_chocochip: I_soldier_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_chocochip";
+		displayName="Massif (US 'Chocolate chip')";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifchocochip_co.paa"
+		};
+	};
+	class FP_GOR_Massif_02_chocochip: I_Soldier_02_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_02_chocochip";
+		displayName="Massif (US 'Chocolate chip', sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifchocochip_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_chocochip: I_E_Uniform_01_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_chocochip";
+		displayName="Massif (US 'Chocolate chip', jacket)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketchocochip_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifchocochip_co.paa",
+			"a3\characters_f_enoch\uniforms\data\i_e_soldier_01_gloves_black_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_02_chocochip: I_E_Uniform_01_shortsleeve_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_02_chocochip";
+		displayName="Massif (US 'Chocolate chip', jacket, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketchocochip_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifchocochip_co.paa"
+		};
+	};
+	class FP_GOR_Massif_chocochipphilippine: I_soldier_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_chocochipphilippine";
+		displayName="Massif (US 'Chocolate chip' (Philippine))";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifchocochipphilippine_co.paa"
+		};
+	};
+	class FP_GOR_Massif_02_chocochipphilippine: I_Soldier_02_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_02_chocochipphilippine";
+		displayName="Massif (US 'Chocolate chip' (Philippine), sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifchocochipphilippine_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_chocochipphilippine: I_E_Uniform_01_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_chocochipphilippine";
+		displayName="Massif (US 'Chocolate chip' (Philippine), jacket)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketchocochipphilippine_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifchocochipphilippine_co.paa",
+			"a3\characters_f_enoch\uniforms\data\i_e_soldier_01_gloves_black_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_02_chocochipphilippine: I_E_Uniform_01_shortsleeve_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_02_chocochipphilippine";
+		displayName="Massif (US 'Chocolate chip' (Philippine), jacket, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketchocochipphilippine_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifchocochipphilippine_co.paa"
+		};
+	};
+	class FP_GOR_Massif_coffeestain: I_soldier_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_coffeestain";
+		displayName="Massif (US 'Coffee stain')";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifcoffeestain_co.paa"
+		};
+	};
+	class FP_GOR_Massif_02_coffeestain: I_Soldier_02_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_02_coffeestain";
+		displayName="Massif (US 'Coffee stain', sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifcoffeestain_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_coffeestain: I_E_Uniform_01_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_coffeestain";
+		displayName="Massif (US 'Coffee stain', jacket)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketcoffeestain_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifcoffeestain_co.paa",
+			"a3\characters_f_enoch\uniforms\data\i_e_soldier_01_gloves_black_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_02_coffeestain: I_E_Uniform_01_shortsleeve_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_02_coffeestain";
+		displayName="Massif (US 'Coffee stain', jacket, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketcoffeestain_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifcoffeestain_co.paa"
 		};
 	};
 };

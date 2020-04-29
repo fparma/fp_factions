@@ -157,7 +157,19 @@ class CfgPatches
 			"FP_GOR_Uniform_Massif_multicamwoodland",
 			"FP_GOR_Uniform_Massif_02_multicamwoodland",
 			"FP_GOR_Uniform_Massifjacket_multicamwoodland",
-			"FP_GOR_Uniform_Massifjacket_02_multicamwoodland"
+			"FP_GOR_Uniform_Massifjacket_02_multicamwoodland",
+			"FP_GOR_Uniform_Massif_chocochip",
+			"FP_GOR_Uniform_Massif_02_chocochip",
+			"FP_GOR_Uniform_Massifjacket_chocochip",
+			"FP_GOR_Uniform_Massifjacket_02_chocochip",
+			"FP_GOR_Uniform_Massif_chocochipphilippine",
+			"FP_GOR_Uniform_Massif_02_chocochipphilippine",
+			"FP_GOR_Uniform_Massifjacket_chocochipphilippine",
+			"FP_GOR_Uniform_Massifjacket_02_chocochipphilippine",
+			"FP_GOR_Uniform_Massif_coffeestain",
+			"FP_GOR_Uniform_Massif_02_coffeestain",
+			"FP_GOR_Uniform_Massifjacket_coffeestain",
+			"FP_GOR_Uniform_Massifjacket_02_coffeestain"
 			
 		};
 		requiredVersion=0.1;
@@ -166,7 +178,7 @@ class CfgPatches
 			"A3_Characters_F_Beta",
 			"A3_Characters_F",
 			"A3_Characters_F_BLUFOR",
-			"A3_Data_F_Enoch_Loadorder"
+			"A3_Data_F_Oldman_Loadorder"
 		};
 	};
 };
