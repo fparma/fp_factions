@@ -2669,4 +2669,199 @@ class CfgVehicles
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifcoffeestain_co.paa"
 		};
 	};
+	class FP_GOR_Massif_kryptekmandrake: I_soldier_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_kryptekmandrake";
+		displayName="Massif (Kryptek Mandrake)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifkryptekmandrake_co.paa"
+		};
+	};
+	class FP_GOR_Massif_02_kryptekmandrake: I_Soldier_02_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_02_kryptekmandrake";
+		displayName="Massif (Kryptek Mandrake, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifkryptekmandrake_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_kryptekmandrake: I_E_Uniform_01_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_kryptekmandrake";
+		displayName="Massif (Kryptek Mandrake, jacket)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketkryptekmandrake_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifkryptekmandrake_co.paa",
+			"a3\characters_f_enoch\uniforms\data\i_e_soldier_01_gloves_black_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_02_kryptekmandrake: I_E_Uniform_01_shortsleeve_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_02_kryptekmandrake";
+		displayName="Massif (Kryptek Mandrake, jacket, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketkryptekmandrake_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifkryptekmandrake_co.paa"
+		};
+	};
+	class FP_GOR_Massif_kryptekhighlander: I_soldier_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_kryptekhighlander";
+		displayName="Massif (Kryptek Highlander)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifkryptekhighlander_co.paa"
+		};
+	};
+	class FP_GOR_Massif_02_kryptekhighlander: I_Soldier_02_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_02_kryptekhighlander";
+		displayName="Massif (Kryptek Highlander, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifkryptekhighlander_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_kryptekhighlander: I_E_Uniform_01_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_kryptekhighlander";
+		displayName="Massif (Kryptek Highlander, jacket)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketkryptekhighlander_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifkryptekhighlander_co.paa",
+			"a3\characters_f_enoch\uniforms\data\i_e_soldier_01_gloves_black_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_02_kryptekhighlander: I_E_Uniform_01_shortsleeve_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_02_kryptekhighlander";
+		displayName="Massif (Kryptek Highlander, jacket, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketkryptekhighlander_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifkryptekhighlander_co.paa"
+		};
+	};
+	class FP_GOR_Massif_krypteknomad: I_soldier_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_krypteknomad";
+		displayName="Massif (Kryptek Nomad)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifkrypteknomad_co.paa"
+		};
+	};
+	class FP_GOR_Massif_02_krypteknomad: I_Soldier_02_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_02_krypteknomad";
+		displayName="Massif (Kryptek Nomad, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifkrypteknomad_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_krypteknomad: I_E_Uniform_01_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_krypteknomad";
+		displayName="Massif (Kryptek Nomad, jacket)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketkrypteknomad_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifkrypteknomad_co.paa",
+			"a3\characters_f_enoch\uniforms\data\i_e_soldier_01_gloves_black_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_02_krypteknomad: I_E_Uniform_01_shortsleeve_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_02_krypteknomad";
+		displayName="Massif (Kryptek Nomad, jacket, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketkrypteknomad_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifkrypteknomad_co.paa"
+		};
+	};
 };

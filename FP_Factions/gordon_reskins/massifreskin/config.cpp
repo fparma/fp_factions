@@ -169,7 +169,19 @@ class CfgPatches
 			"FP_GOR_Uniform_Massif_coffeestain",
 			"FP_GOR_Uniform_Massif_02_coffeestain",
 			"FP_GOR_Uniform_Massifjacket_coffeestain",
-			"FP_GOR_Uniform_Massifjacket_02_coffeestain"
+			"FP_GOR_Uniform_Massifjacket_02_coffeestain",
+			"FP_GOR_Uniform_Massif_kryptekmandrake",
+			"FP_GOR_Uniform_Massif_02_kryptekmandrake",
+			"FP_GOR_Uniform_Massifjacket_kryptekmandrake",
+			"FP_GOR_Uniform_Massifjacket_02_kryptekmandrake",
+			"FP_GOR_Uniform_Massif_kryptekhighlander",
+			"FP_GOR_Uniform_Massif_02_kryptekhighlander",
+			"FP_GOR_Uniform_Massifjacket_kryptekhighlander",
+			"FP_GOR_Uniform_Massifjacket_02_kryptekhighlander",
+			"FP_GOR_Uniform_Massif_krypteknomad",
+			"FP_GOR_Uniform_Massif_02_krypteknomad",
+			"FP_GOR_Uniform_Massifjacket_krypteknomad",
+			"FP_GOR_Uniform_Massifjacket_02_krypteknomad"
 			
 		};
 		requiredVersion=0.1;
