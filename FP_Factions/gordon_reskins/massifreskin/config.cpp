@@ -133,7 +133,56 @@ class CfgPatches
 			"FP_GOR_Uniform_Massif_flecktarndesert",
 			"FP_GOR_Uniform_Massif_02_flecktarndesert",
 			"FP_GOR_Uniform_Massifjacket_flecktarndesert",
-			"FP_GOR_Uniform_Massifjacket_02_flecktarndesert"
+			"FP_GOR_Uniform_Massifjacket_02_flecktarndesert",
+			"FP_GOR_Uniform_Massif_m90",
+			"FP_GOR_Uniform_Massif_02_m90",
+			"FP_GOR_Uniform_Massifjacket_m90",
+			"FP_GOR_Uniform_Massifjacket_02_m90",
+			"FP_GOR_Uniform_Massif_m90k",
+			"FP_GOR_Uniform_Massif_02_m90k",
+			"FP_GOR_Uniform_Massifjacket_m90k",
+			"FP_GOR_Uniform_Massifjacket_02_m90k",
+			"FP_GOR_Uniform_Massif_frenchce",
+			"FP_GOR_Uniform_Massif_02_frenchce",
+			"FP_GOR_Uniform_Massifjacket_frenchce",
+			"FP_GOR_Uniform_Massifjacket_02_frenchce",
+			"FP_GOR_Uniform_Massif_frenchcegign",
+			"FP_GOR_Uniform_Massif_02_frenchcegign",
+			"FP_GOR_Uniform_Massifjacket_frenchcegign",
+			"FP_GOR_Uniform_Massifjacket_02_frenchcegign",
+			"FP_GOR_Uniform_Massif_frenchdaguet",
+			"FP_GOR_Uniform_Massif_02_frenchdaguet",
+			"FP_GOR_Uniform_Massifjacket_frenchdaguet",
+			"FP_GOR_Uniform_Massifjacket_02_frenchdaguet",
+			"FP_GOR_Uniform_Massif_multicamwoodland",
+			"FP_GOR_Uniform_Massif_02_multicamwoodland",
+			"FP_GOR_Uniform_Massifjacket_multicamwoodland",
+			"FP_GOR_Uniform_Massifjacket_02_multicamwoodland",
+			"FP_GOR_Uniform_Massif_chocochip",
+			"FP_GOR_Uniform_Massif_02_chocochip",
+			"FP_GOR_Uniform_Massifjacket_chocochip",
+			"FP_GOR_Uniform_Massifjacket_02_chocochip",
+			"FP_GOR_Uniform_Massif_chocochipphilippine",
+			"FP_GOR_Uniform_Massif_02_chocochipphilippine",
+			"FP_GOR_Uniform_Massifjacket_chocochipphilippine",
+			"FP_GOR_Uniform_Massifjacket_02_chocochipphilippine",
+			"FP_GOR_Uniform_Massif_coffeestain",
+			"FP_GOR_Uniform_Massif_02_coffeestain",
+			"FP_GOR_Uniform_Massifjacket_coffeestain",
+			"FP_GOR_Uniform_Massifjacket_02_coffeestain",
+			"FP_GOR_Uniform_Massif_kryptekmandrake",
+			"FP_GOR_Uniform_Massif_02_kryptekmandrake",
+			"FP_GOR_Uniform_Massifjacket_kryptekmandrake",
+			"FP_GOR_Uniform_Massifjacket_02_kryptekmandrake",
+			"FP_GOR_Uniform_Massif_kryptekhighlander",
+			"FP_GOR_Uniform_Massif_02_kryptekhighlander",
+			"FP_GOR_Uniform_Massifjacket_kryptekhighlander",
+			"FP_GOR_Uniform_Massifjacket_02_kryptekhighlander",
+			"FP_GOR_Uniform_Massif_krypteknomad",
+			"FP_GOR_Uniform_Massif_02_krypteknomad",
+			"FP_GOR_Uniform_Massifjacket_krypteknomad",
+			"FP_GOR_Uniform_Massifjacket_02_krypteknomad"
+			
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -141,7 +190,7 @@ class CfgPatches
 			"A3_Characters_F_Beta",
 			"A3_Characters_F",
 			"A3_Characters_F_BLUFOR",
-			"A3_Data_F_Enoch_Loadorder"
+			"A3_Data_F_Oldman_Loadorder"
 		};
 	};
 };
