@@ -38,6 +38,10 @@ class CfgVehicleClasses
 	{
 		displayName="Men (Shocktroops, Desert)";
 	};
+	class fp_men_marine
+	{
+		displayName="Men (Marines)";
+	};
 	class fp_men_marinewoodland
 	{
 		displayName="Men (Marines, Woodland)";
@@ -70,6 +74,14 @@ class CfgVehicleClasses
 	{
 		displayName="Men (Armed Civilians)";
 	};
+	class fp_men_airborne
+	{
+		displayName="Men (Airborne)";
+	};
+	class fp_men_light
+	{
+		displayName="Men (Light)";
+	};
 };
 class CfgEditorSubcategories
 {
@@ -100,6 +112,10 @@ class CfgEditorSubcategories
 	class fp_men_shockdesert_EdSubcat
 	{
 		displayName="Men (Shocktroops, Desert)";
+	};
+	class fp_men_marines_EdSubcat
+	{
+		displayName="Men (Marines)";
 	};
 	class fp_men_marineswoodland_EdSubcat
 	{
@@ -132,6 +148,14 @@ class CfgEditorSubcategories
 	class fp_men_armedcivs_EdSubcat
 	{
 		displayName="Men (Armed Civilians)";
+	};
+	class fp_men_airborne_EdSubcat
+	{
+		displayName="Men (Airborne)";
+	};
+	class fp_men_light_EdSubcat
+	{
+		displayName="Men (Light)";
 	};
 };
 class cfgWeapons
