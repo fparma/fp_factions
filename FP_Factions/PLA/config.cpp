@@ -12,7 +12,7 @@ class CfgFactionClasses
 {
 	class FP_Faction_PLA
 	{
-		displayName = "FP People's Republic of China (2010)";
+		displayName = "FP People's Republic of China";
 		priority = 2;
 		side = 0;
 		icon = "\FP_Factions\PLA\cfgFactionClasses_china_ca.paa";
@@ -25,10 +25,9 @@ class CfgGroups
 	{
 		class FP_Faction_PLA_Units
 		{
-			name = "People's Republic of China (2010)";
+			name = "People's Republic of China";
 			class Infantry
 			{
-				name = "PRC (2010/Universal) Infantry ";
 				name = "Infantry (Universal)";
 				class PLA_Riflesquad
 				{
@@ -250,7 +249,6 @@ class CfgGroups
 			};
 			class Support
 			{
-				name = "PRC (2010/Universal) Company Attachments";
 				name = "Support Infantry (Universal)";
 				class PLA_DoctorTeam
 				{
@@ -450,7 +448,6 @@ class CfgGroups
 			};
 			class InfantryDesert
 			{
-				name = "PRC (2010/Desert) Infantry ";
 				name = "Infantry (Desert)";
 				class PLA_Desert_Riflesquad
 				{
@@ -672,7 +669,6 @@ class CfgGroups
 			};
 			class SupportDesert
 			{
-				name = "PRC (2010/Desert) Company Attachments";
 				name = "Support Infantry (Desert)";
 				class PLA_Desert_DoctorTeam
 				{

@@ -528,10 +528,7 @@ class CfgGroups
 						position[] = {5,-5,0};
 					};
 				};
-
 			};
-		};
-	};
 			class MInfantry
 			{
 				name = "Marines";
@@ -1358,7 +1355,7 @@ class CfgGroups
 				};
 			};
 		};
-	};
+	};	
 };
 class CfgVehicles
 {
@@ -1370,7 +1367,6 @@ class CfgVehicles
 	};
 	class UK3CB_O_G_BTR40;
 	class UK3CB_O_G_BTR40_MG; 
-	class FP_Faction_KPA_BTR40: UK3CB_O_G_BTR40
 	class UK3CB_CW_SOV_O_EARLY_BTR40;
 	class UK3CB_CW_SOV_O_EARLY_BTR40_MG; 
 	class FP_Faction_KPA_BTR40: UK3CB_CW_SOV_O_EARLY_BTR40
@@ -1378,7 +1374,6 @@ class CfgVehicles
 		crew = "FP_Faction_KPA_Rifleman";
 		faction = "FP_Faction_KPA";
 	};
-	class FP_Faction_KPA_BTR40_MG: UK3CB_O_G_BTR40_MG
 	class FP_Faction_KPA_BTR40_MG: UK3CB_CW_SOV_O_EARLY_BTR40_MG
 	{
 		crew = "FP_Faction_KPA_Rifleman";
@@ -2316,7 +2311,7 @@ class CfgVehicles
 		author = "FP Mod Team";
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "Rifleman (Medium AT)t";
+		displayName = "Rifleman (Medium AT)";
 		backpack = "KPA_TacticalPack_oli_MAT";
 		weapons[] = {"FP_Type56","FP_rhs_weap_rpg7_pgo7v","Throw","Put"};
 		respawnWeapons[] = {"FP_Type56","FP_rhs_weap_rpg7_pgo7v","Throw","Put"};
@@ -2432,20 +2427,6 @@ class CfgVehicles
 	};
 	class FP_Faction_KPA_JSniper: FP_Faction_KPA_Soldier_BASE
 	{
-		side = 0;
-		crew = "FP_Faction_KPA_Rifleman";
-		editorSubcategory = "EdSubcat_Cars";
-		faction = "FP_Faction_KPA";
-	};	
-	class rhs_zil131_msv;
-	class rhs_zil131_open_msv;
-	class rhs_zil131_flatbed_cover_msv;
-	class rhs_zil131_flatbed_msv;
-	class FP_Faction_KPA_ZIL131: rhs_zil131_msv
-	{
-		crew = "FP_Faction_KPA_Rifleman";
-		editorSubcategory = "EdSubcat_Cars";
-		faction = "FP_Faction_KPA";
 		class SpeechVariants
 		{
 			class Default
@@ -3179,7 +3160,6 @@ class FP_Faction_KPA_SOF_Medic: FP_Faction_KPA_SOF_Soldier_BASE
 		headgearProbability = 33;
 		allowedHeadgear[] = {"UK3CB_TKA_I_H_SSh68_Oli","rhsgref_ssh68_ttsko_dark","rhsgref_ssh68_ttsko_mountain"};
 	};
-	class FP_Faction_KPA_AMAT: FP_Faction_KPA_Soldier_BASE
 	class FP_Faction_KPA_Marine_AMAT: FP_Faction_KPA_Marine_BASE
 	{
 		author = "FP Mod Team";
@@ -3233,120 +3213,6 @@ class FP_Faction_KPA_SOF_Medic: FP_Faction_KPA_SOF_Soldier_BASE
 		cost = 65000;
 		threat[] = {1,0.1,0.3};
 	};
-	class FP_Faction_KPA_Helipilot: FP_Faction_KPA_Crewman
-	{
-		author = "FP Mod Team";
-		_generalMacro = "FP_Faction_KPA_Soldier_BASE";
-		scope = 2;
-		scopeCurator = 2;
-		displayName = "Helicopter Pilot";
-		linkedItems[] = {"chestrig_chic","UK3CB_TKA_O_H_zsh7a_mike_Des_alt","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"chestrig_chic","UK3CB_TKA_O_H_zsh7a_mike_Des_alt","ItemMap","ItemCompass","ItemWatch","ItemRadio"};		
-	};	
-	class FP_Faction_KPA_JSniper: FP_Faction_KPA_Soldier_BASE
-	{
-		class SpeechVariants
-		{
-			class Default
-			{
-				speechSingular[] = {"veh_infantry_sniper_s"};
-				speechPlural[] = {"veh_infantry_sniper_p"};
-			};
-		};
-		textSingular = "$STR_A3_nameSound_veh_infantry_sniper_s";
-		textPlural = "$STR_A3_nameSound_veh_infantry_sniper_p";
-		nameSound = "veh_infantry_sniper_s";
-		author = "FP Mod Team";
-		editorSubcategory = "EdSubcat_Personnel_SpecialForces";
-		scope = 2;
-		scopeCurator = 2;
-		displayName = "Jeongchaldae Sniper";
-		vehicleClass = "MenSniper";
-		uniformClass = "U_I_FullGhillie_lsh";
-		weapons[] = {"FP_svd_wood_PSO1M2","rhs_weap_makarov_pm","Binocular","Throw","Put"};
-		respawnWeapons[] = {"FP_svd_wood_PSO1M2","rhs_weap_makarov_pm","Binocular","Throw","Put"};
-		magazines[] = {"rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_mag_9x18_8_57N181S","rhs_mag_9x18_8_57N181S","rhs_mag_9x18_8_57N181S","rhs_mag_rgd5","rhs_mag_rgd5","SmokeShell","SmokeShellRed"};
-		respawnMagazines[] = {"rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_mag_9x18_8_57N181S","rhs_mag_9x18_8_57N181S","rhs_mag_9x18_8_57N181S","rhs_mag_rgd5","rhs_mag_rgd5","SmokeShell","SmokeShellRed"};
-		cost = 150000;
-		linkedItems[] = {"V_TacChestrig_oli_F","H_Bandanna_khk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_TacChestrig_oli_F","H_Bandanna_khk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		sensitivity = 3;
-		headgearProbability = 60;
-		allowedHeadgear[] = {"H_Bandanna_khk","H_Bandanna_khk"};
-	};
-	class FP_Faction_KPA_JSpotter: FP_Faction_KPA_JSniper
-	{
-		backpack = "KPA_FieldPack_RPG_Spotter_khk";
-		displayName = "Jeongchaldae Spotter";
-		weapons[] = {"FP_Type56_mount_1P63_762sup_ak","rhs_weap_makarov_pm","launch_RPG7_F","Binocular","Throw","Put"};
-		respawnWeapons[] = {"FP_Type56_mount_1P63_762sup_ak","rhs_weap_makarov_pm","launch_RPG7_F","Binocular","Throw","Put"};
-		magazines[] = {"rhs_30Rnd_762x39mm_U","rhs_30Rnd_762x39mm_U","rhs_30Rnd_762x39mm_U","rhs_30Rnd_762x39mm_U","rhs_30Rnd_762x39mm_U","rhs_30Rnd_762x39mm_U","rhs_mag_9x18_8_57N181S","rhs_mag_9x18_8_57N181S","rhs_mag_9x18_8_57N181S","RPG7_F","rhs_mag_rgd5","rhs_mag_rgd5","O_IR_Grenade","O_IR_Grenade","SmokeShell","SmokeShellRed","SmokeShellOrange","SmokeShellYellow","Chemlight_red","Chemlight_red"};
-		respawnMagazines[] = {"rhs_30Rnd_762x39mm_U","rhs_30Rnd_762x39mm_U","rhs_30Rnd_762x39mm_U","rhs_30Rnd_762x39mm_U","rhs_30Rnd_762x39mm_U","rhs_30Rnd_762x39mm_U","rhs_mag_9x18_8_57N181S","rhs_mag_9x18_8_57N181S","rhs_mag_9x18_8_57N181S","RPG7_F","rhs_mag_rgd5","rhs_mag_rgd5","O_IR_Grenade","O_IR_Grenade","SmokeShell","SmokeShellRed","SmokeShellOrange","SmokeShellYellow","Chemlight_red","Chemlight_red"};
-	};
-	class FP_Faction_KPA_SOF_Soldier_BASE: B_Soldier_F
-	{
-		class Wounds
-		{
-			tex[] = {};
-			mat[] = {"A3\characters_f_bootcamp\Guerrilla\Data\ig_guerrilla_6_1.rvmat","A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing_injury.rvmat","A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"};
-		};
-		armorStructural = 5;
-		author = "FP Mod Team";
-		expansion = 1;
-        identityTypes[] = {"LanguageCHI_F","Head_Asian","G_CIVIL_male"};
-		faceType = "Man_A3";
-		side = 0;
-		faction = "FP_Faction_KPA";
-		genericNames = "ChineseMen";
-		vehicleClass = "Men";
-	    editorSubcategory = "EdSubcat_Personnel_SpecialForces";
-		portrait = "";
-		picture = "";
-		icon = "iconMan";
-		accuracy = 1.3;
-		sensitivity = 2;
-		threat[] = {1,0.1,0.1};
-		camouflage = 1.5;
-		minFireTime = 5;
-		cost = 20000;
-		canCarryBackPack = 1;
-		scope = 0;
-		scopeCurator = 0;
-		model = "\A3\characters_F\OPFOR\o_officer.p3d";
-		uniformClass = "FP_Uniform_KPA_Duckhunter";  
-		weapons[] = {"FP_hlc_rifle_aks74u_ekp8_02_545SUP_AK","FP_RH_cz75_gemtech9","Binocular","Throw","Put"};
-		respawnWeapons[] = {"FP_hlc_rifle_aks74u_ekp8_02_545SUP_AK","FP_RH_cz75_gemtech9","Binocular","Throw","Put"};
-		magazines[] = {"hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","rhs_mag_rgd5","rhs_mag_rgd5","SmokeShell","SmokeShell"};
-		respawnMagazines[] = {"hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","rhs_mag_rgd5","rhs_mag_rgd5","SmokeShell","SmokeShell"};
-		Items[] = {"FirstAidKit"};
-		RespawnItems[] = {"FirstAidKit"};
-		linkedItems[] = {"V_SmershVest_01_F","UK3CB_TKP_I_H_SSh68_BLK","ItemMap","ItemCompass","ItemWatch","ItemRadio","VSM_flightglove_standalone_noNVG"};
-		respawnLinkedItems[] = {"V_SmershVest_01_F","UK3CB_TKP_I_H_SSh68_BLK","ItemMap","ItemCompass","ItemWatch","ItemRadio","VSM_flightglove_standalone_noNVG"};
-	};
-	class FP_Faction_KPA_SOF_Scout: FP_Faction_KPA_SOF_Soldier_BASE
-	{
-		author = "FP Mod Team";
-		_generalMacro = "FP_Faction_KPA_SOF_Soldier_BASE";
-		scope = 2;
-		scopeCurator = 2;
-		displayName = "Recon Scout";		
-	};
-	class FP_Faction_KPA_SOF_Scout_AT: FP_Faction_KPA_SOF_Soldier_BASE
-	{
-		textSingular = "$STR_A3_nameSound_veh_infantry_AT_s";
-		textPlural = "$STR_A3_nameSound_veh_infantry_AT_p";
-		nameSound = "veh_infantry_AT_s";
-		author = "FP Mod Team";
-		scope = 2;
-		scopeCurator = 2;
-		displayName = "Recon Scout (AT)";
-		backpack = "KPA_Recon_FieldPack_RPG_Light_grn";
-		weapons[] = {"FP_hlc_rifle_aks74u_ekp8_02_545SUP_AK","FP_RH_cz75_gemtech9","FP_rhs_weap_rpg7_pgo7v2","Binocular","Throw","Put"};
-		respawnWeapons[] = {"FP_hlc_rifle_aks74u_ekp8_02_545SUP_AK","FP_RH_cz75_gemtech9","FP_rhs_weap_rpg7_pgo7v2","Binocular","Throw","Put"};
-		magazines[] = {"hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","rhs_rpg7_PG7VL_mag","rhs_mag_rgd5","rhs_mag_rgd5","SmokeShell","SmokeShell"};
-		respawnMagazines[] = {"hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","rhs_rpg7_PG7VL_mag","rhs_mag_rgd5","rhs_mag_rgd5","SmokeShell","SmokeShell"};
-		
-	};	
 	class FP_Faction_KPA_Light_Soldier_BASE: FP_Faction_KPA_Soldier_BASE
 	{
 		author = "FP Mod Team";
