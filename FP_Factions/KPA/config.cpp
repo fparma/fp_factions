@@ -530,12 +530,8 @@ class CfgGroups
 				};
 
 			};
-<<<<<<< HEAD
 		};
 	};
-};
-class cfgvehicles
-=======
 			class MInfantry
 			{
 				name = "Marines";
@@ -1365,7 +1361,6 @@ class cfgvehicles
 	};
 };
 class CfgVehicles
->>>>>>> 399ef40... Factions Update Ver. I forgot at this point
 {
 	class UK3CB_O_G_T34;
 	class FP_Faction_KPA_T34: UK3CB_O_G_T34
@@ -1373,24 +1368,18 @@ class CfgVehicles
 		crew = "FP_Faction_KPA_Crewman";
 		faction = "FP_Faction_KPA";
 	};
-<<<<<<< HEAD
 	class UK3CB_O_G_BTR40;
 	class UK3CB_O_G_BTR40_MG; 
 	class FP_Faction_KPA_BTR40: UK3CB_O_G_BTR40
-=======
 	class UK3CB_CW_SOV_O_EARLY_BTR40;
 	class UK3CB_CW_SOV_O_EARLY_BTR40_MG; 
 	class FP_Faction_KPA_BTR40: UK3CB_CW_SOV_O_EARLY_BTR40
->>>>>>> 399ef40... Factions Update Ver. I forgot at this point
 	{
 		crew = "FP_Faction_KPA_Rifleman";
 		faction = "FP_Faction_KPA";
 	};
-<<<<<<< HEAD
 	class FP_Faction_KPA_BTR40_MG: UK3CB_O_G_BTR40_MG
-=======
 	class FP_Faction_KPA_BTR40_MG: UK3CB_CW_SOV_O_EARLY_BTR40_MG
->>>>>>> 399ef40... Factions Update Ver. I forgot at this point
 	{
 		crew = "FP_Faction_KPA_Rifleman";
 		faction = "FP_Faction_KPA";
@@ -1415,8 +1404,6 @@ class CfgVehicles
 		hiddenSelections[] = {"camo1","camo2"};
 		hiddenSelectionsTextures[] = {"\fp_factions\KPA\data\t55\t55_body_kpa_co.paa","\fp_factions\KPA\data\t55\t55_tower_kpa_co.paa"};
 	};
-<<<<<<< HEAD
-=======
 	class UK3CB_CW_SOV_O_EARLY_T72A;
 	class FP_Faction_KPA_T72M: UK3CB_CW_SOV_O_EARLY_T72A
 	{
@@ -1474,7 +1461,6 @@ class CfgVehicles
 		crew = "FP_Faction_KPA_Crewman";
 		faction = "FP_Faction_KPA";
 	};
->>>>>>> 399ef40... Factions Update Ver. I forgot at this point
 	class rhsgref_nat_uaz;
 	class rhsgref_nat_uaz_open;
 	class rhsgref_nat_uaz_dshkm;
@@ -1489,8 +1475,6 @@ class CfgVehicles
 	};
 	class FP_Faction_KPA_UAZ_Open: rhsgref_nat_uaz_open
 	{
-<<<<<<< HEAD
-=======
 		side = 0;
 		crew = "FP_Faction_KPA_Rifleman";
 		editorSubcategory = "EdSubcat_Cars";
@@ -1963,7 +1947,6 @@ class CfgVehicles
 		expansion = 1;
         identityTypes[] = {"LanguageCHI_F","Head_Asian",""};
 		faceType = "Man_A3";
->>>>>>> 399ef40... Factions Update Ver. I forgot at this point
 		side = 0;
 		faction = "FP_Faction_KPA";
 		genericNames = "NorthKoreanMen";
@@ -2335,8 +2318,8 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "Rifleman (Medium AT)t";
 		backpack = "KPA_TacticalPack_oli_MAT";
-		weapons[] = {"FP_Type56","rhs_weap_rpg7_FP_pgo7v","Throw","Put"};
-		respawnWeapons[] = {"FP_Type56","rhs_weap_rpg7_FP_pgo7v","Throw","Put"};
+		weapons[] = {"FP_Type56","FP_rhs_weap_rpg7_pgo7v","Throw","Put"};
+		respawnWeapons[] = {"FP_Type56","FP_rhs_weap_rpg7_pgo7v","Throw","Put"};
 		magazines[] = {"rhs_30Rnd_762x39mm_89","rhs_30Rnd_762x39mm_89","rhs_30Rnd_762x39mm_89","rhs_30Rnd_762x39mm_89","rhs_30Rnd_762x39mm_89","rhs_30Rnd_762x39mm_89","rhs_30Rnd_762x39mm_89","rhs_rpg7_PG7VL_mag","SmokeShell","SmokeShellRed"};
 		respawnMagazines[] = {"rhs_30Rnd_762x39mm_89","rhs_30Rnd_762x39mm_89","rhs_30Rnd_762x39mm_89","rhs_30Rnd_762x39mm_89","rhs_30Rnd_762x39mm_89","rhs_30Rnd_762x39mm_89","rhs_30Rnd_762x39mm_89","rhs_rpg7_PG7VL_mag","SmokeShell","SmokeShellRed"};
 		cost = 180000;
@@ -2449,7 +2432,6 @@ class CfgVehicles
 	};
 	class FP_Faction_KPA_JSniper: FP_Faction_KPA_Soldier_BASE
 	{
-<<<<<<< HEAD
 		side = 0;
 		crew = "FP_Faction_KPA_Rifleman";
 		editorSubcategory = "EdSubcat_Cars";
@@ -2464,7 +2446,6 @@ class CfgVehicles
 		crew = "FP_Faction_KPA_Rifleman";
 		editorSubcategory = "EdSubcat_Cars";
 		faction = "FP_Faction_KPA";
-=======
 		class SpeechVariants
 		{
 			class Default
@@ -2534,8 +2515,8 @@ class CfgVehicles
 		scopeCurator = 0;
 		model = "\A3\characters_F\OPFOR\o_officer.p3d";
 		uniformClass = "FP_Uniform_KPA_Duckhunter";  
-		weapons[] = {"hlc_rifle_aks74u_ekp8_02_545SUP_AK","RH_cz75_gemtech9","Binocular","Throw","Put"};
-		respawnWeapons[] = {"hlc_rifle_aks74u_ekp8_02_545SUP_AK","RH_cz75_gemtech9","Binocular","Throw","Put"};
+		weapons[] = {"FP_hlc_rifle_aks74u_ekp8_02_545SUP_AK","FP_RH_cz75_gemtech9","Binocular","Throw","Put"};
+		respawnWeapons[] = {"FP_hlc_rifle_aks74u_ekp8_02_545SUP_AK","FP_RH_cz75_gemtech9","Binocular","Throw","Put"};
 		magazines[] = {"hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","rhs_mag_rgd5","rhs_mag_rgd5","SmokeShell","SmokeShell"};
 		respawnMagazines[] = {"hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","rhs_mag_rgd5","rhs_mag_rgd5","SmokeShell","SmokeShell"};
 		Items[] = {"FirstAidKit"};
@@ -2561,8 +2542,8 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "Commando Scout (AT)";
 		backpack = "KPA_Recon_FieldPack_RPG_Light_grn";
-		weapons[] = {"hlc_rifle_aks74u_ekp8_02_545SUP_AK","RH_cz75_gemtech9","rhs_weap_rpg7_FP_pgo7v2","Binocular","Throw","Put"};
-		respawnWeapons[] = {"hlc_rifle_aks74u_ekp8_02_545SUP_AK","RH_cz75_gemtech9","rhs_weap_rpg7_FP_pgo7v2","Binocular","Throw","Put"};
+		weapons[] = {"FP_hlc_rifle_aks74u_ekp8_02_545SUP_AK","FP_RH_cz75_gemtech9","FP_rhs_weap_rpg7_pgo7v2","Binocular","Throw","Put"};
+		respawnWeapons[] = {"FP_hlc_rifle_aks74u_ekp8_02_545SUP_AK","FP_RH_cz75_gemtech9","FP_rhs_weap_rpg7_pgo7v2","Binocular","Throw","Put"};
 		magazines[] = {"hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","rhs_rpg7_PG7VL_mag","rhs_mag_rgd5","rhs_mag_rgd5","SmokeShell","SmokeShell"};
 		respawnMagazines[] = {"hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","rhs_rpg7_PG7VL_mag","rhs_mag_rgd5","rhs_mag_rgd5","SmokeShell","SmokeShell"};		
 	};
@@ -2574,8 +2555,8 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "Commando JTAC";
 		backpack = "B_RadioBag_01_black_F";
-		weapons[] = {"hlc_rifle_aks74_GL_ekp8_02_545SUP_AK","RH_cz75_gemtech9","Binocular","Throw","Put"};
-		respawnWeapons[] = {"hlc_rifle_aks74_GL_ekp8_02_545SUP_AK","RH_cz75_gemtech9","Binocular","Throw","Put"};
+		weapons[] = {"FP_hlc_rifle_aks74_GL_ekp8_02_545SUP_AK","FP_RH_cz75_gemtech9","Binocular","Throw","Put"};
+		respawnWeapons[] = {"FP_hlc_rifle_aks74_GL_ekp8_02_545SUP_AK","FP_RH_cz75_gemtech9","Binocular","Throw","Put"};
 		magazines[] = {"hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_VOG25_AK","hlc_VOG25_AK","hlc_VOG25_AK","hlc_VOG25_AK","hlc_VOG25_AK","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","rhs_mag_rgd5","rhs_mag_rgd5","SmokeShell","SmokeShell"};
 		respawnMagazines[] = {"hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_VOG25_AK","hlc_VOG25_AK","hlc_VOG25_AK","hlc_VOG25_AK","hlc_VOG25_AK","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","rhs_mag_rgd5","rhs_mag_rgd5","SmokeShell","SmokeShell"};
 		
@@ -2597,8 +2578,8 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Commando Autorifleman";
-		weapons[] = {"hlc_rifle_rpk74n_ekp8_02_545SUP_AK","RH_cz75_gemtech9","Binocular","Throw","Put"};
-		respawnWeapons[] = {"hlc_rifle_rpk74n_ekp8_02_545SUP_AK","RH_cz75_gemtech9","Binocular","Throw","Put"};
+		weapons[] = {"FP_hlc_rifle_rpk74n_ekp8_02_545SUP_AK","FP_RH_cz75_gemtech9","Binocular","Throw","Put"};
+		respawnWeapons[] = {"FP_hlc_rifle_rpk74n_ekp8_02_545SUP_AK","FP_RH_cz75_gemtech9","Binocular","Throw","Put"};
 		magazines[] = {"hlc_60Rnd_545x39_b_rpk","hlc_60Rnd_545x39_b_rpk","hlc_60Rnd_545x39_b_rpk","hlc_60Rnd_545x39_b_rpk","hlc_60Rnd_545x39_b_rpk","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","rhs_mag_rgd5","rhs_mag_rgd5","SmokeShell","SmokeShellRed"};
 		respawnMagazines[] = {"hlc_60Rnd_545x39_b_rpk","hlc_60Rnd_545x39_b_rpk","hlc_60Rnd_545x39_b_rpk","hlc_60Rnd_545x39_b_rpk","hlc_60Rnd_545x39_b_rpk","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","rhs_mag_rgd5","rhs_mag_rgd5","SmokeShell","SmokeShellRed"};
 		cost = 95000;
@@ -2629,7 +2610,6 @@ class FP_Faction_KPA_SOF_Medic: FP_Faction_KPA_SOF_Soldier_BASE
 		sensitivity = 2.4;
 		icon = "iconManMedic";
 		picture = "pictureHeal";
->>>>>>> 399ef40... Factions Update Ver. I forgot at this point
 	};
 	class FP_Faction_KPA_SOF_Crewman: FP_Faction_KPA_SOF_Soldier_BASE
 	{
@@ -2651,8 +2631,8 @@ class FP_Faction_KPA_SOF_Medic: FP_Faction_KPA_SOF_Soldier_BASE
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Commando Squad Leader";
-		weapons[] = {"hlc_rifle_aks74_1p29_545SUP_AK","RH_cz75_gemtech9","Binocular","Throw","Put"};
-		respawnWeapons[] = {"hlc_rifle_aks74_1p29_545SUP_AK","RH_cz75_gemtech9","Binocular","Throw","Put"};
+		weapons[] = {"FP_hlc_rifle_aks74_1p29_545SUP_AK","FP_RH_cz75_gemtech9","Binocular","Throw","Put"};
+		respawnWeapons[] = {"FP_hlc_rifle_aks74_1p29_545SUP_AK","FP_RH_cz75_gemtech9","Binocular","Throw","Put"};
 		cost = 500000;
 		camouflage = 1.6;
 		sensitivity = 3;
@@ -2666,8 +2646,8 @@ class FP_Faction_KPA_SOF_Medic: FP_Faction_KPA_SOF_Soldier_BASE
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Commando Team Leader";
-		weapons[] = {"hlc_rifle_aks74_GL_pkas_545SUP_AK","RH_cz75_gemtech9","Binocular","Throw","Put"};
-		respawnWeapons[] = {"hlc_rifle_aks74_GL_pkas_545SUP_AK","RH_cz75_gemtech9","Binocular","Throw","Put"};
+		weapons[] = {"FP_hlc_rifle_aks74_GL_pkas_545SUP_AK","FP_RH_cz75_gemtech9","Binocular","Throw","Put"};
+		respawnWeapons[] = {"FP_hlc_rifle_aks74_GL_pkas_545SUP_AK","FP_RH_cz75_gemtech9","Binocular","Throw","Put"};
 		magazines[] = {"hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","rhs_mag_rgd5","rhs_mag_rgd5","SmokeShell","SmokeShell"};
 		respawnMagazines[] = {"hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","rhs_mag_rgd5","rhs_mag_rgd5","SmokeShell","SmokeShell"};
 		backpack = "B_RadioBag_01_wdl_F";
@@ -2693,8 +2673,8 @@ class FP_Faction_KPA_SOF_Medic: FP_Faction_KPA_SOF_Soldier_BASE
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Commando Marksman";
-		weapons[] = {"rhs_weap_asval_FP_PSO1M21","RH_cz75_gemtech9","Throw","Put"};
-		respawnWeapons[] = {"rhs_weap_asval_FP_PSO1M21","RH_cz75_gemtech9","Throw","Put"};
+		weapons[] = {"FP_rhs_weap_asval_FP_PSO1M21","FP_RH_cz75_gemtech9","Throw","Put"};
+		respawnWeapons[] = {"FP_rhs_weap_asval_FP_PSO1M21","FP_RH_cz75_gemtech9","Throw","Put"};
 		magazines[] = {"rhs_20rnd_9x39mm_SP5","rhs_20rnd_9x39mm_SP5","rhs_20rnd_9x39mm_SP5","rhs_20rnd_9x39mm_SP5","rhs_20rnd_9x39mm_SP5","rhs_20rnd_9x39mm_SP5","rhs_20rnd_9x39mm_SP5","rhs_20rnd_9x39mm_SP5","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","rhs_mag_rgd5","rhs_mag_rgd5","SmokeShell","SmokeShellRed"};
 		respawnMagazines[] = {"rhs_20rnd_9x39mm_SP5","rhs_20rnd_9x39mm_SP5","rhs_20rnd_9x39mm_SP5","rhs_20rnd_9x39mm_SP5","rhs_20rnd_9x39mm_SP5","rhs_20rnd_9x39mm_SP5","rhs_20rnd_9x39mm_SP5","rhs_20rnd_9x39mm_SP5","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","rhs_mag_rgd5","rhs_mag_rgd5","SmokeShell","SmokeShellRed"};
 		cost = 150000;
@@ -3188,42 +3168,31 @@ class FP_Faction_KPA_SOF_Medic: FP_Faction_KPA_SOF_Soldier_BASE
 		scopeCurator = 2;
 		displayName = "MAT Gunner";
 		backpack = "KPA_TacticalPack_oli_MAT";
-		weapons[] = {"FP_Type56","rhs_weap_rpg7_FP_pgo7v","Throw","Put"};
-		respawnWeapons[] = {"FP_Type56","rhs_weap_rpg7_FP_pgo7v","Throw","Put"};
+		weapons[] = {"FP_Type56","FP_rhs_weap_rpg7_pgo7v","Throw","Put"};
+		respawnWeapons[] = {"FP_Type56","FP_rhs_weap_rpg7_pgo7v","Throw","Put"};
 		magazines[] = {"rhs_30Rnd_762x39mm_89","rhs_30Rnd_762x39mm_89","rhs_30Rnd_762x39mm_89","rhs_30Rnd_762x39mm_89","rhs_30Rnd_762x39mm_89","rhs_30Rnd_762x39mm_89","rhs_30Rnd_762x39mm_89","rhs_rpg7_PG7VL_mag","SmokeShell","SmokeShellRed"};
 		respawnMagazines[] = {"rhs_30Rnd_762x39mm_89","rhs_30Rnd_762x39mm_89","rhs_30Rnd_762x39mm_89","rhs_30Rnd_762x39mm_89","rhs_30Rnd_762x39mm_89","rhs_30Rnd_762x39mm_89","rhs_30Rnd_762x39mm_89","rhs_rpg7_PG7VL_mag","SmokeShell","SmokeShellRed"};
 		cost = 180000;
 		threat[] = {1,0.7,0.3};
 		secondaryAmmoCoef = 0.5;
 		icon = "iconManAT";
-<<<<<<< HEAD
 		headgearProbability = 33;
 		allowedHeadgear[] = {"UK3CB_TKA_I_H_SSh68_Oli","rhsgref_ssh68_ttsko_dark","rhsgref_ssh68_ttsko_mountain"};
 	};
 	class FP_Faction_KPA_AMAT: FP_Faction_KPA_Soldier_BASE
-=======
-	};
 	class FP_Faction_KPA_Marine_AMAT: FP_Faction_KPA_Marine_BASE
->>>>>>> 399ef40... Factions Update Ver. I forgot at this point
 	{
 		author = "FP Mod Team";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "MAT Assistant";
 		backpack = "KPA_TacticalPack_oli_MAT";
-<<<<<<< HEAD
 		headgearProbability = 33;
 		allowedHeadgear[] = {"UK3CB_TKA_I_H_SSh68_Oli","rhsgref_ssh68_ttsko_dark","rhsgref_ssh68_ttsko_mountain"};
 		cost = 65000;
 		threat[] = {1,0.1,0.3};
 	};
-	class FP_Faction_KPA_MANPADS: FP_Faction_KPA_Soldier_BASE
-=======
-		cost = 65000;
-		threat[] = {1,0.1,0.3};
-	};
 	class FP_Faction_KPA_Marine_MANPADS: FP_Faction_KPA_Marine_BASE
->>>>>>> 399ef40... Factions Update Ver. I forgot at this point
 	{
 		class SpeechVariants
 		{
@@ -3249,22 +3218,16 @@ class FP_Faction_KPA_SOF_Medic: FP_Faction_KPA_SOF_Soldier_BASE
 		threat[] = {1,0.7,0.3};
 		secondaryAmmoCoef = 0.5;
 		icon = "iconManAT";
-<<<<<<< HEAD
 		headgearProbability = 66;
 		allowedHeadgear[] = {"UK3CB_TKA_I_H_SSh68_Oli","rhsgref_ssh68_ttsko_dark","rhsgref_ssh68_ttsko_mountain"};
 	};
-	class FP_Faction_KPA_AMANPADS: FP_Faction_KPA_Soldier_BASE
-=======
-	};
 	class FP_Faction_KPA_Marine_AMANPADS: FP_Faction_KPA_Marine_BASE
->>>>>>> 399ef40... Factions Update Ver. I forgot at this point
 	{
 		author = "FP Mod Team";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "MANPADS Assistant";
 		backpack = "KPA_Carryall_oli_MANPADS";
-<<<<<<< HEAD
 		headgearProbability = 100;
 		allowedHeadgear[] = {"UK3CB_TKA_I_H_SSh68_Oli","rhsgref_ssh68_ttsko_dark","rhsgref_ssh68_ttsko_mountain"};
 		cost = 65000;
@@ -3351,8 +3314,8 @@ class FP_Faction_KPA_SOF_Medic: FP_Faction_KPA_SOF_Soldier_BASE
 		scopeCurator = 0;
 		model = "\A3\characters_F\OPFOR\o_officer.p3d";
 		uniformClass = "FP_Uniform_KPA_Duckhunter";  
-		weapons[] = {"hlc_rifle_aks74u_ekp8_02_545SUP_AK","RH_cz75_gemtech9","Binocular","Throw","Put"};
-		respawnWeapons[] = {"hlc_rifle_aks74u_ekp8_02_545SUP_AK","RH_cz75_gemtech9","Binocular","Throw","Put"};
+		weapons[] = {"FP_hlc_rifle_aks74u_ekp8_02_545SUP_AK","FP_RH_cz75_gemtech9","Binocular","Throw","Put"};
+		respawnWeapons[] = {"FP_hlc_rifle_aks74u_ekp8_02_545SUP_AK","FP_RH_cz75_gemtech9","Binocular","Throw","Put"};
 		magazines[] = {"hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","rhs_mag_rgd5","rhs_mag_rgd5","SmokeShell","SmokeShell"};
 		respawnMagazines[] = {"hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","rhs_mag_rgd5","rhs_mag_rgd5","SmokeShell","SmokeShell"};
 		Items[] = {"FirstAidKit"};
@@ -3378,23 +3341,13 @@ class FP_Faction_KPA_SOF_Medic: FP_Faction_KPA_SOF_Soldier_BASE
 		scopeCurator = 2;
 		displayName = "Recon Scout (AT)";
 		backpack = "KPA_Recon_FieldPack_RPG_Light_grn";
-		weapons[] = {"hlc_rifle_aks74u_ekp8_02_545SUP_AK","RH_cz75_gemtech9","rhs_weap_rpg7_FP_pgo7v2","Binocular","Throw","Put"};
-		respawnWeapons[] = {"hlc_rifle_aks74u_ekp8_02_545SUP_AK","RH_cz75_gemtech9","rhs_weap_rpg7_FP_pgo7v2","Binocular","Throw","Put"};
+		weapons[] = {"FP_hlc_rifle_aks74u_ekp8_02_545SUP_AK","FP_RH_cz75_gemtech9","FP_rhs_weap_rpg7_pgo7v2","Binocular","Throw","Put"};
+		respawnWeapons[] = {"FP_hlc_rifle_aks74u_ekp8_02_545SUP_AK","FP_RH_cz75_gemtech9","FP_rhs_weap_rpg7_pgo7v2","Binocular","Throw","Put"};
 		magazines[] = {"hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","rhs_rpg7_PG7VL_mag","rhs_mag_rgd5","rhs_mag_rgd5","SmokeShell","SmokeShell"};
 		respawnMagazines[] = {"hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","RH_16Rnd_9x19_CZ","rhs_rpg7_PG7VL_mag","rhs_mag_rgd5","rhs_mag_rgd5","SmokeShell","SmokeShell"};
 		
-	};
-	
-	
-	
-	class FP_Faction_KPA_WPRG_Base: FP_Faction_KPA_Soldier_BASE
-=======
-		cost = 65000;
-		threat[] = {1,0.1,0.3};
-	};
-	
+	};	
 	class FP_Faction_KPA_Light_Soldier_BASE: FP_Faction_KPA_Soldier_BASE
->>>>>>> 399ef40... Factions Update Ver. I forgot at this point
 	{
 		author = "FP Mod Team";
 		_generalMacro = "FP_Faction_KPA_Soldier_BASE";
@@ -3629,7 +3582,7 @@ class cfgWeapons
 		};
 	};
 	class hlc_rifle_aks74u;
-	class hlc_rifle_aks74u_ekp8_02_545SUP_AK: hlc_rifle_aks74u
+	class FP_hlc_rifle_aks74u_ekp8_02_545SUP_AK: hlc_rifle_aks74u
 	{
 		class LinkedItems
 		{
@@ -3645,10 +3598,9 @@ class cfgWeapons
 			};
 		};		
 	};
-<<<<<<< HEAD
-=======
+
 	class hlc_rifle_aks74;
-	class hlc_rifle_aks74_1p29_545SUP_AK: hlc_rifle_aks74
+	class FP_hlc_rifle_aks74_1p29_545SUP_AK: hlc_rifle_aks74
 	{
 		class LinkedItems
 		{
@@ -3665,7 +3617,7 @@ class cfgWeapons
 		};		
 	};
 	class hlc_rifle_aks74_GL;
-	class hlc_rifle_aks74_GL_ekp8_02_545SUP_AK: hlc_rifle_aks74_GL
+	class FP_hlc_rifle_aks74_GL_ekp8_02_545SUP_AK: hlc_rifle_aks74_GL
 	{
 		class LinkedItems
 		{
@@ -3681,7 +3633,7 @@ class cfgWeapons
 			};
 		};		
 	};
-	class hlc_rifle_aks74_GL_pkas_545SUP_AK : hlc_rifle_aks74_GL
+	class FP_hlc_rifle_aks74_GL_pkas_545SUP_AK : hlc_rifle_aks74_GL
 	{
 		class LinkedItems
 		{
@@ -3698,7 +3650,7 @@ class cfgWeapons
 		};		
 	};
 	class hlc_rifle_rpk74n;
-	class hlc_rifle_rpk74n_ekp8_02_545SUP_AK: hlc_rifle_rpk74n
+	class FP_hlc_rifle_rpk74n_ekp8_02_545SUP_AK: hlc_rifle_rpk74n
 	{
 		class LinkedItems
 		{
@@ -3714,9 +3666,8 @@ class cfgWeapons
 			};
 		};		
 	};	
->>>>>>> 399ef40... Factions Update Ver. I forgot at this point
 	class RH_cz75;
-	class RH_cz75_gemtech9: RH_cz75
+	class FP_RH_cz75_gemtech9: RH_cz75
 	{
 		class LinkedItems
 		{
@@ -3728,7 +3679,7 @@ class cfgWeapons
 		};		
 	};
 	class rhs_weap_asval;
-	class rhs_weap_asval_FP_PSO1M21: rhs_weap_asval
+	class FP_rhs_weap_asval_FP_PSO1M21: rhs_weap_asval
 	{
 		class LinkedItems
 		{
@@ -3740,7 +3691,7 @@ class cfgWeapons
 		};
 	};	
 	class rhs_weap_rpg7;
-	class rhs_weap_rpg7_FP_pgo7v: rhs_weap_rpg7
+	class FP_rhs_weap_rpg7_pgo7v: rhs_weap_rpg7
 	{
 		class LinkedItems
 		{
@@ -3751,7 +3702,7 @@ class cfgWeapons
 			};
 		};
 	};	
-	class rhs_weap_rpg7_FP_pgo7v2: rhs_weap_rpg7
+	class FP_rhs_weap_rpg7_pgo7v2: rhs_weap_rpg7
 	{
 		class LinkedItems
 		{

@@ -82,8 +82,6 @@ class cfgVehicles
 				textures[] = {"\fp_factions\JSDF\data\blackwasp\Fighter_01_fuselage_01_japan01_co.paa","\fp_factions\JSDF\data\blackwasp\Fighter_01_fuselage_02_japan01_co.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_glass_01_ca.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_01_co.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_02_co.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_03_co.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_05_co.paa","a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_01_ca.paa","a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_00_ca.paa","a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_01_ca.paa"};
 				factions[] = {"FP_Faction_JSDF"};
 			};
-<<<<<<< HEAD
-=======
 			class JSDFSkin02
 			{
 				author="CSLeader";
@@ -91,7 +89,6 @@ class cfgVehicles
 				textures[] = {"\fp_factions\JSDF\data\blackwasp\Fighter_01_fuselage_01_japan02_co.paa","\fp_factions\JSDF\data\blackwasp\Fighter_01_fuselage_02_japan02_co.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_glass_01_ca.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_01_co.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_02_co.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_03_co.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_05_co.paa","a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_01_ca.paa","a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_00_ca.paa","a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_01_ca.paa"};
 				factions[] = {"FP_Faction_JSDF"};
 			};
->>>>>>> 399ef40... Factions Update Ver. I forgot at this point
 			class JSDFSkinAggressor01
 			{
 				author="CSLeader";
@@ -118,8 +115,6 @@ class cfgVehicles
 				textures[] = {"\fp_factions\JSDF\data\blackwasp\Fighter_01_fuselage_01_japan01_co.paa","\fp_factions\JSDF\data\blackwasp\Fighter_01_fuselage_02_japan01_co.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_glass_01_ca.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_01_co.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_02_co.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_03_co.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_05_co.paa","a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_01_ca.paa","a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_00_ca.paa","a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_01_ca.paa"};
 				factions[] = {"FP_Faction_JSDF"};
 			};
-<<<<<<< HEAD
-=======
 			class JSDFSkin02
 			{
 				author="CSLeader";
@@ -127,7 +122,6 @@ class cfgVehicles
 				textures[] = {"\fp_factions\JSDF\data\blackwasp\Fighter_01_fuselage_01_japan02_co.paa","\fp_factions\JSDF\data\blackwasp\Fighter_01_fuselage_02_japan02_co.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_glass_01_ca.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_01_co.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_02_co.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_03_co.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_05_co.paa","a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_01_ca.paa","a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_00_ca.paa","a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_01_ca.paa"};
 				factions[] = {"FP_Faction_JSDF"};
 			};
->>>>>>> 399ef40... Factions Update Ver. I forgot at this point
 			class JSDFSkinAggressor01
 			{
 				author="CSLeader";
@@ -641,8 +635,8 @@ class cfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Marksman";
-		weapons[] = {"hlc_rifle_m14dmr_optic_artel_m14","RH_p226","Throw","Put"};
-		respawnWeapons[] = {"hlc_rifle_m14dmr_optic_artel_m14","RH_p226","Throw","Put"};
+		weapons[] = {"FP_hlc_rifle_m14dmr_optic_artel_m14","RH_p226","Throw","Put"};
+		respawnWeapons[] = {"FP_hlc_rifle_m14dmr_optic_artel_m14","RH_p226","Throw","Put"};
 		magazines[] = {"hlc_20Rnd_762x51_mk316_M14","hlc_20Rnd_762x51_mk316_M14","hlc_20Rnd_762x51_mk316_M14","hlc_20Rnd_762x51_mk316_M14","hlc_20Rnd_762x51_mk316_M14","hlc_20Rnd_762x51_mk316_M14","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
 		respawnMagazines[] = {"hlc_20Rnd_762x51_mk316_M14","hlc_20Rnd_762x51_mk316_M14","hlc_20Rnd_762x51_mk316_M14","hlc_20Rnd_762x51_mk316_M14","hlc_20Rnd_762x51_mk316_M14","hlc_20Rnd_762x51_mk316_M14","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
 		cost = 150000;
@@ -862,8 +856,8 @@ class cfgVehicles
 		scopeCurator = 0;
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01.p3d";
 		uniformClass = "FP_Uniform_Jietai";  
-		weapons[] = {"rhs_weap_m4a1_blockII_bk_nt4_black_compm4_rvg_blk","RH_usp","Throw","Put"};
-		respawnWeapons[] = {"rhs_weap_m4a1_blockII_bk_nt4_black_compm4_rvg_blk","RH_usp_gemtech45","Throw","Put"};
+		weapons[] = {"FP_rhs_weap_m4a1_blockII_bk_nt4_black_compm4_rvg_blk","RH_usp","Throw","Put"};
+		respawnWeapons[] = {"FP_rhs_weap_m4a1_blockII_bk_nt4_black_compm4_rvg_blk","FP_RH_usp_gemtech45","Throw","Put"};
 		magazines[] = {"hlc_30rnd_556x45_S","hlc_30rnd_556x45_S","hlc_30rnd_556x45_S","hlc_30rnd_556x45_S","hlc_30rnd_556x45_S","hlc_30rnd_556x45_S","hlc_30rnd_556x45_S","RH_12Rnd_45cal_usp","RH_12Rnd_45cal_usp","RH_12Rnd_45cal_usp","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		respawnMagazines[] = {"hlc_30rnd_556x45_S","hlc_30rnd_556x45_S","hlc_30rnd_556x45_S","hlc_30rnd_556x45_S","hlc_30rnd_556x45_S","hlc_30rnd_556x45_S","hlc_30rnd_556x45_S","RH_12Rnd_45cal_usp","RH_12Rnd_45cal_usp","RH_12Rnd_45cal_usp","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		Items[] = {"FirstAidKit"};
@@ -892,8 +886,8 @@ class cfgVehicles
 		genericNames = "JapaneseMen";
         identityTypes[] = {"LanguageCHI_F","Head_Asian","G_HAF_default"};
 		uniformClass = "FP_GhillieSuit_Jietai";  
-		weapons[] = {"rhs_weap_m24sws_wd_m8541_harris_swivel","RH_usp","Laserdesignator_01_khk_F","Throw","Put"};
-		respawnWeapons[] = {"rhs_weap_m24sws_wd_m8541_harris_swivel","RH_usp_gemtech45","Laserdesignator_01_khk_F","Throw","Put"};
+		weapons[] = {"FP_rhs_weap_m24sws_wd_m8541_harris_swivel","RH_usp","Laserdesignator_01_khk_F","Throw","Put"};
+		respawnWeapons[] = {"FP_rhs_weap_m24sws_wd_m8541_harris_swivel","FP_RH_usp_gemtech45","Laserdesignator_01_khk_F","Throw","Put"};
 		magazines[] = {"rhsusf_5Rnd_762x51_m118_special_Mag","rhsusf_5Rnd_762x51_m118_special_Mag","rhsusf_5Rnd_762x51_m118_special_Mag","rhsusf_5Rnd_762x51_m118_special_Mag","rhsusf_5Rnd_762x51_m118_special_Mag","rhsusf_5Rnd_762x51_m118_special_Mag","rhsusf_5Rnd_762x51_m118_special_Mag","rhsusf_5Rnd_762x51_m118_special_Mag","rhsusf_5Rnd_762x51_m118_special_Mag","rhsusf_5Rnd_762x51_m118_special_Mag","rhsusf_5Rnd_762x51_m118_special_Mag","RH_12Rnd_45cal_usp","RH_12Rnd_45cal_usp","RH_12Rnd_45cal_usp","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		respawnMagazines[] = {"rhsusf_5Rnd_762x51_m118_special_Mag","rhsusf_5Rnd_762x51_m118_special_Mag","rhsusf_5Rnd_762x51_m118_special_Mag","rhsusf_5Rnd_762x51_m118_special_Mag","rhsusf_5Rnd_762x51_m118_special_Mag","rhsusf_5Rnd_762x51_m118_special_Mag","rhsusf_5Rnd_762x51_m118_special_Mag","rhsusf_5Rnd_762x51_m118_special_Mag","rhsusf_5Rnd_762x51_m118_special_Mag","rhsusf_5Rnd_762x51_m118_special_Mag","rhsusf_5Rnd_762x51_m118_special_Mag","RH_12Rnd_45cal_usp","RH_12Rnd_45cal_usp","RH_12Rnd_45cal_usp","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		Items[] = {"FirstAidKit","ACE_RangeCard"};
@@ -1174,8 +1168,8 @@ class cfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Airborne Marksman";
-		weapons[] = {"hlc_rifle_m14dmr_optic_artel_m14","RH_p226","Throw","Put"};
-		respawnWeapons[] = {"hlc_rifle_m14dmr_optic_artel_m14","RH_p226","Throw","Put"};
+		weapons[] = {"FP_hlc_rifle_m14dmr_optic_artel_m14","RH_p226","Throw","Put"};
+		respawnWeapons[] = {"FP_hlc_rifle_m14dmr_optic_artel_m14","RH_p226","Throw","Put"};
 		magazines[] = {"hlc_20Rnd_762x51_mk316_M14","hlc_20Rnd_762x51_mk316_M14","hlc_20Rnd_762x51_mk316_M14","hlc_20Rnd_762x51_mk316_M14","hlc_20Rnd_762x51_mk316_M14","hlc_20Rnd_762x51_mk316_M14","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
 		respawnMagazines[] = {"hlc_20Rnd_762x51_mk316_M14","hlc_20Rnd_762x51_mk316_M14","hlc_20Rnd_762x51_mk316_M14","hlc_20Rnd_762x51_mk316_M14","hlc_20Rnd_762x51_mk316_M14","hlc_20Rnd_762x51_mk316_M14","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
 		cost = 150000;
@@ -1275,8 +1269,8 @@ class cfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Paratrooper Marksman";
-		weapons[] = {"hlc_rifle_m14dmr_optic_artel_m14","RH_p226","Throw","Put"};
-		respawnWeapons[] = {"hlc_rifle_m14dmr_optic_artel_m14","RH_p226","Throw","Put"};
+		weapons[] = {"FP_hlc_rifle_m14dmr_optic_artel_m14","RH_p226","Throw","Put"};
+		respawnWeapons[] = {"FP_hlc_rifle_m14dmr_optic_artel_m14","RH_p226","Throw","Put"};
 		magazines[] = {"hlc_20Rnd_762x51_mk316_M14","hlc_20Rnd_762x51_mk316_M14","hlc_20Rnd_762x51_mk316_M14","hlc_20Rnd_762x51_mk316_M14","hlc_20Rnd_762x51_mk316_M14","hlc_20Rnd_762x51_mk316_M14","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
 		respawnMagazines[] = {"hlc_20Rnd_762x51_mk316_M14","hlc_20Rnd_762x51_mk316_M14","hlc_20Rnd_762x51_mk316_M14","hlc_20Rnd_762x51_mk316_M14","hlc_20Rnd_762x51_mk316_M14","hlc_20Rnd_762x51_mk316_M14","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
 		cost = 150000;
@@ -1298,7 +1292,7 @@ class cfgWeapons
 {
 	class rhs_weap_m4a1_blockII_bk;
 	class rhs_weap_m4a1_blockII_M203_bk;
-	class rhs_weap_m4a1_blockII_bk_nt4_black_compm4_rvg_blk: rhs_weap_m4a1_blockII_bk
+	class FP_rhs_weap_m4a1_blockII_bk_nt4_black_compm4_rvg_blk: rhs_weap_m4a1_blockII_bk
 	{
 		class LinkedItems
 		{
@@ -1319,7 +1313,7 @@ class cfgWeapons
 			};			
 		};
 	};
-	class rhs_weap_m4a1_blockII_M203_bk_nt4_acog_rmr: rhs_weap_m4a1_blockII_M203_bk
+	class FP_rhs_weap_m4a1_blockII_M203_bk_nt4_acog_rmr: rhs_weap_m4a1_blockII_M203_bk
 	{
 		class LinkedItems
 		{
@@ -1336,7 +1330,7 @@ class cfgWeapons
 		};
 	};
 	class RH_usp;
-	class RH_usp_gemtech45: RH_usp
+	class FP_RH_usp_gemtech45: RH_usp
 	{
 		class LinkedItems
 		{
@@ -1349,7 +1343,7 @@ class cfgWeapons
 	};
 	
 	class hlc_rifle_m14dmr;
-	class hlc_rifle_m14dmr_optic_artel_m14: hlc_rifle_m14dmr
+	class FP_hlc_rifle_m14dmr_optic_artel_m14: hlc_rifle_m14dmr
 	{
 		class LinkedItems
 		{
@@ -1361,7 +1355,7 @@ class cfgWeapons
 		};
 	};
 	class rhs_weap_m24sws_wd;
-	class rhs_weap_m24sws_wd_m8541_harris_swivel: rhs_weap_m24sws_wd
+	class FP_rhs_weap_m24sws_wd_m8541_harris_swivel: rhs_weap_m24sws_wd
 	{
 		class LinkedItems
 		{
@@ -1377,7 +1371,7 @@ class cfgWeapons
 			};	
 		};
 	};	
-	class rhs_weap_m24sws_wd_m8541_harris_swivel_m24_silencer_black: rhs_weap_m24sws_wd
+	class FP_rhs_weap_m24sws_wd_m8541_harris_swivel_m24_silencer_black: rhs_weap_m24sws_wd
 	{
 		class LinkedItems
 		{

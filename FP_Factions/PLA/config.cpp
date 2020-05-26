@@ -28,11 +28,8 @@ class CfgGroups
 			name = "People's Republic of China (2010)";
 			class Infantry
 			{
-<<<<<<< HEAD
 				name = "PRC (2010/Universal) Infantry ";
-=======
 				name = "Infantry (Universal)";
->>>>>>> 399ef40... Factions Update Ver. I forgot at this point
 				class PLA_Riflesquad
 				{
 					faction = "FP_Faction_PLA";
@@ -253,11 +250,8 @@ class CfgGroups
 			};
 			class Support
 			{
-<<<<<<< HEAD
 				name = "PRC (2010/Universal) Company Attachments";
-=======
 				name = "Support Infantry (Universal)";
->>>>>>> 399ef40... Factions Update Ver. I forgot at this point
 				class PLA_DoctorTeam
 				{
 					name = "Doctor Team";
@@ -456,11 +450,8 @@ class CfgGroups
 			};
 			class InfantryDesert
 			{
-<<<<<<< HEAD
 				name = "PRC (2010/Desert) Infantry ";
-=======
 				name = "Infantry (Desert)";
->>>>>>> 399ef40... Factions Update Ver. I forgot at this point
 				class PLA_Desert_Riflesquad
 				{
 					name = "Rifle Squad";
@@ -681,11 +672,8 @@ class CfgGroups
 			};
 			class SupportDesert
 			{
-<<<<<<< HEAD
 				name = "PRC (2010/Desert) Company Attachments";
-=======
 				name = "Support Infantry (Desert)";
->>>>>>> 399ef40... Factions Update Ver. I forgot at this point
 				class PLA_Desert_DoctorTeam
 				{
 					name = "Doctor Team";
