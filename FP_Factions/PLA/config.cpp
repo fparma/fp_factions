@@ -1527,34 +1527,6 @@ class cfgvehicles
 		hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4"};
 		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\typhoon\Truck_03_ext01_pla_CO.paa","\fp_factions\PLA\data\typhoon\Truck_03_ext02_pla_CO.paa","\fp_factions\PLA\data\typhoon\Truck_03_cargo_pla_CO.paa","\A3\Structures_F\Data\Metal\Containers\Containers_02_set_CO.paa"};
 	};
-	class UK3CB_O_G_T55;
-	class FP_Faction_PLA_ZTZ59: UK3CB_O_G_T55
-	{
-		class TextureSources
-		{
-			class PLA_T55_Green
-			{
-				author="CSLeader";
-				displayname = "PLA Green";				
-				textures[] = {"\fp_factions\PLA\data\t55\t55_body_pla_co.paa","\fp_factions\PLA\data\t55\t55_tower_pla_co.paa"};
-				factions[] = {"FP_Faction_PLA"};
-			};
-			class PLA_T55_Olive
-			{
-				author="CSLeader";
-				displayname = "PLA Olive";				
-				textures[] = {"\fp_factions\PLA\data\t55\t55_body_pla_drab_co.paa","\fp_factions\PLA\data\t55\t55_tower_pla_drab_co.paa"};
-				factions[] = {"FP_Faction_PLA"};
-			};
-		};
-		author = "FP Mod Team";
-		crew = "FP_Faction_PLA_Crewman";
-		displayName = "ZTZ-59";
-		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_ZTZ59.jpg";
-		faction = "FP_Faction_PLA";
-		hiddenSelections[] = {"camo1","camo2"};
-		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\t55\t55_body_pla_co.paa","\fp_factions\PLA\data\t55\t55_tower_pla_co.paa"};
-	};
 	class O_MBT_02_cannon_F;
 	class FP_Faction_PLA_MBT_02_cannon_F: O_MBT_02_cannon_F
 	{
