@@ -181,7 +181,11 @@ class CfgPatches
 			"FP_GOR_Uniform_Massif_krypteknomad",
 			"FP_GOR_Uniform_Massif_02_krypteknomad",
 			"FP_GOR_Uniform_Massifjacket_krypteknomad",
-			"FP_GOR_Uniform_Massifjacket_02_krypteknomad"
+			"FP_GOR_Uniform_Massifjacket_02_krypteknomad",
+			"FP_GOR_Uniform_Massif_flora",
+			"FP_GOR_Uniform_Massif_02_flora",
+			"FP_GOR_Uniform_Massifjacket_flora",
+			"FP_GOR_Uniform_Massifjacket_02_flora"
 			
 		};
 		requiredVersion=0.1;
