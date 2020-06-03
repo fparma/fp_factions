@@ -61,7 +61,13 @@ class CfgPatches
 			"FP_GOR_H_Booniehat_flecktarnautumn",
 			"FP_GOR_H_Booniehat_flecktarnautumn_hs",
 			"FP_GOR_H_Booniehat_flecktarndesert",
-			"FP_GOR_H_Booniehat_flecktarndesert_hs"
+			"FP_GOR_H_Booniehat_flecktarndesert_hs",
+			"FP_GOR_H_Booniehat_kryptekmandrake",
+			"FP_GOR_H_Booniehat_kryptekmandrake_hs",
+			"FP_GOR_H_Booniehat_krypteknomad",
+			"FP_GOR_H_Booniehat_krypteknomad_hs",
+			"FP_GOR_H_Booniehat_kryptekhighlander",
+			"FP_GOR_H_Booniehat_kryptekhighlander_hs"
 		
 		};
 		requiredVersion=0.1;
@@ -524,5 +530,101 @@ class CfgWeapons
 		scope = 2;
 		displayName = "Booniehat (Flecktarn (Desert), headset)";
 		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_flecktarndesert_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_kryptekmandrake: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_kryptekmandrake";
+		scope = 2;
+		displayName = "Booniehat (Kryptek Mandrake)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_kryptekmandrake_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_kryptekmandrake_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_kryptekmandrake_hs";
+		scope = 2;
+		displayName = "Booniehat (Kryptek Mandrake, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_kryptekmandrake_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_krypteknomad: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_krypteknomad";
+		scope = 2;
+		displayName = "Booniehat (Kryptek Nomad)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_krypteknomad_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_krypteknomad_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_krypteknomad_hs";
+		scope = 2;
+		displayName = "Booniehat (Kryptek Nomad, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_krypteknomad_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_kryptekhighlander: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_kryptekhighlander";
+		scope = 2;
+		displayName = "Booniehat (Kryptek Highlander)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_kryptekhighlander_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_kryptekhighlander_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_kryptekhighlander_hs";
+		scope = 2;
+		displayName = "Booniehat (Kryptek Highlander, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_kryptekhighlander_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_frenchce: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_frenchce";
+		scope = 2;
+		displayName = "Booniehat (French CE)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_frenchce_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_frenchce_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_frenchce_hs";
+		scope = 2;
+		displayName = "Booniehat (French CE, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_frenchce_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_frenchcegign: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_frenchcegign";
+		scope = 2;
+		displayName = "Booniehat (French CE (GIGN))";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_frenchcegign_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_frenchcegign_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_frenchcegign_hs";
+		scope = 2;
+		displayName = "Booniehat (French CE (GIGN), headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_frenchcegign_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_frenchdaguet: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_frenchdaguet";
+		scope = 2;
+		displayName = "Booniehat (French Daguet)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_frenchdaguet_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_frenchdaguet_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_frenchdaguet_hs";
+		scope = 2;
+		displayName = "Booniehat (French Daguet, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_frenchdaguet_co.paa"};
 	};
 };
