@@ -22,31 +22,6 @@ class CfgPatches
 };
 class CfgWeapons
 {
-/*	#define MAC_TEX_DESERT 
-	hiddenSelectionsTextures[] = {"rhsafrf\addons\rhs_weapons\texture\AK74MPaint_co.paa"};\
-	magazines[] =\
-	{\
-		rhs_30Rnd_545x39_7N22_desert_AK,\
-		rhs_30Rnd_545x39_7N22_AK,\
-		rhs_30Rnd_545x39_7N22_plum_AK,\
-		rhs_30Rnd_545x39_7N22_camo_AK\
-	};\
-	AUTHOR_MACRO
-	
-	
-	#define MAC_TEX_CAMO 
-	hiddenSelectionsTextures[] = {"rhsafrf\addons\rhs_weapons\texture\AK74MCamo_co.paa"};\
-	magazines[] =\
-	{\
-		rhs_30Rnd_545x39_7N22_camo_AK,\
-		rhs_30Rnd_545x39_7N22_AK,\
-		rhs_30Rnd_545x39_7N22_plum_AK,\
-		rhs_30Rnd_545x39_7N22_desert_AK\
-	};\
-	AUTHOR_MACRO
-	
-*/
-	
 	class rhs_weap_ak74m_camo;
 	class rhs_weap_ak74m_npz;
 	class rhs_weap_ak74m_camo_npz: rhs_weap_ak74m_npz
