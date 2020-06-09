@@ -5,6 +5,9 @@ class CfgPatches
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {};
+		requiredAddons[]=
+		{
+			"A3_Data_F_Oldman_Loadorder"
+		};
 	};
 };

@@ -2,7 +2,6 @@ class CfgPatches
 {
 	class gordon_reskins_RHSAK74stuff
 	{
-		// List of units defined in this "PBO"
 		units[]={};
 		weapons[]=
 		{
