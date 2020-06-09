@@ -21,7 +21,6 @@ class CfgPatches
 };
 class CfgWeapons
 {
-	class rhs_weap_ak74m_camo;
 	class rhs_weap_ak74m_npz;
 	class rhs_weap_ak74m_camo_npz: rhs_weap_ak74m_npz
 	{
