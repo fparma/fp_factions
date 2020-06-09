@@ -39,7 +39,7 @@ class CfgPatches
 		requiredAddons[]=
 		{
 			"A3_Weapons_F_Ammoboxes",
-			"A3_Data_F_Enoch_Loadorder"
+			"A3_Data_F_Oldman_Loadorder"
 		};
 	};
 };

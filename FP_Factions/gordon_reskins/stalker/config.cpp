@@ -17,7 +17,7 @@ class CfgPatches
 			"A3_Armor_F_Gamma",
 			"A3_Soft_F",
 			"A3_Armor_F_Beta_APC_Tracked_02",
-			"A3_Data_F_Enoch_Loadorder"
+			"A3_Data_F_Oldman_Loadorder"
 		};
 	};
 };

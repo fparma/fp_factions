@@ -29,7 +29,7 @@ class CfgPatches
 			"A3_Characters_F_Beta",
 			"A3_Characters_F",
 			"A3_Characters_F_BLUFOR",
-			"A3_Data_F_Enoch_Loadorder"
+			"A3_Data_F_Oldman_Loadorder"
 		};
 	};
 };
