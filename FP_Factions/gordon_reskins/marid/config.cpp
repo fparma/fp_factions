@@ -517,7 +517,7 @@ class CfgVehicles
 		};
 		/*extern*/ class Components;
 	
-
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_B_APC_Wheeled_02_rcws_v2_F.jpg";	
 		textureList[] = 
 		{
 			"Blufor", 1
@@ -641,7 +641,7 @@ class CfgVehicles
 		};
 		/*extern*/ class Components;
 
-		
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_B_T_APC_Wheeled_02_rcws_v2_F.jpg";			
 		textureList[] = 
 		{
 			"BluforPacific", 1
@@ -777,7 +777,7 @@ class CfgVehicles
 		};
 		/*extern*/ class Components;
 
-		
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_I_APC_Wheeled_02_rcws_v2_F.jpg";			
 		textureList[] = 
 		{
 			"AAF", 1

@@ -169,6 +169,7 @@ class CfgVehicles
 			"B_soldier_f",
 			"B_soldier_f"
 		};
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_B_Truck_03_transport_F.jpg";	
 		textureList[] = 
 		{
 			"Blufor", 1
@@ -192,6 +193,7 @@ class CfgVehicles
 			"B_T_soldier_f",
 			"B_T_soldier_f"
 		};
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_B_T_Truck_03_transport_F.jpg";	
 		textureList[] = 
 		{
 			"BluforPacific", 1
@@ -215,6 +217,7 @@ class CfgVehicles
 			"I_Soldier_lite_F",
 			"I_Soldier_lite_F"
 		};
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_I_Truck_03_transport_F.jpg";	
 		textureList[] = 
 		{
 			"AAF", 1
@@ -383,6 +386,7 @@ class CfgVehicles
 			"B_soldier_f",
 			"B_soldier_f"
 		};
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_B_Truck_03_covered_F.jpg";	
 		textureList[] = 
 		{
 			"Blufor", 1
@@ -407,6 +411,7 @@ class CfgVehicles
 			"B_T_soldier_f",
 			"B_T_soldier_f"
 		};
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_B_T_Truck_03_covered_F.jpg";	
 		textureList[] = 
 		{
 			"BluforPacific", 1
@@ -431,6 +436,7 @@ class CfgVehicles
 			"I_Soldier_lite_F",
 			"I_Soldier_lite_F"
 		};
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_I_Truck_03_covered_F.jpg";	
 		textureList[] = 
 		{
 			"AAF", 1
@@ -592,6 +598,7 @@ class CfgVehicles
 			"B_soldier_f",
 			"B_soldier_f"
 		};
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_B_Truck_03_repair_F.jpg";	
 		textureList[] = 
 		{
 			"Blufor", 1
@@ -615,6 +622,7 @@ class CfgVehicles
 			"B_T_soldier_f",
 			"B_T_soldier_f"
 		};
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_B_T_Truck_03_repair_F.jpg";	
 		textureList[] = 
 		{
 			"BluforPacific", 1
@@ -638,6 +646,7 @@ class CfgVehicles
 			"I_Soldier_lite_F",
 			"I_Soldier_lite_F"
 		};
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_I_Truck_03_repair_F.jpg";	
 		textureList[] = 
 		{
 			"AAF", 1
@@ -806,6 +815,7 @@ class CfgVehicles
 			"B_soldier_f",
 			"B_soldier_f"
 		};
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_B_Truck_03_ammo_F.jpg";	
 		textureList[] = 
 		{
 			"Blufor", 1
@@ -830,6 +840,7 @@ class CfgVehicles
 			"B_T_soldier_f",
 			"B_T_soldier_f"
 		};
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_B_T_Truck_03_ammo_F.jpg";	
 		textureList[] = 
 		{
 			"BluforPacific", 1
@@ -854,6 +865,7 @@ class CfgVehicles
 			"I_Soldier_lite_F",
 			"I_Soldier_lite_F"
 		};
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_I_Truck_03_ammo_F.jpg";	
 		textureList[] = 
 		{
 			"AAF", 1
@@ -1015,6 +1027,7 @@ class CfgVehicles
 			"B_soldier_f",
 			"B_soldier_f"
 		};
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_B_Truck_03_fuel_F.jpg";	
 		textureList[] = 
 		{
 			"Blufor", 1
@@ -1038,6 +1051,7 @@ class CfgVehicles
 			"B_T_soldier_f",
 			"B_T_soldier_f"
 		};
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_B_T_Truck_03_fuel_F.jpg";	
 		textureList[] = 
 		{
 			"BluforPacific", 1
@@ -1061,6 +1075,7 @@ class CfgVehicles
 			"I_Soldier_lite_F",
 			"I_Soldier_lite_F"
 		};
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_I_Truck_03_fuel_F.jpg";
 		textureList[] = 
 		{
 			"AAF", 1
@@ -1229,6 +1244,7 @@ class CfgVehicles
 			"B_soldier_f",
 			"B_soldier_f"
 		};
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_B_Truck_03_medical_F.jpg";
 		textureList[] = 
 		{
 			"Blufor", 1
@@ -1253,6 +1269,7 @@ class CfgVehicles
 			"B_T_soldier_f",
 			"B_T_soldier_f"
 		};
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_B_T_Truck_03_medical_F.jpg";
 		textureList[] = 
 		{
 			"BluforPacific", 1
@@ -1277,6 +1294,7 @@ class CfgVehicles
 			"I_Soldier_lite_F",
 			"I_Soldier_lite_F"
 		};
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_I_Truck_03_medical_F.jpg";
 		textureList[] = 
 		{
 			"AAF", 1
@@ -1454,6 +1472,7 @@ class CfgVehicles
 			"B_soldier_f",
 			"B_soldier_f"
 		};
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_B_Truck_03_device_F.jpg";
 		textureList[] = 
 		{
 			"Blufor", 1
@@ -1479,6 +1498,7 @@ class CfgVehicles
 			"B_T_soldier_f",
 			"B_T_soldier_f"
 		};
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_B_T_Truck_03_device_F.jpg";
 		textureList[] = 
 		{
 			"BluforPacific", 1
@@ -1504,6 +1524,7 @@ class CfgVehicles
 			"I_Soldier_lite_F",
 			"I_Soldier_lite_F"
 		};
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_I_Truck_03_device_F.jpg";
 		textureList[] = 
 		{
 			"AAF", 1

@@ -21,8 +21,8 @@ class CfgPatches
 		requiredVersion=0.1;
 		requiredAddons[]= 
 		{
-			"A3_Armor_F_Gamma",
-			"A3_Armor_F_Exp"
+			"A3_Data_F_Oldman_Loadorder",
+			"ace_tracers"
 		};
 	};
 };
@@ -31,11 +31,11 @@ class CfgAmmo
 	class B_127x108_Ball;
 	class FP_GOR_B_127x108_Ball_Red: B_127x108_Ball
 	{
-		model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
+		model = "\z\ace\addons\tracers\ace_TracerRed2.p3d";
 	};
 	class FP_GOR_B_127x108_Ball_Yellow: B_127x108_Ball
 	{
-		model = "\A3\Weapons_f\Data\bullettracer\tracer_yellow";
+		model = "\z\ace\addons\tracers\ace_TracerYellow2.p3d";
 	};
 };
 class CfgMagazines
@@ -497,7 +497,7 @@ class CfgVehicles
 		};
 		/*extern*/ class Components;
 	
-
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_B_MBT_02_cannon_F.jpg";
 		textureList[] = 
 		{
 			"Blufor", 1
@@ -553,7 +553,7 @@ class CfgVehicles
 		};
 		/*extern*/ class Components;
 
-		
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_B_T_MBT_02_cannon_F.jpg";		
 		textureList[] = 
 		{
 			"BluforPacific", 1
@@ -642,7 +642,7 @@ class CfgVehicles
 		};
 		/*extern*/ class Components;
 
-		
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_I_MBT_02_cannon_F.jpg";			
 		textureList[] = 
 		{
 			"AAF", 1

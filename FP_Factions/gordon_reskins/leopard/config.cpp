@@ -199,7 +199,7 @@ class CfgVehicles
 		};
 		/*extern*/ class Components;
 	
-
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_B_MBT_03_cannon_F.jpg";	
 		textureList[] = 
 		{
 			"Blufor", 1
@@ -253,7 +253,7 @@ class CfgVehicles
 		};
 		/*extern*/ class Components;
 
-		
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_B_T_MBT_03_cannon_F.jpg";			
 		textureList[] = 
 		{
 			"BluforPacific", 1

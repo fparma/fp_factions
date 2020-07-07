@@ -241,7 +241,7 @@ class CfgVehicles
 		};
 		/*extern*/ class Components;
 
-		
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_I_AFV_Wheeled_01_cannon_F.jpg";		
 		textureList[] = 
 		{
 			"AAF", 1
@@ -522,7 +522,7 @@ class CfgVehicles
 		};
 		/*extern*/ class Components;
 
-		
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_I_AFV_Wheeled_01_up_cannon_F.jpg";			
 		textureList[] = 
 		{
 			"AAF", 1
