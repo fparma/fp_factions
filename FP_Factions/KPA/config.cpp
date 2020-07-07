@@ -2819,8 +2819,8 @@ class FP_Faction_KPA_SOF_Medic: FP_Faction_KPA_SOF_Soldier_BASE
 		scopeCurator = 2;
 		displayName = "Rifleman (AT)";
 		backpack = "KPA_FieldPack_RPG_khk";
-		weapons[] = {"str_ppsh_old",,"launch_RPG7_F","Throw","Put"};
-		respawnWeapons[] = {"str_ppsh_old",,"launch_RPG7_F","Throw","Put"};
+		weapons[] = {"str_ppsh_old","launch_RPG7_F","Throw","Put"};
+		respawnWeapons[] = {"str_ppsh_old","launch_RPG7_F","Throw","Put"};
 		magazines[] = {"35rnd_psh_mag","35rnd_psh_mag","35rnd_psh_mag","35rnd_psh_mag","35rnd_psh_mag","35rnd_psh_mag","RPG7_F","rhs_mag_rgd5","SmokeShell","SmokeShellRed"};
 		respawnMagazines[] = {"35rnd_psh_mag","35rnd_psh_mag","35rnd_psh_mag","35rnd_psh_mag","35rnd_psh_mag","35rnd_psh_mag","RPG7_F","rhs_mag_rgd5","SmokeShell","SmokeShellRed"};
 		cost = 180000;
