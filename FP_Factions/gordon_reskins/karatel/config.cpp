@@ -282,7 +282,7 @@ class CfgVehicles
 		};
 		/*extern*/ class Components;
 	
-
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_B_MRAP_02_F.jpg";		
 		textureList[] = 
 		{
 			"Blufor", 1
@@ -436,7 +436,7 @@ class CfgVehicles
 		};
 		/*extern*/ class Components;
 	
-
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_B_MRAP_02_hmg_F.jpg";	
 		textureList[] = 
 		{
 			"Blufor", 1
@@ -569,7 +569,7 @@ class CfgVehicles
 		};
 		/*extern*/ class Components;
 	
-
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_B_MRAP_02_gmg_F.jpg";	
 		textureList[] = 
 		{
 			"Blufor", 1
@@ -691,7 +691,7 @@ class CfgVehicles
 		};
 		/*extern*/ class Components;
 
-		
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_B_MRAP_02_F2.jpg";			
 		textureList[] = 
 		{
 			"BluforPacific", 1
@@ -813,7 +813,7 @@ class CfgVehicles
 		};
 		/*extern*/ class Components;
 
-		
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_B_MRAP_02_hmg_F2.jpg";			
 		textureList[] = 
 		{
 			"BluforPacific", 1
@@ -935,7 +935,7 @@ class CfgVehicles
 		};
 		/*extern*/ class Components;
 
-		
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_B_MRAP_02_gmg_F2.jpg";			
 		textureList[] = 
 		{
 			"BluforPacific", 1
@@ -1052,7 +1052,7 @@ class CfgVehicles
 		};
 		/*extern*/ class Components;
 
-		
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_I_MRAP_02_F.jpg";	
 		textureList[] = 
 		{
 			"AAF", 1
@@ -1177,7 +1177,7 @@ class CfgVehicles
 		};
 		/*extern*/ class Components;
 
-		
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_I_MRAP_02_hmg_F.jpg";			
 		textureList[] = 
 		{
 			"AAF", 1
@@ -1294,7 +1294,7 @@ class CfgVehicles
 		};
 		/*extern*/ class Components;
 
-		
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_I_MRAP_02_gmg_F.jpg";			
 		textureList[] = 
 		{
 			"AAF", 1

@@ -145,7 +145,7 @@ class CfgVehicles
 		};
 		/*extern*/ class Components;
 
-		
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_I_MRAP_01_F.jpg";				
 		textureList[] = 
 		{
 			"AAF", 1
@@ -285,7 +285,7 @@ class CfgVehicles
 		};
 		/*extern*/ class Components;
 	
-
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_I_MRAP_01_hmg_F.jpg";	
 		textureList[] = 
 		{
 			"AAF", 1
@@ -405,7 +405,7 @@ class CfgVehicles
 		};
 		/*extern*/ class Components;
 	
-
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_I_MRAP_01_gmg_F.jpg";	
 		textureList[] = 
 		{
 			"AAF", 1

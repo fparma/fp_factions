@@ -234,7 +234,7 @@ class CfgVehicles
 		};
 		/*extern*/ class Components;
 	
-
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_B_APC_Tracked_02_cannon_F.jpg";
 		textureList[] = 
 		{
 			"Blufor", 1
@@ -372,7 +372,7 @@ class CfgVehicles
 		};
 		/*extern*/ class Components;
 
-		
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_B_T_APC_Tracked_02_cannon_F.jpg";		
 		textureList[] = 
 		{
 			"BluforPacific", 1
@@ -581,7 +581,7 @@ class CfgVehicles
 		};
 		/*extern*/ class Components;
 	
-
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_B_APC_Tracked_02_AA_F.jpg";	
 		textureList[] = 
 		{
 			"Blufor", 1
@@ -719,7 +719,7 @@ class CfgVehicles
 		};
 		/*extern*/ class Components;
 
-		
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_B_T_APC_Tracked_02_AA_F.jpg";			
 		textureList[] = 
 		{
 			"BluforPacific", 1
