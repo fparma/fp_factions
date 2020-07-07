@@ -1414,7 +1414,7 @@ class CfgVehicles
 		};
 		author = "FP Mod Team";
 		crew = "FP_Faction_KPA_Crewman";
-		displayName = "T-72M Pokpung-Ho II"
+		displayName = "T-72M Pokpung-Ho II";
 		faction = "FP_Faction_KPA";
 	};
 	class UK3CB_CW_SOV_O_EARLY_T72B;
@@ -1432,7 +1432,7 @@ class CfgVehicles
 		};
 		author = "FP Mod Team";
 		crew = "FP_Faction_KPA_Crewman";
-		displayName = "T-72M1 ERA"
+		displayName = "T-72M1 ERA";
 		faction = "FP_Faction_KPA";
 	};
 	class rhs_bmp1_msv;
@@ -1528,7 +1528,7 @@ class CfgVehicles
 			class CargoTurret_01;
 			class CargoTurret_02;
 			class CargoTurret_03;
-		}
+		};
 	};
 	class FP_Faction_KPA_URAL_ZU23: RHS_Ural_Zu23_Base
 	{		
@@ -2215,7 +2215,7 @@ class CfgVehicles
 		displayName = "Crew Commander";
 		weapons[] = {"str_ppsh_old","rhs_weap_makarov_pm","Binocular","Throw","Put"};
 		respawnWeapons[] = {"str_ppsh_old","rhs_weap_makarov_pm","Binocular","Throw","Put"};		
-	}
+	};
 	class FP_Faction_KPA_Engineer: FP_Faction_KPA_Soldier_BASE
 	{
 		author = "FP Mod Team";
@@ -3074,7 +3074,7 @@ class FP_Faction_KPA_SOF_Medic: FP_Faction_KPA_SOF_Soldier_BASE
 		displayName = "Crew Commander";
 		weapons[] = {"str_ppsh_old","rhs_weap_makarov_pm","Binocular","Throw","Put"};
 		respawnWeapons[] = {"str_ppsh_old","rhs_weap_makarov_pm","Binocular","Throw","Put"};		
-	}
+	};
 	class FP_Faction_KPA_Marine_Engineer: FP_Faction_KPA_Marine_BASE
 	{
 		author = "FP Mod Team";

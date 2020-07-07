@@ -2476,7 +2476,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "UAV Operator";
-		backpack = "O_UAV_01_backpack_F"
+		backpack = "O_UAV_01_backpack_F";
 		linkedItems[] = {"FP_V_PlateCarrierIA1_Type07Desert","FP_Helmet_Type07Desert","O_UavTerminal","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"FP_V_PlateCarrierIA1_Type07Desert","FP_Helmet_Type07Desert","O_UavTerminal","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 100;
@@ -2962,7 +2962,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "UAV Operator";
-		backpack = "O_UAV_01_backpack_F"
+		backpack = "O_UAV_01_backpack_F";
 		linkedItems[] = {"FP_V_PlateCarrierIA1_Type07Woodland","FP_Helmet_Type07Woodland","O_UavTerminal","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"FP_V_PlateCarrierIA1_Type07Woodland","FP_Helmet_Type07Woodland","O_UavTerminal","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 100;
@@ -3448,7 +3448,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "UAV Operator";
-		backpack = "O_UAV_01_backpack_F"
+		backpack = "O_UAV_01_backpack_F";
 		linkedItems[] = {"FP_V_PlateCarrierIA1_blk","FP_Helmet_Type07Oceanic","O_UavTerminal","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"FP_V_PlateCarrierIA1_blk","FP_Helmet_Type07Oceanic","O_UavTerminal","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 100;
