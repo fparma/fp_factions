@@ -33,7 +33,9 @@ class CfgPatches
 			"FP_GOR_fastpack_flecktarndesert",
 			"FP_GOR_fastpack_mm14",
 			"FP_GOR_fastpack_mm14woodland",
-			"FP_GOR_fastpack_honor"
+			"FP_GOR_fastpack_honor",
+			"FP_GOR_fastpack_m90",
+			"FP_GOR_fastpack_m90k",
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -296,6 +298,24 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\fastpack\data\fastpack_honor_co.paa"
+		};
+	};
+	class FP_GOR_fastpack_m90: B_Kitbag_rgr
+	{
+		author="Gordon Weedman";
+		displayName="Kitbag (Swedish M90)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\fastpack\data\fastpack_m90_co.paa"
+		};
+	};
+	class FP_GOR_fastpack_m90k: B_Kitbag_rgr
+	{
+		author="Gordon Weedman";
+		displayName="Kitbag (Swedish M90K)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\fastpack\data\fastpack_m90k_co.paa"
 		};
 	};
 }; 
