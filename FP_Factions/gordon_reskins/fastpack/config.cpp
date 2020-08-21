@@ -35,7 +35,7 @@ class CfgPatches
 			"FP_GOR_fastpack_mm14woodland",
 			"FP_GOR_fastpack_honor",
 			"FP_GOR_fastpack_m90",
-			"FP_GOR_fastpack_m90k",
+			"FP_GOR_fastpack_m90k"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
