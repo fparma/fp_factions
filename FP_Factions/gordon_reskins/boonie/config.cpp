@@ -67,7 +67,17 @@ class CfgPatches
 			"FP_GOR_H_Booniehat_krypteknomad",
 			"FP_GOR_H_Booniehat_krypteknomad_hs",
 			"FP_GOR_H_Booniehat_kryptekhighlander",
-			"FP_GOR_H_Booniehat_kryptekhighlander_hs"
+			"FP_GOR_H_Booniehat_kryptekhighlander_hs",
+			"FP_GOR_H_Booniehat_frenchce",
+			"FP_GOR_H_Booniehat_frenchce_hs",
+			"FP_GOR_H_Booniehat_frenchcegign",
+			"FP_GOR_H_Booniehat_frenchcegign_hs",
+			"FP_GOR_H_Booniehat_frenchdaguet",
+			"FP_GOR_H_Booniehat_frenchdaguet_hs",
+			"FP_GOR_H_Booniehat_m90",
+			"FP_GOR_H_Booniehat_m90_hs",
+			"FP_GOR_H_Booniehat_m90k",
+			"FP_GOR_H_Booniehat_m90k_hs"
 		
 		};
 		requiredVersion=0.1;
@@ -627,5 +637,37 @@ class CfgWeapons
 		scope = 2;
 		displayName = "Booniehat (French Daguet, headset)";
 		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_frenchdaguet_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_m90: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_m90";
+		scope = 2;
+		displayName = "Booniehat (Swedish M90)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_m90_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_m90_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_m90_hs";
+		scope = 2;
+		displayName = "Booniehat (Swedish M90, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_m90_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_m90k: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_m90k";
+		scope = 2;
+		displayName = "Booniehat (Swedish M90K)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_m90k_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_m90k_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_m90k_hs";
+		scope = 2;
+		displayName = "Booniehat (Swedish M90K, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_m90k_co.paa"};
 	};
 };
