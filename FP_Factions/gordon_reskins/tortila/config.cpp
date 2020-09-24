@@ -36,6 +36,7 @@ class CfgPatches
 			"FP_GOR_tortila_honor",
 			"FP_GOR_tortila_m90",
 			"FP_GOR_tortila_m90k",
+			"FP_GOR_tortila_emr",
 			"B_Carryall_ghex_F"
 		};
 		requiredVersion=0.1;
@@ -317,6 +318,15 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_m90k_co.paa"
+		};
+	};
+	class FP_GOR_tortila_emr: B_Carryall_oli
+	{
+		author="Gordon Weedman";
+		displayName="Carryall Backpack (EMR)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_emr_co.paa"
 		};
 	};
 	class B_Carryall_Base;
