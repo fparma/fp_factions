@@ -77,8 +77,11 @@ class CfgPatches
 			"FP_GOR_H_Booniehat_m90",
 			"FP_GOR_H_Booniehat_m90_hs",
 			"FP_GOR_H_Booniehat_m90k",
-			"FP_GOR_H_Booniehat_m90k_hs"
-		
+			"FP_GOR_H_Booniehat_m90k_hs",
+			"FP_GOR_H_Booniehat_atacsfg",
+			"FP_GOR_H_Booniehat_atacsfg_hs",
+			"FP_GOR_H_Booniehat_atacsau",
+			"FP_GOR_H_Booniehat_atacsau_hs"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -669,5 +672,37 @@ class CfgWeapons
 		scope = 2;
 		displayName = "Booniehat (Swedish M90K, headset)";
 		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_m90k_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_atacsfg: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_atacsfg";
+		scope = 2;
+		displayName = "Booniehat (ATACS Foliage/Green)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_atacsfg_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_atacsfg_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_atacsfg_hs";
+		scope = 2;
+		displayName = "Booniehat (ATACS Foliage/Green, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_atacsfg_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_atacsau: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_atacsau";
+		scope = 2;
+		displayName = "Booniehat (ATACS Arid/Urban)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_atacsau_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_atacsau_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_atacsau_hs";
+		scope = 2;
+		displayName = "Booniehat (ATACS Arid/Urban, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_atacsau_co.paa"};
 	};
 };

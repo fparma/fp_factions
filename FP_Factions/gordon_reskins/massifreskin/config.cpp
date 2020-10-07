@@ -185,7 +185,15 @@ class CfgPatches
 			"FP_GOR_Uniform_Massif_flora",
 			"FP_GOR_Uniform_Massif_02_flora",
 			"FP_GOR_Uniform_Massifjacket_flora",
-			"FP_GOR_Uniform_Massifjacket_02_flora"
+			"FP_GOR_Uniform_Massifjacket_02_flora",
+			"FP_GOR_Uniform_Massif_atacsfg",
+			"FP_GOR_Uniform_Massif_02_atacsfg",
+			"FP_GOR_Uniform_Massifjacket_atacsfg",
+			"FP_GOR_Uniform_Massifjacket_02_atacsfg",
+			"FP_GOR_Uniform_Massif_atacsau",
+			"FP_GOR_Uniform_Massif_02_atacsau",
+			"FP_GOR_Uniform_Massifjacket_atacsau",
+			"FP_GOR_Uniform_Massifjacket_02_atacsau"
 			
 		};
 		requiredVersion=0.1;
