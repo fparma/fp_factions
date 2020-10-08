@@ -1687,7 +1687,7 @@ class CfgVehicles
 			"\fp_factions\KPA\data\mi8\mi_171_kpa_co.paa",
 			"rhssaf\addons\rhssaf_t_vehicle_ret\mi8\rhssaf_mi8_det_camo_co.paa",
 			"\fp_factions\KPA\data\mi8\mi_171_kpa_co.paa",
-			"rhsafrf\addons\rhs_a2port_air\mi17\data\mi8_decals_notext_ca.paa",
+			"rhsafrf\addons\rhs_a2port_air\mi17\data\mi8_decals_notext_ca.paa"
 		};
 	};
 	class FP_Faction_KPA_Mi8MT: RHS_Mi8mt_vvsc
