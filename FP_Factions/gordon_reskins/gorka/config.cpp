@@ -494,6 +494,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Gorka (Partizan Summer, armoured)";
+		picture="\FP_Factions\gordon_reskins\gorka\data\icons\icon_gorkasummer_ca.paa";
 		author="Gordon Weedman";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		hiddenSelections[]=
@@ -516,6 +517,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Gorka (Partizan Summer)";
+		picture="\FP_Factions\gordon_reskins\gorka\data\icons\icon_gorkasummer_ca.paa";
 		author="Gordon Weedman";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		hiddenSelections[]=
@@ -538,6 +540,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Gorka (Partizan Autumn, armoured)";
+		picture="\FP_Factions\gordon_reskins\gorka\data\icons\icon_gorkaautumn_ca.paa";
 		author="Gordon Weedman";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		hiddenSelections[]=
@@ -560,6 +563,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Gorka (Partizan Autumn)";
+		picture="\FP_Factions\gordon_reskins\gorka\data\icons\icon_gorkaautumn_ca.paa";
 		author="Gordon Weedman";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		hiddenSelections[]=
@@ -582,6 +586,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Gorka (Partizan PautRev, armoured)";
+		picture="\FP_Factions\gordon_reskins\gorka\data\icons\icon_gorkapautrev_ca.paa";
 		author="Gordon Weedman";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		hiddenSelections[]=
@@ -604,6 +609,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Gorka (Partizan PautRev)";
+		picture="\FP_Factions\gordon_reskins\gorka\data\icons\icon_gorkapautrev_ca.paa";
 		author="Gordon Weedman";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		hiddenSelections[]=
@@ -626,6 +632,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Gorka (EMR, armoured)";
+		picture="\FP_Factions\gordon_reskins\gorka\data\icons\icon_gorkaemr_ca.paa";
 		author="Gordon Weedman";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		hiddenSelections[]=
@@ -648,6 +655,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Gorka (EMR)";
+		picture="\FP_Factions\gordon_reskins\gorka\data\icons\icon_gorkaemr_ca.paa";
 		author="Gordon Weedman";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		hiddenSelections[]=
@@ -670,6 +678,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Gorka (Skol, armoured)";
+		picture="\FP_Factions\gordon_reskins\gorka\data\icons\icon_gorkaskol_ca.paa";
 		author="Gordon Weedman";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		hiddenSelections[]=
@@ -692,6 +701,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Gorka (Skol)";
+		picture="\FP_Factions\gordon_reskins\gorka\data\icons\icon_gorkaskol_ca.paa";
 		author="Gordon Weedman";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		hiddenSelections[]=
@@ -714,6 +724,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Gorka (Birch, armoured)";
+		picture="\FP_Factions\gordon_reskins\gorka\data\icons\icon_gorkabirch_ca.paa";
 		author="Gordon Weedman";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		hiddenSelections[]=
@@ -736,6 +747,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Gorka (Birch)";
+		picture="\FP_Factions\gordon_reskins\gorka\data\icons\icon_gorkabirch_ca.paa";
 		author="Gordon Weedman";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		hiddenSelections[]=
@@ -758,6 +770,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Gorka (Sunray, armoured)";
+		picture="\FP_Factions\gordon_reskins\gorka\data\icons\icon_gorkasunray_ca.paa";
 		author="Gordon Weedman";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		hiddenSelections[]=
@@ -780,6 +793,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Gorka (Sunray)";
+		picture="\FP_Factions\gordon_reskins\gorka\data\icons\icon_gorkasunray_ca.paa";
 		author="Gordon Weedman";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		hiddenSelections[]=
@@ -802,6 +816,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Gorka (SURPAT, armoured)";
+		picture="\FP_Factions\gordon_reskins\gorka\data\icons\icon_gorkasurpat_ca.paa";
 		author="Gordon Weedman";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		hiddenSelections[]=
@@ -824,6 +839,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Gorka (SURPAT)";
+		picture="\FP_Factions\gordon_reskins\gorka\data\icons\icon_gorkasurpat_ca.paa";
 		author="Gordon Weedman";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		hiddenSelections[]=
