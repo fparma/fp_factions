@@ -3059,4 +3059,69 @@ class CfgVehicles
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifatacsau_co.paa"
 		};
 	};
+	class FP_GOR_Massif_soldier2000: I_soldier_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_soldier2000";
+		displayName="Massif (Soldier 2000)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifsoldier2000_co.paa"
+		};
+	};
+	class FP_GOR_Massif_02_soldier2000: I_Soldier_02_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_02_soldier2000";
+		displayName="Massif (Soldier 2000, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifsoldier2000_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_soldier2000: I_E_Uniform_01_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_soldier2000";
+		displayName="Massif (Soldier 2000, jacket)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketsoldier2000_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifsoldier2000_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_02_soldier2000: I_E_Uniform_01_shortsleeve_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_02_soldier2000";
+		displayName="Massif (Soldier 2000, jacket, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketsoldier2000_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifsoldier2000_co.paa"
+		};
+	};
 };

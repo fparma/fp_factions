@@ -193,7 +193,11 @@ class CfgPatches
 			"FP_GOR_Uniform_Massif_atacsau",
 			"FP_GOR_Uniform_Massif_02_atacsau",
 			"FP_GOR_Uniform_Massifjacket_atacsau",
-			"FP_GOR_Uniform_Massifjacket_02_atacsau"
+			"FP_GOR_Uniform_Massifjacket_02_atacsau",
+			"FP_GOR_Uniform_Massif_soldier2000",
+			"FP_GOR_Uniform_Massif_02_soldier2000",
+			"FP_GOR_Uniform_Massifjacket_soldier2000",
+			"FP_GOR_Uniform_Massifjacket_02_soldier2000"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=

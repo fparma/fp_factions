@@ -705,4 +705,20 @@ class CfgWeapons
 		displayName = "Booniehat (ATACS Arid/Urban, headset)";
 		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_atacsau_co.paa"};
 	};
+	class FP_GOR_H_Booniehat_soldier2000: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_soldier2000";
+		scope = 2;
+		displayName = "Booniehat (Soldier 2000)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_soldier2000_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_soldier2000_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_soldier2000_hs";
+		scope = 2;
+		displayName = "Booniehat (Soldier 2000, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_soldier2000_co.paa"};
+	};
 };

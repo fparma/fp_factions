@@ -835,4 +835,26 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_multicamwoodland_co.paa"
 		};
 	};
+	class FP_GOR_PASGThelmet_soldier2000 : rhsgref_helmet_pasgt_erdl
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl";
+		scope=2;
+		displayName="PASGT (Soldier 2000)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_soldier2000_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_soldier2000_rhino : rhsgref_helmet_pasgt_erdl_rhino
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl_rhino";
+		scope=2;
+		displayName="PASGT (Soldier 2000, Rhino)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_soldier2000_co.paa"
+		};
+	};
 };

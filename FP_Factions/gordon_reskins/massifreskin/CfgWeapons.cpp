@@ -3201,4 +3201,72 @@ class CfgWeapons
 			mass=40;
 		};
 	};
+	class FP_GOR_Uniform_Massif_soldier2000: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="Massif (Soldier 2000)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsoldier2000_ca.paa";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_soldier2000";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massif_02_soldier2000: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="Massif (Soldier 2000, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevessoldier2000_ca.paa";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_02_soldier2000";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massifjacket_soldier2000: U_I_E_Uniform_01_F
+	{
+		scope=2;
+		displayName="Massif (Soldier 2000, jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsoldier2000_ca.paa";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketsoldier2000_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massifjacket_soldier2000";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massifjacket_02_soldier2000: U_I_E_Uniform_01_shortsleeve_F
+	{
+		scope=2;
+		displayName="Massif (Soldier 2000, jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevessoldier2000_ca.paa";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketsoldier2000_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massifjacket_02_soldier2000";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
 };
