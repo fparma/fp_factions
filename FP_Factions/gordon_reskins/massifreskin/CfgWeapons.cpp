@@ -9,6 +9,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (M81 Woodland)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifwoodland_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -23,6 +24,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (M81 Woodland, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleeveswoodland_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -37,6 +39,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (M81 Woodland, jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketwoodland_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -55,6 +58,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (M81 Woodland, jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleeveswoodland_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -73,6 +77,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (DBC Arid)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifstripeyarid_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -87,6 +92,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (DBC Arid, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevesstripeyarid_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -101,6 +107,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (DBC Arid, jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketstripeyarid_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -119,6 +126,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (DBC Arid, jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevesstripeyarid_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -137,6 +145,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (DBC Woodland)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifstripeywoodland_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -151,6 +160,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (DBC Woodland, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevesstripeywoodland_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -165,6 +175,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (DBC Woodland, jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketstripeywoodland_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -183,6 +194,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (DBC Woodland, jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevesstripeywoodland_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -201,6 +213,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (DBC Desert)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifstripeydesert_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -215,6 +228,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (DBC Desert, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevesstripeydesert_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -229,6 +243,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (DBC Desert, jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketstripeydesert_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -247,6 +262,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (DBC Desert, jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevesstripeydesert_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -265,6 +281,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (French Lizard C1)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massiffrenchlizardc1_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -279,6 +296,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (French Lizard C1, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevesfrenchlizardc1_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -293,6 +311,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (French Lizard C1, jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketfrenchlizardc1_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -311,6 +330,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (French Lizard C1, jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevesfrenchlizardc1_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -329,6 +349,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (French Lizard A2)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massiffrenchlizarda2_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -343,6 +364,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (French Lizard A2, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevesfrenchlizarda2_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -357,6 +379,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (French Lizard A2, jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketfrenchlizarda2_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -375,6 +398,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (French Lizard A2, jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevesfrenchlizarda2_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -393,6 +417,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (French Lizard Fictional)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massiffrenchlizardfictional_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -407,6 +432,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (French Lizard Fictional, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevesfrenchlizardfictional_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -421,6 +447,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (French Lizard Fictional, jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketfrenchlizardfictional_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -439,6 +466,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (French Lizard Fictional, jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevesfrenchlizardfictional_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -457,6 +485,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Combat Fatigues [Syndikat]";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsyndikat_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -471,6 +500,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Combat Fatigues [Syndikat] (Rolled-up)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevessyndikat_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -485,6 +515,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Tigerstripe jungle)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massiftigerstripejungle_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -499,6 +530,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Tigerstripe jungle, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevestigerstripejungle_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -513,6 +545,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Tigerstripe jungle, jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jackettigerstripejungle_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -531,6 +564,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Tigerstripe jungle, jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevestigerstripejungle_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -549,6 +583,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Tigerstripe desert)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massiftigerstripedesert_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -563,6 +598,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Tigerstripe desert, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevestigerstripedesert_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -577,6 +613,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Tigerstripe desert, jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jackettigerstripedesert_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -595,6 +632,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Tigerstripe desert, jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevestigerstripedesert_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -613,6 +651,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Tigerstripe naval)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massiftigerstripenaval_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -627,6 +666,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Tigerstripe naval, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevestigerstripenaval_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -641,6 +681,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Tigerstripe naval, jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jackettigerstripenaval_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -659,6 +700,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Tigerstripe naval, jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevestigerstripenaval_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -677,6 +719,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Oakleaf summer)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifoakleafsummer_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -691,6 +734,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Oakleaf summer, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevesoakleafsummer_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -705,6 +749,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Oakleaf summer, jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketoakleafsummer_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -723,6 +768,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Oakleaf summer, jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevesoakleafsummer_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -741,6 +787,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Oakleaf fall)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifoakleaffall_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -755,6 +802,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Oakleaf fall, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevesoakleaffall_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -769,6 +817,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Oakleaf fall, jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketoakleaffall_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -787,6 +836,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Oakleaf fall, jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevesoakleaffall_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -805,6 +855,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (AUSCAM DPCU)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifauscamdpcu_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -819,6 +870,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (AUSCAM DPCU, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevesauscamdpcu_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -833,6 +885,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (AUSCAM DPCU, jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketauscamdpcu_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -851,6 +904,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (AUSCAM DPCU, jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevesauscamdpcu_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -869,6 +923,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (AUSCAM DPDU)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifauscamdpdu_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -883,6 +938,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (AUSCAM DPDU, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevesauscamdpdu_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -897,6 +953,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (AUSCAM DPDU, jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketauscamdpdu_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -915,6 +972,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (AUSCAM DPDU, jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevesauscamdpdu_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -933,6 +991,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (SMK)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsmk_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -947,6 +1006,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (SMK, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevessmk_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -961,6 +1021,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (SMK, jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsmk_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -979,6 +1040,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (SMK, jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevessmk_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -997,6 +1059,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (CROPAT)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifcropat_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -1011,6 +1074,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (CROPAT, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevescropat_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -1025,6 +1089,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (CROPAT, jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketcropat_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -1043,6 +1108,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (CROPAT, jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevescropat_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -1061,6 +1127,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (CROPAT Desert)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifcropatdesert_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -1075,6 +1142,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (CROPAT Desert, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevescropatdesert_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -1089,6 +1157,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (CROPAT Desert, jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketcropatdesert_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -1107,6 +1176,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (CROPAT Desert, jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevescropatdesert_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -1125,6 +1195,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Project Honor)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifhonor_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -1139,6 +1210,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Project Honor, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleeveshonor_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -1153,6 +1225,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Project Honor, jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jackethonor_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -1171,6 +1244,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Project Honor, jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleeveshonor_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -1189,6 +1263,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (British MTP)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifmtp_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -1203,6 +1278,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (British MTP, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevesmtp_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -1217,6 +1293,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (British MTP, jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketmtp_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -1235,6 +1312,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (British MTP, jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevesmtp_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -1253,6 +1331,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Ukrainian MM-14)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifmm14_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -1267,6 +1346,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Ukrainian MM-14, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevesmm14_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -1281,6 +1361,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Ukrainian MM-14, jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketmm14_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -1299,6 +1380,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Ukrainian MM-14, jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevesmm14_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -1317,6 +1399,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Ukrainian MM-14 Woodland)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifmm14woodland_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -1331,6 +1414,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Ukrainian MM-14 Woodland, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevesmm14woodland_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -1345,6 +1429,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Ukrainian MM-14 Woodland, jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketmm14woodland_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -1363,6 +1448,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Ukrainian MM-14 Woodland, jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevesmm14woodland_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -1381,6 +1467,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Combat Fatigues [AAF] (Jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketaaf_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -1399,6 +1486,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Combat Fatigues [AAF] (Jacket, rolled-up)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevesaaf_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -1417,6 +1505,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Splitter 31 (Fall))";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsplitterfall_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -1431,6 +1520,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Splitter 31 (Fall), sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevessplitterfall_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -1445,6 +1535,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Splitter 31 (Fall), jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsplitterfall_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -1463,6 +1554,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Splitter 31 (Fall), jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevessplitterfall_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -1481,6 +1573,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Splitter 31 (Summer))";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsplittersummer_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -1495,6 +1588,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Splitter 31 (Summer), sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevessplittersummer_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -1509,6 +1603,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Splitter 31 (Summer), jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsplittersummer_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -1527,6 +1622,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Splitter 31 (Summer), jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevessplittersummer_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -1545,6 +1641,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (DPM CS95)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifcs95dpm_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -1559,6 +1656,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (DPM CS95, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevescs95dpm_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -1573,6 +1671,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (DPM CS95, jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketcs95dpm_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -1591,6 +1690,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (DPM CS95, jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevescs95dpm_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -1609,6 +1709,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Polish Pantera)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifpantera_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -1623,6 +1724,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Polish Pantera, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevespantera_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -1637,6 +1739,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Polish Pantera, jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketpantera_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -1655,6 +1758,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Polish Pantera, jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevespantera_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -1673,6 +1777,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Polish Pantera (Desert))";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifpanteradesert_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -1687,6 +1792,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Polish Pantera (Desert), sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevespanteradesert_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -1701,6 +1807,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Polish Pantera (Desert), jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketpanteradesert_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -1719,6 +1826,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Polish Pantera (Desert), jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevespanteradesert_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -1737,6 +1845,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Czech Vz95)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifvz95woodland_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -1751,6 +1860,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Czech Vz95, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevesvz95woodland_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -1765,6 +1875,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Czech Vz95, jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketvz95woodland_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -1783,6 +1894,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Czech Vz95, jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevesvz95woodland_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -1801,6 +1913,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Czech Vz95 (Desert))";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifvz95desert_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -1815,6 +1928,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Czech Vz95 (Desert), sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevesvz95desert_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -1829,6 +1943,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Czech Vz95 (Desert), jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketvz95desert_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -1847,6 +1962,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Czech Vz95 (Desert), jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevesvz95desert_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -1865,6 +1981,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Flecktarn (Summer))";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifflecktarnsummer_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -1879,6 +1996,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Flecktarn (Summer), sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevesflecktarnsummer_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -1893,6 +2011,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Flecktarn (Summer), jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketflecktarnsummer_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -1911,6 +2030,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Flecktarn (Summer), jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevesflecktarnsummer_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -1929,6 +2049,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Flecktarn (Autumn))";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifflecktarnautumn_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -1943,6 +2064,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Flecktarn (Autumn), sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevesflecktarnautumn_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -1957,6 +2079,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Flecktarn (Autumn), jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketflecktarnautumn_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -1975,6 +2098,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Flecktarn (Autumn), jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevesflecktarnautumn_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -1993,6 +2117,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Flecktarn (Desert))";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifflecktarndesert_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -2007,6 +2132,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Flecktarn (Desert), sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevesflecktarndesert_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -2021,6 +2147,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Flecktarn (Desert), jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketflecktarndesert_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -2039,6 +2166,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Flecktarn (Desert), jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevesflecktarndesert_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -2057,6 +2185,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Swedish M90)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifm90_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -2071,6 +2200,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Swedish M90, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevesm90_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -2085,6 +2215,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Swedish M90, jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketm90_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -2103,6 +2234,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Swedish M90, jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevesm90_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -2121,6 +2253,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Swedish M90K)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifm90k_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -2135,6 +2268,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Swedish M90K, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevesm90k_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -2149,6 +2283,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Swedish M90K, jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketm90k_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -2167,6 +2302,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Swedish M90K, jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevesm90k_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -2185,6 +2321,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (French CE)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massiffrenchce_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -2199,6 +2336,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (French CE, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevesfrenchce_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -2213,6 +2351,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (French CE, jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketfrenchce_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -2231,6 +2370,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (French CE, jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevesfrenchce_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -2249,6 +2389,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (French CE (GIGN))";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massiffrenchcegign_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -2263,6 +2404,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (French CE (GIGN), sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevesfrenchcegign_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -2277,6 +2419,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (French CE (GIGN), jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketfrenchcegign_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -2295,6 +2438,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (French CE (GIGN), jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevesfrenchcegign_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -2313,6 +2457,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (French Daguet)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massiffrenchdaguet_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -2327,6 +2472,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (French Daguet, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevesfrenchdaguet_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -2341,6 +2487,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (French Daguet, jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketfrenchdaguet_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -2359,6 +2506,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (French Daguet, jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevesfrenchdaguet_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -2377,6 +2525,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Multicam Woodland)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifmulticamwoodland_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -2391,6 +2540,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Multicam Woodland, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevesmulticamwoodland_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -2405,6 +2555,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Multicam Woodland, jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketmulticamwoodland_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -2423,6 +2574,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Multicam Woodland, jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevesmulticamwoodland_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -2441,6 +2593,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (US 'Chocolate chip')";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifchocochip_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -2455,6 +2608,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (US 'Chocolate chip', sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleeveschocochip_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -2469,6 +2623,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (US 'Chocolate chip', jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketchocochip_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -2487,6 +2642,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (US 'Chocolate chip', jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleeveschocochip_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -2505,6 +2661,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (US 'Chocolate chip' (Philippine))";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifchocochipphilippine_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -2519,6 +2676,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (US 'Chocolate chip' (Philippine), sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleeveschocochipphilippine_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -2533,6 +2691,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (US 'Chocolate chip' (Philippine), jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketchocochipphilippine_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -2551,6 +2710,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (US 'Chocolate chip' (Philippine), jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleeveschocochipphilippine_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -2569,6 +2729,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (US 'Coffee stain')";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifcoffeestain_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -2583,6 +2744,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (US 'Coffee stain', sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevescoffeestain_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -2597,6 +2759,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (US 'Coffee stain', jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketcoffeestain_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -2615,6 +2778,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (US 'Coffee stain', jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevescoffeestain_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -2633,6 +2797,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Kryptek Mandrake)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifkryptekmandrake_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -2647,6 +2812,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Kryptek Mandrake, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleeveskryptekmandrake_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -2661,6 +2827,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Kryptek Mandrake, jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketkryptekmandrake_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -2679,6 +2846,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Kryptek Mandrake, jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleeveskryptekmandrake_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -2697,6 +2865,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Kryptek Highlander)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifkryptekhighlander_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -2711,6 +2880,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Kryptek Highlander, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleeveskryptekhighlander_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -2725,6 +2895,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Kryptek Highlander, jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketkryptekhighlander_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -2743,6 +2914,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Kryptek Highlander, jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleeveskryptekhighlander_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -2761,6 +2933,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Kryptek Nomad)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifkrypteknomad_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -2775,6 +2948,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Kryptek Nomad, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleeveskrypteknomad_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -2789,6 +2963,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Kryptek Nomad, jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketkrypteknomad_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -2807,6 +2982,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Kryptek Nomad, jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleeveskrypteknomad_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -2825,6 +3001,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Flora)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifflora_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -2839,6 +3016,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Flora, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevesflora_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
@@ -2853,6 +3031,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Flora, jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketflora_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -2871,6 +3050,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Massif (Flora, jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevesflora_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
@@ -2881,6 +3061,210 @@ class CfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="FP_GOR_Massifjacket_02_flora";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massif_atacsfg: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="Massif (ATACS Foliage/Green)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifatacsfg_ca.paa";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_atacsfg";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massif_02_atacsfg: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="Massif (ATACS Foliage/Green, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevesatacsfg_ca.paa";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_02_atacsfg";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massifjacket_atacsfg: U_I_E_Uniform_01_F
+	{
+		scope=2;
+		displayName="Massif (ATACS Foliage/Green, jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketatacsfg_ca.paa";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketatacsfg_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massifjacket_atacsfg";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massifjacket_02_atacsfg: U_I_E_Uniform_01_shortsleeve_F
+	{
+		scope=2;
+		displayName="Massif (ATACS Foliage/Green, jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevesatacsfg_ca.paa";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketatacsfg_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massifjacket_02_atacsfg";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massif_atacsau: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="Massif (ATACS Arid/Urban)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifatacsau_ca.paa";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_atacsau";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massif_02_atacsau: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="Massif (ATACS Arid/Urban, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevesatacsau_ca.paa";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_02_atacsau";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massifjacket_atacsau: U_I_E_Uniform_01_F
+	{
+		scope=2;
+		displayName="Massif (ATACS Arid/Urban, jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketatacsau_ca.paa";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketatacsau_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massifjacket_atacsau";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massifjacket_02_atacsau: U_I_E_Uniform_01_shortsleeve_F
+	{
+		scope=2;
+		displayName="Massif (ATACS Arid/Urban, jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevesatacsau_ca.paa";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketatacsau_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massifjacket_02_atacsau";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massif_soldier2000: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="Massif (Soldier 2000)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsoldier2000_ca.paa";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_soldier2000";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massif_02_soldier2000: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="Massif (Soldier 2000, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevessoldier2000_ca.paa";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_02_soldier2000";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massifjacket_soldier2000: U_I_E_Uniform_01_F
+	{
+		scope=2;
+		displayName="Massif (Soldier 2000, jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsoldier2000_ca.paa";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketsoldier2000_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massifjacket_soldier2000";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massifjacket_02_soldier2000: U_I_E_Uniform_01_shortsleeve_F
+	{
+		scope=2;
+		displayName="Massif (Soldier 2000, jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevessoldier2000_ca.paa";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketsoldier2000_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massifjacket_02_soldier2000";
 			containerClass="Supply40";
 			mass=40;
 		};
