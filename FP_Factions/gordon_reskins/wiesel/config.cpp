@@ -281,6 +281,7 @@ class CfgVehicles
 				count=2;
 			};
 		};
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_B_LT_01_AA_F.jpg";	
 		textureList[] = 
 		{
 			"Blufor", 1
@@ -301,6 +302,7 @@ class CfgVehicles
 		{
 			"B_T_Soldier_F"
 		};
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_B_T_LT_01_AA_F.jpg";
 		textureList[] = 
 		{
 			"BluforPacific", 1
@@ -340,6 +342,7 @@ class CfgVehicles
 				count=2;
 			};
 		};
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_B_LT_01_AT_F.jpg";
 		textureList[] = 
 		{
 			"Blufor", 1
@@ -360,6 +363,7 @@ class CfgVehicles
 		{
 			"B_T_Soldier_F"
 		};
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_B_T_LT_01_AT_F.jpg";
 		textureList[] = 
 		{
 			"BluforPacific", 1
@@ -399,6 +403,7 @@ class CfgVehicles
 				count=2;
 			};
 		};
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_B_LT_01_scout_F.jpg";
 		textureList[] = 
 		{
 			"Blufor", 1
@@ -419,6 +424,7 @@ class CfgVehicles
 		{
 			"B_T_Soldier_F"
 		};
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_B_T_LT_01_scout_F.jpg";
 		textureList[] = 
 		{
 			"BluforPacific", 1
@@ -489,6 +495,7 @@ class CfgVehicles
 				count=2;
 			};
 		};
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_B_LT_01_cannon_F.jpg";
 		textureList[] = 
 		{
 			"Blufor", 1
@@ -509,6 +516,7 @@ class CfgVehicles
 		{
 			"B_T_Soldier_F"
 		};
+		editorPreview = "\FP_Factions\gordon_reskins\editorpreviews\FP_GOR_B_T_LT_01_cannon_F.jpg";
 		textureList[] = 
 		{
 			"BluforPacific", 1
