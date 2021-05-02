@@ -107,7 +107,9 @@ class CfgPatches
 			"FP_GOR_H_Booniehat_m05lumi",
 			"FP_GOR_H_Booniehat_m05lumi_hs",
 			"FP_GOR_H_Booniehat_m05helle",
-			"FP_GOR_H_Booniehat_m05helle_hs"
+			"FP_GOR_H_Booniehat_m05helle_hs",
+			"FP_GOR_H_Booniehat_surpat",
+			"FP_GOR_H_Booniehat_surpat_hs"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -950,5 +952,22 @@ class CfgWeapons
 		scope = 2;
 		displayName = "Booniehat (Finnish M05 Hellekuvio, headset)";
 		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_m05helle_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_surpat: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_surpat";
+		scope = 2;
+		displayName = "Booniehat (SURPAT)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_surpat_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_surpat_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_surpat_hs";
+		scope = 2;
+		displayName = "Booniehat (SURPAT, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_surpat_co.paa"};
 	};
 };
