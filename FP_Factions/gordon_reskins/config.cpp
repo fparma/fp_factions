@@ -7,7 +7,7 @@ class CfgPatches
 		requiredVersion = 0.1;
 		requiredAddons[]=
 		{
-			"A3_Data_F_Oldman_Loadorder"
+			"A3_Data_F_AoW_Loadorder"
 		};
 	};
 };
