@@ -26,7 +26,10 @@ class CfgPatches
 			"FP_GOR_V_CarrierRigKBT_heavy_stripeydesert_F",
 			"FP_GOR_V_CarrierRigKBT_stripeywoodland_F",
 			"FP_GOR_V_CarrierRigKBT_light_stripeywoodland_F",
-			"FP_GOR_V_CarrierRigKBT_heavy_stripeywoodland_F"
+			"FP_GOR_V_CarrierRigKBT_heavy_stripeywoodland_F",
+			"FP_GOR_V_CarrierRigKBT_winter_F",
+			"FP_GOR_V_CarrierRigKBT_light_winter_F",
+			"FP_GOR_V_CarrierRigKBT_heavy_winter_F"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -269,6 +272,40 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\modvest\data\ModVest_stripeywoodland_CO.paa"
+		};
+	}; 
+	
+	class FP_GOR_V_CarrierRigKBT_winter_F: V_CarrierRigKBT_01_Olive_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "V_CarrierRigKBT_01_Olive_F";
+		scope = 2;
+		displayName = "Modular Carrier Vest (Winter)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\modvest\data\ModVest_winter_CO.paa"
+		};
+	};
+	class FP_GOR_V_CarrierRigKBT_light_winter_F: V_CarrierRigKBT_01_light_Olive_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "V_CarrierRigKBT_01_light_Olive_F";
+		scope = 2;
+		displayName = "Modular Carrier Lite (Winter)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\modvest\data\ModVest_winter_CO.paa"
+		};
+	};
+	class FP_GOR_V_CarrierRigKBT_heavy_winter_F: V_CarrierRigKBT_01_heavy_Olive_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "V_CarrierRigKBT_01_heavy_Olive_F";
+		scope = 2;
+		displayName = "Modular Carrier GL Rig (Winter)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\modvest\data\ModVest_winter_CO.paa"
 		};
 	}; 
 };
