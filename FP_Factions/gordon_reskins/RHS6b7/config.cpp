@@ -155,7 +155,27 @@ class CfgPatches
 			"FP_GOR_6b7_1m_bala1_woodlandsnowtan",
 			"FP_GOR_6b7_1m_bala2_woodlandsnowtan",
 			"FP_GOR_6b7_1m_ess_woodlandsnowtan",
-			"FP_GOR_6b7_1m_ess_bala_woodlandsnowtan"
+			"FP_GOR_6b7_1m_ess_bala_woodlandsnowtan",
+			"FP_GOR_6b7_1m_surpat",
+			"FP_GOR_6b7_1m_bala1_surpat",
+			"FP_GOR_6b7_1m_bala2_surpat",
+			"FP_GOR_6b7_1m_ess_surpat",
+			"FP_GOR_6b7_1m_ess_bala_surpat",
+			"FP_GOR_6b7_1m_syrian",
+			"FP_GOR_6b7_1m_bala1_syrian",
+			"FP_GOR_6b7_1m_bala2_syrian",
+			"FP_GOR_6b7_1m_ess_syrian",
+			"FP_GOR_6b7_1m_ess_bala_syrian",
+			"FP_GOR_6b7_1m_desertemr",
+			"FP_GOR_6b7_1m_bala1_desertemr",
+			"FP_GOR_6b7_1m_bala2_desertemr",
+			"FP_GOR_6b7_1m_ess_desertemr",
+			"FP_GOR_6b7_1m_ess_bala_desertemr",
+			"FP_GOR_6b7_1m_desertpink",
+			"FP_GOR_6b7_1m_bala1_desertpink",
+			"FP_GOR_6b7_1m_bala2_desertpink",
+			"FP_GOR_6b7_1m_ess_desertpink",
+			"FP_GOR_6b7_1m_ess_bala_desertpink"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -1969,6 +1989,242 @@ class CfgWeapons
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b7\data\6b7-1m_woodlandsnowtan_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b7\data\bala2_snow_co.paa"
+		};
+	};
+	
+	class FP_GOR_6b7_1m_surpat: rhs_6b7_1m_emr
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (SURPAT)";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b7\data\6b7-1m_surpat_co.paa"
+		};
+	};
+	class FP_GOR_6b7_1m_bala1_surpat: rhs_6b7_1m_bala1_emr
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (SURPAT, Balaclava)";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b7\data\6b7-1m_surpat_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b7\data\bala1_surpat_co.paa"
+		};
+	};
+	class FP_GOR_6b7_1m_bala2_surpat: rhs_6b7_1m_bala2_emr
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (SURPAT, Balaclava)";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b7\data\6b7-1m_surpat_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b7\data\bala2_surpat_co.paa"
+		};
+	};
+	class FP_GOR_6b7_1m_ess_surpat: rhs_6b7_1m_emr_ess
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (SURPAT, ESS)";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b7\data\6b7-1m_surpat_co.paa"
+		};
+	};
+	class FP_GOR_6b7_1m_ess_bala_surpat: rhs_6b7_1m_emr_ess_bala
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (SURPAT, ESS & Balaclava)";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b7\data\6b7-1m_surpat_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b7\data\bala2_surpat_co.paa"
+		};
+	};
+	
+	class FP_GOR_6b7_1m_syrian: rhs_6b7_1m_emr
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (Russian Syria camo)";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b7\data\6b7-1m_syrian_co.paa"
+		};
+	};
+	class FP_GOR_6b7_1m_bala1_syrian: rhs_6b7_1m_bala1_emr
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (Russian Syria camo, Balaclava)";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b7\data\6b7-1m_syrian_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b7\data\bala1_desert_co.paa"
+		};
+	};
+	class FP_GOR_6b7_1m_bala2_syrian: rhs_6b7_1m_bala2_emr
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (Russian Syria camo, Balaclava)";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b7\data\6b7-1m_syrian_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b7\data\bala2_desert_co.paa"
+		};
+	};
+	class FP_GOR_6b7_1m_ess_syrian: rhs_6b7_1m_emr_ess
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (Russian Syria camo, ESS)";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b7\data\6b7-1m_syrian_co.paa"
+		};
+	};
+	class FP_GOR_6b7_1m_ess_bala_syrian: rhs_6b7_1m_emr_ess_bala
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (Russian Syria camo, ESS & Balaclava)";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b7\data\6b7-1m_syrian_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b7\data\bala2_desert_co.paa"
+		};
+	};
+	
+	class FP_GOR_6b7_1m_desertemr: rhs_6b7_1m_emr
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (Desert EMR)";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b7\data\6b7-1m_desertemr_co.paa"
+		};
+	};
+	class FP_GOR_6b7_1m_bala1_desertemr: rhs_6b7_1m_bala1_emr
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (Desert EMR, Balaclava)";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b7\data\6b7-1m_desertemr_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b7\data\bala1_desert_co.paa"
+		};
+	};
+	class FP_GOR_6b7_1m_bala2_desertemr: rhs_6b7_1m_bala2_emr
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (Desert EMR, Balaclava)";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b7\data\6b7-1m_desertemr_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b7\data\bala2_desert_co.paa"
+		};
+	};
+	class FP_GOR_6b7_1m_ess_desertemr: rhs_6b7_1m_emr_ess
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (Desert EMR, ESS)";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b7\data\6b7-1m_desertemr_co.paa"
+		};
+	};
+	class FP_GOR_6b7_1m_ess_bala_desertemr: rhs_6b7_1m_emr_ess_bala
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (Desert EMR, ESS & Balaclava)";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b7\data\6b7-1m_desertemr_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b7\data\bala2_desert_co.paa"
+		};
+	};
+	
+	class FP_GOR_6b7_1m_desertpink: rhs_6b7_1m_emr
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (Desert pink)";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b7\data\6b7-1m_desertpink_co.paa"
+		};
+	};
+	class FP_GOR_6b7_1m_bala1_desertpink: rhs_6b7_1m_bala1_emr
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (Desert pink, Balaclava)";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b7\data\6b7-1m_desertpink_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b7\data\bala1_desert_co.paa"
+		};
+	};
+	class FP_GOR_6b7_1m_bala2_desertpink: rhs_6b7_1m_bala2_emr
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (Desert pink, Balaclava)";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b7\data\6b7-1m_desertpink_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b7\data\bala2_desert_co.paa"
+		};
+	};
+	class FP_GOR_6b7_1m_ess_desertpink: rhs_6b7_1m_emr_ess
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (Desert pink, ESS)";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b7\data\6b7-1m_desertpink_co.paa"
+		};
+	};
+	class FP_GOR_6b7_1m_ess_bala_desertpink: rhs_6b7_1m_emr_ess_bala
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (Desert pink, ESS & Balaclava)";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b7\data\6b7-1m_desertpink_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b7\data\bala2_desert_co.paa"
 		};
 	};
 };
