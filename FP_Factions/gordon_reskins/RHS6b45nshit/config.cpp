@@ -159,7 +159,7 @@ class CfgPatches
 			"FP_GOR_rhs_6sh117_mg_desertpink",
 			"FP_GOR_rhs_6sh117_mg_desertemr",
 			"FP_GOR_rhs_6sh117_mg_syrian", 
-			"FP_GOR_rhs_6sh117_mg_surpat"
+			"FP_GOR_rhs_6sh117_mg_surpat",
 			"FP_GOR_rhs_6sh117_mg_sumrak",
 			"FP_GOR_rhs_6sh117_mg_stripeyarid",
 			"FP_GOR_rhs_6sh117_mg_stripeydesert", 
