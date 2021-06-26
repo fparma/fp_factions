@@ -980,7 +980,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_sumrak_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_sumrak_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_sumrak_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\azart_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\azart_sumrak_co.paa"
 		};
 	};
 	class FP_GOR_rhs_6b45_off_stripeyarid: rhs_6b45_off
@@ -994,7 +994,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_stripeyarid_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_stripeyarid_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_stripeyarid_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\azart_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\azart_stripeyarid_co.paa"
 		};
 	};
 	class FP_GOR_rhs_6b45_off_stripeydesert: rhs_6b45_off
@@ -1008,7 +1008,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_stripeydesert_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_stripeydesert_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_stripeydesert_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\azart_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\azart_stripeydesert_co.paa"
 		};
 	};
 	class FP_GOR_rhs_6b45_off_stripeywoodland: rhs_6b45_off
@@ -1022,7 +1022,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_stripeywoodland_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_stripeywoodland_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_stripeywoodland_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\azart_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\azart_stripeywoodland_co.paa"
 		};
 	};
 	class FP_GOR_rhs_6b45_off_desert: rhs_6b45_off
@@ -1036,8 +1036,7 @@ class CfgWeapons
 			"rhsafrf\addons\rhs_infantry3\ratnik\data\6b45_desert_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_desert_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_desert_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\azart_co.paa"
-			//"\FP_Factions\gordon_reskins\RHS6b45nshit\data\azart_desert_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\azart_desert_co.paa"
 		};
 	};
 	class FP_GOR_rhs_6b45_off_desertpink: rhs_6b45_off
@@ -1051,8 +1050,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_desertpink_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_desertpink_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_desertpink_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\azart_co.paa"
-			//"\FP_Factions\gordon_reskins\RHS6b45nshit\data\azart_desertpink_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\azart_desertpink_co.paa"
 		};
 	};
 	class FP_GOR_rhs_6b45_off_desertemr: rhs_6b45_off
@@ -1066,8 +1064,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_desertemr_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_desertemr_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_desertemr_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\azart_co.paa"
-			//"\FP_Factions\gordon_reskins\RHS6b45nshit\data\azart_desertemr_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\azart_desertemr_co.paa"
 		};
 	};
 	class FP_GOR_rhs_6b45_off_syrian: rhs_6b45_off
@@ -1081,8 +1078,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_syrian_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_syrian_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_syrian_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\azart_co.paa"
-			//"\FP_Factions\gordon_reskins\RHS6b45nshit\data\azart_syrian_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\azart_syrian_co.paa"
 		};
 	};
 	class FP_GOR_rhs_6b45_off_surpat: rhs_6b45_off
@@ -1096,8 +1092,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_surpat_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_surpat_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_surpat_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\azart_co.paa"
-			//"\FP_Factions\gordon_reskins\RHS6b45nshit\data\azart_surpat_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\azart_surpat_co.paa"
 		};
 	};
 	
@@ -1598,7 +1593,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_sumrak_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_sumrak_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_sumrak_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\azart_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\azart_sumrak_co.paa"
 		};
 	};
 	class FP_GOR_rhs_6sh117_nco_azart_stripeyarid: rhs_6sh117_nco_azart
@@ -1612,7 +1607,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_stripeyarid_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_stripeyarid_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_stripeyarid_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\azart_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\azart_stripeyarid_co.paa"
 		};
 	};
 	class FP_GOR_rhs_6sh117_nco_azart_stripeydesert: rhs_6sh117_nco_azart
@@ -1626,7 +1621,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_stripeydesert_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_stripeydesert_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_stripeydesert_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\azart_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\azart_stripeydesert_co.paa"
 		};
 	};
 	class FP_GOR_rhs_6sh117_nco_azart_stripeywoodland: rhs_6sh117_nco_azart
@@ -1640,7 +1635,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_stripeywoodland_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_stripeywoodland_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_stripeywoodland_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\azart_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\azart_stripeywoodland_co.paa"
 		};
 	};
 	class FP_GOR_rhs_6sh117_nco_azart_desert: rhs_6sh117_nco_azart
@@ -1654,7 +1649,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_desert_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_desert_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_desert_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\azart_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\azart_desert_co.paa"
 		};
 	};
 	class FP_GOR_rhs_6sh117_nco_azart_desertpink: rhs_6sh117_nco_azart
@@ -1668,7 +1663,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_desertpink_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_desertpink_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_desertpink_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\azart_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\azart_desertpink_co.paa"
 		};
 	};
 	class FP_GOR_rhs_6sh117_nco_azart_desertemr: rhs_6sh117_nco_azart
@@ -1682,7 +1677,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_desertemr_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_desertemr_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_desertemr_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\azart_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\azart_desertemr_co.paa"
 		};
 	};
 	class FP_GOR_rhs_6sh117_nco_azart_syrian: rhs_6sh117_nco_azart
@@ -1696,7 +1691,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_syrian_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_syrian_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_syrian_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\azart_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\azart_syrian_co.paa"
 		};
 	};
 	class FP_GOR_rhs_6sh117_nco_azart_surpat: rhs_6sh117_nco_azart
@@ -1710,7 +1705,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_surpat_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_surpat_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_surpat_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\azart_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\azart_surpat_co.paa"
 		};
 	};
 	
@@ -1726,7 +1721,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_sumrak_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_sumrak_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_sumrak_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\radio_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_sumrak_co.paa"
 		};
 	};
 	class FP_GOR_rhs_6sh117_nco_stripeyarid: rhs_6sh117_nco
@@ -1740,7 +1735,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_stripeyarid_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_stripeyarid_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_stripeyarid_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\radio_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_stripeyarid_co.paa"
 		};
 	};
 	class FP_GOR_rhs_6sh117_nco_stripeydesert: rhs_6sh117_nco
@@ -1754,7 +1749,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_stripeydesert_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_stripeydesert_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_stripeydesert_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\radio_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_stripeydesert_co.paa"
 		};
 	};
 	class FP_GOR_rhs_6sh117_nco_stripeywoodland: rhs_6sh117_nco
@@ -1768,7 +1763,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_stripeywoodland_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_stripeywoodland_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_stripeywoodland_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\radio_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_stripeywoodland_co.paa"
 		};
 	};
 	class FP_GOR_rhs_6sh117_nco_desert: rhs_6sh117_nco
@@ -1782,7 +1777,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_desert_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_desert_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_desert_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\radio_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_desert_co.paa"
 		};
 	};
 	class FP_GOR_rhs_6sh117_nco_desertpink: rhs_6sh117_nco
@@ -1796,7 +1791,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_desertpink_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_desertpink_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_desertpink_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\radio_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_desertpink_co.paa"
 		};
 	};
 	class FP_GOR_rhs_6sh117_nco_desertemr: rhs_6sh117_nco
@@ -1810,7 +1805,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_desertemr_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_desertemr_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_desertemr_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\radio_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_desertemr_co.paa"
 		};
 	};
 	class FP_GOR_rhs_6sh117_nco_syrian: rhs_6sh117_nco
@@ -1824,7 +1819,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_syrian_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_syrian_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_syrian_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\radio_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_syrian_co.paa"
 		};
 	};
 	class FP_GOR_rhs_6sh117_nco_surpat: rhs_6sh117_nco
@@ -1838,7 +1833,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_surpat_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_surpat_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_surpat_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\radio_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_surpat_co.paa"
 		};
 	};
 	
@@ -1854,7 +1849,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_sumrak_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_sumrak_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_sumrak_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\radio_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_sumrak_co.paa"
 		};
 	};
 	class FP_GOR_rhs_6sh117_val_stripeyarid: rhs_6sh117_val
@@ -1868,7 +1863,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_stripeyarid_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_stripeyarid_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_stripeyarid_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\radio_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_stripeyarid_co.paa"
 		};
 	};
 	class FP_GOR_rhs_6sh117_val_stripeydesert: rhs_6sh117_val
@@ -1882,7 +1877,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_stripeydesert_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_stripeydesert_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_stripeydesert_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\radio_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_stripeydesert_co.paa"
 		};
 	};
 	class FP_GOR_rhs_6sh117_val_stripeywoodland: rhs_6sh117_val
@@ -1896,7 +1891,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_stripeywoodland_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_stripeywoodland_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_stripeywoodland_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\radio_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_stripeywoodland_co.paa"
 		};
 	};
 	class FP_GOR_rhs_6sh117_val_desert: rhs_6sh117_val
@@ -1910,7 +1905,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_desert_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_desert_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_desert_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\radio_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_desert_co.paa"
 		};
 	};
 	class FP_GOR_rhs_6sh117_val_desertpink: rhs_6sh117_val
@@ -1924,7 +1919,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_desertpink_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_desertpink_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_desertpink_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\radio_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_desertpink_co.paa"
 		};
 	};
 	class FP_GOR_rhs_6sh117_val_desertemr: rhs_6sh117_val
@@ -1938,7 +1933,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_desertemr_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_desertemr_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_desertemr_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\radio_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_desertemr_co.paa"
 		};
 	};
 	class FP_GOR_rhs_6sh117_val_syrian: rhs_6sh117_val
@@ -1952,7 +1947,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_syrian_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_syrian_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_syrian_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\radio_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_syrian_co.paa"
 		};
 	};
 	class FP_GOR_rhs_6sh117_val_surpat: rhs_6sh117_val
@@ -1966,7 +1961,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_surpat_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_surpat_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_surpat_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\radio_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_surpat_co.paa"
 		};
 	};
 	
@@ -1982,7 +1977,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_sumrak_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_sumrak_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_sumrak_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\radio_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_sumrak_co.paa"
 		};
 	};
 	class FP_GOR_rhs_6sh117_svd_stripeyarid: rhs_6sh117_svd
@@ -1996,7 +1991,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_stripeyarid_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_stripeyarid_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_stripeyarid_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\radio_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_stripeyarid_co.paa"
 		};
 	};
 	class FP_GOR_rhs_6sh117_svd_stripeydesert: rhs_6sh117_svd
@@ -2010,7 +2005,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_stripeydesert_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_stripeydesert_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_stripeydesert_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\radio_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_stripeydesert_co.paa"
 		};
 	};
 	class FP_GOR_rhs_6sh117_svd_stripeywoodland: rhs_6sh117_svd
@@ -2024,7 +2019,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_stripeywoodland_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_stripeywoodland_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_stripeywoodland_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\radio_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_stripeywoodland_co.paa"
 		};
 	};
 	class FP_GOR_rhs_6sh117_svd_desert: rhs_6sh117_svd
@@ -2038,7 +2033,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_desert_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_desert_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_desert_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\radio_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_desert_co.paa"
 		};
 	};
 	class FP_GOR_rhs_6sh117_svd_desertpink: rhs_6sh117_svd
@@ -2052,7 +2047,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_desertpink_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_desertpink_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_desertpink_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\radio_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_desertpink_co.paa"
 		};
 	};
 	class FP_GOR_rhs_6sh117_svd_desertemr: rhs_6sh117_svd
@@ -2066,7 +2061,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_desertemr_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_desertemr_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_desertemr_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\radio_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_desertemr_co.paa"
 		};
 	};
 	class FP_GOR_rhs_6sh117_svd_syrian: rhs_6sh117_svd
@@ -2080,7 +2075,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_syrian_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_syrian_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_syrian_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\radio_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_syrian_co.paa"
 		};
 	};
 	class FP_GOR_rhs_6sh117_svd_surpat: rhs_6sh117_svd
@@ -2094,7 +2089,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_surpat_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_surpat_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_surpat_co.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\radio_co.paa"
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_surpat_co.paa"
 		};
 	};
 };
