@@ -85,6 +85,43 @@ class CfgPatches
 			"FP_GOR_rhs_6b45_off_stripeydesert", 
 			"FP_GOR_rhs_6b45_off_stripeywoodland",
 			
+			"FP_GOR_rhs_6b45_off_winteremr",
+			"FP_GOR_rhs_6b45_mg_winteremr",
+			"FP_GOR_rhs_6b45_grn_winteremr",
+			"FP_GOR_rhs_6b45_rifleman_2_winteremr",
+			"FP_GOR_rhs_6b45_rifleman_winteremr",
+			"FP_GOR_rhs_6b45_holster_winteremr",
+			"FP_GOR_rhs_6b45_light_winteremr",
+			"FP_GOR_rhs_6b45_winteremr",
+			
+			"FP_GOR_rhs_6b45_off_winter",
+			"FP_GOR_rhs_6b45_mg_winter",
+			"FP_GOR_rhs_6b45_grn_winter",
+			"FP_GOR_rhs_6b45_rifleman_2_winter",
+			"FP_GOR_rhs_6b45_rifleman_winter",
+			"FP_GOR_rhs_6b45_holster_winter",
+			"FP_GOR_rhs_6b45_light_winter",
+			"FP_GOR_rhs_6b45_winter",
+			
+			
+			"FP_GOR_rhs_6sh117_rifleman_winteremr",
+			"FP_GOR_rhs_6sh117_grn_winteremr",
+			"FP_GOR_rhs_6sh117_ar_winteremr",
+			"FP_GOR_rhs_6sh117_nco_winteremr",
+			"FP_GOR_rhs_6sh117_nco_azart_winteremr",
+			"FP_GOR_rhs_6sh117_val_winteremr",
+			"FP_GOR_rhs_6sh117_svd_winteremr",
+			"FP_GOR_rhs_6sh117_mg_winteremr",
+			
+			"FP_GOR_rhs_6sh117_rifleman_winter",
+			"FP_GOR_rhs_6sh117_grn_winter",
+			"FP_GOR_rhs_6sh117_ar_winter",
+			"FP_GOR_rhs_6sh117_nco_winter",
+			"FP_GOR_rhs_6sh117_nco_azart_winter",
+			"FP_GOR_rhs_6sh117_val_winter",
+			"FP_GOR_rhs_6sh117_svd_winter",
+			"FP_GOR_rhs_6sh117_mg_winter",
+			
 			"FP_GOR_rhs_6sh117_rifleman_desert",
 			"FP_GOR_rhs_6sh117_rifleman_desertpink",
 			"FP_GOR_rhs_6sh117_rifleman_desertemr",
@@ -1097,6 +1134,212 @@ class CfgWeapons
 	};
 	
 	
+	class FP_GOR_rhs_6b45_winteremr: rhs_6b45
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6b45";
+		scope = 2;
+		displayName = "6B45 (Winter EMR)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_winteremr_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6b45_light_winteremr: rhs_6b45_light
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6b45_light";
+		scope = 2;
+		displayName = "6B45 (Light, winter EMR)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_winteremr_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_winteremr_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6b45_holster_winteremr: rhs_6b45_holster
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6b45_holster";
+		scope = 2;
+		displayName = "6B45 (Holster, winter EMR)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_winteremr_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_winteremr_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6b45_rifleman_winteremr: rhs_6b45_rifleman
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6b45_rifleman";
+		scope = 2;
+		displayName = "6B45 (Rifleman 1, winter EMR)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_winteremr_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_winteremr_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_winteremr_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6b45_rifleman_2_winteremr: rhs_6b45_rifleman_2
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6b45_rifleman_2";
+		scope = 2;
+		displayName = "6B45 (Rifleman 2, winter EMR)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_winteremr_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_winteremr_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_winteremr_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6b45_grn_winteremr: rhs_6b45_grn
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6b45_grn";
+		scope = 2;
+		displayName = "6B45 (VOG, winter EMR)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_winteremr_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_winteremr_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_winteremr_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6b45_mg_winteremr: rhs_6b45_mg
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6b45_mg";
+		scope = 2;
+		displayName = "6B45 (Machine Gunner, winter EMR)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_winteremr_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_winteremr_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_winteremr_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6b45_off_winteremr: rhs_6b45_off
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6b45_off";
+		scope = 2;
+		displayName = "6B45 (Officer, winter EMR)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_winteremr_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_winteremr_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_winteremr_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\azart_winteremr_co.paa"
+		};
+	};
+	
+	
+	class FP_GOR_rhs_6b45_winter: rhs_6b45
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6b45";
+		scope = 2;
+		displayName = "6B45 (Winter)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_winter_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6b45_light_winter: rhs_6b45_light
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6b45_light";
+		scope = 2;
+		displayName = "6B45 (Light, winter)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_winter_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_winter_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6b45_holster_winter: rhs_6b45_holster
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6b45_holster";
+		scope = 2;
+		displayName = "6B45 (Holster, winter)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_winter_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_winter_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6b45_rifleman_winter: rhs_6b45_rifleman
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6b45_rifleman";
+		scope = 2;
+		displayName = "6B45 (Rifleman 1, winter)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_winter_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_winter_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_winter_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6b45_rifleman_2_winter: rhs_6b45_rifleman_2
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6b45_rifleman_2";
+		scope = 2;
+		displayName = "6B45 (Rifleman 2, winter)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_winter_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_winter_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_winter_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6b45_grn_winter: rhs_6b45_grn
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6b45_grn";
+		scope = 2;
+		displayName = "6B45 (VOG, winter)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_winter_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_winter_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_winter_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6b45_mg_winter: rhs_6b45_mg
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6b45_mg";
+		scope = 2;
+		displayName = "6B45 (Machine Gunner, winter)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_winter_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_winter_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_winter_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6b45_off_winter: rhs_6b45_off
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6b45_off";
+		scope = 2;
+		displayName = "6B45 (Officer, winter)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_winter_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_winter_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_winter_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\azart_winter_co.paa"
+		};
+	};
+	
+	
 	class rhs_6sh117_rifleman;
 	class rhs_6sh117_grn;
 	class rhs_6sh117_ar;
@@ -2090,6 +2333,226 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_surpat_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_surpat_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_surpat_co.paa"
+		};
+	};
+	
+	
+	class FP_GOR_rhs_6sh117_rifleman_winteremr: rhs_6sh117_rifleman
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6sh117_rifleman";
+		scope = 2;
+		displayName = "6Sh117 (Rifleman, winter EMR)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_winteremr_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_winteremr_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_winteremr_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh117_grn_winteremr: rhs_6sh117_grn
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6sh117_grn";
+		scope = 2;
+		displayName = "6Sh117 (VOG, winter EMR)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_winteremr_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_winteremr_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_winteremr_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh117_ar_winteremr: rhs_6sh117_ar
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6sh117_ar";
+		scope = 2;
+		displayName = "6Sh117 (RPK, winter EMR)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_winteremr_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_winteremr_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_winteremr_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh117_mg_winteremr: rhs_6sh117_mg
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6sh117_mg";
+		scope = 2;
+		displayName = "6Sh117 (Machine Gunner, winter EMR)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_winteremr_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_winteremr_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_winteremr_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh117_nco_azart_winteremr: rhs_6sh117_nco_azart
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6sh117_nco_azart";
+		scope = 2;
+		displayName = "6Sh117 (Squad Leader/Azart, winter EMR)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_winteremr_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_winteremr_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_winteremr_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\azart_winteremr_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh117_nco_winteremr: rhs_6sh117_nco
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6sh117_nco";
+		scope = 2;
+		displayName = "6Sh117 (Squad Leader, winter EMR)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_winteremr_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_winteremr_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_winteremr_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_winteremr_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh117_val_winteremr: rhs_6sh117_val
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6sh117_val";
+		scope = 2;
+		displayName = "6Sh117 (Val/VSS, winter EMR)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_winteremr_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_winteremr_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_winteremr_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_winteremr_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh117_svd_winteremr: rhs_6sh117_svd
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6sh117_svd";
+		scope = 2;
+		displayName = "6Sh117 (SVD, winter EMR)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_winteremr_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_winteremr_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_winteremr_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_winteremr_co.paa"
+		};
+	};
+	
+	
+	class FP_GOR_rhs_6sh117_rifleman_winter: rhs_6sh117_rifleman
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6sh117_rifleman";
+		scope = 2;
+		displayName = "6Sh117 (Rifleman, winter)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_winter_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_winter_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_winter_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh117_grn_winter: rhs_6sh117_grn
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6sh117_grn";
+		scope = 2;
+		displayName = "6Sh117 (VOG, winter)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_winter_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_winter_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_winter_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh117_ar_winter: rhs_6sh117_ar
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6sh117_ar";
+		scope = 2;
+		displayName = "6Sh117 (RPK, winter)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_winter_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_winter_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_winter_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh117_mg_winter: rhs_6sh117_mg
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6sh117_mg";
+		scope = 2;
+		displayName = "6Sh117 (Machine Gunner, winter)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_winter_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_winter_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_winter_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh117_nco_azart_winter: rhs_6sh117_nco_azart
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6sh117_nco_azart";
+		scope = 2;
+		displayName = "6Sh117 (Squad Leader/Azart, winter)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_winter_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_winter_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_winter_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\azart_winter_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh117_nco_winter: rhs_6sh117_nco
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6sh117_nco";
+		scope = 2;
+		displayName = "6Sh117 (Squad Leader, winter)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_winter_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_winter_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_winter_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_winter_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh117_val_winter: rhs_6sh117_val
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6sh117_val";
+		scope = 2;
+		displayName = "6Sh117 (Val/VSS, winter)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_winter_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_winter_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_winter_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_winter_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh117_svd_winter: rhs_6sh117_svd
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6sh117_svd";
+		scope = 2;
+		displayName = "6Sh117 (SVD, winter)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_winter_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_winter_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_winter_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_winter_co.paa"
 		};
 	};
 };
