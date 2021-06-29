@@ -103,6 +103,15 @@ class CfgPatches
 			"FP_GOR_rhs_6b45_light_winter",
 			"FP_GOR_rhs_6b45_winter",
 			
+			"FP_GOR_rhs_6b45_off_olive",
+			"FP_GOR_rhs_6b45_mg_olive",
+			"FP_GOR_rhs_6b45_grn_olive",
+			"FP_GOR_rhs_6b45_rifleman_2_olive",
+			"FP_GOR_rhs_6b45_rifleman_olive",
+			"FP_GOR_rhs_6b45_holster_olive",
+			"FP_GOR_rhs_6b45_light_olive",
+			"FP_GOR_rhs_6b45_olive",
+			
 			"FP_GOR_rhs_6b45_off_atacsfg",
 			"FP_GOR_rhs_6b45_mg_atacsfg",
 			"FP_GOR_rhs_6b45_grn_atacsfg",
@@ -139,6 +148,15 @@ class CfgPatches
 			"FP_GOR_rhs_6sh117_val_winter",
 			"FP_GOR_rhs_6sh117_svd_winter",
 			"FP_GOR_rhs_6sh117_mg_winter",
+			
+			"FP_GOR_rhs_6sh117_rifleman_olive",
+			"FP_GOR_rhs_6sh117_grn_olive",
+			"FP_GOR_rhs_6sh117_ar_olive",
+			"FP_GOR_rhs_6sh117_nco_olive",
+			"FP_GOR_rhs_6sh117_nco_azart_olive",
+			"FP_GOR_rhs_6sh117_val_olive",
+			"FP_GOR_rhs_6sh117_svd_olive",
+			"FP_GOR_rhs_6sh117_mg_olive",
 			
 			"FP_GOR_rhs_6sh117_rifleman_atacsau",
 			"FP_GOR_rhs_6sh117_grn_atacsau",
@@ -1372,6 +1390,109 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_winter_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_winter_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\azart_winter_co.paa"
+		};
+	};
+	
+	
+	class FP_GOR_rhs_6b45_olive: rhs_6b45
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6b45";
+		scope = 2;
+		displayName = "6B45 (Olive)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_olive_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6b45_light_olive: rhs_6b45_light
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6b45_light";
+		scope = 2;
+		displayName = "6B45 (Light, olive)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_olive_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_olive_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6b45_holster_olive: rhs_6b45_holster
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6b45_holster";
+		scope = 2;
+		displayName = "6B45 (Holster, olive)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_olive_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_olive_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6b45_rifleman_olive: rhs_6b45_rifleman
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6b45_rifleman";
+		scope = 2;
+		displayName = "6B45 (Rifleman 1, olive)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_olive_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_olive_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_olive_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6b45_rifleman_2_olive: rhs_6b45_rifleman_2
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6b45_rifleman_2";
+		scope = 2;
+		displayName = "6B45 (Rifleman 2, olive)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_olive_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_olive_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_olive_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6b45_grn_olive: rhs_6b45_grn
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6b45_grn";
+		scope = 2;
+		displayName = "6B45 (VOG, olive)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_olive_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_olive_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_olive_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6b45_mg_olive: rhs_6b45_mg
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6b45_mg";
+		scope = 2;
+		displayName = "6B45 (Machine Gunner, olive)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_olive_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_olive_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_olive_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6b45_off_olive: rhs_6b45_off
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6b45_off";
+		scope = 2;
+		displayName = "6B45 (Officer, olive)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_olive_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_olive_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_olive_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\azart_olive_co.paa"
 		};
 	};
 	
@@ -2798,6 +2919,116 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_winter_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_winter_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_winter_co.paa"
+		};
+	};
+	
+	
+	class FP_GOR_rhs_6sh117_rifleman_olive: rhs_6sh117_rifleman
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6sh117_rifleman";
+		scope = 2;
+		displayName = "6Sh117 (Rifleman, olive)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_olive_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_olive_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_olive_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh117_grn_olive: rhs_6sh117_grn
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6sh117_grn";
+		scope = 2;
+		displayName = "6Sh117 (VOG, olive)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_olive_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_olive_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_olive_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh117_ar_olive: rhs_6sh117_ar
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6sh117_ar";
+		scope = 2;
+		displayName = "6Sh117 (RPK, olive)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_olive_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_olive_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_olive_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh117_mg_olive: rhs_6sh117_mg
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6sh117_mg";
+		scope = 2;
+		displayName = "6Sh117 (Machine Gunner, olive)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_olive_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_olive_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_olive_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh117_nco_azart_olive: rhs_6sh117_nco_azart
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6sh117_nco_azart";
+		scope = 2;
+		displayName = "6Sh117 (Squad Leader/Azart, olive)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_olive_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_olive_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_olive_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\azart_olive_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh117_nco_olive: rhs_6sh117_nco
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6sh117_nco";
+		scope = 2;
+		displayName = "6Sh117 (Squad Leader, olive)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_olive_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_olive_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_olive_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_olive_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh117_val_olive: rhs_6sh117_val
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6sh117_val";
+		scope = 2;
+		displayName = "6Sh117 (Val/VSS, olive)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_olive_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_olive_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_olive_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_olive_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh117_svd_olive: rhs_6sh117_svd
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6sh117_svd";
+		scope = 2;
+		displayName = "6Sh117 (SVD, olive)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_olive_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_olive_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_olive_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_olive_co.paa"
 		};
 	};
 	
