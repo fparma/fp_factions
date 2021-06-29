@@ -103,6 +103,24 @@ class CfgPatches
 			"FP_GOR_rhs_6b45_light_winter",
 			"FP_GOR_rhs_6b45_winter",
 			
+			"FP_GOR_rhs_6b45_off_atacsfg",
+			"FP_GOR_rhs_6b45_mg_atacsfg",
+			"FP_GOR_rhs_6b45_grn_atacsfg",
+			"FP_GOR_rhs_6b45_rifleman_2_atacsfg",
+			"FP_GOR_rhs_6b45_rifleman_atacsfg",
+			"FP_GOR_rhs_6b45_holster_atacsfg",
+			"FP_GOR_rhs_6b45_light_atacsfg",
+			"FP_GOR_rhs_6b45_atacsfg",
+			
+			"FP_GOR_rhs_6b45_off_atacsau",
+			"FP_GOR_rhs_6b45_mg_atacsau",
+			"FP_GOR_rhs_6b45_grn_atacsau",
+			"FP_GOR_rhs_6b45_rifleman_2_atacsau",
+			"FP_GOR_rhs_6b45_rifleman_atacsau",
+			"FP_GOR_rhs_6b45_holster_atacsau",
+			"FP_GOR_rhs_6b45_light_atacsau",
+			"FP_GOR_rhs_6b45_atacsau",
+			
 			
 			"FP_GOR_rhs_6sh117_rifleman_winteremr",
 			"FP_GOR_rhs_6sh117_grn_winteremr",
@@ -121,6 +139,24 @@ class CfgPatches
 			"FP_GOR_rhs_6sh117_val_winter",
 			"FP_GOR_rhs_6sh117_svd_winter",
 			"FP_GOR_rhs_6sh117_mg_winter",
+			
+			"FP_GOR_rhs_6sh117_rifleman_atacsau",
+			"FP_GOR_rhs_6sh117_grn_atacsau",
+			"FP_GOR_rhs_6sh117_ar_atacsau",
+			"FP_GOR_rhs_6sh117_nco_atacsau",
+			"FP_GOR_rhs_6sh117_nco_azart_atacsau",
+			"FP_GOR_rhs_6sh117_val_atacsau",
+			"FP_GOR_rhs_6sh117_svd_atacsau",
+			"FP_GOR_rhs_6sh117_mg_atacsau",
+			
+			"FP_GOR_rhs_6sh117_rifleman_atacsfg",
+			"FP_GOR_rhs_6sh117_grn_atacsfg",
+			"FP_GOR_rhs_6sh117_ar_atacsfg",
+			"FP_GOR_rhs_6sh117_nco_atacsfg",
+			"FP_GOR_rhs_6sh117_nco_azart_atacsfg",
+			"FP_GOR_rhs_6sh117_val_atacsfg",
+			"FP_GOR_rhs_6sh117_svd_atacsfg",
+			"FP_GOR_rhs_6sh117_mg_atacsfg",
 			
 			"FP_GOR_rhs_6sh117_rifleman_desert",
 			"FP_GOR_rhs_6sh117_rifleman_desertpink",
@@ -1340,6 +1376,215 @@ class CfgWeapons
 	};
 	
 	
+	class FP_GOR_rhs_6b45_atacsfg: rhs_6b45
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6b45";
+		scope = 2;
+		displayName = "6B45 (ATACS F/G)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_atacsfg_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6b45_light_atacsfg: rhs_6b45_light
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6b45_light";
+		scope = 2;
+		displayName = "6B45 (Light, ATACS F/G)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_atacsfg_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_atacsfg_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6b45_holster_atacsfg: rhs_6b45_holster
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6b45_holster";
+		scope = 2;
+		displayName = "6B45 (Holster, ATACS F/G)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_atacsfg_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_atacsfg_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6b45_rifleman_atacsfg: rhs_6b45_rifleman
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6b45_rifleman";
+		scope = 2;
+		displayName = "6B45 (Rifleman 1, ATACS F/G)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_atacsfg_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_atacsfg_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_atacsfg_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6b45_rifleman_2_atacsfg: rhs_6b45_rifleman_2
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6b45_rifleman_2";
+		scope = 2;
+		displayName = "6B45 (Rifleman 2, ATACS F/G)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_atacsfg_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_atacsfg_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_atacsfg_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6b45_grn_atacsfg: rhs_6b45_grn
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6b45_grn";
+		scope = 2;
+		displayName = "6B45 (VOG, ATACS F/G)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_atacsfg_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_atacsfg_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_atacsfg_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6b45_mg_atacsfg: rhs_6b45_mg
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6b45_mg";
+		scope = 2;
+		displayName = "6B45 (Machine Gunner, ATACS F/G)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_atacsfg_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_atacsfg_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_atacsfg_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6b45_off_atacsfg: rhs_6b45_off
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6b45_off";
+		scope = 2;
+		displayName = "6B45 (Officer, ATACS F/G)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_atacsfg_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_atacsfg_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_atacsfg_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\azart_atacsfg_co.paa"
+		};
+	};
+	
+	
+	class FP_GOR_rhs_6b45_atacsau: rhs_6b45
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6b45";
+		scope = 2;
+		displayName = "6B45 (ATACS A/U)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_atacsau_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6b45_light_atacsau: rhs_6b45_light
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6b45_light";
+		scope = 2;
+		displayName = "6B45 (Light, ATACS A/U)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_atacsau_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_atacsau_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6b45_holster_atacsau: rhs_6b45_holster
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6b45_holster";
+		scope = 2;
+		displayName = "6B45 (Holster, ATACS A/U)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_atacsau_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_atacsau_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6b45_rifleman_atacsau: rhs_6b45_rifleman
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6b45_rifleman";
+		scope = 2;
+		displayName = "6B45 (Rifleman 1, ATACS A/U)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_atacsau_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_atacsau_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_atacsau_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6b45_rifleman_2_atacsau: rhs_6b45_rifleman_2
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6b45_rifleman_2";
+		scope = 2;
+		displayName = "6B45 (Rifleman 2, ATACS A/U)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_atacsau_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_atacsau_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_atacsau_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6b45_grn_atacsau: rhs_6b45_grn
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6b45_grn";
+		scope = 2;
+		displayName = "6B45 (VOG, ATACS A/U)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_atacsau_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_atacsau_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_atacsau_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6b45_mg_atacsau: rhs_6b45_mg
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6b45_mg";
+		scope = 2;
+		displayName = "6B45 (Machine Gunner, ATACS A/U)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_atacsau_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_atacsau_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_atacsau_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6b45_off_atacsau: rhs_6b45_off
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6b45_off";
+		scope = 2;
+		displayName = "6B45 (Officer, ATACS A/U)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6b45_atacsau_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_atacsau_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_atacsau_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\azart_atacsau_co.paa"
+		};
+	};
+	
+	
+	
+	
+	
 	class rhs_6sh117_rifleman;
 	class rhs_6sh117_grn;
 	class rhs_6sh117_ar;
@@ -2553,6 +2798,227 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_winter_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_winter_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_winter_co.paa"
+		};
+	};
+	
+	
+	class FP_GOR_rhs_6sh117_rifleman_atacsfg: rhs_6sh117_rifleman
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6sh117_rifleman";
+		scope = 2;
+		displayName = "6Sh117 (Rifleman, ATACS F/G";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_atacsfg_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_atacsfg_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_atacsfg_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh117_grn_atacsfg: rhs_6sh117_grn
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6sh117_grn";
+		scope = 2;
+		displayName = "6Sh117 (VOG, ATACS F/G";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_atacsfg_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_atacsfg_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_atacsfg_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh117_ar_atacsfg: rhs_6sh117_ar
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6sh117_ar";
+		scope = 2;
+		displayName = "6Sh117 (RPK, ATACS F/G";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_atacsfg_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_atacsfg_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_atacsfg_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh117_mg_atacsfg: rhs_6sh117_mg
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6sh117_mg";
+		scope = 2;
+		displayName = "6Sh117 (Machine Gunner, ATACS F/G";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_atacsfg_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_atacsfg_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_atacsfg_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh117_nco_azart_atacsfg: rhs_6sh117_nco_azart
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6sh117_nco_azart";
+		scope = 2;
+		displayName = "6Sh117 (Squad Leader/Azart, ATACS F/G";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_atacsfg_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_atacsfg_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_atacsfg_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\azart_atacsfg_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh117_nco_atacsfg: rhs_6sh117_nco
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6sh117_nco";
+		scope = 2;
+		displayName = "6Sh117 (Squad Leader, ATACS F/G";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_atacsfg_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_atacsfg_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_atacsfg_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_atacsfg_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh117_val_atacsfg: rhs_6sh117_val
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6sh117_val";
+		scope = 2;
+		displayName = "6Sh117 (Val/VSS, ATACS F/G";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_atacsfg_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_atacsfg_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_atacsfg_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_atacsfg_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh117_svd_atacsfg: rhs_6sh117_svd
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6sh117_svd";
+		scope = 2;
+		displayName = "6Sh117 (SVD, ATACS F/G";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_atacsfg_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_atacsfg_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_atacsfg_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_atacsfg_co.paa"
+		};
+	};
+	
+	
+	
+	class FP_GOR_rhs_6sh117_rifleman_atacsau: rhs_6sh117_rifleman
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6sh117_rifleman";
+		scope = 2;
+		displayName = "6Sh117 (Rifleman, ATACS A/U";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_atacsau_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_atacsau_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_atacsau_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh117_grn_atacsau: rhs_6sh117_grn
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6sh117_grn";
+		scope = 2;
+		displayName = "6Sh117 (VOG, ATACS A/U";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_atacsau_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_atacsau_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_atacsau_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh117_ar_atacsau: rhs_6sh117_ar
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6sh117_ar";
+		scope = 2;
+		displayName = "6Sh117 (RPK, ATACS A/U";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_atacsau_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_atacsau_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_atacsau_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh117_mg_atacsau: rhs_6sh117_mg
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6sh117_mg";
+		scope = 2;
+		displayName = "6Sh117 (Machine Gunner, ATACS A/U";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_atacsau_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_atacsau_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_atacsau_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh117_nco_azart_atacsau: rhs_6sh117_nco_azart
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6sh117_nco_azart";
+		scope = 2;
+		displayName = "6Sh117 (Squad Leader/Azart, ATACS A/U";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_atacsau_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_atacsau_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_atacsau_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\azart_atacsau_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh117_nco_atacsau: rhs_6sh117_nco
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6sh117_nco";
+		scope = 2;
+		displayName = "6Sh117 (Squad Leader, ATACS A/U";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_atacsau_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_atacsau_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_atacsau_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_atacsau_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh117_val_atacsau: rhs_6sh117_val
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6sh117_val";
+		scope = 2;
+		displayName = "6Sh117 (Val/VSS, ATACS A/U";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_atacsau_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_atacsau_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_atacsau_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_atacsau_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh117_svd_atacsau: rhs_6sh117_svd
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "rhs_6sh117_svd";
+		scope = 2;
+		displayName = "6Sh117 (SVD, ATACS A/U";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\6sh117_atacsau_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_117_atacsau_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\pouchs_118_atacsau_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b45nshit\data\radio_atacsau_co.paa"
 		};
 	};
 };
