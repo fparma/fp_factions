@@ -4165,4 +4165,211 @@ class CfgWeapons
 			mass=40;
 		};
 	};
+	
+	class FP_GOR_Uniform_Massif_dancammulti: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="Massif (DanCam)";
+//		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifdancammulti_ca.paa";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_dancammulti";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massif_02_dancammulti: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="Massif (DanCam, sleeves)";
+//		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevesdancammulti_ca.paa";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_02_dancammulti";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massifjacket_dancammulti: U_I_E_Uniform_01_F
+	{
+		scope=2;
+		displayName="Massif (DanCam, jacket)";
+//		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketdancammulti_ca.paa";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketdancammulti_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massifjacket_dancammulti";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massifjacket_02_dancammulti: U_I_E_Uniform_01_shortsleeve_F
+	{
+		scope=2;
+		displayName="Massif (DanCam, jacket, sleeves)";
+//		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevesdancammulti_ca.paa";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketdancammulti_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massifjacket_02_dancammulti";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	
+	class FP_GOR_Uniform_Massif_dancamarid: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="Massif (DanCam Arid)";
+//		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifdancamarid_ca.paa";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_dancamarid";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massif_02_dancamarid: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="Massif (DanCam Arid, sleeves)";
+//		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevesdancamarid_ca.paa";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_02_dancamarid";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massifjacket_dancamarid: U_I_E_Uniform_01_F
+	{
+		scope=2;
+		displayName="Massif (DanCam Arid, jacket)";
+//		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketdancamarid_ca.paa";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketdancamarid_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massifjacket_dancamarid";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massifjacket_02_dancamarid: U_I_E_Uniform_01_shortsleeve_F
+	{
+		scope=2;
+		displayName="Massif (DanCam Arid, jacket, sleeves)";
+//		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevesdancamarid_ca.paa";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketdancamarid_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massifjacket_02_dancamarid";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	
+	class FP_GOR_Uniform_Massif_dancamtropic: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="Massif (DanCam Tropic)";
+//		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifdancamtropic_ca.paa";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_dancamtropic";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massif_02_dancamtropic: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="Massif (DanCam Tropic, sleeves)";
+//		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevesdancamtropic_ca.paa";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_02_dancamtropic";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massifjacket_dancamtropic: U_I_E_Uniform_01_F
+	{
+		scope=2;
+		displayName="Massif (DanCam Tropic, jacket)";
+//		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketdancamtropic_ca.paa";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketdancamtropic_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massifjacket_dancamtropic";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massifjacket_02_dancamtropic: U_I_E_Uniform_01_shortsleeve_F
+	{
+		scope=2;
+		displayName="Massif (DanCam Tropic, jacket, sleeves)";
+//		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevesdancamtropic_ca.paa";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketdancamtropic_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massifjacket_02_dancamtropic";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
 };

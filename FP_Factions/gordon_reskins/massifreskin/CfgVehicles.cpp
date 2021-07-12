@@ -52,7 +52,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketwoodland_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifwoodland_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\olivegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_Woodland: I_E_Uniform_01_shortsleeve_F
@@ -117,7 +117,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketstripeyarid_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifstripeyarid_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\coyotegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_stripeyarid: I_E_Uniform_01_shortsleeve_F
@@ -182,7 +182,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketstripeywoodland_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifstripeywoodland_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\olivegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_stripeywoodland: I_E_Uniform_01_shortsleeve_F
@@ -247,7 +247,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketstripeydesert_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifstripeydesert_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\coyotegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_stripeydesert: I_E_Uniform_01_shortsleeve_F
@@ -312,7 +312,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketfrenchlizardc1_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massiffrenchlizardc1_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\coyotegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_frenchlizardc1: I_E_Uniform_01_shortsleeve_F
@@ -377,7 +377,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketfrenchlizarda2_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massiffrenchlizarda2_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\coyotegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_frenchlizarda2: I_E_Uniform_01_shortsleeve_F
@@ -442,7 +442,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketfrenchlizardfictional_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massiffrenchlizardfictional_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\olivegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_frenchlizardfictional: I_E_Uniform_01_shortsleeve_F
@@ -543,7 +543,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jackettigerstripejungle_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massiftigerstripejungle_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\olivegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_tigerstripejungle: I_E_Uniform_01_shortsleeve_F
@@ -608,7 +608,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jackettigerstripedesert_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massiftigerstripedesert_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\coyotegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_tigerstripedesert: I_E_Uniform_01_shortsleeve_F
@@ -738,7 +738,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketoakleafsummer_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifoakleafsummer_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\olivegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_oakleafsummer: I_E_Uniform_01_shortsleeve_F
@@ -803,7 +803,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketoakleaffall_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifoakleaffall_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\coyotegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_oakleaffall: I_E_Uniform_01_shortsleeve_F
@@ -868,7 +868,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketauscamdpcu_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifauscamdpcu_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\coyotegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_auscamdpcu: I_E_Uniform_01_shortsleeve_F
@@ -933,7 +933,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketauscamdpdu_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifauscamdpdu_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\coyotegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_auscamdpdu: I_E_Uniform_01_shortsleeve_F
@@ -998,7 +998,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketsmk_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifsmk_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\olivegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_smk: I_E_Uniform_01_shortsleeve_F
@@ -1063,7 +1063,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketcropat_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifcropat_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\olivegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_cropat: I_E_Uniform_01_shortsleeve_F
@@ -1128,7 +1128,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketcropatdesert_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifcropatdesert_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\coyotegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_cropatdesert: I_E_Uniform_01_shortsleeve_F
@@ -1193,7 +1193,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jackethonor_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifhonor_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\olivegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_honor: I_E_Uniform_01_shortsleeve_F
@@ -1258,7 +1258,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketmtp_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifmtp_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\coyotegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_mtp: I_E_Uniform_01_shortsleeve_F
@@ -1323,7 +1323,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketmm14_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifmm14_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\olivegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_mm14: I_E_Uniform_01_shortsleeve_F
@@ -1388,7 +1388,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketmm14woodland_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifmm14woodland_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\olivegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_mm14woodland: I_E_Uniform_01_shortsleeve_F
@@ -1417,7 +1417,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketaaf_co.paa",
 			"a3\characters_f_beta\indep\data\ia_soldier_01_clothing_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\olivegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_aaf: I_E_Uniform_01_shortsleeve_F
@@ -1482,7 +1482,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketsplitterfall_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifsplitterfall_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\coyotegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_splitterfall: I_E_Uniform_01_shortsleeve_F
@@ -1547,7 +1547,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketsplittersummer_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifsplittersummer_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\olivegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_splittersummer: I_E_Uniform_01_shortsleeve_F
@@ -1612,7 +1612,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketcs95dpm_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifcs95dpm_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\olivegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_cs95dpm: I_E_Uniform_01_shortsleeve_F
@@ -1677,7 +1677,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketpantera_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifpantera_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\olivegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_pantera: I_E_Uniform_01_shortsleeve_F
@@ -1742,7 +1742,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketpanteradesert_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifpanteradesert_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\coyotegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_panteradesert: I_E_Uniform_01_shortsleeve_F
@@ -1807,7 +1807,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketvz95woodland_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifvz95woodland_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\olivegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_vz95woodland: I_E_Uniform_01_shortsleeve_F
@@ -1872,7 +1872,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketvz95desert_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifvz95desert_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\coyotegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_vz95desert: I_E_Uniform_01_shortsleeve_F
@@ -1937,7 +1937,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketflecktarnsummer_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifflecktarnsummer_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\olivegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_flecktarnsummer: I_E_Uniform_01_shortsleeve_F
@@ -2002,7 +2002,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketflecktarnautumn_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifflecktarnautumn_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\coyotegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_flecktarnautumn: I_E_Uniform_01_shortsleeve_F
@@ -2067,7 +2067,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketflecktarndesert_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifflecktarndesert_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\coyotegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_flecktarndesert: I_E_Uniform_01_shortsleeve_F
@@ -2132,7 +2132,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketm90_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifm90_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\olivegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_m90: I_E_Uniform_01_shortsleeve_F
@@ -2197,7 +2197,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketm90k_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifm90k_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\coyotegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_m90k: I_E_Uniform_01_shortsleeve_F
@@ -2262,7 +2262,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketfrenchce_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massiffrenchce_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\olivegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_frenchce: I_E_Uniform_01_shortsleeve_F
@@ -2392,7 +2392,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketfrenchdaguet_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massiffrenchdaguet_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\coyotegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_frenchdaguet: I_E_Uniform_01_shortsleeve_F
@@ -2415,7 +2415,7 @@ class CfgVehicles
 		_generalMacro="I_Soldier_F";
 		scope=1;
 		uniformClass="FP_GOR_Uniform_Massif_multicamwoodland";
-		displayName="Massif (US 'Chocolate chip')";
+		displayName="Massif (Multicam Woodland)";
 		nakedUniform="U_BasicBody";
 		hiddenSelections[]=
 		{
@@ -2433,7 +2433,7 @@ class CfgVehicles
 		_generalMacro="I_Soldier_02_F";
 		scope=1;
 		uniformClass="FP_GOR_Uniform_Massif_02_multicamwoodland";
-		displayName="Massif (US 'Chocolate chip', sleeves)";
+		displayName="Massif (Multicam Woodland, sleeves)";
 		nakedUniform="U_BasicBody";
 		hiddenSelections[]=
 		{
@@ -2451,13 +2451,13 @@ class CfgVehicles
 		_generalMacro="I_E_Uniform_01_F";
 		scope=1;
 		uniformClass="FP_GOR_Uniform_Massifjacket_multicamwoodland";
-		displayName="Massif (US 'Chocolate chip', jacket)";
+		displayName="Massif (Multicam Woodland, jacket)";
 		nakedUniform="U_BasicBody";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketmulticamwoodland_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifmulticamwoodland_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\olivegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_multicamwoodland: I_E_Uniform_01_shortsleeve_F
@@ -2466,7 +2466,7 @@ class CfgVehicles
 		_generalMacro="I_E_Uniform_01_shortsleeve_F";
 		scope=1;
 		uniformClass="FP_GOR_Uniform_Massifjacket_02_multicamwoodland";
-		displayName="Massif (US 'Chocolate chip', jacket, sleeves)";
+		displayName="Massif (Multicam Woodland, jacket, sleeves)";
 		nakedUniform="U_BasicBody";
 		hiddenSelectionsTextures[]=
 		{
@@ -2522,7 +2522,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketchocochip_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifchocochip_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\coyotegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_chocochip: I_E_Uniform_01_shortsleeve_F
@@ -2587,7 +2587,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketchocochipphilippine_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifchocochipphilippine_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\greengloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_chocochipphilippine: I_E_Uniform_01_shortsleeve_F
@@ -2652,7 +2652,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketcoffeestain_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifcoffeestain_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\coyotegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_coffeestain: I_E_Uniform_01_shortsleeve_F
@@ -2717,7 +2717,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketkryptekmandrake_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifkryptekmandrake_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\olivegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_kryptekmandrake: I_E_Uniform_01_shortsleeve_F
@@ -2782,7 +2782,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketkryptekhighlander_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifkryptekhighlander_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\coyotegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_kryptekhighlander: I_E_Uniform_01_shortsleeve_F
@@ -2847,7 +2847,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketkrypteknomad_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifkrypteknomad_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\coyotegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_krypteknomad: I_E_Uniform_01_shortsleeve_F
@@ -2912,7 +2912,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketflora_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifflora_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\olivegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_flora: I_E_Uniform_01_shortsleeve_F
@@ -2977,7 +2977,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketatacsfg_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifatacsfg_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\olivegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_atacsfg: I_E_Uniform_01_shortsleeve_F
@@ -3042,7 +3042,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketatacsau_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifatacsau_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\coyotegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_atacsau: I_E_Uniform_01_shortsleeve_F
@@ -3107,7 +3107,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketsoldier2000_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifsoldier2000_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\coyotegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_soldier2000: I_E_Uniform_01_shortsleeve_F
@@ -3173,7 +3173,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketamc_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifamc_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\coyotegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_amc: I_E_Uniform_01_shortsleeve_F
@@ -3239,7 +3239,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketbc2snow_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifbc2snow_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\wintergloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_bc2snow: I_E_Uniform_01_shortsleeve_F
@@ -3371,7 +3371,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketflecktarnsnow_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifflecktarnsnow_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\wintergloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_flecktarnsnow: I_E_Uniform_01_shortsleeve_F
@@ -3437,7 +3437,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketkryptekyeti_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifkryptekyeti_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\wintergloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_kryptekyeti: I_E_Uniform_01_shortsleeve_F
@@ -3503,7 +3503,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketm05helle_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifm05helle_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\coyotegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_m05helle: I_E_Uniform_01_shortsleeve_F
@@ -3569,7 +3569,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketm05lumi_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifm05lumi_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\wintergloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_m05lumi: I_E_Uniform_01_shortsleeve_F
@@ -3635,7 +3635,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketm05maasto_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifm05maasto_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\olivegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_m05maasto: I_E_Uniform_01_shortsleeve_F
@@ -3701,7 +3701,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketm05pakkas_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifm05pakkas_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\olivegloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_m05pakkas: I_E_Uniform_01_shortsleeve_F
@@ -3767,7 +3767,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketm90w_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifm90w_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\wintergloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_m90w: I_E_Uniform_01_shortsleeve_F
@@ -3832,7 +3832,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketmulticamsnow_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifmulticamsnow_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\wintergloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_multicamsnow: I_E_Uniform_01_shortsleeve_F
@@ -3898,7 +3898,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketwoodlandsnowgreen_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifwoodlandsnowgreen_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\wintergloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_woodlandsnowgreen: I_E_Uniform_01_shortsleeve_F
@@ -3964,7 +3964,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketwoodlandsnowtan_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifwoodlandsnowtan_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\wintergloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_woodlandsnowtan: I_E_Uniform_01_shortsleeve_F
@@ -3979,6 +3979,204 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketwoodlandsnowtan_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifwoodlandsnowtan_co.paa"
+		};
+	};
+	
+	class FP_GOR_Massif_dancammulti: I_soldier_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_dancammulti";
+		displayName="Massif (DanCam)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifdancammulti_co.paa"
+		};
+	};
+	class FP_GOR_Massif_02_dancammulti: I_Soldier_02_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_02_dancammulti";
+		displayName="Massif (DanCam, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifdancammulti_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_dancammulti: I_E_Uniform_01_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_dancammulti";
+		displayName="Massif (DanCam, jacket)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketdancammulti_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifdancammulti_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\coyotegloves_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_02_dancammulti: I_E_Uniform_01_shortsleeve_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_02_dancammulti";
+		displayName="Massif (DanCam, jacket, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketdancammulti_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifdancammulti_co.paa"
+		};
+	};
+	
+	class FP_GOR_Massif_dancamarid: I_soldier_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_dancamarid";
+		displayName="Massif (DanCam Arid)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifdancamarid_co.paa"
+		};
+	};
+	class FP_GOR_Massif_02_dancamarid: I_Soldier_02_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_02_dancamarid";
+		displayName="Massif (DanCam Arid, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifdancamarid_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_dancamarid: I_E_Uniform_01_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_dancamarid";
+		displayName="Massif (DanCam Arid, jacket)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketdancamarid_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifdancamarid_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\coyotegloves_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_02_dancamarid: I_E_Uniform_01_shortsleeve_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_02_dancamarid";
+		displayName="Massif (DanCam Arid, jacket, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketdancamarid_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifdancamarid_co.paa"
+		};
+	};
+	
+	class FP_GOR_Massif_dancamtropic: I_soldier_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_dancamtropic";
+		displayName="Massif (DanCam Tropic)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifdancamtropic_co.paa"
+		};
+	};
+	class FP_GOR_Massif_02_dancamtropic: I_Soldier_02_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_02_dancamtropic";
+		displayName="Massif (DanCam Tropic, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifdancamtropic_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_dancamtropic: I_E_Uniform_01_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_dancamtropic";
+		displayName="Massif (DanCam Tropic, jacket)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketdancamtropic_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifdancamtropic_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\olivegloves_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_02_dancamtropic: I_E_Uniform_01_shortsleeve_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_02_dancamtropic";
+		displayName="Massif (DanCam Tropic, jacket, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketdancamtropic_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifdancamtropic_co.paa"
 		};
 	};
 };
