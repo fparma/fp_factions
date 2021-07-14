@@ -261,7 +261,11 @@ class CfgPatches
 			"FP_GOR_Uniform_Massif_dancamtropic",
 			"FP_GOR_Uniform_Massif_02_dancamtropic",
 			"FP_GOR_Uniform_Massifjacket_dancamtropic",
-			"FP_GOR_Uniform_Massifjacket_02_dancamtropic"
+			"FP_GOR_Uniform_Massifjacket_02_dancamtropic",
+			"FP_GOR_Uniform_Massif_alpenflage",
+			"FP_GOR_Uniform_Massif_02_alpenflage",
+			"FP_GOR_Uniform_Massifjacket_alpenflage",
+			"FP_GOR_Uniform_Massifjacket_02_alpenflage"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=

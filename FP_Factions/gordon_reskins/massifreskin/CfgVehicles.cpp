@@ -4179,4 +4179,70 @@ class CfgVehicles
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifdancamtropic_co.paa"
 		};
 	};
+	
+	class FP_GOR_Massif_alpenflage: I_soldier_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_alpenflage";
+		displayName="Massif (Alpenflage)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifalpenflage_co.paa"
+		};
+	};
+	class FP_GOR_Massif_02_alpenflage: I_Soldier_02_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_02_alpenflage";
+		displayName="Massif (Alpenflage, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifalpenflage_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_alpenflage: I_E_Uniform_01_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_alpenflage";
+		displayName="Massif (Alpenflage, jacket)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketalpenflage_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifalpenflage_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\olivegloves_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_02_alpenflage: I_E_Uniform_01_shortsleeve_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_02_alpenflage";
+		displayName="Massif (Alpenflage, jacket, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketalpenflage_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifalpenflage_co.paa"
+		};
+	};
 };

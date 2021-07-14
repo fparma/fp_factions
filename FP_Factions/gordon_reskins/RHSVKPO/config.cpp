@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class gordon_reskins_6b7_1m
+	class gordon_reskins_vkpo
 	{
 		// List of units defined in this "PBO"
 		units[]={};
