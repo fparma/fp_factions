@@ -17,7 +17,9 @@ class CfgPatches
 			"FP_GOR_CBRN_Suit_01_yellow",
 			"FP_GOR_CBRN_Suit_01_yellowb",
 			"FP_GOR_CBRN_Suit_01_orange",
-			"FP_GOR_CBRN_Suit_01_orangeb"
+			"FP_GOR_CBRN_Suit_01_orangeb",
+			"FP_GOR_CBRN_Suit_01_pink",
+			"FP_GOR_CBRN_Suit_01_pinkb"
 		
 		};
 		requiredVersion=0.1;
@@ -234,6 +236,40 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\CBRN\data\CBRN_Suit_orangeb_CO.paa"
+		};
+	};
+	class FP_GOR_CBRN_Oversuit_pink: B_CBRN_Man_Oversuit_01_MTP_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="B_CBRN_Man_Oversuit_01_MTP_F";
+		scope=1;
+		uniformClass="FP_GOR_CBRN_Suit_01_pink";
+		displayName="CBRN Suit (Pink)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\CBRN\data\CBRN_Suit_pink_CO.paa"
+		};
+	};
+	class FP_GOR_CBRN_Oversuit_pinkb: B_CBRN_Man_Oversuit_01_MTP_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="B_CBRN_Man_Oversuit_01_MTP_F";
+		scope=1;
+		uniformClass="FP_GOR_CBRN_Suit_01_pinkb";
+		displayName="CBRN Suit (Pink w/ details)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\CBRN\data\CBRN_Suit_pinkb_CO.paa"
 		};
 	};
 };
@@ -491,6 +527,48 @@ class CfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="FP_GOR_CBRN_Oversuit_orangeb";
+			containerClass="Supply30";
+			mass=45;
+		};
+	};
+	class FP_GOR_CBRN_Suit_01_pink: U_B_CBRN_Suit_01_MTP_F
+	{
+		scope=2;
+		displayName="CBRN Suit (Pink)";
+		author="Gordon Weedman";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\CBRN\data\CBRN_Suit_pink_CO.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_CBRN_Oversuit_pink";
+			containerClass="Supply30";
+			mass=45;
+		};
+	};
+	class FP_GOR_CBRN_Suit_01_pinkb: U_B_CBRN_Suit_01_MTP_F
+	{
+		scope=2;
+		displayName="CBRN Suit (Pink w/ details)";
+		author="Gordon Weedman";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\CBRN\data\CBRN_Suit_pinkb_CO.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_CBRN_Oversuit_pinkb";
 			containerClass="Supply30";
 			mass=45;
 		};
