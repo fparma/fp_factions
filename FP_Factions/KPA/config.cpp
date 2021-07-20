@@ -17,6 +17,9 @@ class CfgPatches
 			"FP_Faction_KPA_BTR70",
 			"FP_Faction_KPA_BTR80A",
 			"FP_Faction_KPA_Korshun",
+			"FP_Faction_KPA_T34",
+			"FP_Faction_KPA_T34_DSHK",
+			"FP_Faction_KPA_SU100",
 			"FP_Faction_KPA_D30",
 			"FP_Faction_KPA_D30_AT",
 			"FP_Faction_KPA_2B14_82MM",
@@ -1473,7 +1476,7 @@ class CfgVehicles
 		crew = "FP_Faction_KPA_Crewman";
 		faction = "FP_Faction_KPA";
 	};
-	class FP_Faction_T34_DSHK: FP_O_TNK_T34_DSHK
+	class FP_Faction_KPA_T34_DSHK: FP_O_TNK_T34_DSHK
 	{
 		crew = "FP_Faction_KPA_Crewman";
 		faction = "FP_Faction_KPA";
