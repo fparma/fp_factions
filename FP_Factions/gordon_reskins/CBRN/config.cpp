@@ -19,8 +19,9 @@ class CfgPatches
 			"FP_GOR_CBRN_Suit_01_orange",
 			"FP_GOR_CBRN_Suit_01_orangeb",
 			"FP_GOR_CBRN_Suit_01_pink",
-			"FP_GOR_CBRN_Suit_01_pinkb"
-		
+			"FP_GOR_CBRN_Suit_01_pinkb",
+			"FP_GOR_CBRN_Suit_01_tan",
+			"FP_GOR_CBRN_Suit_01_tanb"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -270,6 +271,41 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\CBRN\data\CBRN_Suit_pinkb_CO.paa"
+		};
+	};
+	
+	class FP_GOR_CBRN_Oversuit_tan: B_CBRN_Man_Oversuit_01_MTP_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="B_CBRN_Man_Oversuit_01_MTP_F";
+		scope=1;
+		uniformClass="FP_GOR_CBRN_Suit_01_tan";
+		displayName="CBRN Suit (Tan)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\CBRN\data\CBRN_Suit_tan_CO.paa"
+		};
+	};
+	class FP_GOR_CBRN_Oversuit_tanb: B_CBRN_Man_Oversuit_01_MTP_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="B_CBRN_Man_Oversuit_01_MTP_F";
+		scope=1;
+		uniformClass="FP_GOR_CBRN_Suit_01_tanb";
+		displayName="CBRN Suit (Tan w/ details)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\CBRN\data\CBRN_Suit_tanb_CO.paa"
 		};
 	};
 };
@@ -569,6 +605,49 @@ class CfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="FP_GOR_CBRN_Oversuit_pinkb";
+			containerClass="Supply30";
+			mass=45;
+		};
+	};
+	
+	class FP_GOR_CBRN_Suit_01_tan: U_B_CBRN_Suit_01_MTP_F
+	{
+		scope=2;
+		displayName="CBRN Suit (Tan)";
+		author="Gordon Weedman";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\CBRN\data\CBRN_Suit_tan_CO.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_CBRN_Oversuit_tan";
+			containerClass="Supply30";
+			mass=45;
+		};
+	};
+	class FP_GOR_CBRN_Suit_01_tanb: U_B_CBRN_Suit_01_MTP_F
+	{
+		scope=2;
+		displayName="CBRN Suit (Tan w/ details)";
+		author="Gordon Weedman";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\CBRN\data\CBRN_Suit_tanb_CO.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_CBRN_Oversuit_tanb";
 			containerClass="Supply30";
 			mass=45;
 		};
