@@ -109,7 +109,15 @@ class CfgPatches
 			"FP_GOR_H_Booniehat_m05helle",
 			"FP_GOR_H_Booniehat_m05helle_hs",
 			"FP_GOR_H_Booniehat_surpat",
-			"FP_GOR_H_Booniehat_surpat_hs"
+			"FP_GOR_H_Booniehat_surpat_hs",
+			"FP_GOR_H_Booniehat_dancammulti",
+			"FP_GOR_H_Booniehat_dancammulti_hs",
+			"FP_GOR_H_Booniehat_dancamarid",
+			"FP_GOR_H_Booniehat_dancamarid_hs",
+			"FP_GOR_H_Booniehat_dancamtropic",
+			"FP_GOR_H_Booniehat_dancamtropic_hs",
+			"FP_GOR_H_Booniehat_alpenflage",
+			"FP_GOR_H_Booniehat_alpenflage_hs"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -969,5 +977,73 @@ class CfgWeapons
 		scope = 2;
 		displayName = "Booniehat (SURPAT, headset)";
 		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_surpat_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_dancammulti: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_dancammulti";
+		scope = 2;
+		displayName = "Booniehat (DanCam)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_dancammulti_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_dancammulti_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_dancammulti_hs";
+		scope = 2;
+		displayName = "Booniehat (DanCam, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_dancammulti_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_dancamarid: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_dancamarid";
+		scope = 2;
+		displayName = "Booniehat (DanCam Arid)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_dancamarid_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_dancamarid_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_dancamarid_hs";
+		scope = 2;
+		displayName = "Booniehat (DanCam Arid, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_dancamarid_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_dancamtropic: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_dancamtropic";
+		scope = 2;
+		displayName = "Booniehat (DanCam Tropic)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_dancamtropic_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_dancamtropic_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_dancamtropic_hs";
+		scope = 2;
+		displayName = "Booniehat (DanCam Tropic, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_dancamtropic_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_alpenflage: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_alpenflage";
+		scope = 2;
+		displayName = "Booniehat (Alpenflage)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_alpenflage_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_alpenflage_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_alpenflage_hs";
+		scope = 2;
+		displayName = "Booniehat (Alpenflage, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_alpenflage_co.paa"};
 	};
 };

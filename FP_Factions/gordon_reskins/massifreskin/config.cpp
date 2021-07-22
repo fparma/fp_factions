@@ -249,7 +249,23 @@ class CfgPatches
 			"FP_GOR_Uniform_Massif_woodlandsnowtan",
 			"FP_GOR_Uniform_Massif_02_woodlandsnowtan",
 			"FP_GOR_Uniform_Massifjacket_woodlandsnowtan",
-			"FP_GOR_Uniform_Massifjacket_02_woodlandsnowtan"
+			"FP_GOR_Uniform_Massifjacket_02_woodlandsnowtan",
+			"FP_GOR_Uniform_Massif_dancammulti",
+			"FP_GOR_Uniform_Massif_02_dancammulti",
+			"FP_GOR_Uniform_Massifjacket_dancammulti",
+			"FP_GOR_Uniform_Massifjacket_02_dancammulti",
+			"FP_GOR_Uniform_Massif_dancamarid",
+			"FP_GOR_Uniform_Massif_02_dancamarid",
+			"FP_GOR_Uniform_Massifjacket_dancamarid",
+			"FP_GOR_Uniform_Massifjacket_02_dancamarid",
+			"FP_GOR_Uniform_Massif_dancamtropic",
+			"FP_GOR_Uniform_Massif_02_dancamtropic",
+			"FP_GOR_Uniform_Massifjacket_dancamtropic",
+			"FP_GOR_Uniform_Massifjacket_02_dancamtropic",
+			"FP_GOR_Uniform_Massif_alpenflage",
+			"FP_GOR_Uniform_Massif_02_alpenflage",
+			"FP_GOR_Uniform_Massifjacket_alpenflage",
+			"FP_GOR_Uniform_Massifjacket_02_alpenflage"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=

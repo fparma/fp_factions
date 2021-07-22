@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class gordon_reskins_6b7_1m
+	class gordon_reskins_vkpo
 	{
 		// List of units defined in this "PBO"
 		units[]={};
@@ -13,7 +13,9 @@ class CfgPatches
 			"FP_GOR_rhs_uniform_vkpo_desertemr",
 			"FP_GOR_rhs_uniform_vkpo_gloves_desertemr",
 			"FP_GOR_rhs_uniform_vkpo_surpat",
-			"FP_GOR_rhs_uniform_vkpo_gloves_surpat"
+			"FP_GOR_rhs_uniform_vkpo_gloves_surpat",
+			"FP_GOR_rhs_uniform_vkpo_hextaiga",
+			"FP_GOR_rhs_uniform_vkpo_gloves_hextaiga"
 		
 		};
 		requiredVersion=0.1;
@@ -201,6 +203,49 @@ class CfgVehicles
 			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
 		};
 	}; 	
+	
+	class FP_GOR_rhs_uniform_vkpo_base_hextaiga: rhs_vkpo_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_vkpo_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_vkpo_hextaiga";
+		displayName="VKPO (Hex Taiga)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhsvkpo\data\lodu_hextaiga_vest_co.paa",
+			"\FP_Factions\gordon_reskins\rhsvkpo\data\lodu_hextaiga_pant_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+	class FP_GOR_rhs_uniform_vkpo_gloves_base_hextaiga: rhs_vkpo_gloves_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_vkpo_gloves_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_vkpo_gloves_hextaiga";
+		displayName="VKPO (Hex Taiga, gloves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhsvkpo\data\lodu_hextaiga_vest_co.paa",
+			"\FP_Factions\gordon_reskins\rhsvkpo\data\lodu_hextaiga_pant_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	}; 	
 };
 
 class CfgWeapons			
@@ -312,6 +357,33 @@ class CfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="FP_GOR_rhs_uniform_vkpo_gloves_base_surpat";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	
+	class FP_GOR_rhs_uniform_vkpo_hextaiga: rhs_uniform_vkpo
+	{
+		scope=2;
+		displayName="VKPO (Hex Taiga)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_uniform_vkpo_base_hextaiga";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_vkpo_gloves_hextaiga: rhs_uniform_vkpo_gloves
+	{
+		scope=2;
+		displayName="VKPO (Hex Taiga, gloves)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_uniform_vkpo_gloves_base_hextaiga";
 			containerClass="Supply40";
 			mass=40;
 		};
