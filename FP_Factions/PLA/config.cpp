@@ -2,7 +2,139 @@ class CfgPatches
 {
 	class FP_Factions_PLA
 	{
-		units[] = {"FP_Faction_PLA_Soldier_BASE","FP_Faction_PLA_Rifleman","FP_Faction_PLA_AR","FP_Faction_PLA_AAR","FP_Faction_PLA_SL","FP_Faction_PLA_TL","FP_Faction_PLA_DM","FP_Faction_PLA_RAT","FP_Faction_PLA_Medic","FP_Faction_PLA_Crewman","FP_Faction_PLA_Engineer","FP_Faction_PLA_MMG","FP_Faction_PLA_AMMG","FP_Faction_PLA_MAT","FP_Faction_PLA_AMAT","FP_Faction_PLA_MANPADS","FP_Faction_PLA_AMANPADS"};
+		units[] = 
+		{
+			"FP_Faction_PLA_APC_Tracked_02_AA_F",
+			"FP_Faction_PLA_APC_Tracked_02_cannon_F",
+			"FP_Mi8mt_PLA",
+			"FP_Mi8mt_Cargo_PLA",
+			"FP_Mi8MTV3_PLA",
+			"FP_Mi8mtv3_Cargo_PLA",
+			"FP_Mi8MTV3_heavy_PLA",
+			"FP_O_PLA_mi28n",
+			"FP_O_PLA_Heli_Attack_01_dynamicLoadout_F",
+			"FP_O_PLA_UH60M",
+			"FP_Z9A_PLA",
+			"FP_Z9A_PLA_unarmed",
+			"FP_Faction_PLA_Plane_Fighter_04_F",
+			"FP_Faction_PLA_Plane_Fighter_02_F",
+			"FP_Faction_PLA_Plane_Fighter_02_Stealth_F",
+			"FP_Faction_PLA_Plane_CAS_02_dynamicLoadout_F",
+			"FP_O_PLA_VTOL_02_infantry_dynamicLoadout_F",
+			"FP_O_PLA_VTOL_02_vehicle_dynamicLoadout_F",
+			"FP_Faction_PLA_MBT_02_arty_F",
+			"FP_Faction_PLA_Truck_02_MRL_F",
+			"FP_Faction_PLA_LSV_02_unarmed_F",
+			"FP_Faction_PLA_LSV_02_armed_F",
+			"FP_Faction_PLA_LSV_02_AT_F",
+			"FP_Faction_PLA_Quadbike_01_F",
+			"FP_Faction_PLA_Truck_02_Ammo_F",
+			"FP_Faction_PLA_Truck_02_fuel_F",
+			"FP_Faction_PLA_Truck_02_medical_F",
+			"FP_Faction_PLA_Truck_02_box_F",
+			"FP_Faction_PLA_Truck_02_transport_F",
+			"FP_Faction_PLA_Truck_02_covered_F",
+			"FP_Faction_PLA_Truck_03_device_F",
+			"FP_Faction_PLA_Truck_03_ammo_F",
+			"FP_Faction_PLA_Truck_03_fuel_F",
+			"FP_Faction_PLA_Truck_03_medical_F",
+			"FP_Faction_PLA_Truck_03_repair_F",
+			"FP_Faction_PLA_Truck_03_transport_F",
+			"FP_Faction_PLA_Truck_03_covered_F",
+			"FP_Faction_PLA_MBT_02_cannon_F",
+			"FP_Faction_PLA_Soldier_BASE",
+			"FP_Faction_PLA_Rifleman",
+			"FP_Faction_PLA_AR",
+			"FP_Faction_PLA_AAR",
+			"FP_Faction_PLA_SL",
+			"FP_Faction_PLA_TL",
+			"FP_Faction_PLA_DM",
+			"FP_Faction_PLA_RAT",
+			"FP_Faction_PLA_Medic",
+			"FP_Faction_PLA_Crewman",
+			"FP_Faction_PLA_Engineer",
+			"FP_Faction_PLA_MMG",
+			"FP_Faction_PLA_AMMG",
+			"FP_Faction_PLA_MAT",
+			"FP_Faction_PLA_AMAT",
+			"FP_Faction_PLA_MANPADS",
+			"FP_Faction_PLA_AMANPADS",
+			"FP_Faction_PLA_Fighter_Pilot_F",
+			"FP_Faction_PLA_Helipilot",
+			"FP_Faction_PLA_Helicrew",
+			"FP_Faction_PLA_Desert_SL",
+			"FP_Faction_PLA_Desert_AAR",
+			"FP_Faction_PLA_Desert_AMMG",
+			"FP_Faction_PLA_Desert_Rifleman_Unarmed",
+			"FP_Faction_PLA_Desert_TL",
+			"FP_Faction_PLA_Desert_UAV",
+			"FP_Faction_PLA_Desert_AMANPADS",
+			"FP_Faction_PLA_Desert_Engineer",
+			"FP_Faction_PLA_Desert_MANPADS",
+			"FP_Faction_PLA_Desert_HAT",
+			"FP_Faction_PLA_Desert_AHAT",
+			"FP_Faction_PLA_Desert_AMAT",
+			"FP_Faction_PLA_Desert_AR",
+			"FP_Faction_PLA_Desert_Crewman",
+			"FP_Faction_PLA_Desert_GL",
+			"FP_Faction_PLA_Desert_MMG",
+			"FP_Faction_PLA_Desert_DM",
+			"FP_Faction_PLA_Desert_MAT",
+			"FP_Faction_PLA_Desert_Officer",
+			"FP_Faction_PLA_Desert_RO",
+			"FP_Faction_PLA_Desert_FieldOfficer",
+			"FP_Faction_PLA_Desert_Medic",
+			"FP_Faction_PLA_Desert_Rifleman",
+			"FP_Faction_PLA_Desert_RAT",
+			"FP_Faction_PLA_Woodland_SL",
+			"FP_Faction_PLA_Woodland_AAR",
+			"FP_Faction_PLA_Woodland_AMMG",
+			"FP_Faction_PLA_Woodland_Rifleman_Unarmed",
+			"FP_Faction_PLA_Woodland_TL",
+			"FP_Faction_PLA_Woodland_UAV",
+			"FP_Faction_PLA_Woodland_AMANPADS",
+			"FP_Faction_PLA_Woodland_Engineer",
+			"FP_Faction_PLA_Woodland_MANPADS",
+			"FP_Faction_PLA_Woodland_HAT",
+			"FP_Faction_PLA_Woodland_AHAT",
+			"FP_Faction_PLA_Woodland_AMAT",
+			"FP_Faction_PLA_Woodland_AR",
+			"FP_Faction_PLA_Woodland_Crewman",
+			"FP_Faction_PLA_Woodland_GL",
+			"FP_Faction_PLA_Woodland_MMG",
+			"FP_Faction_PLA_Woodland_DM",
+			"FP_Faction_PLA_Woodland_MAT",
+			"FP_Faction_PLA_Woodland_Officer",
+			"FP_Faction_PLA_Woodland_RO",
+			"FP_Faction_PLA_Woodland_FieldOfficer",
+			"FP_Faction_PLA_Woodland_Medic",
+			"FP_Faction_PLA_Woodland_Rifleman",
+			"FP_Faction_PLA_Woodland_RAT",
+			"FP_Faction_PLA_Oceanic_SL",
+			"FP_Faction_PLA_Oceanic_AAR",
+			"FP_Faction_PLA_Oceanic_AMMG",
+			"FP_Faction_PLA_Oceanic_Rifleman_Unarmed",
+			"FP_Faction_PLA_Oceanic_TL",
+			"FP_Faction_PLA_Oceanic_UAV",
+			"FP_Faction_PLA_Oceanic_AMANPADS",
+			"FP_Faction_PLA_Oceanic_Engineer",
+			"FP_Faction_PLA_Oceanic_MANPADS",
+			"FP_Faction_PLA_Oceanic_HAT",
+			"FP_Faction_PLA_Oceanic_AHAT",
+			"FP_Faction_PLA_Oceanic_AMAT",
+			"FP_Faction_PLA_Oceanic_AR",
+			"FP_Faction_PLA_Oceanic_Crewman",
+			"FP_Faction_PLA_Oceanic_GL",
+			"FP_Faction_PLA_Oceanic_MMG",
+			"FP_Faction_PLA_Oceanic_DM",
+			"FP_Faction_PLA_Oceanic_MAT",
+			"FP_Faction_PLA_Oceanic_Officer",
+			"FP_Faction_PLA_Oceanic_RO",
+			"FP_Faction_PLA_Oceanic_FieldOfficer",
+			"FP_Faction_PLA_Oceanic_Medic",
+			"FP_Faction_PLA_Oceanic_Rifleman",
+			"FP_Faction_PLA_Oceanic_RAT"
+		};
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"A3_Weapons_F", "A3_Data_F"};
@@ -12,7 +144,7 @@ class CfgFactionClasses
 {
 	class FP_Faction_PLA
 	{
-		displayName = "FP People's Republic of China";
+		displayName = "FP China";
 		priority = 2;
 		side = 0;
 		icon = "\FP_Factions\PLA\cfgFactionClasses_china_ca.paa";
@@ -25,34 +157,34 @@ class CfgGroups
 	{
 		class FP_Faction_PLA_Units
 		{
-			name = "People's Republic of China";
+			name = "FP China";
 			class Infantry
 			{
-				name = "Infantry (Universal)";
-				class PLA_Riflesquad
+				name = "Infantry";
+				class PLA_Assaultsquad
 				{
 					faction = "FP_Faction_PLA";
 					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
-					name = "Rifle Squad";
+					name = "Assault Squad";
 					side = 0;
 					class Unit0
 					{
 						side = 0;
-						vehicle = "FP_Faction_PLA_TL";
+						vehicle = "FP_Faction_PLA_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 0;
-						vehicle = "FP_Faction_PLA_Rifleman";
+						vehicle = "FP_Faction_PLA_AR";
 						rank = "PRIVATE";
 						position[] = {5,-5,0};
 					};
 					class Unit2
 					{
 						side = 0;
-						vehicle = "FP_Faction_PLA_AR";
+						vehicle = "FP_Faction_PLA_MMG";
 						rank = "CORPORAL";
 						position[] = {-5,-5,0};
 					};
@@ -66,14 +198,77 @@ class CfgGroups
 					class Unit4
 					{
 						side = 0;
-						vehicle = "FP_Faction_PLA_Rifleman";
-						rank = "PRIVATE";
+						vehicle = "FP_Faction_PLA_TL";
+						rank = "SERGEANT";
 						position[] = {-10,-10,0};
 					};
 					class Unit5
 					{
 						side = 0;
+						vehicle = "FP_Faction_PLA_DM";
+						rank = "CORPORAL";
+						position[] = {15,-15,0};
+					};
+					class Unit6
+					{
+						side = 0;
 						vehicle = "FP_Faction_PLA_RAT";
+						rank = "PRIVATE";
+						position[] = {-15,-15,0};
+					};
+					class Unit7
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Medic";
+						rank = "PRIVATE";
+						position[] = {20,-20,0};
+					};
+				};
+				class PLA_Riflesquad
+				{
+					faction = "FP_Faction_PLA";
+					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+					name = "Rifle Squad";
+					side = 0;
+					class Unit0
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_SL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_Rifleman";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_RAT";
+						rank = "CORPORAL";
+						position[] = {-5,-5,0};
+					};
+					class Unit3
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_DM";
+						rank = "PRIVATE";
+						position[] = {10,-10,0};
+					};
+					class Unit4
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_TL";
+						rank = "SERGEANT";
+						position[] = {-10,-10,0};
+					};
+					class Unit5
+					{
+						side = 0;
+						vehicle = "FP_Faction_PLA_AR";
 						rank = "CORPORAL";
 						position[] = {15,-15,0};
 					};
@@ -87,7 +282,7 @@ class CfgGroups
 					class Unit7
 					{
 						side = 0;
-						vehicle = "FP_Faction_PLA_Rifleman";
+						vehicle = "FP_Faction_PLA_Medic";
 						rank = "PRIVATE";
 						position[] = {20,-20,0};
 					};
@@ -101,7 +296,7 @@ class CfgGroups
 					class Unit0
 					{
 						side = 0;
-						vehicle = "FP_Faction_PLA_TL";
+						vehicle = "FP_Faction_PLA_SL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -109,34 +304,34 @@ class CfgGroups
 					{
 						side = 0;
 						vehicle = "FP_Faction_PLA_AR";
-						rank = "SERGEANT";
+						rank = "PRIVATE";
 						position[] = {5,-5,0};
 					};
 					class Unit2
 					{
 						side = 0;
-						vehicle = "FP_Faction_PLA_AR";
+						vehicle = "FP_Faction_PLA_GL";
 						rank = "CORPORAL";
 						position[] = {-5,-5,0};
 					};
 					class Unit3
 					{
 						side = 0;
-						vehicle = "FP_Faction_PLA_RAT";
-						rank = "SERGEANT";
+						vehicle = "FP_Faction_PLA_DM";
+						rank = "PRIVATE";
 						position[] = {10,-10,0};
 					};
 					class Unit4
 					{
 						side = 0;
-						vehicle = "FP_Faction_PLA_RAT";
+						vehicle = "FP_Faction_PLA_HAT";
 						rank = "CORPORAL";
 						position[] = {-10,-10,0};
 					};
 					class Unit6
 					{
 						side = 0;
-						vehicle = "FP_Faction_PLA_AAR";
+						vehicle = "FP_Faction_PLA_AHAT";
 						rank = "PRIVATE";
 						position[] = {15,-15,0};
 					};
@@ -159,33 +354,33 @@ class CfgGroups
 				{
 					faction = "FP_Faction_PLA";
 					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
-					name = "Rifle Patrol";
+					name = "Fire Team";
 					side = 0;
 					class Unit0
 					{
 						side = 0;
-						vehicle = "FP_Faction_PLA_AR";
+						vehicle = "FP_Faction_PLA_TL";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 0;
-						vehicle = "FP_Faction_PLA_Rifleman";
+						vehicle = "FP_Faction_PLA_AR";
 						rank = "CORPORAL";
 						position[] = {5,-5,0};
 					};
 					class Unit2
 					{
 						side = 0;
-						vehicle = "FP_Faction_PLA_Rifleman";
+						vehicle = "FP_Faction_PLA_GL";
 						rank = "PRIVATE";
 						position[] = {-5,-5,0};
 					};
 					class Unit3
 					{
 						side = 0;
-						vehicle = "FP_Faction_PLA_Rifleman";
+						vehicle = "FP_Faction_PLA_RAT";
 						rank = "PRIVATE";
 						position[] = {10,-10,0};
 					};
@@ -206,21 +401,21 @@ class CfgGroups
 					class Unit1
 					{
 						side = 0;
-						vehicle = "FP_Faction_PLA_RAT";
+						vehicle = "FP_Faction_PLA_MAT";
 						rank = "CORPORAL";
 						position[] = {5,-5,0};
 					};
 					class Unit2
 					{
 						side = 0;
-						vehicle = "FP_Faction_PLA_RAT";
+						vehicle = "FP_Faction_PLA_MAT";
 						rank = "PRIVATE";
 						position[] = {-5,-5,0};
 					};
 					class Unit3
 					{
 						side = 0;
-						vehicle = "FP_Faction_PLA_RAT";
+						vehicle = "FP_Faction_PLA_AMAT";
 						rank = "PRIVATE";
 						position[] = {10,-10,0};
 					};
@@ -229,12 +424,12 @@ class CfgGroups
 				{
 					faction = "FP_Faction_PLA";
 					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
-					name = "Sentries";
+					name = "Sentry";
 					side = 0;					
 					class Unit0
 					{
 						side = 0;
-						vehicle = "FP_Faction_PLA_Rifleman";
+						vehicle = "FP_Faction_PLA_GL";
 						rank = "CORPORAL";
 						position[] = {0,0,0};
 					};
@@ -408,6 +603,7 @@ class CfgGroups
 				{
 					name = "TACOM Team";
 					side = 0;
+					icon = "\A3\ui_f\data\map\markers\nato\o_hq.paa";
 					faction = "FP_Faction_PLA";
 					class Unit0
 					{
@@ -870,15 +1066,19 @@ class CfgGroups
 		};
 	};
 };
-class cfgvehicles
+class cfgVehicles
 {
 	class RHS_Mi8mt_vvsc;
 	class RHS_Mi8mt_Cargo_vvsc;
 	class RHS_Mi8MTV3_vvsc;
 	class RHS_Mi8mtv3_Cargo_vvsc;
 	class RHS_Mi8MTV3_heavy_vvsc;
+	class O_Heli_Light_02_dynamicLoadout_F;
+	class O_Heli_Light_02_unarmed_F;
 	class FP_Mi8mt_PLA: RHS_Mi8mt_vvsc
 	{
+		scope = 2;
+		scopeCurator = 2;
 		class TextureSources
 		{
 			class PLAMi8
@@ -899,6 +1099,8 @@ class cfgvehicles
 	};
 	class FP_Mi8mt_Cargo_PLA: RHS_Mi8mt_Cargo_vvsc
 	{
+		scope = 2;
+		scopeCurator = 2;
 		class TextureSources
 		{
 			class PLAMi8
@@ -919,6 +1121,8 @@ class cfgvehicles
 	};	
 	class FP_Mi8MTV3_PLA: RHS_Mi8MTV3_vvsc
 	{
+		scope = 2;
+		scopeCurator = 2;
 		class TextureSources
 		{
 			class PLAMi8
@@ -939,6 +1143,8 @@ class cfgvehicles
 	};
 	class FP_Mi8mtv3_Cargo_PLA: RHS_Mi8mtv3_Cargo_vvsc
 	{
+		scope = 2;
+		scopeCurator = 2;
 		class TextureSources
 		{
 			class PLAMi8
@@ -959,6 +1165,8 @@ class cfgvehicles
 	};
 	class FP_Mi8MTV3_heavy_PLA: RHS_Mi8MTV3_heavy_vvsc
 	{
+		scope = 2;
+		scopeCurator = 2;
 		class TextureSources
 		{
 			class PLAMi8
@@ -977,12 +1185,114 @@ class cfgvehicles
 		hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","n1","n2","tail_decals"};
 		hiddenselectionstextures[] = {"\fp_factions\PLA\data\Mi8\mi17_body_co.paa","\rhsafrf\addons\rhs_a2port_air\Mi17\data\camo\mi8_det_g_camo1_co.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_a2port_air\mi17\data\mi8_decals_ca.paa","a3\data_f\clear_empty.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_decals\data\labels\aviation\vvs_ca.paa"};	
 	};
+	class FP_Z9A_PLA: O_Heli_Light_02_dynamicLoadout_F
+	{
+		scope = 2;
+		scopeCurator = 2;
+		class TextureSources
+		{
+			class PLAZ9A
+			{
+				author="CSLeader";
+				displayname = "PLA Black";				
+				textures[] = {"\fp_factions\PLA\data\z9a\heli_light_02_ext_pla_co.paa"};
+				factions[] = {"FP_Faction_PLA"};
+			};			
+		};
+		crew = "FP_Faction_PLA_Helipilot";
+		displayname = "Z-9A";
+		editorSubcategory = "EdSubcat_Helicopters";
+		faction = "FP_Faction_PLA";
+		hiddenSelections[] = {"Camo1"};
+		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\z9a\heli_light_02_ext_pla_co.paa"};		
+	};
+	class FP_Z9A_PLA_unarmed: O_Heli_Light_02_unarmed_F
+	{
+		scope = 2;
+		scopeCurator = 2;
+		class TextureSources
+		{
+			class PLAZ9A
+			{
+				author="CSLeader";
+				displayname = "PLA Black";				
+				textures[] = {"\fp_factions\PLA\data\z9a\heli_light_02_ext_pla_co.paa"};
+				factions[] = {"FP_Faction_PLA"};
+			};			
+		};
+		crew = "FP_Faction_PLA_Helipilot";
+		displayname = "Z-9A (Unarmed)";
+		editorSubcategory = "EdSubcat_Helicopters";
+		faction = "FP_Faction_PLA";
+		hiddenSelections[] = {"Camo1"};
+		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\z9a\heli_light_02_ext_pla_co.paa"};		
+	};
+	class rhs_mi28n_vvs;
+	class B_Heli_Attack_01_dynamicLoadout_F;
+	class RHS_UH60M
+	{
+		class Turrets
+		{
+			class CopilotTurret;
+			class MainTurret;
+			class RightDoorGun;
+			class CargoTurret_01;
+			class CargoTurret_02;
+			class CargoTurret_03;
+			class CargoTurret_04;
+		};
+	};
+	class FP_O_PLA_mi28n: rhs_mi28n_vvs
+	{
+		scope = 2;
+		scopeCurator = 2;
+		crew = "FP_Faction_PLA_Helipilot";
+		displayname = "Z-10";
+		editorSubcategory = "EdSubcat_Helicopters";
+		faction = "FP_Faction_PLA";
+	};
+	class FP_O_PLA_Heli_Attack_01_dynamicLoadout_F: B_Heli_Attack_01_dynamicLoadout_F
+	{
+		scope = 2;
+		scopeCurator = 2;
+		side = 0;
+		crew = "FP_Faction_PLA_Helipilot";
+		displayname = "Z-19";
+		editorSubcategory = "EdSubcat_Helicopters";
+		faction = "FP_Faction_PLA";
+		hiddenSelections[] = {"camo1"};
+		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\z19\Heli_Attack_01_PLA_black_CO.paa"};
+	};
+	class FP_O_PLA_UH60M: RHS_UH60M
+	{
+		scope = 2;
+		scopeCurator = 2;
+		side = 0;
+		crew = "FP_Faction_PLA_Helipilot";
+		displayname = "Z-20";
+		editorSubcategory = "EdSubcat_Helicopters";
+		faction = "FP_Faction_PLA";
+		class Turrets: Turrets
+		{
+			class CopilotTurret;
+			class MainTurret: MainTurret
+			{
+				gunnerType = "FP_Faction_PLA_Helicrew";
+			};
+			class RightDoorGun: RightDoorGun
+			{
+				gunnerType = "FP_Faction_PLA_Helicrew";
+			};
+		};
+	};
 	class O_Plane_Fighter_02_F;
 	class O_Plane_Fighter_02_Stealth_F;
 	class O_Plane_CAS_02_dynamicLoadout_F;
 	class I_Plane_Fighter_04_F;
 	class FP_Faction_PLA_Plane_Fighter_02_F: O_Plane_Fighter_02_F
 	{
+		scope = 2;
+		scopeCurator = 2;
 		class TextureSources
 		{
 			class PLASkin01
@@ -1021,6 +1331,14 @@ class cfgvehicles
 				factions[] = {"FP_Faction_PLA"};
 			};				
 		};
+		textureList[] = 
+		{
+			PLASkin01, 0.25,
+			PLASkin02, 0.25,
+			PLASkin03, 0.25,
+			PLASkin03LV, 0.25,
+			PLASkin04, 0
+		};
 		author = "FP Mod Team";
 		crew = "FP_Faction_PLA_Fighter_Pilot_F";
 		displayName = "J-16B Queying";
@@ -1031,6 +1349,8 @@ class cfgvehicles
 	};
 	class FP_Faction_PLA_Plane_Fighter_02_Stealth_F: O_Plane_Fighter_02_Stealth_F
 	{
+		scope = 2;
+		scopeCurator = 2;
 		class TextureSources
 		{
 			class PLASkin01
@@ -1069,6 +1389,14 @@ class cfgvehicles
 				factions[] = {"FP_Faction_PLA"};
 			};			
 		};
+		textureList[] = 
+		{
+			PLASkin01, 0.25,
+			PLASkin02, 0.25,
+			PLASkin03, 0.25,
+			PLASkin03LV, 0.25,
+			PLASkin04, 0
+		};
 		author = "FP Mod Team";
 		crew = "FP_Faction_PLA_Fighter_Pilot_F";
 		displayName = "J-16B Queying (Stealth)";
@@ -1079,6 +1407,8 @@ class cfgvehicles
 	};
 	class FP_Faction_PLA_Plane_CAS_02_dynamicLoadout_F: O_Plane_CAS_02_dynamicLoadout_F
 	{
+		scope = 2;
+		scopeCurator = 2;
 		author = "FP Mod Team";
 		crew = "FP_Faction_PLA_Fighter_Pilot_F";
 		displayName = "Q-15D Lieying";
@@ -1089,6 +1419,8 @@ class cfgvehicles
 	};
 	class FP_Faction_PLA_Plane_Fighter_04_F: I_Plane_Fighter_04_F
 	{
+		scope = 2;
+		scopeCurator = 2;
 		class TextureSources
 		{
 			class PLA_J10_Skin01
@@ -1108,10 +1440,62 @@ class cfgvehicles
 		hiddenSelections[] = {"Camo_01","Camo_02","Camo_03","number_01","number_02","number_03"};
 		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\gryphon\Fighter_04_fuselage_01_PLA_co.paa","\fp_factions\PLA\data\gryphon\Fighter_04_fuselage_02_PLA_co.paa","a3\air_f_jets\plane_fighter_04\data\Fighter_04_misc_01_co.paa","a3\air_f_jets\plane_fighter_04\data\Numbers\Fighter_04_number_04_ca.paa","a3\air_f_jets\plane_fighter_04\data\Numbers\Fighter_04_number_04_ca.paa","a3\air_f_jets\plane_fighter_04\data\Numbers\Fighter_04_number_08_ca.paa"};
 	};
+	class O_T_VTOL_02_infantry_dynamicLoadout_F;
+	class O_T_VTOL_02_vehicle_dynamicLoadout_F;
+	class FP_O_PLA_VTOL_02_infantry_dynamicLoadout_F: O_T_VTOL_02_infantry_dynamicLoadout_F
+	{
+		scope = 2;
+		scopeCurator = 2;
+		crew = "FP_Faction_PLA_Fighter_Pilot_F";
+		faction = "FP_Faction_PLA";
+		textureList[] =
+		{
+			"AirSup", 0,
+			"GreenHex", 0,
+			"Grey", 0,
+			"Hex", 0,
+			"PLAAF", 1,
+			"USMC", 0
+		};
+		hiddenSelections[] = {"Camo_1","Camo_2","Camo_3","Camo_4"};
+		hiddenSelectionsTextures[] = 
+		{
+			"\FP_Factions\pilotguy_reskins\xian\data\plaaf\VTOL_02_EXT01_plablk_CO.paa",
+			"\FP_Factions\pilotguy_reskins\xian\data\plaaf\VTOL_02_EXT02_plablk_CO.paa",
+			"\FP_Factions\pilotguy_reskins\xian\data\plaaf\VTOL_02_EXT03_L_plablk_CO.paa",
+			"\FP_Factions\pilotguy_reskins\xian\data\plaaf\VTOL_02_EXT03_R_plablk_CO.paa"
+		};
+	};
+	class FP_O_PLA_VTOL_02_vehicle_dynamicLoadout_F: O_T_VTOL_02_vehicle_dynamicLoadout_F
+	{
+		scope = 2;
+		scopeCurator = 2;
+		crew = "FP_Faction_PLA_Fighter_Pilot_F";
+		faction = "FP_Faction_PLA";
+		textureList[] =
+		{
+			"AirSup", 0,
+			"GreenHex", 0,
+			"Grey", 0,
+			"Hex", 0,
+			"PLAAF", 1,
+			"USMC", 0
+		};
+		hiddenSelections[] = {"Camo_1","Camo_2","Camo_3","Camo_4"};
+		hiddenSelectionsTextures[] = 
+		{
+			"\FP_Factions\pilotguy_reskins\xian\data\plaaf\VTOL_02_EXT01_plablk_CO.paa",
+			"\FP_Factions\pilotguy_reskins\xian\data\plaaf\VTOL_02_EXT02_plablk_CO.paa",
+			"\FP_Factions\pilotguy_reskins\xian\data\plaaf\VTOL_02_EXT03_L_plablk_CO.paa",
+			"\FP_Factions\pilotguy_reskins\xian\data\plaaf\VTOL_02_EXT03_R_plablk_CO.paa"
+		};
+	};
 	class O_APC_Tracked_02_cannon_F;
 	class O_APC_Tracked_02_AA_F;
 	class FP_Faction_PLA_APC_Tracked_02_cannon_F: O_APC_Tracked_02_cannon_F
 	{
+		scope = 2;
+		scopeCurator = 2;
 		class TextureSources
 		{
 			class PLA_APC_Green
@@ -1120,7 +1504,19 @@ class cfgvehicles
 				displayname = "PLA Green";				
 				textures[] = {"\fp_factions\PLA\data\kamysh\APC_Tracked_02_ext_01_PLA_CO.paa","\fp_factions\PLA\data\kamysh\APC_Tracked_02_ext_02_PLA_CO.paa","\fp_factions\PLA\data\kamysh\RCWS30_PLA_CO.paa","A3\Armor_F\Data\camonet_CSAT_HEX_Green_CO.paa","A3\armor_f\data\cage_csat_green_CO.paa"};
 				factions[] = {"FP_Faction_PLA"};
+			};
+			class PLA_APC_Camo
+			{
+				author="CSLeader";
+				displayname = "PLA Camo";				
+				textures[] = {"\fp_factions\PLA\data\kamysh\APC_Tracked_02_ext_01_PLA_Camo_CO.paa","\fp_factions\PLA\data\kamysh\APC_Tracked_02_ext_02_PLA_Camo_CO.paa","\fp_factions\PLA\data\kamysh\RCWS30_PLA_Camo_CO.paa","A3\Armor_F\Data\camonet_CSAT_HEX_Green_CO.paa","A3\armor_f\data\cage_csat_green_CO.paa"};
+				factions[] = {"FP_Faction_PLA"};
 			};			
+		};
+		textureList[] =
+		{
+			"PLA_APC_Green", 0.5,
+			"PLA_APC_Camo", 0.5
 		};
 		author = "FP Mod Team";
 		crew = "FP_Faction_PLA_Crewman";
@@ -1132,6 +1528,8 @@ class cfgvehicles
 	};
 	class FP_Faction_PLA_APC_Tracked_02_AA_F: O_APC_Tracked_02_AA_F
 	{
+		scope = 2;
+		scopeCurator = 2;
 		class TextureSources
 		{
 			class PLA_AA_Green
@@ -1140,7 +1538,19 @@ class cfgvehicles
 				displayname = "PLA Green";				
 				textures[] = {"\fp_factions\PLA\data\kamysh\APC_Tracked_02_ext_01_AA_PLA_CO.paa","\fp_factions\PLA\data\kamysh\APC_Tracked_02_ext_02_PLA_CO.paa","\fp_factions\PLA\data\kamysh\APC_Tracked_01_AA_Tower_PLA_CO.paa","A3\Armor_F\Data\camonet_CSAT_HEX_Green_CO.paa","A3\armor_f\data\cage_csat_green_CO.paa"};
 				factions[] = {"FP_Faction_PLA"};
+			};
+			class PLA_AA_Camo
+			{
+				author="CSLeader";
+				displayname = "PLA Camo";				
+				textures[] = {"\fp_factions\PLA\data\kamysh\APC_Tracked_02_ext_01_AA_PLA_Camo_CO.paa","\fp_factions\PLA\data\kamysh\APC_Tracked_02_ext_02_PLA_Camo_CO.paa","\fp_factions\PLA\data\kamysh\APC_Tracked_01_AA_Tower_PLA_Camo_CO.paa","A3\Armor_F\Data\camonet_CSAT_HEX_Green_CO.paa","A3\armor_f\data\cage_csat_green_CO.paa"};
+				factions[] = {"FP_Faction_PLA"};
 			};			
+		};
+		textureList[] =
+		{
+			"PLA_AA_Green", 0.5,
+			"PLA_AA_Camo", 0.5
 		};
 		author = "FP Mod Team";
 		crew = "FP_Faction_PLA_Crewman";
@@ -1150,10 +1560,11 @@ class cfgvehicles
 		hiddenSelections[] = {"camo1","camo2","camo3","CamoNet","CamoSlat"};
 		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\kamysh\APC_Tracked_02_ext_01_AA_PLA_CO.paa","\fp_factions\PLA\data\kamysh\APC_Tracked_02_ext_02_PLA_CO.paa","\fp_factions\PLA\data\kamysh\APC_Tracked_01_AA_Tower_PLA_CO.paa","A3\Armor_F\Data\camonet_CSAT_HEX_Green_CO.paa","A3\armor_f\data\cage_csat_green_CO.paa"};
 	};
-	
 	class O_Quadbike_01_F;
 	class FP_Faction_PLA_Quadbike_01_F: O_Quadbike_01_F
 	{
+		scope = 2;
+		scopeCurator = 2;
 		class TextureSources
 		{
 			class PLA_QB_Green
@@ -1176,6 +1587,8 @@ class cfgvehicles
 	class O_T_LSV_02_AT_F;
 	class FP_Faction_PLA_LSV_02_unarmed_F: O_T_LSV_02_unarmed_F
 	{
+		scope = 2;
+		scopeCurator = 2;
 		class TextureSources
 		{
 			class PLA_LSV_Green
@@ -1195,6 +1608,8 @@ class cfgvehicles
 	};
 	class FP_Faction_PLA_LSV_02_armed_F: O_T_LSV_02_armed_F
 	{
+		scope = 2;
+		scopeCurator = 2;
 		class TextureSources
 		{
 			class PLA_LSV_Green
@@ -1214,6 +1629,8 @@ class cfgvehicles
 	};
 	class FP_Faction_PLA_LSV_02_AT_F: O_T_LSV_02_AT_F
 	{
+		scope = 2;
+		scopeCurator = 2;
 		class TextureSources
 		{
 			class PLA_LSV_Green
@@ -1240,6 +1657,8 @@ class cfgvehicles
 	class I_Truck_02_MRL_F;
 	class FP_Faction_PLA_Truck_02_transport_F: O_Truck_02_transport_F
 	{
+		scope = 2;
+		scopeCurator = 2;
 		class TextureSources
 		{
 			class PLA_Truck02_Green
@@ -1260,6 +1679,8 @@ class cfgvehicles
 	};
 	class FP_Faction_PLA_Truck_02_covered_F: O_Truck_02_covered_F
 	{
+		scope = 2;
+		scopeCurator = 2;
 		class TextureSources
 		{
 			class PLA_Truck02_Green
@@ -1280,6 +1701,8 @@ class cfgvehicles
 	};
 	class FP_Faction_PLA_Truck_02_box_F: O_Truck_02_box_F
 	{
+		scope = 2;
+		scopeCurator = 2;
 		class TextureSources
 		{
 			class PLA_Truck02_Green
@@ -1300,6 +1723,8 @@ class cfgvehicles
 	};
 	class FP_Faction_PLA_Truck_02_medical_F: O_Truck_02_medical_F
 	{
+		scope = 2;
+		scopeCurator = 2;
 		class TextureSources
 		{
 			class PLA_Truck02_Green
@@ -1320,6 +1745,8 @@ class cfgvehicles
 	};
 	class FP_Faction_PLA_Truck_02_fuel_F: O_Truck_02_fuel_F
 	{
+		scope = 2;
+		scopeCurator = 2;
 		class TextureSources
 		{
 			class PLA_Truck02_Green
@@ -1340,6 +1767,8 @@ class cfgvehicles
 	};
 	class FP_Faction_PLA_Truck_02_Ammo_F: O_Truck_02_Ammo_F
 	{
+		scope = 2;
+		scopeCurator = 2;
 		class TextureSources
 		{
 			class PLA_Truck02_Green
@@ -1360,6 +1789,8 @@ class cfgvehicles
 	};
 	class FP_Faction_PLA_Truck_02_MRL_F: I_Truck_02_MRL_F
 	{
+		scope = 2;
+		scopeCurator = 2;
 		class TextureSources
 		{
 			class PLA_Truck02_Green
@@ -1389,6 +1820,8 @@ class cfgvehicles
 	class O_Truck_03_ammo_F;
 	class FP_Faction_PLA_Truck_03_transport_F: O_Truck_03_transport_F
 	{
+		scope = 2;
+		scopeCurator = 2;
 		class TextureSources
 		{
 			class PLA_Truck03_Green
@@ -1409,6 +1842,8 @@ class cfgvehicles
 	};
 	class FP_Faction_PLA_Truck_03_covered_F: O_Truck_03_covered_F
 	{
+		scope = 2;
+		scopeCurator = 2;
 		class TextureSources
 		{
 			class PLA_Truck03_Green
@@ -1429,6 +1864,8 @@ class cfgvehicles
 	};
 	class FP_Faction_PLA_Truck_03_repair_F: O_Truck_03_repair_F
 	{
+		scope = 2;
+		scopeCurator = 2;
 		class TextureSources
 		{
 			class PLA_Truck03_Green
@@ -1449,6 +1886,8 @@ class cfgvehicles
 	};
 	class FP_Faction_PLA_Truck_03_medical_F: O_Truck_03_medical_F
 	{
+		scope = 2;
+		scopeCurator = 2;
 		class TextureSources
 		{
 			class PLA_Truck03_Green
@@ -1471,6 +1910,8 @@ class cfgvehicles
 	{
 		class TextureSources
 		{
+		scope = 2;
+		scopeCurator = 2;
 			class PLA_Truck03_Green
 			{
 				author="Gordon Weedman";
@@ -1491,6 +1932,8 @@ class cfgvehicles
 	{
 		class TextureSources
 		{
+		scope = 2;
+		scopeCurator = 2;
 			class PLA_Truck03_Green
 			{
 				author="Gordon Weedman";
@@ -1511,6 +1954,8 @@ class cfgvehicles
 	{
 		class TextureSources
 		{
+		scope = 2;
+		scopeCurator = 2;
 			class PLA_Truck03_Green
 			{
 				author="Gordon Weedman";
@@ -1530,6 +1975,8 @@ class cfgvehicles
 	class O_MBT_02_cannon_F;
 	class FP_Faction_PLA_MBT_02_cannon_F: O_MBT_02_cannon_F
 	{
+		scope = 2;
+		scopeCurator = 2;		
 		class TextureSources
 		{
 			class PLA_T100_Green
@@ -1808,6 +2255,21 @@ class cfgvehicles
 		headgearProbability = 100;
 		allowedHeadgear[] = {"FP_Helmet_Type07Uni","FP_Helmet_Type07UniESS"};
 	};
+	class FP_Faction_PLA_Rifleman_Unarmed: FP_Faction_PLA_Soldier_BASE
+	{
+		author = "FP Mod Team";
+		_generalMacro = "FP_Faction_PLA_Soldier_BASE";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "Rifleman (Unarmed)";
+		weapons[] = {"Throw","Put"};
+		respawnWeapons[] = {"Throw","Put"};
+		magazines[] = {};
+		respawnMagazines[] = {};
+		cost = 100000;
+		headgearProbability = 100;
+		allowedHeadgear[] = {"FP_Helmet_Type07Uni","FP_Helmet_Type07UniESS"};
+	};
 	class FP_Faction_PLA_AR: FP_Faction_PLA_Soldier_BASE
 	{
 		class SpeechVariants
@@ -1983,8 +2445,8 @@ class cfgvehicles
 		displayName = "Rifleman (AT)";
 		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_RAT.jpg";
 		backpack = "B_FieldPack_cbr_RPG_AT";
-		weapons[] = {"arifle_CTAR_blk_F","rhs_weap_rpg26","Throw","Put"};
-		respawnWeapons[] = {"arifle_CTAR_blk_F","rhs_weap_rpg26","Throw","Put"};
+		weapons[] = {"arifle_CTAR_blk_F","rhs_weap_M136","Throw","Put"};
+		respawnWeapons[] = {"arifle_CTAR_blk_F","rhs_weap_M136","Throw","Put"};
 		magazines[] = {"30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","SmokeShell","SmokeShellRed"};
 		respawnMagazines[] = {"30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","SmokeShell","SmokeShellRed"};
 		cost = 180000;
@@ -2268,6 +2730,8 @@ class cfgvehicles
 		author = "FP Mod Team";
 		_generalMacro = "FP_Faction_PLA_Soldier_BASE";		
 		side = 0;
+		scope = 2;
+		scopeCurator = 2;
 		displayName = "Helicopter Crew";
 		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_Helicrew.jpg";
 		faction = "FP_Faction_PLA";
@@ -2285,6 +2749,8 @@ class cfgvehicles
         identityTypes[] = {"LanguageCHI_F","Head_Asian","G_IRAN_default"};
 		faceType = "Man_A3";
 		side = 0;
+		scope = 2;
+		scopeCurator = 2;
 		faction = "FP_Faction_PLA";
 		genericNames = "ChineseMen";
 		vehicleClass = "fp_men_universal";
@@ -2355,6 +2821,21 @@ class cfgvehicles
 		headgearProbability = 100;
 		allowedHeadgear[] = {"FP_Helmet_Type07Desert","FP_Helmet_Type07DesertESS"};
 	};
+	class FP_Faction_PLA_Desert_Rifleman_Unarmed: FP_Faction_PLA_Soldier_Desert_BASE
+	{
+		author = "FP Mod Team";
+		_generalMacro = "FP_Faction_PLA_Soldier_BASE";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "Rifleman (Unarmed)";
+		weapons[] = {"Throw","Put"};
+		respawnWeapons[] = {"Throw","Put"};
+		magazines[] = {};
+		respawnMagazines[] = {};
+		cost = 100000;
+		headgearProbability = 100;
+		allowedHeadgear[] = {"FP_Helmet_Type07Desert","FP_Helmet_Type07DesertESS"};
+	};
 	class FP_Faction_PLA_Desert_AR: FP_Faction_PLA_Soldier_Desert_BASE
 	{
 		class SpeechVariants
@@ -2383,7 +2864,7 @@ class cfgvehicles
 		linkedItems[] = {"FP_V_PlateCarrierIA2_Type07Desert","FP_Helmet_Type07Desert","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"FP_V_PlateCarrierIA2_Type07Desert","FP_Helmet_Type07Desert","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 100;
-		allowedHeadgear[] = {"FP_Helmet_Type07Uni","FP_Helmet_Type07Uni"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Desert","FP_Helmet_Type07DesertESS"};
 	};
 	class FP_Faction_PLA_Desert_AAR: FP_Faction_PLA_Soldier_Desert_BASE
 	{
@@ -2528,8 +3009,8 @@ class cfgvehicles
 		displayName = "Rifleman (AT)";
 		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_RAT.jpg";
 		backpack = "B_FieldPack_cbr_RPG_AT";
-		weapons[] = {"arifle_CTAR_blk_F","rhs_weap_rpg26","Throw","Put"};
-		respawnWeapons[] = {"arifle_CTAR_blk_F","rhs_weap_rpg26","Throw","Put"};
+		weapons[] = {"arifle_CTAR_blk_F","rhs_weap_M136","Throw","Put"};
+		respawnWeapons[] = {"arifle_CTAR_blk_F","rhs_weap_M136","Throw","Put"};
 		magazines[] = {"30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","SmokeShell","SmokeShellRed"};
 		respawnMagazines[] = {"30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","SmokeShell","SmokeShellRed"};
 		cost = 180000;
@@ -2803,7 +3284,7 @@ class cfgvehicles
 		respawnWeapons[] = {"arifle_CTAR_blk_F","UK3CB_BAF_L105A1","Throw","Put"};
 		magazines[] = {"30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","HandGrenade","HandGrenade","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","SmokeShell","SmokeShellRed","SmokeShellOrange","SmokeShellYellow"};
 		respawnMagazines[] = {"30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","HandGrenade","HandGrenade","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","SmokeShell","SmokeShellRed","SmokeShellOrange","SmokeShellYellow"};
-		linkedItems[] = {"FP_V_PlateCarrierIA2_Type07Uni","UK3CB_ANA_B_H_Beret_GRN","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"FP_V_PlateCarrierIA2_Type07Desert","UK3CB_ANA_B_H_Beret_GRN","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"FP_V_PlateCarrierIA2_Type07Desert","UK3CB_ANA_B_H_Beret_GRN","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 100;
 		allowedHeadgear[] = {"UK3CB_ANA_B_H_Beret_GRN","UK3CB_ANA_B_H_Beret_GRN"};
@@ -2841,6 +3322,21 @@ class cfgvehicles
 		headgearProbability = 100;
 		allowedHeadgear[] = {"FP_Helmet_Type07Woodland","FP_Helmet_Type07WoodlandESS"};
 	};
+	class FP_Faction_PLA_Woodland_Rifleman_Unarmed: FP_Faction_PLA_Soldier_Woodland_BASE
+	{
+		author = "FP Mod Team";
+		_generalMacro = "FP_Faction_PLA_Soldier_BASE";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "Rifleman (Unarmed)";
+		weapons[] = {"Throw","Put"};
+		respawnWeapons[] = {"Throw","Put"};
+		magazines[] = {};
+		respawnMagazines[] = {};
+		cost = 100000;
+		headgearProbability = 100;
+		allowedHeadgear[] = {"FP_Helmet_Type07Woodland","FP_Helmet_Type07WoodlandESS"};
+	};
 	class FP_Faction_PLA_Woodland_AR: FP_Faction_PLA_Soldier_Woodland_BASE
 	{
 		class SpeechVariants
@@ -2869,7 +3365,7 @@ class cfgvehicles
 		linkedItems[] = {"FP_V_PlateCarrierIA2_Type07Woodland","FP_Helmet_Type07Woodland","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"FP_V_PlateCarrierIA2_Type07Woodland","FP_Helmet_Type07Woodland","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 100;
-		allowedHeadgear[] = {"FP_Helmet_Type07Uni","FP_Helmet_Type07Uni"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Woodland","FP_Helmet_Type07WoodlandESS"};
 	};
 	class FP_Faction_PLA_Woodland_AAR: FP_Faction_PLA_Soldier_Woodland_BASE
 	{
@@ -3014,8 +3510,8 @@ class cfgvehicles
 		displayName = "Rifleman (AT)";
 		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_RAT.jpg";
 		backpack = "B_FieldPack_cbr_RPG_AT";
-		weapons[] = {"arifle_CTAR_blk_F","rhs_weap_rpg26","Throw","Put"};
-		respawnWeapons[] = {"arifle_CTAR_blk_F","rhs_weap_rpg26","Throw","Put"};
+		weapons[] = {"arifle_CTAR_blk_F","rhs_weap_M136","Throw","Put"};
+		respawnWeapons[] = {"arifle_CTAR_blk_F","rhs_weap_M136","Throw","Put"};
 		magazines[] = {"30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","SmokeShell","SmokeShellRed"};
 		respawnMagazines[] = {"30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","SmokeShell","SmokeShellRed"};
 		cost = 180000;
@@ -3327,6 +3823,21 @@ class cfgvehicles
 		headgearProbability = 100;
 		allowedHeadgear[] = {"FP_Helmet_Type07Oceanic","FP_Helmet_Type07OceanicESS"};
 	};
+	class FP_Faction_PLA_Oceanic_Rifleman_Unarmed: FP_Faction_PLA_Soldier_Oceanic_BASE
+	{
+		author = "FP Mod Team";
+		_generalMacro = "FP_Faction_PLA_Soldier_BASE";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "Rifleman (Unarmed)";
+		weapons[] = {"Throw","Put"};
+		respawnWeapons[] = {"Throw","Put"};
+		magazines[] = {};
+		respawnMagazines[] = {};
+		cost = 100000;
+		headgearProbability = 100;
+		allowedHeadgear[] = {"FP_Helmet_Type07Oceanic","FP_Helmet_Type07OceanicESS"};
+	};
 	class FP_Faction_PLA_Oceanic_AR: FP_Faction_PLA_Soldier_Oceanic_BASE
 	{
 		class SpeechVariants
@@ -3355,7 +3866,7 @@ class cfgvehicles
 		linkedItems[] = {"FP_V_PlateCarrierIA2_blk","FP_Helmet_Type07Oceanic","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"FP_V_PlateCarrierIA2_blk","FP_Helmet_Type07Oceanic","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 100;
-		allowedHeadgear[] = {"FP_Helmet_Type07Uni","FP_Helmet_Type07Uni"};
+		allowedHeadgear[] = {"FP_Helmet_Type07Oceanic","FP_Helmet_Type07OceanicESS"};
 	};
 	class FP_Faction_PLA_Oceanic_AAR: FP_Faction_PLA_Soldier_Oceanic_BASE
 	{
@@ -3500,8 +4011,8 @@ class cfgvehicles
 		displayName = "Rifleman (AT)";
 		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_RAT.jpg";
 		backpack = "B_FieldPack_cbr_RPG_AT";
-		weapons[] = {"arifle_CTAR_blk_F","rhs_weap_rpg26","Throw","Put"};
-		respawnWeapons[] = {"arifle_CTAR_blk_F","rhs_weap_rpg26","Throw","Put"};
+		weapons[] = {"arifle_CTAR_blk_F","rhs_weap_M136","Throw","Put"};
+		respawnWeapons[] = {"arifle_CTAR_blk_F","rhs_weap_M136","Throw","Put"};
 		magazines[] = {"30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","SmokeShell","SmokeShellRed"};
 		respawnMagazines[] = {"30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_F","SmokeShell","SmokeShellRed"};
 		cost = 180000;
