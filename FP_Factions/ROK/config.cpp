@@ -1439,8 +1439,8 @@ class CfgVehicles
 		respawnMagazines[] = {"hlc_30Rnd_556x45_EPR_sg550","hlc_30Rnd_556x45_EPR_sg550","hlc_30Rnd_556x45_EPR_sg550","hlc_30Rnd_556x45_EPR_sg550","hlc_30Rnd_556x45_EPR_sg550","hlc_30Rnd_556x45_EPR_sg550","hlc_30Rnd_556x45_EPR_sg550","hlc_30Rnd_556x45_EPR_sg550","hlc_30Rnd_556x45_EPR_sg550","hlc_30Rnd_556x45_EPR_sg550","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
-		linkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Woodland_F","FP_H_HelmetIA_ROK","NVGoggles_OPFOR","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Woodland_F","FP_H_HelmetIA_ROK","NVGoggles_OPFOR","ItemMap","ItemCompass","ItemWatch","ItemRadio"};		
+		linkedItems[] = {"FP_CSL_V_CarrierRigKBT_light_GraniteB_F","FP_H_HelmetIA_ROK","NVGoggles_OPFOR","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_CSL_V_CarrierRigKBT_light_GraniteB_F","FP_H_HelmetIA_ROK","NVGoggles_OPFOR","ItemMap","ItemCompass","ItemWatch","ItemRadio"};		
 	};
 	class FP_ROK_Marine_BASE_F: FP_ROK_Soldier_BASE_F
 	{
@@ -1583,8 +1583,8 @@ class CfgVehicles
 		respawnWeapons[] = {"hlc_rifle_SG551LB_TAC_GL","RH_p226","Throw","Put"};		
 		magazines[] = {"hlc_30Rnd_556x45_EPR_sg550","hlc_30Rnd_556x45_EPR_sg550","hlc_30Rnd_556x45_EPR_sg550","hlc_30Rnd_556x45_EPR_sg550","hlc_30Rnd_556x45_EPR_sg550","hlc_30Rnd_556x45_EPR_sg550","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		respawnMagazines[] = {"hlc_30Rnd_556x45_EPR_sg550","hlc_30Rnd_556x45_EPR_sg550","hlc_30Rnd_556x45_EPR_sg550","hlc_30Rnd_556x45_EPR_sg550","hlc_30Rnd_556x45_EPR_sg550","hlc_30Rnd_556x45_EPR_sg550","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
-		linkedItems[] = {"FP_GOR_V_CarrierRigKBT_heavy_Woodland_F","FP_H_HelmetIA_ROK","NVGoggles_OPFOR","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_GOR_V_CarrierRigKBT_heavy_Woodland_F","FP_H_HelmetIA_ROK","NVGoggles_OPFOR","ItemMap","ItemCompass","ItemWatch","ItemRadio"};			
+		linkedItems[] = {"FP_CSL_V_CarrierRigKBT_heavy_GraniteB_F","FP_H_HelmetIA_ROK","NVGoggles_OPFOR","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_CSL_V_CarrierRigKBT_heavy_GraniteB_F","FP_H_HelmetIA_ROK","NVGoggles_OPFOR","ItemMap","ItemCompass","ItemWatch","ItemRadio"};			
 	};
 	class FP_B_ROK_MMG_F: FP_ROK_Soldier_BASE_F
 	{
@@ -1718,15 +1718,15 @@ class CfgVehicles
 		respawnMagazines[] = {"hlc_30Rnd_556x45_EPR_sg550","hlc_30Rnd_556x45_EPR_sg550","hlc_30Rnd_556x45_EPR_sg550","hlc_30Rnd_556x45_EPR_sg550","hlc_30Rnd_556x45_EPR_sg550","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
-		linkedItems[] = {"FP_GOR_V_CarrierRigKBT_Woodland_F","H_Beret_blk","NVGoggles_OPFOR","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_GOR_V_CarrierRigKBT_Woodland_F","H_Beret_blk","NVGoggles_OPFOR","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"FP_CSL_V_CarrierRigKBT_GraniteB_F","H_Beret_blk","NVGoggles_OPFOR","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_CSL_V_CarrierRigKBT_GraniteB_F","H_Beret_blk","NVGoggles_OPFOR","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
 		icon = "iconManOfficer";	
 	};
 	class FP_B_ROK_FieldOfficer_F: FP_B_ROK_Officer_F
 	{
 		displayName = "Field Officer";
-		linkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Woodland_F","FP_H_HelmetIA_ROK","NVGoggles_OPFOR","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Woodland_F","FP_H_HelmetIA_ROK","NVGoggles_OPFOR","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"FP_CSL_V_CarrierRigKBT_light_GraniteB_F","FP_H_HelmetIA_ROK","NVGoggles_OPFOR","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_CSL_V_CarrierRigKBT_light_GraniteB_F","FP_H_HelmetIA_ROK","NVGoggles_OPFOR","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
 	};	
 	class FP_B_ROK_Soldier_F: FP_ROK_Soldier_BASE_F
 	{
@@ -1810,8 +1810,8 @@ class CfgVehicles
 		camouflage = 1.6;
 		sensitivity = 3;
 		icon = "iconManLeader";
-		linkedItems[] = {"FP_GOR_V_CarrierRigKBT_heavy_Woodland_F","FP_H_HelmetIA_ROK","NVGoggles_OPFOR","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_GOR_V_CarrierRigKBT_heavy_Woodland_F","FP_H_HelmetIA_ROK","NVGoggles_OPFOR","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"FP_CSL_V_CarrierRigKBT_heavy_GraniteB_F","FP_H_HelmetIA_ROK","NVGoggles_OPFOR","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_CSL_V_CarrierRigKBT_heavy_GraniteB_F","FP_H_HelmetIA_ROK","NVGoggles_OPFOR","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
 	class FP_B_ROK_Survivor_F: FP_ROK_Soldier_BASE_F
 	{
@@ -1838,8 +1838,8 @@ class CfgVehicles
 		camouflage = 1.6;
 		sensitivity = 3;
 		icon = "iconManLeader";
-		linkedItems[] = {"FP_GOR_V_CarrierRigKBT_heavy_Woodland_F","FP_H_HelmetIA_ROK","NVGoggles_OPFOR","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_GOR_V_CarrierRigKBT_heavy_Woodland_F","FP_H_HelmetIA_ROK","NVGoggles_OPFOR","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"FP_CSL_V_CarrierRigKBT_heavy_GraniteB_F","FP_H_HelmetIA_ROK","NVGoggles_OPFOR","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_CSL_V_CarrierRigKBT_heavy_GraniteB_F","FP_H_HelmetIA_ROK","NVGoggles_OPFOR","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
 	class FP_B_ROK_Soldier_UAV_F: FP_ROK_Soldier_BASE_F
 	{
@@ -1848,8 +1848,8 @@ class CfgVehicles
 		backpack = "B_UAV_01_backpack_F";
 		displayName = "UAV Operator";
 		cost = 100000;
-		linkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Woodland_F","FP_H_HelmetIA_ROK","NVGoggles_OPFOR","B_UavTerminal","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Woodland_F","FP_H_HelmetIA_ROK","NVGoggles_OPFOR","B_UavTerminal","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
+		linkedItems[] = {"FP_CSL_V_CarrierRigKBT_light_GraniteB_F","FP_H_HelmetIA_ROK","NVGoggles_OPFOR","B_UavTerminal","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_CSL_V_CarrierRigKBT_light_GraniteB_F","FP_H_HelmetIA_ROK","NVGoggles_OPFOR","B_UavTerminal","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
 	};
 
 	class FP_B_ROK_Marine_A_F: FP_ROK_Marine_BASE_F
