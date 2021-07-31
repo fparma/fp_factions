@@ -35,7 +35,15 @@ class CfgPatches
 			"FP_GOR_rhs_uniform_6sh122_stripeywoodland",
 			"FP_GOR_rhs_uniform_6sh122_gloves_stripeywoodland",
 			"FP_GOR_rhs_uniform_6sh122_tochka",
-			"FP_GOR_rhs_uniform_6sh122_gloves_tochka"
+			"FP_GOR_rhs_uniform_6sh122_gloves_tochka",
+			"FP_GOR_rhs_uniform_6sh122_atacsau",
+			"FP_GOR_rhs_uniform_6sh122_gloves_atacsau",
+			"FP_GOR_rhs_uniform_6sh122_atacsaufg",
+			"FP_GOR_rhs_uniform_6sh122_gloves_atacsaufg",
+			"FP_GOR_rhs_uniform_6sh122_atacsfg",
+			"FP_GOR_rhs_uniform_6sh122_gloves_atacsfg",
+			"FP_GOR_rhs_uniform_6sh122_atacsfgau",
+			"FP_GOR_rhs_uniform_6sh122_gloves_atacsfgau"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -694,6 +702,178 @@ class CfgVehicles
 			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
 		};
 	}; 	
+	
+	class FP_GOR_rhs_6sh122_atacsau: rhs_6sh122_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_atacsau";
+		displayName="6Sh122 (ATACS Arid/Urban)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_atacsau_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_atacsau_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh122_gloves_atacsau: rhs_6sh122_gloves_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_gloves_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_gloves_atacsau";
+		displayName="6Sh122 (ATACS Arid/Urban, gloves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_atacsau_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_atacsau_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	}; 	
+	
+	class FP_GOR_rhs_6sh122_atacsaufg: rhs_6sh122_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_atacsaufg";
+		displayName="6Sh122 (ATACS AU/FG)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_atacsau_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_atacsfg_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh122_gloves_atacsaufg: rhs_6sh122_gloves_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_gloves_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_gloves_atacsaufg";
+		displayName="6Sh122 (ATACS AU/FG, gloves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_atacsau_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_atacsfg_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	}; 	
+	
+	class FP_GOR_rhs_6sh122_atacsfg: rhs_6sh122_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_atacsfg";
+		displayName="6Sh122 (ATACS Foliage/Green)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_atacsfg_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_atacsfg_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh122_gloves_atacsfg: rhs_6sh122_gloves_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_gloves_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_gloves_atacsfg";
+		displayName="6Sh122 (ATACS Foliage/Green, gloves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_atacsfg_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_atacsfg_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	}; 	
+	
+	class FP_GOR_rhs_6sh122_atacsfgau: rhs_6sh122_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_atacsfgau";
+		displayName="6Sh122 (ATACS FG/AU)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_atacsfg_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_atacsau_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh122_gloves_atacsfgau: rhs_6sh122_gloves_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_gloves_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_gloves_atacsfgau";
+		displayName="6Sh122 (ATACS FG/AU, gloves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_atacsfg_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_atacsau_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	}; 	
 };
 
 class CfgWeapons			
@@ -1102,6 +1282,114 @@ class CfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="FP_GOR_rhs_6sh122_gloves_tochka";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	
+	class FP_GOR_rhs_uniform_6sh122_atacsau: rhs_uniform_6sh122_v1
+	{
+		scope=2;
+		displayName="6Sh122 (ATACS Arid/Urban)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_atacsau";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_gloves_atacsau: rhs_uniform_6sh122_gloves_v1
+	{
+		scope=2;
+		displayName="6Sh122 (ATACS Arid/Urban, gloves)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_gloves_atacsau";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	
+	class FP_GOR_rhs_uniform_6sh122_atacsaufg: rhs_uniform_6sh122_v1
+	{
+		scope=2;
+		displayName="6Sh122 (ATACS AU/FG)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_atacsaufg";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_gloves_atacsaufg: rhs_uniform_6sh122_gloves_v1
+	{
+		scope=2;
+		displayName="6Sh122 (ATACS AU/FG, gloves)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_gloves_atacsaufg";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	
+	class FP_GOR_rhs_uniform_6sh122_atacsfg: rhs_uniform_6sh122_v1
+	{
+		scope=2;
+		displayName="6Sh122 (ATACS Foliage/Green)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_atacsfg";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_gloves_atacsfg: rhs_uniform_6sh122_gloves_v1
+	{
+		scope=2;
+		displayName="6Sh122 (ATACS Foliage/Green, gloves)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_gloves_atacsfg";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	
+	class FP_GOR_rhs_uniform_6sh122_atacsfgau: rhs_uniform_6sh122_v1
+	{
+		scope=2;
+		displayName="6Sh122 (ATACS FG/AU)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_atacsfgau";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_gloves_atacsfgau: rhs_uniform_6sh122_gloves_v1
+	{
+		scope=2;
+		displayName="6Sh122 (ATACS FG/AU, gloves)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_gloves_atacsfgau";
 			containerClass="Supply40";
 			mass=40;
 		};
