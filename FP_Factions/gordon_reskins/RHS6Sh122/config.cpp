@@ -43,7 +43,11 @@ class CfgPatches
 			"FP_GOR_rhs_uniform_6sh122_atacsfg",
 			"FP_GOR_rhs_uniform_6sh122_gloves_atacsfg",
 			"FP_GOR_rhs_uniform_6sh122_atacsfgau",
-			"FP_GOR_rhs_uniform_6sh122_gloves_atacsfgau"
+			"FP_GOR_rhs_uniform_6sh122_gloves_atacsfgau",
+			"FP_GOR_rhs_uniform_6sh122_v12",
+			"FP_GOR_rhs_uniform_6sh122_gloves_v12",
+			"FP_GOR_rhs_uniform_6sh122_v21",
+			"FP_GOR_rhs_uniform_6sh122_gloves_v21"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -874,6 +878,92 @@ class CfgVehicles
 			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
 		};
 	}; 	
+	
+	class FP_GOR_rhs_6sh122_v12: rhs_6sh122_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_v12";
+		displayName="6Sh122 (Spring & Fall)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\122_vest_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\122_pant_fall_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh122_gloves_v12: rhs_6sh122_gloves_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_gloves_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_gloves_v12";
+		displayName="6Sh122 (Spring & Fall/Gloves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\122_vest_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\122_pant_fall_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	}; 	
+	
+	class FP_GOR_rhs_6sh122_v21: rhs_6sh122_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_v21";
+		displayName="6Sh122 (Fall & Spring)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\122_vest_fall_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\122_pant_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh122_gloves_v21: rhs_6sh122_gloves_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_gloves_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_gloves_v21";
+		displayName="6Sh122 (Fall & Spring/Gloves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\122_vest_fall_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\122_pant_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	}; 	
 };
 
 class CfgWeapons			
@@ -1390,6 +1480,60 @@ class CfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="FP_GOR_rhs_6sh122_gloves_atacsfgau";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	
+	class FP_GOR_rhs_uniform_6sh122_v12: rhs_uniform_6sh122_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Spring & Fall)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_v12";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_gloves_v12: rhs_uniform_6sh122_gloves_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Spring & Fall/Gloves)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_gloves_v12";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	
+	class FP_GOR_rhs_uniform_6sh122_v21: rhs_uniform_6sh122_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Fall & Spring)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_v21";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_gloves_v21: rhs_uniform_6sh122_gloves_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Fall & Spring/Gloves)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_gloves_v21";
 			containerClass="Supply40";
 			mass=40;
 		};
