@@ -34,10 +34,18 @@ class CfgPatches
 			"FP_GOR_rhs_uniform_6sh122_gloves_black",
 			"FP_GOR_rhs_uniform_6sh122_stripeyarid",
 			"FP_GOR_rhs_uniform_6sh122_gloves_stripeyarid",
+			"FP_GOR_rhs_uniform_6sh122_stripeyariddesert",
+			"FP_GOR_rhs_uniform_6sh122_gloves_stripeyariddesert",
+			"FP_GOR_rhs_uniform_6sh122_stripeyaridwoodland",
+			"FP_GOR_rhs_uniform_6sh122_gloves_stripeyaridwoodland",
 			"FP_GOR_rhs_uniform_6sh122_stripeydesert",
 			"FP_GOR_rhs_uniform_6sh122_gloves_stripeydesert",
+			"FP_GOR_rhs_uniform_6sh122_stripeydesertarid",
+			"FP_GOR_rhs_uniform_6sh122_gloves_stripeydesertarid",
 			"FP_GOR_rhs_uniform_6sh122_stripeywoodland",
 			"FP_GOR_rhs_uniform_6sh122_gloves_stripeywoodland",
+			"FP_GOR_rhs_uniform_6sh122_stripeywoodlandarid",
+			"FP_GOR_rhs_uniform_6sh122_gloves_stripeywoodlandarid",
 			"FP_GOR_rhs_uniform_6sh122_tochka",
 			"FP_GOR_rhs_uniform_6sh122_gloves_tochka",
 			"FP_GOR_rhs_uniform_6sh122_tochkaamoeba",
@@ -631,6 +639,7 @@ class CfgVehicles
 			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
 		};
 	}; 	
+	
 	class FP_GOR_rhs_6sh122_stripeyarid: rhs_6sh122_v1_base
 	{
 		author="Gordon Weedman";
@@ -670,6 +679,92 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_stripeyarid_co.paa",
 			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_stripeyarid_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	}; 	
+	
+	class FP_GOR_rhs_6sh122_stripeyariddesert: rhs_6sh122_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_stripeyariddesert";
+		displayName="6Sh122 (DBC Arid/Desert)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_stripeyarid_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_stripeydesert_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh122_gloves_stripeyariddesert: rhs_6sh122_gloves_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_gloves_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_gloves_stripeyariddesert";
+		displayName="6Sh122 (DBC Arid/Desert, gloves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_stripeyarid_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_stripeydesert_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	}; 	
+	
+	class FP_GOR_rhs_6sh122_stripeyaridwoodland: rhs_6sh122_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_stripeyaridwoodland";
+		displayName="6Sh122 (DBC Arid/Woodland)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_stripeyarid_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_stripeywoodland_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh122_gloves_stripeyaridwoodland: rhs_6sh122_gloves_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_gloves_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_gloves_stripeyaridwoodland";
+		displayName="6Sh122 (DBC Arid/Woodland, gloves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_stripeyarid_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_stripeywoodland_co.paa",
 			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
 		};
 	}; 	
@@ -717,6 +812,49 @@ class CfgVehicles
 		};
 	}; 	
 	
+	class FP_GOR_rhs_6sh122_stripeydesertarid: rhs_6sh122_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_stripeydesertarid";
+		displayName="6Sh122 (DBC Desert/Arid)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_stripeydesert_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_stripeyarid_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh122_gloves_stripeydesertarid: rhs_6sh122_gloves_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_gloves_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_gloves_stripeydesertarid";
+		displayName="6Sh122 (DBC Desert/Arid, gloves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_stripeydesert_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_stripeyarid_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	}; 	
+	
 	class FP_GOR_rhs_6sh122_stripeywoodland: rhs_6sh122_v1_base
 	{
 		author="Gordon Weedman";
@@ -756,6 +894,49 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_stripeywoodland_co.paa",
 			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_stripeywoodland_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	}; 	
+	
+	class FP_GOR_rhs_6sh122_stripeywoodlandarid: rhs_6sh122_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_stripeywoodlandarid";
+		displayName="6Sh122 (DBC Woodland/Arid)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_stripeywoodland_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_stripeyarid_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh122_gloves_stripeywoodlandarid: rhs_6sh122_gloves_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_gloves_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_gloves_stripeywoodlandarid";
+		displayName="6Sh122 (DBC Woodland/Arid, gloves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_stripeywoodland_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_stripeyarid_co.paa",
 			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
 		};
 	}; 	
@@ -1575,6 +1756,60 @@ class CfgWeapons
 		};
 	};
 	
+	class FP_GOR_rhs_uniform_6sh122_stripeyariddesert: rhs_uniform_6sh122_v1
+	{
+		scope=2;
+		displayName="6Sh122 (DBC Arid/Desert)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_stripeyariddesert";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_gloves_stripeyariddesert: rhs_uniform_6sh122_gloves_v1
+	{
+		scope=2;
+		displayName="6Sh122 (DBC Arid/Desert, gloves)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_gloves_stripeyariddesert";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	
+	class FP_GOR_rhs_uniform_6sh122_stripeyaridwoodland: rhs_uniform_6sh122_v1
+	{
+		scope=2;
+		displayName="6Sh122 (DBC Arid/Woodland)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_stripeyaridwoodland";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_gloves_stripeyaridwoodland: rhs_uniform_6sh122_gloves_v1
+	{
+		scope=2;
+		displayName="6Sh122 (DBC Arid/Woodland, gloves)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_gloves_stripeyaridwoodland";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	
 	class FP_GOR_rhs_uniform_6sh122_stripeydesert: rhs_uniform_6sh122_v1
 	{
 		scope=2;
@@ -1602,6 +1837,33 @@ class CfgWeapons
 		};
 	};
 	
+	class FP_GOR_rhs_uniform_6sh122_stripeydesertarid: rhs_uniform_6sh122_v1
+	{
+		scope=2;
+		displayName="6Sh122 (DBC Desert/Arid)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_stripeydesertarid";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_gloves_stripeydesertarid: rhs_uniform_6sh122_gloves_v1
+	{
+		scope=2;
+		displayName="6Sh122 (DBC Desert/Arid, gloves)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_gloves_stripeydesertarid";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	
 	class FP_GOR_rhs_uniform_6sh122_stripeywoodland: rhs_uniform_6sh122_v1
 	{
 		scope=2;
@@ -1624,6 +1886,33 @@ class CfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="FP_GOR_rhs_6sh122_gloves_stripeywoodland";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	
+	class FP_GOR_rhs_uniform_6sh122_stripeywoodlandarid: rhs_uniform_6sh122_v1
+	{
+		scope=2;
+		displayName="6Sh122 (DBC Woodland/Arid)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_stripeywoodlandarid";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_gloves_stripeywoodlandarid: rhs_uniform_6sh122_gloves_v1
+	{
+		scope=2;
+		displayName="6Sh122 (DBC Woodland/Arid, gloves)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_gloves_stripeywoodlandarid";
 			containerClass="Supply40";
 			mass=40;
 		};
