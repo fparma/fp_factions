@@ -22,6 +22,10 @@ class CfgPatches
 			"FP_GOR_rhs_uniform_6sh122_gloves_partizanautumn",
 			"FP_GOR_rhs_uniform_6sh122_partizansummer",
 			"FP_GOR_rhs_uniform_6sh122_gloves_partizansummer",
+			"FP_GOR_rhs_uniform_6sh122_partizanautumnsummer",
+			"FP_GOR_rhs_uniform_6sh122_gloves_partizanautumnsummer",
+			"FP_GOR_rhs_uniform_6sh122_partizansummerautumn",
+			"FP_GOR_rhs_uniform_6sh122_gloves_partizansummerautumn",
 			"FP_GOR_rhs_uniform_6sh122_winter",
 			"FP_GOR_rhs_uniform_6sh122_gloves_winter",
 			"FP_GOR_rhs_uniform_6sh122_schneetarn",
@@ -36,6 +40,12 @@ class CfgPatches
 			"FP_GOR_rhs_uniform_6sh122_gloves_stripeywoodland",
 			"FP_GOR_rhs_uniform_6sh122_tochka",
 			"FP_GOR_rhs_uniform_6sh122_gloves_tochka",
+			"FP_GOR_rhs_uniform_6sh122_tochkaamoeba",
+			"FP_GOR_rhs_uniform_6sh122_gloves_tochkaamoeba",
+			"FP_GOR_rhs_uniform_6sh122_amoeba",
+			"FP_GOR_rhs_uniform_6sh122_gloves_amoeba",
+			"FP_GOR_rhs_uniform_6sh122_amoebatochka",
+			"FP_GOR_rhs_uniform_6sh122_gloves_amoebatochka",
 			"FP_GOR_rhs_uniform_6sh122_atacsau",
 			"FP_GOR_rhs_uniform_6sh122_gloves_atacsau",
 			"FP_GOR_rhs_uniform_6sh122_atacsaufg",
@@ -364,6 +374,49 @@ class CfgVehicles
 		};
 	}; 	
 	
+	class FP_GOR_rhs_6sh122_partizanautumnsummer: rhs_6sh122_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_partizanautumnsummer";
+		displayName="6Sh122 (Partizan Autumn/Summer)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_partizanautumn_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_partizansummer_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh122_gloves_partizanautumnsummer: rhs_6sh122_gloves_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_gloves_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_gloves_partizanautumnsummer";
+		displayName="6Sh122 (Partizan Autumn/Summer, gloves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_partizanautumn_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_partizansummer_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	}; 	
+	
 	class FP_GOR_rhs_6sh122_partizansummer: rhs_6sh122_v1_base
 	{
 		author="Gordon Weedman";
@@ -403,6 +456,49 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_partizansummer_co.paa",
 			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_partizansummer_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	}; 	
+	
+	class FP_GOR_rhs_6sh122_partizansummerautumn: rhs_6sh122_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_partizansummerautumn";
+		displayName="6Sh122 (Partizan Summer/Autumn)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_partizansummer_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_partizanautumn_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh122_gloves_partizansummerautumn: rhs_6sh122_gloves_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_gloves_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_gloves_partizansummerautumn";
+		displayName="6Sh122 (Partizan Summer/Autumn, gloves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_partizansummer_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_partizanautumn_co.paa",
 			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
 		};
 	}; 	
@@ -702,6 +798,135 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_tochka_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_tochka_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	}; 	
+	
+	class FP_GOR_rhs_6sh122_tochkaamoeba: rhs_6sh122_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_tochkaamoeba";
+		displayName="6Sh122 (Tochka/Amoeba)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_tochka_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_amoeba_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh122_gloves_tochkaamoeba: rhs_6sh122_gloves_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_gloves_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_gloves_tochkaamoeba";
+		displayName="6Sh122 (Tochka/Amoeba, gloves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_tochka_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_amoeba_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	}; 	
+	
+	class FP_GOR_rhs_6sh122_amoeba: rhs_6sh122_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_amoeba";
+		displayName="6Sh122 (Amoeba)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_amoeba_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_amoeba_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh122_gloves_amoeba: rhs_6sh122_gloves_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_gloves_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_gloves_amoeba";
+		displayName="6Sh122 (Amoeba, gloves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_amoeba_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_amoeba_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	}; 	
+	
+	class FP_GOR_rhs_6sh122_amoebatochka: rhs_6sh122_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_amoebatochka";
+		displayName="6Sh122 (Amoeba/Tochka)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_amoeba_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_tochka_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh122_gloves_amoebatochka: rhs_6sh122_gloves_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_gloves_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_gloves_amoebatochka";
+		displayName="6Sh122 (Amoeba/Tochka, gloves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_amoeba_co.paa",
 			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_tochka_co.paa",
 			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
 		};
@@ -1161,6 +1386,33 @@ class CfgWeapons
 		};
 	};
 	
+	class FP_GOR_rhs_uniform_6sh122_partizanautumnsummer: rhs_uniform_6sh122_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Partizan Autumn/Summer)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_partizanautumnsummer";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_gloves_partizanautumnsummer: rhs_uniform_6sh122_gloves_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Partizan Autumn/Summer, gloves)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_gloves_partizanautumnsummer";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	
 	class FP_GOR_rhs_uniform_6sh122_partizansummer: rhs_uniform_6sh122_v1
 	{
 		scope=2;
@@ -1183,6 +1435,33 @@ class CfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="FP_GOR_rhs_6sh122_gloves_partizansummer";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	
+	class FP_GOR_rhs_uniform_6sh122_partizansummerautumn: rhs_uniform_6sh122_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Partizan Summer/Autumn)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_partizansummerautumn";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_gloves_partizansummerautumn: rhs_uniform_6sh122_gloves_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Partizan Summer/Autumn, gloves)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_gloves_partizansummerautumn";
 			containerClass="Supply40";
 			mass=40;
 		};
@@ -1372,6 +1651,87 @@ class CfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="FP_GOR_rhs_6sh122_gloves_tochka";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	
+	class FP_GOR_rhs_uniform_6sh122_tochkaamoeba: rhs_uniform_6sh122_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Tochka/Amoeba)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_tochkaamoeba";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_gloves_tochkaamoeba: rhs_uniform_6sh122_gloves_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Tochka/Amoeba, gloves)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_gloves_tochkaamoeba";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	
+	class FP_GOR_rhs_uniform_6sh122_amoeba: rhs_uniform_6sh122_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Amoeba)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_amoeba";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_gloves_amoeba: rhs_uniform_6sh122_gloves_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Amoeba, gloves)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_gloves_amoeba";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	
+	class FP_GOR_rhs_uniform_6sh122_amoebatochka: rhs_uniform_6sh122_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Amoeba/Tochka)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_amoebatochka";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_gloves_amoebatochka: rhs_uniform_6sh122_gloves_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Amoeba/Tochka, gloves)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_gloves_amoebatochka";
 			containerClass="Supply40";
 			mass=40;
 		};
