@@ -1994,7 +1994,7 @@ class CfgVehicles
 	};
 	class KPA_FieldPack_RPG2_khk: B_FieldPack_khk
 	{
-		scope = 1
+		scope = 1;
 		class TransportMagazines
 		{
 			mag_xx(FP_PG2_magazine,4);
@@ -2098,7 +2098,7 @@ class CfgVehicles
 	};
 	class KPA_B_Carryall_cbr_LightInf: B_Carryall_cbr
 	{
-		scope = 1
+		scope = 1;
 		class TransportMagazines
 		{
 			mag_xx(rhs_30Rnd_762x39mm_89,12);
@@ -2113,7 +2113,7 @@ class CfgVehicles
 	};
 	class KPA_B_Carryall_cbr_LightInf_AR: B_Carryall_cbr
 	{
-		scope = 1
+		scope = 1;
 		class TransportMagazines
 		{
 			mag_xx(FP_30rnd_762_FAL_m80,10);

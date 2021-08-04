@@ -439,12 +439,12 @@ class CfgVehicles
 		class TransportMagazines
 		{
 			mag_xx(SatchelCharge_Remote_Mag,1);
-			mag_xx(DemoCharge_Remote_Mag);
+			mag_xx(DemoCharge_Remote_Mag,3);
 		};
 		class TransportItems
 		{
 			item_xx(ToolKit,1);
-			item_xx(MineDetector);
+			item_xx(MineDetector,1);
 		};
 	};
 	class FP_ROC_Carryall_green_F_AA: B_Carryall_green_F
@@ -947,7 +947,7 @@ class CfgVehicles
 		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","Titan_AT","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		backpack = "FP_ROC_Carryall_green_F_AT";
 		cost = 100000;	
-	}
+	};
 	class FP_B_ROC_Soldier_F: FP_ROC_Soldier_BASE_F
 	{
 		author = "FP Mod Team";
@@ -972,7 +972,7 @@ class CfgVehicles
 		nameSound = "veh_infantry_AT_s";
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "Rifleman (AT)"
+		displayName = "Rifleman (AT)";
 		weapons[] = {"rhs_weap_m16a4_carryhandle","RH_m9","rhs_weap_M136_hedp","Throw","Put"};
 		respawnWeapons[] = {"rhs_weap_m16a4_carryhandle","RH_m9","rhs_weap_M136_hedp","Throw","Put"};
 		cost = 100000;
@@ -985,7 +985,7 @@ class CfgVehicles
 		cost = 100000;		
 		linkedItems[] = {"V_TacVest_oli","FP_H_MilCap_blk","rhsusf_ANPVS_15","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_TacVest_oli","FP_H_MilCap_blk","rhsusf_ANPVS_15","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
-	}
+	};
 	class FP_B_ROC_Soldier_unarmed_F: FP_ROC_Soldier_BASE_F
 	{
 		scope = 2;

@@ -979,12 +979,12 @@ class CfgVehicles
 		class TransportMagazines
 		{
 			mag_xx(SatchelCharge_Remote_Mag,1);
-			mag_xx(DemoCharge_Remote_Mag);
+			mag_xx(DemoCharge_Remote_Mag,3);
 		};
 		class TransportItems
 		{
 			item_xx(ToolKit,1);
-			item_xx(MineDetector);
+			item_xx(MineDetector,1);
 		};
 	};
 	class FP_ROK_Carryall_woodland_AA: FP_GOR_tortila_woodland
@@ -1050,7 +1050,7 @@ class CfgVehicles
 		crew = "FP_B_ROK_Helipilot_F";
 		hiddenSelections[] = {"camo1","camo2","camo3","camo4"};
 		hiddenSelectionsTextures[] = {"\fp_factions\ROK\Data\mohawk\CH49_ROK_01_co.paa","\fp_factions\ROK\Data\mohawk\CH49_ROK_02_co.paa","\fp_factions\ROK\Data\mohawk\CH49_ROK_03_co.paa","A3\Air_F_Beta\Heli_Transport_02\Data\Heli_Transport_02_int_02_CO.paa"};
-	}
+	};
 	class FP_B_ROK_Heli_light_03_dynamicLoadout_F: I_Heli_light_03_dynamicLoadout_F
 	{
 		side = 1;
@@ -1238,7 +1238,7 @@ class CfgVehicles
 	{
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "MTVR Ammo"
+		displayName = "MTVR Ammo";
 		crew = "FP_B_ROK_Soldier_F";
 		editorSubcategory = "EdSubcat_Cars";
 		faction = "FP_Faction_ROK";
@@ -1247,7 +1247,7 @@ class CfgVehicles
 	{
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "MTVR Closed"
+		displayName = "MTVR Closed";
 		crew = "FP_B_ROK_Soldier_F";
 		editorSubcategory = "EdSubcat_Cars";
 		faction = "FP_Faction_ROK";
@@ -1256,7 +1256,7 @@ class CfgVehicles
 	{
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "MTVR Refuel"
+		displayName = "MTVR Refuel";
 		crew = "FP_B_ROK_Soldier_F";
 		editorSubcategory = "EdSubcat_Cars";
 		faction = "FP_Faction_ROK";
@@ -1265,7 +1265,7 @@ class CfgVehicles
 	{
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "MTVR Open"
+		displayName = "MTVR Open";
 		crew = "FP_B_ROK_Soldier_F";
 		editorSubcategory = "EdSubcat_Cars";
 		faction = "FP_Faction_ROK";
@@ -1274,7 +1274,7 @@ class CfgVehicles
 	{
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "MTVR Recovery"
+		displayName = "MTVR Recovery";
 		crew = "FP_B_ROK_Soldier_F";
 		editorSubcategory = "EdSubcat_Cars";
 		faction = "FP_Faction_ROK";
@@ -1283,7 +1283,7 @@ class CfgVehicles
 	{
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "MTVR Repair"
+		displayName = "MTVR Repair";
 		crew = "FP_B_ROK_Soldier_F";
 		editorSubcategory = "EdSubcat_Cars";
 		faction = "FP_Faction_ROK";
@@ -1707,7 +1707,7 @@ class CfgVehicles
 		backpack = "FP_ROK_Carryall_woodland_AT";
 		cost = 100000;
 		icon = "iconManAT";	
-	}
+	};
 	class FP_B_ROK_Officer_F: FP_ROK_Soldier_BASE_F
 	{
 		scope = 2;
@@ -1750,7 +1750,7 @@ class CfgVehicles
 		nameSound = "veh_infantry_AT_s";
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "Rifleman (AT)"
+		displayName = "Rifleman (AT)";
 		weapons[] = {"hlc_rifle_SG551LB_TAC","RH_p226","rhs_weap_m72a7","Throw","Put"};
 		respawnWeapons[] = {"hlc_rifle_SG551LB_TAC","RH_p226","rhs_weap_m72a7","Throw","Put"};
 		cost = 100000;
@@ -1764,7 +1764,7 @@ class CfgVehicles
 		cost = 100000;		
 		linkedItems[] = {"V_TacVest_oli","FP_H_MilCap_blk","NVGoggles_OPFOR","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_TacVest_oli","FP_H_MilCap_blk","NVGoggles_OPFOR","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
-	}
+	};
 	class FP_B_ROK_Soldier_unarmed_F: FP_ROK_Soldier_BASE_F
 	{
 		scope = 2;
@@ -2133,7 +2133,7 @@ class CfgVehicles
 		nameSound = "veh_infantry_AT_s";
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "Rifleman (AT)"
+		displayName = "Rifleman (AT)";
 		weapons[] = {"hlc_rifle_SG551LB_TAC","RH_p226","rhs_weap_m72a7","Throw","Put"};
 		respawnWeapons[] = {"hlc_rifle_SG551LB_TAC","RH_p226","rhs_weap_m72a7","Throw","Put"};
 		cost = 100000;
@@ -2147,7 +2147,7 @@ class CfgVehicles
 		cost = 100000;		
 		linkedItems[] = {"V_TacVest_oli","FP_H_MilCap_blk","NVGoggles_OPFOR","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_TacVest_oli","FP_H_MilCap_blk","NVGoggles_OPFOR","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
-	}
+	};
 	class FP_B_ROK_Marine_unarmed_F: FP_ROK_Marine_BASE_F
 	{
 		scope = 2;
@@ -2334,7 +2334,7 @@ class CfgVehicles
 		nameSound = "veh_infantry_AT_s";
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "UDT Scout (AT)"
+		displayName = "UDT Scout (AT)";
 		weapons[] = {"FP_hlc_rifle_SG551SB_TAC_ROK_UDT","FP_RH_usp_ROK_UDT","rhs_weap_m72a7","Throw","Put"};
 		respawnWeapons[] = {"FP_hlc_rifle_SG551SB_TAC_ROK_UDT","FP_RH_usp_ROK_UDT","rhs_weap_m72a7","Throw","Put"};
 		icon = "iconManAT";
