@@ -32,7 +32,7 @@ class CfgPatches
 			"FP_Faction_JSDF_Fighter_Pilot_F",
 			"FP_Faction_JSDF_Helicrew",
 			"FP_Faction_JSDF_Helipilot",
-			"FP_Faction_JSDF_Medic";
+			"FP_Faction_JSDF_Medic",
 			"FP_Faction_JSDF_MMG",
 			"FP_Faction_JSDF_M",
 			"FP_Faction_JSDF_MANPADS",
