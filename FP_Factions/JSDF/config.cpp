@@ -386,7 +386,7 @@ class CfgGroups
 						side = 1;
 						vehicle = "FP_Faction_JSDF_RAT";
 					};				
-				}
+				};
 				class BJSDF_InfTeam_AA
 				{
 					faction = "FP_Faction_JSDF";
