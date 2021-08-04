@@ -421,7 +421,7 @@ class CfgGroups
 						side = 1;
 						vehicle = "FP_Faction_JSDF_AMANPADS";
 					};				
-				}
+				};
 				class BJSDF_InfTeam_AT
 				{
 					faction = "FP_Faction_JSDF";
