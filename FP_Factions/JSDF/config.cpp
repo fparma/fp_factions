@@ -460,7 +460,7 @@ class CfgGroups
 			};
 		};
 	};
-}
+};
 class cfgVehicles
 {
 	class B_Plane_Fighter_01_F;
