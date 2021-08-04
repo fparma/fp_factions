@@ -96,7 +96,7 @@ class CfgPatches
 			"FP_Faction_KPA_Marine_Engineer",
 			"FP_Faction_KPA_Marine_AMANPADS",
 			"FP_Faction_KPA_Marine_MANPADS",
-			"FP_Faction_KPA_Marine_GL";
+			"FP_Faction_KPA_Marine_GL",
 			"FP_Faction_KPA_Marine_Marksman",
 			"FP_Faction_KPA_Marine_AMAT",
 			"FP_Faction_KPA_Marine_MAT",
