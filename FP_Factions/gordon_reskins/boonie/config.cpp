@@ -109,7 +109,29 @@ class CfgPatches
 			"FP_GOR_H_Booniehat_m05helle",
 			"FP_GOR_H_Booniehat_m05helle_hs",
 			"FP_GOR_H_Booniehat_surpat",
-			"FP_GOR_H_Booniehat_surpat_hs"
+			"FP_GOR_H_Booniehat_surpat_hs",
+			"FP_GOR_H_Booniehat_dancammulti",
+			"FP_GOR_H_Booniehat_dancammulti_hs",
+			"FP_GOR_H_Booniehat_dancamarid",
+			"FP_GOR_H_Booniehat_dancamarid_hs",
+			"FP_GOR_H_Booniehat_dancamtropic",
+			"FP_GOR_H_Booniehat_dancamtropic_hs",
+			"FP_GOR_H_Booniehat_alpenflage",
+			"FP_GOR_H_Booniehat_alpenflage_hs",
+			"FP_GOR_H_Booniehat_desertemr",
+			"FP_GOR_H_Booniehat_desertemr_hs",
+			"FP_GOR_H_Booniehat_emr",
+			"FP_GOR_H_Booniehat_emr_hs",
+			"FP_GOR_H_Booniehat_partizanautumn",
+			"FP_GOR_H_Booniehat_partizanautumn_hs",
+			"FP_GOR_H_Booniehat_partizansummer",
+			"FP_GOR_H_Booniehat_partizansummer_hs",
+			"FP_GOR_H_Booniehat_sumrak",
+			"FP_GOR_H_Booniehat_sumrak_hs",
+			"FP_GOR_H_Booniehat_syrian",
+			"FP_GOR_H_Booniehat_syrian_hs",
+			"FP_GOR_H_Booniehat_tochka",
+			"FP_GOR_H_Booniehat_tochka_hs"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -969,5 +991,192 @@ class CfgWeapons
 		scope = 2;
 		displayName = "Booniehat (SURPAT, headset)";
 		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_surpat_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_dancammulti: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_dancammulti";
+		scope = 2;
+		displayName = "Booniehat (DanCam)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_dancammulti_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_dancammulti_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_dancammulti_hs";
+		scope = 2;
+		displayName = "Booniehat (DanCam, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_dancammulti_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_dancamarid: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_dancamarid";
+		scope = 2;
+		displayName = "Booniehat (DanCam Arid)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_dancamarid_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_dancamarid_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_dancamarid_hs";
+		scope = 2;
+		displayName = "Booniehat (DanCam Arid, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_dancamarid_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_dancamtropic: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_dancamtropic";
+		scope = 2;
+		displayName = "Booniehat (DanCam Tropic)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_dancamtropic_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_dancamtropic_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_dancamtropic_hs";
+		scope = 2;
+		displayName = "Booniehat (DanCam Tropic, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_dancamtropic_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_alpenflage: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_alpenflage";
+		scope = 2;
+		displayName = "Booniehat (Alpenflage)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_alpenflage_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_alpenflage_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_alpenflage_hs";
+		scope = 2;
+		displayName = "Booniehat (Alpenflage, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_alpenflage_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_desertemr: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_desertemr";
+		scope = 2;
+		displayName = "Booniehat (Desert EMR)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_desertemr_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_desertemr_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_desertemr_hs";
+		scope = 2;
+		displayName = "Booniehat (Desert EMR, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_desertemr_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_emr: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_emr";
+		scope = 2;
+		displayName = "Booniehat (EMR)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_emr_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_emr_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_emr_hs";
+		scope = 2;
+		displayName = "Booniehat (EMR, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_emr_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_partizanautumn: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_partizanautumn";
+		scope = 2;
+		displayName = "Booniehat (Partizan Autumn)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_partizanautumn_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_partizanautumn_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_partizanautumn_hs";
+		scope = 2;
+		displayName = "Booniehat (Partizan Autumn, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_partizanautumn_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_partizansummer: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_partizansummer";
+		scope = 2;
+		displayName = "Booniehat (Partizan Summer)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_partizansummer_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_partizansummer_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_partizansummer_hs";
+		scope = 2;
+		displayName = "Booniehat (Partizan Summer, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_partizansummer_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_sumrak: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_sumrak";
+		scope = 2;
+		displayName = "Booniehat (SUMRAK)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_sumrak_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_sumrak_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_sumrak_hs";
+		scope = 2;
+		displayName = "Booniehat (SUMRAK, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_sumrak_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_syrian: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_syrian";
+		scope = 2;
+		displayName = "Booniehat (Russian Syria camo)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_syrian_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_syrian_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_syrian_hs";
+		scope = 2;
+		displayName = "Booniehat (Russian Syria camo, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_syrian_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_tochka: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_tochka";
+		scope = 2;
+		displayName = "Booniehat (Tochka)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_tochka_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_tochka_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_tochka_hs";
+		scope = 2;
+		displayName = "Booniehat (Tochka, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_tochka_co.paa"};
 	};
 };
