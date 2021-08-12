@@ -1025,7 +1025,7 @@ class CfgVehicles
 		crew = "FP_B_ROK_Helipilot_F";
 		textureList[] =
 		{
-			"ROK_Olive", 1,
+			"ROK_Olive", 1
 		};
 		typicalCargo[] = {"FP_B_ROK_Helicrew_F"};
 		hiddenSelections[] = {"Camo1","Camo2","Camo_mlod","decals"};

@@ -495,7 +495,7 @@ class CfgVehicles
 		textureList[] =
 		{
 			"ROCwoodland", 1,
-			"ROCgreen", 0,
+			"ROCgreen", 0
 		};
 		hiddenSelections[]=
 		{

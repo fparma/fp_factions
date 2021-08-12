@@ -29,12 +29,15 @@ class CfgPatches
 			"FP_GOR_V_CarrierRigKBT_heavy_stripeywoodland_F",
 			"FP_GOR_V_CarrierRigKBT_winter_F",
 			"FP_GOR_V_CarrierRigKBT_light_winter_F",
-			"FP_GOR_V_CarrierRigKBT_heavy_winter_F"
+			"FP_GOR_V_CarrierRigKBT_heavy_winter_F",
+			"FP_GOR_V_CarrierRigKBT_marpatwd_F",
+			"FP_GOR_V_CarrierRigKBT_light_marpatwd_F",
+			"FP_GOR_V_CarrierRigKBT_heavy_marpatwd_F"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
 		{
-			"A3_Data_F_Enoch_Loadorder"
+			"A3_Data_F_AOW_Loadorder"
 		};
 	};
 };
@@ -306,6 +309,40 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\modvest\data\ModVest_winter_CO.paa"
+		};
+	}; 
+	
+	class FP_GOR_V_CarrierRigKBT_marpatwd_F: V_CarrierRigKBT_01_Olive_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "V_CarrierRigKBT_01_Olive_F";
+		scope = 2;
+		displayName = "Modular Carrier Vest (MARPAT Woodland)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\modvest\data\ModVest_marpatwd_CO.paa"
+		};
+	};
+	class FP_GOR_V_CarrierRigKBT_light_marpatwd_F: V_CarrierRigKBT_01_light_Olive_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "V_CarrierRigKBT_01_light_Olive_F";
+		scope = 2;
+		displayName = "Modular Carrier Lite (MARPAT Woodland)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\modvest\data\ModVest_marpatwd_CO.paa"
+		};
+	};
+	class FP_GOR_V_CarrierRigKBT_heavy_marpatwd_F: V_CarrierRigKBT_01_heavy_Olive_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "V_CarrierRigKBT_01_heavy_Olive_F";
+		scope = 2;
+		displayName = "Modular Carrier GL Rig (MARPAT Woodland)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\modvest\data\ModVest_marpatwd_CO.paa"
 		};
 	}; 
 };
