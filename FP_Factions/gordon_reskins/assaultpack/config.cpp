@@ -36,16 +36,18 @@ class CfgPatches
 			"FP_GOR_assaultpack_honor",
 			"FP_GOR_assaultpack_m90",
 			"FP_GOR_assaultpack_m90k",
-			"FP_GOR_assaultpack_mtp"
+			"FP_GOR_assaultpack_mtp",
+			"FP_GOR_assaultpack_inv"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
 		{
 			"A3_Weapons_F_Ammoboxes",
-			"A3_Data_F_Oldman_Loadorder"
+			"A3_Data_F_AOW_Loadorder"
 		};
 	};
 };
+
 class CfgVehicles
 {	
 	class B_AssaultPack_rgr;
@@ -327,5 +329,14 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_mtp_co.paa"
 		};
+	};
+	class FP_GOR_assaultpack_inv: B_AssaultPack_rgr
+	{
+		armor=0;
+		author="Gordon Weedman";
+		displayName="FP Assault Pack (Invisible)";
+		hiddenSelectionsTextures[]={""};
+		model="\A3\Structures_F\Mil\Helipads\HelipadEmpty_F.p3d";
+		picture="";
 	};
 }; 
