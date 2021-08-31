@@ -39,7 +39,6 @@ class CfgWeapons
 			uniformModel = "\A3\Structures_F\Mil\Helipads\HelipadEmpty_F.p3d";
 		};
 		model="\A3\Structures_F\Mil\Helipads\HelipadEmpty_F.p3d";
-		picture="";
 	};
 	class FP_GOR_V_TacVest_inv: FP_GOR_V_TacVest_base
 	{
@@ -55,7 +54,6 @@ class CfgWeapons
 			uniformModel = "\A3\Structures_F\Mil\Helipads\HelipadEmpty_F.p3d";
 		};
 		model="\A3\Structures_F\Mil\Helipads\HelipadEmpty_F.p3d";
-		picture="";
 	};
 	
 	class V_PlateCarrier2_rgr;
@@ -77,7 +75,6 @@ class CfgWeapons
 			uniformModel = "\A3\Structures_F\Mil\Helipads\HelipadEmpty_F.p3d";
 		};
 		model="\A3\Structures_F\Mil\Helipads\HelipadEmpty_F.p3d";
-		picture="";
 	};
 	
 	class FP_GOR_V_PlateCarrier2_inv: FP_GOR_V_PlateCarrier2_base
@@ -94,6 +91,5 @@ class CfgWeapons
 			uniformModel = "\A3\Structures_F\Mil\Helipads\HelipadEmpty_F.p3d";
 		};
 		model="\A3\Structures_F\Mil\Helipads\HelipadEmpty_F.p3d";
-		picture="";
 	};
 };
