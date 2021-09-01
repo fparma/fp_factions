@@ -35,13 +35,14 @@ class CfgPatches
 			"FP_GOR_fastpack_mm14woodland",
 			"FP_GOR_fastpack_honor",
 			"FP_GOR_fastpack_m90",
-			"FP_GOR_fastpack_m90k"
+			"FP_GOR_fastpack_m90k",
+			"FP_GOR_fastpack_inv"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
 		{
 			"A3_Weapons_F_Ammoboxes",
-			"A3_Data_F_Oldman_Loadorder"
+			"A3_Data_F_AOW_Loadorder"
 		};
 	};
 };
@@ -317,5 +318,13 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\fastpack\data\fastpack_m90k_co.paa"
 		};
+	};
+	class FP_GOR_fastpack_inv: B_Kitbag_rgr
+	{
+		armor=0;
+		author="Gordon Weedman";
+		displayName="FP Kitbag (Invisible)";
+		model="\A3\Weapons_F\empty.p3d";
+		picture="";
 	};
 }; 

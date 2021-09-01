@@ -131,7 +131,9 @@ class CfgPatches
 			"FP_GOR_H_Booniehat_syrian",
 			"FP_GOR_H_Booniehat_syrian_hs",
 			"FP_GOR_H_Booniehat_tochka",
-			"FP_GOR_H_Booniehat_tochka_hs"
+			"FP_GOR_H_Booniehat_tochka_hs",
+			"FP_GOR_H_Booniehat_amoeba",
+			"FP_GOR_H_Booniehat_amoeba_hs"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -1178,5 +1180,22 @@ class CfgWeapons
 		scope = 2;
 		displayName = "Booniehat (Tochka, headset)";
 		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_tochka_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_amoeba: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_amoeba";
+		scope = 2;
+		displayName = "Booniehat (Amoeba)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_amoeba_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_amoeba_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_amoeba_hs";
+		scope = 2;
+		displayName = "Booniehat (Amoeba, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_amoeba_co.paa"};
 	};
 };
