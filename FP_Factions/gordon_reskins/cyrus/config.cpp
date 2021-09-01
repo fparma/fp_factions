@@ -11,8 +11,7 @@ class CfgPatches
 		weapons[]=
 		{
 			"FP_GOR_DMR_05_pacifichex_F",
-			"FP_GOR_DMR_05_olive_F",
-			"FP_GOR_DMR_05_olive2_F"
+			"FP_GOR_DMR_05_olive_F"
 		};
 	};
 };

@@ -324,8 +324,7 @@ class CfgVehicles
 		armor=0;
 		author="Gordon Weedman";
 		displayName="FP Kitbag (Invisible)";
-		hiddenSelectionsTextures[]={""};
-		model="\A3\Structures_F\Mil\Helipads\HelipadEmpty_F.p3d";
+		model="\A3\Weapons_F\empty.p3d";
 		picture="";
 	};
 }; 

@@ -130,6 +130,8 @@ class CfgPatches
 			"FP_GOR_H_Booniehat_sumrak_hs",
 			"FP_GOR_H_Booniehat_syrian",
 			"FP_GOR_H_Booniehat_syrian_hs",
+			"FP_GOR_H_Booniehat_tochka",
+			"FP_GOR_H_Booniehat_tochka_hs",
 			"FP_GOR_H_Booniehat_amoeba",
 			"FP_GOR_H_Booniehat_amoeba_hs"
 		};

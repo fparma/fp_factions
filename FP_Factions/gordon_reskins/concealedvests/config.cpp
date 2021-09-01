@@ -32,13 +32,12 @@ class CfgWeapons
 		_generalMacro = "V_TacVest_oli";
 		scope = 2;
 		displayName = "Concealed kevlar vest (Carry space)";
-		hiddenSelectionsTextures[]={""};
 		class ItemInfo: ItemInfo
 		{
 			author = "Gordon Weedman";
-			uniformModel = "\A3\Structures_F\Mil\Helipads\HelipadEmpty_F.p3d";
+			uniformModel = "\A3\Weapons_F\empty.p3d";
 		};
-		model="\A3\Structures_F\Mil\Helipads\HelipadEmpty_F.p3d";
+		model = "\A3\Weapons_F\empty.p3d";
 	};
 	class FP_GOR_V_TacVest_inv: FP_GOR_V_TacVest_base
 	{
@@ -46,14 +45,13 @@ class CfgWeapons
 		_generalMacro = "V_TacVest_oli";
 		scope = 2;
 		displayName = "Concealed kevlar vest";
-		hiddenSelectionsTextures[]={""};
 		class ItemInfo: ItemInfo
 		{
 			author = "Gordon Weedman";
 			containerClass = "Supply0";
-			uniformModel = "\A3\Structures_F\Mil\Helipads\HelipadEmpty_F.p3d";
+			uniformModel = "\A3\Weapons_F\empty.p3d";
 		};
-		model="\A3\Structures_F\Mil\Helipads\HelipadEmpty_F.p3d";
+		model = "\A3\Weapons_F\empty.p3d";
 	};
 	
 	class V_PlateCarrier2_rgr;
@@ -68,13 +66,12 @@ class CfgWeapons
 		_generalMacro = "V_PlateCarrier2_rgr";
 		scope = 2;
 		displayName = "Concealed plate carrier (Carry space)";
-		hiddenSelectionsTextures[]={""};
 		class ItemInfo: ItemInfo
 		{
 			author = "Gordon Weedman";
-			uniformModel = "\A3\Structures_F\Mil\Helipads\HelipadEmpty_F.p3d";
+			uniformModel = "\A3\Weapons_F\empty.p3d";
 		};
-		model="\A3\Structures_F\Mil\Helipads\HelipadEmpty_F.p3d";
+		model = "\A3\Weapons_F\empty.p3d";
 	};
 	
 	class FP_GOR_V_PlateCarrier2_inv: FP_GOR_V_PlateCarrier2_base
@@ -83,13 +80,12 @@ class CfgWeapons
 		_generalMacro = "V_PlateCarrier2_rgr";
 		scope = 2;
 		displayName = "Concealed plate carrier";
-		hiddenSelectionsTextures[]={""};
 		class ItemInfo: ItemInfo
 		{
 			author = "Gordon Weedman";
 			containerClass = "Supply0";
-			uniformModel = "\A3\Structures_F\Mil\Helipads\HelipadEmpty_F.p3d";
+			uniformModel = "\A3\Weapons_F\empty.p3d";
 		};
-		model="\A3\Structures_F\Mil\Helipads\HelipadEmpty_F.p3d";
+		model = "\A3\Weapons_F\empty.p3d";
 	};
 };
