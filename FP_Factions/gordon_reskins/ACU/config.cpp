@@ -386,7 +386,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\acu\data\acu_01_sg14desert_co.paa",
 			"\FP_Factions\gordon_reskins\acu\data\acu_02_sg14desert_co.paa",
-			"\FP_Factions\gordon_reskins\acu\data\boots_black_co.paa",
+			"\FP_Factions\gordon_reskins\acu\data\boots_coyote_co.paa",
 			"#(argb,8,8,3)color(0,0,0,0)",
 			"\FP_Factions\gordon_reskins\acu\data\noflag_co.paa"
 		};
