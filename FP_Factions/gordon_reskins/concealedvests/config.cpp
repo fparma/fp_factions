@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class gordon_reskins_modvest
+	class gordon_reskins_concealedvests
 	{
 		// List of units defined in this "PBO"
 		units[]={};
