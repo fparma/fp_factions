@@ -179,7 +179,11 @@ class CfgPatches
 			"FP_GOR_H_Booniehat_lithuaniandesert",
 			"FP_GOR_H_Booniehat_lithuaniandesert_hs",
 			"FP_GOR_H_Booniehat_mtp",
-			"FP_GOR_H_Booniehat_mtp_hs"
+			"FP_GOR_H_Booniehat_mtp_hs",
+			"FP_GOR_H_Booniehat_partizanmautumn",
+			"FP_GOR_H_Booniehat_partizanmautumn_hs",
+			"FP_GOR_H_Booniehat_partizanmsummer",
+			"FP_GOR_H_Booniehat_partizanmsummer_hs"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
