@@ -173,7 +173,13 @@ class CfgPatches
 			"FP_GOR_H_Booniehat_lithuaniandesertearly",
 			"FP_GOR_H_Booniehat_lithuaniandesertearly_hs",
 			"FP_GOR_H_Booniehat_lithuaniandesert",
-			"FP_GOR_H_Booniehat_lithuaniandesert_hs"
+			"FP_GOR_H_Booniehat_lithuaniandesert_hs",
+			"FP_GOR_H_Booniehat_mtp",
+			"FP_GOR_H_Booniehat_mtp_hs",
+			"FP_GOR_H_Booniehat_partizanmautumn",
+			"FP_GOR_H_Booniehat_partizanmautumn_hs",
+			"FP_GOR_H_Booniehat_partizanmsummer",
+			"FP_GOR_H_Booniehat_partizanmsummer_hs"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -1171,6 +1177,40 @@ class CfgWeapons
 		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_partizansummer_co.paa"};
 	};
 	
+	class FP_GOR_H_Booniehat_partizanmautumn: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_partizanmautumn";
+		scope = 2;
+		displayName = "Booniehat (Partizan M Autumn)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_partizanmautumn_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_partizanmautumn_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_partizanmautumn_hs";
+		scope = 2;
+		displayName = "Booniehat (Partizan M Autumn, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_partizanmautumn_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_partizanmsummer: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_partizanmsummer";
+		scope = 2;
+		displayName = "Booniehat (Partizan M Summer)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_partizanmsummer_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_partizanmsummer_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_partizanmsummer_hs";
+		scope = 2;
+		displayName = "Booniehat (Partizan M Summer, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_partizanmsummer_co.paa"};
+	};
+	
 	class FP_GOR_H_Booniehat_sumrak: H_Booniehat_khk
 	{
 		author = "Gordon Weedman";
@@ -1577,5 +1617,22 @@ class CfgWeapons
 		scope = 2;
 		displayName = "Booniehat (Lithuanian M05 Desert, headset)";
 		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_lithuaniandesert_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_mtp: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_mtp";
+		scope = 2;
+		displayName = "Booniehat (British MTP)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_mtp_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_mtp_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_mtp_hs";
+		scope = 2;
+		displayName = "Booniehat (British MTP, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_mtp_co.paa"};
 	};
 };

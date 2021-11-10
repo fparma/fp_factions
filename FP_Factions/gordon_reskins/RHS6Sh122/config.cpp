@@ -26,6 +26,14 @@ class CfgPatches
 			"FP_GOR_rhs_uniform_6sh122_gloves_partizanautumnsummer",
 			"FP_GOR_rhs_uniform_6sh122_partizansummerautumn",
 			"FP_GOR_rhs_uniform_6sh122_gloves_partizansummerautumn",
+			"FP_GOR_rhs_uniform_6sh122_partizanmautumn",
+			"FP_GOR_rhs_uniform_6sh122_gloves_partizanmautumn",
+			"FP_GOR_rhs_uniform_6sh122_partizanmsummer",
+			"FP_GOR_rhs_uniform_6sh122_gloves_partizanmsummer",
+			"FP_GOR_rhs_uniform_6sh122_partizanmautumnsummer",
+			"FP_GOR_rhs_uniform_6sh122_gloves_partizanmautumnsummer",
+			"FP_GOR_rhs_uniform_6sh122_partizanmsummerautumn",
+			"FP_GOR_rhs_uniform_6sh122_gloves_partizanmsummerautumn",
 			"FP_GOR_rhs_uniform_6sh122_winter",
 			"FP_GOR_rhs_uniform_6sh122_gloves_winter",
 			"FP_GOR_rhs_uniform_6sh122_schneetarn",
@@ -507,6 +515,182 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_partizansummer_co.paa",
 			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_partizanautumn_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	}; 	
+	
+	
+	
+	
+	
+	class FP_GOR_rhs_6sh122_partizanmautumn: rhs_6sh122_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_partizanmautumn";
+		displayName="6Sh122 (Partizan M Autumn)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_partizanmautumn_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_partizanmautumn_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh122_gloves_partizanmautumn: rhs_6sh122_gloves_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_gloves_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_gloves_partizanmautumn";
+		displayName="6Sh122 (Partizan M Autumn, gloves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_partizanmautumn_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_partizanmautumn_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	}; 	
+	
+	class FP_GOR_rhs_6sh122_partizanmautumnsummer: rhs_6sh122_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_partizanmautumnsummer";
+		displayName="6Sh122 (Partizan M Autumn/Summer)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_partizanmautumn_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_partizanmsummer_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh122_gloves_partizanmautumnsummer: rhs_6sh122_gloves_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_gloves_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_gloves_partizanmautumnsummer";
+		displayName="6Sh122 (Partizan M Autumn/Summer, gloves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_partizanmautumn_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_partizanmsummer_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	}; 	
+	
+	class FP_GOR_rhs_6sh122_partizanmsummer: rhs_6sh122_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_partizanmsummer";
+		displayName="6Sh122 (Partizan M Summer)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_partizanmsummer_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_partizanmsummer_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh122_gloves_partizanmsummer: rhs_6sh122_gloves_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_gloves_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_gloves_partizanmsummer";
+		displayName="6Sh122 (Partizan M Summer, gloves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_partizanmsummer_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_partizanmsummer_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	}; 	
+	
+	class FP_GOR_rhs_6sh122_partizanmsummerautumn: rhs_6sh122_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_partizanmsummerautumn";
+		displayName="6Sh122 (Partizan M Summer/Autumn)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_partizanmsummer_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_partizanmautumn_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh122_gloves_partizanmsummerautumn: rhs_6sh122_gloves_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_gloves_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_gloves_partizanmsummerautumn";
+		displayName="6Sh122 (Partizan M Summer/Autumn, gloves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_partizanmsummer_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_partizanmautumn_co.paa",
 			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
 		};
 	}; 	
@@ -1643,6 +1827,114 @@ class CfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="FP_GOR_rhs_6sh122_gloves_partizansummerautumn";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	
+	class FP_GOR_rhs_uniform_6sh122_partizanmautumn: rhs_uniform_6sh122_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Partizan M Autumn)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_partizanmautumn";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_gloves_partizanmautumn: rhs_uniform_6sh122_gloves_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Partizan M Autumn, gloves)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_gloves_partizanmautumn";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	
+	class FP_GOR_rhs_uniform_6sh122_partizanmautumnsummer: rhs_uniform_6sh122_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Partizan M Autumn/Summer)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_partizanmautumnsummer";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_gloves_partizanmautumnsummer: rhs_uniform_6sh122_gloves_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Partizan M Autumn/Summer, gloves)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_gloves_partizanmautumnsummer";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	
+	class FP_GOR_rhs_uniform_6sh122_partizanmsummer: rhs_uniform_6sh122_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Partizan M Summer)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_partizanmsummer";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_gloves_partizanmsummer: rhs_uniform_6sh122_gloves_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Partizan M Summer, gloves)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_gloves_partizanmsummer";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	
+	class FP_GOR_rhs_uniform_6sh122_partizanmsummerautumn: rhs_uniform_6sh122_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Partizan M Summer/Autumn)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_partizanmsummerautumn";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_gloves_partizanmsummerautumn: rhs_uniform_6sh122_gloves_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Partizan M Summer/Autumn, gloves)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_gloves_partizanmsummerautumn";
 			containerClass="Supply40";
 			mass=40;
 		};

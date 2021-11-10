@@ -32,7 +32,13 @@ class CfgPatches
 			"FP_GOR_V_CarrierRigKBT_heavy_winter_F",
 			"FP_GOR_V_CarrierRigKBT_marpatwd_F",
 			"FP_GOR_V_CarrierRigKBT_light_marpatwd_F",
-			"FP_GOR_V_CarrierRigKBT_heavy_marpatwd_F"
+			"FP_GOR_V_CarrierRigKBT_heavy_marpatwd_F",
+			"FP_GOR_V_CarrierRigKBT_mtp_F",
+			"FP_GOR_V_CarrierRigKBT_light_mtp_F",
+			"FP_GOR_V_CarrierRigKBT_heavy_mtp_F",
+			"FP_GOR_V_CarrierRigKBT_multicamwoodland_F",
+			"FP_GOR_V_CarrierRigKBT_light_multicamwoodland_F",
+			"FP_GOR_V_CarrierRigKBT_heavy_multicamwoodland_F"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -343,6 +349,74 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\modvest\data\ModVest_marpatwd_CO.paa"
+		};
+	}; 
+	
+	class FP_GOR_V_CarrierRigKBT_mtp_F: V_CarrierRigKBT_01_Olive_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "V_CarrierRigKBT_01_Olive_F";
+		scope = 2;
+		displayName = "Modular Carrier Vest (British MTP)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\modvest\data\ModVest_mtp_CO.paa"
+		};
+	};
+	class FP_GOR_V_CarrierRigKBT_light_mtp_F: V_CarrierRigKBT_01_light_Olive_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "V_CarrierRigKBT_01_light_Olive_F";
+		scope = 2;
+		displayName = "Modular Carrier Lite (British MTP)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\modvest\data\ModVest_mtp_CO.paa"
+		};
+	};
+	class FP_GOR_V_CarrierRigKBT_heavy_mtp_F: V_CarrierRigKBT_01_heavy_Olive_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "V_CarrierRigKBT_01_heavy_Olive_F";
+		scope = 2;
+		displayName = "Modular Carrier GL Rig (British MTP)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\modvest\data\ModVest_mtp_CO.paa"
+		};
+	}; 
+	
+	class FP_GOR_V_CarrierRigKBT_multicamwoodland_F: V_CarrierRigKBT_01_Olive_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "V_CarrierRigKBT_01_Olive_F";
+		scope = 2;
+		displayName = "Modular Carrier Vest (Multicam Woodland)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\modvest\data\ModVest_multicamwoodland_CO.paa"
+		};
+	};
+	class FP_GOR_V_CarrierRigKBT_light_multicamwoodland_F: V_CarrierRigKBT_01_light_Olive_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "V_CarrierRigKBT_01_light_Olive_F";
+		scope = 2;
+		displayName = "Modular Carrier Lite (Multicam Woodland)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\modvest\data\ModVest_multicamwoodland_CO.paa"
+		};
+	};
+	class FP_GOR_V_CarrierRigKBT_heavy_multicamwoodland_F: V_CarrierRigKBT_01_heavy_Olive_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "V_CarrierRigKBT_01_heavy_Olive_F";
+		scope = 2;
+		displayName = "Modular Carrier GL Rig (Multicam Woodland)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\modvest\data\ModVest_multicamwoodland_CO.paa"
 		};
 	}; 
 };
