@@ -175,7 +175,12 @@ class CfgPatches
 			"FP_GOR_6b7_1m_bala1_desertpink",
 			"FP_GOR_6b7_1m_bala2_desertpink",
 			"FP_GOR_6b7_1m_ess_desertpink",
-			"FP_GOR_6b7_1m_ess_bala_desertpink"
+			"FP_GOR_6b7_1m_ess_bala_desertpink",
+			"FP_GOR_6b7_1m_mtp",
+			"FP_GOR_6b7_1m_bala1_mtp",
+			"FP_GOR_6b7_1m_bala2_mtp",
+			"FP_GOR_6b7_1m_ess_mtp",
+			"FP_GOR_6b7_1m_ess_bala_mtp"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -2224,6 +2229,65 @@ class CfgWeapons
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b7\data\6b7-1m_desertpink_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b7\data\bala2_desert_co.paa"
+		};
+	};
+	
+	class FP_GOR_6b7_1m_mtp: rhs_6b7_1m_emr
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (British MTP)";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b7\data\6b7-1m_mtp_co.paa"
+		};
+	};
+	class FP_GOR_6b7_1m_bala1_mtp: rhs_6b7_1m_bala1_emr
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (British MTP, Balaclava)";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b7\data\6b7-1m_mtp_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b7\data\bala1_desert_co.paa"
+		};
+	};
+	class FP_GOR_6b7_1m_bala2_mtp: rhs_6b7_1m_bala2_emr
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (British MTP, Balaclava)";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b7\data\6b7-1m_mtp_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b7\data\bala2_desert_co.paa"
+		};
+	};
+	class FP_GOR_6b7_1m_ess_mtp: rhs_6b7_1m_emr_ess
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (British MTP, ESS)";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b7\data\6b7-1m_mtp_co.paa"
+		};
+	};
+	class FP_GOR_6b7_1m_ess_bala_mtp: rhs_6b7_1m_emr_ess_bala
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (British MTP, ESS & Balaclava)";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins\RHS6b7\data\6b7-1m_mtp_co.paa",
 			"\FP_Factions\gordon_reskins\RHS6b7\data\bala2_desert_co.paa"
 		};
 	};

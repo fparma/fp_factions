@@ -126,6 +126,10 @@ class CfgPatches
 			"FP_GOR_H_Booniehat_partizanautumn_hs",
 			"FP_GOR_H_Booniehat_partizansummer",
 			"FP_GOR_H_Booniehat_partizansummer_hs",
+			"FP_GOR_H_Booniehat_partizanmautumn",
+			"FP_GOR_H_Booniehat_partizanmautumn_hs",
+			"FP_GOR_H_Booniehat_partizanmsummer",
+			"FP_GOR_H_Booniehat_partizanmsummer_hs",
 			"FP_GOR_H_Booniehat_sumrak",
 			"FP_GOR_H_Booniehat_sumrak_hs",
 			"FP_GOR_H_Booniehat_syrian",
@@ -173,7 +177,9 @@ class CfgPatches
 			"FP_GOR_H_Booniehat_lithuaniandesertearly",
 			"FP_GOR_H_Booniehat_lithuaniandesertearly_hs",
 			"FP_GOR_H_Booniehat_lithuaniandesert",
-			"FP_GOR_H_Booniehat_lithuaniandesert_hs"
+			"FP_GOR_H_Booniehat_lithuaniandesert_hs",
+			"FP_GOR_H_Booniehat_mtp",
+			"FP_GOR_H_Booniehat_mtp_hs"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -1611,5 +1617,22 @@ class CfgWeapons
 		scope = 2;
 		displayName = "Booniehat (Lithuanian M05 Desert, headset)";
 		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_lithuaniandesert_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_mtp: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_mtp";
+		scope = 2;
+		displayName = "Booniehat (British MTP)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_mtp_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_mtp_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_mtp_hs";
+		scope = 2;
+		displayName = "Booniehat (British MTP, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_mtp_co.paa"};
 	};
 };

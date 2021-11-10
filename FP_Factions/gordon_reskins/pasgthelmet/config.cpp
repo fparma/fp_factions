@@ -73,7 +73,31 @@ class CfgPatches
 			"FP_GOR_PASGThelmet_frenchdaguet",
 			"FP_GOR_PASGThelmet_frenchdaguet_rhino",
 			"FP_GOR_PASGThelmet_multicamwoodland",
-			"FP_GOR_PASGThelmet_multicamwoodland_rhino"
+			"FP_GOR_PASGThelmet_multicamwoodland_rhino",
+			"FP_GOR_PASGThelmet_soldier2000",
+			"FP_GOR_PASGThelmet_soldier2000_rhino",
+			"FP_GOR_PASGThelmet_amc",
+			"FP_GOR_PASGThelmet_amc_rhino",
+			"FP_GOR_PASGThelmet_bc2snow",
+			"FP_GOR_PASGThelmet_bc2snow_rhino",
+			"FP_GOR_PASGThelmet_flecktarnsnow",
+			"FP_GOR_PASGThelmet_flecktarnsnow_rhino",
+			"FP_GOR_PASGThelmet_m05helle",
+			"FP_GOR_PASGThelmet_m05helle_rhino",
+			"FP_GOR_PASGThelmet_m05lumi",
+			"FP_GOR_PASGThelmet_m05lumi_rhino",
+			"FP_GOR_PASGThelmet_m05maasto",
+			"FP_GOR_PASGThelmet_m05maasto_rhino",
+			"FP_GOR_PASGThelmet_m05pakkas",
+			"FP_GOR_PASGThelmet_m05pakkas_rhino",
+			"FP_GOR_PASGThelmet_m90w",
+			"FP_GOR_PASGThelmet_m90w_rhino",
+			"FP_GOR_PASGThelmet_woodlandsnowgreen",
+			"FP_GOR_PASGThelmet_woodlandsnowgreen_rhino",
+			"FP_GOR_PASGThelmet_woodlandsnowtan",
+			"FP_GOR_PASGThelmet_woodlandsnowtan_rhino",
+			"FP_GOR_PASGThelmet_mtp",
+			"FP_GOR_PASGThelmet_mtp_rhino"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -1077,6 +1101,29 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_woodlandsnowtan_co.paa"
+		};
+	};
+	
+	class FP_GOR_PASGThelmet_mtp : rhsgref_helmet_pasgt_erdl
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl";
+		scope=2;
+		displayName="PASGT (British MTP)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_mtp_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_mtp_rhino : rhsgref_helmet_pasgt_erdl_rhino
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl_rhino";
+		scope=2;
+		displayName="PASGT (British MTP, Rhino)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_mtp_co.paa"
 		};
 	};
 };
