@@ -473,9 +473,9 @@ class CfgVehicles
 				author = "";
 				textures[]=
 				{
-					"fp_factions\ROC\data\M41\m41_bulldog_body_roc_camo_co.paa",
-					"fp_factions\ROC\data\M41\m41_bulldog_gun_roc_camo_co.paa",
-					"fp_factions\ROC\data\M41\m41_bulldog_turret_roc_camo_co.paa"
+					"\FP_Factions\ROC\data\M41\m41_bulldog_body_roc_camo_co.paa",
+					"\FP_Factions\ROC\data\M41\m41_bulldog_gun_roc_camo_co.paa",
+					"\FP_Factions\ROC\data\M41\m41_bulldog_turret_roc_camo_co.paa"
 				};
 				factions[] = {"FP_Faction_ROC"};
 			};
@@ -485,9 +485,9 @@ class CfgVehicles
 				author = "";
 				textures[]=
 				{
-					"fp_factions\ROC\data\M41\m41_bulldog_body_roc_green_co.paa",
-					"fp_factions\ROC\data\M41\m41_bulldog_gun_roc_green_co.paa",
-					"fp_factions\ROC\data\M41\m41_bulldog_turret_roc_green_co.paa"
+					"\FP_Factions\ROC\data\M41\m41_bulldog_body_roc_green_co.paa",
+					"\FP_Factions\ROC\data\M41\m41_bulldog_gun_roc_green_co.paa",
+					"\FP_Factions\ROC\data\M41\m41_bulldog_turret_roc_green_co.paa"
 				};
 				factions[] = {"FP_Faction_ROC"};
 			};
@@ -505,9 +505,9 @@ class CfgVehicles
 		};
 		hiddenselectionstextures[]=
 		{
-			"fp_factions\ROC\data\M41\m41_bulldog_body_roc_camo_co.paa",
-			"fp_factions\ROC\data\M41\m41_bulldog_gun_roc_camo_co.paa",
-			"fp_factions\ROC\data\M41\m41_bulldog_turret_roc_camo_co.paa"
+			"\FP_Factions\ROC\data\M41\m41_bulldog_body_roc_camo_co.paa",
+			"\FP_Factions\ROC\data\M41\m41_bulldog_gun_roc_camo_co.paa",
+			"\FP_Factions\ROC\data\M41\m41_bulldog_turret_roc_camo_co.paa"
 		};
 	};
 	class FP_B_ROC_M60A3_TTS: FP_B_M60A3_TTS_USMC
