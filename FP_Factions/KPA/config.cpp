@@ -13,6 +13,9 @@ class CfgPatches
 			"FP_Faction_KPA_BTR40_3MG",
 			"FP_Faction_KPA_BTR40_MG",
 			"FP_Faction_KPA_BTR40_ZPU2",
+			"FP_Faction_KPA_BTR50",
+			"FP_Faction_KPA_BTR50_Ammo",
+			"FP_Faction_KPA_BTR50_DShK",
 			"FP_Faction_KPA_BTR60",
 			"FP_Faction_KPA_BTR70",
 			"FP_Faction_KPA_BTR80A",
@@ -1521,25 +1524,36 @@ class CfgVehicles
 		faction = "FP_Faction_KPA";
 		hiddenSelectionsTextures[] = {"\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\wheeled\UK3CB_Factions_Vehicles_btr\BTR40\data\cw_sov_o_btr40ext_co.paa"};
 	};
-	class UK3CB_O_G_T55;
-	class FP_Faction_KPA_Chonmaho: UK3CB_O_G_T55
+	class FP_O_APC_BTR50;
+	class FP_O_APC_BTR50_Ammo;
+	class FP_O_APC_BTR50_DShK;
+	class FP_Faction_KPA_BTR50: FP_O_APC_BTR50
 	{
-		class TextureSources
-		{
-			class KPA_T55_Green
-			{
-				author="CSLeader";
-				displayname = "KPA Green";				
-				textures[] = {"\fp_factions\KPA\data\t55\t55_body_kpa_co.paa","\fp_factions\KPA\data\t55\t55_tower_kpa_co.paa"};
-				factions[] = {"FP_Faction_KPA"};
-			};
-		};
+		author = "FP Mod Team";
+		crew = "FP_Faction_KPA_Crewman";
+		faction = "FP_Faction_KPA";
+	};
+	class FP_Faction_KPA_BTR50_Ammo: FP_O_APC_BTR50_Ammo
+	{
+		author = "FP Mod Team";
+		crew = "FP_Faction_KPA_Crewman";
+		faction = "FP_Faction_KPA";
+	};
+	class FP_Faction_KPA_BTR50_DShK: FP_O_APC_BTR50_DShK 
+	{
+		author = "FP Mod Team";
+		crew = "FP_Faction_KPA_Crewman";
+		faction = "FP_Faction_KPA";
+	};
+	class FP_O_TNK_T55;
+	class FP_Faction_KPA_Chonmaho: FP_O_TNK_T55
+	{
 		author = "FP Mod Team";
 		crew = "FP_Faction_KPA_Crewman";
 		displayName = "Ch'ŏnma-ho";
 		faction = "FP_Faction_KPA";
-		hiddenSelections[] = {"camo1","camo2"};
-		hiddenSelectionsTextures[] = {"\fp_factions\KPA\data\t55\t55_body_kpa_co.paa","\fp_factions\KPA\data\t55\t55_tower_kpa_co.paa"};
+		hiddenSelections[] = {"Camo","Camo2","Camo3","Camo4"};
+		hiddenSelectionsTextures[] = {"\FP_Factions\KPA\data\t55\t_55a_body_dprk_co.paa","\FP_Factions\KPA\data\t55\t_55a_turret_dprk_co.paa","\FP_Factions\KPA\data\t55\t_55a_gun_dprk_co.paa","sim_WT_tanks\T55\t_55a_mount_co.paa"};
 	};
 	class UK3CB_CW_SOV_O_EARLY_T72A;
 	class FP_Faction_KPA_T72M: UK3CB_CW_SOV_O_EARLY_T72A
@@ -1728,7 +1742,7 @@ class CfgVehicles
 		crew = "FP_Faction_KPA_Rifleman";
 		faction = "FP_Faction_KPA";
 		hiddenSelections[] = {"camo1","camo2","camo3","camo4"};
-		hiddenSelectionsTextures[] = {"fp_factions\KPA\data\maz543\scud_01_co.paa","fp_factions\KPA\data\maz543\scud_02_co.paa","fp_factions\KPA\data\maz543\scud_03_co.paa","fp_factions\KPA\data\maz543\scud_04_co.paa"};
+		hiddenSelectionsTextures[] = {"\FP_Factions\KPA\data\maz543\scud_01_co.paa","\FP_Factions\KPA\data\maz543\scud_02_co.paa","\FP_Factions\KPA\data\maz543\scud_03_co.paa","\FP_Factions\KPA\data\maz543\scud_04_co.paa"};
 		side = 0;
 	};
 	class rhsgref_tla_DSHKM_Mini_TriPod;
@@ -1849,8 +1863,8 @@ class CfgVehicles
 		hiddenSelections[] = {"camo1","camo2","exhaust","tail_decals","n1","n2","moving_map"};
 		hiddenselectionstextures[] = 
 		{
-			"\fp_factions\KPA\data\mi24\mi24p_001_kpa_co.paa",
-			"\fp_factions\KPA\data\mi24\mi24p_002_kpa_co.paa",
+			"\FP_Factions\KPA\data\mi24\mi24p_001_kpa_co.paa",
+			"\FP_Factions\KPA\data\mi24\mi24p_002_kpa_co.paa",
 			"\rhsafrf\addons\rhs_a2port_air\Mi17\data\camo\mi8_det_g_camo1_co.paa"
 		};
 	};
@@ -1868,9 +1882,9 @@ class CfgVehicles
 		hiddenSelections[] = {"Camo1","Camo2","Camo8","Camo4","n1","n2","tail_decals"};
 		hiddenselectionstextures[] = 
 		{
-			"\fp_factions\KPA\data\mi8\mi_171_kpa_co.paa",
+			"\FP_Factions\KPA\data\mi8\mi_171_kpa_co.paa",
 			"rhssaf\addons\rhssaf_t_vehicle_ret\mi8\rhssaf_mi8_det_camo_co.paa",
-			"\fp_factions\KPA\data\mi8\mi_171_kpa_co.paa",
+			"\FP_Factions\KPA\data\mi8\mi_171_kpa_co.paa",
 			"rhsafrf\addons\rhs_a2port_air\mi17\data\mi8_decals_notext_ca.paa"
 		};
 	};
@@ -1885,9 +1899,9 @@ class CfgVehicles
 		hiddenSelections[] = {"Camo1","Camo2","Camo8","Camo4","n1","n2","tail_decals"};
 		hiddenselectionstextures[] = 
 		{
-			"\fp_factions\KPA\data\mi8\mi_171_kpa_co.paa",
+			"\FP_Factions\KPA\data\mi8\mi_171_kpa_co.paa",
 			"rhssaf\addons\rhssaf_t_vehicle_ret\mi8\rhssaf_mi8_det_camo_co.paa",
-			"\fp_factions\KPA\data\mi8\mi8_tv2_kpa_co.paa",
+			"\FP_Factions\KPA\data\mi8\mi8_tv2_kpa_co.paa",
 			"rhsafrf\addons\rhs_a2port_air\mi17\data\mi8_decals_notext_ca.paa"
 		};
 		typicalCargo[] = {"FP_Faction_KPA_Helicrew"};
@@ -1903,9 +1917,9 @@ class CfgVehicles
 		hiddenSelections[] = {"Camo1","Camo2","Camo8","Camo4","n1","n2","tail_decals"};
 		hiddenselectionstextures[] = 
 		{
-			"\fp_factions\KPA\data\mi8\mi_171_kpa_co.paa",
+			"\FP_Factions\KPA\data\\mi8\mi_171_kpa_co.paa",
 			"rhssaf\addons\rhssaf_t_vehicle_ret\mi8\rhssaf_mi8_det_camo_co.paa",
-			"\fp_factions\KPA\data\mi8\mi8_tv2_kpa_co.paa",
+			"\FP_Factions\KPA\data\mi8\mi8_tv2_kpa_co.paa",
 			"rhsafrf\addons\rhs_a2port_air\mi17\data\mi8_decals_notext_ca.paa"
 		};
 		typicalCargo[] = {"FP_Faction_KPA_Helicrew"};
@@ -1919,7 +1933,7 @@ class CfgVehicles
 			{
 				author="CSLeader";
 				displayname = "KPA Green";				
-				textures[] = {"\fp_factions\KPA\data\md500\Heli_Light_01_ext_KPA_CO.paa"};
+				textures[] = {"\FP_Factions\KPA\md500\Heli_Light_01_ext_KPA_CO.paa"};
 				factions[] = {"FP_Faction_KPA"};
 			};			
 		};
@@ -1930,7 +1944,7 @@ class CfgVehicles
 		editorSubcategory = "EdSubcat_Helicopters";
 		faction = "FP_Faction_KPA";
 		hiddenSelections[] = {"camo1","aiming_dot"};
-		hiddenSelectionsTextures[] = {"\fp_factions\KPA\data\md500\Heli_Light_01_ext_KPA_CO.paa"};
+		hiddenSelectionsTextures[] = {"\FP_Factions\KPA\data\md500\Heli_Light_01_ext_KPA_CO.paa"};
 		hiddenSelectionsMaterials[] = {"A3\Air_F\Heli_Light_01\Data\Heli_Light_01_ext.rvmat"};		
 	};
 	class UK3CB_I_G_Antonov_An2_Armed;
@@ -1972,8 +1986,8 @@ class CfgVehicles
 		hiddenSelections[] = {"camo1","camo2"};
 		hiddenselectionstextures[] = 
 		{
-			"\fp_factions\KPA\data\l159\Plane_Fighter_03_body_1_KPA_CO.paa",
-			"\fp_factions\KPA\data\l159\Plane_Fighter_03_body_2_KPA_CO.paa"
+			"\FP_Factions\KPA\data\l159\Plane_Fighter_03_body_1_KPA_CO.paa",
+			"\FP_Factions\KPA\data\l159\Plane_Fighter_03_body_2_KPA_CO.paa"
 		};
 	};
 	
@@ -2262,8 +2276,8 @@ class CfgVehicles
 		camouflage = 1.6;
 		sensitivity = 3;
 		icon = "iconManLeader";
-		linkedItems[] = {"FP_V_KPA_TacVest_DigiWld","rhs_ssh60","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_V_KPA_TacVest_DigiWld","rhs_ssh60","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"chestrig_chic","rhs_ssh60","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"chestrig_chic","rhs_ssh60","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
 	class FP_Faction_KPA_TL: FP_Faction_KPA_Soldier_BASE
 	{
@@ -2279,8 +2293,8 @@ class CfgVehicles
 		camouflage = 1.6;
 		sensitivity = 3;
 		icon = "iconManLeader";
-		linkedItems[] = {"FP_V_KPA_TacVest_DigiWld","rhs_ssh60","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_V_KPA_TacVest_DigiWld","rhs_ssh60","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"chestrig_chic","rhs_ssh60","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"chestrig_chic","rhs_ssh60","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
 	class FP_Faction_KPA_FieldOfficer: FP_Faction_KPA_SL
 	{
@@ -3168,8 +3182,8 @@ class FP_Faction_KPA_SOF_Medic: FP_Faction_KPA_SOF_Soldier_BASE
 		camouflage = 1.6;
 		sensitivity = 3;
 		icon = "iconManLeader";
-		linkedItems[] = {"V_TacChestrig_grn_F","FP_PASGT_DigiWld","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_TacChestrig_grn_F","FP_PASGT_DigiWld","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"FP_V_KPA_TacVest_DigiWld","FP_PASGT_DigiWld","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_V_KPA_TacVest_DigiWld","FP_PASGT_DigiWld","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
 	class FP_Faction_KPA_Marine_TL: FP_Faction_KPA_Marine_BASE
 	{
@@ -3185,8 +3199,8 @@ class FP_Faction_KPA_SOF_Medic: FP_Faction_KPA_SOF_Soldier_BASE
 		camouflage = 1.6;
 		sensitivity = 3;
 		icon = "iconManLeader";
-		linkedItems[] = {"V_TacChestrig_grn_F","FP_PASGT_DigiWld","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_TacChestrig_grn_F","FP_PASGT_DigiWld","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"FP_V_KPA_TacVest_DigiWld","FP_PASGT_DigiWld","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_V_KPA_TacVest_DigiWldF","FP_PASGT_DigiWld","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
 	class FP_Faction_KPA_Marine_GL: FP_Faction_KPA_Marine_BASE
 	{
