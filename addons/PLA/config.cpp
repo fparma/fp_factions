@@ -1333,11 +1333,11 @@ class cfgVehicles
 		};
 		textureList[] = 
 		{
-			PLASkin01, 0.25,
-			PLASkin02, 0.25,
-			PLASkin03, 0.25,
-			PLASkin03LV, 0.25,
-			PLASkin04, 0
+			"PLASkin01", 0.25,
+			"PLASkin02", 0.25,
+			"PLASkin03", 0.25,
+			"PLASkin03LV", 0.25,
+			"PLASkin04", 0
 		};
 		author = "FP Mod Team";
 		crew = "FP_Faction_PLA_Fighter_Pilot_F";
@@ -1391,11 +1391,11 @@ class cfgVehicles
 		};
 		textureList[] = 
 		{
-			PLASkin01, 0.25,
-			PLASkin02, 0.25,
-			PLASkin03, 0.25,
-			PLASkin03LV, 0.25,
-			PLASkin04, 0
+			"PLASkin01", 0.25,
+			"PLASkin02", 0.25,
+			"PLASkin03", 0.25,
+			"PLASkin03LV", 0.25,
+			"PLASkin04", 0
 		};
 		author = "FP Mod Team";
 		crew = "FP_Faction_PLA_Fighter_Pilot_F";

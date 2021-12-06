@@ -810,7 +810,7 @@ class cfgvehicles
 		weapons[] = {"hlc_rifle_akm","str_ngn","Throw","Put"};
 		respawnWeapons[] = {"hlc_rifle_akm","str_ngn","Throw","Put"};
 		magazines[] = {"hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","7Rnd_nagan_rev","7Rnd_nagan_rev","7Rnd_nagan_rev","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rdg2_white"};
-		respawnMagazines[] = {="hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","7Rnd_nagan_rev","7Rnd_nagan_rev","7Rnd_nagan_rev","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rdg2_white"};
+		respawnMagazines[] = {"hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","7Rnd_nagan_rev","7Rnd_nagan_rev","7Rnd_nagan_rev","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rdg2_white"};
 		backpack = "B_FieldPack_cbr_Medic";
 		cost = 300000;
 		camouflage = 1.6;
