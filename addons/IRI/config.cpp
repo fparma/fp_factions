@@ -67,8 +67,8 @@ class CfgVehicles
 		faction = "FP_Faction_IRI";
 		model = "\rhsgref\addons\rhsgref_infantry\gear_gue\gue_m93.p3d";
 		uniformClass = "m93_irn";  
-		linkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Tan_F","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Tan_F","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
+		linkedItems[] = {"FP_GOR_rhs_6sh117_rifleman_desert","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_GOR_rhs_6sh117_rifleman_desert","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
 	};
 	class FP_O_Iran_Soldier_AAR_F: O_Soldier_AAR_F
 	{
@@ -76,8 +76,8 @@ class CfgVehicles
 		faction = "FP_Faction_IRI";
 		model = "\rhsgref\addons\rhsgref_infantry\gear_gue\gue_m93.p3d";
 		uniformClass = "m93_irn";  
-		linkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Tan_F","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Tan_F","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
+		linkedItems[] = {"FP_GOR_rhs_6sh117_rifleman_desert","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_GOR_rhs_6sh117_rifleman_desert","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
 	};
 	class FP_O_Iran_support_AMG_F: O_support_AMG_F
 	{
@@ -85,8 +85,8 @@ class CfgVehicles
 		faction = "FP_Faction_IRI";
 		model = "\rhsgref\addons\rhsgref_infantry\gear_gue\gue_m93.p3d";
 		uniformClass = "m93_irn";  
-		linkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Tan_F","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Tan_F","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
+		linkedItems[] = {"FP_GOR_rhs_6sh117_rifleman_desert","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_GOR_rhs_6sh117_rifleman_desert","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
 	};
 	class FP_O_Iran_support_AMort_F: O_support_AMort_F
 	{
@@ -94,8 +94,8 @@ class CfgVehicles
 		faction = "FP_Faction_IRI";
 		model = "\rhsgref\addons\rhsgref_infantry\gear_gue\gue_m93.p3d";
 		uniformClass = "m93_irn";  
-		linkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Tan_F","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Tan_F","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
+		linkedItems[] = {"FP_GOR_rhs_6sh117_rifleman_desert","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_GOR_rhs_6sh117_rifleman_desert","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
 	};
 	class FP_O_Iran_Soldier_AHAT_F: O_Soldier_AHAT_F
 	{
@@ -103,8 +103,8 @@ class CfgVehicles
 		faction = "FP_Faction_IRI";
 		model = "\rhsgref\addons\rhsgref_infantry\gear_gue\gue_m93.p3d";
 		uniformClass = "m93_irn";  
-		linkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Tan_F","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Tan_F","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
+		linkedItems[] = {"FP_GOR_rhs_6sh117_rifleman_desert","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_GOR_rhs_6sh117_rifleman_desert","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
 	};
 	class FP_O_Iran_Soldier_AAA_F: O_Soldier_AAA_F
 	{
@@ -112,8 +112,8 @@ class CfgVehicles
 		faction = "FP_Faction_IRI";
 		model = "\rhsgref\addons\rhsgref_infantry\gear_gue\gue_m93.p3d";
 		uniformClass = "m93_irn";  
-		linkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Tan_F","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Tan_F","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
+		linkedItems[] = {"FP_GOR_rhs_6sh117_rifleman_desert","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_GOR_rhs_6sh117_rifleman_desert","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
 	};
 	class FP_O_Iran_Soldier_AAT_F: O_Soldier_AAT_F
 	{
@@ -121,8 +121,8 @@ class CfgVehicles
 		faction = "FP_Faction_IRI";
 		model = "\rhsgref\addons\rhsgref_infantry\gear_gue\gue_m93.p3d";
 		uniformClass = "m93_irn";  
-		linkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Tan_F","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Tan_F","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
+		linkedItems[] = {"FP_GOR_rhs_6sh117_rifleman_desert","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_GOR_rhs_6sh117_rifleman_desert","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
 	};
 	class FP_O_Iran_Soldier_AR_F: O_Soldier_AR_F
 	{
@@ -130,8 +130,8 @@ class CfgVehicles
 		faction = "FP_Faction_IRI";
 		model = "\rhsgref\addons\rhsgref_infantry\gear_gue\gue_m93.p3d";
 		uniformClass = "m93_irn";  
-		linkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Tan_F","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Tan_F","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
+		linkedItems[] = {"FP_GOR_rhs_6sh117_mg_desert","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_GOR_rhs_6sh117_mg_desert","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
 	};
 	class FP_O_Iran_medic_F: O_medic_F
 	{
@@ -157,8 +157,8 @@ class CfgVehicles
 		faction = "FP_Faction_IRI";
 		model = "\rhsgref\addons\rhsgref_infantry\gear_gue\gue_m93.p3d";
 		uniformClass = "m93_irn";  
-		linkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Tan_F","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Tan_F","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
+		linkedItems[] = {"FP_GOR_rhs_6sh117_rifleman_desert","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_GOR_rhs_6sh117_rifleman_desert","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
 	};
 	class FP_O_Iran_soldier_exp_F: O_soldier_exp_F
 	{
@@ -176,8 +176,8 @@ class CfgVehicles
 		faction = "FP_Faction_IRI";
 		model = "\rhsgref\addons\rhsgref_infantry\gear_gue\gue_m93.p3d";
 		uniformClass = "m93_irn";  
-		linkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Tan_F","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Tan_F","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
+		linkedItems[] = {"FP_GOR_rhs_6sh117_grn_desert","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_GOR_rhs_6sh117_grn_desert","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
 	};
 	//class O_support_GMG_F;
 	//class O_support_MG_F;
@@ -187,8 +187,8 @@ class CfgVehicles
 		faction = "FP_Faction_IRI";
 		model = "\rhsgref\addons\rhsgref_infantry\gear_gue\gue_m93.p3d";
 		uniformClass = "m93_irn";  
-		linkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Tan_F","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Tan_F","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
+		linkedItems[] = {"FP_GOR_rhs_6sh117_rifleman_desert","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_GOR_rhs_6sh117_rifleman_desert","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
 	};
 	class FP_O_Iran_HeavyGunner_F: O_HeavyGunner_F
 	{
@@ -198,8 +198,8 @@ class CfgVehicles
 		uniformClass = "m93_irn"; 
 		weapons[] = {"FP_MMG_01_tan_ARCO_LP_F","hgun_Rook40_F","Throw","Put"};
 		respawnWeapons[] = {"FP_MMG_01_tan_ARCO_LP_F","hgun_Rook40_F","Throw","Put"};
-		linkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Tan_F","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Tan_F","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
+		linkedItems[] = {"FP_GOR_rhs_6sh117_mg_desert","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_GOR_rhs_6sh117_mg_desert","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
 	};
 	//class O_helicrew_F;
 	//class O_helipilot_F;
@@ -211,8 +211,8 @@ class CfgVehicles
 		uniformClass = "m93_irn"; 
 		weapons[] = {"FP_GOR_srifle_DMR_01_DMS_BI_F_black","hgun_Rook40_F","Throw","Put"};
 		respawnWeapons[] = {"FP_GOR_srifle_DMR_01_DMS_BI_F_black","hgun_Rook40_F","Throw","Put"};
-		linkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Tan_F","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Tan_F","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
+		linkedItems[] = {"FP_GOR_rhs_6sh117_svd_desert","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_GOR_rhs_6sh117_svd_desert","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
 	};
 	//class O_soldier_mine_F;
 	class FP_O_Iran_Soldier_AA_F: O_Soldier_AA_F
@@ -221,8 +221,8 @@ class CfgVehicles
 		faction = "FP_Faction_IRI";
 		model = "\rhsgref\addons\rhsgref_infantry\gear_gue\gue_m93.p3d";
 		uniformClass = "m93_irn";  
-		linkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Tan_F","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Tan_F","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
+		linkedItems[] = {"FP_GOR_rhs_6sh117_rifleman_desert","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_GOR_rhs_6sh117_rifleman_desert","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
 	};
 	class FP_O_Iran_Soldier_AT_F: O_Soldier_AT_F
 	{
@@ -230,8 +230,8 @@ class CfgVehicles
 		faction = "FP_Faction_IRI";
 		model = "\rhsgref\addons\rhsgref_infantry\gear_gue\gue_m93.p3d";
 		uniformClass = "m93_irn";  
-		linkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Tan_F","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Tan_F","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
+		linkedItems[] = {"FP_GOR_rhs_6sh117_rifleman_desert","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_GOR_rhs_6sh117_rifleman_desert","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
 	};
 	//class O_officer_F;
 	class FP_O_Iran_soldier_PG_F: O_soldier_PG_F
@@ -240,8 +240,8 @@ class CfgVehicles
 		faction = "FP_Faction_IRI";
 		model = "\rhsgref\addons\rhsgref_infantry\gear_gue\gue_m93.p3d";
 		uniformClass = "m93_irn";  
-		linkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Tan_F","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Tan_F","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
+		linkedItems[] = {"FP_GOR_rhs_6sh117_rifleman_desert","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_GOR_rhs_6sh117_rifleman_desert","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
 	};
 	//class O_Pilot_F;
 	//class O_soldier_repair_F;
@@ -251,8 +251,8 @@ class CfgVehicles
 		faction = "FP_Faction_IRI";
 		model = "\rhsgref\addons\rhsgref_infantry\gear_gue\gue_m93.p3d";
 		uniformClass = "m93_irn";  
-		linkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Tan_F","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Tan_F","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
+		linkedItems[] = {"FP_GOR_rhs_6sh117_rifleman_desert","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_GOR_rhs_6sh117_rifleman_desert","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
 	};
 	class FP_O_Iran_Soldier_LAT_F: O_Soldier_LAT_F
 	{
@@ -260,8 +260,8 @@ class CfgVehicles
 		faction = "FP_Faction_IRI";
 		model = "\rhsgref\addons\rhsgref_infantry\gear_gue\gue_m93.p3d";
 		uniformClass = "m93_irn";  
-		linkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Tan_F","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Tan_F","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"FP_GOR_rhs_6sh117_rifleman_desert","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_GOR_rhs_6sh117_rifleman_desert","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"arifle_Katiba_ACO_F","launch_RPG32_F_black","hgun_Rook40_F","Throw","Put"};
 		respawnWeapons[] = {"arifle_Katiba_ACO_F","launch_RPG32_F_black","hgun_Rook40_F","Throw","Put"};
 	};
@@ -289,13 +289,29 @@ class CfgVehicles
 		faction = "FP_Faction_IRI";
 		model = "\rhsgref\addons\rhsgref_infantry\gear_gue\gue_m93.p3d";
 		uniformClass = "m93_irn";  
-		linkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Tan_F","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Tan_F","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};			
+		linkedItems[] = {"FP_GOR_rhs_6sh117_rifleman_desert","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_GOR_rhs_6sh117_rifleman_desert","pasgt_irn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};			
 	};
 	//class O_Sharpshooter_F;
-	//class O_Soldier_SL_F;
+	class FP_O_Iran_Soldier_SL_F: O_Soldier_SL_F
+	{
+		author = "FP Mod Team";
+		faction = "FP_Faction_IRI";
+		model = "\rhsgref\addons\rhsgref_infantry\gear_gue\gue_m93.p3d";
+		uniformClass = "m93_irn";  
+		linkedItems[] = {"FP_GOR_rhs_6sh117_nco_desert","pasgt_irn","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_GOR_rhs_6sh117_nco_desert","pasgt_irn","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
+	};
 	//class O_Survivor_F;
-	//class O_Soldier_TL_F;
+	class FP_O_Iran_Soldier_TL_F: O_Soldier_TL_F
+	{
+		author = "FP Mod Team";
+		faction = "FP_Faction_IRI";
+		model = "\rhsgref\addons\rhsgref_infantry\gear_gue\gue_m93.p3d";
+		uniformClass = "m93_irn";  
+		linkedItems[] = {"FP_GOR_rhs_6sh117_nco_desert","pasgt_irn","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_GOR_rhs_6sh117_nco_desert","pasgt_irn","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
+	};
 	//class O_soldier_UAV_F;
 	//class O_soldier_UAV_06_F;
 	//class O_soldier_UAV_06_medical_F;
