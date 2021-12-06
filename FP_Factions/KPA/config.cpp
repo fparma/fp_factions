@@ -1555,6 +1555,15 @@ class CfgVehicles
 		hiddenSelections[] = {"Camo","Camo2","Camo3","Camo4"};
 		hiddenSelectionsTextures[] = {"\FP_Factions\KPA\data\t55\t_55a_body_dprk_co.paa","\FP_Factions\KPA\data\t55\t_55a_turret_dprk_co.paa","\FP_Factions\KPA\data\t55\t_55a_gun_dprk_co.paa","sim_WT_tanks\T55\t_55a_mount_co.paa"};
 	};
+	class FP_O_TNK_PT76B;
+	class FP_Faction_KPA_PT76B: FP_O_TNK_PT76B
+	{
+		author = "FP Mod Team";
+		crew = "FP_Faction_KPA_Marine_Crewman";
+		faction = "FP_Faction_KPA";
+		hiddenSelections[] = {"camo","camo2","camo3","markings"};
+		hiddenselectionstextures[] = {"\FP_Factions\KPA\data\pt76b\pt_76b_body_dprk_co.paa","\FP_Factions\KPA\data\pt76b\pt_76b_turret_dprk_co.paa","\FP_Factions\KPA\data\pt76b\pt_76b_gun_dprk_co.paa","a3\data_f\clear_empty.paa"};
+	};
 	class UK3CB_CW_SOV_O_EARLY_T72A;
 	class FP_Faction_KPA_T72M: UK3CB_CW_SOV_O_EARLY_T72A
 	{
