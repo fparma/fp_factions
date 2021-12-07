@@ -1053,7 +1053,7 @@ class cfgvehicles
         respawnWeapons[] = {"hlc_lmg_M60E4","Throw","Put"};
 		magazines[] = {"hlc_100Rnd_762x51_M_M60E4","hlc_100Rnd_762x51_M_M60E4","HandGrenade","HandGrenade","rhs_mag_rdg2_white","rhs_mag_rdg2_white"};
 		respawnMagazines[] = {"hlc_100Rnd_762x51_M_M60E4","hlc_100Rnd_762x51_M_M60E4","HandGrenade","HandGrenade","rhs_mag_rdg2_white","rhs_mag_rdg2_white"};
-		backpack = "V_TacVest_oli_AAR";
+		backpack = "B_Kitbag_rgr_MEC_MAT";
 	};
 	class FP_Faction_MEC_Recon_Grenadier: FP_Faction_MEC_Recon_Rifleman
 	{
