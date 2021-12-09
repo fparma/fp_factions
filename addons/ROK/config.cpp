@@ -1,6 +1,7 @@
-#define mag_xx(a,b) class _xx_##a {magazine = a; count = b;}
-#define weap_xx(a,b) class _xx_##a {weapon = a; count = b;}
-#define item_xx(a,b) class _xx_##a {name = a; count = b;}
+#define quote(var1) #var1
+#define mag_xx(a,b) class _xx_##a {magazine = quote(a); count = b;}
+#define weap_xx(a,b) class _xx_##a {weapon = quote(a); count = b;}
+#define item_xx(a,b) class _xx_##a {name = quote(a); count = b;}
 class CfgPatches
 {
 	class FP_Factions_ROK
@@ -528,7 +529,7 @@ class CfgGroups
 						position[] = {-5,-5,0};
 						rank = "CORPORAL";
 						side = 1;
-						vehicle = "FP_B_ROK_MMG_F";
+						vehicle = "FP_B_ROK_Marine_MMG_F";
 					};
 					class Unit3
 					{
@@ -778,6 +779,206 @@ class CfgGroups
 						vehicle = "FP_B_ROK_Marine_UAV_F";
 						rank = "PRIVATE";
 						position[] = {-10,-10,0};
+					};
+				};
+			};
+			class Motorized
+			{
+				name = "Motorized Infantry";
+				class KPA_MotInf_Reinforce_M939
+				{
+					faction = "FP_Faction_ROK";
+					icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
+					name = "Motorized Reinforcements (M939)";
+					side = 0;
+					class Unit0
+					{
+						position[] = {0,0,0};
+						rank = "SERGEANT";
+						side = 0;
+						vehicle = "FP_B_ROK_M939_Closed";
+					};
+					class Unit1
+					{
+						position[] = {5,0,0};
+						rank = "SERGEANT";
+						side = 0;
+						vehicle = "FP_B_ROK_Soldier_SL_F";
+					};
+					class Unit2
+					{
+						position[] = {5,-2,0};
+						rank = "PRIVATE";
+						side = 0;
+						vehicle = "FP_B_ROK_Soldier_F";
+					};
+					class Unit3
+					{
+						position[] = {5,-4,0};
+						rank = "CORPORAL";
+						side = 0;
+						vehicle = "FP_B_ROK_Soldier_LAT_F";
+					};
+					class Unit4
+					{
+						position[] = {5,-6,0};
+						rank = "PRIVATE";
+						side = 0;
+						vehicle = "FP_B_ROK_Soldier_M_F";
+					};
+					class Unit5
+					{
+						position[] = {5,-8,0};
+						rank = "SERGEANT";
+						side = 0;
+						vehicle = "FP_B_ROK_Soldier_TL_F";
+					};
+					class Unit6
+					{
+						position[] = {5,-10,0};
+						rank = "CORPORAL";
+						side = 0;
+						vehicle = "FP_B_ROK_Soldier_AR_F";
+					};
+					class Unit7
+					{
+						position[] = {-5,-8,0};
+						rank = "PRIVATE";
+						side = 0;
+						vehicle = "FP_B_ROK_Soldier_A_F";
+					};
+					class Unit8
+					{
+						position[] = {-5,-10,0};
+						rank = "PRIVATE";
+						side = 0;
+						vehicle = "FP_B_ROK_Medic_F";
+					};
+					class Unit9
+					{
+						position[] = {-5,0,0};
+						rank = "SERGEANT";
+						side = 0;
+						vehicle = "FP_B_ROK_Soldier_TL_F";
+					};
+					class Unit10
+					{
+						position[] = {-5,-2,0};
+						rank = "CORPORAL";
+						side = 0;
+						vehicle = "FP_B_ROK_Soldier_AR_F";
+					};
+					class Unit11
+					{
+						position[] = {-5,-4,0};
+						rank = "PRIVATE";
+						side = 0;
+						vehicle = "FP_B_ROK_Soldier_AT_F";
+					};
+					class Unit12
+					{
+						position[] = {-5,-6,0};
+						rank = "PRIVATE";
+						side = 0;
+						vehicle = "FP_B_ROK_Soldier_LAT_F";
+					};
+				};
+				class KPA_MotInf_Reinforce_MTVR
+				{
+					faction = "FP_Faction_ROK";
+					icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
+					name = "Motorized Reinforcements (MTVR)";
+					side = 0;
+					class Unit0
+					{
+						position[] = {0,0,0};
+						rank = "SERGEANT";
+						side = 0;
+						vehicle = "FP_B_ROK_MTVR_Closed";
+					};
+					class Unit1
+					{
+						position[] = {5,0,0};
+						rank = "SERGEANT";
+						side = 0;
+						vehicle = "FP_B_ROK_Soldier_SL_F";
+					};
+					class Unit2
+					{
+						position[] = {5,-2,0};
+						rank = "PRIVATE";
+						side = 0;
+						vehicle = "FP_B_ROK_Soldier_F";
+					};
+					class Unit3
+					{
+						position[] = {5,-4,0};
+						rank = "CORPORAL";
+						side = 0;
+						vehicle = "FP_B_ROK_Soldier_LAT_F";
+					};
+					class Unit4
+					{
+						position[] = {5,-6,0};
+						rank = "PRIVATE";
+						side = 0;
+						vehicle = "FP_B_ROK_Soldier_M_F";
+					};
+					class Unit5
+					{
+						position[] = {5,-8,0};
+						rank = "SERGEANT";
+						side = 0;
+						vehicle = "FP_B_ROK_Soldier_TL_F";
+					};
+					class Unit6
+					{
+						position[] = {5,-10,0};
+						rank = "CORPORAL";
+						side = 0;
+						vehicle = "FP_B_ROK_Soldier_AR_F";
+					};
+					class Unit7
+					{
+						position[] = {-5,-8,0};
+						rank = "PRIVATE";
+						side = 0;
+						vehicle = "FP_B_ROK_Soldier_A_F";
+					};
+					class Unit8
+					{
+						position[] = {-5,-10,0};
+						rank = "PRIVATE";
+						side = 0;
+						vehicle = "FP_B_ROK_Medic_F";
+					};
+					class Unit9
+					{
+						position[] = {-5,0,0};
+						rank = "SERGEANT";
+						side = 0;
+						vehicle = "FP_B_ROK_Soldier_TL_F";
+					};
+					class Unit10
+					{
+						position[] = {-5,-2,0};
+						rank = "CORPORAL";
+						side = 0;
+						vehicle = "FP_B_ROK_Soldier_AR_F";
+					};
+					class Unit11
+					{
+						position[] = {-5,-4,0};
+						rank = "PRIVATE";
+						side = 0;
+						vehicle = "FP_B_ROK_Soldier_AT_F";
+					};
+					class Unit12
+					{
+						position[] = {-5,-6,0};
+						rank = "PRIVATE";
+						side = 0;
+						vehicle = "FP_B_ROK_Soldier_LAT_F";
 					};
 				};
 			};
@@ -1039,7 +1240,7 @@ class CfgVehicles
 			{
 				displayName = "Olive";
 				factions[] = {"FP_Faction_ROK"};	
-				textures[] = {"\fp_factions\ROK\Data\mohawk\CH49_ROK_01_co.paa","\fp_factions\ROK\Data\mohawk\CH49_ROK_02_co.paa","\fp_factions\ROK\Data\mohawk\CH49_ROK_03_co.paa","A3\Air_F_Beta\Heli_Transport_02\Data\Heli_Transport_02_int_02_CO.paa"};
+				textures[] = {"\FP_Factions\ROK\Data\mohawk\CH49_ROK_01_co.paa","\FP_Factions\ROK\Data\mohawk\CH49_ROK_02_co.paa","\FP_Factions\ROK\Data\mohawk\CH49_ROK_03_co.paa","A3\Air_F_Beta\Heli_Transport_02\Data\Heli_Transport_02_int_02_CO.paa"};
 			};
 		};
 		side = 1;
@@ -1049,7 +1250,7 @@ class CfgVehicles
 		faction = "FP_Faction_ROK";
 		crew = "FP_B_ROK_Helipilot_F";
 		hiddenSelections[] = {"camo1","camo2","camo3","camo4"};
-		hiddenSelectionsTextures[] = {"\fp_factions\ROK\Data\mohawk\CH49_ROK_01_co.paa","\fp_factions\ROK\Data\mohawk\CH49_ROK_02_co.paa","\fp_factions\ROK\Data\mohawk\CH49_ROK_03_co.paa","A3\Air_F_Beta\Heli_Transport_02\Data\Heli_Transport_02_int_02_CO.paa"};
+		hiddenSelectionsTextures[] = {"\FP_Factions\ROK\Data\mohawk\CH49_ROK_01_co.paa","\FP_Factions\ROK\Data\mohawk\CH49_ROK_02_co.paa","\FP_Factions\ROK\Data\mohawk\CH49_ROK_03_co.paa","A3\Air_F_Beta\Heli_Transport_02\Data\Heli_Transport_02_int_02_CO.paa"};
 	};
 	class FP_B_ROK_Heli_light_03_dynamicLoadout_F: I_Heli_light_03_dynamicLoadout_F
 	{

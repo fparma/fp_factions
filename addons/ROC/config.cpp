@@ -1,6 +1,7 @@
-#define mag_xx(a,b) class _xx_##a {magazine = a; count = b;}
-#define weap_xx(a,b) class _xx_##a {weapon = a; count = b;}
-#define item_xx(a,b) class _xx_##a {name = a; count = b;}
+#define quote(var1) #var1
+#define mag_xx(a,b) class _xx_##a {magazine = quote(a); count = b;}
+#define weap_xx(a,b) class _xx_##a {weapon = quote(a); count = b;}
+#define item_xx(a,b) class _xx_##a {name = quote(a); count = b;}
 class CfgPatches
 {
 	class FP_Factions_ROC
@@ -473,9 +474,9 @@ class CfgVehicles
 				author = "";
 				textures[]=
 				{
-					"fp_factions\ROC\data\M41\m41_bulldog_body_roc_camo_co.paa",
-					"fp_factions\ROC\data\M41\m41_bulldog_gun_roc_camo_co.paa",
-					"fp_factions\ROC\data\M41\m41_bulldog_turret_roc_camo_co.paa"
+					"\FP_Factions\ROC\data\M41\m41_bulldog_body_roc_camo_co.paa",
+					"\FP_Factions\ROC\data\M41\m41_bulldog_gun_roc_camo_co.paa",
+					"\FP_Factions\ROC\data\M41\m41_bulldog_turret_roc_camo_co.paa"
 				};
 				factions[] = {"FP_Faction_ROC"};
 			};
@@ -485,9 +486,9 @@ class CfgVehicles
 				author = "";
 				textures[]=
 				{
-					"fp_factions\ROC\data\M41\m41_bulldog_body_roc_green_co.paa",
-					"fp_factions\ROC\data\M41\m41_bulldog_gun_roc_green_co.paa",
-					"fp_factions\ROC\data\M41\m41_bulldog_turret_roc_green_co.paa"
+					"\FP_Factions\ROC\data\M41\m41_bulldog_body_roc_green_co.paa",
+					"\FP_Factions\ROC\data\M41\m41_bulldog_gun_roc_green_co.paa",
+					"\FP_Factions\ROC\data\M41\m41_bulldog_turret_roc_green_co.paa"
 				};
 				factions[] = {"FP_Faction_ROC"};
 			};
@@ -505,9 +506,9 @@ class CfgVehicles
 		};
 		hiddenselectionstextures[]=
 		{
-			"fp_factions\ROC\data\M41\m41_bulldog_body_roc_camo_co.paa",
-			"fp_factions\ROC\data\M41\m41_bulldog_gun_roc_camo_co.paa",
-			"fp_factions\ROC\data\M41\m41_bulldog_turret_roc_camo_co.paa"
+			"\FP_Factions\ROC\data\M41\m41_bulldog_body_roc_camo_co.paa",
+			"\FP_Factions\ROC\data\M41\m41_bulldog_gun_roc_camo_co.paa",
+			"\FP_Factions\ROC\data\M41\m41_bulldog_turret_roc_camo_co.paa"
 		};
 	};
 	class FP_B_ROC_M60A3_TTS: FP_B_M60A3_TTS_USMC

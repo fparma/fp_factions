@@ -1085,7 +1085,7 @@ class cfgVehicles
 			{
 				author="VME";
 				displayname = "PLA Woodland";				
-				textures[] = {"\fp_factions\PLA\data\Mi8\mi17_body_co.paa","\rhsafrf\addons\rhs_a2port_air\Mi17\data\camo\mi8_det_g_camo1_co.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_a2port_air\mi17\data\mi8_decals_ca.paa","a3\data_f\clear_empty.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_decals\data\labels\aviation\vvs_ca.paa"};	
+				textures[] = {"\FP_Factions\PLA\data\Mi8\mi17_body_co.paa","\rhsafrf\addons\rhs_a2port_air\Mi17\data\camo\mi8_det_g_camo1_co.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_a2port_air\mi17\data\mi8_decals_ca.paa","a3\data_f\clear_empty.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_decals\data\labels\aviation\vvs_ca.paa"};	
 				factions[] = {"FP_Faction_PLA"};
 			};			
 		};
@@ -1095,7 +1095,7 @@ class cfgVehicles
 		faction = "FP_Faction_PLA";
 		typicalCargo[] = {"FP_Faction_PLA_Helicrew"};
 		hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","n1","n2","tail_decals"};
-		hiddenselectionstextures[] = {"\fp_factions\PLA\data\Mi8\mi17_body_co.paa","\rhsafrf\addons\rhs_a2port_air\Mi17\data\camo\mi8_det_g_camo1_co.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_a2port_air\mi17\data\mi8_decals_ca.paa","a3\data_f\clear_empty.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_decals\data\labels\aviation\vvs_ca.paa"};	
+		hiddenselectionstextures[] = {"\FP_Factions\PLA\data\Mi8\mi17_body_co.paa","\rhsafrf\addons\rhs_a2port_air\Mi17\data\camo\mi8_det_g_camo1_co.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_a2port_air\mi17\data\mi8_decals_ca.paa","a3\data_f\clear_empty.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_decals\data\labels\aviation\vvs_ca.paa"};	
 	};
 	class FP_Mi8mt_Cargo_PLA: RHS_Mi8mt_Cargo_vvsc
 	{
@@ -1107,7 +1107,7 @@ class cfgVehicles
 			{
 				author="VME";
 				displayname = "PLA Woodland";				
-				textures[] = {"\fp_factions\PLA\data\Mi8\mi17_body_co.paa","\rhsafrf\addons\rhs_a2port_air\Mi17\data\camo\mi8_det_g_camo1_co.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_a2port_air\mi17\data\mi8_decals_ca.paa","a3\data_f\clear_empty.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_decals\data\labels\aviation\vvs_ca.paa"};	
+				textures[] = {"\FP_Factions\PLA\data\Mi8\mi17_body_co.paa","\rhsafrf\addons\rhs_a2port_air\Mi17\data\camo\mi8_det_g_camo1_co.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_a2port_air\mi17\data\mi8_decals_ca.paa","a3\data_f\clear_empty.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_decals\data\labels\aviation\vvs_ca.paa"};	
 				factions[] = {"FP_Faction_PLA"};
 			};			
 		};
@@ -1117,7 +1117,7 @@ class cfgVehicles
 		faction = "FP_Faction_PLA";
 		typicalCargo[] = {"FP_Faction_PLA_Helicrew"};
 		hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","n1","n2","tail_decals"};
-		hiddenselectionstextures[] = {"\fp_factions\PLA\data\Mi8\mi17_body_co.paa","\rhsafrf\addons\rhs_a2port_air\Mi17\data\camo\mi8_det_g_camo1_co.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_a2port_air\mi17\data\mi8_decals_ca.paa","a3\data_f\clear_empty.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_decals\data\labels\aviation\vvs_ca.paa"};	
+		hiddenselectionstextures[] = {"\FP_Factions\PLA\data\Mi8\mi17_body_co.paa","\rhsafrf\addons\rhs_a2port_air\Mi17\data\camo\mi8_det_g_camo1_co.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_a2port_air\mi17\data\mi8_decals_ca.paa","a3\data_f\clear_empty.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_decals\data\labels\aviation\vvs_ca.paa"};	
 	};	
 	class FP_Mi8MTV3_PLA: RHS_Mi8MTV3_vvsc
 	{
@@ -1129,7 +1129,7 @@ class cfgVehicles
 			{
 				author="VME";
 				displayname = "PLA Woodland";				
-				textures[] = {"\fp_factions\PLA\data\Mi8\mi17_body_co.paa","\rhsafrf\addons\rhs_a2port_air\Mi17\data\camo\mi8_det_g_camo1_co.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_a2port_air\mi17\data\mi8_decals_ca.paa","a3\data_f\clear_empty.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_decals\data\labels\aviation\vvs_ca.paa"};	
+				textures[] = {"\FP_Factions\PLA\data\Mi8\mi17_body_co.paa","\rhsafrf\addons\rhs_a2port_air\Mi17\data\camo\mi8_det_g_camo1_co.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_a2port_air\mi17\data\mi8_decals_ca.paa","a3\data_f\clear_empty.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_decals\data\labels\aviation\vvs_ca.paa"};	
 				factions[] = {"FP_Faction_PLA"};
 			};			
 		};
@@ -1139,7 +1139,7 @@ class cfgVehicles
 		faction = "FP_Faction_PLA";
 		typicalCargo[] = {"FP_Faction_PLA_Helicrew"};
 		hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","n1","n2","tail_decals"};
-		hiddenselectionstextures[] = {"\fp_factions\PLA\data\Mi8\mi17_body_co.paa","\rhsafrf\addons\rhs_a2port_air\Mi17\data\camo\mi8_det_g_camo1_co.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_a2port_air\mi17\data\mi8_decals_ca.paa","a3\data_f\clear_empty.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_decals\data\labels\aviation\vvs_ca.paa"};	
+		hiddenselectionstextures[] = {"\FP_Factions\PLA\data\Mi8\mi17_body_co.paa","\rhsafrf\addons\rhs_a2port_air\Mi17\data\camo\mi8_det_g_camo1_co.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_a2port_air\mi17\data\mi8_decals_ca.paa","a3\data_f\clear_empty.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_decals\data\labels\aviation\vvs_ca.paa"};	
 	};
 	class FP_Mi8mtv3_Cargo_PLA: RHS_Mi8mtv3_Cargo_vvsc
 	{
@@ -1151,7 +1151,7 @@ class cfgVehicles
 			{
 				author="VME";
 				displayname = "PLA Woodland";				
-				textures[] = {"\fp_factions\PLA\data\Mi8\mi17_body_co.paa","\rhsafrf\addons\rhs_a2port_air\Mi17\data\camo\mi8_det_g_camo1_co.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_a2port_air\mi17\data\mi8_decals_ca.paa","a3\data_f\clear_empty.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_decals\data\labels\aviation\vvs_ca.paa"};	
+				textures[] = {"\FP_Factions\PLA\data\Mi8\mi17_body_co.paa","\rhsafrf\addons\rhs_a2port_air\Mi17\data\camo\mi8_det_g_camo1_co.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_a2port_air\mi17\data\mi8_decals_ca.paa","a3\data_f\clear_empty.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_decals\data\labels\aviation\vvs_ca.paa"};	
 				factions[] = {"FP_Faction_PLA"};
 			};			
 		};
@@ -1161,7 +1161,7 @@ class cfgVehicles
 		faction = "FP_Faction_PLA";
 		typicalCargo[] = {"FP_Faction_PLA_Helicrew"};
 		hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","n1","n2","tail_decals"};
-		hiddenselectionstextures[] = {"\fp_factions\PLA\data\Mi8\mi17_body_co.paa","\rhsafrf\addons\rhs_a2port_air\Mi17\data\camo\mi8_det_g_camo1_co.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_a2port_air\mi17\data\mi8_decals_ca.paa","a3\data_f\clear_empty.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_decals\data\labels\aviation\vvs_ca.paa"};	
+		hiddenselectionstextures[] = {"\FP_Factions\PLA\data\Mi8\mi17_body_co.paa","\rhsafrf\addons\rhs_a2port_air\Mi17\data\camo\mi8_det_g_camo1_co.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_a2port_air\mi17\data\mi8_decals_ca.paa","a3\data_f\clear_empty.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_decals\data\labels\aviation\vvs_ca.paa"};	
 	};
 	class FP_Mi8MTV3_heavy_PLA: RHS_Mi8MTV3_heavy_vvsc
 	{
@@ -1173,7 +1173,7 @@ class cfgVehicles
 			{
 				author="VME";
 				displayname = "PLA Woodland";				
-				textures[] = {"\fp_factions\PLA\data\Mi8\mi17_body_co.paa","\rhsafrf\addons\rhs_a2port_air\Mi17\data\camo\mi8_det_g_camo1_co.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_a2port_air\mi17\data\mi8_decals_ca.paa","a3\data_f\clear_empty.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_decals\data\labels\aviation\vvs_ca.paa"};	
+				textures[] = {"\FP_Factions\PLA\data\Mi8\mi17_body_co.paa","\rhsafrf\addons\rhs_a2port_air\Mi17\data\camo\mi8_det_g_camo1_co.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_a2port_air\mi17\data\mi8_decals_ca.paa","a3\data_f\clear_empty.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_decals\data\labels\aviation\vvs_ca.paa"};	
 				factions[] = {"FP_Faction_PLA"};
 			};			
 		};
@@ -1183,7 +1183,7 @@ class cfgVehicles
 		faction = "FP_Faction_PLA";
 		typicalCargo[] = {"FP_Faction_PLA_Helicrew"};
 		hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","n1","n2","tail_decals"};
-		hiddenselectionstextures[] = {"\fp_factions\PLA\data\Mi8\mi17_body_co.paa","\rhsafrf\addons\rhs_a2port_air\Mi17\data\camo\mi8_det_g_camo1_co.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_a2port_air\mi17\data\mi8_decals_ca.paa","a3\data_f\clear_empty.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_decals\data\labels\aviation\vvs_ca.paa"};	
+		hiddenselectionstextures[] = {"\FP_Factions\PLA\data\Mi8\mi17_body_co.paa","\rhsafrf\addons\rhs_a2port_air\Mi17\data\camo\mi8_det_g_camo1_co.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_a2port_air\mi17\data\mi8_decals_ca.paa","a3\data_f\clear_empty.paa","a3\data_f\clear_empty.paa","rhsafrf\addons\rhs_decals\data\labels\aviation\vvs_ca.paa"};	
 	};
 	class FP_Z9A_PLA: O_Heli_Light_02_dynamicLoadout_F
 	{
@@ -1195,7 +1195,7 @@ class cfgVehicles
 			{
 				author="CSLeader";
 				displayname = "PLA Black";				
-				textures[] = {"\fp_factions\PLA\data\z9a\heli_light_02_ext_pla_co.paa"};
+				textures[] = {"\FP_Factions\PLA\data\z9a\heli_light_02_ext_pla_co.paa"};
 				factions[] = {"FP_Faction_PLA"};
 			};			
 		};
@@ -1204,7 +1204,7 @@ class cfgVehicles
 		editorSubcategory = "EdSubcat_Helicopters";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"Camo1"};
-		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\z9a\heli_light_02_ext_pla_co.paa"};		
+		hiddenSelectionsTextures[] = {"\FP_Factions\PLA\data\z9a\heli_light_02_ext_pla_co.paa"};		
 	};
 	class FP_Z9A_PLA_unarmed: O_Heli_Light_02_unarmed_F
 	{
@@ -1216,7 +1216,7 @@ class cfgVehicles
 			{
 				author="CSLeader";
 				displayname = "PLA Black";				
-				textures[] = {"\fp_factions\PLA\data\z9a\heli_light_02_ext_pla_co.paa"};
+				textures[] = {"\FP_Factions\PLA\data\z9a\heli_light_02_ext_pla_co.paa"};
 				factions[] = {"FP_Faction_PLA"};
 			};			
 		};
@@ -1225,7 +1225,7 @@ class cfgVehicles
 		editorSubcategory = "EdSubcat_Helicopters";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"Camo1"};
-		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\z9a\heli_light_02_ext_pla_co.paa"};		
+		hiddenSelectionsTextures[] = {"\FP_Factions\PLA\data\z9a\heli_light_02_ext_pla_co.paa"};		
 	};
 	class rhs_mi28n_vvs;
 	class B_Heli_Attack_01_dynamicLoadout_F;
@@ -1261,7 +1261,7 @@ class cfgVehicles
 		editorSubcategory = "EdSubcat_Helicopters";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"camo1"};
-		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\z19\Heli_Attack_01_PLA_black_CO.paa"};
+		hiddenSelectionsTextures[] = {"\FP_Factions\PLA\data\z19\Heli_Attack_01_PLA_black_CO.paa"};
 	};
 	class FP_O_PLA_UH60M: RHS_UH60M
 	{
@@ -1299,45 +1299,45 @@ class cfgVehicles
 			{
 				author="CSLeader";
 				displayname = "Ghost White";				
-				textures[] = {"\fp_factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_01_co.paa","\fp_factions\PLA\data\shikra\Fighter_02_fuselage_02_PLAAF_01_co.paa","\fp_factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_01_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_02_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_00_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_01_co.paa","a3\data_f\clear_empty.paa"};
+				textures[] = {"\FP_Factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_01_co.paa","\FP_Factions\PLA\data\shikra\Fighter_02_fuselage_02_PLAAF_01_co.paa","\FP_Factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_01_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_02_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_00_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_01_co.paa","a3\data_f\clear_empty.paa"};
 				factions[] = {"FP_Faction_PLA"};
 			};
 			class PLASkin02
 			{
 				author="CSLeader";
 				displayname = "Light Gray";				
-				textures[] = {"\fp_factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_02_co.paa","\fp_factions\PLA\data\shikra\Fighter_02_fuselage_02_PLAAF_02_co.paa","\fp_factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_02_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_02_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_00_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_01_co.paa","a3\data_f\clear_empty.paa"};
+				textures[] = {"\FP_Factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_02_co.paa","\FP_Factions\PLA\data\shikra\Fighter_02_fuselage_02_PLAAF_02_co.paa","\FP_Factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_02_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_02_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_00_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_01_co.paa","a3\data_f\clear_empty.paa"};
 				factions[] = {"FP_Faction_PLA"};
 			};	
 			class PLASkin03
 			{
 				author="CSLeader";
 				displayname = "Black";				
-				textures[] = {"\fp_factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_03_co.paa","\fp_factions\PLA\data\shikra\Fighter_02_fuselage_02_PLAAF_03_co.paa","\fp_factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_03_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_02_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_00_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_01_co.paa","a3\data_f\clear_empty.paa"};
+				textures[] = {"\FP_Factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_03_co.paa","\FP_Factions\PLA\data\shikra\Fighter_02_fuselage_02_PLAAF_03_co.paa","\FP_Factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_03_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_02_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_00_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_01_co.paa","a3\data_f\clear_empty.paa"};
 				factions[] = {"FP_Faction_PLA"};
 			};
 			class PLASkin03LV
 			{
 				author="CSLeader";
 				displayname = "Black (Low-Vis)";				
-				textures[] = {"\fp_factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_03_co.paa","\fp_factions\PLA\data\shikra\Fighter_02_fuselage_02_PLAAF_03_LV_co.paa","\fp_factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_03_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_02_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_00_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_01_co.paa","a3\data_f\clear_empty.paa"};
+				textures[] = {"\FP_Factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_03_co.paa","\FP_Factions\PLA\data\shikra\Fighter_02_fuselage_02_PLAAF_03_LV_co.paa","\FP_Factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_03_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_02_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_00_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_01_co.paa","a3\data_f\clear_empty.paa"};
 				factions[] = {"FP_Faction_PLA"};
 			};	
 			class PLASkin04
 			{
 				author="CSLeader";
 				displayname = "Aggressor (Ferris)";				
-				textures[] = {"\fp_factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_04_co.paa","\fp_factions\PLA\data\shikra\Fighter_02_fuselage_02_PLAAF_04_co.paa","\fp_factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_04_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_02_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_00_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_01_co.paa","a3\data_f\clear_empty.paa"};
+				textures[] = {"\FP_Factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_04_co.paa","\FP_Factions\PLA\data\shikra\Fighter_02_fuselage_02_PLAAF_04_co.paa","\FP_Factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_04_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_02_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_00_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_01_co.paa","a3\data_f\clear_empty.paa"};
 				factions[] = {"FP_Faction_PLA"};
 			};				
 		};
 		textureList[] = 
 		{
-			PLASkin01, 0.25,
-			PLASkin02, 0.25,
-			PLASkin03, 0.25,
-			PLASkin03LV, 0.25,
-			PLASkin04, 0
+			"PLASkin01", 0.25,
+			"PLASkin02", 0.25,
+			"PLASkin03", 0.25,
+			"PLASkin03LV", 0.25,
+			"PLASkin04", 0
 		};
 		author = "FP Mod Team";
 		crew = "FP_Faction_PLA_Fighter_Pilot_F";
@@ -1345,7 +1345,7 @@ class cfgVehicles
 		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_Plane_Fighter_02_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"Camo_01","Camo_02","","number_01","number_02","number_03"};
-		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_01_co.paa","\fp_factions\PLA\data\shikra\Fighter_02_fuselage_02_PLAAF_01_co.paa","\fp_factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_01_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_02_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_00_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_01_co.paa"};
+		hiddenSelectionsTextures[] = {"\FP_Factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_01_co.paa","\FP_Factions\PLA\data\shikra\Fighter_02_fuselage_02_PLAAF_01_co.paa","\FP_Factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_01_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_02_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_00_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_01_co.paa"};
 	};
 	class FP_Faction_PLA_Plane_Fighter_02_Stealth_F: O_Plane_Fighter_02_Stealth_F
 	{
@@ -1357,45 +1357,45 @@ class cfgVehicles
 			{
 				author="CSLeader";
 				displayname = "Ghost White";				
-				textures[] = {"\fp_factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_01_co.paa","\fp_factions\PLA\data\shikra\Fighter_02_fuselage_02_PLAAF_01_co.paa","\fp_factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_01_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_02_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_00_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_01_co.paa","a3\data_f\clear_empty.paa"};
+				textures[] = {"\FP_Factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_01_co.paa","\FP_Factions\PLA\data\shikra\Fighter_02_fuselage_02_PLAAF_01_co.paa","\FP_Factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_01_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_02_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_00_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_01_co.paa","a3\data_f\clear_empty.paa"};
 				factions[] = {"FP_Faction_PLA"};
 			};
 			class PLASkin02
 			{
 				author="CSLeader";
 				displayname = "Light Gray";				
-				textures[] = {"\fp_factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_02_co.paa","\fp_factions\PLA\data\shikra\Fighter_02_fuselage_02_PLAAF_02_co.paa","\fp_factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_02_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_02_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_00_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_01_co.paa","a3\data_f\clear_empty.paa"};
+				textures[] = {"\FP_Factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_02_co.paa","\FP_Factions\PLA\data\shikra\Fighter_02_fuselage_02_PLAAF_02_co.paa","\FP_Factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_02_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_02_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_00_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_01_co.paa","a3\data_f\clear_empty.paa"};
 				factions[] = {"FP_Faction_PLA"};
 			};	
 			class PLASkin03
 			{
 				author="CSLeader";
 				displayname = "Black";				
-				textures[] = {"\fp_factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_03_co.paa","\fp_factions\PLA\data\shikra\Fighter_02_fuselage_02_PLAAF_03_co.paa","\fp_factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_03_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_02_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_00_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_01_co.paa","a3\data_f\clear_empty.paa"};
+				textures[] = {"\FP_Factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_03_co.paa","\FP_Factions\PLA\data\shikra\Fighter_02_fuselage_02_PLAAF_03_co.paa","\FP_Factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_03_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_02_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_00_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_01_co.paa","a3\data_f\clear_empty.paa"};
 				factions[] = {"FP_Faction_PLA"};
 			};
 			class PLASkin03LV
 			{
 				author="CSLeader";
 				displayname = "Black (Low-Vis)";				
-				textures[] = {"\fp_factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_03_co.paa","\fp_factions\PLA\data\shikra\Fighter_02_fuselage_02_PLAAF_03_LV_co.paa","\fp_factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_03_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_02_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_00_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_01_co.paa","a3\data_f\clear_empty.paa"};
+				textures[] = {"\FP_Factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_03_co.paa","\FP_Factions\PLA\data\shikra\Fighter_02_fuselage_02_PLAAF_03_LV_co.paa","\FP_Factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_03_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_02_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_00_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_01_co.paa","a3\data_f\clear_empty.paa"};
 				factions[] = {"FP_Faction_PLA"};
 			};
 			class PLASkin04
 			{
 				author="CSLeader";
 				displayname = "Aggressor (Ferris)";				
-				textures[] = {"\fp_factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_04_co.paa","\fp_factions\PLA\data\shikra\Fighter_02_fuselage_02_PLAAF_04_co.paa","\fp_factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_04_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_02_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_00_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_01_co.paa","a3\data_f\clear_empty.paa"};
+				textures[] = {"\FP_Factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_04_co.paa","\FP_Factions\PLA\data\shikra\Fighter_02_fuselage_02_PLAAF_04_co.paa","\FP_Factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_04_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_02_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_00_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_01_co.paa","a3\data_f\clear_empty.paa"};
 				factions[] = {"FP_Faction_PLA"};
 			};			
 		};
 		textureList[] = 
 		{
-			PLASkin01, 0.25,
-			PLASkin02, 0.25,
-			PLASkin03, 0.25,
-			PLASkin03LV, 0.25,
-			PLASkin04, 0
+			"PLASkin01", 0.25,
+			"PLASkin02", 0.25,
+			"PLASkin03", 0.25,
+			"PLASkin03LV", 0.25,
+			"PLASkin04", 0
 		};
 		author = "FP Mod Team";
 		crew = "FP_Faction_PLA_Fighter_Pilot_F";
@@ -1403,7 +1403,7 @@ class cfgVehicles
 		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_Plane_Fighter_02_Stealth_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"Camo_01","Camo_02","","number_01","number_02","number_03"};
-		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_01_co.paa","\fp_factions\PLA\data\shikra\Fighter_02_fuselage_02_PLAAF_01_co.paa","\fp_factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_01_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_02_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_00_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_01_co.paa"};
+		hiddenSelectionsTextures[] = {"\FP_Factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_01_co.paa","\FP_Factions\PLA\data\shikra\Fighter_02_fuselage_02_PLAAF_01_co.paa","\FP_Factions\PLA\data\shikra\Fighter_02_fuselage_01_PLAAF_01_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_02_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_00_co.paa","a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_01_co.paa"};
 	};
 	class FP_Faction_PLA_Plane_CAS_02_dynamicLoadout_F: O_Plane_CAS_02_dynamicLoadout_F
 	{
@@ -1415,7 +1415,7 @@ class cfgVehicles
 		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_Plane_CAS_02_dynamicLoadout_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"Camo_1","Camo_2"};
-		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\neophron\Fighter02_ext01_PLAAF_03_CO.paa","\fp_factions\PLA\data\neophron\Fighter02_ext02_PLAAF_03_CO.paa"};
+		hiddenSelectionsTextures[] = {"\FP_Factions\PLA\data\neophron\Fighter02_ext01_PLAAF_03_CO.paa","\FP_Factions\PLA\data\neophron\Fighter02_ext02_PLAAF_03_CO.paa"};
 	};
 	class FP_Faction_PLA_Plane_Fighter_04_F: I_Plane_Fighter_04_F
 	{
@@ -1427,7 +1427,7 @@ class cfgVehicles
 			{
 				author="CSLeader";
 				displayname = "Ghost White";				
-				textures[] = {"\fp_factions\PLA\data\gryphon\Fighter_04_fuselage_01_PLA_co.paa","\fp_factions\PLA\data\gryphon\Fighter_04_fuselage_02_PLA_co.paa","a3\air_f_jets\plane_fighter_04\data\Fighter_04_misc_01_co.paa","a3\air_f_jets\plane_fighter_04\data\Numbers\Fighter_04_number_04_ca.paa","a3\air_f_jets\plane_fighter_04\data\Numbers\Fighter_04_number_04_ca.paa","a3\air_f_jets\plane_fighter_04\data\Numbers\Fighter_04_number_08_ca.paa"};
+				textures[] = {"\FP_Factions\PLA\data\gryphon\Fighter_04_fuselage_01_PLA_co.paa","\FP_Factions\PLA\data\gryphon\Fighter_04_fuselage_02_PLA_co.paa","a3\air_f_jets\plane_fighter_04\data\Fighter_04_misc_01_co.paa","a3\air_f_jets\plane_fighter_04\data\Numbers\Fighter_04_number_04_ca.paa","a3\air_f_jets\plane_fighter_04\data\Numbers\Fighter_04_number_04_ca.paa","a3\air_f_jets\plane_fighter_04\data\Numbers\Fighter_04_number_08_ca.paa"};
 				factions[] = {"FP_Faction_PLA"};
 			};			
 		};
@@ -1438,7 +1438,7 @@ class cfgVehicles
 		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_Plane_Fighter_04_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"Camo_01","Camo_02","Camo_03","number_01","number_02","number_03"};
-		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\gryphon\Fighter_04_fuselage_01_PLA_co.paa","\fp_factions\PLA\data\gryphon\Fighter_04_fuselage_02_PLA_co.paa","a3\air_f_jets\plane_fighter_04\data\Fighter_04_misc_01_co.paa","a3\air_f_jets\plane_fighter_04\data\Numbers\Fighter_04_number_04_ca.paa","a3\air_f_jets\plane_fighter_04\data\Numbers\Fighter_04_number_04_ca.paa","a3\air_f_jets\plane_fighter_04\data\Numbers\Fighter_04_number_08_ca.paa"};
+		hiddenSelectionsTextures[] = {"\FP_Factions\PLA\data\gryphon\Fighter_04_fuselage_01_PLA_co.paa","\FP_Factions\PLA\data\gryphon\Fighter_04_fuselage_02_PLA_co.paa","a3\air_f_jets\plane_fighter_04\data\Fighter_04_misc_01_co.paa","a3\air_f_jets\plane_fighter_04\data\Numbers\Fighter_04_number_04_ca.paa","a3\air_f_jets\plane_fighter_04\data\Numbers\Fighter_04_number_04_ca.paa","a3\air_f_jets\plane_fighter_04\data\Numbers\Fighter_04_number_08_ca.paa"};
 	};
 	class O_T_VTOL_02_infantry_dynamicLoadout_F;
 	class O_T_VTOL_02_vehicle_dynamicLoadout_F;
@@ -1502,14 +1502,14 @@ class cfgVehicles
 			{
 				author="CSLeader";
 				displayname = "PLA Green";				
-				textures[] = {"\fp_factions\PLA\data\kamysh\APC_Tracked_02_ext_01_PLA_CO.paa","\fp_factions\PLA\data\kamysh\APC_Tracked_02_ext_02_PLA_CO.paa","\fp_factions\PLA\data\kamysh\RCWS30_PLA_CO.paa","A3\Armor_F\Data\camonet_CSAT_HEX_Green_CO.paa","A3\armor_f\data\cage_csat_green_CO.paa"};
+				textures[] = {"\FP_Factions\PLA\data\kamysh\APC_Tracked_02_ext_01_PLA_CO.paa","\FP_Factions\PLA\data\kamysh\APC_Tracked_02_ext_02_PLA_CO.paa","\FP_Factions\PLA\data\kamysh\RCWS30_PLA_CO.paa","A3\Armor_F\Data\camonet_CSAT_HEX_Green_CO.paa","A3\armor_f\data\cage_csat_green_CO.paa"};
 				factions[] = {"FP_Faction_PLA"};
 			};
 			class PLA_APC_Camo
 			{
 				author="CSLeader";
 				displayname = "PLA Camo";				
-				textures[] = {"\fp_factions\PLA\data\kamysh\APC_Tracked_02_ext_01_PLA_Camo_CO.paa","\fp_factions\PLA\data\kamysh\APC_Tracked_02_ext_02_PLA_Camo_CO.paa","\fp_factions\PLA\data\kamysh\RCWS30_PLA_Camo_CO.paa","A3\Armor_F\Data\camonet_CSAT_HEX_Green_CO.paa","A3\armor_f\data\cage_csat_green_CO.paa"};
+				textures[] = {"\FP_Factions\PLA\data\kamysh\APC_Tracked_02_ext_01_PLA_Camo_CO.paa","\FP_Factions\PLA\data\kamysh\APC_Tracked_02_ext_02_PLA_Camo_CO.paa","\FP_Factions\PLA\data\kamysh\RCWS30_PLA_Camo_CO.paa","A3\Armor_F\Data\camonet_CSAT_HEX_Green_CO.paa","A3\armor_f\data\cage_csat_green_CO.paa"};
 				factions[] = {"FP_Faction_PLA"};
 			};			
 		};
@@ -1524,7 +1524,7 @@ class cfgVehicles
 		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_APC_Tracked_02_cannon_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"camo1","camo2","camo3","CamoNet","CamoSlat"};
-		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\kamysh\APC_Tracked_02_ext_01_PLA_CO.paa","\fp_factions\PLA\data\kamysh\APC_Tracked_02_ext_02_PLA_CO.paa","\fp_factions\PLA\data\kamysh\RCWS30_PLA_CO.paa","A3\Armor_F\Data\camonet_CSAT_HEX_Green_CO.paa","A3\armor_f\data\cage_csat_green_CO.paa"};
+		hiddenSelectionsTextures[] = {"\FP_Factions\PLA\data\kamysh\APC_Tracked_02_ext_01_PLA_CO.paa","\FP_Factions\PLA\data\kamysh\APC_Tracked_02_ext_02_PLA_CO.paa","\FP_Factions\PLA\data\kamysh\RCWS30_PLA_CO.paa","A3\Armor_F\Data\camonet_CSAT_HEX_Green_CO.paa","A3\armor_f\data\cage_csat_green_CO.paa"};
 	};
 	class FP_Faction_PLA_APC_Tracked_02_AA_F: O_APC_Tracked_02_AA_F
 	{
@@ -1536,14 +1536,14 @@ class cfgVehicles
 			{
 				author="CSLeader";
 				displayname = "PLA Green";				
-				textures[] = {"\fp_factions\PLA\data\kamysh\APC_Tracked_02_ext_01_AA_PLA_CO.paa","\fp_factions\PLA\data\kamysh\APC_Tracked_02_ext_02_PLA_CO.paa","\fp_factions\PLA\data\kamysh\APC_Tracked_01_AA_Tower_PLA_CO.paa","A3\Armor_F\Data\camonet_CSAT_HEX_Green_CO.paa","A3\armor_f\data\cage_csat_green_CO.paa"};
+				textures[] = {"\FP_Factions\PLA\data\kamysh\APC_Tracked_02_ext_01_AA_PLA_CO.paa","\FP_Factions\PLA\data\kamysh\APC_Tracked_02_ext_02_PLA_CO.paa","\FP_Factions\PLA\data\kamysh\APC_Tracked_01_AA_Tower_PLA_CO.paa","A3\Armor_F\Data\camonet_CSAT_HEX_Green_CO.paa","A3\armor_f\data\cage_csat_green_CO.paa"};
 				factions[] = {"FP_Faction_PLA"};
 			};
 			class PLA_AA_Camo
 			{
 				author="CSLeader";
 				displayname = "PLA Camo";				
-				textures[] = {"\fp_factions\PLA\data\kamysh\APC_Tracked_02_ext_01_AA_PLA_Camo_CO.paa","\fp_factions\PLA\data\kamysh\APC_Tracked_02_ext_02_PLA_Camo_CO.paa","\fp_factions\PLA\data\kamysh\APC_Tracked_01_AA_Tower_PLA_Camo_CO.paa","A3\Armor_F\Data\camonet_CSAT_HEX_Green_CO.paa","A3\armor_f\data\cage_csat_green_CO.paa"};
+				textures[] = {"\FP_Factions\PLA\data\kamysh\APC_Tracked_02_ext_01_AA_PLA_Camo_CO.paa","\FP_Factions\PLA\data\kamysh\APC_Tracked_02_ext_02_PLA_Camo_CO.paa","\FP_Factions\PLA\data\kamysh\APC_Tracked_01_AA_Tower_PLA_Camo_CO.paa","A3\Armor_F\Data\camonet_CSAT_HEX_Green_CO.paa","A3\armor_f\data\cage_csat_green_CO.paa"};
 				factions[] = {"FP_Faction_PLA"};
 			};			
 		};
@@ -1558,7 +1558,7 @@ class cfgVehicles
 		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_APC_Tracked_02_AA_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"camo1","camo2","camo3","CamoNet","CamoSlat"};
-		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\kamysh\APC_Tracked_02_ext_01_AA_PLA_CO.paa","\fp_factions\PLA\data\kamysh\APC_Tracked_02_ext_02_PLA_CO.paa","\fp_factions\PLA\data\kamysh\APC_Tracked_01_AA_Tower_PLA_CO.paa","A3\Armor_F\Data\camonet_CSAT_HEX_Green_CO.paa","A3\armor_f\data\cage_csat_green_CO.paa"};
+		hiddenSelectionsTextures[] = {"\FP_Factions\PLA\data\kamysh\APC_Tracked_02_ext_01_AA_PLA_CO.paa","\FP_Factions\PLA\data\kamysh\APC_Tracked_02_ext_02_PLA_CO.paa","\FP_Factions\PLA\data\kamysh\APC_Tracked_01_AA_Tower_PLA_CO.paa","A3\Armor_F\Data\camonet_CSAT_HEX_Green_CO.paa","A3\armor_f\data\cage_csat_green_CO.paa"};
 	};
 	class O_Quadbike_01_F;
 	class FP_Faction_PLA_Quadbike_01_F: O_Quadbike_01_F
@@ -1595,7 +1595,7 @@ class cfgVehicles
 			{
 				author="CSLeader";
 				displayname = "PLA Green";				
-				textures[] = {"\fp_factions\PLA\data\qilin\CSAT_LSV_01_PLA_CO.paa","\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_02_black_CO.paa","\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_03_black_CO.paa"};
+				textures[] = {"\FP_Factions\PLA\data\qilin\CSAT_LSV_01_PLA_CO.paa","\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_02_black_CO.paa","\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_03_black_CO.paa"};
 				factions[] = {"FP_Faction_PLA"};
 			};			
 		};
@@ -1604,7 +1604,7 @@ class cfgVehicles
 		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_LSV_02_unarmed_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"Camo1","Camo2","Camo3"};
-		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\qilin\CSAT_LSV_01_PLA_CO.paa","\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_02_black_CO.paa","\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_03_black_CO.paa"};
+		hiddenSelectionsTextures[] = {"\FP_Factions\PLA\data\qilin\CSAT_LSV_01_PLA_CO.paa","\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_02_black_CO.paa","\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_03_black_CO.paa"};
 	};
 	class FP_Faction_PLA_LSV_02_armed_F: O_T_LSV_02_armed_F
 	{
@@ -1616,7 +1616,7 @@ class cfgVehicles
 			{
 				author="CSLeader";
 				displayname = "PLA Green";				
-				textures[] = {"\fp_factions\PLA\data\qilin\CSAT_LSV_01_PLA_CO.paa","\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_02_black_CO.paa","\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_03_black_CO.paa"};
+				textures[] = {"\FP_Factions\PLA\data\qilin\CSAT_LSV_01_PLA_CO.paa","\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_02_black_CO.paa","\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_03_black_CO.paa"};
 				factions[] = {"FP_Faction_PLA"};
 			};			
 		};
@@ -1625,7 +1625,7 @@ class cfgVehicles
 		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_LSV_02_armed_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"Camo1","Camo2","Camo3"};
-		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\qilin\CSAT_LSV_01_PLA_CO.paa","\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_02_black_CO.paa","\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_03_black_CO.paa"};
+		hiddenSelectionsTextures[] = {"\FP_Factions\PLA\data\qilin\CSAT_LSV_01_PLA_CO.paa","\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_02_black_CO.paa","\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_03_black_CO.paa"};
 	};
 	class FP_Faction_PLA_LSV_02_AT_F: O_T_LSV_02_AT_F
 	{
@@ -1637,7 +1637,7 @@ class cfgVehicles
 			{
 				author="CSLeader";
 				displayname = "PLA Green";				
-				textures[] = {"\fp_factions\PLA\data\qilin\CSAT_LSV_01_PLA_CO.paa","\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_02_black_CO.paa","\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_03_black_CO.paa","\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_green_F_CO.paa","\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_green_F_CO.paa"};
+				textures[] = {"\FP_Factions\PLA\data\qilin\CSAT_LSV_01_PLA_CO.paa","\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_02_black_CO.paa","\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_03_black_CO.paa","\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_green_F_CO.paa","\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_green_F_CO.paa"};
 				factions[] = {"FP_Faction_PLA"};
 			};			
 		};
@@ -1646,7 +1646,7 @@ class cfgVehicles
 		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_LSV_02_AT_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"Camo1","Camo2","Camo3","camo_launcher","camo_tube"};	
-		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\qilin\CSAT_LSV_01_PLA_CO.paa","\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_02_black_CO.paa","\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_03_black_CO.paa","\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_green_F_CO.paa","\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_green_F_CO.paa"};
+		hiddenSelectionsTextures[] = {"\FP_Factions\PLA\data\qilin\CSAT_LSV_01_PLA_CO.paa","\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_02_black_CO.paa","\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_03_black_CO.paa","\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_green_F_CO.paa","\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_green_F_CO.paa"};
 	};	
 	class O_Truck_02_transport_F;
 	class O_Truck_02_covered_F;
@@ -1665,7 +1665,7 @@ class cfgVehicles
 			{
 				author="CSLeader";
 				displayname = "PLA Green";				
-				textures[] = {"\fp_factions\PLA\data\zamak\truck_02_kab_PLA_CO.paa","\A3\soft_f_beta\Truck_02\Data\truck_02_kuz_olive_CO.paa","\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
+				textures[] = {"\FP_Factions\PLA\data\zamak\truck_02_kab_PLA_CO.paa","\A3\soft_f_beta\Truck_02\Data\truck_02_kuz_olive_CO.paa","\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
 				factions[] = {"FP_Faction_PLA"};
 			};
 		};
@@ -1675,7 +1675,7 @@ class cfgVehicles
 		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_Truck_02_transport_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"Camo1","Camo2","camo3"};
-		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\zamak\truck_02_kab_PLA_CO.paa","\A3\soft_f_beta\Truck_02\Data\truck_02_kuz_olive_CO.paa","\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
+		hiddenSelectionsTextures[] = {"\FP_Factions\PLA\data\zamak\truck_02_kab_PLA_CO.paa","\A3\soft_f_beta\Truck_02\Data\truck_02_kuz_olive_CO.paa","\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
 	};
 	class FP_Faction_PLA_Truck_02_covered_F: O_Truck_02_covered_F
 	{
@@ -1687,7 +1687,7 @@ class cfgVehicles
 			{
 				author="CSLeader";
 				displayname = "PLA Green";				
-				textures[] = {"\fp_factions\PLA\data\zamak\truck_02_kab_PLA_CO.paa","\A3\soft_f_beta\Truck_02\Data\truck_02_kuz_olive_CO.paa","\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
+				textures[] = {"\FP_Factions\PLA\data\zamak\truck_02_kab_PLA_CO.paa","\A3\soft_f_beta\Truck_02\Data\truck_02_kuz_olive_CO.paa","\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
 				factions[] = {"FP_Faction_PLA"};
 			};
 		};
@@ -1697,7 +1697,7 @@ class cfgVehicles
 		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_Truck_02_covered_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"Camo1","Camo2","camo3"};
-		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\zamak\truck_02_kab_PLA_CO.paa","\A3\soft_f_beta\Truck_02\Data\truck_02_kuz_olive_CO.paa","\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
+		hiddenSelectionsTextures[] = {"\FP_Factions\PLA\data\zamak\truck_02_kab_PLA_CO.paa","\A3\soft_f_beta\Truck_02\Data\truck_02_kuz_olive_CO.paa","\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
 	};
 	class FP_Faction_PLA_Truck_02_box_F: O_Truck_02_box_F
 	{
@@ -1709,7 +1709,7 @@ class cfgVehicles
 			{
 				author="CSLeader";
 				displayname = "PLA Green";				
-				textures[] = {"\fp_factions\PLA\data\zamak\truck_02_kab_PLA_CO.paa","\A3\soft_f_beta\Truck_02\Data\truck_02_repair_green_co.paa","\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
+				textures[] = {"\FP_Factions\PLA\data\zamak\truck_02_kab_PLA_CO.paa","\A3\soft_f_beta\Truck_02\Data\truck_02_repair_green_co.paa","\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
 				factions[] = {"FP_Faction_PLA"};
 			};
 		};
@@ -1719,7 +1719,7 @@ class cfgVehicles
 		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_Truck_02_box_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"Camo1","Camo2","camo3"};
-		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\zamak\truck_02_kab_PLA_CO.paa","\A3\soft_f_beta\Truck_02\Data\truck_02_repair_green_co.paa","\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
+		hiddenSelectionsTextures[] = {"\FP_Factions\PLA\data\zamak\truck_02_kab_PLA_CO.paa","\A3\soft_f_beta\Truck_02\Data\truck_02_repair_green_co.paa","\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
 	};
 	class FP_Faction_PLA_Truck_02_medical_F: O_Truck_02_medical_F
 	{
@@ -1731,7 +1731,7 @@ class cfgVehicles
 			{
 				author="CSLeader";
 				displayname = "PLA Green";				
-				textures[] = {"\fp_factions\PLA\data\zamak\truck_02_kab_PLA_CO.paa","\A3\soft_f_beta\Truck_02\Data\truck_02_kuz_olive_CO.paa","\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
+				textures[] = {"\FP_Factions\PLA\data\zamak\truck_02_kab_PLA_CO.paa","\A3\soft_f_beta\Truck_02\Data\truck_02_kuz_olive_CO.paa","\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
 				factions[] = {"FP_Faction_PLA"};
 			};
 		};
@@ -1741,7 +1741,7 @@ class cfgVehicles
 		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_Truck_02_medical_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"Camo1","Camo2","camo3"};
-		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\zamak\truck_02_kab_PLA_CO.paa","\A3\soft_f_beta\Truck_02\Data\truck_02_kuz_olive_CO.paa","\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
+		hiddenSelectionsTextures[] = {"\FP_Factions\PLA\data\zamak\truck_02_kab_PLA_CO.paa","\A3\soft_f_beta\Truck_02\Data\truck_02_kuz_olive_CO.paa","\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
 	};
 	class FP_Faction_PLA_Truck_02_fuel_F: O_Truck_02_fuel_F
 	{
@@ -1753,7 +1753,7 @@ class cfgVehicles
 			{
 				author="CSLeader";
 				displayname = "PLA Green";				
-				textures[] = {"\fp_factions\PLA\data\zamak\truck_02_kab_PLA_CO.paa","\fp_factions\PLA\data\zamak\truck_02_fuel_PLA_CO.paa","\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
+				textures[] = {"\FP_Factions\PLA\data\zamak\truck_02_kab_PLA_CO.paa","\FP_Factions\PLA\data\zamak\truck_02_fuel_PLA_CO.paa","\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
 				factions[] = {"FP_Faction_PLA"};
 			};
 		};
@@ -1763,7 +1763,7 @@ class cfgVehicles
 		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_Truck_02_fuel_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"Camo1","Camo2","camo3"};
-		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\zamak\truck_02_kab_PLA_CO.paa","\fp_factions\PLA\data\zamak\truck_02_fuel_PLA_CO.paa","\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
+		hiddenSelectionsTextures[] = {"\FP_Factions\PLA\data\zamak\truck_02_kab_PLA_CO.paa","\FP_Factions\PLA\data\zamak\truck_02_fuel_PLA_CO.paa","\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
 	};
 	class FP_Faction_PLA_Truck_02_Ammo_F: O_Truck_02_Ammo_F
 	{
@@ -1775,7 +1775,7 @@ class cfgVehicles
 			{
 				author="CSLeader";
 				displayname = "PLA Green";				
-				textures[] = {"\fp_factions\PLA\data\zamak\truck_02_kab_PLA_CO.paa","\A3\soft_f_beta\Truck_02\Data\truck_02_repair_green_co.paa","\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
+				textures[] = {"\FP_Factions\PLA\data\zamak\truck_02_kab_PLA_CO.paa","\A3\soft_f_beta\Truck_02\Data\truck_02_repair_green_co.paa","\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
 				factions[] = {"FP_Faction_PLA"};
 			};
 		};
@@ -1785,7 +1785,7 @@ class cfgVehicles
 		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_Truck_02_Ammo_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"Camo1","Camo2","camo3"};
-		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\zamak\truck_02_kab_PLA_CO.paa","\A3\soft_f_beta\Truck_02\Data\truck_02_repair_green_co.paa","\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
+		hiddenSelectionsTextures[] = {"\FP_Factions\PLA\data\zamak\truck_02_kab_PLA_CO.paa","\A3\soft_f_beta\Truck_02\Data\truck_02_repair_green_co.paa","\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"};
 	};
 	class FP_Faction_PLA_Truck_02_MRL_F: I_Truck_02_MRL_F
 	{
@@ -1797,7 +1797,7 @@ class cfgVehicles
 			{
 				author="CSLeader";
 				displayname = "PLA Green";				
-				textures[] = {"\fp_factions\PLA\data\zamak\truck_02_kab_PLA_CO.paa","a3\soft_f_beta\truck_02\data\truck_02_int_co.paa","\fp_factions\PLA\data\zamak\Truck_02_MRL_PLA_CO.paa"};
+				textures[] = {"\FP_Factions\PLA\data\zamak\truck_02_kab_PLA_CO.paa","a3\soft_f_beta\truck_02\data\truck_02_int_co.paa","\FP_Factions\PLA\data\zamak\Truck_02_MRL_PLA_CO.paa"};
 				factions[] = {"FP_Faction_PLA"};
 			};
 		};
@@ -1809,7 +1809,7 @@ class cfgVehicles
 		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_Truck_02_MRL_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"Camo1","Camo2","camo3"};
-		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\zamak\truck_02_kab_PLA_CO.paa","a3\soft_f_beta\truck_02\data\truck_02_int_co.paa","\fp_factions\PLA\data\zamak\Truck_02_MRL_PLA_CO.paa"};
+		hiddenSelectionsTextures[] = {"\FP_Factions\PLA\data\zamak\truck_02_kab_PLA_CO.paa","a3\soft_f_beta\truck_02\data\truck_02_int_co.paa","\FP_Factions\PLA\data\zamak\Truck_02_MRL_PLA_CO.paa"};
 	};
 	class O_Truck_03_transport_F;
 	class O_Truck_03_covered_F;
@@ -1828,7 +1828,7 @@ class cfgVehicles
 			{
 				author="Gordon Weedman";
 				displayname = "PLA Green";				
-				textures[] = {"\fp_factions\PLA\data\typhoon\Truck_03_ext01_pla_CO.paa","\fp_factions\PLA\data\typhoon\Truck_03_ext02_pla_CO.paa","\fp_factions\PLA\data\typhoon\Truck_03_cargo_pla_CO.paa"};
+				textures[] = {"\FP_Factions\PLA\data\typhoon\Truck_03_ext01_pla_CO.paa","\FP_Factions\PLA\data\typhoon\Truck_03_ext02_pla_CO.paa","\FP_Factions\PLA\data\typhoon\Truck_03_cargo_pla_CO.paa"};
 				factions[] = {"FP_Faction_PLA"};
 			};
 		};
@@ -1838,7 +1838,7 @@ class cfgVehicles
 		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_Truck_03_transport_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"Camo1","Camo2","Camo3"};
-		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\typhoon\Truck_03_ext01_pla_CO.paa","\fp_factions\PLA\data\typhoon\Truck_03_ext02_pla_CO.paa","\fp_factions\PLA\data\typhoon\Truck_03_cargo_pla_CO.paa"};
+		hiddenSelectionsTextures[] = {"\FP_Factions\PLA\data\typhoon\Truck_03_ext01_pla_CO.paa","\FP_Factions\PLA\data\typhoon\Truck_03_ext02_pla_CO.paa","\FP_Factions\PLA\data\typhoon\Truck_03_cargo_pla_CO.paa"};
 	};
 	class FP_Faction_PLA_Truck_03_covered_F: O_Truck_03_covered_F
 	{
@@ -1850,7 +1850,7 @@ class cfgVehicles
 			{
 				author="Gordon Weedman";
 				displayname = "PLA Green";				
-				textures[] = {"\fp_factions\PLA\data\typhoon\Truck_03_ext01_pla_CO.paa","\fp_factions\PLA\data\typhoon\Truck_03_ext02_pla_CO.paa","\fp_factions\PLA\data\typhoon\Truck_03_cargo_pla_CO.paa"};
+				textures[] = {"\FP_Factions\PLA\data\typhoon\Truck_03_ext01_pla_CO.paa","\FP_Factions\PLA\data\typhoon\Truck_03_ext02_pla_CO.paa","\FP_Factions\PLA\data\typhoon\Truck_03_cargo_pla_CO.paa"};
 				factions[] = {"FP_Faction_PLA"};
 			};
 		};
@@ -1860,7 +1860,7 @@ class cfgVehicles
 		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_Truck_03_covered_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4"};
-		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\typhoon\Truck_03_ext01_pla_CO.paa","\fp_factions\PLA\data\typhoon\Truck_03_ext02_pla_CO.paa","\fp_factions\PLA\data\typhoon\Truck_03_cargo_pla_CO.paa","\fp_factions\PLA\data\typhoon\Truck_03_cover_pla_CO.paa"};
+		hiddenSelectionsTextures[] = {"\FP_Factions\PLA\data\typhoon\Truck_03_ext01_pla_CO.paa","\FP_Factions\PLA\data\typhoon\Truck_03_ext02_pla_CO.paa","\FP_Factions\PLA\data\typhoon\Truck_03_cargo_pla_CO.paa","\FP_Factions\PLA\data\typhoon\Truck_03_cover_pla_CO.paa"};
 	};
 	class FP_Faction_PLA_Truck_03_repair_F: O_Truck_03_repair_F
 	{
@@ -1872,7 +1872,7 @@ class cfgVehicles
 			{
 				author="Gordon Weedman";
 				displayname = "PLA Green";				
-				textures[] = {"\fp_factions\PLA\data\typhoon\Truck_03_ext01_pla_CO.paa","\fp_factions\PLA\data\typhoon\Truck_03_ext02_pla_CO.paa","\rhsafrf\addons\rhs_a3retex\Data\truck_03_ammo_co.paa"};
+				textures[] = {"\FP_Factions\PLA\data\typhoon\Truck_03_ext01_pla_CO.paa","\FP_Factions\PLA\data\typhoon\Truck_03_ext02_pla_CO.paa","\rhsafrf\addons\rhs_a3retex\Data\truck_03_ammo_co.paa"};
 				factions[] = {"FP_Faction_PLA"};
 			};
 		};
@@ -1882,7 +1882,7 @@ class cfgVehicles
 		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_Truck_03_repair_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"Camo1","Camo2","Camo3"};
-		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\typhoon\Truck_03_ext01_pla_CO.paa","\fp_factions\PLA\data\typhoon\Truck_03_ext02_pla_CO.paa","\rhsafrf\addons\rhs_a3retex\Data\truck_03_ammo_co.paa"};
+		hiddenSelectionsTextures[] = {"\FP_Factions\PLA\data\typhoon\Truck_03_ext01_pla_CO.paa","\FP_Factions\PLA\data\typhoon\Truck_03_ext02_pla_CO.paa","\rhsafrf\addons\rhs_a3retex\Data\truck_03_ammo_co.paa"};
 	};
 	class FP_Faction_PLA_Truck_03_medical_F: O_Truck_03_medical_F
 	{
@@ -1894,7 +1894,7 @@ class cfgVehicles
 			{
 				author="Gordon Weedman";
 				displayname = "PLA Green";				
-				textures[] = {"\fp_factions\PLA\data\typhoon\Truck_03_ext01_pla_CO.paa","\fp_factions\PLA\data\typhoon\Truck_03_ext02_pla_CO.paa","\fp_factions\PLA\data\typhoon\Truck_03_cargo_pla_CO.paa"};
+				textures[] = {"\FP_Factions\PLA\data\typhoon\Truck_03_ext01_pla_CO.paa","\FP_Factions\PLA\data\typhoon\Truck_03_ext02_pla_CO.paa","\FP_Factions\PLA\data\typhoon\Truck_03_cargo_pla_CO.paa"};
 				factions[] = {"FP_Faction_PLA"};
 			};
 		};
@@ -1904,7 +1904,7 @@ class cfgVehicles
 		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_Truck_03_medical_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4"};
-		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\typhoon\Truck_03_ext01_pla_CO.paa","\fp_factions\PLA\data\typhoon\Truck_03_ext02_pla_CO.paa","\fp_factions\PLA\data\typhoon\Truck_03_cargo_pla_CO.paa","\fp_factions\PLA\data\typhoon\Truck_03_cover_pla_CO.paa"};
+		hiddenSelectionsTextures[] = {"\FP_Factions\PLA\data\typhoon\Truck_03_ext01_pla_CO.paa","\FP_Factions\PLA\data\typhoon\Truck_03_ext02_pla_CO.paa","\FP_Factions\PLA\data\typhoon\Truck_03_cargo_pla_CO.paa","\FP_Factions\PLA\data\typhoon\Truck_03_cover_pla_CO.paa"};
 	};
 	class FP_Faction_PLA_Truck_03_fuel_F: O_Truck_03_fuel_F
 	{
@@ -1916,7 +1916,7 @@ class cfgVehicles
 			{
 				author="Gordon Weedman";
 				displayname = "PLA Green";				
-				textures[] = {"\fp_factions\PLA\data\typhoon\Truck_03_ext01_pla_CO.paa","\fp_factions\PLA\data\typhoon\Truck_03_ext02_pla_CO.paa","\FP_Factions\gordon_reskins\typhoon\data\Truck_03_fuel_bluforpacific_CO.paa"};
+				textures[] = {"\FP_Factions\PLA\data\typhoon\Truck_03_ext01_pla_CO.paa","\FP_Factions\PLA\data\typhoon\Truck_03_ext02_pla_CO.paa","\FP_Factions\gordon_reskins\typhoon\data\Truck_03_fuel_bluforpacific_CO.paa"};
 				factions[] = {"FP_Faction_PLA"};
 			};
 		};
@@ -1926,7 +1926,7 @@ class cfgVehicles
 		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_Truck_03_fuel_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"Camo1","Camo2","Camo3"};
-		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\typhoon\Truck_03_ext01_pla_CO.paa","\fp_factions\PLA\data\typhoon\Truck_03_ext02_pla_CO.paa","\FP_Factions\gordon_reskins\typhoon\data\Truck_03_fuel_bluforpacific_CO.paa"};
+		hiddenSelectionsTextures[] = {"\FP_Factions\PLA\data\typhoon\Truck_03_ext01_pla_CO.paa","\FP_Factions\PLA\data\typhoon\Truck_03_ext02_pla_CO.paa","\FP_Factions\gordon_reskins\typhoon\data\Truck_03_fuel_bluforpacific_CO.paa"};
 	};	
 	class FP_Faction_PLA_Truck_03_device_F: O_Truck_03_device_F
 	{
@@ -1938,7 +1938,7 @@ class cfgVehicles
 			{
 				author="Gordon Weedman";
 				displayname = "PLA Green";				
-				textures[] = {"\fp_factions\PLA\data\typhoon\Truck_03_ext01_pla_CO.paa","\fp_factions\PLA\data\typhoon\Truck_03_ext02_pla_CO.paa","\fp_factions\PLA\data\typhoon\Truck_03_cargo_pla_CO.paa","\A3\Structures_F_EPC\Items\Electronics\Data\The_Device_02_CO.paa","\A3\Structures_F_EPC\Items\Electronics\Data\The_Device_03_CO.paa"};
+				textures[] = {"\FP_Factions\PLA\data\typhoon\Truck_03_ext01_pla_CO.paa","\FP_Factions\PLA\data\typhoon\Truck_03_ext02_pla_CO.paa","\FP_Factions\PLA\data\typhoon\Truck_03_cargo_pla_CO.paa","\A3\Structures_F_EPC\Items\Electronics\Data\The_Device_02_CO.paa","\A3\Structures_F_EPC\Items\Electronics\Data\The_Device_03_CO.paa"};
 				factions[] = {"FP_Faction_PLA"};
 			};
 		};
@@ -1948,7 +1948,7 @@ class cfgVehicles
 		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_Truck_03_device_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5"};
-		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\typhoon\Truck_03_ext01_pla_CO.paa","\fp_factions\PLA\data\typhoon\Truck_03_ext02_pla_CO.paa","\fp_factions\PLA\data\typhoon\Truck_03_cargo_pla_CO.paa","\A3\Structures_F_EPC\Items\Electronics\Data\The_Device_02_CO.paa","\A3\Structures_F_EPC\Items\Electronics\Data\The_Device_03_CO.paa"};
+		hiddenSelectionsTextures[] = {"\FP_Factions\PLA\data\typhoon\Truck_03_ext01_pla_CO.paa","\FP_Factions\PLA\data\typhoon\Truck_03_ext02_pla_CO.paa","\FP_Factions\PLA\data\typhoon\Truck_03_cargo_pla_CO.paa","\A3\Structures_F_EPC\Items\Electronics\Data\The_Device_02_CO.paa","\A3\Structures_F_EPC\Items\Electronics\Data\The_Device_03_CO.paa"};
 	};
 	class FP_Faction_PLA_Truck_03_ammo_F: O_Truck_03_ammo_F
 	{
@@ -1960,7 +1960,7 @@ class cfgVehicles
 			{
 				author="Gordon Weedman";
 				displayname = "PLA Green";				
-				textures[] = {"\fp_factions\PLA\data\typhoon\Truck_03_ext01_pla_CO.paa","\fp_factions\PLA\data\typhoon\Truck_03_ext02_pla_CO.paa","\fp_factions\PLA\data\typhoon\Truck_03_cargo_pla_CO.paa","\A3\Structures_F\Data\Metal\Containers\Containers_02_set_CO.paa"};
+				textures[] = {"\FP_Factions\PLA\data\typhoon\Truck_03_ext01_pla_CO.paa","\FP_Factions\PLA\data\typhoon\Truck_03_ext02_pla_CO.paa","\FP_Factions\PLA\data\typhoon\Truck_03_cargo_pla_CO.paa","\A3\Structures_F\Data\Metal\Containers\Containers_02_set_CO.paa"};
 				factions[] = {"FP_Faction_PLA"};
 			};
 		};
@@ -1970,7 +1970,7 @@ class cfgVehicles
 		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_Truck_03_ammo_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4"};
-		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\typhoon\Truck_03_ext01_pla_CO.paa","\fp_factions\PLA\data\typhoon\Truck_03_ext02_pla_CO.paa","\fp_factions\PLA\data\typhoon\Truck_03_cargo_pla_CO.paa","\A3\Structures_F\Data\Metal\Containers\Containers_02_set_CO.paa"};
+		hiddenSelectionsTextures[] = {"\FP_Factions\PLA\data\typhoon\Truck_03_ext01_pla_CO.paa","\FP_Factions\PLA\data\typhoon\Truck_03_ext02_pla_CO.paa","\FP_Factions\PLA\data\typhoon\Truck_03_cargo_pla_CO.paa","\A3\Structures_F\Data\Metal\Containers\Containers_02_set_CO.paa"};
 	};
 	class O_MBT_02_cannon_F;
 	class FP_Faction_PLA_MBT_02_cannon_F: O_MBT_02_cannon_F
@@ -1983,7 +1983,7 @@ class cfgVehicles
 			{
 				author="Gordon Weedman";
 				displayname = "PLA Green";				
-				textures[] = {"\fp_factions\PLA\data\varsuk\MBT_02_body_PLA_CO.paa","\fp_factions\PLA\data\varsuk\MBT_02_turret_PLA_CO.paa","\fp_factions\PLA\data\varsuk\MBT_02_PLA_CO.paa","A3\Armor_F\Data\camonet_CSAT_HEX_Green_CO.paa"};
+				textures[] = {"\FP_Factions\PLA\data\varsuk\MBT_02_body_PLA_CO.paa","\FP_Factions\PLA\data\varsuk\MBT_02_turret_PLA_CO.paa","\FP_Factions\PLA\data\varsuk\MBT_02_PLA_CO.paa","A3\Armor_F\Data\camonet_CSAT_HEX_Green_CO.paa"};
 				factions[] = {"FP_Faction_PLA"};
 			};
 		};
@@ -1993,7 +1993,7 @@ class cfgVehicles
 		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_MBT_02_cannon_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"camo1","camo2","camo3","CamoNet"};
-		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\varsuk\MBT_02_body_PLA_CO.paa","\fp_factions\PLA\data\varsuk\MBT_02_turret_PLA_CO.paa","\fp_factions\PLA\data\varsuk\MBT_02_PLA_CO.paa","A3\Armor_F\Data\camonet_CSAT_HEX_Green_CO.paa"};
+		hiddenSelectionsTextures[] = {"\FP_Factions\PLA\data\varsuk\MBT_02_body_PLA_CO.paa","\FP_Factions\PLA\data\varsuk\MBT_02_turret_PLA_CO.paa","\FP_Factions\PLA\data\varsuk\MBT_02_PLA_CO.paa","A3\Armor_F\Data\camonet_CSAT_HEX_Green_CO.paa"};
 	};
 	class O_MBT_02_arty_F;
 	class FP_Faction_PLA_MBT_02_arty_F: O_MBT_02_arty_F
@@ -2004,7 +2004,7 @@ class cfgVehicles
 			{
 				author="Gordon Weedman";
 				displayname = "PLA Green";				
-				textures[] = {"\fp_factions\PLA\data\varsuk\MBT_02_body_PLA_CO.paa","\fp_factions\PLA\data\varsuk\MBT_02_scorcher_PLA_CO.paa","\fp_factions\PLA\data\varsuk\MBT_02_PLA_CO.paa","a3\data_f\vehicles\turret_opfor_co.paa","A3\Armor_F\Data\camonet_CSAT_HEX_Green_CO.paa"};
+				textures[] = {"\FP_Factions\PLA\data\varsuk\MBT_02_body_PLA_CO.paa","\FP_Factions\PLA\data\varsuk\MBT_02_scorcher_PLA_CO.paa","\FP_Factions\PLA\data\varsuk\MBT_02_PLA_CO.paa","a3\data_f\vehicles\turret_opfor_co.paa","A3\Armor_F\Data\camonet_CSAT_HEX_Green_CO.paa"};
 				factions[] = {"FP_Faction_PLA"};
 			};
 		};
@@ -2014,7 +2014,7 @@ class cfgVehicles
 		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_Faction_PLA_MBT_02_arty_F.jpg";
 		faction = "FP_Faction_PLA";
 		hiddenSelections[] = {"camo1","camo2","camo3","camo4","CamoNet"};
-		hiddenSelectionsTextures[] = {"\fp_factions\PLA\data\varsuk\MBT_02_body_PLA_CO.paa","\fp_factions\PLA\data\varsuk\MBT_02_scorcher_PLA_CO.paa","\fp_factions\PLA\data\varsuk\MBT_02_PLA_CO.paa","A3\Data_F_Exp\Vehicles\Turret_olive_CO.paa","A3\Armor_F\Data\camonet_CSAT_HEX_Green_CO.paa"};
+		hiddenSelectionsTextures[] = {"\FP_Factions\PLA\data\varsuk\MBT_02_body_PLA_CO.paa","\FP_Factions\PLA\data\varsuk\MBT_02_scorcher_PLA_CO.paa","\FP_Factions\PLA\data\varsuk\MBT_02_PLA_CO.paa","A3\Data_F_Exp\Vehicles\Turret_olive_CO.paa","A3\Armor_F\Data\camonet_CSAT_HEX_Green_CO.paa"};
 	};
 	
 	class B_Carryall_cbr;
