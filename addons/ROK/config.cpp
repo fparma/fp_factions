@@ -803,84 +803,84 @@ class CfgGroups
 						position[] = {5,0,0};
 						rank = "SERGEANT";
 						side = 0;
-						vehicle = "FP_Faction_ROK_Soldier_SL_F";
+						vehicle = "FP_B_ROK_Soldier_SL_F";
 					};
 					class Unit2
 					{
 						position[] = {5,-2,0};
 						rank = "PRIVATE";
 						side = 0;
-						vehicle = "FP_Faction_ROK_Soldier_F";
+						vehicle = "FP_B_ROK_Soldier_F";
 					};
 					class Unit3
 					{
 						position[] = {5,-4,0};
 						rank = "CORPORAL";
 						side = 0;
-						vehicle = "FP_Faction_ROK_Soldier_LAT_F";
+						vehicle = "FP_B_ROK_Soldier_LAT_F";
 					};
 					class Unit4
 					{
 						position[] = {5,-6,0};
 						rank = "PRIVATE";
 						side = 0;
-						vehicle = "FP_Faction_ROK_Soldier_M_F";
+						vehicle = "FP_B_ROK_Soldier_M_F";
 					};
 					class Unit5
 					{
 						position[] = {5,-8,0};
 						rank = "SERGEANT";
 						side = 0;
-						vehicle = "FP_Faction_ROK_Soldier_TL_F";
+						vehicle = "FP_B_ROK_Soldier_TL_F";
 					};
 					class Unit6
 					{
 						position[] = {5,-10,0};
 						rank = "CORPORAL";
 						side = 0;
-						vehicle = "FP_Faction_ROK_Soldier_AR_F";
+						vehicle = "FP_B_ROK_Soldier_AR_F";
 					};
 					class Unit7
 					{
 						position[] = {-5,-8,0};
 						rank = "PRIVATE";
 						side = 0;
-						vehicle = "FP_Faction_ROK_Soldier_A_F";
+						vehicle = "FP_B_ROK_Soldier_A_F";
 					};
 					class Unit8
 					{
 						position[] = {-5,-10,0};
 						rank = "PRIVATE";
 						side = 0;
-						vehicle = "FP_Faction_ROK_Medic_F";
+						vehicle = "FP_B_ROK_Medic_F";
 					};
 					class Unit9
 					{
 						position[] = {-5,0,0};
 						rank = "SERGEANT";
 						side = 0;
-						vehicle = "FP_Faction_ROK_Soldier_TL_F";
+						vehicle = "FP_B_ROK_Soldier_TL_F";
 					};
 					class Unit10
 					{
 						position[] = {-5,-2,0};
 						rank = "CORPORAL";
 						side = 0;
-						vehicle = "FP_Faction_ROK_Soldier_AR_F";
+						vehicle = "FP_B_ROK_Soldier_AR_F";
 					};
 					class Unit11
 					{
 						position[] = {-5,-4,0};
 						rank = "PRIVATE";
 						side = 0;
-						vehicle = "FP_Faction_ROK_Soldier_AT_F";
+						vehicle = "FP_B_ROK_Soldier_AT_F";
 					};
 					class Unit12
 					{
 						position[] = {-5,-6,0};
 						rank = "PRIVATE";
 						side = 0;
-						vehicle = "FP_Faction_ROK_Soldier_LAT_F";
+						vehicle = "FP_B_ROK_Soldier_LAT_F";
 					};
 				};
 				class KPA_MotInf_Reinforce_MTVR
@@ -901,84 +901,84 @@ class CfgGroups
 						position[] = {5,0,0};
 						rank = "SERGEANT";
 						side = 0;
-						vehicle = "FP_Faction_ROK_Soldier_SL_F";
+						vehicle = "FP_B_ROK_Soldier_SL_F";
 					};
 					class Unit2
 					{
 						position[] = {5,-2,0};
 						rank = "PRIVATE";
 						side = 0;
-						vehicle = "FP_Faction_ROK_Soldier_F";
+						vehicle = "FP_B_ROK_Soldier_F";
 					};
 					class Unit3
 					{
 						position[] = {5,-4,0};
 						rank = "CORPORAL";
 						side = 0;
-						vehicle = "FP_Faction_ROK_Soldier_LAT_F";
+						vehicle = "FP_B_ROK_Soldier_LAT_F";
 					};
 					class Unit4
 					{
 						position[] = {5,-6,0};
 						rank = "PRIVATE";
 						side = 0;
-						vehicle = "FP_Faction_ROK_Soldier_M_F";
+						vehicle = "FP_B_ROK_Soldier_M_F";
 					};
 					class Unit5
 					{
 						position[] = {5,-8,0};
 						rank = "SERGEANT";
 						side = 0;
-						vehicle = "FP_Faction_ROK_Soldier_TL_F";
+						vehicle = "FP_B_ROK_Soldier_TL_F";
 					};
 					class Unit6
 					{
 						position[] = {5,-10,0};
 						rank = "CORPORAL";
 						side = 0;
-						vehicle = "FP_Faction_ROK_Soldier_AR_F";
+						vehicle = "FP_B_ROK_Soldier_AR_F";
 					};
 					class Unit7
 					{
 						position[] = {-5,-8,0};
 						rank = "PRIVATE";
 						side = 0;
-						vehicle = "FP_Faction_ROK_Soldier_A_F";
+						vehicle = "FP_B_ROK_Soldier_A_F";
 					};
 					class Unit8
 					{
 						position[] = {-5,-10,0};
 						rank = "PRIVATE";
 						side = 0;
-						vehicle = "FP_Faction_ROK_Medic_F";
+						vehicle = "FP_B_ROK_Medic_F";
 					};
 					class Unit9
 					{
 						position[] = {-5,0,0};
 						rank = "SERGEANT";
 						side = 0;
-						vehicle = "FP_Faction_ROK_Soldier_TL_F";
+						vehicle = "FP_B_ROK_Soldier_TL_F";
 					};
 					class Unit10
 					{
 						position[] = {-5,-2,0};
 						rank = "CORPORAL";
 						side = 0;
-						vehicle = "FP_Faction_ROK_Soldier_AR_F";
+						vehicle = "FP_B_ROK_Soldier_AR_F";
 					};
 					class Unit11
 					{
 						position[] = {-5,-4,0};
 						rank = "PRIVATE";
 						side = 0;
-						vehicle = "FP_Faction_ROK_Soldier_AT_F";
+						vehicle = "FP_B_ROK_Soldier_AT_F";
 					};
 					class Unit12
 					{
 						position[] = {-5,-6,0};
 						rank = "PRIVATE";
 						side = 0;
-						vehicle = "FP_Faction_ROK_Soldier_LAT_F";
+						vehicle = "FP_B_ROK_Soldier_LAT_F";
 					};
 				};
 			};
