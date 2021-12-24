@@ -81,7 +81,25 @@ class CfgPatches
 			"FP_GOR_rhs_uniform_6sh122_klmk3",
 			"FP_GOR_rhs_uniform_6sh122_gloves_klmk3",
 			"FP_GOR_rhs_uniform_6sh122_klmk4",
-			"FP_GOR_rhs_uniform_6sh122_gloves_klmk4"
+			"FP_GOR_rhs_uniform_6sh122_gloves_klmk4",
+			"FP_GOR_rhs_uniform_6sh122_urbannight",
+			"FP_GOR_rhs_uniform_6sh122_gloves_urbannight",
+			"FP_GOR_rhs_uniform_6sh122_urbannightbrown",
+			"FP_GOR_rhs_uniform_6sh122_gloves_urbannightbrown",
+			"FP_GOR_rhs_uniform_6sh122_urbannightolive",
+			"FP_GOR_rhs_uniform_6sh122_gloves_urbannightolive",
+			"FP_GOR_rhs_uniform_6sh122_brown",
+			"FP_GOR_rhs_uniform_6sh122_gloves_brown",
+			"FP_GOR_rhs_uniform_6sh122_brownolive",
+			"FP_GOR_rhs_uniform_6sh122_gloves_brownolive",
+			"FP_GOR_rhs_uniform_6sh122_brownurbannight",
+			"FP_GOR_rhs_uniform_6sh122_gloves_brownurbannight",
+			"FP_GOR_rhs_uniform_6sh122_olive",
+			"FP_GOR_rhs_uniform_6sh122_gloves_olive",
+			"FP_GOR_rhs_uniform_6sh122_olivebrown",
+			"FP_GOR_rhs_uniform_6sh122_gloves_olivebrown",
+			"FP_GOR_rhs_uniform_6sh122_oliveurbannight",
+			"FP_GOR_rhs_uniform_6sh122_gloves_oliveurbannight"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -1566,7 +1584,7 @@ class CfgVehicles
 		_generalMacro="rhs_6sh122_v1_base";
 		scope=1;
 		uniformClass="FP_GOR_rhs_uniform_6sh122_klmk1";
-		displayName="6Sh122 (Berezhka white)";
+		displayName="6Sh122 (Berezhka White)";
 		nakedUniform="U_BasicBody";
 		hiddenSelections[]=
 		{
@@ -1587,7 +1605,7 @@ class CfgVehicles
 		_generalMacro="rhs_6sh122_gloves_v1_base";
 		scope=1;
 		uniformClass="FP_GOR_rhs_uniform_6sh122_gloves_klmk1";
-		displayName="6Sh122 (Berezhka white, gloves)";
+		displayName="6Sh122 (Berezhka White, gloves)";
 		nakedUniform="U_BasicBody";
 		hiddenSelections[]=
 		{
@@ -1609,7 +1627,7 @@ class CfgVehicles
 		_generalMacro="rhs_6sh122_v1_base";
 		scope=1;
 		uniformClass="FP_GOR_rhs_uniform_6sh122_klmk2";
-		displayName="6Sh122 (Berezhka yellow)";
+		displayName="6Sh122 (Berezhka Yellow)";
 		nakedUniform="U_BasicBody";
 		hiddenSelections[]=
 		{
@@ -1630,7 +1648,7 @@ class CfgVehicles
 		_generalMacro="rhs_6sh122_gloves_v1_base";
 		scope=1;
 		uniformClass="FP_GOR_rhs_uniform_6sh122_gloves_klmk2";
-		displayName="6Sh122 (Berezhka yellow, gloves)";
+		displayName="6Sh122 (Berezhka Yellow, gloves)";
 		nakedUniform="U_BasicBody";
 		hiddenSelections[]=
 		{
@@ -1652,7 +1670,7 @@ class CfgVehicles
 		_generalMacro="rhs_6sh122_v1_base";
 		scope=1;
 		uniformClass="FP_GOR_rhs_uniform_6sh122_klmk3";
-		displayName="6Sh122 (Berezhka arid)";
+		displayName="6Sh122 (Berezhka Arid)";
 		nakedUniform="U_BasicBody";
 		hiddenSelections[]=
 		{
@@ -1673,7 +1691,7 @@ class CfgVehicles
 		_generalMacro="rhs_6sh122_gloves_v1_base";
 		scope=1;
 		uniformClass="FP_GOR_rhs_uniform_6sh122_gloves_klmk3";
-		displayName="6Sh122 (Berezhka arid, gloves)";
+		displayName="6Sh122 (Berezhka Arid, gloves)";
 		nakedUniform="U_BasicBody";
 		hiddenSelections[]=
 		{
@@ -1695,7 +1713,7 @@ class CfgVehicles
 		_generalMacro="rhs_6sh122_v1_base";
 		scope=1;
 		uniformClass="FP_GOR_rhs_uniform_6sh122_klmk4";
-		displayName="6Sh122 (Berezhka winter)";
+		displayName="6Sh122 (Berezhka Winter)";
 		nakedUniform="U_BasicBody";
 		hiddenSelections[]=
 		{
@@ -1716,7 +1734,7 @@ class CfgVehicles
 		_generalMacro="rhs_6sh122_gloves_v1_base";
 		scope=1;
 		uniformClass="FP_GOR_rhs_uniform_6sh122_gloves_klmk4";
-		displayName="6Sh122 (Berezhka winter, gloves)";
+		displayName="6Sh122 (Berezhka Winter, gloves)";
 		nakedUniform="U_BasicBody";
 		hiddenSelections[]=
 		{
@@ -1728,6 +1746,393 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_klmk4_co.paa",
 			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_klmk4_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	}; 	
+	
+	class FP_GOR_rhs_6sh122_urbannight: rhs_6sh122_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_urbannight";
+		displayName="6Sh122 (Urban Night)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_urbannight_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_urbannight_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh122_gloves_urbannight: rhs_6sh122_gloves_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_gloves_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_gloves_urbannight";
+		displayName="6Sh122 (Urban Night, gloves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_urbannight_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_urbannight_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	}; 	
+	
+	class FP_GOR_rhs_6sh122_urbannightbrown: rhs_6sh122_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_urbannightbrown";
+		displayName="6Sh122 (Urban Night/Brown)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_urbannight_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_brown_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh122_gloves_urbannightbrown: rhs_6sh122_gloves_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_gloves_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_gloves_urbannightbrown";
+		displayName="6Sh122 (Urban Night/Brown, gloves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_urbannight_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_brown_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	}; 	
+	
+	class FP_GOR_rhs_6sh122_urbannightolive: rhs_6sh122_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_urbannightolive";
+		displayName="6Sh122 (Urban Night/Olive)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_urbannight_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_olivegreen_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh122_gloves_urbannightolive: rhs_6sh122_gloves_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_gloves_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_gloves_urbannightolive";
+		displayName="6Sh122 (Urban Night/Olive, gloves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_urbannight_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_olivegreen_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	}; 	
+	
+	class FP_GOR_rhs_6sh122_brown: rhs_6sh122_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_brown";
+		displayName="6Sh122 (Brown)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_brown_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_brown_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh122_gloves_brown: rhs_6sh122_gloves_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_gloves_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_gloves_brown";
+		displayName="6Sh122 (Brown, gloves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_brown_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_brown_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	}; 	
+	
+	class FP_GOR_rhs_6sh122_brownolive: rhs_6sh122_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_brownolive";
+		displayName="6Sh122 (Brown/Olive)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_brown_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_olivegreen_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh122_gloves_brownolive: rhs_6sh122_gloves_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_gloves_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_gloves_brownolive";
+		displayName="6Sh122 (Brown/Olive, gloves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_brown_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_olivegreen_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	}; 	
+	
+	class FP_GOR_rhs_6sh122_brownurbannight: rhs_6sh122_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_brownurbannight";
+		displayName="6Sh122 (Brown/Urban Night)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_brown_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_urbannight_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh122_gloves_brownurbannight: rhs_6sh122_gloves_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_gloves_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_gloves_brownurbannight";
+		displayName="6Sh122 (Brown/Urban Night, gloves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_brown_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_urbannight_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	}; 	
+	
+	class FP_GOR_rhs_6sh122_olive: rhs_6sh122_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_olive";
+		displayName="6Sh122 (Olive)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_olive_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_olivegreen_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh122_gloves_olive: rhs_6sh122_gloves_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_gloves_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_gloves_olive";
+		displayName="6Sh122 (Olive, gloves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_olive_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_olivegreen_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	}; 	
+	
+	class FP_GOR_rhs_6sh122_olivebrown: rhs_6sh122_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_olivebrown";
+		displayName="6Sh122 (Olive/Brown)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_olive_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_brown_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh122_gloves_olivebrown: rhs_6sh122_gloves_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_gloves_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_gloves_olivebrown";
+		displayName="6Sh122 (Olive/Brown, gloves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_olive_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_brown_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	}; 	
+	
+	class FP_GOR_rhs_6sh122_oliveurbannight: rhs_6sh122_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_oliveurbannight";
+		displayName="6Sh122 (Olive/Urban Night)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_olive_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_urbannight_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh122_gloves_oliveurbannight: rhs_6sh122_gloves_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_gloves_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_gloves_oliveurbannight";
+		displayName="6Sh122 (Olive/Urban Night, gloves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_olive_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_urbannight_co.paa",
 			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
 		};
 	}; 	
@@ -2662,7 +3067,7 @@ class CfgWeapons
 	class FP_GOR_rhs_uniform_6sh122_klmk1: rhs_uniform_6sh122_v1
 	{
 		scope=2;
-		displayName="6Sh122 (Berezhka white)";
+		displayName="6Sh122 (Berezhka White)";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -2675,7 +3080,7 @@ class CfgWeapons
 	class FP_GOR_rhs_uniform_6sh122_gloves_klmk1: rhs_uniform_6sh122_gloves_v1
 	{
 		scope=2;
-		displayName="6Sh122 (Berezhka white, gloves)";
+		displayName="6Sh122 (Berezhka White, gloves)";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -2689,7 +3094,7 @@ class CfgWeapons
 	class FP_GOR_rhs_uniform_6sh122_klmk2: rhs_uniform_6sh122_v1
 	{
 		scope=2;
-		displayName="6Sh122 (Berezhka yellow)";
+		displayName="6Sh122 (Berezhka Yellow)";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -2702,7 +3107,7 @@ class CfgWeapons
 	class FP_GOR_rhs_uniform_6sh122_gloves_klmk2: rhs_uniform_6sh122_gloves_v1
 	{
 		scope=2;
-		displayName="6Sh122 (Berezhka yellow, gloves)";
+		displayName="6Sh122 (Berezhka Yellow, gloves)";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -2716,7 +3121,7 @@ class CfgWeapons
 	class FP_GOR_rhs_uniform_6sh122_klmk3: rhs_uniform_6sh122_v1
 	{
 		scope=2;
-		displayName="6Sh122 (Berezhka arid)";
+		displayName="6Sh122 (Berezhka Arid)";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -2729,7 +3134,7 @@ class CfgWeapons
 	class FP_GOR_rhs_uniform_6sh122_gloves_klmk3: rhs_uniform_6sh122_gloves_v1
 	{
 		scope=2;
-		displayName="6Sh122 (Berezhka arid, gloves)";
+		displayName="6Sh122 (Berezhka Arid, gloves)";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -2743,7 +3148,7 @@ class CfgWeapons
 	class FP_GOR_rhs_uniform_6sh122_klmk4: rhs_uniform_6sh122_v1
 	{
 		scope=2;
-		displayName="6Sh122 (Berezhka winter)";
+		displayName="6Sh122 (Berezhka Winter)";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -2756,12 +3161,255 @@ class CfgWeapons
 	class FP_GOR_rhs_uniform_6sh122_gloves_klmk4: rhs_uniform_6sh122_gloves_v1
 	{
 		scope=2;
-		displayName="6Sh122 (Berezhka winter, gloves)";
+		displayName="6Sh122 (Berezhka Winter, gloves)";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
 			uniformClass="FP_GOR_rhs_6sh122_gloves_klmk4";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	
+	class FP_GOR_rhs_uniform_6sh122_urbannight: rhs_uniform_6sh122_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Urban Night)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_urbannight";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_gloves_urbannight: rhs_uniform_6sh122_gloves_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Urban Night, gloves)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_gloves_urbannight";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	
+	class FP_GOR_rhs_uniform_6sh122_urbannightbrown: rhs_uniform_6sh122_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Urban Night/Brown)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_urbannightbrown";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_gloves_urbannightbrown: rhs_uniform_6sh122_gloves_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Urban Night/Brown, gloves)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_gloves_urbannightbrown";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	
+	class FP_GOR_rhs_uniform_6sh122_urbannightolive: rhs_uniform_6sh122_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Urban Night/Olive)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_urbannightolive";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_gloves_urbannightolive: rhs_uniform_6sh122_gloves_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Urban Night/Olive, gloves)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_gloves_urbannightolive";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	
+	class FP_GOR_rhs_uniform_6sh122_brown: rhs_uniform_6sh122_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Brown)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_brown";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_gloves_brown: rhs_uniform_6sh122_gloves_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Brown, gloves)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_gloves_brown";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	
+	class FP_GOR_rhs_uniform_6sh122_brownolive: rhs_uniform_6sh122_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Brown/Olive)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_brownolive";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_gloves_brownolive: rhs_uniform_6sh122_gloves_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Brown/Olive, gloves)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_gloves_brownolive";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	
+	class FP_GOR_rhs_uniform_6sh122_brownurbannight: rhs_uniform_6sh122_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Brown/Urban Night)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_brownurbannight";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_gloves_brownurbannight: rhs_uniform_6sh122_gloves_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Brown/Urban Night, gloves)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_gloves_brownurbannight";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	
+	class FP_GOR_rhs_uniform_6sh122_olive: rhs_uniform_6sh122_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Olive)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_olive";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_gloves_olive: rhs_uniform_6sh122_gloves_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Olive, gloves)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_gloves_olive";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	
+	class FP_GOR_rhs_uniform_6sh122_olivebrown: rhs_uniform_6sh122_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Olive/Brown)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_olivebrown";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_gloves_olivebrown: rhs_uniform_6sh122_gloves_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Olive/Brown, gloves)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_gloves_olivebrown";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	
+	class FP_GOR_rhs_uniform_6sh122_oliveurbannight: rhs_uniform_6sh122_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Olive/Urban Night)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_oliveurbannight";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_gloves_oliveurbannight: rhs_uniform_6sh122_gloves_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Olive/Urban Night, gloves)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_gloves_oliveurbannight";
 			containerClass="Supply40";
 			mass=40;
 		};

@@ -33,10 +33,10 @@ class CfgWeapons
 		hiddenSelectionsTextures[]={"rhsafrf\addons\rhs_weapons\texture\AK74MCamo_co.paa"};
 		magazines[]=
 		{
-			rhs_30Rnd_545x39_7N22_camo_AK,
-			rhs_30Rnd_545x39_7N22_AK,
-			rhs_30Rnd_545x39_7N22_plum_AK,
-			rhs_30Rnd_545x39_7N22_desert_AK
+			"rhs_30Rnd_545x39_7N22_camo_AK",
+			"rhs_30Rnd_545x39_7N22_AK",
+			"rhs_30Rnd_545x39_7N22_plum_AK",
+			"rhs_30Rnd_545x39_7N22_desert_AK"
 		};
 		displayName="AK-74M (Camo/GP-25)";
 		rhs_npz="FP_GOR_rhs_weap_ak74m_camo_gp25_npz";
@@ -48,10 +48,10 @@ class CfgWeapons
 		hiddenSelectionsTextures[]={"rhsafrf\addons\rhs_weapons\texture\AK74MCamo_co.paa"};
 		magazines[]=
 		{
-			rhs_30Rnd_545x39_7N22_camo_AK,
-			rhs_30Rnd_545x39_7N22_AK,
-			rhs_30Rnd_545x39_7N22_plum_AK,
-			rhs_30Rnd_545x39_7N22_desert_AK
+			"rhs_30Rnd_545x39_7N22_camo_AK",
+			"rhs_30Rnd_545x39_7N22_AK",
+			"rhs_30Rnd_545x39_7N22_plum_AK",
+			"rhs_30Rnd_545x39_7N22_desert_AK"
 		};
 		displayName="AK-74M (Camo/GP-25/B-13)";
 		rhs_npz="FP_GOR_rhs_weap_ak74m_camo_gp25";
@@ -62,10 +62,10 @@ class CfgWeapons
 		hiddenSelectionsTextures[]={"rhsafrf\addons\rhs_weapons\texture\AK74MPaint_co.paa"};
 		magazines[]=
 		{
-			rhs_30Rnd_545x39_7N22_desert_AK,
-			rhs_30Rnd_545x39_7N22_AK,
-			rhs_30Rnd_545x39_7N22_plum_AK,
-			rhs_30Rnd_545x39_7N22_camo_AK
+			"rhs_30Rnd_545x39_7N22_desert_AK",
+			"rhs_30Rnd_545x39_7N22_AK",
+			"rhs_30Rnd_545x39_7N22_plum_AK",
+			"rhs_30Rnd_545x39_7N22_camo_AK"
 		};
 		displayName="AK-74M (Desert/GP-25)";
 		rhs_npz="FP_GOR_rhs_weap_ak74m_desert_gp25_npz";
@@ -76,10 +76,10 @@ class CfgWeapons
 		hiddenSelectionsTextures[]={"rhsafrf\addons\rhs_weapons\texture\AK74MPaint_co.paa"};
 		magazines[]=
 		{
-			rhs_30Rnd_545x39_7N22_desert_AK,
-			rhs_30Rnd_545x39_7N22_AK,
-			rhs_30Rnd_545x39_7N22_plum_AK,
-			rhs_30Rnd_545x39_7N22_camo_AK
+			"rhs_30Rnd_545x39_7N22_desert_AK",
+			"rhs_30Rnd_545x39_7N22_AK",
+			"rhs_30Rnd_545x39_7N22_plum_AK",
+			"rhs_30Rnd_545x39_7N22_camo_AK"
 		};
 		displayName="AK-74M (Desert/GP-25/B-13)";
 		rhs_npz="FP_GOR_rhs_weap_ak74m_desert_gp25";
