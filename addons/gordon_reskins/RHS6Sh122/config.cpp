@@ -2024,7 +2024,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_olive_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_olivegreen_co.paa",
 			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_olivegreen_co.paa",
 			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
 		};
@@ -2045,7 +2045,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_olive_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_olivegreen_co.paa",
 			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_olivegreen_co.paa",
 			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
 		};
@@ -2067,7 +2067,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_olive_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_olivegreen_co.paa",
 			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_brown_co.paa",
 			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
 		};
@@ -2088,7 +2088,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_olive_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_olivegreen_co.paa",
 			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_brown_co.paa",
 			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
 		};
@@ -2110,7 +2110,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_olive_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_olivegreen_co.paa",
 			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_urbannight_co.paa",
 			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
 		};
@@ -2131,7 +2131,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_olive_co.paa",
+			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_olivegreen_co.paa",
 			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_urbannight_co.paa",
 			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
 		};
