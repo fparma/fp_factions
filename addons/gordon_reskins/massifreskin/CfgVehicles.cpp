@@ -1629,6 +1629,72 @@ class CfgVehicles
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifcs95dpm_co.paa"
 		};
 	};
+	class FP_GOR_Massif_cs95ddpm: I_soldier_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_cs95ddpm";
+		displayName="Massif (DDPM CS95)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifcs95ddpm_co.paa"
+		};
+	};
+	class FP_GOR_Massif_02_cs95ddpm: I_Soldier_02_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_02_cs95ddpm";
+		displayName="Massif (DDPM CS95, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifcs95ddpm_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_cs95ddpm: I_E_Uniform_01_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_cs95ddpm";
+		displayName="Massif (DDPM CS95, jacket)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketcs95ddpm_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifcs95ddpm_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\coyotegloves_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_02_cs95ddpm: I_E_Uniform_01_shortsleeve_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_02_cs95ddpm";
+		displayName="Massif (DDPM CS95, jacket, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketcs95ddpm_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifcs95ddpm_co.paa"
+		};
+	};
+	
 	class FP_GOR_Massif_pantera: I_soldier_F
 	{
 		author="Gordon Weedman";
