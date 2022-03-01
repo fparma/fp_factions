@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		requiredAddons[]=
 		{
-			"A3_Weapons_F"
+			"A3_Data_F_AOW_Loadorder"
 		};
 		requiredVersion=0.1;
 		units[]={};
@@ -20,13 +20,26 @@ class CfgPatches
 			"FP_GOR_LMG_Mk200_F_sprayurb",
 			"FP_GOR_LMG_Mk200_F_black_greenbox",
 			"FP_GOR_LMG_Mk200_F_black_tanbox",			
-			"FP_GOR_LMG_Mk200_F_black_woodbox"
+			"FP_GOR_LMG_Mk200_F_black_woodbox",
+			"LMG_Mk200_F",
+			"LMG_Mk200_black_F"
 		};
 	};
 };
 class CfgWeapons
 {
-	class LMG_Mk200_F;
+	class Rifle_Long_Base_F;
+	class LMG_Mk200_F: Rifle_Long_Base_F
+	{
+		recoil = "recoil_lim";
+		recoilProne = "assaultRifleBase";
+	};
+	class LMG_Mk200_black_F: LMG_Mk200_F
+	{
+		recoil = "recoil_lim";
+		recoilProne = "assaultRifleBase";
+	};
+	
 	class FP_GOR_LMG_Mk200_F_black: LMG_Mk200_F
 	{
 		author="Gordon Weedman";
@@ -46,6 +59,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\stoner\data\grip_metal.rvmat"
 		}; 
 	};
+	
 	class FP_GOR_LMG_Mk200_F_FDE_blackbox: LMG_Mk200_F
 	{
 		author="Gordon Weedman";
@@ -65,6 +79,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\stoner\data\grip_metal.rvmat"
 		}; 
 	};
+	
 	class FP_GOR_LMG_Mk200_F_olive_blackbox: LMG_Mk200_F
 	{
 		author="Gordon Weedman";
@@ -84,6 +99,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\stoner\data\grip_metal.rvmat"
 		}; 
 	};
+	
 	class FP_GOR_LMG_Mk200_F_spraywood: LMG_Mk200_F
 	{
 		author="Gordon Weedman";
@@ -103,6 +119,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\stoner\data\grip_metal.rvmat"
 		}; 
 	};
+	
 	class FP_GOR_LMG_Mk200_F_sprayautumn: LMG_Mk200_F
 	{
 		author="Gordon Weedman";
@@ -122,6 +139,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\stoner\data\grip_metal.rvmat"
 		}; 
 	};
+	
 	class FP_GOR_LMG_Mk200_F_spraydes: LMG_Mk200_F
 	{
 		author="Gordon Weedman";
@@ -141,6 +159,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\stoner\data\grip_metal.rvmat"
 		}; 
 	};
+	
 	class FP_GOR_LMG_Mk200_F_spraywin: LMG_Mk200_F
 	{
 		author="Gordon Weedman";
@@ -160,6 +179,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\stoner\data\grip_metal.rvmat"
 		}; 
 	};
+	
 	class FP_GOR_LMG_Mk200_F_sprayurb: LMG_Mk200_F
 	{
 		author="Gordon Weedman";
@@ -179,6 +199,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\stoner\data\grip_metal.rvmat"
 		}; 
 	};
+	
 	class FP_GOR_LMG_Mk200_F_black_greenbox: LMG_Mk200_F
 	{
 		author="Gordon Weedman";
@@ -198,6 +219,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\stoner\data\grip_metal.rvmat"
 		}; 
 	};
+	
 	class FP_GOR_LMG_Mk200_F_black_tanbox: LMG_Mk200_F
 	{
 		author="Gordon Weedman";
@@ -217,6 +239,7 @@ class CfgWeapons
 			"\FP_Factions\gordon_reskins\stoner\data\grip_metal.rvmat"
 		}; 
 	};
+	
 	class FP_GOR_LMG_Mk200_F_black_woodbox: LMG_Mk200_F
 	{
 		author="Gordon Weedman";
