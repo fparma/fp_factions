@@ -179,7 +179,13 @@ class CfgPatches
 			"FP_GOR_H_Booniehat_partizanmautumn",
 			"FP_GOR_H_Booniehat_partizanmautumn_hs",
 			"FP_GOR_H_Booniehat_partizanmsummer",
-			"FP_GOR_H_Booniehat_partizanmsummer_hs"
+			"FP_GOR_H_Booniehat_partizanmsummer_hs",
+			"FP_GOR_H_Booniehat_spectreskvo",
+			"FP_GOR_H_Booniehat_spectreskvo_hs",
+			"FP_GOR_H_Booniehat_spectresummer",
+			"FP_GOR_H_Booniehat_spectresummer_hs",
+			"FP_GOR_H_Booniehat_spectrespring",
+			"FP_GOR_H_Booniehat_spectrespring_hs"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -1634,5 +1640,56 @@ class CfgWeapons
 		scope = 2;
 		displayName = "Booniehat (British MTP, headset)";
 		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_mtp_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_spectreskvo: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_spectreskvo";
+		scope = 2;
+		displayName = "Booniehat (Spectre SKVO)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_spectreskvo_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_spectreskvo_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_spectreskvo_hs";
+		scope = 2;
+		displayName = "Booniehat (Spectre SKVO, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_spectreskvo_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_spectresummer: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_spectresummer";
+		scope = 2;
+		displayName = "Booniehat (Spectre Summer)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_spectresummer_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_spectresummer_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_spectresummer_hs";
+		scope = 2;
+		displayName = "Booniehat (Spectre Summer, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_spectresummer_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_spectrespring: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_spectrespring";
+		scope = 2;
+		displayName = "Booniehat (Spectre Spring)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_spectrespring_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_spectrespring_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_spectrespring_hs";
+		scope = 2;
+		displayName = "Booniehat (Spectre Spring, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_spectrespring_co.paa"};
 	};
 };
