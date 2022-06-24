@@ -556,7 +556,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		_generalMacro="rhsgref_helmet_pasgt_erdl";
 		scope=2;
-		displayName="PASGT (DPM CS95)";
+		displayName="PASGT (British DPM)";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_cs95dpm_co.paa"
@@ -567,7 +567,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		_generalMacro="rhsgref_helmet_pasgt_erdl_rhino";
 		scope=2;
-		displayName="PASGT (DPM CS95, Rhino)";
+		displayName="PASGT (British DPM, Rhino)";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_cs95dpm_co.paa"

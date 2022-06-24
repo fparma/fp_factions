@@ -345,7 +345,27 @@ class CfgPatches
 			"FP_GOR_Uniform_Massif_multicamblack",
 			"FP_GOR_Uniform_Massif_02_multicamblack",
 			"FP_GOR_Uniform_Massifjacket_multicamblack",
-			"FP_GOR_Uniform_Massifjacket_02_multicamblack"
+			"FP_GOR_Uniform_Massifjacket_02_multicamblack",
+			"FP_GOR_Uniform_Massif_murtumasandy",
+			"FP_GOR_Uniform_Massif_02_murtumasandy",
+			"FP_GOR_Uniform_Massifjacket_murtumasandy",
+			"FP_GOR_Uniform_Massifjacket_02_murtumasandy",
+			"FP_GOR_Uniform_Massif_murtumadusty",
+			"FP_GOR_Uniform_Massif_02_murtumadusty",
+			"FP_GOR_Uniform_Massifjacket_murtumadusty",
+			"FP_GOR_Uniform_Massifjacket_02_murtumadusty",
+			"FP_GOR_Uniform_Massif_murtumaleafy",
+			"FP_GOR_Uniform_Massif_02_murtumaleafy",
+			"FP_GOR_Uniform_Massifjacket_murtumaleafy",
+			"FP_GOR_Uniform_Massifjacket_02_murtumaleafy",
+			"FP_GOR_Uniform_Massif_murtumafrosty",
+			"FP_GOR_Uniform_Massif_02_murtumafrosty",
+			"FP_GOR_Uniform_Massifjacket_murtumafrosty",
+			"FP_GOR_Uniform_Massifjacket_02_murtumafrosty",
+			"FP_GOR_Uniform_Massif_murtumasnowy",
+			"FP_GOR_Uniform_Massif_02_murtumasnowy",
+			"FP_GOR_Uniform_Massifjacket_murtumasnowy",
+			"FP_GOR_Uniform_Massifjacket_02_murtumasnowy"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=

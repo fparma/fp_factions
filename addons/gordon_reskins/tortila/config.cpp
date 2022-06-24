@@ -208,7 +208,7 @@ class CfgVehicles
 	class FP_GOR_tortila_cs95dpm: B_Carryall_oli
 	{
 		author="Gordon Weedman";
-		displayName="Carryall Backpack (DPM CS95)";
+		displayName="Carryall Backpack (British DPM)";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_cs95dpm_co.paa"

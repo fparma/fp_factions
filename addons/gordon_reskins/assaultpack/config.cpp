@@ -207,7 +207,7 @@ class CfgVehicles
 	class FP_GOR_assaultpack_cs95dpm: B_AssaultPack_rgr
 	{
 		author="Gordon Weedman";
-		displayName="Assault Pack (DPM CS95)";
+		displayName="Assault Pack (British DPM)";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_cs95dpm_co.paa"
