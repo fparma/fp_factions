@@ -97,7 +97,13 @@ class CfgPatches
 			"FP_GOR_PASGThelmet_woodlandsnowtan",
 			"FP_GOR_PASGThelmet_woodlandsnowtan_rhino",
 			"FP_GOR_PASGThelmet_mtp",
-			"FP_GOR_PASGThelmet_mtp_rhino"
+			"FP_GOR_PASGThelmet_mtp_rhino",
+			"FP_GOR_PASGThelmet_lithuanianwoodland",
+			"FP_GOR_PASGThelmet_lithuanianwoodland_rhino",
+			"FP_GOR_PASGThelmet_lithuaniandesertearly",
+			"FP_GOR_PASGThelmet_lithuaniandesertearly_rhino",
+			"FP_GOR_PASGThelmet_lithuaniandesert",
+			"FP_GOR_PASGThelmet_lithuaniandesert_rhino"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -1124,6 +1130,75 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_mtp_co.paa"
+		};
+	};
+	
+	class FP_GOR_PASGThelmet_lithuanianwoodland : rhsgref_helmet_pasgt_erdl
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl";
+		scope=2;
+		displayName="PASGT (Lithuanian M05 Woodland)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_lithuanianwoodland_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_lithuanianwoodland_rhino : rhsgref_helmet_pasgt_erdl_rhino
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl_rhino";
+		scope=2;
+		displayName="PASGT (Lithuanian M05 Woodland, Rhino)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_lithuanianwoodland_co.paa"
+		};
+	};
+	
+	class FP_GOR_PASGThelmet_lithuaniandesertearly : rhsgref_helmet_pasgt_erdl
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl";
+		scope=2;
+		displayName="PASGT (Lithuanian M05 Desert (early))";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_lithuaniandesertearly_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_lithuaniandesertearly_rhino : rhsgref_helmet_pasgt_erdl_rhino
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl_rhino";
+		scope=2;
+		displayName="PASGT (Lithuanian M05 Desert (early), Rhino)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_lithuaniandesertearly_co.paa"
+		};
+	};
+	
+	class FP_GOR_PASGThelmet_lithuaniandesert : rhsgref_helmet_pasgt_erdl
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl";
+		scope=2;
+		displayName="PASGT (Lithuanian M05 Desert)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_lithuaniandesert_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_lithuaniandesert_rhino : rhsgref_helmet_pasgt_erdl_rhino
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl_rhino";
+		scope=2;
+		displayName="PASGT (Lithuanian M05 Desert, Rhino)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_lithuaniandesert_co.paa"
 		};
 	};
 };
