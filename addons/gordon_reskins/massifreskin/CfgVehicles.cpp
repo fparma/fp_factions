@@ -5482,7 +5482,7 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketmulticamblack_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifmulticamblack_co.paa",
-			"\FP_Factions\gordon_reskins\massifreskin\data\olivegloves_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
 		};
 	};
 	class FP_GOR_Massifjacket_02_multicamblack: I_E_Uniform_01_shortsleeve_F
