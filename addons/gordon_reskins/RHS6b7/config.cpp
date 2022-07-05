@@ -982,7 +982,7 @@ class CfgWeapons
 	{
 		author="Gordon Weedman";
 		scope=2;
-		displayName="6B7-1M (DPM CS95)";
+		displayName="6B7-1M (British DPM)";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -993,7 +993,7 @@ class CfgWeapons
 	{
 		author="Gordon Weedman";
 		scope=2;
-		displayName="6B7-1M (DPM CS95, Balaclava)";
+		displayName="6B7-1M (British DPM, Balaclava)";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1005,7 +1005,7 @@ class CfgWeapons
 	{
 		author="Gordon Weedman";
 		scope=2;
-		displayName="6B7-1M (DPM CS95, Balaclava)";
+		displayName="6B7-1M (British DPM, Balaclava)";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1017,7 +1017,7 @@ class CfgWeapons
 	{
 		author="Gordon Weedman";
 		scope=2;
-		displayName="6B7-1M (DPM CS95, ESS)";
+		displayName="6B7-1M (British DPM, ESS)";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1028,7 +1028,7 @@ class CfgWeapons
 	{
 		author="Gordon Weedman";
 		scope=2;
-		displayName="6B7-1M (DPM CS95, ESS & Balaclava)";
+		displayName="6B7-1M (British DPM, ESS & Balaclava)";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",

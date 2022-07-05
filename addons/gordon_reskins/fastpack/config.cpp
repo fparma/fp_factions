@@ -205,7 +205,7 @@ class CfgVehicles
 	class FP_GOR_fastpack_cs95dpm: B_Kitbag_rgr
 	{
 		author="Gordon Weedman";
-		displayName="Kitbag (DPM CS95)";
+		displayName="Kitbag (British DPM)";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\fastpack\data\fastpack_cs95dpm_co.paa"
