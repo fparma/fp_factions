@@ -722,4 +722,55 @@ class CfgVehicles
 			""
 		};
 	};
+	
+	class FP_GOR_og107_mk3_czechoblaky_blench: simc_og107_mk3_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_czechoblaky_blench";
+		displayName="OG-107 (Czech Oblaky, untucked)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_czechoblaky_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_czechoblaky_trop_blench: simc_og107_mk3_trop_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_czechoblaky_trop_blench";
+		displayName="OG-107 (Czech Oblaky, untucked, sleeves)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_czechoblaky_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_czechoblaky_tuck_blench: simc_og107_mk3_tuck_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_czechoblaky_tuck_blench";
+		displayName="OG-107 (Czech Oblaky, tucked)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_czechoblaky_co.paa",
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_czechoblaky_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_czechoblaky_tuck_trop_blench: simc_og107_mk3_tuck_trop_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_czechoblaky_tuck_trop_blench";
+		displayName="OG-107 (Czech Oblaky, tucked, sleeves)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_czechoblaky_co.paa",
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_czechoblaky_co.paa",
+			"",
+			""
+		};
+	};
 };
