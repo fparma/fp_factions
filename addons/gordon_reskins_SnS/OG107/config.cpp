@@ -65,7 +65,15 @@ class CfgPatches
 			"FP_GOR_Uniform_og107_mk3_czechoblaky_blench",
 			"FP_GOR_Uniform_og107_mk3_czechoblaky_trop_blench",
 			"FP_GOR_Uniform_og107_mk3_czechoblaky_tuck_blench",
-			"FP_GOR_Uniform_og107_mk3_czechoblaky_tuck_trop_blench"
+			"FP_GOR_Uniform_og107_mk3_czechoblaky_tuck_trop_blench",
+			"FP_GOR_Uniform_og107_mk3_czechoblakygreen_blench",
+			"FP_GOR_Uniform_og107_mk3_czechoblakygreen_trop_blench",
+			"FP_GOR_Uniform_og107_mk3_czechoblakygreen_tuck_blench",
+			"FP_GOR_Uniform_og107_mk3_czechoblakygreen_tuck_trop_blench",
+			"FP_GOR_Uniform_og107_mk3_czechoblakyfield_blench",
+			"FP_GOR_Uniform_og107_mk3_czechoblakyfield_trop_blench",
+			"FP_GOR_Uniform_og107_mk3_czechoblakyfield_tuck_blench",
+			"FP_GOR_Uniform_og107_mk3_czechoblakyfield_tuck_trop_blench"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
