@@ -27,7 +27,7 @@ class CfgFactionClasses
 	{
 		displayName = "FP CSAT North Africa";
 		priority = 2; 
-		sidae = 0;
+		side = 0;
 		icon = "\a3\Data_f\cfgFactionClasses_OPF_ca.paa";
 		flag = "\a3\Data_f\Flags\flag_CSAT_co.paa";
 	};
