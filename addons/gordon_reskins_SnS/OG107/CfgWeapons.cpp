@@ -595,4 +595,127 @@ class CfgWeapons
 			uniformClass="FP_GOR_og107_mk3_alpenflage_tuck_trop_blench";
 		};
 	};
+	
+	class FP_GOR_Uniform_og107_mk3_czechoblaky_blench: U_Simc_OG107_mk3_blench
+	{
+		scope=2;
+		displayName="OG-107 (Czech Oblaky, untucked)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_czechoblaky_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_czechoblaky_trop_blench: U_Simc_OG107_mk3_trop_blench
+	{
+		scope=2;
+		displayName="OG-107 (Czech Oblaky, untucked, sleeves)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_czechoblaky_trop_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_czechoblaky_tuck_blench: U_Simc_OG107_mk3_tuck_blench
+	{
+		scope=2;
+		displayName="OG-107 (Czech Oblaky, tucked)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_czechoblaky_tuck_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_czechoblaky_tuck_trop_blench: U_Simc_OG107_mk3_tuck_trop_blench
+	{
+		scope=2;
+		displayName="OG-107 (Czech Oblaky, tucked, sleeves)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_czechoblaky_tuck_trop_blench";
+		};
+	};
+	
+	class FP_GOR_Uniform_og107_mk3_czechoblakygreen_blench: U_Simc_OG107_mk3_blench
+	{
+		scope=2;
+		displayName="OG-107 (Czech Oblaky (Green), untucked)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_czechoblakygreen_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_czechoblakygreen_trop_blench: U_Simc_OG107_mk3_trop_blench
+	{
+		scope=2;
+		displayName="OG-107 (Czech Oblaky (Green), untucked, sleeves)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_czechoblakygreen_trop_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_czechoblakygreen_tuck_blench: U_Simc_OG107_mk3_tuck_blench
+	{
+		scope=2;
+		displayName="OG-107 (Czech Oblaky (Green), tucked)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_czechoblakygreen_tuck_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_czechoblakygreen_tuck_trop_blench: U_Simc_OG107_mk3_tuck_trop_blench
+	{
+		scope=2;
+		displayName="OG-107 (Czech Oblaky (Green), tucked, sleeves)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_czechoblakygreen_tuck_trop_blench";
+		};
+	};
+	
+	class FP_GOR_Uniform_og107_mk3_czechoblakyfield_blench: U_Simc_OG107_mk3_blench
+	{
+		scope=2;
+		displayName="OG-107 (Czech Oblaky (Field), untucked)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_czechoblakyfield_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_czechoblakyfield_trop_blench: U_Simc_OG107_mk3_trop_blench
+	{
+		scope=2;
+		displayName="OG-107 (Czech Oblaky (Field), untucked, sleeves)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_czechoblakyfield_trop_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_czechoblakyfield_tuck_blench: U_Simc_OG107_mk3_tuck_blench
+	{
+		scope=2;
+		displayName="OG-107 (Czech Oblaky (Field), tucked)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_czechoblakyfield_tuck_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_czechoblakyfield_tuck_trop_blench: U_Simc_OG107_mk3_tuck_trop_blench
+	{
+		scope=2;
+		displayName="OG-107 (Czech Oblaky (Field), tucked, sleeves)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_czechoblakyfield_tuck_trop_blench";
+		};
+	};
 };
