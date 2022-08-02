@@ -47,7 +47,8 @@ class CfgPatches
 		requiredVersion = 0.1;
 		requiredAddons[]=
 		{
-			"A3_Data_F_AOW_Loadorder"
+			"A3_Data_F_AOW_Loadorder",
+			"ace_realisticweights"
 		};
 	};
 };
@@ -239,7 +240,11 @@ class CfgMagazineWells
 
 class CfgWeapons
 {
-	class arifle_MX_Base_F;
+	class Rifle_Base_F;
+	class arifle_MX_Base_F: Rifle_Base_F
+	{
+		class WeaponSlotsInfo;
+	};
 	class arifle_MX_F: arifle_MX_Base_F
 	{
 		hiddenSelections[]=
@@ -280,6 +285,10 @@ class CfgWeapons
 		{
 			"\FP_Factions\gordon_reskins\mx\data\xmx_short.rvmat"
 		}; 
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			mass=68;
+		};
 	};
 	class arifle_MXC_Black_F: arifle_MXC_F
 	{
