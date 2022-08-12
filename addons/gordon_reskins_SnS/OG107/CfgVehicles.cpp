@@ -875,4 +875,208 @@ class CfgVehicles
 			""
 		};
 	};
+	
+	class FP_GOR_og107_mk3_romanianm93autumn_blench: simc_og107_mk3_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_romanianm93autumn_blench";
+		displayName="OG-107 (Romanian M93 Autumn, untucked)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_romanianm93autumn_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_romanianm93autumn_trop_blench: simc_og107_mk3_trop_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_romanianm93autumn_trop_blench";
+		displayName="OG-107 (Romanian M93 Autumn, untucked, sleeves)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_romanianm93autumn_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_romanianm93autumn_tuck_blench: simc_og107_mk3_tuck_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_romanianm93autumn_tuck_blench";
+		displayName="OG-107 (Romanian M93 Autumn, tucked)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_romanianm93autumn_co.paa",
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_romanianm93autumn_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_romanianm93autumn_tuck_trop_blench: simc_og107_mk3_tuck_trop_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_romanianm93autumn_tuck_trop_blench";
+		displayName="OG-107 (Romanian M93 Autumn, tucked, sleeves)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_romanianm93autumn_co.paa",
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_romanianm93autumn_co.paa",
+			"",
+			""
+		};
+	};
+	
+	class FP_GOR_og107_mk3_romanianm93summer_blench: simc_og107_mk3_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_romanianm93summer_blench";
+		displayName="OG-107 (Romanian M93 Summer, untucked)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_romanianm93summer_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_romanianm93summer_trop_blench: simc_og107_mk3_trop_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_romanianm93summer_trop_blench";
+		displayName="OG-107 (Romanian M93 Summer, untucked, sleeves)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_romanianm93summer_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_romanianm93summer_tuck_blench: simc_og107_mk3_tuck_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_romanianm93summer_tuck_blench";
+		displayName="OG-107 (Romanian M93 Summer, tucked)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_romanianm93summer_co.paa",
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_romanianm93summer_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_romanianm93summer_tuck_trop_blench: simc_og107_mk3_tuck_trop_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_romanianm93summer_tuck_trop_blench";
+		displayName="OG-107 (Romanian M93 Summer, tucked, sleeves)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_romanianm93summer_co.paa",
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_romanianm93summer_co.paa",
+			"",
+			""
+		};
+	};
+	
+	class FP_GOR_og107_mk3_romanianm93urban_blench: simc_og107_mk3_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_romanianm93urban_blench";
+		displayName="OG-107 (Romanian M93 Urban, untucked)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_romanianm93urban_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_romanianm93urban_trop_blench: simc_og107_mk3_trop_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_romanianm93urban_trop_blench";
+		displayName="OG-107 (Romanian M93 Urban, untucked, sleeves)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_romanianm93urban_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_romanianm93urban_tuck_blench: simc_og107_mk3_tuck_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_romanianm93urban_tuck_blench";
+		displayName="OG-107 (Romanian M93 Urban, tucked)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_romanianm93urban_co.paa",
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_romanianm93urban_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_romanianm93urban_tuck_trop_blench: simc_og107_mk3_tuck_trop_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_romanianm93urban_tuck_trop_blench";
+		displayName="OG-107 (Romanian M93 Urban, tucked, sleeves)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_romanianm93urban_co.paa",
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_romanianm93urban_co.paa",
+			"",
+			""
+		};
+	};
+	
+	class FP_GOR_og107_mk3_battalion32_blench: simc_og107_mk3_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_battalion32_blench";
+		displayName="OG-107 (Battalion 32, untucked)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_battalion32_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_battalion32_trop_blench: simc_og107_mk3_trop_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_battalion32_trop_blench";
+		displayName="OG-107 (Battalion 32, untucked, sleeves)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_battalion32_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_battalion32_tuck_blench: simc_og107_mk3_tuck_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_battalion32_tuck_blench";
+		displayName="OG-107 (Battalion 32, tucked)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_battalion32_co.paa",
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_battalion32_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_battalion32_tuck_trop_blench: simc_og107_mk3_tuck_trop_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_battalion32_tuck_trop_blench";
+		displayName="OG-107 (Battalion 32, tucked, sleeves)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_battalion32_co.paa",
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_battalion32_co.paa",
+			"",
+			""
+		};
+	};
 };

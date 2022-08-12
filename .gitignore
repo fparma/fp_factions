@@ -5,3 +5,5 @@ releases/*
 *.biprivatekey
 keys/*
 ####
+
+build.bat
