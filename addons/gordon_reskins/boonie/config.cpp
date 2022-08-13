@@ -219,7 +219,9 @@ class CfgPatches
 			"FP_GOR_H_Booniehat_romanianm93urban",
 			"FP_GOR_H_Booniehat_romanianm93urban_hs",
 			"FP_GOR_H_Booniehat_battalion32",
-			"FP_GOR_H_Booniehat_battalion32_hs"
+			"FP_GOR_H_Booniehat_battalion32_hs",
+			"FP_GOR_H_Booniehat_realtree",
+			"FP_GOR_H_Booniehat_realtree_hs"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -2014,5 +2016,22 @@ class CfgWeapons
 		scope = 2;
 		displayName = "Booniehat (Battalion 32, headset)";
 		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_battalion32_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_realtree: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_realtree";
+		scope = 2;
+		displayName = "Booniehat (Realtree)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_realtree_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_realtree_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_realtree_hs";
+		scope = 2;
+		displayName = "Booniehat (Realtree, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_realtree_co.paa"};
 	};
 };
