@@ -73,7 +73,23 @@ class CfgPatches
 			"FP_GOR_Uniform_og107_mk3_czechoblakyfield_blench",
 			"FP_GOR_Uniform_og107_mk3_czechoblakyfield_trop_blench",
 			"FP_GOR_Uniform_og107_mk3_czechoblakyfield_tuck_blench",
-			"FP_GOR_Uniform_og107_mk3_czechoblakyfield_tuck_trop_blench"
+			"FP_GOR_Uniform_og107_mk3_czechoblakyfield_tuck_trop_blench",
+			"FP_GOR_Uniform_og107_mk3_romanianm93autumn_blench",
+			"FP_GOR_Uniform_og107_mk3_romanianm93autumn_trop_blench",
+			"FP_GOR_Uniform_og107_mk3_romanianm93autumn_tuck_blench",
+			"FP_GOR_Uniform_og107_mk3_romanianm93autumn_tuck_trop_blench",
+			"FP_GOR_Uniform_og107_mk3_romanianm93summer_blench",
+			"FP_GOR_Uniform_og107_mk3_romanianm93summer_trop_blench",
+			"FP_GOR_Uniform_og107_mk3_romanianm93summer_tuck_blench",
+			"FP_GOR_Uniform_og107_mk3_romanianm93summer_tuck_trop_blench",
+			"FP_GOR_Uniform_og107_mk3_romanianm93urban_blench",
+			"FP_GOR_Uniform_og107_mk3_romanianm93urban_trop_blench",
+			"FP_GOR_Uniform_og107_mk3_romanianm93urban_tuck_blench",
+			"FP_GOR_Uniform_og107_mk3_romanianm93urban_tuck_trop_blench",
+			"FP_GOR_Uniform_og107_mk3_battalion32_blench",
+			"FP_GOR_Uniform_og107_mk3_battalion32_trop_blench",
+			"FP_GOR_Uniform_og107_mk3_battalion32_tuck_blench",
+			"FP_GOR_Uniform_og107_mk3_battalion32_tuck_trop_blench"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=

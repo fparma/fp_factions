@@ -211,7 +211,17 @@ class CfgPatches
 			"FP_GOR_H_Booniehat_ogdpm",
 			"FP_GOR_H_Booniehat_ogdpm_hs",
 			"FP_GOR_H_Booniehat_portugueselizard",
-			"FP_GOR_H_Booniehat_portugueselizard_hs"
+			"FP_GOR_H_Booniehat_portugueselizard_hs",
+			"FP_GOR_H_Booniehat_romanianm93autumn",
+			"FP_GOR_H_Booniehat_romanianm93autumn_hs",
+			"FP_GOR_H_Booniehat_romanianm93summer",
+			"FP_GOR_H_Booniehat_romanianm93summer_hs",
+			"FP_GOR_H_Booniehat_romanianm93urban",
+			"FP_GOR_H_Booniehat_romanianm93urban_hs",
+			"FP_GOR_H_Booniehat_battalion32",
+			"FP_GOR_H_Booniehat_battalion32_hs",
+			"FP_GOR_H_Booniehat_realtree",
+			"FP_GOR_H_Booniehat_realtree_hs"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -1938,5 +1948,90 @@ class CfgWeapons
 		scope = 2;
 		displayName = "Booniehat (Portuguese Lizard, headset)";
 		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_portugueselizard_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_romanianm93autumn: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_romanianm93autumn";
+		scope = 2;
+		displayName = "Booniehat (Romanian M93 Autumn)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_romanianm93autumn_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_romanianm93autumn_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_romanianm93autumn_hs";
+		scope = 2;
+		displayName = "Booniehat (Romanian M93 Autumn, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_romanianm93autumn_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_romanianm93summer: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_romanianm93summer";
+		scope = 2;
+		displayName = "Booniehat (Romanian M93 Summer)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_romanianm93summer_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_romanianm93summer_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_romanianm93summer_hs";
+		scope = 2;
+		displayName = "Booniehat (Romanian M93 Summer, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_romanianm93summer_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_romanianm93urban: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_romanianm93urban";
+		scope = 2;
+		displayName = "Booniehat (Romanian M93 Urban)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_romanianm93urban_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_romanianm93urban_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_romanianm93urban_hs";
+		scope = 2;
+		displayName = "Booniehat (Romanian M93 Urban, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_romanianm93urban_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_battalion32: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_battalion32";
+		scope = 2;
+		displayName = "Booniehat (Battalion 32)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_battalion32_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_battalion32_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_battalion32_hs";
+		scope = 2;
+		displayName = "Booniehat (Battalion 32, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_battalion32_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_realtree: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_realtree";
+		scope = 2;
+		displayName = "Booniehat (Realtree)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_realtree_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_realtree_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_realtree_hs";
+		scope = 2;
+		displayName = "Booniehat (Realtree, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_realtree_co.paa"};
 	};
 };
