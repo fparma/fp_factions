@@ -185,7 +185,17 @@ class CfgPatches
 			"FP_GOR_6b7_1m_bala1_hextaiga",
 			"FP_GOR_6b7_1m_bala2_hextaiga",
 			"FP_GOR_6b7_1m_ess_hextaiga",
-			"FP_GOR_6b7_1m_ess_bala_hextaiga"
+			"FP_GOR_6b7_1m_ess_bala_hextaiga",
+			"FP_GOR_6b7_1m_atacsfg",
+			"FP_GOR_6b7_1m_bala1_atacsfg",
+			"FP_GOR_6b7_1m_bala2_atacsfg",
+			"FP_GOR_6b7_1m_ess_atacsfg",
+			"FP_GOR_6b7_1m_ess_bala_atacsfg",
+			"FP_GOR_6b7_1m_atacsau",
+			"FP_GOR_6b7_1m_bala1_atacsau",
+			"FP_GOR_6b7_1m_bala2_atacsau",
+			"FP_GOR_6b7_1m_ess_atacsau",
+			"FP_GOR_6b7_1m_ess_bala_atacsau"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
