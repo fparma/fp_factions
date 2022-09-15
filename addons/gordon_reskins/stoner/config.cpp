@@ -4,7 +4,8 @@ class CfgPatches
 	{
 		requiredAddons[]=
 		{
-			"A3_Data_F_AOW_Loadorder"
+			"A3_Data_F_AOW_Loadorder",
+			"rhsusf_c_weapons"
 		};
 		requiredVersion=0.1;
 		units[]={};
@@ -31,12 +32,12 @@ class CfgWeapons
 	class Rifle_Long_Base_F;
 	class LMG_Mk200_F: Rifle_Long_Base_F
 	{
-		recoil = "recoil_lim";
+		recoil = "rhs_recoil_m249";
 		recoilProne = "assaultRifleBase";
 	};
 	class LMG_Mk200_black_F: LMG_Mk200_F
 	{
-		recoil = "recoil_lim";
+		recoil = "rhs_recoil_m249";
 		recoilProne = "assaultRifleBase";
 	};
 	
