@@ -89,7 +89,19 @@ class CfgPatches
 			"FP_GOR_Uniform_og107_mk3_battalion32_blench",
 			"FP_GOR_Uniform_og107_mk3_battalion32_trop_blench",
 			"FP_GOR_Uniform_og107_mk3_battalion32_tuck_blench",
-			"FP_GOR_Uniform_og107_mk3_battalion32_tuck_trop_blench"
+			"FP_GOR_Uniform_og107_mk3_battalion32_tuck_trop_blench",
+			"FP_GOR_Uniform_og107_mk3_rhodesianearly_blench",
+			"FP_GOR_Uniform_og107_mk3_rhodesianearly_trop_blench",
+			"FP_GOR_Uniform_og107_mk3_rhodesianearly_tuck_blench",
+			"FP_GOR_Uniform_og107_mk3_rhodesianearly_tuck_trop_blench",
+			"FP_GOR_Uniform_og107_mk3_rhodesian_blench",
+			"FP_GOR_Uniform_og107_mk3_rhodesian_trop_blench",
+			"FP_GOR_Uniform_og107_mk3_rhodesian_tuck_blench",
+			"FP_GOR_Uniform_og107_mk3_rhodesian_tuck_trop_blench",
+			"FP_GOR_Uniform_og107_mk3_rhodesianexperimental_blench",
+			"FP_GOR_Uniform_og107_mk3_rhodesianexperimental_trop_blench",
+			"FP_GOR_Uniform_og107_mk3_rhodesianexperimental_tuck_blench",
+			"FP_GOR_Uniform_og107_mk3_rhodesianexperimental_tuck_trop_blench"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=

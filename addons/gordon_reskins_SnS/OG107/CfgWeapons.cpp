@@ -882,4 +882,127 @@ class CfgWeapons
 			uniformClass="FP_GOR_og107_mk3_battalion32_tuck_trop_blench";
 		};
 	};
+	
+	class FP_GOR_Uniform_og107_mk3_rhodesianearly_blench: U_Simc_OG107_mk3_blench
+	{
+		scope=2;
+		displayName="OG-107 (Rhodesian brushstroke (early), untucked)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_rhodesianearly_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_rhodesianearly_trop_blench: U_Simc_OG107_mk3_trop_blench
+	{
+		scope=2;
+		displayName="OG-107 (Rhodesian brushstroke (early), untucked, sleeves)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_rhodesianearly_trop_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_rhodesianearly_tuck_blench: U_Simc_OG107_mk3_tuck_blench
+	{
+		scope=2;
+		displayName="OG-107 (Rhodesian brushstroke (early), tucked)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_rhodesianearly_tuck_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_rhodesianearly_tuck_trop_blench: U_Simc_OG107_mk3_tuck_trop_blench
+	{
+		scope=2;
+		displayName="OG-107 (Rhodesian brushstroke (early), tucked, sleeves)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_rhodesianearly_tuck_trop_blench";
+		};
+	};
+	
+	class FP_GOR_Uniform_og107_mk3_rhodesian_blench: U_Simc_OG107_mk3_blench
+	{
+		scope=2;
+		displayName="OG-107 (Rhodesian brushstroke, untucked)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_rhodesian_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_rhodesian_trop_blench: U_Simc_OG107_mk3_trop_blench
+	{
+		scope=2;
+		displayName="OG-107 (Rhodesian brushstroke, untucked, sleeves)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_rhodesian_trop_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_rhodesian_tuck_blench: U_Simc_OG107_mk3_tuck_blench
+	{
+		scope=2;
+		displayName="OG-107 (Rhodesian brushstroke, tucked)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_rhodesian_tuck_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_rhodesian_tuck_trop_blench: U_Simc_OG107_mk3_tuck_trop_blench
+	{
+		scope=2;
+		displayName="OG-107 (Rhodesian brushstroke, tucked, sleeves)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_rhodesian_tuck_trop_blench";
+		};
+	};
+	
+	class FP_GOR_Uniform_og107_mk3_rhodesianexperimental_blench: U_Simc_OG107_mk3_blench
+	{
+		scope=2;
+		displayName="OG-107 (Rhodesian brushstroke (experimental), untucked)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_rhodesianexperimental_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_rhodesianexperimental_trop_blench: U_Simc_OG107_mk3_trop_blench
+	{
+		scope=2;
+		displayName="OG-107 (Rhodesian brushstroke (experimental), untucked, sleeves)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_rhodesianexperimental_trop_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_rhodesianexperimental_tuck_blench: U_Simc_OG107_mk3_tuck_blench
+	{
+		scope=2;
+		displayName="OG-107 (Rhodesian brushstroke (experimental), tucked)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_rhodesianexperimental_tuck_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_rhodesianexperimental_tuck_trop_blench: U_Simc_OG107_mk3_tuck_trop_blench
+	{
+		scope=2;
+		displayName="OG-107 (Rhodesian brushstroke (experimental), tucked, sleeves)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_rhodesianexperimental_tuck_trop_blench";
+		};
+	};
 };

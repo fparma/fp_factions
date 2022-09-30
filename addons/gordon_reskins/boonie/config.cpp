@@ -221,7 +221,13 @@ class CfgPatches
 			"FP_GOR_H_Booniehat_battalion32",
 			"FP_GOR_H_Booniehat_battalion32_hs",
 			"FP_GOR_H_Booniehat_realtree",
-			"FP_GOR_H_Booniehat_realtree_hs"
+			"FP_GOR_H_Booniehat_realtree_hs",
+			"FP_GOR_H_Booniehat_rhodesianearly",
+			"FP_GOR_H_Booniehat_rhodesianearly_hs",
+			"FP_GOR_H_Booniehat_rhodesian",
+			"FP_GOR_H_Booniehat_rhodesian_hs",
+			"FP_GOR_H_Booniehat_rhodesianexperimental",
+			"FP_GOR_H_Booniehat_rhodesianexperimental_hs"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -2033,5 +2039,56 @@ class CfgWeapons
 		scope = 2;
 		displayName = "Booniehat (Realtree, headset)";
 		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_realtree_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_rhodesianearly: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_rhodesianearly";
+		scope = 2;
+		displayName = "Booniehat (Rhodesian brushstroke (early))";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_rhodesianearly_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_rhodesianearly_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_rhodesianearly_hs";
+		scope = 2;
+		displayName = "Booniehat (Rhodesian brushstroke (early), headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_rhodesianearly_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_rhodesian: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_rhodesian";
+		scope = 2;
+		displayName = "Booniehat (Rhodesian brushstroke)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_rhodesian_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_rhodesian_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_rhodesian_hs";
+		scope = 2;
+		displayName = "Booniehat (Rhodesian brushstroke, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_rhodesian_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_rhodesianexperimental: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_rhodesianexperimental";
+		scope = 2;
+		displayName = "Booniehat (Rhodesian brushstroke (experimental))";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_rhodesianexperimental_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_rhodesianexperimental_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_rhodesianexperimental_hs";
+		scope = 2;
+		displayName = "Booniehat (Rhodesian brushstroke (experimental), headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_rhodesianexperimental_co.paa"};
 	};
 };
