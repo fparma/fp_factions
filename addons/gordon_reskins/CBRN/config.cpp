@@ -21,7 +21,9 @@ class CfgPatches
 			"FP_GOR_CBRN_Suit_01_pink",
 			"FP_GOR_CBRN_Suit_01_pinkb",
 			"FP_GOR_CBRN_Suit_01_tan",
-			"FP_GOR_CBRN_Suit_01_tanb"
+			"FP_GOR_CBRN_Suit_01_tanb",
+			"FP_GOR_CBRN_Suit_01_teal",
+			"FP_GOR_CBRN_Suit_01_tealb"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -306,6 +308,41 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\CBRN\data\CBRN_Suit_tanb_CO.paa"
+		};
+	};
+	
+	class FP_GOR_CBRN_Oversuit_teal: B_CBRN_Man_Oversuit_01_MTP_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="B_CBRN_Man_Oversuit_01_MTP_F";
+		scope=1;
+		uniformClass="FP_GOR_CBRN_Suit_01_teal";
+		displayName="CBRN Suit (Teal)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\CBRN\data\CBRN_Suit_teal_CO.paa"
+		};
+	};
+	class FP_GOR_CBRN_Oversuit_tealb: B_CBRN_Man_Oversuit_01_MTP_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="B_CBRN_Man_Oversuit_01_MTP_F";
+		scope=1;
+		uniformClass="FP_GOR_CBRN_Suit_01_tealb";
+		displayName="CBRN Suit (Teal w/ details)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\CBRN\data\CBRN_Suit_tealb_CO.paa"
 		};
 	};
 };
@@ -648,6 +685,49 @@ class CfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="FP_GOR_CBRN_Oversuit_tanb";
+			containerClass="Supply30";
+			mass=45;
+		};
+	};
+	
+	class FP_GOR_CBRN_Suit_01_teal: U_B_CBRN_Suit_01_MTP_F
+	{
+		scope=2;
+		displayName="CBRN Suit (Teal)";
+		author="Gordon Weedman";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\CBRN\data\CBRN_Suit_teal_CO.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_CBRN_Oversuit_teal";
+			containerClass="Supply30";
+			mass=45;
+		};
+	};
+	class FP_GOR_CBRN_Suit_01_tealb: U_B_CBRN_Suit_01_MTP_F
+	{
+		scope=2;
+		displayName="CBRN Suit (Teal w/ details)";
+		author="Gordon Weedman";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\CBRN\data\CBRN_Suit_tealb_CO.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_CBRN_Oversuit_tealb";
 			containerClass="Supply30";
 			mass=45;
 		};

@@ -1079,4 +1079,157 @@ class CfgVehicles
 			""
 		};
 	};
+	
+	class FP_GOR_og107_mk3_rhodesianearly_blench: simc_og107_mk3_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_rhodesianearly_blench";
+		displayName="OG-107 (Rhodesian brushstroke (early), untucked)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_rhodesianearly_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_rhodesianearly_trop_blench: simc_og107_mk3_trop_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_rhodesianearly_trop_blench";
+		displayName="OG-107 (Rhodesian brushstroke (early), untucked, sleeves)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_rhodesianearly_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_rhodesianearly_tuck_blench: simc_og107_mk3_tuck_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_rhodesianearly_tuck_blench";
+		displayName="OG-107 (Rhodesian brushstroke (early), tucked)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_rhodesianearly_co.paa",
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_rhodesianearly_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_rhodesianearly_tuck_trop_blench: simc_og107_mk3_tuck_trop_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_rhodesianearly_tuck_trop_blench";
+		displayName="OG-107 (Rhodesian brushstroke (early), tucked, sleeves)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_rhodesianearly_co.paa",
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_rhodesianearly_co.paa",
+			"",
+			""
+		};
+	};
+	
+	class FP_GOR_og107_mk3_rhodesian_blench: simc_og107_mk3_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_rhodesian_blench";
+		displayName="OG-107 (Rhodesian brushstroke, untucked)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_rhodesian_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_rhodesian_trop_blench: simc_og107_mk3_trop_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_rhodesian_trop_blench";
+		displayName="OG-107 (Rhodesian brushstroke, untucked, sleeves)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_rhodesian_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_rhodesian_tuck_blench: simc_og107_mk3_tuck_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_rhodesian_tuck_blench";
+		displayName="OG-107 (Rhodesian brushstroke, tucked)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_rhodesian_co.paa",
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_rhodesian_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_rhodesian_tuck_trop_blench: simc_og107_mk3_tuck_trop_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_rhodesian_tuck_trop_blench";
+		displayName="OG-107 (Rhodesian brushstroke, tucked, sleeves)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_rhodesian_co.paa",
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_rhodesian_co.paa",
+			"",
+			""
+		};
+	};
+	
+	class FP_GOR_og107_mk3_rhodesianexperimental_blench: simc_og107_mk3_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_rhodesianexperimental_blench";
+		displayName="OG-107 (Rhodesian brushstroke (experimental), untucked)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_rhodesianexperimental_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_rhodesianexperimental_trop_blench: simc_og107_mk3_trop_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_rhodesianexperimental_trop_blench";
+		displayName="OG-107 (Rhodesian brushstroke (experimental), untucked, sleeves)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_rhodesianexperimental_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_rhodesianexperimental_tuck_blench: simc_og107_mk3_tuck_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_rhodesianexperimental_tuck_blench";
+		displayName="OG-107 (Rhodesian brushstroke (experimental), tucked)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_rhodesianexperimental_co.paa",
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_rhodesianexperimental_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_rhodesianexperimental_tuck_trop_blench: simc_og107_mk3_tuck_trop_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_rhodesianexperimental_tuck_trop_blench";
+		displayName="OG-107 (Rhodesian brushstroke (experimental), tucked, sleeves)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_rhodesianexperimental_co.paa",
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_rhodesianexperimental_co.paa",
+			"",
+			""
+		};
+	};
 };
