@@ -182,7 +182,7 @@ class CfgVehicles
 		_generalMacro="rhsusf_army_acu_uniform";
 		scope=1;
 		uniformClass="FP_GOR_rhs_uniform_acu_cs95dpm";
-		displayName="Army Combat Uniform (DPM CS95)";
+		displayName="Army Combat Uniform (British DPM)";
 		nakedUniform="U_BasicBody";
 		hiddenSelections[]=
 		{
@@ -655,7 +655,7 @@ class CfgWeapons
 	class FP_GOR_rhs_uniform_acu_cs95dpm: rhs_uniform_acu_ucp
 	{
 		scope=2;
-		displayName="Army Combat Uniform (DPM CS95)";
+		displayName="Army Combat Uniform (British DPM)";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{

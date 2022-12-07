@@ -1570,7 +1570,7 @@ class CfgVehicles
 		_generalMacro="I_Soldier_F";
 		scope=1;
 		uniformClass="FP_GOR_Uniform_Massif_cs95dpm";
-		displayName="Massif (DPM CS95)";
+		displayName="Massif (British DPM)";
 		nakedUniform="U_BasicBody";
 		hiddenSelections[]=
 		{
@@ -1588,7 +1588,7 @@ class CfgVehicles
 		_generalMacro="I_Soldier_02_F";
 		scope=1;
 		uniformClass="FP_GOR_Uniform_Massif_02_cs95dpm";
-		displayName="Massif (DPM CS95, sleeves)";
+		displayName="Massif (British DPM, sleeves)";
 		nakedUniform="U_BasicBody";
 		hiddenSelections[]=
 		{
@@ -1606,7 +1606,7 @@ class CfgVehicles
 		_generalMacro="I_E_Uniform_01_F";
 		scope=1;
 		uniformClass="FP_GOR_Uniform_Massifjacket_cs95dpm";
-		displayName="Massif (DPM CS95, jacket)";
+		displayName="Massif (British DPM, jacket)";
 		nakedUniform="U_BasicBody";
 		hiddenSelectionsTextures[]=
 		{
@@ -1621,7 +1621,7 @@ class CfgVehicles
 		_generalMacro="I_E_Uniform_01_shortsleeve_F";
 		scope=1;
 		uniformClass="FP_GOR_Uniform_Massifjacket_02_cs95dpm";
-		displayName="Massif (DPM CS95, jacket, sleeves)";
+		displayName="Massif (British DPM, jacket, sleeves)";
 		nakedUniform="U_BasicBody";
 		hiddenSelectionsTextures[]=
 		{
@@ -1629,6 +1629,72 @@ class CfgVehicles
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifcs95dpm_co.paa"
 		};
 	};
+	class FP_GOR_Massif_cs95ddpm: I_soldier_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_cs95ddpm";
+		displayName="Massif (British DDPM)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifcs95ddpm_co.paa"
+		};
+	};
+	class FP_GOR_Massif_02_cs95ddpm: I_Soldier_02_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_02_cs95ddpm";
+		displayName="Massif (British DDPM, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifcs95ddpm_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_cs95ddpm: I_E_Uniform_01_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_cs95ddpm";
+		displayName="Massif (British DDPM, jacket)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketcs95ddpm_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifcs95ddpm_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\coyotegloves_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_02_cs95ddpm: I_E_Uniform_01_shortsleeve_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_02_cs95ddpm";
+		displayName="Massif (British DDPM, jacket, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketcs95ddpm_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifcs95ddpm_co.paa"
+		};
+	};
+	
 	class FP_GOR_Massif_pantera: I_soldier_F
 	{
 		author="Gordon Weedman";
@@ -5167,6 +5233,600 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\massifreskin\data\jacketlithuaniandesert_co.paa",
 			"\FP_Factions\gordon_reskins\massifreskin\data\massiflithuaniandesert_co.paa"
+		};
+	};
+
+	class FP_GOR_Massif_multicam: I_soldier_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_multicam";
+		displayName="Massif (Multicam)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifmulticam_co.paa"
+		};
+	};
+	class FP_GOR_Massif_02_multicam: I_Soldier_02_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_02_multicam";
+		displayName="Massif (Multicam, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifmulticam_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_multicam: I_E_Uniform_01_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_multicam";
+		displayName="Massif (Multicam, jacket)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketmulticam_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifmulticam_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\coyotegloves_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_02_multicam: I_E_Uniform_01_shortsleeve_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_02_multicam";
+		displayName="Massif (Multicam, jacket, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketmulticam_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifmulticam_co.paa"
+		};
+	};
+	
+	class FP_GOR_Massif_multicamarid: I_soldier_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_multicamarid";
+		displayName="Massif (Multicam Arid)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifmulticamarid_co.paa"
+		};
+	};
+	class FP_GOR_Massif_02_multicamarid: I_Soldier_02_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_02_multicamarid";
+		displayName="Massif (Multicam Arid, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifmulticamarid_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_multicamarid: I_E_Uniform_01_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_multicamarid";
+		displayName="Massif (Multicam Arid, jacket)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketmulticamarid_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifmulticamarid_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\coyotegloves_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_02_multicamarid: I_E_Uniform_01_shortsleeve_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_02_multicamarid";
+		displayName="Massif (Multicam Arid, jacket, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketmulticamarid_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifmulticamarid_co.paa"
+		};
+	};
+	
+	class FP_GOR_Massif_multicamjungle: I_soldier_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_multicamjungle";
+		displayName="Massif (Multicam Jungle)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifmulticamjungle_co.paa"
+		};
+	};
+	class FP_GOR_Massif_02_multicamjungle: I_Soldier_02_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_02_multicamjungle";
+		displayName="Massif (Multicam Jungle, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifmulticamjungle_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_multicamjungle: I_E_Uniform_01_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_multicamjungle";
+		displayName="Massif (Multicam Jungle, jacket)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketmulticamjungle_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifmulticamjungle_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\olivegloves_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_02_multicamjungle: I_E_Uniform_01_shortsleeve_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_02_multicamjungle";
+		displayName="Massif (Multicam Jungle, jacket, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketmulticamjungle_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifmulticamjungle_co.paa"
+		};
+	};
+	
+	class FP_GOR_Massif_multicamblack: I_soldier_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_multicamblack";
+		displayName="Massif (Multicam Black)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifmulticamblack_co.paa"
+		};
+	};
+	class FP_GOR_Massif_02_multicamblack: I_Soldier_02_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_02_multicamblack";
+		displayName="Massif (Multicam Black, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifmulticamblack_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_multicamblack: I_E_Uniform_01_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_multicamblack";
+		displayName="Massif (Multicam Black, jacket)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketmulticamblack_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifmulticamblack_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\blackgloves_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_02_multicamblack: I_E_Uniform_01_shortsleeve_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_02_multicamblack";
+		displayName="Massif (Multicam Black, jacket, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketmulticamblack_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifmulticamblack_co.paa"
+		};
+	};
+	
+	class FP_GOR_Massif_murtumasandy: I_soldier_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_murtumasandy";
+		displayName="Massif (Murtuma Sandy)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifmurtumasandy_co.paa"
+		};
+	};
+	class FP_GOR_Massif_02_murtumasandy: I_Soldier_02_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_02_murtumasandy";
+		displayName="Massif (Murtuma Sandy, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifmurtumasandy_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_murtumasandy: I_E_Uniform_01_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_murtumasandy";
+		displayName="Massif (Murtuma Sandy, jacket)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketmurtumasandy_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifmurtumasandy_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\coyotegloves_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_02_murtumasandy: I_E_Uniform_01_shortsleeve_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_02_murtumasandy";
+		displayName="Massif (Murtuma Sandy, jacket, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketmurtumasandy_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifmurtumasandy_co.paa"
+		};
+	};
+	
+	class FP_GOR_Massif_murtumadusty: I_soldier_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_murtumadusty";
+		displayName="Massif (Murtuma Dusty)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifmurtumadusty_co.paa"
+		};
+	};
+	class FP_GOR_Massif_02_murtumadusty: I_Soldier_02_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_02_murtumadusty";
+		displayName="Massif (Murtuma Dusty, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifmurtumadusty_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_murtumadusty: I_E_Uniform_01_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_murtumadusty";
+		displayName="Massif (Murtuma Dusty, jacket)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketmurtumadusty_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifmurtumadusty_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\olivegloves_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_02_murtumadusty: I_E_Uniform_01_shortsleeve_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_02_murtumadusty";
+		displayName="Massif (Murtuma Dusty, jacket, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketmurtumadusty_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifmurtumadusty_co.paa"
+		};
+	};
+	
+	class FP_GOR_Massif_murtumaleafy: I_soldier_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_murtumaleafy";
+		displayName="Massif (Murtuma Leafy)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifmurtumaleafy_co.paa"
+		};
+	};
+	class FP_GOR_Massif_02_murtumaleafy: I_Soldier_02_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_02_murtumaleafy";
+		displayName="Massif (Murtuma Leafy, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifmurtumaleafy_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_murtumaleafy: I_E_Uniform_01_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_murtumaleafy";
+		displayName="Massif (Murtuma Leafy, jacket)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketmurtumaleafy_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifmurtumaleafy_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\olivegloves_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_02_murtumaleafy: I_E_Uniform_01_shortsleeve_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_02_murtumaleafy";
+		displayName="Massif (Murtuma Leafy, jacket, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketmurtumaleafy_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifmurtumaleafy_co.paa"
+		};
+	};
+	
+	class FP_GOR_Massif_murtumafrosty: I_soldier_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_murtumafrosty";
+		displayName="Massif (Murtuma Frosty)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifmurtumafrosty_co.paa"
+		};
+	};
+	class FP_GOR_Massif_02_murtumafrosty: I_Soldier_02_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_02_murtumafrosty";
+		displayName="Massif (Murtuma Frosty, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifmurtumafrosty_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_murtumafrosty: I_E_Uniform_01_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_murtumafrosty";
+		displayName="Massif (Murtuma Frosty, jacket)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketmurtumafrosty_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifmurtumafrosty_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\olivegloves_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_02_murtumafrosty: I_E_Uniform_01_shortsleeve_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_02_murtumafrosty";
+		displayName="Massif (Murtuma Frosty, jacket, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketmurtumafrosty_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifmurtumafrosty_co.paa"
+		};
+	};
+	
+	class FP_GOR_Massif_murtumasnowy: I_soldier_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_murtumasnowy";
+		displayName="Massif (Murtuma Snowy)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifmurtumasnowy_co.paa"
+		};
+	};
+	class FP_GOR_Massif_02_murtumasnowy: I_Soldier_02_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_02_murtumasnowy";
+		displayName="Massif (Murtuma Snowy, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifmurtumasnowy_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_murtumasnowy: I_E_Uniform_01_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_murtumasnowy";
+		displayName="Massif (Murtuma Snowy, jacket)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketmurtumasnowy_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifmurtumasnowy_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\wintergloves_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_02_murtumasnowy: I_E_Uniform_01_shortsleeve_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_02_murtumasnowy";
+		displayName="Massif (Murtuma Snowy, jacket, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketmurtumasnowy_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifmurtumasnowy_co.paa"
 		};
 	};
 };

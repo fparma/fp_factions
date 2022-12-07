@@ -36,6 +36,7 @@ class CfgPatches
 			"FP_GOR_tortila_honor",
 			"FP_GOR_tortila_m90",
 			"FP_GOR_tortila_m90k",
+			"FP_GOR_tortila_m90w",
 			"FP_GOR_tortila_emr",
 			"FP_GOR_tortila_flora",
 			"FP_GOR_tortila_olivedrab",
@@ -208,7 +209,7 @@ class CfgVehicles
 	class FP_GOR_tortila_cs95dpm: B_Carryall_oli
 	{
 		author="Gordon Weedman";
-		displayName="Carryall Backpack (DPM CS95)";
+		displayName="Carryall Backpack (British DPM)";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_cs95dpm_co.paa"
@@ -320,6 +321,15 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_m90k_co.paa"
+		};
+	};
+	class FP_GOR_tortila_m90w: B_Carryall_oli
+	{
+		author="Gordon Weedman";
+		displayName="Carryall Backpack (Swedish M90W)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_m90w_co.paa"
 		};
 	};
 	class FP_GOR_tortila_emr: B_Carryall_oli

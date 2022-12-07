@@ -36,6 +36,7 @@ class CfgPatches
 			"FP_GOR_fastpack_honor",
 			"FP_GOR_fastpack_m90",
 			"FP_GOR_fastpack_m90k",
+			"FP_GOR_fastpack_m90w",
 			"FP_GOR_fastpack_inv"
 		};
 		requiredVersion=0.1;
@@ -205,7 +206,7 @@ class CfgVehicles
 	class FP_GOR_fastpack_cs95dpm: B_Kitbag_rgr
 	{
 		author="Gordon Weedman";
-		displayName="Kitbag (DPM CS95)";
+		displayName="Kitbag (British DPM)";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\fastpack\data\fastpack_cs95dpm_co.paa"
@@ -317,6 +318,15 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\fastpack\data\fastpack_m90k_co.paa"
+		};
+	};
+	class FP_GOR_fastpack_m90w: B_Kitbag_rgr
+	{
+		author="Gordon Weedman";
+		displayName="Kitbag (Swedish M90W)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\fastpack\data\fastpack_m90w_co.paa"
 		};
 	};
 	class FP_GOR_fastpack_inv: B_Kitbag_rgr

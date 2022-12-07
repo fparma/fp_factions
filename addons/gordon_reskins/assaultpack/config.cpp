@@ -36,6 +36,7 @@ class CfgPatches
 			"FP_GOR_assaultpack_honor",
 			"FP_GOR_assaultpack_m90",
 			"FP_GOR_assaultpack_m90k",
+			"FP_GOR_assaultpack_m90w",
 			"FP_GOR_assaultpack_mtp",
 			"FP_GOR_assaultpack_inv"
 		};
@@ -207,7 +208,7 @@ class CfgVehicles
 	class FP_GOR_assaultpack_cs95dpm: B_AssaultPack_rgr
 	{
 		author="Gordon Weedman";
-		displayName="Assault Pack (DPM CS95)";
+		displayName="Assault Pack (British DPM)";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_cs95dpm_co.paa"
@@ -319,6 +320,15 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_m90k_co.paa"
+		};
+	};
+	class FP_GOR_assaultpack_m90w: B_AssaultPack_rgr
+	{
+		author="Gordon Weedman";
+		displayName="Assault Pack (Swedish M90W)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_m90w_co.paa"
 		};
 	};
 	class FP_GOR_assaultpack_mtp: B_AssaultPack_rgr
