@@ -1,3 +1,4 @@
+[project]
 name = "fp_factions"
 prefix = "fp_factions"
 author = "fparma"
