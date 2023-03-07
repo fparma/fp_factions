@@ -101,7 +101,15 @@ class CfgPatches
 			"FP_GOR_Uniform_og107_mk3_rhodesianexperimental_blench",
 			"FP_GOR_Uniform_og107_mk3_rhodesianexperimental_trop_blench",
 			"FP_GOR_Uniform_og107_mk3_rhodesianexperimental_tuck_blench",
-			"FP_GOR_Uniform_og107_mk3_rhodesianexperimental_tuck_trop_blench"
+			"FP_GOR_Uniform_og107_mk3_rhodesianexperimental_tuck_trop_blench",
+			"FP_GOR_Uniform_og107_mk3_strichtarn_blench",
+			"FP_GOR_Uniform_og107_mk3_strichtarn_trop_blench",
+			"FP_GOR_Uniform_og107_mk3_strichtarn_tuck_blench",
+			"FP_GOR_Uniform_og107_mk3_strichtarn_tuck_trop_blench",
+			"FP_GOR_Uniform_og107_mk3_polishworm_blench",
+			"FP_GOR_Uniform_og107_mk3_polishworm_trop_blench",
+			"FP_GOR_Uniform_og107_mk3_polishworm_tuck_blench",
+			"FP_GOR_Uniform_og107_mk3_polishworm_tuck_trop_blench"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
