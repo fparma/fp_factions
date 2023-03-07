@@ -5829,4 +5829,70 @@ class CfgVehicles
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifmurtumasnowy_co.paa"
 		};
 	};
+	
+		class FP_GOR_Massif_austrianneutarn: I_soldier_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_austrianneutarn";
+		displayName="Massif (Austrian Neutarn)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifaustrianneutarn_co.paa"
+		};
+	};
+	class FP_GOR_Massif_02_austrianneutarn: I_Soldier_02_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_02_austrianneutarn";
+		displayName="Massif (Austrian Neutarn, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifaustrianneutarn_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_austrianneutarn: I_E_Uniform_01_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_austrianneutarn";
+		displayName="Massif (Austrian Neutarn, jacket)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketaustrianneutarn_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifaustrianneutarn_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\olivegloves_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_02_austrianneutarn: I_E_Uniform_01_shortsleeve_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_02_austrianneutarn";
+		displayName="Massif (Austrian Neutarn, jacket, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketaustrianneutarn_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifaustrianneutarn_co.paa"
+		};
+	};
 };
