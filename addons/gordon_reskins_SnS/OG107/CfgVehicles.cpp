@@ -1232,4 +1232,106 @@ class CfgVehicles
 			""
 		};
 	};
+	
+	class FP_GOR_og107_mk3_strichtarn_blench: simc_og107_mk3_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_strichtarn_blench";
+		displayName="OG-107 (Strichtarn, untucked)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_strichtarn_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_strichtarn_trop_blench: simc_og107_mk3_trop_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_strichtarn_trop_blench";
+		displayName="OG-107 (Strichtarn, untucked, sleeves)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_strichtarn_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_strichtarn_tuck_blench: simc_og107_mk3_tuck_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_strichtarn_tuck_blench";
+		displayName="OG-107 (Strichtarn, tucked)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_strichtarn_co.paa",
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_strichtarn_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_strichtarn_tuck_trop_blench: simc_og107_mk3_tuck_trop_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_strichtarn_tuck_trop_blench";
+		displayName="OG-107 (Strichtarn, tucked, sleeves)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_strichtarn_co.paa",
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_strichtarn_co.paa",
+			"",
+			""
+		};
+	};
+	
+	class FP_GOR_og107_mk3_polishworm_blench: simc_og107_mk3_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_polishworm_blench";
+		displayName="OG-107 (Polish Worm, untucked)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_polishworm_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_polishworm_trop_blench: simc_og107_mk3_trop_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_polishworm_trop_blench";
+		displayName="OG-107 (Polish Worm, untucked, sleeves)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_polishworm_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_polishworm_tuck_blench: simc_og107_mk3_tuck_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_polishworm_tuck_blench";
+		displayName="OG-107 (Polish Worm, tucked)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_polishworm_co.paa",
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_polishworm_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_polishworm_tuck_trop_blench: simc_og107_mk3_tuck_trop_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_polishworm_tuck_trop_blench";
+		displayName="OG-107 (Polish Worm, tucked, sleeves)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_polishworm_co.paa",
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_polishworm_co.paa",
+			"",
+			""
+		};
+	};
 };

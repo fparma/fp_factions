@@ -365,7 +365,11 @@ class CfgPatches
 			"FP_GOR_Uniform_Massif_murtumasnowy",
 			"FP_GOR_Uniform_Massif_02_murtumasnowy",
 			"FP_GOR_Uniform_Massifjacket_murtumasnowy",
-			"FP_GOR_Uniform_Massifjacket_02_murtumasnowy"
+			"FP_GOR_Uniform_Massifjacket_02_murtumasnowy",
+			"FP_GOR_Uniform_Massif_austrianneutarn",
+			"FP_GOR_Uniform_Massif_02_austrianneutarn",
+			"FP_GOR_Uniform_Massifjacket_austrianneutarn",
+			"FP_GOR_Uniform_Massifjacket_02_austrianneutarn"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
