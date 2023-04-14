@@ -17,7 +17,15 @@ class CfgPatches
 			"FP_GOR_H_HelmetHBK_Black_F",
 			"FP_GOR_H_HelmetHBK_headset_Black_F",
 			"FP_GOR_H_HelmetHBK_ear_Black_F",
-			"FP_GOR_H_HelmetHBK_chops_Black_F"
+			"FP_GOR_H_HelmetHBK_chops_Black_F",
+			"FP_GOR_H_HelmetHBK_AAF_F",
+			"FP_GOR_H_HelmetHBK_headset_AAF_F",
+			"FP_GOR_H_HelmetHBK_ear_AAF_F",
+			"FP_GOR_H_HelmetHBK_chops_AAF_F",
+			"FP_GOR_H_HelmetHBK_Woodland_F",
+			"FP_GOR_H_HelmetHBK_headset_Woodland_F",
+			"FP_GOR_H_HelmetHBK_ear_Woodland_F",
+			"FP_GOR_H_HelmetHBK_chops_Woodland_F"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -149,6 +157,7 @@ class CfgWeapons
 		displayName = "Advanced Modular Helmet (AAF)";
 		picture = "\a3\Characters_F_Enoch\Headgear\data\UI\icon_H_HelmetHBK_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_AAF_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\FP_Factions\gordon_reskins\amhskins\data\H_HelmetHBK_01.rvmat"};
 	};
 	class FP_GOR_H_HelmetHBK_headset_AAF_F: H_HelmetHBK_headset_F
 	{
@@ -158,6 +167,7 @@ class CfgWeapons
 		displayName = "Advanced Modular Helmet (AAF, headset)";
 		picture = "\a3\Characters_F_Enoch\Headgear\data\UI\icon_H_HelmetHBK_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_AAF_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\FP_Factions\gordon_reskins\amhskins\data\H_HelmetHBK_01.rvmat"};
 	};
 	class FP_GOR_H_HelmetHBK_ear_AAF_F: H_HelmetHBK_ear_F
 	{
@@ -167,6 +177,7 @@ class CfgWeapons
 		displayName = "Advanced Modular Helmet (AAF, ear protectors)";
 		picture = "\a3\Characters_F_Enoch\Headgear\data\UI\icon_H_HelmetHBK_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_AAF_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\FP_Factions\gordon_reskins\amhskins\data\H_HelmetHBK_01.rvmat"};
 	};
 	class FP_GOR_H_HelmetHBK_chops_AAF_F: H_HelmetHBK_chops_F
 	{
@@ -176,5 +187,49 @@ class CfgWeapons
 		displayName = "Advanced Modular Helmet (AAF, chops)";
 		picture = "\a3\Characters_F_Enoch\Headgear\data\UI\icon_H_HelmetHBK_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_AAF_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\FP_Factions\gordon_reskins\amhskins\data\H_HelmetHBK_01.rvmat"};
 	};
+	
+	class FP_GOR_H_HelmetHBK_Woodland_F: H_HelmetHBK_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_HelmetHBK_Woodland_F";
+		scope = 2;
+		displayName = "Advanced Modular Helmet (M81 Woodland)";
+		picture = "\a3\Characters_F_Enoch\Headgear\data\UI\icon_H_HelmetHBK_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_Woodland_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\FP_Factions\gordon_reskins\amhskins\data\H_HelmetHBK_01.rvmat"};
+	};
+	class FP_GOR_H_HelmetHBK_headset_Woodland_F: H_HelmetHBK_headset_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_HelmetHBK_headset_Woodland_F";
+		scope = 2;
+		displayName = "Advanced Modular Helmet (M81 Woodland, headset)";
+		picture = "\a3\Characters_F_Enoch\Headgear\data\UI\icon_H_HelmetHBK_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_Woodland_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\FP_Factions\gordon_reskins\amhskins\data\H_HelmetHBK_01.rvmat"};
+	};
+	class FP_GOR_H_HelmetHBK_ear_Woodland_F: H_HelmetHBK_ear_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_HelmetHBK_ear_Woodland_F";
+		scope = 2;
+		displayName = "Advanced Modular Helmet (M81 Woodland, ear protectors)";
+		picture = "\a3\Characters_F_Enoch\Headgear\data\UI\icon_H_HelmetHBK_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_Woodland_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\FP_Factions\gordon_reskins\amhskins\data\H_HelmetHBK_01.rvmat"};
+	};
+	class FP_GOR_H_HelmetHBK_chops_Woodland_F: H_HelmetHBK_chops_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_HelmetHBK_chops_Woodland_F";
+		scope = 2;
+		displayName = "Advanced Modular Helmet (M81 Woodland, chops)";
+		picture = "\a3\Characters_F_Enoch\Headgear\data\UI\icon_H_HelmetHBK_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_Woodland_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\FP_Factions\gordon_reskins\amhskins\data\H_HelmetHBK_01.rvmat"};
+	};
+	
+	
 };
