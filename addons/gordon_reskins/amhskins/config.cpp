@@ -140,4 +140,41 @@ class CfgWeapons
 		picture = "\a3\Characters_F_Enoch\Headgear\data\UI\icon_H_HelmetHBK_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_Black_CO.paa"};
 	};
+	
+	class FP_GOR_H_HelmetHBK_AAF_F: H_HelmetHBK_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_HelmetHBK_AAF_F";
+		scope = 2;
+		displayName = "Advanced Modular Helmet (AAF)";
+		picture = "\a3\Characters_F_Enoch\Headgear\data\UI\icon_H_HelmetHBK_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_AAF_CO.paa"};
+	};
+	class FP_GOR_H_HelmetHBK_headset_AAF_F: H_HelmetHBK_headset_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_HelmetHBK_headset_AAF_F";
+		scope = 2;
+		displayName = "Advanced Modular Helmet (AAF, headset)";
+		picture = "\a3\Characters_F_Enoch\Headgear\data\UI\icon_H_HelmetHBK_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_AAF_CO.paa"};
+	};
+	class FP_GOR_H_HelmetHBK_ear_AAF_F: H_HelmetHBK_ear_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_HelmetHBK_ear_AAF_F";
+		scope = 2;
+		displayName = "Advanced Modular Helmet (AAF, ear protectors)";
+		picture = "\a3\Characters_F_Enoch\Headgear\data\UI\icon_H_HelmetHBK_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_AAF_CO.paa"};
+	};
+	class FP_GOR_H_HelmetHBK_chops_AAF_F: H_HelmetHBK_chops_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_HelmetHBK_chops_AAF_F";
+		scope = 2;
+		displayName = "Advanced Modular Helmet (AAF, chops)";
+		picture = "\a3\Characters_F_Enoch\Headgear\data\UI\icon_H_HelmetHBK_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_AAF_CO.paa"};
+	};
 };
