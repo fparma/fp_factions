@@ -1436,4 +1436,55 @@ class CfgVehicles
 			""
 		};
 	};
+	
+	class FP_GOR_og107_mk3_finnishm62_blench: simc_og107_mk3_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_finnishm62_blench";
+		displayName="OG-107 (Finnish M62, untucked)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_finnishm62_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_finnishm62_trop_blench: simc_og107_mk3_trop_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_finnishm62_trop_blench";
+		displayName="OG-107 (Finnish M62, untucked, sleeves)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_finnishm62_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_finnishm62_tuck_blench: simc_og107_mk3_tuck_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_finnishm62_tuck_blench";
+		displayName="OG-107 (Finnish M62, tucked)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_finnishm62_co.paa",
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_finnishm62_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_finnishm62_tuck_trop_blench: simc_og107_mk3_tuck_trop_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_finnishm62_tuck_trop_blench";
+		displayName="OG-107 (Finnish M62, tucked, sleeves)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_finnishm62_co.paa",
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_finnishm62_co.paa",
+			"",
+			""
+		};
+	};
 };

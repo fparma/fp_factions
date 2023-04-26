@@ -1169,4 +1169,45 @@ class CfgWeapons
 			uniformClass="FP_GOR_og107_mk3_mitchellclouds_tuck_trop_blench";
 		};
 	};
+	
+	class FP_GOR_Uniform_og107_mk3_finnishm62_blench: U_Simc_OG107_mk3_blench
+	{
+		scope=2;
+		displayName="OG-107 (Finnish M62, untucked)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_finnishm62_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_finnishm62_trop_blench: U_Simc_OG107_mk3_trop_blench
+	{
+		scope=2;
+		displayName="OG-107 (Finnish M62, untucked, sleeves)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_finnishm62_trop_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_finnishm62_tuck_blench: U_Simc_OG107_mk3_tuck_blench
+	{
+		scope=2;
+		displayName="OG-107 (Finnish M62, tucked)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_finnishm62_tuck_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_finnishm62_tuck_trop_blench: U_Simc_OG107_mk3_tuck_trop_blench
+	{
+		scope=2;
+		displayName="OG-107 (Finnish M62, tucked, sleeves)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_finnishm62_tuck_trop_blench";
+		};
+	};
 };
