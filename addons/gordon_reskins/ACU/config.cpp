@@ -17,6 +17,7 @@ class CfgPatches
 			"FP_GOR_rhs_uniform_acu_multicamarid",
 			"FP_GOR_rhs_uniform_acu_multicamjungle",
 			"FP_GOR_rhs_uniform_acu_multicamblack",
+			"FP_GOR_rhs_uniform_acu_multicamwoodland",
 			"FP_GOR_rhs_uniform_acu_sg14",
 			"FP_GOR_rhs_uniform_acu_sg14desert",
 			"FP_GOR_rhs_uniform_acu_olive",
@@ -332,6 +333,33 @@ class CfgVehicles
 		{
 			"\FP_Factions\gordon_reskins\acu\data\acu_01_multicamblack_co.paa",
 			"\FP_Factions\gordon_reskins\acu\data\acu_02_multicamblack_co.paa",
+			"\FP_Factions\gordon_reskins\acu\data\boots_black_co.paa",
+			"#(argb,8,8,3)color(0,0,0,0)",
+			"\FP_Factions\gordon_reskins\acu\data\noflag_co.paa"
+		};
+	};
+	
+	class FP_GOR_rhsusf_army_acu_uniform_multicamwoodland: rhsusf_army_acu_uniform
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsusf_army_acu_uniform";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_acu_multicamwoodland";
+		displayName="Army Combat Uniform (Multicam Woodland)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"identity",
+			"flag",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\acu\data\acu_01_multicamwoodland_co.paa",
+			"\FP_Factions\gordon_reskins\acu\data\acu_02_multicamwoodland_co.paa",
 			"\FP_Factions\gordon_reskins\acu\data\boots_black_co.paa",
 			"#(argb,8,8,3)color(0,0,0,0)",
 			"\FP_Factions\gordon_reskins\acu\data\noflag_co.paa"
@@ -713,6 +741,19 @@ class CfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="FP_GOR_rhsusf_army_acu_uniform_multicamjungle";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_acu_multicamwoodland: rhs_uniform_acu_ucp
+	{
+		scope=2;
+		displayName="Army Combat Uniform (Multicam Woodland)";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhsusf_army_acu_uniform_multicamwoodland";
 			containerClass="Supply40";
 			mass=40;
 		};

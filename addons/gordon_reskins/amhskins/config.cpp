@@ -49,6 +49,10 @@ class CfgPatches
 			"FP_GOR_H_HelmetHBK_headset_multicamjungle_F",
 			"FP_GOR_H_HelmetHBK_ear_multicamjungle_F",
 			"FP_GOR_H_HelmetHBK_chops_multicamjungle_F",
+			"FP_GOR_H_HelmetHBK_chops_multicamwoodland_F",
+			"FP_GOR_H_HelmetHBK_headset_multicamwoodland_F",
+			"FP_GOR_H_HelmetHBK_ear_multicamwoodland_F",
+			"FP_GOR_H_HelmetHBK_chops_multicamwoodland_F",
 			"FP_GOR_H_HelmetHBK_chops_multicamblack_F",
 			"FP_GOR_H_HelmetHBK_headset_multicamblack_F",
 			"FP_GOR_H_HelmetHBK_ear_multicamblack_F",
@@ -534,6 +538,47 @@ class CfgWeapons
 		displayName = "AMH (Multicam Tropic, chops)";
 		picture = "\a3\Characters_F_Enoch\Headgear\data\UI\icon_H_HelmetHBK_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_multicamjungle_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\FP_Factions\gordon_reskins\amhskins\data\H_HelmetHBK_01.rvmat"};
+	};
+	
+	class FP_GOR_H_HelmetHBK_multicamwoodland_F: H_HelmetHBK_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_HelmetHBK_multicamwoodland_F";
+		scope = 2;
+		displayName = "AMH (Multicam Woodland)";
+		picture = "\a3\Characters_F_Enoch\Headgear\data\UI\icon_H_HelmetHBK_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_multicamwoodland_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\FP_Factions\gordon_reskins\amhskins\data\H_HelmetHBK_01.rvmat"};
+	};
+	class FP_GOR_H_HelmetHBK_headset_multicamwoodland_F: H_HelmetHBK_headset_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_HelmetHBK_headset_multicamwoodland_F";
+		scope = 2;
+		displayName = "AMH (Multicam Woodland, headset)";
+		picture = "\a3\Characters_F_Enoch\Headgear\data\UI\icon_H_HelmetHBK_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_multicamwoodland_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\FP_Factions\gordon_reskins\amhskins\data\H_HelmetHBK_01.rvmat"};
+	};
+	class FP_GOR_H_HelmetHBK_ear_multicamwoodland_F: H_HelmetHBK_ear_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_HelmetHBK_ear_multicamwoodland_F";
+		scope = 2;
+		displayName = "AMH (Multicam Woodland, ear protectors)";
+		picture = "\a3\Characters_F_Enoch\Headgear\data\UI\icon_H_HelmetHBK_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_multicamwoodland_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\FP_Factions\gordon_reskins\amhskins\data\H_HelmetHBK_01.rvmat"};
+	};
+	class FP_GOR_H_HelmetHBK_chops_multicamwoodland_F: H_HelmetHBK_chops_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_HelmetHBK_chops_multicamwoodland_F";
+		scope = 2;
+		displayName = "AMH (Multicam Woodland, chops)";
+		picture = "\a3\Characters_F_Enoch\Headgear\data\UI\icon_H_HelmetHBK_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_multicamwoodland_CO.paa"};
 		hiddenSelectionsMaterials[] = {"\FP_Factions\gordon_reskins\amhskins\data\H_HelmetHBK_01.rvmat"};
 	};
 	
