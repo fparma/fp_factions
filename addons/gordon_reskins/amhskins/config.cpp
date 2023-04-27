@@ -88,7 +88,11 @@ class CfgPatches
 			"FP_GOR_H_HelmetHBK_chops_murtumasandy_F",
 			"FP_GOR_H_HelmetHBK_headset_murtumasandy_F",
 			"FP_GOR_H_HelmetHBK_ear_murtumasandy_F",
-			"FP_GOR_H_HelmetHBK_chops_murtumasandy_F"
+			"FP_GOR_H_HelmetHBK_chops_murtumasandy_F",
+			"FP_GOR_H_HelmetHBK_chops_austrianneutarn_F",
+			"FP_GOR_H_HelmetHBK_headset_austrianneutarn_F",
+			"FP_GOR_H_HelmetHBK_ear_austrianneutarn_F",
+			"FP_GOR_H_HelmetHBK_chops_austrianneutarn_F"
 			
 		};
 		requiredVersion=0.1;
@@ -948,6 +952,47 @@ class CfgWeapons
 		displayName = "AMH (Murtuma Sandy, chops)";
 		picture = "\a3\Characters_F_Enoch\Headgear\data\UI\icon_H_HelmetHBK_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_murtumasandy_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\FP_Factions\gordon_reskins\amhskins\data\H_HelmetHBK_01.rvmat"};
+	};
+	
+	class FP_GOR_H_HelmetHBK_austrianneutarn_F: H_HelmetHBK_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_HelmetHBK_austrianneutarn_F";
+		scope = 2;
+		displayName = "AMH (Austrian Neutarn)";
+		picture = "\a3\Characters_F_Enoch\Headgear\data\UI\icon_H_HelmetHBK_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_austrianneutarn_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\FP_Factions\gordon_reskins\amhskins\data\H_HelmetHBK_01.rvmat"};
+	};
+	class FP_GOR_H_HelmetHBK_headset_austrianneutarn_F: H_HelmetHBK_headset_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_HelmetHBK_headset_austrianneutarn_F";
+		scope = 2;
+		displayName = "AMH (Austrian Neutarn, headset)";
+		picture = "\a3\Characters_F_Enoch\Headgear\data\UI\icon_H_HelmetHBK_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_austrianneutarn_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\FP_Factions\gordon_reskins\amhskins\data\H_HelmetHBK_01.rvmat"};
+	};
+	class FP_GOR_H_HelmetHBK_ear_austrianneutarn_F: H_HelmetHBK_ear_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_HelmetHBK_ear_austrianneutarn_F";
+		scope = 2;
+		displayName = "AMH (Austrian Neutarn, ear protectors)";
+		picture = "\a3\Characters_F_Enoch\Headgear\data\UI\icon_H_HelmetHBK_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_austrianneutarn_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\FP_Factions\gordon_reskins\amhskins\data\H_HelmetHBK_01.rvmat"};
+	};
+	class FP_GOR_H_HelmetHBK_chops_austrianneutarn_F: H_HelmetHBK_chops_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_HelmetHBK_chops_austrianneutarn_F";
+		scope = 2;
+		displayName = "AMH (Austrian Neutarn, chops)";
+		picture = "\a3\Characters_F_Enoch\Headgear\data\UI\icon_H_HelmetHBK_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_austrianneutarn_CO.paa"};
 		hiddenSelectionsMaterials[] = {"\FP_Factions\gordon_reskins\amhskins\data\H_HelmetHBK_01.rvmat"};
 	};
 };
