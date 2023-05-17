@@ -60,6 +60,11 @@ class CfgPatches
 			"FP_GOR_ach_helmet_multicamjungle_rhino_ESS",
 			"FP_GOR_ach_helmet_multicamjungle_rhino_headset",
 			"FP_GOR_ach_helmet_multicamjungle_rhino_headset_ESS",
+			"FP_GOR_ach_helmet_multicamwoodland",
+			"FP_GOR_ach_helmet_multicamwoodland_rhino",
+			"FP_GOR_ach_helmet_multicamwoodland_rhino_ESS",
+			"FP_GOR_ach_helmet_multicamwoodland_rhino_headset",
+			"FP_GOR_ach_helmet_multicamwoodland_rhino_headset_ESS",
 			"FP_GOR_ach_helmet_multicamblack",
 			"FP_GOR_ach_helmet_multicamblack_rhino",
 			"FP_GOR_ach_helmet_multicamblack_rhino_ESS",
@@ -664,7 +669,6 @@ class CfgWeapons
 			"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa"
 		};
 	};
-	
 	class FP_GOR_ach_helmet_multicamjungle_rhino_headset: rhsusf_ach_helmet_headset_ocp_alt
 	{
 		author="Gordon Weedman";
@@ -684,6 +688,60 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\RHSACH\data\rhs_helmet_ach_multicamjungle_co.paa",
+			"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa"
+		};
+	};
+	
+	
+	class FP_GOR_ach_helmet_multicamwoodland: rhsusf_ach_helmet_ocp_alt
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="ACH (Multicam Woodland)";
+		hiddenSelections[]={"camo"};
+		hiddenSelectionsTextures[]={"\FP_Factions\gordon_reskins\RHSACH\data\rhs_helmet_ach_multicamwoodland_co.paa"};
+	};
+	class FP_GOR_ach_helmet_multicamwoodland_rhino: rhsusf_ach_helmet_ocp_alt
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="ACH (Multicam Woodland, Rhino)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHSACH\data\rhs_helmet_ach_multicamwoodland_co.paa",
+			"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa"
+		};
+	};
+	class FP_GOR_ach_helmet_multicamwoodland_rhino_ESS: rhsusf_ach_helmet_ESS_ocp_alt
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="ACH (Multicam Woodland, Rhino/ESS)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHSACH\data\rhs_helmet_ach_multicamwoodland_co.paa",
+			"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa"
+		};
+	};
+	class FP_GOR_ach_helmet_multicamwoodland_rhino_headset: rhsusf_ach_helmet_headset_ocp_alt
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="ACH (Multicam Woodland, Rhino/headset)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHSACH\data\rhs_helmet_ach_multicamwoodland_co.paa",
+			"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa"
+		};
+	};
+	class FP_GOR_ach_helmet_multicamwoodland_rhino_headset_ESS: rhsusf_ach_helmet_headset_ess_ocp_alt
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="ACH (Multicam Woodland, Rhino/headset/ESS)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\RHSACH\data\rhs_helmet_ach_multicamwoodland_co.paa",
 			"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa"
 		};
 	};

@@ -2591,70 +2591,70 @@ class CfgWeapons
 			mass=40;
 		};
 	};
-	class FP_GOR_Uniform_Massif_multicamwoodland: U_I_CombatUniform
+	class FP_GOR_Uniform_Massif_multicamcontactwoodland: U_I_CombatUniform
 	{
 		scope=2;
-		displayName="Massif (Multicam Woodland)";
-		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifmulticamwoodland_ca.paa";
+		displayName="Massif (Contact Woodland)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifmulticamcontactwoodland_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="FP_GOR_Massif_multicamwoodland";
+			uniformClass="FP_GOR_Massif_multicamcontactwoodland";
 			containerClass="Supply40";
 			mass=40;
 		};
 	};
-	class FP_GOR_Uniform_Massif_02_multicamwoodland: U_I_CombatUniform_shortsleeve
+	class FP_GOR_Uniform_Massif_02_multicamcontactwoodland: U_I_CombatUniform_shortsleeve
 	{
 		scope=2;
-		displayName="Massif (Multicam Woodland, sleeves)";
-		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevesmulticamwoodland_ca.paa";
+		displayName="Massif (Contact Woodland, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevesmulticamcontactwoodland_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="FP_GOR_Massif_02_multicamwoodland";
+			uniformClass="FP_GOR_Massif_02_multicamcontactwoodland";
 			containerClass="Supply40";
 			mass=40;
 		};
 	};
-	class FP_GOR_Uniform_Massifjacket_multicamwoodland: U_I_E_Uniform_01_F
+	class FP_GOR_Uniform_Massifjacket_multicamcontactwoodland: U_I_E_Uniform_01_F
 	{
 		scope=2;
-		displayName="Massif (Multicam Woodland, jacket)";
-		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketmulticamwoodland_ca.paa";
+		displayName="Massif (Contact Woodland, jacket)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketmulticamcontactwoodland_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
 		{
-			"\FP_Factions\gordon_reskins\massifreskin\data\jacketmulticamwoodland_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketmulticamcontactwoodland_co.paa"
 		};
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="FP_GOR_Massifjacket_multicamwoodland";
+			uniformClass="FP_GOR_Massifjacket_multicamcontactwoodland";
 			containerClass="Supply40";
 			mass=40;
 		};
 	};
-	class FP_GOR_Uniform_Massifjacket_02_multicamwoodland: U_I_E_Uniform_01_shortsleeve_F
+	class FP_GOR_Uniform_Massifjacket_02_multicamcontactwoodland: U_I_E_Uniform_01_shortsleeve_F
 	{
 		scope=2;
-		displayName="Massif (Multicam Woodland, jacket, sleeves)";
-		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevesmulticamwoodland_ca.paa";
+		displayName="Massif (Contact Woodland, jacket, sleeves)";
+		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevesmulticamcontactwoodland_ca.paa";
 		author="Gordon Weedman";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		hiddenSelectionsTextures[]=
 		{
-			"\FP_Factions\gordon_reskins\massifreskin\data\jacketmulticamwoodland_co.paa"
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketmulticamcontactwoodland_co.paa"
 		};
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="FP_GOR_Massifjacket_02_multicamwoodland";
+			uniformClass="FP_GOR_Massifjacket_02_multicamcontactwoodland";
 			containerClass="Supply40";
 			mass=40;
 		};
@@ -5680,6 +5680,75 @@ class CfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="FP_GOR_Massifjacket_02_multicamjungle";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	
+	class FP_GOR_Uniform_Massif_multicamwoodland: U_I_CombatUniform
+	{
+		scope=2;
+		displayName="Massif (Multicam Woodland)";
+//		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifmulticamwoodland_ca.paa";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_multicamwoodland";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massif_02_multicamwoodland: U_I_CombatUniform_shortsleeve
+	{
+		scope=2;
+		displayName="Massif (Multicam Woodland, sleeves)";
+//		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_massifsleevesmulticamwoodland_ca.paa";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massif_02_multicamwoodland";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massifjacket_multicamwoodland: U_I_E_Uniform_01_F
+	{
+		scope=2;
+		displayName="Massif (Multicam Woodland, jacket)";
+//		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketmulticamwoodland_ca.paa";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketmulticamwoodland_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massifjacket_multicamwoodland";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_Uniform_Massifjacket_02_multicamwoodland: U_I_E_Uniform_01_shortsleeve_F
+	{
+		scope=2;
+		displayName="Massif (Multicam Woodland, jacket, sleeves)";
+//		picture="\FP_Factions\gordon_reskins\massifreskin\data\icons\icon_jacketsleevesmulticamwoodland_ca.paa";
+		author="Gordon Weedman";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketmulticamwoodland_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_Massifjacket_02_multicamwoodland";
 			containerClass="Supply40";
 			mass=40;
 		};
