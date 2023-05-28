@@ -25,12 +25,12 @@ class CfgAmmo
 	class B_45ACP_Ball;
 	class FP_GOR_B_10mm_ball: B_45ACP_Ball
 	{
-		ACE_barrelLengths=[127];
+		ACE_barrelLengths="[127]";
 		ACE_bulletMass=12;
 		ACE_caliber=10.17;
 		ACE_damageType="bullet";
 		ACE_dragModel=1;
-		ACE_muzzleVelocities=[420];
+		ACE_muzzleVelocities="[420]";
 		hit=6.5;
 		caliber=1.1;
 		typicalspeed=400;

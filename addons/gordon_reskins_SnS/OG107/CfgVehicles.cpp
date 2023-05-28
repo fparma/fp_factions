@@ -1232,4 +1232,259 @@ class CfgVehicles
 			""
 		};
 	};
+	
+	class FP_GOR_og107_mk3_strichtarn_blench: simc_og107_mk3_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_strichtarn_blench";
+		displayName="OG-107 (Strichtarn, untucked)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_strichtarn_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_strichtarn_trop_blench: simc_og107_mk3_trop_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_strichtarn_trop_blench";
+		displayName="OG-107 (Strichtarn, untucked, sleeves)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_strichtarn_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_strichtarn_tuck_blench: simc_og107_mk3_tuck_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_strichtarn_tuck_blench";
+		displayName="OG-107 (Strichtarn, tucked)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_strichtarn_co.paa",
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_strichtarn_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_strichtarn_tuck_trop_blench: simc_og107_mk3_tuck_trop_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_strichtarn_tuck_trop_blench";
+		displayName="OG-107 (Strichtarn, tucked, sleeves)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_strichtarn_co.paa",
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_strichtarn_co.paa",
+			"",
+			""
+		};
+	};
+	
+	class FP_GOR_og107_mk3_polishworm_blench: simc_og107_mk3_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_polishworm_blench";
+		displayName="OG-107 (Polish Worm, untucked)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_polishworm_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_polishworm_trop_blench: simc_og107_mk3_trop_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_polishworm_trop_blench";
+		displayName="OG-107 (Polish Worm, untucked, sleeves)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_polishworm_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_polishworm_tuck_blench: simc_og107_mk3_tuck_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_polishworm_tuck_blench";
+		displayName="OG-107 (Polish Worm, tucked)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_polishworm_co.paa",
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_polishworm_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_polishworm_tuck_trop_blench: simc_og107_mk3_tuck_trop_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_polishworm_tuck_trop_blench";
+		displayName="OG-107 (Polish Worm, tucked, sleeves)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_polishworm_co.paa",
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_polishworm_co.paa",
+			"",
+			""
+		};
+	};
+	
+	class FP_GOR_og107_mk3_mitchellleaves_blench: simc_og107_mk3_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_mitchellleaves_blench";
+		displayName="OG-107 (US Mitchell (leaves), untucked)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_mitchellleaves_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_mitchellleaves_trop_blench: simc_og107_mk3_trop_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_mitchellleaves_trop_blench";
+		displayName="OG-107 (US Mitchell (leaves), untucked, sleeves)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_mitchellleaves_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_mitchellleaves_tuck_blench: simc_og107_mk3_tuck_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_mitchellleaves_tuck_blench";
+		displayName="OG-107 (US Mitchell (leaves), tucked)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_mitchellleaves_co.paa",
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_mitchellleaves_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_mitchellleaves_tuck_trop_blench: simc_og107_mk3_tuck_trop_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_mitchellleaves_tuck_trop_blench";
+		displayName="OG-107 (US Mitchell (leaves), tucked, sleeves)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_mitchellleaves_co.paa",
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_mitchellleaves_co.paa",
+			"",
+			""
+		};
+	};
+	
+	class FP_GOR_og107_mk3_mitchellclouds_blench: simc_og107_mk3_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_mitchellclouds_blench";
+		displayName="OG-107 (US Mitchell (clouds), untucked)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_mitchellclouds_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_mitchellclouds_trop_blench: simc_og107_mk3_trop_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_mitchellclouds_trop_blench";
+		displayName="OG-107 (US Mitchell (clouds), untucked, sleeves)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_mitchellclouds_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_mitchellclouds_tuck_blench: simc_og107_mk3_tuck_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_mitchellclouds_tuck_blench";
+		displayName="OG-107 (US Mitchell (clouds), tucked)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_mitchellclouds_co.paa",
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_mitchellclouds_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_mitchellclouds_tuck_trop_blench: simc_og107_mk3_tuck_trop_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_mitchellclouds_tuck_trop_blench";
+		displayName="OG-107 (US Mitchell (clouds), tucked, sleeves)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_mitchellclouds_co.paa",
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_mitchellclouds_co.paa",
+			"",
+			""
+		};
+	};
+	
+	class FP_GOR_og107_mk3_finnishm62_blench: simc_og107_mk3_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_finnishm62_blench";
+		displayName="OG-107 (Finnish M62, untucked)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_finnishm62_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_finnishm62_trop_blench: simc_og107_mk3_trop_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_finnishm62_trop_blench";
+		displayName="OG-107 (Finnish M62, untucked, sleeves)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_finnishm62_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_finnishm62_tuck_blench: simc_og107_mk3_tuck_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_finnishm62_tuck_blench";
+		displayName="OG-107 (Finnish M62, tucked)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_finnishm62_co.paa",
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_finnishm62_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_finnishm62_tuck_trop_blench: simc_og107_mk3_tuck_trop_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_finnishm62_tuck_trop_blench";
+		displayName="OG-107 (Finnish M62, tucked, sleeves)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_finnishm62_co.paa",
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_finnishm62_co.paa",
+			"",
+			""
+		};
+	};
 };

@@ -36,12 +36,9 @@ class CfgPatches
 			"FP_GOR_V_CarrierRigKBT_mtp_F",
 			"FP_GOR_V_CarrierRigKBT_light_mtp_F",
 			"FP_GOR_V_CarrierRigKBT_heavy_mtp_F",
-			"FP_GOR_V_CarrierRigKBT_multicamwoodland_F",
-			"FP_GOR_V_CarrierRigKBT_light_multicamwoodland_F",
-			"FP_GOR_V_CarrierRigKBT_heavy_multicamwoodland_F",
-			"FP_GOR_V_CarrierRigKBT_nfptransitional_F",
-			"FP_GOR_V_CarrierRigKBT_light_nfptransitional_F",
-			"FP_GOR_V_CarrierRigKBT_heavy_nfptransitional_F"
+			"FP_GOR_V_CarrierRigKBT_multicamcontactwoodland_F",
+			"FP_GOR_V_CarrierRigKBT_light_multicamcontactwoodland_F",
+			"FP_GOR_V_CarrierRigKBT_heavy_multicamcontactwoodland_F"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -389,71 +386,37 @@ class CfgWeapons
 		};
 	}; 
 	
-	class FP_GOR_V_CarrierRigKBT_multicamwoodland_F: V_CarrierRigKBT_01_Olive_F
+	class FP_GOR_V_CarrierRigKBT_multicamcontactwoodland_F: V_CarrierRigKBT_01_Olive_F
 	{
 		author = "Gordon Weedman";
 		_generalMacro = "V_CarrierRigKBT_01_Olive_F";
 		scope = 2;
-		displayName = "Modular Carrier Vest (Multicam Woodland)";
+		displayName = "Modular Carrier Vest (Contact Woodland)";
 		hiddenSelectionsTextures[]=
 		{
-			"\FP_Factions\gordon_reskins\modvest\data\ModVest_multicamwoodland_CO.paa"
+			"\FP_Factions\gordon_reskins\modvest\data\ModVest_multicamcontactwoodland_CO.paa"
 		};
 	};
-	class FP_GOR_V_CarrierRigKBT_light_multicamwoodland_F: V_CarrierRigKBT_01_light_Olive_F
+	class FP_GOR_V_CarrierRigKBT_light_multicamcontactwoodland_F: V_CarrierRigKBT_01_light_Olive_F
 	{
 		author = "Gordon Weedman";
 		_generalMacro = "V_CarrierRigKBT_01_light_Olive_F";
 		scope = 2;
-		displayName = "Modular Carrier Lite (Multicam Woodland)";
+		displayName = "Modular Carrier Lite (Contact Woodland)";
 		hiddenSelectionsTextures[]=
 		{
-			"\FP_Factions\gordon_reskins\modvest\data\ModVest_multicamwoodland_CO.paa"
+			"\FP_Factions\gordon_reskins\modvest\data\ModVest_multicamcontactwoodland_CO.paa"
 		};
 	};
-	class FP_GOR_V_CarrierRigKBT_heavy_multicamwoodland_F: V_CarrierRigKBT_01_heavy_Olive_F
+	class FP_GOR_V_CarrierRigKBT_heavy_multicamcontactwoodland_F: V_CarrierRigKBT_01_heavy_Olive_F
 	{
 		author = "Gordon Weedman";
 		_generalMacro = "V_CarrierRigKBT_01_heavy_Olive_F";
 		scope = 2;
-		displayName = "Modular Carrier GL Rig (Multicam Woodland)";
+		displayName = "Modular Carrier GL Rig (Contact Woodland)";
 		hiddenSelectionsTextures[]=
 		{
-			"\FP_Factions\gordon_reskins\modvest\data\ModVest_multicamwoodland_CO.paa"
-		};
-	}; 
-	
-	class FP_GOR_V_CarrierRigKBT_nfptransitional_F: V_CarrierRigKBT_01_Olive_F
-	{
-		author = "Gordon Weedman";
-		_generalMacro = "V_CarrierRigKBT_01_Olive_F";
-		scope = 2;
-		displayName = "Modular Carrier Vest (NFP Transitional)";
-		hiddenSelectionsTextures[]=
-		{
-			"\FP_Factions\gordon_reskins\modvest\data\ModVest_nfptransitional_CO.paa"
-		};
-	};
-	class FP_GOR_V_CarrierRigKBT_light_nfptransitional_F: V_CarrierRigKBT_01_light_Olive_F
-	{
-		author = "Gordon Weedman";
-		_generalMacro = "V_CarrierRigKBT_01_light_Olive_F";
-		scope = 2;
-		displayName = "Modular Carrier Lite (NFP Transitional)";
-		hiddenSelectionsTextures[]=
-		{
-			"\FP_Factions\gordon_reskins\modvest\data\ModVest_nfptransitional_CO.paa"
-		};
-	};
-	class FP_GOR_V_CarrierRigKBT_heavy_nfptransitional_F: V_CarrierRigKBT_01_heavy_Olive_F
-	{
-		author = "Gordon Weedman";
-		_generalMacro = "V_CarrierRigKBT_01_heavy_Olive_F";
-		scope = 2;
-		displayName = "Modular Carrier GL Rig (NFP Transitional)";
-		hiddenSelectionsTextures[]=
-		{
-			"\FP_Factions\gordon_reskins\modvest\data\ModVest_nfptransitional_CO.paa"
+			"\FP_Factions\gordon_reskins\modvest\data\ModVest_multicamcontactwoodland_CO.paa"
 		};
 	}; 
 };

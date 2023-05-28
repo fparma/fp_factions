@@ -1005,4 +1005,209 @@ class CfgWeapons
 			uniformClass="FP_GOR_og107_mk3_rhodesianexperimental_tuck_trop_blench";
 		};
 	};
+	
+	class FP_GOR_Uniform_og107_mk3_strichtarn_blench: U_Simc_OG107_mk3_blench
+	{
+		scope=2;
+		displayName="OG-107 (Strichtarn, untucked)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_strichtarn_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_strichtarn_trop_blench: U_Simc_OG107_mk3_trop_blench
+	{
+		scope=2;
+		displayName="OG-107 (Strichtarn, untucked, sleeves)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_strichtarn_trop_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_strichtarn_tuck_blench: U_Simc_OG107_mk3_tuck_blench
+	{
+		scope=2;
+		displayName="OG-107 (Strichtarn, tucked)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_strichtarn_tuck_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_strichtarn_tuck_trop_blench: U_Simc_OG107_mk3_tuck_trop_blench
+	{
+		scope=2;
+		displayName="OG-107 (Strichtarn, tucked, sleeves)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_strichtarn_tuck_trop_blench";
+		};
+	};
+	
+	class FP_GOR_Uniform_og107_mk3_polishworm_blench: U_Simc_OG107_mk3_blench
+	{
+		scope=2;
+		displayName="OG-107 (Polish Worm, untucked)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_polishworm_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_polishworm_trop_blench: U_Simc_OG107_mk3_trop_blench
+	{
+		scope=2;
+		displayName="OG-107 (Polish Worm, untucked, sleeves)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_polishworm_trop_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_polishworm_tuck_blench: U_Simc_OG107_mk3_tuck_blench
+	{
+		scope=2;
+		displayName="OG-107 (Polish Worm, tucked)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_polishworm_tuck_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_polishworm_tuck_trop_blench: U_Simc_OG107_mk3_tuck_trop_blench
+	{
+		scope=2;
+		displayName="OG-107 (Polish Worm, tucked, sleeves)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_polishworm_tuck_trop_blench";
+		};
+	};
+	
+	class FP_GOR_Uniform_og107_mk3_mitchellleaves_blench: U_Simc_OG107_mk3_blench
+	{
+		scope=2;
+		displayName="OG-107 (US Mitchell (leaves), untucked)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_mitchellleaves_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_mitchellleaves_trop_blench: U_Simc_OG107_mk3_trop_blench
+	{
+		scope=2;
+		displayName="OG-107 (US Mitchell (leaves), untucked, sleeves)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_mitchellleaves_trop_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_mitchellleaves_tuck_blench: U_Simc_OG107_mk3_tuck_blench
+	{
+		scope=2;
+		displayName="OG-107 (US Mitchell (leaves), tucked)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_mitchellleaves_tuck_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_mitchellleaves_tuck_trop_blench: U_Simc_OG107_mk3_tuck_trop_blench
+	{
+		scope=2;
+		displayName="OG-107 (US Mitchell (leaves), tucked, sleeves)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_mitchellleaves_tuck_trop_blench";
+		};
+	};
+	
+	class FP_GOR_Uniform_og107_mk3_mitchellclouds_blench: U_Simc_OG107_mk3_blench
+	{
+		scope=2;
+		displayName="OG-107 (US Mitchell (clouds), untucked)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_mitchellclouds_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_mitchellclouds_trop_blench: U_Simc_OG107_mk3_trop_blench
+	{
+		scope=2;
+		displayName="OG-107 (US Mitchell (clouds), untucked, sleeves)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_mitchellclouds_trop_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_mitchellclouds_tuck_blench: U_Simc_OG107_mk3_tuck_blench
+	{
+		scope=2;
+		displayName="OG-107 (US Mitchell (clouds), tucked)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_mitchellclouds_tuck_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_mitchellclouds_tuck_trop_blench: U_Simc_OG107_mk3_tuck_trop_blench
+	{
+		scope=2;
+		displayName="OG-107 (US Mitchell (clouds), tucked, sleeves)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_mitchellclouds_tuck_trop_blench";
+		};
+	};
+	
+	class FP_GOR_Uniform_og107_mk3_finnishm62_blench: U_Simc_OG107_mk3_blench
+	{
+		scope=2;
+		displayName="OG-107 (Finnish M62, untucked)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_finnishm62_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_finnishm62_trop_blench: U_Simc_OG107_mk3_trop_blench
+	{
+		scope=2;
+		displayName="OG-107 (Finnish M62, untucked, sleeves)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_finnishm62_trop_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_finnishm62_tuck_blench: U_Simc_OG107_mk3_tuck_blench
+	{
+		scope=2;
+		displayName="OG-107 (Finnish M62, tucked)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_finnishm62_tuck_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_finnishm62_tuck_trop_blench: U_Simc_OG107_mk3_tuck_trop_blench
+	{
+		scope=2;
+		displayName="OG-107 (Finnish M62, tucked, sleeves)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_finnishm62_tuck_trop_blench";
+		};
+	};
 };

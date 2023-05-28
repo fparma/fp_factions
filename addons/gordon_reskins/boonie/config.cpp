@@ -154,6 +154,8 @@ class CfgPatches
 			"FP_GOR_H_Booniehat_multicamblack_hs",
 			"FP_GOR_H_Booniehat_multicamjungle",
 			"FP_GOR_H_Booniehat_multicamjungle_hs",
+			"FP_GOR_H_Booniehat_multicamwoodland",
+			"FP_GOR_H_Booniehat_multicamwoodland_hs",
 			"FP_GOR_H_Booniehat_reedbrown",
 			"FP_GOR_H_Booniehat_reedbrown_hs",
 			"FP_GOR_H_Booniehat_reedgray",
@@ -227,7 +229,9 @@ class CfgPatches
 			"FP_GOR_H_Booniehat_rhodesian",
 			"FP_GOR_H_Booniehat_rhodesian_hs",
 			"FP_GOR_H_Booniehat_rhodesianexperimental",
-			"FP_GOR_H_Booniehat_rhodesianexperimental_hs"
+			"FP_GOR_H_Booniehat_rhodesianexperimental_hs",
+			"FP_GOR_H_Booniehat_austrianneutarn",
+			"FP_GOR_H_Booniehat_austrianneutarn_hs"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -1497,6 +1501,23 @@ class CfgWeapons
 		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_multicamjungle_co.paa"};
 	};
 	
+	class FP_GOR_H_Booniehat_multicamwoodland: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_multicamwoodland";
+		scope = 2;
+		displayName = "Booniehat (Multicam Woodland)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_multicamwoodland_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_multicamwoodland_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_multicamwoodland_hs";
+		scope = 2;
+		displayName = "Booniehat (Multicam Woodland, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_multicamwoodland_co.paa"};
+	};
+	
 	class FP_GOR_H_Booniehat_reedbrown: H_Booniehat_khk
 	{
 		author = "Gordon Weedman";
@@ -2090,5 +2111,22 @@ class CfgWeapons
 		scope = 2;
 		displayName = "Booniehat (Rhodesian brushstroke (experimental), headset)";
 		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_rhodesianexperimental_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_austrianneutarn: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_austrianneutarn";
+		scope = 2;
+		displayName = "Booniehat (Austrian Neutarn)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_austrianneutarn_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_austrianneutarn_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_austrianneutarn_hs";
+		scope = 2;
+		displayName = "Booniehat (Austrian Neutarn, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_austrianneutarn_co.paa"};
 	};
 };
