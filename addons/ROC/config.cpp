@@ -8,45 +8,52 @@ class CfgPatches
 	{
 		units[] = 
 		{
-			"FP_B_ROC_TNK_M41",
-			"FP_B_ROC_M60A3_TTS",
-			"FP_B_ROC_M1A1FEP",
-			"FP_B_ROC_LAV25",
-			"FP_B_ROC_LAV25_HQ",
-			"FP_B_ROC_M939_MLRS",
-			"FP_B_ROC_M939_Closed",
-			"FP_B_ROC_M939_Guntruck",
-			"FP_B_ROC_M939_Open",
-			"FP_B_ROC_M939_Reammo",
+			"FP_CSL_B_ROC_TNK_M41",
+			"FP_CSL_B_ROC_M60A3_TTS",
+			"FP_CSL_B_ROC_M1A1FEP",
+			"FP_CSL_B_ROC_LAV25",
+			"FP_CSL_B_ROC_LAV25_HQ",
+			"FP_CSL_B_ROC_M939_MLRS",
+			"FP_CSL_B_ROC_M939_Closed",
+			"FP_CSL_B_ROC_M939_Guntruck",
+			"FP_CSL_B_ROC_M939_Open",
+			"FP_CSL_B_ROC_M939_Reammo",
 			"FPB_ROC_M939_Recovery",
-			"FP_B_ROC_M939_Refuel",
-			"FP_B_ROC_M939_Repair",
-			"FP_B_ROC_Soldier_A_F",
-			"FP_B_ROC_Soldier_AAR_F",
-			"FP_B_ROC_soldier_AAA_F",
-			"FP_B_ROC_Soldier_AAT_F",
-			"FP_B_ROC_Soldier_AR_F",
-			"FP_B_ROC_Medic_F",
-			"FP_B_ROC_Crewman_F",
-			"FP_B_ROC_engineer_F",
-			"FP_B_ROC_soldier_exp_F",
-			"FP_B_ROC_Soldier_GL_F",
-			"FP_B_ROC_Helicrew_F",
-			"FP_B_ROC_Helipilot_F",
-			"FP_B_ROC_MMG_F",
-			"FP_B_ROC_soldier_M_F",
-			"FP_B_ROC_Soldier_AA_F",
-			"FP_B_ROC_Soldier_AT_F",
-			"FP_B_ROC_RadioOperator_F",
-			"FP_B_ROC_soldier_repair_F",
-			"FP_B_ROC_Soldier_F",
-			"FP_B_ROC_Soldier_LAT_F",
-			"FP_B_ROC_Soldier_lite_F",
-			"FP_B_ROC_Soldier_unarmed_F",
-			"FP_B_ROC_Soldier_SL_F",
-			"FP_B_ROC_Survivor_F",
-			"FP_B_ROC_Soldier_TL_F",
-			"FP_B_ROC_Soldier_UAV_F"			
+			"FP_CSL_B_ROC_M939_Refuel",
+			"FP_CSL_B_ROC_M939_Repair",
+			"FP_CSL_B_ROC_UH60M",
+			"FP_CSL_B_ROC_UH60M_ESSS",
+			"FP_CSL_B_ROC_UH60M_ESSS2",
+			"FP_CSL_B_ROC_UH60M2",
+			"FP_CSL_B_ROC_M_M1117",
+			"FP_CSL_B_ROC_HMG_02_high_F",
+			"FP_CSL_B_ROC_HMG_02_F",
+			"FP_CSL_B_ROC_Soldier_A_F",
+			"FP_CSL_B_ROC_Soldier_AAR_F",
+			"FP_CSL_B_ROC_soldier_AAA_F",
+			"FP_CSL_B_ROC_Soldier_AAT_F",
+			"FP_CSL_B_ROC_Soldier_AR_F",
+			"FP_CSL_B_ROC_Medic_F",
+			"FP_CSL_B_ROC_Crewman_F",
+			"FP_CSL_B_ROC_engineer_F",
+			"FP_CSL_B_ROC_soldier_exp_F",
+			"FP_CSL_B_ROC_Soldier_GL_F",
+			"FP_CSL_B_ROC_Helicrew_F",
+			"FP_CSL_B_ROC_Helipilot_F",
+			"FP_CSL_B_ROC_MMG_F",
+			"FP_CSL_B_ROC_soldier_M_F",
+			"FP_CSL_B_ROC_Soldier_AA_F",
+			"FP_CSL_B_ROC_Soldier_AT_F",
+			"FP_CSL_B_ROC_RadioOperator_F",
+			"FP_CSL_B_ROC_soldier_repair_F",
+			"FP_CSL_B_ROC_Soldier_F",
+			"FP_CSL_B_ROC_Soldier_LAT_F",
+			"FP_CSL_B_ROC_Soldier_lite_F",
+			"FP_CSL_B_ROC_Soldier_unarmed_F",
+			"FP_CSL_B_ROC_Soldier_SL_F",
+			"FP_CSL_B_ROC_Survivor_F",
+			"FP_CSL_B_ROC_Soldier_TL_F",
+			"FP_CSL_B_ROC_Soldier_UAV_F"			
 		};
 		weapons[] = {};
 		requiredVersion = 0.1;
@@ -68,7 +75,7 @@ class CfgGroups
 {
 	class West
 	{
-		class FP_B_ROC_F
+		class FP_CSL_B_ROC_F
 		{
 			name = "FP Taiwan";
 			class Infantry
@@ -85,56 +92,56 @@ class CfgGroups
 						position[] = {0,0,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "FP_B_ROC_Soldier_SL_F";
+						vehicle = "FP_CSL_B_ROC_Soldier_SL_F";
 					};
 					class Unit1
 					{
 						position[] = {5,-5,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROC_Soldier_AR_F";
+						vehicle = "FP_CSL_B_ROC_Soldier_AR_F";
 					};
 					class Unit2
 					{
 						position[] = {-5,-5,0};
 						rank = "CORPORAL";
 						side = 1;
-						vehicle = "FP_B_ROC_MMG_F";
+						vehicle = "FP_CSL_B_ROC_MMG_F";
 					};
 					class Unit3
 					{
 						position[] = {10,-10,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROC_Soldier_AAR_F";
+						vehicle = "FP_CSL_B_ROC_Soldier_AAR_F";
 					};
 					class Unit4
 					{
 						position[] = {-10,-10,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROC_Soldier_TL_F";
+						vehicle = "FP_CSL_B_ROC_Soldier_TL_F";
 					};
 					class Unit5
 					{
 						position[] = {15,-15,0};
 						rank = "CORPORAL";
 						side = 1;
-						vehicle = "FP_B_ROC_Soldier_M_F";
+						vehicle = "FP_CSL_B_ROC_Soldier_M_F";
 					};
 					class Unit6
 					{
 						position[] = {-15,-15,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROC_Soldier_LAT_F";
+						vehicle = "FP_CSL_B_ROC_Soldier_LAT_F";
 					};
 					class Unit7
 					{
 						position[] = {20,-20,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROC_Medic_F";
+						vehicle = "FP_CSL_B_ROC_Medic_F";
 					};
 				};
 				class BROC_InfSentry
@@ -148,14 +155,14 @@ class CfgGroups
 						position[] = {0,0,0};
 						rank = "CORPORAL";
 						side = 1;
-						vehicle = "FP_B_ROC_Soldier_GL_F";
+						vehicle = "FP_CSL_B_ROC_Soldier_GL_F";
 					};
 					class Unit1
 					{
 						position[] = {5,-5,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROC_Soldier_F";
+						vehicle = "FP_CSL_B_ROC_Soldier_F";
 					};
 				};
 				class BROC_InfSquad
@@ -169,56 +176,56 @@ class CfgGroups
 						position[] = {0,0,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "FP_B_ROC_Soldier_SL_F";
+						vehicle = "FP_CSL_B_ROC_Soldier_SL_F";
 					};
 					class Unit1
 					{
 						position[] = {5,-5,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROC_Soldier_F";
+						vehicle = "FP_CSL_B_ROC_Soldier_F";
 					};
 					class Unit2
 					{
 						position[] = {-5,-5,0};
 						rank = "CORPORAL";
 						side = 1;
-						vehicle = "FP_B_ROC_Soldier_LAT_F";
+						vehicle = "FP_CSL_B_ROC_Soldier_LAT_F";
 					};
 					class Unit3
 					{
 						position[] = {10,-10,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROC_Soldier_M_F";
+						vehicle = "FP_CSL_B_ROC_Soldier_M_F";
 					};
 					class Unit4
 					{
 						position[] = {-10,-10,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "FP_B_ROC_Soldier_TL_F";
+						vehicle = "FP_CSL_B_ROC_Soldier_TL_F";
 					};
 					class Unit5
 					{
 						position[] = {15,-15,0};
 						rank = "CORPORAL";
 						side = 1;
-						vehicle = "FP_B_ROC_Soldier_AR_F";
+						vehicle = "FP_CSL_B_ROC_Soldier_AR_F";
 					};
 					class Unit6
 					{
 						position[] = {-15,-15,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROC_Soldier_A_F";
+						vehicle = "FP_CSL_B_ROC_Soldier_A_F";
 					};
 					class Unit7
 					{
 						position[] = {20,-20,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROC_Medic_F";
+						vehicle = "FP_CSL_B_ROC_Medic_F";
 					};
 				};
 				class BROC_InfSquad_Weapons
@@ -232,56 +239,56 @@ class CfgGroups
 						position[] = {0,0,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "FP_B_ROC_Soldier_SL_F";
+						vehicle = "FP_CSL_B_ROC_Soldier_SL_F";
 					};
 					class Unit1
 					{
 						position[] = {5,-5,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROC_Soldier_AR_F";
+						vehicle = "FP_CSL_B_ROC_Soldier_AR_F";
 					};
 					class Unit2
 					{
 						position[] = {-5,-5,0};
 						rank = "CORPORAL";
 						side = 1;
-						vehicle = "FP_B_ROC_Soldier_GL_F";
+						vehicle = "FP_CSL_B_ROC_Soldier_GL_F";
 					};
 					class Unit3
 					{
 						position[] = {10,-10,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "FP_B_ROC_Soldier_M_F";
+						vehicle = "FP_CSL_B_ROC_Soldier_M_F";
 					};
 					class Unit4
 					{
 						position[] = {-10,-10,0};
 						rank = "CORPORAL";
 						side = 1;
-						vehicle = "FP_B_ROC_Soldier_AT_F";
+						vehicle = "FP_CSL_B_ROC_Soldier_AT_F";
 					};
 					class Unit5
 					{
 						position[] = {15,-15,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROC_Soldier_A_F";
+						vehicle = "FP_CSL_B_ROC_Soldier_A_F";
 					};
 					class Unit6
 					{
 						position[] = {-15,-15,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROC_Soldier_AAT_F";
+						vehicle = "FP_CSL_B_ROC_Soldier_AAT_F";
 					};
 					class Unit7
 					{
 						position[] = {20,-20,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROC_Medic_F";
+						vehicle = "FP_CSL_B_ROC_Medic_F";
 					};
 				};
 				class BROC_InfTeam
@@ -295,28 +302,28 @@ class CfgGroups
 						position[] = {0,0,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "FP_B_ROC_Soldier_TL_F";
+						vehicle = "FP_CSL_B_ROC_Soldier_TL_F";
 					};
 					class Unit1
 					{
 						position[] = {5,-5,0};
 						rank = "CORPORAL";
 						side = 1;
-						vehicle = "FP_B_ROC_Soldier_AR_F";
+						vehicle = "FP_CSL_B_ROC_Soldier_AR_F";
 					};
 					class Unit2
 					{
 						position[] = {-5,-5,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROC_Soldier_GL_F";
+						vehicle = "FP_CSL_B_ROC_Soldier_GL_F";
 					};
 					class Unit3
 					{
 						position[] = {10,-10,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROC_Soldier_LAT_F";
+						vehicle = "FP_CSL_B_ROC_Soldier_LAT_F";
 					};				
 				};
 				class BROC_InfTeam_AA
@@ -330,28 +337,28 @@ class CfgGroups
 						position[] = {0,0,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "FP_B_ROC_Soldier_TL_F";
+						vehicle = "FP_CSL_B_ROC_Soldier_TL_F";
 					};
 					class Unit1
 					{
 						position[] = {5,-5,0};
 						rank = "CORPORAL";
 						side = 1;
-						vehicle = "FP_B_ROC_Soldier_AA_F";
+						vehicle = "FP_CSL_B_ROC_Soldier_AA_F";
 					};
 					class Unit2
 					{
 						position[] = {-5,-5,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROC_Soldier_AA_F";
+						vehicle = "FP_CSL_B_ROC_Soldier_AA_F";
 					};
 					class Unit3
 					{
 						position[] = {10,-10,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROC_Soldier_AAA_F";
+						vehicle = "FP_CSL_B_ROC_Soldier_AAA_F";
 					};				
 				};
 				class BROC_InfTeam_AT
@@ -365,28 +372,28 @@ class CfgGroups
 						position[] = {0,0,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "FP_B_ROC_Soldier_TL_F";
+						vehicle = "FP_CSL_B_ROC_Soldier_TL_F";
 					};
 					class Unit1
 					{
 						position[] = {5,-5,0};
 						rank = "CORPORAL";
 						side = 1;
-						vehicle = "FP_B_ROC_Soldier_AT_F";
+						vehicle = "FP_CSL_B_ROC_Soldier_AT_F";
 					};
 					class Unit2
 					{
 						position[] = {-5,-5,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROC_Soldier_AT_F";
+						vehicle = "FP_CSL_B_ROC_Soldier_AT_F";
 					};
 					class Unit3
 					{
 						position[] = {10,-10,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROC_Soldier_AAT_F";
+						vehicle = "FP_CSL_B_ROC_Soldier_AAT_F";
 					};				
 				};
 			};
@@ -459,12 +466,12 @@ class CfgVehicles
 	class FP_B_TNK_M41;
 	class FP_B_M60A3_TTS_USMC;
 	class rhsusf_m1a1fep_wd;
-	class FP_B_ROC_TNK_M41: FP_B_TNK_M41
+	class FP_CSL_B_ROC_TNK_M41: FP_B_TNK_M41
 	{
 		scope = 2;
 		scopeCurator = 2;
 		side = 1;
-		crew = "FP_B_ROC_Crewman_F";
+		crew = "FP_CSL_B_ROC_Crewman_F";
 		faction = "FP_Faction_ROC";
 		class textureSources
 		{
@@ -511,30 +518,31 @@ class CfgVehicles
 			"\FP_Factions\ROC\data\M41\m41_bulldog_turret_roc_camo_co.paa"
 		};
 	};
-	class FP_B_ROC_M60A3_TTS: FP_B_M60A3_TTS_USMC
+	class FP_CSL_B_ROC_M60A3_TTS: FP_B_M60A3_TTS_USMC
 	{
 		scope = 2;
 		scopeCurator = 2;
 		side = 1;
-		crew = "FP_B_ROC_Crewman_F";
+		crew = "FP_CSL_B_ROC_Crewman_F";
 		faction = "FP_Faction_ROC";
 	};
-	class FP_B_ROC_M1A1FEP: rhsusf_m1a1fep_wd
+	class FP_CSL_B_ROC_M1A1FEP: rhsusf_m1a1fep_wd
 	{
 		scope = 2;
 		scopeCurator = 2;
 		side = 1;
-		crew = "FP_B_ROC_Crewman_F";
+		crew = "FP_CSL_B_ROC_Crewman_F";
 		faction = "FP_Faction_ROC";
 	};	
-	class UK3CB_B_LAV25_US_WDL;
+	/*class UK3CB_B_LAV25_US_WDL;
 	class UK3CB_B_LAV25_HQ_US_WDL;
-	class FP_B_ROC_LAV25: UK3CB_B_LAV25_US_WDL
+	class FP_CSL_B_ROC_LAV25: UK3CB_B_LAV25_US_WDL
 	{
 		scope = 2;
 		scopeCurator = 2;
 		side = 1;
-		crew = "FP_B_ROC_Crewman_F";
+		crew = "FP_CSL_B_ROC_Crewman_F";
+		editorSubcategory = "EdSubcat_APCs";
 		faction = "FP_Faction_ROC";
 		textureList[] = {"OLI",1}; 
 		hiddenSelectionsTextures[] = 
@@ -546,16 +554,17 @@ class CfgVehicles
 			"\uk3cb_factions\addons\uk3cb_factions_vehicles\uk3cb_factions_vehicles_common\equipment\cied_dome_wdl_co.paa"
 		};
 	};
-	class FP_B_ROC_LAV25_HQ: UK3CB_B_LAV25_HQ_US_WDL
+	class FP_CSL_B_ROC_LAV25_HQ: UK3CB_B_LAV25_HQ_US_WDL
 	{
 		scope = 2;
 		scopeCurator = 2;
 		side = 1;
-		crew = "FP_B_ROC_Crewman_F";
+		crew = "FP_CSL_B_ROC_Crewman_F";
+		editorSubcategory = "EdSubcat_APCs";
 		faction = "FP_Faction_ROC";
 		textureList[] = {"OLI",1};
 		hiddenSelectionsTextures[] = {"\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\apc\UK3CB_Factions_Vehicles_LAV\data\lavbody_oli_co.paa","\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\apc\UK3CB_Factions_Vehicles_LAV\data\lavbody2_oli_co.paa","\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\apc\UK3CB_Factions_Vehicles_LAV\data\lavalfa_oli_ca.paa","\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\apc\UK3CB_Factions_Vehicles_LAV\data\lav_hq_oli_co.paa","\uk3cb_factions\addons\uk3cb_factions_vehicles\uk3cb_factions_vehicles_common\equipment\us_backpacks_co.paa","\uk3cb_factions\addons\uk3cb_factions_vehicles\uk3cb_factions_vehicles_common\equipment\cied_dome_wdl_co.paa"};
-	};
+	};*/
 	class B_Soldier_F;
 	class FP_ROC_Soldier_BASE_F: B_Soldier_F
 	{
@@ -591,10 +600,10 @@ class CfgVehicles
 		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","RH_15Rnd_9x19_M9","RH_15Rnd_9x19_M9","RH_15Rnd_9x19_M9","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
-		linkedItems[] = {"V_CarrierRigKBT_01_light_Olive_F","rhsusf_mich_bare_norotos_arc","rhsusf_ANPVS_15","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_CarrierRigKBT_01_light_Olive_F","rhsusf_mich_bare_norotos_arc","rhsusf_ANPVS_15","ItemMap","ItemCompass","ItemWatch","ItemRadio"};		
+		linkedItems[] = {"FP_CSL_V_CarrierRigKBT_light_ROCDigital_F","FP_H_HelmetHBK_ROC_F","NVGoggles_OPFOR","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_CSL_V_CarrierRigKBT_light_ROCDigital_F","FP_H_HelmetHBK_ROC_F","NVGoggles_OPFOR","ItemMap","ItemCompass","ItemWatch","ItemRadio"};		
 	};
-	class UK3CB_B_M939_Closed_WDL;
+	/*class UK3CB_B_M939_Closed_WDL;
 	class UK3CB_B_M939_Guntruck_WDL;
 	class UK3CB_B_M939_Open_WDL;
 	class UK3CB_B_M939_Reammo_WDL;
@@ -602,43 +611,43 @@ class CfgVehicles
 	class UK3CB_B_M939_Refuel_WDL;
 	class UK3CB_B_M939_Repair_WDL;
 	class UK3CB_AAF_B_M939_MLRS;
-	class FP_B_ROC_M939_Closed: UK3CB_B_M939_Closed_WDL
+	class FP_CSL_B_ROC_M939_Closed: UK3CB_B_M939_Closed_WDL
 	{
 		scope = 2;
 		scopeCurator = 2;
-		crew = "FP_B_ROC_Soldier_F";
+		crew = "FP_CSL_B_ROC_Soldier_F";
 		editorSubcategory = "EdSubcat_Cars";
 		faction = "FP_Faction_ROC";
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
 		hiddenSelectionsTextures[] = {"\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\wheeled\UK3CB_Factions_Vehicles_m939\data\truck5t_merdc_j_01_co.paa","\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\wheeled\UK3CB_Factions_Vehicles_m939\data\truck5t_merdc_j_02_co.paa","\uk3cb_factions\addons\uk3cb_factions_vehicles\wheeled\uk3cb_factions_vehicles_m939\data\truck5t_dash_green_co.paa"};
 	};
-	class FP_B_ROC_M939_Guntruck: UK3CB_B_M939_Guntruck_WDL
+	class FP_CSL_B_ROC_M939_Guntruck: UK3CB_B_M939_Guntruck_WDL
 	{
 		scope = 2;
 		scopeCurator = 2;
-		crew = "FP_B_ROC_Soldier_F";
-		editorSubcategory = "EdSubcat_Cars";
-		faction = "FP_Faction_ROC";
-		hiddenSelections[] = {"Camo","Camo1","Camo2"};
-		hiddenSelectionsTextures[] = {"\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\wheeled\UK3CB_Factions_Vehicles_m939\data\truck5t_merdc_j_01_co.paa","\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\wheeled\UK3CB_Factions_Vehicles_m939\data\truck5t_merdc_j_02_co.paa","\uk3cb_factions\addons\uk3cb_factions_vehicles\wheeled\uk3cb_factions_vehicles_m939\data\truck5t_dash_green_co.paa"};
-		textureList[] = {"CW_US_MDC_J",1};
-	};
-	class FP_B_ROC_M939_Open: UK3CB_B_M939_Open_WDL
-	{
-		scope = 2;
-		scopeCurator = 2;
-		crew = "FP_B_ROC_Soldier_F";
+		crew = "FP_CSL_B_ROC_Soldier_F";
 		editorSubcategory = "EdSubcat_Cars";
 		faction = "FP_Faction_ROC";
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
 		hiddenSelectionsTextures[] = {"\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\wheeled\UK3CB_Factions_Vehicles_m939\data\truck5t_merdc_j_01_co.paa","\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\wheeled\UK3CB_Factions_Vehicles_m939\data\truck5t_merdc_j_02_co.paa","\uk3cb_factions\addons\uk3cb_factions_vehicles\wheeled\uk3cb_factions_vehicles_m939\data\truck5t_dash_green_co.paa"};
 		textureList[] = {"CW_US_MDC_J",1};
 	};
-	class FP_B_ROC_M939_Reammo: UK3CB_B_M939_Reammo_WDL
+	class FP_CSL_B_ROC_M939_Open: UK3CB_B_M939_Open_WDL
 	{
 		scope = 2;
 		scopeCurator = 2;
-		crew = "FP_B_ROC_Soldier_F";
+		crew = "FP_CSL_B_ROC_Soldier_F";
+		editorSubcategory = "EdSubcat_Cars";
+		faction = "FP_Faction_ROC";
+		hiddenSelections[] = {"Camo","Camo1","Camo2"};
+		hiddenSelectionsTextures[] = {"\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\wheeled\UK3CB_Factions_Vehicles_m939\data\truck5t_merdc_j_01_co.paa","\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\wheeled\UK3CB_Factions_Vehicles_m939\data\truck5t_merdc_j_02_co.paa","\uk3cb_factions\addons\uk3cb_factions_vehicles\wheeled\uk3cb_factions_vehicles_m939\data\truck5t_dash_green_co.paa"};
+		textureList[] = {"CW_US_MDC_J",1};
+	};
+	class FP_CSL_B_ROC_M939_Reammo: UK3CB_B_M939_Reammo_WDL
+	{
+		scope = 2;
+		scopeCurator = 2;
+		crew = "FP_CSL_B_ROC_Soldier_F";
 		editorSubcategory = "EdSubcat_Cars";
 		faction = "FP_Faction_ROC";
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
@@ -649,46 +658,129 @@ class CfgVehicles
 	{
 		scope = 2;
 		scopeCurator = 2;
-		crew = "FP_B_ROC_Soldier_F";
+		crew = "FP_CSL_B_ROC_Soldier_F";
 		editorSubcategory = "EdSubcat_Cars";
 		faction = "FP_Faction_ROC";
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
 		hiddenSelectionsTextures[] = {"\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\wheeled\UK3CB_Factions_Vehicles_m939\data\truck5t_merdc_j_01_co.paa","\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\wheeled\UK3CB_Factions_Vehicles_m939\data\truck5t_merdc_j_02_co.paa","\uk3cb_factions\addons\uk3cb_factions_vehicles\wheeled\uk3cb_factions_vehicles_m939\data\truck5t_dash_green_co.paa"};
 		textureList[] = {"CW_US_MDC_J",1};
 	};
-	class FP_B_ROC_M939_Refuel: UK3CB_B_M939_Refuel_WDL
+	class FP_CSL_B_ROC_M939_Refuel: UK3CB_B_M939_Refuel_WDL
 	{
 		scope = 2;
 		scopeCurator = 2;
-		crew = "FP_B_ROC_Soldier_F";
+		crew = "FP_CSL_B_ROC_Soldier_F";
 		editorSubcategory = "EdSubcat_Cars";
 		faction = "FP_Faction_ROC";
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
 		hiddenSelectionsTextures[] = {"\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\wheeled\UK3CB_Factions_Vehicles_m939\data\truck5t_merdc_j_01_co.paa","\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\wheeled\UK3CB_Factions_Vehicles_m939\data\truck5t_merdc_j_02_co.paa","\uk3cb_factions\addons\uk3cb_factions_vehicles\wheeled\uk3cb_factions_vehicles_m939\data\truck5t_dash_green_co.paa"};
 		textureList[] = {"CW_US_MDC_J",1};
 	};
-	class FP_B_ROC_M939_Repair: UK3CB_B_M939_Repair_WDL
+	class FP_CSL_B_ROC_M939_Repair: UK3CB_B_M939_Repair_WDL
 	{
 		scope = 2;
 		scopeCurator = 2;
-		crew = "FP_B_ROC_Soldier_F";
+		crew = "FP_CSL_B_ROC_Soldier_F";
 		editorSubcategory = "EdSubcat_Cars";
 		faction = "FP_Faction_ROC";
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
 		hiddenSelectionsTextures[] = {"\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\wheeled\UK3CB_Factions_Vehicles_m939\data\truck5t_merdc_j_01_co.paa","\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\wheeled\UK3CB_Factions_Vehicles_m939\data\truck5t_merdc_j_02_co.paa","\uk3cb_factions\addons\uk3cb_factions_vehicles\wheeled\uk3cb_factions_vehicles_m939\data\truck5t_dash_green_co.paa"};
 		textureList[] = {"CW_US_MDC_J",1};
 	};
-	class FP_B_ROC_M939_MLRS: UK3CB_AAF_B_M939_MLRS
+	class FP_CSL_B_ROC_M939_MLRS: UK3CB_AAF_B_M939_MLRS
 	{
 		scope = 2;
 		scopeCurator = 2;
-		crew = "FP_B_ROC_Soldier_F";
+		crew = "FP_CSL_B_ROC_Soldier_F";
 		faction = "FP_Faction_ROC";
 		hiddenSelections[] = {"Camo","Camo1","Camo2","Camo3"};
 		hiddenSelectionsTextures[] = {"\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\wheeled\UK3CB_Factions_Vehicles_m939\data\truck5t_merdc_j_01_co.paa","\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\wheeled\UK3CB_Factions_Vehicles_m939\data\truck5t_merdc_j_02_co.paa","\uk3cb_factions\addons\uk3cb_factions_vehicles\wheeled\uk3cb_factions_vehicles_m939\data\truck5t_dash_green_co.paa","\rhsafrf\addons\rhs_a2port_car\ural\data\ural_bm21_co.paa"};
 		textureList[] = {"CW_US_MDC_J",1};
-	};	
-	class FP_B_ROC_Soldier_A_F: FP_ROC_Soldier_BASE_F
+	};*/
+	class rhsusf_M1117_W;
+	class FP_CSL_B_ROC_M_M1117: rhsusf_M1117_W
+	{
+		scope = 2;
+		scopeCurator = 2;
+		crew = "FP_CSL_B_ROC_Soldier_F";
+		editorSubcategory = "EdSubcat_APCs";
+		faction = "FP_Faction_ROC";
+	};
+	class RHS_UH60M
+	{
+		class Turrets
+		{
+			class CopilotTurret;
+			class MainTurret;
+			class RightDoorGun;
+			class CargoTurret_01;
+			class CargoTurret_02;
+			class CargoTurret_03;
+			class CargoTurret_04;
+		};
+	};
+	class RHS_UH60M_ESSS;
+	class RHS_UH60M_ESSS2;
+	class RHS_UH60M2;
+	class FP_CSL_B_ROC_UH60M: RHS_UH60M
+	{
+		scope = 2;
+		scopeCurator = 2;
+		crew = "FP_CSL_B_ROC_Helipilot_F";
+		faction = "FP_Faction_ROC";
+		class Turrets: Turrets
+		{
+			class CopilotTurret;
+			class MainTurret: MainTurret
+			{
+				gunnerType = "FP_CSL_B_ROC_Helicrew_F";
+			};
+			class RightDoorGun: RightDoorGun
+			{
+				gunnerType = "FP_CSL_B_ROC_Helicrew_F";
+			};
+		};
+	};
+	class FP_CSL_B_ROC_UH60M_ESSS: RHS_UH60M_ESSS
+	{
+		scope = 2;
+		scopeCurator = 2;
+		crew = "FP_CSL_B_ROC_Helipilot_F";
+		faction = "FP_Faction_ROC";
+	};		
+	class FP_CSL_B_ROC_UH60M_ESSS2: RHS_UH60M_ESSS2
+	{
+		scope = 2;
+		scopeCurator = 2;
+		crew = "FP_CSL_B_ROC_Helipilot_F";
+		faction = "FP_Faction_ROC";
+	};
+	class FP_CSL_B_ROC_UH60M2: RHS_UH60M2
+	{
+		scope = 2;
+		scopeCurator = 2;
+		crew = "FP_CSL_B_ROC_Helipilot_F";
+		faction = "FP_Faction_ROC";
+	};
+	class I_E_HMG_02_F;
+	class I_E_HMG_02_high_F;
+	class FP_CSL_B_ROC_HMG_02_high_F: I_E_HMG_02_high_F
+	{
+		scope = 2;
+		scopeCurator = 2;
+		side = 1;
+		crew = "FP_CSL_B_ROC_Soldier_F";
+		faction = "FP_Faction_ROC";
+	};
+	class FP_CSL_B_ROC_HMG_02_F: I_E_HMG_02_F
+	{
+		scope = 2;
+		scopeCurator = 2;
+		side = 1;
+		crew = "FP_CSL_B_ROC_Soldier_F";
+		faction = "FP_Faction_ROC";
+	};		
+	class FP_CSL_B_ROC_Soldier_A_F: FP_ROC_Soldier_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -696,7 +788,7 @@ class CfgVehicles
 		backpack = "FP_ROC_Carryall_green_F_Ammo";
 		cost = 100000;
 	};
-	class FP_B_ROC_soldier_AAA_F: FP_ROC_Soldier_BASE_F
+	class FP_CSL_B_ROC_soldier_AAA_F: FP_ROC_Soldier_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -705,7 +797,7 @@ class CfgVehicles
 		cost = 65000;
 		threat[] = {1,0.1,0.3};
 	};
-	class FP_B_ROC_Soldier_AAR_F: FP_ROC_Soldier_BASE_F
+	class FP_CSL_B_ROC_Soldier_AAR_F: FP_ROC_Soldier_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -714,7 +806,7 @@ class CfgVehicles
 		cost = 65000;
 		threat[] = {1,0.1,0.3};
 	};
-		class FP_B_ROC_Soldier_AAT_F: FP_ROC_Soldier_BASE_F
+		class FP_CSL_B_ROC_Soldier_AAT_F: FP_ROC_Soldier_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -722,7 +814,7 @@ class CfgVehicles
 		backpack = "FP_ROC_Carryall_green_F_AT";
 		cost = 100000;
 	};
-	class FP_B_ROC_Soldier_AR_F: FP_ROC_Soldier_BASE_F
+	class FP_CSL_B_ROC_Soldier_AR_F: FP_ROC_Soldier_BASE_F
 	{
 		class SpeechVariants
 		{
@@ -746,7 +838,7 @@ class CfgVehicles
 		threat[] = {1,0.1,0.3};
 		icon = "iconManMG";	
 	};
-	class FP_B_ROC_Medic_F: FP_ROC_Soldier_BASE_F
+	class FP_CSL_B_ROC_Medic_F: FP_ROC_Soldier_BASE_F
 	{
 		class SpeechVariants
 		{
@@ -769,8 +861,10 @@ class CfgVehicles
 		sensitivity = 2.4;
 		icon = "iconManMedic";
 		picture = "pictureHeal";
+		linkedItems[] = {"FP_CSL_V_CarrierRigKBT_heavy_ROCDigital_F","FP_H_HelmetHBK_ROC_ear_F","NVGoggles_OPFOR","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_CSL_V_CarrierRigKBT_heavy_ROCDigital_F","FP_H_HelmetHBK_ROC_ear_F","NVGoggles_OPFOR","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class FP_B_ROC_Crewman_F: FP_ROC_Soldier_BASE_F
+	class FP_CSL_B_ROC_Crewman_F: FP_ROC_Soldier_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -779,10 +873,10 @@ class CfgVehicles
 		respawnWeapons[] = {"hlc_smg_MP5N","RH_m9","Throw","Put"};
 		magazines[] = {"hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		respawnMagazines[] = {"hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
-		linkedItems[] = {"V_TacChestrig_grn_F","rhsusf_cvc_green_ess","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_TacChestrig_grn_F","rhsusf_cvc_green_ess","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
+		linkedItems[] = {"FP_CSL_V_CarrierRigKBT_ROCDigital_F","rhsusf_cvc_green_ess","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_CSL_V_CarrierRigKBT_ROCDigital_F","rhsusf_cvc_green_ess","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
 	};
-	class FP_B_ROC_engineer_F: FP_ROC_Soldier_BASE_F
+	class FP_CSL_B_ROC_engineer_F: FP_ROC_Soldier_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -798,7 +892,7 @@ class CfgVehicles
 		icon = "iconManEngineer";
 		picture = "pictureRepair";		
 	};
-	class FP_B_ROC_soldier_exp_F: FP_ROC_Soldier_BASE_F
+	class FP_CSL_B_ROC_soldier_exp_F: FP_ROC_Soldier_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -810,7 +904,7 @@ class CfgVehicles
 		icon = "iconManExplosive";
 		picture = "pictureExplosive";		
 	};
-	class FP_B_ROC_Soldier_GL_F: FP_ROC_Soldier_BASE_F
+	class FP_CSL_B_ROC_Soldier_GL_F: FP_ROC_Soldier_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -823,10 +917,10 @@ class CfgVehicles
 		respawnWeapons[] = {"rhs_weap_m16a4_carryhandle_M203","RH_m9","Throw","Put"};		
 		magazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
-		linkedItems[] = {"V_CarrierRigKBT_01_heavy_Olive_F","rhsusf_mich_bare_norotos_arc","rhsusf_ANPVS_15","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_CarrierRigKBT_01_heavy_Olive_F","rhsusf_mich_bare_norotos_arc","rhsusf_ANPVS_15","ItemMap","ItemCompass","ItemWatch","ItemRadio"};			
+		linkedItems[] = {"FP_CSL_V_CarrierRigKBT_heavy_ROCDigital_F","F_H_HalmentHBK_ROC_chops_F","NVGoggles_OPFOR","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_CSL_V_CarrierRigKBT_heavy_ROCDigital_F","F_H_HalmentHBK_ROC_chops_F","NVGoggles_OPFOR","ItemMap","ItemCompass","ItemWatch","ItemRadio"};			
 	};
-	class FP_B_ROC_MMG_F: FP_ROC_Soldier_BASE_F
+	class FP_CSL_B_ROC_MMG_F: FP_ROC_Soldier_BASE_F
 	{
 		class SpeechVariants
 		{
@@ -850,7 +944,7 @@ class CfgVehicles
 		threat[] = {1,0.1,0.3};
 		icon = "iconManMG";	
 	};
-	class FP_B_ROC_Helipilot_F: FP_ROC_Soldier_BASE_F
+	class FP_CSL_B_ROC_Helipilot_F: FP_ROC_Soldier_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -859,18 +953,18 @@ class CfgVehicles
 		respawnWeapons[] = {"hlc_smg_MP5N","RH_m9","Throw","Put"};
 		magazines[] = {"hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		respawnMagazines[] = {"hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
-		linkedItems[] = {"V_TacVest_blk","H_PilotHelmetHeli_B","ItemMap","ItemCompass","ItemWatch","ItemRadio","rhsusf_ANPVS_15"};
-		respawnLinkedItems[] = {"V_TacVest_blk","H_PilotHelmetHeli_B","ItemMap","ItemCompass","ItemWatch","ItemRadio","rhsusf_ANPVS_15"};			
+		linkedItems[] = {"V_TacVest_blk","H_PilotHelmetHeli_B","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+		respawnLinkedItems[] = {"V_TacVest_blk","H_PilotHelmetHeli_B","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};			
 	};
-	class FP_B_ROC_Helicrew_F: FP_B_ROC_Helipilot_F
+	class FP_CSL_B_ROC_Helicrew_F: FP_CSL_B_ROC_Helipilot_F
 	{
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Helicopter Crew";
-		linkedItems[] = {"V_TacVest_blk","H_CrewHelmetHeli_B","ItemMap","ItemCompass","ItemWatch","ItemRadio","rhsusf_ANPVS_15"};
-		respawnLinkedItems[] = {"V_TacVest_blk","H_CrewHelmetHeli_B","ItemMap","ItemCompass","ItemWatch","ItemRadio","rhsusf_ANPVS_15"};		
+		linkedItems[] = {"V_TacVest_blk","H_CrewHelmetHeli_B","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
+		respawnLinkedItems[] = {"V_TacVest_blk","H_CrewHelmetHeli_B","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};		
 	};	
-	class FP_B_ROC_soldier_M_F: FP_ROC_Soldier_BASE_F
+	class FP_CSL_B_ROC_soldier_M_F: FP_ROC_Soldier_BASE_F
 	{
 		class SpeechVariants
 		{
@@ -892,7 +986,7 @@ class CfgVehicles
 		respawnMagazines[] = {"20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		
 	};
-	class FP_B_ROC_soldier_mine_F: FP_ROC_Soldier_BASE_F
+	class FP_CSL_B_ROC_soldier_mine_F: FP_ROC_Soldier_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -902,7 +996,7 @@ class CfgVehicles
 		icon = "iconManExplosive";
 		picture = "pictureExplosive";		
 	};
-	class FP_B_ROC_Soldier_AA_F: FP_ROC_Soldier_BASE_F
+	class FP_CSL_B_ROC_Soldier_AA_F: FP_ROC_Soldier_BASE_F
 	{
 		class SpeechVariants
 		{
@@ -926,7 +1020,7 @@ class CfgVehicles
 		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","HandGrenade","HandGrenade","SmokeShell","SmokeShell","rhs_fim92_mag"};
 
 	};
-	class FP_B_ROC_Soldier_AT_F: FP_ROC_Soldier_BASE_F
+	class FP_CSL_B_ROC_Soldier_AT_F: FP_ROC_Soldier_BASE_F
 	{
 		class SpeechVariants
 		{
@@ -949,7 +1043,7 @@ class CfgVehicles
 		backpack = "FP_ROC_Carryall_green_F_AT";
 		cost = 100000;	
 	};
-	class FP_B_ROC_Soldier_F: FP_ROC_Soldier_BASE_F
+	class FP_CSL_B_ROC_Soldier_F: FP_ROC_Soldier_BASE_F
 	{
 		author = "FP Mod Team";
 		_generalMacro = "FP_ROC_Soldier_BASE_F";
@@ -958,7 +1052,7 @@ class CfgVehicles
 		displayName = "Rifleman";
 		cost = 100000;
 	};
-	class FP_B_ROC_Soldier_LAT_F: FP_ROC_Soldier_BASE_F
+	class FP_CSL_B_ROC_Soldier_LAT_F: FP_ROC_Soldier_BASE_F
 	{
 		class SpeechVariants
 		{
@@ -976,18 +1070,20 @@ class CfgVehicles
 		displayName = "Rifleman (AT)";
 		weapons[] = {"rhs_weap_m16a4_carryhandle","RH_m9","rhs_weap_M136_hedp","Throw","Put"};
 		respawnWeapons[] = {"rhs_weap_m16a4_carryhandle","RH_m9","rhs_weap_M136_hedp","Throw","Put"};
+		linkedItems[] = {"FP_CSL_V_CarrierRigKBT_light_ROCDigital_F","FP_H_HelmetHBK_ROC_ear_F","NVGoggles_OPFOR","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_CSL_V_CarrierRigKBT_light_ROCDigital_F","FP_H_HelmetHBK_ROC_ear_F","NVGoggles_OPFOR","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		cost = 100000;
 	};
-	class FP_B_ROC_Soldier_lite_F: FP_ROC_Soldier_BASE_F
+	class FP_CSL_B_ROC_Soldier_lite_F: FP_ROC_Soldier_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Rifleman (Lite)";		
 		cost = 100000;		
-		linkedItems[] = {"V_TacVest_oli","FP_H_MilCap_blk","rhsusf_ANPVS_15","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_TacVest_oli","FP_H_MilCap_blk","rhsusf_ANPVS_15","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
+		linkedItems[] = {"V_TacVest_oli","FP_H_MilCap_blk","NVGoggles_OPFOR","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_oli","FP_H_MilCap_blk","NVGoggles_OPFOR","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
 	};
-	class FP_B_ROC_Soldier_unarmed_F: FP_ROC_Soldier_BASE_F
+	class FP_CSL_B_ROC_Soldier_unarmed_F: FP_ROC_Soldier_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -997,15 +1093,17 @@ class CfgVehicles
 		magazines[] = {};
 		respawnMagazines[] = {};
 	};
-	class FP_B_ROC_RadioOperator_F: FP_ROC_Soldier_BASE_F
+	class FP_CSL_B_ROC_RadioOperator_F: FP_ROC_Soldier_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Radio Operator";
 		backpack = "FP_B_RadioBag_117_Black";
 		cost = 100000;		
+		linkedItems[] = {"FP_CSL_V_CarrierRigKBT_light_ROCDigital_F","FP_H_HelmetHBK_ROC_headset_F","NVGoggles_OPFOR","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_CSL_V_CarrierRigKBT_light_ROCDigital_F","FP_H_HelmetHBK_ROC_headset_F","NVGoggles_OPFOR","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class FP_B_ROC_soldier_repair_F: FP_ROC_Soldier_BASE_F
+	class FP_CSL_B_ROC_soldier_repair_F: FP_ROC_Soldier_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -1019,7 +1117,7 @@ class CfgVehicles
 		displayName = "Repair Specialist";
 		icon = "iconManEngineer";
 	};
-	class FP_B_ROC_Soldier_SL_F: FP_ROC_Soldier_BASE_F
+	class FP_CSL_B_ROC_Soldier_SL_F: FP_ROC_Soldier_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -1032,10 +1130,10 @@ class CfgVehicles
 		camouflage = 1.6;
 		sensitivity = 3;
 		icon = "iconManLeader";
-		linkedItems[] = {"V_CarrierRigKBT_01_heavy_Olive_F","rhsusf_mich_bare_norotos_arc","rhsusf_ANPVS_15","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_CarrierRigKBT_01_heavy_Olive_F","rhsusf_mich_bare_norotos_arc","rhsusf_ANPVS_15","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"FP_CSL_V_CarrierRigKBT_heavy_ROCDigital_F","F_H_HalmentHBK_ROC_chops_F","NVGoggles_OPFOR","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_CSL_V_CarrierRigKBT_heavy_ROCDigital_F","F_H_HalmentHBK_ROC_chops_F","NVGoggles_OPFOR","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class FP_B_ROC_Survivor_F: FP_ROC_Soldier_BASE_F
+	class FP_CSL_B_ROC_Survivor_F: FP_ROC_Soldier_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -1046,7 +1144,7 @@ class CfgVehicles
 		weapons[] = {"Throw","Put"};
 		respawnWeapons[] = {"Throw","Put"};
 	};
-	class FP_B_ROC_Soldier_TL_F: FP_ROC_Soldier_BASE_F
+	class FP_CSL_B_ROC_Soldier_TL_F: FP_ROC_Soldier_BASE_F
 	{
 
 		scope = 2;
@@ -1060,18 +1158,18 @@ class CfgVehicles
 		camouflage = 1.6;
 		sensitivity = 3;
 		icon = "iconManLeader";
-		linkedItems[] = {"V_CarrierRigKBT_01_heavy_Olive_F","rhsusf_mich_bare_norotos_arc","rhsusf_ANPVS_15","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"V_CarrierRigKBT_01_heavy_Olive_F","rhsusf_mich_bare_norotos_arc","rhsusf_ANPVS_15","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"FP_CSL_V_CarrierRigKBT_heavy_ROCDigital_F","FP_H_HelmetHBK_ROC_ear_F","NVGoggles_OPFOR","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_CSL_V_CarrierRigKBT_heavy_ROCDigital_F","FP_H_HelmetHBK_ROC_ear_F","NVGoggles_OPFOR","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class FP_B_ROC_Soldier_UAV_F: FP_ROC_Soldier_BASE_F
+	class FP_CSL_B_ROC_Soldier_UAV_F: FP_ROC_Soldier_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
 		backpack = "B_UAV_01_backpack_F";
 		displayName = "UAV Operator";
 		cost = 100000;
-		linkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Woodland_F","rhsusf_mich_bare_norotos_arc","rhsusf_ANPVS_15","B_UavTerminal","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Woodland_F","rhsusf_mich_bare_norotos_arc","rhsusf_ANPVS_15","B_UavTerminal","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
+		linkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Woodland_F","FP_H_HelmetHBK_ROC_F","NVGoggles_OPFOR","B_UavTerminal","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"FP_GOR_V_CarrierRigKBT_light_Woodland_F","FP_H_HelmetHBK_ROC_F","NVGoggles_OPFOR","B_UavTerminal","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
 	};
 };
 class CfgWeapons

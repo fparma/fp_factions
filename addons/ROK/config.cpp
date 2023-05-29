@@ -8,98 +8,104 @@ class CfgPatches
 	{
 		units[] = 
 		{
-			"FP_B_ROK_AAV",
-			"FP_B_ROK_M939_MLRS",
-			"FP_B_ROK_MTVR_MLRS",
-			"FP_B_ROK_M939_Closed",
-			"FP_B_ROK_M939_Guntruck",
-			"FP_B_ROK_M939_Open",
-			"FP_B_ROK_M939_Reammo",
+			"FP_CSL_B_ROK_AAV",
+			"FP_CSL_B_ROK_AAV_Unarmed",
+			/*"FP_CSL_B_ROK_M939_MLRS",
+			"FP_CSL_B_ROK_MTVR_MLRS",
+			"FP_CSL_B_ROK_M939_Closed",
+			"FP_CSL_B_ROK_M939_Guntruck",
+			"FP_CSL_B_ROK_M939_Open",
+			"FP_CSL_B_ROK_M939_Reammo",
 			"FPB_ROK_M939_Recovery",
-			"FP_B_ROK_M939_Refuel",
-			"FP_B_ROK_M939_Repair",
-			"FP_B_ROK_MTVR_Reammo",
-			"FP_B_ROK_MTVR_Closed",
-			"FP_B_ROK_MTVR_Open",
-			"FP_B_ROK_MTVR_Recovery",
-			"FP_B_ROK_MTVR_Refuel",
-			"FP_B_ROK_MTVR_Repair",
-			"FP_B_ROK_MaxxPro_M2",
-			"FP_B_ROK_MaxxPro_MK19",
-			"FP_B_ROK_M113",
-			"FP_B_ROK_M113_Mk19",
-			"FP_B_ROK_M113_M2",
-			"FP_B_ROK_Unimog",
-			"FP_B_ROK_AH1F",
-			"FP_B_ROK_Heli_Transport_02_F",
-			"FP_B_ROK_Heli_light_03_dynamicLoadout_F",
-			"FP_B_ROK_Heli_light_03_unarmed_F",
-			"FP_B_ROK_uh1h_F",
-			"FP_B_ROK_Soldier_A_F",
-			"FP_B_ROK_Soldier_AAR_F",
-			"FP_B_ROK_soldier_AAA_F",
-			"FP_B_ROK_Soldier_AAT_F",
-			"FP_B_ROK_Soldier_AR_F",
-			"FP_B_ROK_Medic_F",
-			"FP_B_ROK_Crewman_F",
-			"FP_B_ROK_engineer_F",
-			"FP_B_ROK_soldier_exp_F",
-			"FP_B_ROK_Soldier_GL_F",
-			"FP_B_ROK_Helicrew_F",
-			"FP_B_ROK_Helipilot_F",
-			"FP_B_ROK_MMG_F",
-			"FP_B_ROK_soldier_M_F",
-			"FP_B_ROK_Soldier_AA_F",
-			"FP_B_ROK_Soldier_AT_F",
-			"FP_B_ROK_FieldOfficer_F",
-			"FP_B_ROK_Officer_F",
-			"FP_B_ROK_RadioOperator_F",
-			"FP_B_ROK_soldier_repair_F",
-			"FP_B_ROK_Soldier_F",
-			"FP_B_ROK_Soldier_LAT_F",
-			"FP_B_ROK_Soldier_lite_F",
-			"FP_B_ROK_Soldier_unarmed_F",
-			"FP_B_ROK_Soldier_SL_F",
-			"FP_B_ROK_Survivor_F",
-			"FP_B_ROK_Soldier_TL_F",
-			"FP_B_ROK_Soldier_UAV_F",
-			"FP_B_ROK_Marine_A_F",
-			"FP_B_ROK_Marine_AAR_F",
-			"FP_B_ROK_Marine_AAT_F",
-			"FP_B_ROK_Marine_AR_F",
-			"FP_B_ROK_Marine_Medic_F",
-			"FP_B_ROK_Marine_Crewman_F",
-			"FP_B_ROK_Marine_engineer_F",
-			"FP_B_ROK_Marine_exp_F",
-			"FP_B_ROK_Marine_GL_F",
-			"FP_B_ROK_Marine_Helicrew_F",
-			"FP_B_ROK_Marine_Helipilot_F",
-			"FP_B_ROK_Marine_MMG_F",
-			"FP_B_ROK_Marine_M_F",
-			"FP_B_ROK_Marine_AA_F",
-			"FP_B_ROK_Marine_AT_F",
-			"FP_B_ROK_Marine_FieldOfficer_F",
-			"FP_B_ROK_Marine_Officer_F",
-			"FP_B_ROK_Marine_RadioOperator_F",
-			"FP_B_ROK_Marine_repair_F",
-			"FP_B_ROK_Marine_F",
-			"FP_B_ROK_Marine_LAT_F",
-			"FP_B_ROK_Marine_lite_F",
-			"FP_B_ROK_Marine_unarmed_F",
-			"FP_B_ROK_Marine_SL_F",
-			"FP_B_ROK_Marine_Survivor_F",
-			"FP_B_ROK_Marine_TL_F",
-			"FP_B_ROK_Marine_UAV_F",
-			"FP_B_ROK_UDT_sof_exp_F",
-			"FP_B_ROK_UDT_sof_JTAC_F",
-			"FP_B_ROK_UDT_sof_M_F",
-			"FP_B_ROK_UDT_sof_medic_F",
-			"FP_B_ROK_UDT_sof_F",
-			"FP_B_ROK_UDT_sof_LAT_F",
-			"FP_B_ROK_UDT_sof_TL_F",
-			"B_Mortar_01_F",
-			"FP_B_ROK_HMG_02_high_F",
-			"FP_B_ROK_HMG_02_F"
+			"FP_CSL_B_ROK_M939_Refuel",
+			"FP_CSL_B_ROK_M939_Repair",
+			"FP_CSL_B_ROK_MTVR_Reammo",
+			"FP_CSL_B_ROK_MTVR_Closed",
+			"FP_CSL_B_ROK_MTVR_Open",
+			"FP_CSL_B_ROK_MTVR_Recovery",
+			"FP_CSL_B_ROK_MTVR_Refuel",
+			"FP_CSL_B_ROK_MTVR_Repair",
+			"FP_CSL_B_ROK_MaxxPro_M2",
+			"FP_CSL_B_ROK_MaxxPro_MK19",*/
+			"FP_CSL_B_ROK_M113",
+			"FP_CSL_B_ROK_M113_Mk19",
+			"FP_CSL_B_ROK_M113_M2",
+			"FP_CSL_B_ROK_Unimog",
+			"FP_CSL_B_ROK_AH1F",
+			"FP_CSL_B_ROK_Heli_Transport_02_F",
+			"FP_CSL_B_ROK_Heli_light_03_dynamicLoadout_F",
+			"FP_CSL_B_ROK_Heli_light_03_unarmed_F",
+			"FP_CSL_B_ROK_uh1h_F",
+			"FP_CSL_B_ROK_uh1h_gunship_F",
+			"FP_CSL_B_ROK_uh1h_unarmed_F",
+			"FP_CSL_B_ROK_uh1h_gunship_extrapylon_F",
+			/*"FP_CSL_B_ROK_Bell412_Utility_F",
+			"FP_CSL_B_ROK_Bell412_Armed_dynamicLoadout_F",*/
+			"FP_CSL_B_ROK_Soldier_A_F",
+			"FP_CSL_B_ROK_Soldier_AAR_F",
+			"FP_CSL_B_ROK_soldier_AAA_F",
+			"FP_CSL_B_ROK_Soldier_AAT_F",
+			"FP_CSL_B_ROK_Soldier_AR_F",
+			"FP_CSL_B_ROK_Medic_F",
+			"FP_CSL_B_ROK_Crewman_F",
+			"FP_CSL_B_ROK_engineer_F",
+			"FP_CSL_B_ROK_soldier_exp_F",
+			"FP_CSL_B_ROK_Soldier_GL_F",
+			"FP_CSL_B_ROK_Helicrew_F",
+			"FP_CSL_B_ROK_Helipilot_F",
+			"FP_CSL_B_ROK_MMG_F",
+			"FP_CSL_B_ROK_soldier_M_F",
+			"FP_CSL_B_ROK_Soldier_AA_F",
+			"FP_CSL_B_ROK_Soldier_AT_F",
+			"FP_CSL_B_ROK_FieldOfficer_F",
+			"FP_CSL_B_ROK_Officer_F",
+			"FP_CSL_B_ROK_RadioOperator_F",
+			"FP_CSL_B_ROK_soldier_repair_F",
+			"FP_CSL_B_ROK_Soldier_F",
+			"FP_CSL_B_ROK_Soldier_LAT_F",
+			"FP_CSL_B_ROK_Soldier_lite_F",
+			"FP_CSL_B_ROK_Soldier_unarmed_F",
+			"FP_CSL_B_ROK_Soldier_SL_F",
+			"FP_CSL_B_ROK_Survivor_F",
+			"FP_CSL_B_ROK_Soldier_TL_F",
+			"FP_CSL_B_ROK_Soldier_UAV_F",
+			"FP_CSL_B_ROK_Marine_A_F",
+			"FP_CSL_B_ROK_Marine_AAR_F",
+			"FP_CSL_B_ROK_Marine_AAT_F",
+			"FP_CSL_B_ROK_Marine_AR_F",
+			"FP_CSL_B_ROK_Marine_Medic_F",
+			"FP_CSL_B_ROK_Marine_Crewman_F",
+			"FP_CSL_B_ROK_Marine_engineer_F",
+			"FP_CSL_B_ROK_Marine_exp_F",
+			"FP_CSL_B_ROK_Marine_GL_F",
+			"FP_CSL_B_ROK_Marine_Helicrew_F",
+			"FP_CSL_B_ROK_Marine_Helipilot_F",
+			"FP_CSL_B_ROK_Marine_MMG_F",
+			"FP_CSL_B_ROK_Marine_M_F",
+			"FP_CSL_B_ROK_Marine_AA_F",
+			"FP_CSL_B_ROK_Marine_AT_F",
+			"FP_CSL_B_ROK_Marine_FieldOfficer_F",
+			"FP_CSL_B_ROK_Marine_Officer_F",
+			"FP_CSL_B_ROK_Marine_RadioOperator_F",
+			"FP_CSL_B_ROK_Marine_repair_F",
+			"FP_CSL_B_ROK_Marine_F",
+			"FP_CSL_B_ROK_Marine_LAT_F",
+			"FP_CSL_B_ROK_Marine_lite_F",
+			"FP_CSL_B_ROK_Marine_unarmed_F",
+			"FP_CSL_B_ROK_Marine_SL_F",
+			"FP_CSL_B_ROK_Marine_Survivor_F",
+			"FP_CSL_B_ROK_Marine_TL_F",
+			"FP_CSL_B_ROK_Marine_UAV_F",
+			"FP_CSL_B_ROK_UDT_sof_exp_F",
+			"FP_CSL_B_ROK_UDT_sof_JTAC_F",
+			"FP_CSL_B_ROK_UDT_sof_M_F",
+			"FP_CSL_B_ROK_UDT_sof_medic_F",
+			"FP_CSL_B_ROK_UDT_sof_F",
+			"FP_CSL_B_ROK_UDT_sof_LAT_F",
+			"FP_CSL_B_ROK_UDT_sof_TL_F",
+			"FP_CSL_B_ROK_Mortar_01_F",
+			"FP_CSL_B_ROK_HMG_02_high_F",
+			"FP_CSL_B_ROK_HMG_02_F"
 		};
 		weapons[] = {};
 		requiredVersion = 0.1;
@@ -179,7 +185,7 @@ class CfgGroups
 {
 	class West
 	{
-		class FP_B_ROK_F
+		class FP_CSL_B_ROK_F
 		{
 			name = "FP South Korea";
 			class Infantry
@@ -196,56 +202,56 @@ class CfgGroups
 						position[] = {0,0,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "FP_B_ROK_Soldier_SL_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_SL_F";
 					};
 					class Unit1
 					{
 						position[] = {5,-5,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROK_Soldier_AR_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_AR_F";
 					};
 					class Unit2
 					{
 						position[] = {-5,-5,0};
 						rank = "CORPORAL";
 						side = 1;
-						vehicle = "FP_B_ROK_MMG_F";
+						vehicle = "FP_CSL_B_ROK_MMG_F";
 					};
 					class Unit3
 					{
 						position[] = {10,-10,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROK_Soldier_AAR_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_AAR_F";
 					};
 					class Unit4
 					{
 						position[] = {-10,-10,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "FP_B_ROK_Soldier_TL_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_TL_F";
 					};
 					class Unit5
 					{
 						position[] = {15,-15,0};
 						rank = "CORPORAL";
 						side = 1;
-						vehicle = "FP_B_ROK_Soldier_M_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_M_F";
 					};
 					class Unit6
 					{
 						position[] = {-15,-15,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROK_Soldier_LAT_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_LAT_F";
 					};
 					class Unit7
 					{
 						position[] = {20,-20,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROK_Medic_F";
+						vehicle = "FP_CSL_B_ROK_Medic_F";
 					};
 				};
 				class BROK_InfSentry
@@ -259,14 +265,14 @@ class CfgGroups
 						position[] = {0,0,0};
 						rank = "CORPORAL";
 						side = 1;
-						vehicle = "FP_B_ROK_Soldier_GL_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_GL_F";
 					};
 					class Unit1
 					{
 						position[] = {5,-2,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROK_Soldier_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_F";
 					};
 				};
 				class BROK_InfSquad
@@ -280,56 +286,56 @@ class CfgGroups
 						position[] = {0,0,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "FP_B_ROK_Soldier_SL_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_SL_F";
 					};
 					class Unit1
 					{
 						position[] = {5,-5,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROK_Soldier_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_F";
 					};
 					class Unit2
 					{
 						position[] = {-5,-5,0};
 						rank = "CORPORAL";
 						side = 1;
-						vehicle = "FP_B_ROK_Soldier_LAT_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_LAT_F";
 					};
 					class Unit3
 					{
 						position[] = {10,-10,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROK_Soldier_M_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_M_F";
 					};
 					class Unit4
 					{
 						position[] = {-10,-10,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "FP_B_ROK_Soldier_TL_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_TL_F";
 					};
 					class Unit5
 					{
 						position[] = {15,-15,0};
 						rank = "CORPORAL";
 						side = 1;
-						vehicle = "FP_B_ROK_Soldier_AR_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_AR_F";
 					};
 					class Unit6
 					{
 						position[] = {-15,-15,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROK_Soldier_A_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_A_F";
 					};
 					class Unit7
 					{
 						position[] = {20,-20,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROK_Medic_F";
+						vehicle = "FP_CSL_B_ROK_Medic_F";
 					};
 				};
 				class BROK_InfSquad_Weapons
@@ -343,56 +349,56 @@ class CfgGroups
 						position[] = {0,0,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "FP_B_ROK_Soldier_SL_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_SL_F";
 					};
 					class Unit1
 					{
 						position[] = {5,-5,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROK_Soldier_AR_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_AR_F";
 					};
 					class Unit2
 					{
 						position[] = {-5,-5,0};
 						rank = "CORPORAL";
 						side = 1;
-						vehicle = "FP_B_ROK_Soldier_GL_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_GL_F";
 					};
 					class Unit3
 					{
 						position[] = {10,-10,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "FP_B_ROK_Soldier_M_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_M_F";
 					};
 					class Unit4
 					{
 						position[] = {-10,-10,0};
 						rank = "CORPORAL";
 						side = 1;
-						vehicle = "FP_B_ROK_Soldier_AT_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_AT_F";
 					};
 					class Unit5
 					{
 						position[] = {15,-15,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROK_Soldier_A_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_A_F";
 					};
 					class Unit6
 					{
 						position[] = {-15,-15,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROK_Soldier_AAT_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_AAT_F";
 					};
 					class Unit7
 					{
 						position[] = {20,-20,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROK_Medic_F";
+						vehicle = "FP_CSL_B_ROK_Medic_F";
 					};
 				};
 				class BROK_InfTeam
@@ -406,28 +412,28 @@ class CfgGroups
 						position[] = {0,0,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "FP_B_ROK_Soldier_TL_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_TL_F";
 					};
 					class Unit1
 					{
 						position[] = {5,-5,0};
 						rank = "CORPORAL";
 						side = 1;
-						vehicle = "FP_B_ROK_Soldier_AR_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_AR_F";
 					};
 					class Unit2
 					{
 						position[] = {-5,-5,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROK_Soldier_GL_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_GL_F";
 					};
 					class Unit3
 					{
 						position[] = {10,-10,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROK_Soldier_LAT_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_LAT_F";
 					};				
 				};
 				class BROK_InfTeam_AA
@@ -441,28 +447,28 @@ class CfgGroups
 						position[] = {0,0,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "FP_B_ROK_Soldier_TL_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_TL_F";
 					};
 					class Unit1
 					{
 						position[] = {5,-5,0};
 						rank = "CORPORAL";
 						side = 1;
-						vehicle = "FP_B_ROK_Soldier_AA_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_AA_F";
 					};
 					class Unit2
 					{
 						position[] = {-5,-5,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROK_Soldier_AA_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_AA_F";
 					};
 					class Unit3
 					{
 						position[] = {10,-10,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROK_Soldier_AAA_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_AAA_F";
 					};				
 				};
 				class BROK_InfTeam_AT
@@ -476,28 +482,28 @@ class CfgGroups
 						position[] = {0,0,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "FP_B_ROK_Soldier_TL_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_TL_F";
 					};
 					class Unit1
 					{
 						position[] = {5,-5,0};
 						rank = "CORPORAL";
 						side = 1;
-						vehicle = "FP_B_ROK_Soldier_AT_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_AT_F";
 					};
 					class Unit2
 					{
 						position[] = {-5,-5,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROK_Soldier_AT_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_AT_F";
 					};
 					class Unit3
 					{
 						position[] = {10,-10,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROK_Soldier_AAT_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_AAT_F";
 					};				
 				};
 			};
@@ -515,56 +521,56 @@ class CfgGroups
 						position[] = {0,0,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "FP_B_ROK_Marine_SL_F";
+						vehicle = "FP_CSL_B_ROK_Marine_SL_F";
 					};
 					class Unit1
 					{
 						position[] = {5,-5,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROK_Marine_AR_F";
+						vehicle = "FP_CSL_B_ROK_Marine_AR_F";
 					};
 					class Unit2
 					{
 						position[] = {-5,-5,0};
 						rank = "CORPORAL";
 						side = 1;
-						vehicle = "FP_B_ROK_Marine_MMG_F";
+						vehicle = "FP_CSL_B_ROK_Marine_MMG_F";
 					};
 					class Unit3
 					{
 						position[] = {10,-10,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROK_Marine_AAR_F";
+						vehicle = "FP_CSL_B_ROK_Marine_AAR_F";
 					};
 					class Unit4
 					{
 						position[] = {-10,-10,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROK_Marine_TL_F";
+						vehicle = "FP_CSL_B_ROK_Marine_TL_F";
 					};
 					class Unit5
 					{
 						position[] = {15,-15,0};
 						rank = "CORPORAL";
 						side = 1;
-						vehicle = "FP_B_ROK_Marine_M_F";
+						vehicle = "FP_CSL_B_ROK_Marine_M_F";
 					};
 					class Unit6
 					{
 						position[] = {-15,-15,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROK_Marine_LAT_F";
+						vehicle = "FP_CSL_B_ROK_Marine_LAT_F";
 					};
 					class Unit7
 					{
 						position[] = {20,-20,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROK_Marine_Medic_F";
+						vehicle = "FP_CSL_B_ROK_Marine_Medic_F";
 					};
 				};
 				class BROKMC_InfSquad
@@ -578,56 +584,56 @@ class CfgGroups
 						position[] = {0,0,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "FP_B_ROK_Marine_SL_F";
+						vehicle = "FP_CSL_B_ROK_Marine_SL_F";
 					};
 					class Unit1
 					{
 						position[] = {5,-5,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROK_Marine_F";
+						vehicle = "FP_CSL_B_ROK_Marine_F";
 					};
 					class Unit2
 					{
 						position[] = {-5,-5,0};
 						rank = "CORPORAL";
 						side = 1;
-						vehicle = "FP_B_ROK_Marine_LAT_F";
+						vehicle = "FP_CSL_B_ROK_Marine_LAT_F";
 					};
 					class Unit3
 					{
 						position[] = {10,-10,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROK_Marine_M_F";
+						vehicle = "FP_CSL_B_ROK_Marine_M_F";
 					};
 					class Unit4
 					{
 						position[] = {-10,-10,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "FP_B_ROK_Marine_TL_F";
+						vehicle = "FP_CSL_B_ROK_Marine_TL_F";
 					};
 					class Unit5
 					{
 						position[] = {15,-15,0};
 						rank = "CORPORAL";
 						side = 1;
-						vehicle = "FP_B_ROK_Marine_AR_F";
+						vehicle = "FP_CSL_B_ROK_Marine_AR_F";
 					};
 					class Unit6
 					{
 						position[] = {-15,-15,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROK_Marine_A_F";
+						vehicle = "FP_CSL_B_ROK_Marine_A_F";
 					};
 					class Unit7
 					{
 						position[] = {20,-20,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROK_Marine_Medic_F";
+						vehicle = "FP_CSL_B_ROK_Marine_Medic_F";
 					};
 				};
 				class BROKMC_InfSquad_Weapons
@@ -641,57 +647,162 @@ class CfgGroups
 						position[] = {0,0,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "FP_B_ROK_Marine_SL_F";
+						vehicle = "FP_CSL_B_ROK_Marine_SL_F";
 					};
 					class Unit1
 					{
 						position[] = {5,-5,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROK_Marine_AR_F";
+						vehicle = "FP_CSL_B_ROK_Marine_AR_F";
 					};
 					class Unit2
 					{
 						position[] = {-5,-5,0};
 						rank = "CORPORAL";
 						side = 1;
-						vehicle = "FP_B_ROK_Marine_GL_F";
+						vehicle = "FP_CSL_B_ROK_Marine_GL_F";
 					};
 					class Unit3
 					{
 						position[] = {10,-10,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "FP_B_ROK_Marine_M_F";
+						vehicle = "FP_CSL_B_ROK_Marine_M_F";
 					};
 					class Unit4
 					{
 						position[] = {-10,-10,0};
 						rank = "CORPORAL";
 						side = 1;
-						vehicle = "FP_B_ROK_Marine_AT_F";
+						vehicle = "FP_CSL_B_ROK_Marine_AT_F";
 					};
 					class Unit5
 					{
 						position[] = {15,-15,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROK_Marine_A_F";
+						vehicle = "FP_CSL_B_ROK_Marine_A_F";
 					};
 					class Unit6
 					{
 						position[] = {-15,-15,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROK_Marine_AAT_F";
+						vehicle = "FP_CSL_B_ROK_Marine_AAT_F";
 					};
 					class Unit7
 					{
 						position[] = {20,-20,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROK_Marine_Medic_F";
+						vehicle = "FP_CSL_B_ROK_Marine_Medic_F";
 					};
+				};
+				class BROKMC_InfTeam
+				{
+					faction = "FP_Faction_ROK";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					name = "Fire Team";
+					side = 1;
+					class Unit0
+					{
+						position[] = {0,0,0};
+						rank = "SERGEANT";
+						side = 1;
+						vehicle = "FP_CSL_B_ROK_Marine_TL_F";
+					};
+					class Unit1
+					{
+						position[] = {5,-5,0};
+						rank = "CORPORAL";
+						side = 1;
+						vehicle = "FP_CSL_B_ROK_Marine_AR_F";
+					};
+					class Unit2
+					{
+						position[] = {-5,-5,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "FP_CSL_B_ROK_Marine_GL_F";
+					};
+					class Unit3
+					{
+						position[] = {10,-10,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "FP_CSL_B_ROK_Marine_LAT_F";
+					};				
+				};
+				class BROKMC_InfTeam_AA
+				{
+					faction = "FP_Faction_ROK";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					name = "Air-defense Team";
+					side = 1;
+					class Unit0
+					{
+						position[] = {0,0,0};
+						rank = "SERGEANT";
+						side = 1;
+						vehicle = "FP_CSL_B_ROK_Marine_TL_F";
+					};
+					class Unit1
+					{
+						position[] = {5,-5,0};
+						rank = "CORPORAL";
+						side = 1;
+						vehicle = "FP_CSL_B_ROK_Marine_AA_F";
+					};
+					class Unit2
+					{
+						position[] = {-5,-5,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "FP_CSL_B_ROK_Marine_AA_F";
+					};
+					class Unit3
+					{
+						position[] = {10,-10,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "FP_CSL_B_ROK_Marine_AAA_F";
+					};				
+				};
+				class BROKMC_InfTeam_AT
+				{
+					faction = "FP_Faction_ROK";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					name = "Anti-armor Team";
+					side = 1;
+					class Unit0
+					{
+						position[] = {0,0,0};
+						rank = "SERGEANT";
+						side = 1;
+						vehicle = "FP_CSL_B_ROK_Marine_TL_F";
+					};
+					class Unit1
+					{
+						position[] = {5,-5,0};
+						rank = "CORPORAL";
+						side = 1;
+						vehicle = "FP_CSL_B_ROK_Marine_AT_F";
+					};
+					class Unit2
+					{
+						position[] = {-5,-5,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "FP_CSL_B_ROK_Marine_AT_F";
+					};
+					class Unit3
+					{
+						position[] = {10,-10,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "FP_CSL_B_ROK_Marine_AAT_F";
+					};				
 				};
 			};
 			class Support
@@ -701,40 +812,40 @@ class CfgGroups
 				{
 					name = "TACOM Team";
 					side = 1;
-					icon = "\A3\ui_f\data\map\markers\nato\o_hq.paa";
+					icon = "\A3\ui_f\data\map\markers\nato\b_hq.paa";
 					faction = "FP_Faction_ROK";
 					class Unit0
 					{
 						side = 1;
-						vehicle = "FP_B_ROK_FieldOfficer_F";
+						vehicle = "FP_CSL_B_ROK_FieldOfficer_F";
 						rank = "LIEUTENANT";
 						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 1;
-						vehicle = "FP_B_ROK_Soldier_TL_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_TL_F";
 						rank = "SERGEANT";
 						position[] = {5,-5,0};
 					};
 					class Unit2
 					{
 						side = 1;
-						vehicle = "FP_B_ROK_RadioOperator_F";
+						vehicle = "FP_CSL_B_ROK_RadioOperator_F";
 						rank = "CORPORAL";
 						position[] = {-5,-5,0};
 					};
 					class Unit3
 					{
 						side = 1;
-						vehicle = "FP_B_ROK_Medic_F";
+						vehicle = "FP_CSL_B_ROK_Medic_F";
 						rank = "PRIVATE";
 						position[] = {10,-10,0};
 					};
 					class Unit4
 					{
 						side = 1;
-						vehicle = "FP_B_ROK_Soldier_UAV_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_UAV_F";
 						rank = "PRIVATE";
 						position[] = {-10,-10,0};
 					};
@@ -743,46 +854,46 @@ class CfgGroups
 				{
 					name = "TACOM Marine Team";
 					side = 1;
-					icon = "\A3\ui_f\data\map\markers\nato\o_hq.paa";
+					icon = "\A3\ui_f\data\map\markers\nato\b_hq.paa";
 					faction = "FP_Faction_ROK";
 					class Unit0
 					{
 						side = 1;
-						vehicle = "FP_B_ROK_Marine_FieldOfficer_F";
+						vehicle = "FP_CSL_B_ROK_Marine_FieldOfficer_F";
 						rank = "LIEUTENANT";
 						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 1;
-						vehicle = "FP_B_ROK_Marine_TL_F";
+						vehicle = "FP_CSL_B_ROK_Marine_TL_F";
 						rank = "SERGEANT";
 						position[] = {5,-5,0};
 					};
 					class Unit2
 					{
 						side = 1;
-						vehicle = "FP_B_ROK_Marine_RadioOperator_F";
+						vehicle = "FP_CSL_B_ROK_Marine_RadioOperator_F";
 						rank = "CORPORAL";
 						position[] = {-5,-5,0};
 					};
 					class Unit3
 					{
 						side = 1;
-						vehicle = "FP_B_ROK_Marine_Medic_F";
+						vehicle = "FP_CSL_B_ROK_Marine_Medic_F";
 						rank = "PRIVATE";
 						position[] = {10,-10,0};
 					};
 					class Unit4
 					{
 						side = 1;
-						vehicle = "FP_B_ROK_Marine_UAV_F";
+						vehicle = "FP_CSL_B_ROK_Marine_UAV_F";
 						rank = "PRIVATE";
 						position[] = {-10,-10,0};
 					};
 				};
 			};
-			class Motorized
+/*			class Motorized
 			{
 				name = "Motorized Infantry";
 				class KPA_MotInf_Reinforce_M939
@@ -796,91 +907,91 @@ class CfgGroups
 						position[] = {0,0,0};
 						rank = "SERGEANT";
 						side = 0;
-						vehicle = "FP_B_ROK_M939_Closed";
+						vehicle = "FP_CSL_B_ROK_M939_Closed";
 					};
 					class Unit1
 					{
 						position[] = {5,0,0};
 						rank = "SERGEANT";
 						side = 0;
-						vehicle = "FP_B_ROK_Soldier_SL_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_SL_F";
 					};
 					class Unit2
 					{
 						position[] = {5,-2,0};
 						rank = "PRIVATE";
 						side = 0;
-						vehicle = "FP_B_ROK_Soldier_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_F";
 					};
 					class Unit3
 					{
 						position[] = {5,-4,0};
 						rank = "CORPORAL";
 						side = 0;
-						vehicle = "FP_B_ROK_Soldier_LAT_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_LAT_F";
 					};
 					class Unit4
 					{
 						position[] = {5,-6,0};
 						rank = "PRIVATE";
 						side = 0;
-						vehicle = "FP_B_ROK_Soldier_M_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_M_F";
 					};
 					class Unit5
 					{
 						position[] = {5,-8,0};
 						rank = "SERGEANT";
 						side = 0;
-						vehicle = "FP_B_ROK_Soldier_TL_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_TL_F";
 					};
 					class Unit6
 					{
 						position[] = {5,-10,0};
 						rank = "CORPORAL";
 						side = 0;
-						vehicle = "FP_B_ROK_Soldier_AR_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_AR_F";
 					};
 					class Unit7
 					{
 						position[] = {-5,-8,0};
 						rank = "PRIVATE";
 						side = 0;
-						vehicle = "FP_B_ROK_Soldier_A_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_A_F";
 					};
 					class Unit8
 					{
 						position[] = {-5,-10,0};
 						rank = "PRIVATE";
 						side = 0;
-						vehicle = "FP_B_ROK_Medic_F";
+						vehicle = "FP_CSL_B_ROK_Medic_F";
 					};
 					class Unit9
 					{
 						position[] = {-5,0,0};
 						rank = "SERGEANT";
 						side = 0;
-						vehicle = "FP_B_ROK_Soldier_TL_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_TL_F";
 					};
 					class Unit10
 					{
 						position[] = {-5,-2,0};
 						rank = "CORPORAL";
 						side = 0;
-						vehicle = "FP_B_ROK_Soldier_AR_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_AR_F";
 					};
 					class Unit11
 					{
 						position[] = {-5,-4,0};
 						rank = "PRIVATE";
 						side = 0;
-						vehicle = "FP_B_ROK_Soldier_AT_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_AT_F";
 					};
 					class Unit12
 					{
 						position[] = {-5,-6,0};
 						rank = "PRIVATE";
 						side = 0;
-						vehicle = "FP_B_ROK_Soldier_LAT_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_LAT_F";
 					};
 				};
 				class KPA_MotInf_Reinforce_MTVR
@@ -894,94 +1005,94 @@ class CfgGroups
 						position[] = {0,0,0};
 						rank = "SERGEANT";
 						side = 0;
-						vehicle = "FP_B_ROK_MTVR_Closed";
+						vehicle = "FP_CSL_B_ROK_MTVR_Closed";
 					};
 					class Unit1
 					{
 						position[] = {5,0,0};
 						rank = "SERGEANT";
 						side = 0;
-						vehicle = "FP_B_ROK_Soldier_SL_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_SL_F";
 					};
 					class Unit2
 					{
 						position[] = {5,-2,0};
 						rank = "PRIVATE";
 						side = 0;
-						vehicle = "FP_B_ROK_Soldier_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_F";
 					};
 					class Unit3
 					{
 						position[] = {5,-4,0};
 						rank = "CORPORAL";
 						side = 0;
-						vehicle = "FP_B_ROK_Soldier_LAT_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_LAT_F";
 					};
 					class Unit4
 					{
 						position[] = {5,-6,0};
 						rank = "PRIVATE";
 						side = 0;
-						vehicle = "FP_B_ROK_Soldier_M_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_M_F";
 					};
 					class Unit5
 					{
 						position[] = {5,-8,0};
 						rank = "SERGEANT";
 						side = 0;
-						vehicle = "FP_B_ROK_Soldier_TL_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_TL_F";
 					};
 					class Unit6
 					{
 						position[] = {5,-10,0};
 						rank = "CORPORAL";
 						side = 0;
-						vehicle = "FP_B_ROK_Soldier_AR_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_AR_F";
 					};
 					class Unit7
 					{
 						position[] = {-5,-8,0};
 						rank = "PRIVATE";
 						side = 0;
-						vehicle = "FP_B_ROK_Soldier_A_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_A_F";
 					};
 					class Unit8
 					{
 						position[] = {-5,-10,0};
 						rank = "PRIVATE";
 						side = 0;
-						vehicle = "FP_B_ROK_Medic_F";
+						vehicle = "FP_CSL_B_ROK_Medic_F";
 					};
 					class Unit9
 					{
 						position[] = {-5,0,0};
 						rank = "SERGEANT";
 						side = 0;
-						vehicle = "FP_B_ROK_Soldier_TL_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_TL_F";
 					};
 					class Unit10
 					{
 						position[] = {-5,-2,0};
 						rank = "CORPORAL";
 						side = 0;
-						vehicle = "FP_B_ROK_Soldier_AR_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_AR_F";
 					};
 					class Unit11
 					{
 						position[] = {-5,-4,0};
 						rank = "PRIVATE";
 						side = 0;
-						vehicle = "FP_B_ROK_Soldier_AT_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_AT_F";
 					};
 					class Unit12
 					{
 						position[] = {-5,-6,0};
 						rank = "PRIVATE";
 						side = 0;
-						vehicle = "FP_B_ROK_Soldier_LAT_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_LAT_F";
 					};
 				};
-			};
+			};*/
 			class Mechanized
 			{
 				name = "Mechanized Infantry";
@@ -996,63 +1107,63 @@ class CfgGroups
 						position[] = {0,0,0};
 						rank = "LIEUTENANT";
 						side = 1;
-						vehicle = "FP_B_ROK_M113";
+						vehicle = "FP_CSL_B_ROK_M113";
 					};
 					class Unit1
 					{
 						position[] = {5,-5,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "FP_B_ROK_Soldier_SL_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_SL_F";
 					};
 					class Unit2
 					{
 						position[] = {-5,-5,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROK_Soldier_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_F";
 					};
 					class Unit3
 					{
 						position[] = {10,-10,0};
 						rank = "CORPORAL";
 						side = 1;
-						vehicle = "FP_B_ROK_Soldier_LAT_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_LAT_F";
 					};
 					class Unit4
 					{
 						position[] = {-10,-10,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROK_Soldier_M_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_M_F";
 					};
 					class Unit5
 					{
 						position[] = {15,-15,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "FP_B_ROK_Soldier_TL_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_TL_F";
 					};
 					class Unit6
 					{
 						position[] = {-15,-15,0};
 						rank = "CORPORAL";
 						side = 1;
-						vehicle = "FP_B_ROK_Soldier_AR_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_AR_F";
 					};
 					class Unit7
 					{
 						position[] = {20,-20,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROK_Soldier_A_F";
+						vehicle = "FP_CSL_B_ROK_Soldier_A_F";
 					};
 					class Unit8
 					{
 						position[] = {-20,-20,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROK_Medic_F";
+						vehicle = "FP_CSL_B_ROK_Medic_F";
 					};
 				};
 			};
@@ -1070,63 +1181,63 @@ class CfgGroups
 						position[] = {0,0,0};
 						rank = "LIEUTENANT";
 						side = 1;
-						vehicle = "FP_B_ROK_AAV";
+						vehicle = "FP_CSL_B_ROK_AAV";
 					};
 					class Unit1
 					{
 						position[] = {5,-5,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "FP_B_ROK_Marine_SL_F";
+						vehicle = "FP_CSL_B_ROK_Marine_SL_F";
 					};
 					class Unit2
 					{
 						position[] = {-5,-5,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROK_Marine_F";
+						vehicle = "FP_CSL_B_ROK_Marine_F";
 					};
 					class Unit3
 					{
 						position[] = {10,-10,0};
 						rank = "CORPORAL";
 						side = 1;
-						vehicle = "FP_B_ROK_Marine_LAT_F";
+						vehicle = "FP_CSL_B_ROK_Marine_LAT_F";
 					};
 					class Unit4
 					{
 						position[] = {-10,-10,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROK_Marine_M_F";
+						vehicle = "FP_CSL_B_ROK_Marine_M_F";
 					};
 					class Unit5
 					{
 						position[] = {15,-15,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "FP_B_ROK_Marine_TL_F";
+						vehicle = "FP_CSL_B_ROK_Marine_TL_F";
 					};
 					class Unit6
 					{
 						position[] = {-15,-15,0};
 						rank = "CORPORAL";
 						side = 1;
-						vehicle = "FP_B_ROK_Marine_AR_F";
+						vehicle = "FP_CSL_B_ROK_Marine_AR_F";
 					};
 					class Unit7
 					{
 						position[] = {20,-20,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROK_Marine_A_F";
+						vehicle = "FP_CSL_B_ROK_Marine_A_F";
 					};
 					class Unit8
 					{
 						position[] = {-20,-20,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_B_ROK_Marine_Medic_F";
+						vehicle = "FP_CSL_B_ROK_Marine_Medic_F";
 					};					
 				};
 			};
@@ -1201,14 +1312,24 @@ class CfgVehicles
 	class I_Heli_light_03_dynamicLoadout_F;
 	class I_Heli_light_03_unarmed_F;
 	class rhs_uh1h_hidf;
-	class FP_B_ROK_AH1F: cwr2_AH1F
+	class rhs_uh1h_hidf_gunship;
+	class rhs_uh1h_hidf_unarmed;
+	class FP_rhs_uh1h_gunship_extrapylon;
+/*	class UK3CB_B_UH1H_MED_HIDF;
+	class UK3CB_B_Bell412_Utility_HIDF;
+	class UK3CB_B_Bell412_Armed_dynamicLoadout_HIDF;
+	class UK3CB_B_Bell412_Armed_HIDF;
+	class UK3CB_B_Bell412_Mil_Medic_HIDF;
+	class UK3CB_B_Bell412_Radar_HIDF;
+	class UK3CB_B_Bell412_Armed_AT_HIDF;*/
+	class FP_CSL_B_ROK_AH1F: cwr2_AH1F
 	{
 		scope = 2;
 		scopeCurator = 2;
 		faction = "FP_Faction_ROK";
-		crew = "FP_B_ROK_Helipilot_F";	
+		crew = "FP_CSL_B_ROK_Helipilot_F";	
 	};
-	class FP_B_ROK_uh1h_F: rhs_uh1h_hidf
+	class FP_CSL_B_ROK_uh1h_F: rhs_uh1h_hidf
 	{
 		class TextureSources
 		{
@@ -1223,16 +1344,130 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		faction = "FP_Faction_ROK";
-		crew = "FP_B_ROK_Helipilot_F";
+		crew = "FP_CSL_B_ROK_Marine_Helipilot_F";
 		textureList[] =
 		{
 			"ROK_Olive", 1
 		};
-		typicalCargo[] = {"FP_B_ROK_Helicrew_F"};
+		typicalCargo[] = {"FP_CSL_B_ROK_Helicrew_F"};
 		hiddenSelections[] = {"Camo1","Camo2","Camo_mlod","decals"};
 		hiddenSelectionsTextures[] = {"rhsgref\addons\rhsgref_air\uh1h\data\uh1h_olv_co.paa","rhsgref\addons\rhsgref_air\uh1h\data\uh1h_olv_in_co.paa","rhsgref\addons\rhsgref_air\uh1h\data\mlod_us_co.paa","rhsgref\addons\rhsgref_air\uh1h\data\decals\blank_ca.paa"};			
 	};
-	class FP_B_ROK_Heli_Transport_02_F: I_Heli_Transport_02_F
+	class FP_CSL_B_ROK_uh1h_gunship_F: rhs_uh1h_hidf_gunship
+	{
+		class TextureSources
+		{
+			class ROK_Olive
+			{
+				displayName = "Olive";
+				factions[] = {"FP_Faction_ROK"};	
+				textures[] = {"rhsgref\addons\rhsgref_air\uh1h\data\uh1h_olv_co.paa","rhsgref\addons\rhsgref_air\uh1h\data\uh1h_olv_in_co.paa","rhsgref\addons\rhsgref_air\uh1h\data\mlod_us_co.paa","rhsgref\addons\rhsgref_air\uh1h\data\decals\blank_ca.paa"};
+			};
+		};
+		side = 1;
+		scope = 2;
+		scopeCurator = 2;
+		faction = "FP_Faction_ROK";
+		crew = "FP_CSL_B_ROK_Marine_Helipilot_F";
+		textureList[] =
+		{
+			"ROK_Olive", 1
+		};
+		typicalCargo[] = {"FP_CSL_B_ROK_Helicrew_F"};
+		hiddenSelections[] = {"Camo1","Camo2","Camo_mlod","decals"};
+		hiddenSelectionsTextures[] = {"rhsgref\addons\rhsgref_air\uh1h\data\uh1h_olv_co.paa","rhsgref\addons\rhsgref_air\uh1h\data\uh1h_olv_in_co.paa","rhsgref\addons\rhsgref_air\uh1h\data\mlod_us_co.paa","rhsgref\addons\rhsgref_air\uh1h\data\decals\blank_ca.paa"};			
+	};
+	class FP_CSL_B_ROK_uh1h_unarmed_F: rhs_uh1h_hidf_unarmed
+	{
+		class TextureSources
+		{
+			class ROK_Olive
+			{
+				displayName = "Olive";
+				factions[] = {"FP_Faction_ROK"};	
+				textures[] = {"rhsgref\addons\rhsgref_air\uh1h\data\uh1h_olv_co.paa","rhsgref\addons\rhsgref_air\uh1h\data\uh1h_olv_in_co.paa","rhsgref\addons\rhsgref_air\uh1h\data\mlod_us_co.paa","rhsgref\addons\rhsgref_air\uh1h\data\decals\blank_ca.paa"};
+			};
+		};
+		side = 1;
+		scope = 2;
+		scopeCurator = 2;
+		faction = "FP_Faction_ROK";
+		crew = "FP_CSL_B_ROK_Marine_Helipilot_F";
+		textureList[] =
+		{
+			"ROK_Olive", 1
+		};
+		typicalCargo[] = {"FP_CSL_B_ROK_Helicrew_F"};
+		hiddenSelections[] = {"Camo1","Camo2","Camo_mlod","decals"};
+		hiddenSelectionsTextures[] = {"rhsgref\addons\rhsgref_air\uh1h\data\uh1h_olv_co.paa","rhsgref\addons\rhsgref_air\uh1h\data\uh1h_olv_in_co.paa","rhsgref\addons\rhsgref_air\uh1h\data\mlod_us_co.paa","rhsgref\addons\rhsgref_air\uh1h\data\decals\blank_ca.paa"};			
+	};
+	class FP_CSL_B_ROK_uh1h_gunship_extrapylon_F: FP_rhs_uh1h_gunship_extrapylon
+	{
+		class TextureSources
+		{
+			class ROK_Olive
+			{
+				displayName = "Olive";
+				factions[] = {"FP_Faction_ROK"};	
+				textures[] = {"rhsgref\addons\rhsgref_air\uh1h\data\uh1h_olv_co.paa","rhsgref\addons\rhsgref_air\uh1h\data\uh1h_olv_in_co.paa","rhsgref\addons\rhsgref_air\uh1h\data\mlod_us_co.paa","rhsgref\addons\rhsgref_air\uh1h\data\decals\blank_ca.paa"};
+			};
+		};
+		side = 1;
+		scope = 2;
+		scopeCurator = 2;
+		faction = "FP_Faction_ROK";
+		crew = "FP_CSL_B_ROK_Marine_Helipilot_F";
+		textureList[] =
+		{
+			"ROK_Olive", 1
+		};
+		typicalCargo[] = {"FP_CSL_B_ROK_Helicrew_F"};
+		hiddenSelections[] = {"Camo1","Camo2","Camo_mlod","decals"};
+		hiddenSelectionsTextures[] = {"rhsgref\addons\rhsgref_air\uh1h\data\uh1h_olv_co.paa","rhsgref\addons\rhsgref_air\uh1h\data\uh1h_olv_in_co.paa","rhsgref\addons\rhsgref_air\uh1h\data\mlod_us_co.paa","rhsgref\addons\rhsgref_air\uh1h\data\decals\blank_ca.paa"};			
+	};
+/*    class FP_CSL_B_ROK_Bell412_Utility_F: UK3CB_B_Bell412_Utility_HIDF
+	{
+		scope = 2;
+		scopeCurator = 2;
+		faction = "FP_Faction_ROK";
+		crew = "FP_CSL_B_ROK_Helipilot_F";	
+	};
+    class FP_CSL_B_ROK_Bell412_Armed_dynamicLoadout_F: UK3CB_B_Bell412_Armed_dynamicLoadout_HIDF
+	{
+		scope = 2;
+		scopeCurator = 2;
+		faction = "FP_Faction_ROK";
+		crew = "FP_CSL_B_ROK_Helipilot_F";	
+	};
+    class FP_CSL_B_ROK_Bell412_Armed_F: UK3CB_B_Bell412_Armed_HIDF
+    {
+		scope = 2;
+		scopeCurator = 2;
+		faction = "FP_Faction_ROK";
+		crew = "FP_CSL_B_ROK_Helipilot_F";	
+	};
+    class FP_CSL_B_ROK_Bell412_Mil_Medic_F: UK3CB_B_Bell412_Mil_Medic_HIDF
+    {
+		scope = 2;
+		scopeCurator = 2;
+		faction = "FP_Faction_ROK";
+		crew = "FP_CSL_B_ROK_Helipilot_F";	
+	};
+    class FP_CSL_B_ROK_Bell412_Radar_F: UK3CB_B_Bell412_Radar_HIDF
+    {
+		scope = 2;
+		scopeCurator = 2;
+		faction = "FP_Faction_ROK";
+		crew = "FP_CSL_B_ROK_Helipilot_F";	
+	};
+    class FP_CSL_B_ROK_Bell412_Armed_AT_F: UK3CB_B_Bell412_Armed_AT_HIDF
+    {
+		scope = 2;
+		scopeCurator = 2;
+		faction = "FP_Faction_ROK";
+		crew = "FP_CSL_B_ROK_Helipilot_F";	
+	};*/
+	class FP_CSL_B_ROK_Heli_Transport_02_F: I_Heli_Transport_02_F
 	{
 		class TextureSources
 		{
@@ -1248,93 +1483,102 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayname = "KUH-1 Surion";
 		faction = "FP_Faction_ROK";
-		crew = "FP_B_ROK_Helipilot_F";
+		crew = "FP_CSL_B_ROK_Helipilot_F";
 		hiddenSelections[] = {"camo1","camo2","camo3","camo4"};
 		hiddenSelectionsTextures[] = {"\FP_Factions\ROK\Data\mohawk\CH49_ROK_01_co.paa","\FP_Factions\ROK\Data\mohawk\CH49_ROK_02_co.paa","\FP_Factions\ROK\Data\mohawk\CH49_ROK_03_co.paa","A3\Air_F_Beta\Heli_Transport_02\Data\Heli_Transport_02_int_02_CO.paa"};
 	};
-	class FP_B_ROK_Heli_light_03_dynamicLoadout_F: I_Heli_light_03_dynamicLoadout_F
+	class FP_CSL_B_ROK_Heli_light_03_dynamicLoadout_F: I_Heli_light_03_dynamicLoadout_F
 	{
 		side = 1;
 		scope = 2;
 		scopeCurator = 2;
 		faction = "FP_Faction_ROK";
-		crew = "FP_B_ROK_Helipilot_F";	
+		crew = "FP_CSL_B_ROK_Marine_Helipilot_F";
+		hiddenSelectionsTextures[] = {"\FP_Factions\ROK\Data\wildcat\Heli_Light_03_base_ROK_CO.paa"};	
 	};
-	class FP_B_ROK_Heli_light_03_unarmed_F: I_Heli_light_03_unarmed_F
+	class FP_CSL_B_ROK_Heli_light_03_unarmed_F: I_Heli_light_03_unarmed_F
 	{
 		side = 1;
 		scope = 2;
 		scopeCurator = 2;
 		faction = "FP_Faction_ROK";
-		crew = "FP_B_ROK_Helipilot_F";	
+		crew = "FP_CSL_B_ROK_Marine_Helipilot_F";
+		hiddenSelectionsTextures[] = {"\FP_Factions\ROK\Data\wildcat\Heli_Light_03_base_ROK_CO.paa"};		
 	};
 	class B_Mortar_01_F;
-	class FP_B_ROK_Mortar_01_F: B_Mortar_01_F
+	class FP_CSL_B_ROK_Mortar_01_F: B_Mortar_01_F
 	{
 		scope = 2;
 		scopeCurator = 2;
-		crew = "FP_B_ROK_Soldier_F";
+		crew = "FP_CSL_B_ROK_Soldier_F";
 		faction = "FP_Faction_ROK";		
 	};
 	class I_E_HMG_02_F;
 	class I_E_HMG_02_high_F;
-	class FP_B_ROK_HMG_02_high_F: I_E_HMG_02_high_F
+	class FP_CSL_B_ROK_HMG_02_high_F: I_E_HMG_02_high_F
 	{
 		scope = 2;
 		scopeCurator = 2;
 		side = 1;
-		crew = "FP_B_ROK_Soldier_F";
+		crew = "FP_CSL_B_ROK_Soldier_F";
 		faction = "FP_Faction_ROK";
 	};
-	class FP_B_ROK_HMG_02_F: I_E_HMG_02_F
+	class FP_CSL_B_ROK_HMG_02_F: I_E_HMG_02_F
 	{
 		scope = 2;
 		scopeCurator = 2;
 		side = 1;
-		crew = "FP_B_ROK_Soldier_F";
+		crew = "FP_CSL_B_ROK_Soldier_F";
 		faction = "FP_Faction_ROK";
 	};
-	class UK3CB_B_AAV_US_WDL;
-	class FP_B_ROK_AAV: UK3CB_B_AAV_US_WDL
+	class FP_B_AAV_USMC;
+	class FP_B_AAV_Unarmed_USMC;
+	class FP_CSL_B_ROK_AAV: FP_B_AAV_USMC
 	{
 		scope = 2;
 		scopeCurator = 2;
-		crew = "FP_B_ROK_Marine_Crewman_F";
+		crew = "FP_CSL_B_ROK_Marine_Crewman_F";
 		editorSubcategory = "EdSubcat_APCs";
 		faction = "FP_Faction_ROK";
-		hiddenSelections[] = {"camo1","camo2","camo3"};
-		hiddenSelectionsTextures[] = {"\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\apc\UK3CB_Factions_Vehicles_AAV\data\aav_ext_merdc_winv_co.paa","\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\apc\UK3CB_Factions_Vehicles_AAV\data\aav_ext2_merdc_winv_co.paa","\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\UK3CB_Factions_Vehicles_Common\equipment\us_cw_backpacks_co.paa"};		textureList[] = {"MDC_VW",1,"OLI",0,"WDL",0};
 	};
-	class UK3CB_B_MaxxPro_M2_US_W;
+	class FP_CSL_B_ROK_AAV_Unarmed: FP_B_AAV_Unarmed_USMC
+	{
+		scope = 2;
+		scopeCurator = 2;
+		crew = "FP_CSL_B_ROK_Marine_Crewman_F";
+		editorSubcategory = "EdSubcat_APCs";
+		faction = "FP_Faction_ROK";
+	};
+/*	class UK3CB_B_MaxxPro_M2_US_W;
 	class UK3CB_B_MaxxPro_MK19_US_W;
-	class FP_B_ROK_MaxxPro_M2: UK3CB_B_MaxxPro_M2_US_W
+	class FP_CSL_B_ROK_MaxxPro_M2: UK3CB_B_MaxxPro_M2_US_W
 	{
 		scope = 2;
 		scopeCurator = 2;
-		crew = "FP_B_ROK_Soldier_F";
+		crew = "FP_CSL_B_ROK_Soldier_F";
 		editorSubcategory = "EdSubcat_Cars";
 		faction = "FP_Faction_ROK";
 		textureList[] = {"US_G",1,"US_W",0,"US",0};
 	};
-	class FP_B_ROK_MaxxPro_MK19: UK3CB_B_MaxxPro_MK19_US_W
+	class FP_CSL_B_ROK_MaxxPro_MK19: UK3CB_B_MaxxPro_MK19_US_W
 	{
 		scope = 2;
 		scopeCurator = 2;
-		crew = "FP_B_ROK_Soldier_F";
+		crew = "FP_CSL_B_ROK_Soldier_F";
 		editorSubcategory = "EdSubcat_Cars";
 		faction = "FP_Faction_ROK";
 		textureList[] = {"US_G",1,"US_W",0,"US",0};
-	};
+	};*/
 	class Unimog_B_verde;
-	class FP_B_ROK_Unimog: Unimog_B_verde
+	class FP_CSL_B_ROK_Unimog: Unimog_B_verde
 	{
 		scope = 2;
 		scopeCurator = 2;
-		crew = "FP_B_ROK_Soldier_F";
+		crew = "FP_CSL_B_ROK_Soldier_F";
 		editorSubcategory = "EdSubcat_Cars";
 		faction = "FP_Faction_ROK";
 	};
-	class UK3CB_B_M939_Closed_WDL;
+/*	class UK3CB_B_M939_Closed_WDL;
 	class UK3CB_B_M939_Guntruck_WDL;
 	class UK3CB_B_M939_Open_WDL;
 	class UK3CB_B_M939_Reammo_WDL;
@@ -1342,43 +1586,43 @@ class CfgVehicles
 	class UK3CB_B_M939_Refuel_WDL;
 	class UK3CB_B_M939_Repair_WDL;
 	class UK3CB_AAF_B_M939_MLRS;
-	class FP_B_ROK_M939_Closed: UK3CB_B_M939_Closed_WDL
+	class FP_CSL_B_ROK_M939_Closed: UK3CB_B_M939_Closed_WDL
 	{
 		scope = 2;
 		scopeCurator = 2;
-		crew = "FP_B_ROK_Soldier_F";
+		crew = "FP_CSL_B_ROK_Soldier_F";
 		editorSubcategory = "EdSubcat_Cars";
 		faction = "FP_Faction_ROK";
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
 		hiddenSelectionsTextures[] = {"\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\wheeled\UK3CB_Factions_Vehicles_m939\data\truck5t_merdc_w_01_co.paa","\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\wheeled\UK3CB_Factions_Vehicles_m939\data\truck5t_merdc_w_02_co.paa","\uk3cb_factions\addons\uk3cb_factions_vehicles\wheeled\uk3cb_factions_vehicles_m939\data\truck5t_dash_green_co.paa"};
 	};
-	class FP_B_ROK_M939_Guntruck: UK3CB_B_M939_Guntruck_WDL
+	class FP_CSL_B_ROK_M939_Guntruck: UK3CB_B_M939_Guntruck_WDL
 	{
 		scope = 2;
 		scopeCurator = 2;
-		crew = "FP_B_ROK_Soldier_F";
-		editorSubcategory = "EdSubcat_Cars";
-		faction = "FP_Faction_ROK";
-		hiddenSelections[] = {"Camo","Camo1","Camo2"};
-		hiddenSelectionsTextures[] = {"\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\wheeled\UK3CB_Factions_Vehicles_m939\data\truck5t_merdc_w_01_co.paa","\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\wheeled\UK3CB_Factions_Vehicles_m939\data\truck5t_merdc_w_02_co.paa","\uk3cb_factions\addons\uk3cb_factions_vehicles\wheeled\uk3cb_factions_vehicles_m939\data\truck5t_dash_green_co.paa"};
-		textureList[] = {"CW_US_MDC_W",1};
-	};
-	class FP_B_ROK_M939_Open: UK3CB_B_M939_Open_WDL
-	{
-		scope = 2;
-		scopeCurator = 2;
-		crew = "FP_B_ROK_Soldier_F";
+		crew = "FP_CSL_B_ROK_Soldier_F";
 		editorSubcategory = "EdSubcat_Cars";
 		faction = "FP_Faction_ROK";
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
 		hiddenSelectionsTextures[] = {"\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\wheeled\UK3CB_Factions_Vehicles_m939\data\truck5t_merdc_w_01_co.paa","\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\wheeled\UK3CB_Factions_Vehicles_m939\data\truck5t_merdc_w_02_co.paa","\uk3cb_factions\addons\uk3cb_factions_vehicles\wheeled\uk3cb_factions_vehicles_m939\data\truck5t_dash_green_co.paa"};
 		textureList[] = {"CW_US_MDC_W",1};
 	};
-	class FP_B_ROK_M939_Reammo: UK3CB_B_M939_Reammo_WDL
+	class FP_CSL_B_ROK_M939_Open: UK3CB_B_M939_Open_WDL
 	{
 		scope = 2;
 		scopeCurator = 2;
-		crew = "FP_B_ROK_Soldier_F";
+		crew = "FP_CSL_B_ROK_Soldier_F";
+		editorSubcategory = "EdSubcat_Cars";
+		faction = "FP_Faction_ROK";
+		hiddenSelections[] = {"Camo","Camo1","Camo2"};
+		hiddenSelectionsTextures[] = {"\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\wheeled\UK3CB_Factions_Vehicles_m939\data\truck5t_merdc_w_01_co.paa","\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\wheeled\UK3CB_Factions_Vehicles_m939\data\truck5t_merdc_w_02_co.paa","\uk3cb_factions\addons\uk3cb_factions_vehicles\wheeled\uk3cb_factions_vehicles_m939\data\truck5t_dash_green_co.paa"};
+		textureList[] = {"CW_US_MDC_W",1};
+	};
+	class FP_CSL_B_ROK_M939_Reammo: UK3CB_B_M939_Reammo_WDL
+	{
+		scope = 2;
+		scopeCurator = 2;
+		crew = "FP_CSL_B_ROK_Soldier_F";
 		editorSubcategory = "EdSubcat_Cars";
 		faction = "FP_Faction_ROK";
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
@@ -1389,40 +1633,40 @@ class CfgVehicles
 	{
 		scope = 2;
 		scopeCurator = 2;
-		crew = "FP_B_ROK_Soldier_F";
+		crew = "FP_CSL_B_ROK_Soldier_F";
 		editorSubcategory = "EdSubcat_Cars";
 		faction = "FP_Faction_ROK";
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
 		hiddenSelectionsTextures[] = {"\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\wheeled\UK3CB_Factions_Vehicles_m939\data\truck5t_merdc_w_01_co.paa","\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\wheeled\UK3CB_Factions_Vehicles_m939\data\truck5t_merdc_w_02_co.paa","\uk3cb_factions\addons\uk3cb_factions_vehicles\wheeled\uk3cb_factions_vehicles_m939\data\truck5t_dash_green_co.paa"};
 		textureList[] = {"CW_US_MDC_W",1};
 	};
-	class FP_B_ROK_M939_Refuel: UK3CB_B_M939_Refuel_WDL
+	class FP_CSL_B_ROK_M939_Refuel: UK3CB_B_M939_Refuel_WDL
 	{
 		scope = 2;
 		scopeCurator = 2;
-		crew = "FP_B_ROK_Soldier_F";
+		crew = "FP_CSL_B_ROK_Soldier_F";
 		editorSubcategory = "EdSubcat_Cars";
 		faction = "FP_Faction_ROK";
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
 		hiddenSelectionsTextures[] = {"\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\wheeled\UK3CB_Factions_Vehicles_m939\data\truck5t_merdc_w_01_co.paa","\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\wheeled\UK3CB_Factions_Vehicles_m939\data\truck5t_merdc_w_02_co.paa","\uk3cb_factions\addons\uk3cb_factions_vehicles\wheeled\uk3cb_factions_vehicles_m939\data\truck5t_dash_green_co.paa"};
 		textureList[] = {"CW_US_MDC_W",1};
 	};
-	class FP_B_ROK_M939_Repair: UK3CB_B_M939_Repair_WDL
+	class FP_CSL_B_ROK_M939_Repair: UK3CB_B_M939_Repair_WDL
 	{
 		scope = 2;
 		scopeCurator = 2;
-		crew = "FP_B_ROK_Soldier_F";
+		crew = "FP_CSL_B_ROK_Soldier_F";
 		editorSubcategory = "EdSubcat_Cars";
 		faction = "FP_Faction_ROK";
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
 		hiddenSelectionsTextures[] = {"\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\wheeled\UK3CB_Factions_Vehicles_m939\data\truck5t_merdc_w_01_co.paa","\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\wheeled\UK3CB_Factions_Vehicles_m939\data\truck5t_merdc_w_02_co.paa","\uk3cb_factions\addons\uk3cb_factions_vehicles\wheeled\uk3cb_factions_vehicles_m939\data\truck5t_dash_green_co.paa"};
 		textureList[] = {"CW_US_MDC_W",1};
 	};
-	class FP_B_ROK_M939_MLRS: UK3CB_AAF_B_M939_MLRS
+	class FP_CSL_B_ROK_M939_MLRS: UK3CB_AAF_B_M939_MLRS
 	{
 		scope = 2;
 		scopeCurator = 2;
-		crew = "FP_B_ROK_Soldier_F";
+		crew = "FP_CSL_B_ROK_Soldier_F";
 		faction = "FP_Faction_ROK";
 		hiddenSelections[] = {"Camo","Camo1","Camo2","Camo3"};
 		hiddenSelectionsTextures[] = {"\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\wheeled\UK3CB_Factions_Vehicles_m939\data\truck5t_merdc_w_01_co.paa","\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\wheeled\UK3CB_Factions_Vehicles_m939\data\truck5t_merdc_w_02_co.paa","\uk3cb_factions\addons\uk3cb_factions_vehicles\wheeled\uk3cb_factions_vehicles_m939\data\truck5t_dash_green_co.paa","\rhsafrf\addons\rhs_a2port_car\ural\data\ural_bm21_co.paa"};
@@ -1435,69 +1679,69 @@ class CfgVehicles
 	class UK3CB_B_MTVR_Recovery_WDL;
 	class UK3CB_B_MTVR_Repair_WDL;
 	class UK3CB_AAF_B_MTVR_MLRS;
-	class FP_B_ROK_MTVR_Reammo: UK3CB_B_MTVR_Reammo_WDL
+	class FP_CSL_B_ROK_MTVR_Reammo: UK3CB_B_MTVR_Reammo_WDL
 	{
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "MTVR Ammo";
-		crew = "FP_B_ROK_Soldier_F";
+		crew = "FP_CSL_B_ROK_Soldier_F";
 		editorSubcategory = "EdSubcat_Cars";
 		faction = "FP_Faction_ROK";
 	};
-	class FP_B_ROK_MTVR_Closed: UK3CB_B_MTVR_Closed_WDL
+	class FP_CSL_B_ROK_MTVR_Closed: UK3CB_B_MTVR_Closed_WDL
 	{
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "MTVR Closed";
-		crew = "FP_B_ROK_Soldier_F";
+		crew = "FP_CSL_B_ROK_Soldier_F";
 		editorSubcategory = "EdSubcat_Cars";
 		faction = "FP_Faction_ROK";
 	};
-	class FP_B_ROK_MTVR_Refuel: UK3CB_B_MTVR_Refuel_WDL
+	class FP_CSL_B_ROK_MTVR_Refuel: UK3CB_B_MTVR_Refuel_WDL
 	{
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "MTVR Refuel";
-		crew = "FP_B_ROK_Soldier_F";
+		crew = "FP_CSL_B_ROK_Soldier_F";
 		editorSubcategory = "EdSubcat_Cars";
 		faction = "FP_Faction_ROK";
 	};
-	class FP_B_ROK_MTVR_Open: UK3CB_B_MTVR_Open_WDL
+	class FP_CSL_B_ROK_MTVR_Open: UK3CB_B_MTVR_Open_WDL
 	{
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "MTVR Open";
-		crew = "FP_B_ROK_Soldier_F";
+		crew = "FP_CSL_B_ROK_Soldier_F";
 		editorSubcategory = "EdSubcat_Cars";
 		faction = "FP_Faction_ROK";
 	};
-	class FP_B_ROK_MTVR_Recovery:  UK3CB_B_MTVR_Recovery_WDL
+	class FP_CSL_B_ROK_MTVR_Recovery:  UK3CB_B_MTVR_Recovery_WDL
 	{
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "MTVR Recovery";
-		crew = "FP_B_ROK_Soldier_F";
+		crew = "FP_CSL_B_ROK_Soldier_F";
 		editorSubcategory = "EdSubcat_Cars";
 		faction = "FP_Faction_ROK";
 	};
-	class FP_B_ROK_MTVR_Repair: UK3CB_B_MTVR_Repair_WDL
+	class FP_CSL_B_ROK_MTVR_Repair: UK3CB_B_MTVR_Repair_WDL
 	{
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "MTVR Repair";
-		crew = "FP_B_ROK_Soldier_F";
+		crew = "FP_CSL_B_ROK_Soldier_F";
 		editorSubcategory = "EdSubcat_Cars";
 		faction = "FP_Faction_ROK";
 	};
-	class FP_B_ROK_MTVR_MLRS: UK3CB_AAF_B_MTVR_MLRS
+	class FP_CSL_B_ROK_MTVR_MLRS: UK3CB_AAF_B_MTVR_MLRS
 	{
 		scope = 2;
 		scopeCurator = 2;
-		crew = "FP_B_ROK_Soldier_F";
+		crew = "FP_CSL_B_ROK_Soldier_F";
 		faction = "FP_Faction_ROK";
 		hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo5","Camo6"};
 		hiddenSelectionsTextures[] = {"\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\wheeled\UK3CB_Factions_Vehicles_mtvr\data\mtvr_body_wdl_co.paa","\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\wheeled\UK3CB_Factions_Vehicles_mtvr\data\mtvr_body2_wdl_co.paa","\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\wheeled\UK3CB_Factions_Vehicles_mtvr\data\mtvr_interier_co.paa","\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\wheeled\UK3CB_Factions_Vehicles_mtvr\data\mtvr_tarp_oli_co.paa","\rhsafrf\addons\rhs_a2port_car\ural\data\ural_bm21_co.paa"};
-	};
+	};*/
 	class rhsusf_m1151_usarmy_wd;
 	class rhsusf_m1151_m2crows_usarmy_wd;
 	class rhsusf_m1151_mk19crows_usarmy_wd;
@@ -1514,94 +1758,94 @@ class CfgVehicles
 	{
 		scope = 2;
 		scopeCurator = 2;
-		crew = "FP_B_ROK_Soldier_F";
+		crew = "FP_CSL_B_ROK_Soldier_F";
 		faction = "FP_Faction_ROK";
 	};
 	class FP_ROK_M1151_M2CROWS: rhsusf_m1151_m2crows_usarmy_wd
 	{
 		scope = 2;
 		scopeCurator = 2;
-		crew = "FP_B_ROK_Soldier_F";
+		crew = "FP_CSL_B_ROK_Soldier_F";
 		faction = "FP_Faction_ROK";
 	};
 	class FP_ROK_M1151_Mk19CROWS: rhsusf_m1151_mk19crows_usarmy_wd
 	{
 		scope = 2;
 		scopeCurator = 2;
-		crew = "FP_B_ROK_Soldier_F";
+		crew = "FP_CSL_B_ROK_Soldier_F";
 		faction = "FP_Faction_ROK";
 	};
 	class FP_ROK_M1151_M2_v1: rhsusf_m1151_m2_v1_usarmy_wd
 	{
 		scope = 2;
 		scopeCurator = 2;
-		crew = "FP_B_ROK_Soldier_F";
+		crew = "FP_CSL_B_ROK_Soldier_F";
 		faction = "FP_Faction_ROK";
 	};
 	class FP_ROK_M1151_M240_v1: rhsusf_m1151_m240_v1_usarmy_wd
 	{
 		scope = 2;
 		scopeCurator = 2;
-		crew = "FP_B_ROK_Soldier_F";
+		crew = "FP_CSL_B_ROK_Soldier_F";
 		faction = "FP_Faction_ROK";
 	};
 	class FP_ROK_M1151_Mk19_v1: rhsusf_m1151_mk19_v1_usarmy_wd
 	{
 		scope = 2;
 		scopeCurator = 2;
-		crew = "FP_B_ROK_Soldier_F";
+		crew = "FP_CSL_B_ROK_Soldier_F";
 		faction = "FP_Faction_ROK";
 	};
 	class FP_ROK_M1151_M2_v2: rhsusf_m1151_m2_v2_usarmy_wd
 	{
 		scope = 2;
 		scopeCurator = 2;
-		crew = "FP_B_ROK_Soldier_F";
+		crew = "FP_CSL_B_ROK_Soldier_F";
 		faction = "FP_Faction_ROK";
 	};
 	class FP_ROK_M1151_M240_v2: rhsusf_m1151_m240_v2_usarmy_wd
 	{
 		scope = 2;
 		scopeCurator = 2;
-		crew = "FP_B_ROK_Soldier_F";
+		crew = "FP_CSL_B_ROK_Soldier_F";
 		faction = "FP_Faction_ROK";
 	};
 	class FP_ROK_M1151_Mk19_v2: rhsusf_m1151_mk19_v2_usarmy_wd
 	{
 		scope = 2;
 		scopeCurator = 2;
-		crew = "FP_B_ROK_Soldier_F";
+		crew = "FP_CSL_B_ROK_Soldier_F";
 		faction = "FP_Faction_ROK";
 	};
 	class FP_ROK_M1152: rhsusf_m1152_usarmy_wd
 	{
 		scope = 2;
 		scopeCurator = 2;
-		crew = "FP_B_ROK_Soldier_F";
+		crew = "FP_CSL_B_ROK_Soldier_F";
 		faction = "FP_Faction_ROK";
 	};
 	class rhsusf_m113_usarmy;
 	class rhsusf_m113_usarmy_MK19_90;
 	class rhsusf_m113_usarmy_M2_90;
-	class FP_B_ROK_M113: rhsusf_m113_usarmy
+	class FP_CSL_B_ROK_M113: rhsusf_m113_usarmy
 	{
 		scope = 2;
 		scopeCurator = 2;
-		crew = "FP_B_ROK_Crewman_F";
+		crew = "FP_CSL_B_ROK_Crewman_F";
 		faction = "FP_Faction_ROK";
 	};
-	class FP_B_ROK_M113_Mk19: rhsusf_m113_usarmy_MK19_90
+	class FP_CSL_B_ROK_M113_Mk19: rhsusf_m113_usarmy_MK19_90
 	{
 		scope = 2;
 		scopeCurator = 2;
-		crew = "FP_B_ROK_Crewman_F";
+		crew = "FP_CSL_B_ROK_Crewman_F";
 		faction = "FP_Faction_ROK";
 	};
-	class FP_B_ROK_M113_M2: rhsusf_m113_usarmy_M2_90
+	class FP_CSL_B_ROK_M113_M2: rhsusf_m113_usarmy_M2_90
 	{
 		scope = 2;
 		scopeCurator = 2;
-		crew = "FP_B_ROK_Crewman_F";
+		crew = "FP_CSL_B_ROK_Crewman_F";
 		faction = "FP_Faction_ROK";
 	};
 	class B_Soldier_F;
@@ -1651,7 +1895,7 @@ class CfgVehicles
 		linkedItems[] = {"V_CarrierRigKBT_01_light_Olive_F","FP_H_HelmetIA_ROKMC","NVGoggles_OPFOR","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_CarrierRigKBT_01_light_Olive_F","FP_H_HelmetIA_ROKMC","NVGoggles_OPFOR","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class FP_B_ROK_Soldier_A_F: FP_ROK_Soldier_BASE_F
+	class FP_CSL_B_ROK_Soldier_A_F: FP_ROK_Soldier_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -1659,7 +1903,7 @@ class CfgVehicles
 		backpack = "FP_ROK_Carryall_woodland_Ammo";
 		cost = 100000;
 	};
-	class FP_B_ROK_soldier_AAA_F: FP_ROK_Soldier_BASE_F
+	class FP_CSL_B_ROK_soldier_AAA_F: FP_ROK_Soldier_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -1668,7 +1912,7 @@ class CfgVehicles
 		cost = 65000;
 		threat[] = {1,0.1,0.3};
 	};
-	class FP_B_ROK_Soldier_AAR_F: FP_ROK_Soldier_BASE_F
+	class FP_CSL_B_ROK_Soldier_AAR_F: FP_ROK_Soldier_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -1677,7 +1921,7 @@ class CfgVehicles
 		cost = 65000;
 		threat[] = {1,0.1,0.3};
 	};
-		class FP_B_ROK_Soldier_AAT_F: FP_ROK_Soldier_BASE_F
+		class FP_CSL_B_ROK_Soldier_AAT_F: FP_ROK_Soldier_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -1685,7 +1929,7 @@ class CfgVehicles
 		backpack = "FP_ROK_Carryall_woodland_AT";
 		cost = 100000;
 	};
-	class FP_B_ROK_Soldier_AR_F: FP_ROK_Soldier_BASE_F
+	class FP_CSL_B_ROK_Soldier_AR_F: FP_ROK_Soldier_BASE_F
 	{
 		class SpeechVariants
 		{
@@ -1709,7 +1953,7 @@ class CfgVehicles
 		threat[] = {1,0.1,0.3};
 		icon = "iconManMG";	
 	};
-	class FP_B_ROK_Medic_F: FP_ROK_Soldier_BASE_F
+	class FP_CSL_B_ROK_Medic_F: FP_ROK_Soldier_BASE_F
 	{
 		class SpeechVariants
 		{
@@ -1733,7 +1977,7 @@ class CfgVehicles
 		icon = "iconManMedic";
 		picture = "pictureHeal";
 	};
-	class FP_B_ROK_Crewman_F: FP_ROK_Soldier_BASE_F
+	class FP_CSL_B_ROK_Crewman_F: FP_ROK_Soldier_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -1743,7 +1987,7 @@ class CfgVehicles
 		linkedItems[] = {"V_TacChestrig_grn_F","rhsusf_cvc_green_ess","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_TacChestrig_grn_F","rhsusf_cvc_green_ess","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
 	};
-	class FP_B_ROK_engineer_F: FP_ROK_Soldier_BASE_F
+	class FP_CSL_B_ROK_engineer_F: FP_ROK_Soldier_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -1759,7 +2003,7 @@ class CfgVehicles
 		icon = "iconManEngineer";
 		picture = "pictureRepair";		
 	};
-	class FP_B_ROK_soldier_exp_F: FP_ROK_Soldier_BASE_F
+	class FP_CSL_B_ROK_soldier_exp_F: FP_ROK_Soldier_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -1771,7 +2015,7 @@ class CfgVehicles
 		icon = "iconManExplosive";
 		picture = "pictureExplosive";		
 	};
-	class FP_B_ROK_Soldier_GL_F: FP_ROK_Soldier_BASE_F
+	class FP_CSL_B_ROK_Soldier_GL_F: FP_ROK_Soldier_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -1787,7 +2031,7 @@ class CfgVehicles
 		linkedItems[] = {"FP_CSL_V_CarrierRigKBT_heavy_GraniteB_F","FP_H_HelmetIA_ROK","NVGoggles_OPFOR","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"FP_CSL_V_CarrierRigKBT_heavy_GraniteB_F","FP_H_HelmetIA_ROK","NVGoggles_OPFOR","ItemMap","ItemCompass","ItemWatch","ItemRadio"};			
 	};
-	class FP_B_ROK_MMG_F: FP_ROK_Soldier_BASE_F
+	class FP_CSL_B_ROK_MMG_F: FP_ROK_Soldier_BASE_F
 	{
 		class SpeechVariants
 		{
@@ -1811,7 +2055,7 @@ class CfgVehicles
 		threat[] = {1,0.1,0.3};
 		icon = "iconManMG";	
 	};
-	class FP_B_ROK_Helipilot_F: FP_ROK_Soldier_BASE_F
+	class FP_CSL_B_ROK_Helipilot_F: FP_ROK_Soldier_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -1821,7 +2065,7 @@ class CfgVehicles
 		weapons[] = {"hlc_rifle_SG553SB_RIS","RH_p226","Throw","Put"};
 		respawnWeapons[] = {"hlc_rifle_SG553SB_RIS","RH_p226","Throw","Put"};		
 	};
-	class FP_B_ROK_Helicrew_F: FP_B_ROK_Helipilot_F
+	class FP_CSL_B_ROK_Helicrew_F: FP_CSL_B_ROK_Helipilot_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -1829,7 +2073,7 @@ class CfgVehicles
 		linkedItems[] = {"V_TacVest_blk","H_CrewHelmetHeli_B","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
 		respawnLinkedItems[] = {"V_TacVest_blk","H_CrewHelmetHeli_B","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};		
 	};	
-	class FP_B_ROK_soldier_M_F: FP_ROK_Soldier_BASE_F
+	class FP_CSL_B_ROK_soldier_M_F: FP_ROK_Soldier_BASE_F
 	{
 		class SpeechVariants
 		{
@@ -1851,7 +2095,7 @@ class CfgVehicles
 		respawnMagazines[] = {"hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		
 	};
-	class FP_B_ROK_soldier_mine_F: FP_ROK_Soldier_BASE_F
+	class FP_CSL_B_ROK_soldier_mine_F: FP_ROK_Soldier_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -1861,7 +2105,7 @@ class CfgVehicles
 		icon = "iconManExplosive";
 		picture = "pictureExplosive";		
 	};
-	class FP_B_ROK_Soldier_AA_F: FP_ROK_Soldier_BASE_F
+	class FP_CSL_B_ROK_Soldier_AA_F: FP_ROK_Soldier_BASE_F
 	{
 		class SpeechVariants
 		{
@@ -1885,7 +2129,7 @@ class CfgVehicles
 		respawnMagazines[] = {"hlc_30Rnd_556x45_EPR_sg550","hlc_30Rnd_556x45_EPR_sg550","hlc_30Rnd_556x45_EPR_sg550","hlc_30Rnd_556x45_EPR_sg550","hlc_30Rnd_556x45_EPR_sg550","hlc_30Rnd_556x45_EPR_sg550","hlc_30Rnd_556x45_EPR_sg550","hlc_30Rnd_556x45_EPR_sg550","hlc_30Rnd_556x45_EPR_sg550","hlc_30Rnd_556x45_EPR_sg550","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","HandGrenade","HandGrenade","SmokeShell","SmokeShell","rhs_fim92_mag"};
 		icon = "iconManAT";
 	};
-	class FP_B_ROK_Soldier_AT_F: FP_ROK_Soldier_BASE_F
+	class FP_CSL_B_ROK_Soldier_AT_F: FP_ROK_Soldier_BASE_F
 	{
 		class SpeechVariants
 		{
@@ -1909,7 +2153,7 @@ class CfgVehicles
 		cost = 100000;
 		icon = "iconManAT";	
 	};
-	class FP_B_ROK_Officer_F: FP_ROK_Soldier_BASE_F
+	class FP_CSL_B_ROK_Officer_F: FP_ROK_Soldier_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -1923,20 +2167,20 @@ class CfgVehicles
 		respawnLinkedItems[] = {"FP_CSL_V_CarrierRigKBT_GraniteB_F","H_Beret_blk","NVGoggles_OPFOR","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
 		icon = "iconManOfficer";	
 	};
-	class FP_B_ROK_FieldOfficer_F: FP_B_ROK_Officer_F
+	class FP_CSL_B_ROK_FieldOfficer_F: FP_CSL_B_ROK_Officer_F
 	{
 		displayName = "Field Officer";
 		linkedItems[] = {"FP_CSL_V_CarrierRigKBT_light_GraniteB_F","FP_H_HelmetIA_ROK","NVGoggles_OPFOR","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"FP_CSL_V_CarrierRigKBT_light_GraniteB_F","FP_H_HelmetIA_ROK","NVGoggles_OPFOR","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
 	};	
-	class FP_B_ROK_Soldier_F: FP_ROK_Soldier_BASE_F
+	class FP_CSL_B_ROK_Soldier_F: FP_ROK_Soldier_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Rifleman";
 		cost = 100000;
 	};
-	class FP_B_ROK_Soldier_LAT_F: FP_ROK_Soldier_BASE_F
+	class FP_CSL_B_ROK_Soldier_LAT_F: FP_ROK_Soldier_BASE_F
 	{
 		class SpeechVariants
 		{
@@ -1957,7 +2201,7 @@ class CfgVehicles
 		cost = 100000;
 		icon = "iconManAT";
 	};
-	class FP_B_ROK_Soldier_lite_F: FP_ROK_Soldier_BASE_F
+	class FP_CSL_B_ROK_Soldier_lite_F: FP_ROK_Soldier_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -1966,7 +2210,7 @@ class CfgVehicles
 		linkedItems[] = {"V_TacVest_oli","FP_H_MilCap_blk","NVGoggles_OPFOR","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_TacVest_oli","FP_H_MilCap_blk","NVGoggles_OPFOR","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
 	};
-	class FP_B_ROK_Soldier_unarmed_F: FP_ROK_Soldier_BASE_F
+	class FP_CSL_B_ROK_Soldier_unarmed_F: FP_ROK_Soldier_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -1976,7 +2220,7 @@ class CfgVehicles
 		magazines[] = {};
 		respawnMagazines[] = {};
 	};
-	class FP_B_ROK_RadioOperator_F: FP_ROK_Soldier_BASE_F
+	class FP_CSL_B_ROK_RadioOperator_F: FP_ROK_Soldier_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -1984,7 +2228,7 @@ class CfgVehicles
 		backpack = "FP_B_RadioBag_117_Black";
 		cost = 100000;		
 	};
-	class FP_B_ROK_soldier_repair_F: FP_ROK_Soldier_BASE_F
+	class FP_CSL_B_ROK_soldier_repair_F: FP_ROK_Soldier_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -1998,7 +2242,7 @@ class CfgVehicles
 		displayName = "Repair Specialist";
 		icon = "iconManEngineer";
 	};
-	class FP_B_ROK_Soldier_SL_F: FP_ROK_Soldier_BASE_F
+	class FP_CSL_B_ROK_Soldier_SL_F: FP_ROK_Soldier_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -2014,7 +2258,7 @@ class CfgVehicles
 		linkedItems[] = {"FP_CSL_V_CarrierRigKBT_heavy_GraniteB_F","FP_H_HelmetIA_ROK","NVGoggles_OPFOR","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"FP_CSL_V_CarrierRigKBT_heavy_GraniteB_F","FP_H_HelmetIA_ROK","NVGoggles_OPFOR","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class FP_B_ROK_Survivor_F: FP_ROK_Soldier_BASE_F
+	class FP_CSL_B_ROK_Survivor_F: FP_ROK_Soldier_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -2025,7 +2269,7 @@ class CfgVehicles
 		weapons[] = {"Throw","Put"};
 		respawnWeapons[] = {"Throw","Put"};
 	};
-	class FP_B_ROK_Soldier_TL_F: FP_ROK_Soldier_BASE_F
+	class FP_CSL_B_ROK_Soldier_TL_F: FP_ROK_Soldier_BASE_F
 	{
 
 		scope = 2;
@@ -2042,7 +2286,7 @@ class CfgVehicles
 		linkedItems[] = {"FP_CSL_V_CarrierRigKBT_heavy_GraniteB_F","FP_H_HelmetIA_ROK","NVGoggles_OPFOR","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"FP_CSL_V_CarrierRigKBT_heavy_GraniteB_F","FP_H_HelmetIA_ROK","NVGoggles_OPFOR","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class FP_B_ROK_Soldier_UAV_F: FP_ROK_Soldier_BASE_F
+	class FP_CSL_B_ROK_Soldier_UAV_F: FP_ROK_Soldier_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -2053,7 +2297,7 @@ class CfgVehicles
 		respawnLinkedItems[] = {"FP_CSL_V_CarrierRigKBT_light_GraniteB_F","FP_H_HelmetIA_ROK","NVGoggles_OPFOR","B_UavTerminal","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
 	};
 
-	class FP_B_ROK_Marine_A_F: FP_ROK_Marine_BASE_F
+	class FP_CSL_B_ROK_Marine_A_F: FP_ROK_Marine_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -2061,7 +2305,7 @@ class CfgVehicles
 		backpack = "FP_ROK_Carryall_woodland_Ammo";
 		cost = 100000;
 	};
-	class FP_B_ROK_Marine_AAR_F: FP_ROK_Marine_BASE_F
+	class FP_CSL_B_ROK_Marine_AAR_F: FP_ROK_Marine_BASE_F
 		{
 		scope = 2;
 		scopeCurator = 2;
@@ -2070,7 +2314,7 @@ class CfgVehicles
 		cost = 65000;
 		threat[] = {1,0.1,0.3};
 	};
-		class FP_B_ROK_Marine_AAT_F: FP_ROK_Marine_BASE_F
+		class FP_CSL_B_ROK_Marine_AAT_F: FP_ROK_Marine_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -2078,7 +2322,7 @@ class CfgVehicles
 		backpack = "FP_ROK_Carryall_woodland_AT";
 		cost = 100000;
 	};
-	class FP_B_ROK_Marine_AR_F: FP_ROK_Marine_BASE_F
+	class FP_CSL_B_ROK_Marine_AR_F: FP_ROK_Marine_BASE_F
 	{
 		class SpeechVariants
 		{
@@ -2102,7 +2346,7 @@ class CfgVehicles
 		threat[] = {1,0.1,0.3};
 		icon = "iconManMG";	
 	};
-	class FP_B_ROK_Marine_Medic_F: FP_ROK_Marine_BASE_F
+	class FP_CSL_B_ROK_Marine_Medic_F: FP_ROK_Marine_BASE_F
 	{
 		class SpeechVariants
 		{
@@ -2126,7 +2370,7 @@ class CfgVehicles
 		icon = "iconManMedic";
 		picture = "pictureHeal";
 	};
-	class FP_B_ROK_Marine_Crewman_F: FP_ROK_Marine_BASE_F
+	class FP_CSL_B_ROK_Marine_Crewman_F: FP_ROK_Marine_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -2136,7 +2380,7 @@ class CfgVehicles
 		linkedItems[] = {"V_TacChestrig_grn_F","rhsusf_cvc_green_ess","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_TacChestrig_grn_F","rhsusf_cvc_green_ess","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
 	};
-	class FP_B_ROK_Marine_engineer_F: FP_ROK_Marine_BASE_F
+	class FP_CSL_B_ROK_Marine_engineer_F: FP_ROK_Marine_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -2152,7 +2396,7 @@ class CfgVehicles
 		icon = "iconManEngineer";
 		picture = "pictureRepair";		
 	};
-	class FP_B_ROK_Marine_exp_F: FP_ROK_Marine_BASE_F
+	class FP_CSL_B_ROK_Marine_exp_F: FP_ROK_Marine_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -2164,7 +2408,7 @@ class CfgVehicles
 		icon = "iconManExplosive";
 		picture = "pictureExplosive";		
 	};
-	class FP_B_ROK_Marine_GL_F: FP_ROK_Marine_BASE_F
+	class FP_CSL_B_ROK_Marine_GL_F: FP_ROK_Marine_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -2180,7 +2424,7 @@ class CfgVehicles
 		linkedItems[] = {"V_CarrierRigKBT_01_heavy_Olive_F","FP_H_HelmetIA_ROKMC","NVGoggles_OPFOR","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_CarrierRigKBT_01_heavy_Olive_F","FP_H_HelmetIA_ROKMC","NVGoggles_OPFOR","ItemMap","ItemCompass","ItemWatch","ItemRadio"};			
 	};
-	class FP_B_ROK_Marine_Helipilot_F: FP_ROK_Marine_BASE_F
+	class FP_CSL_B_ROK_Marine_Helipilot_F: FP_ROK_Marine_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -2190,7 +2434,7 @@ class CfgVehicles
 		weapons[] = {"hlc_rifle_SG553SB_RIS","RH_p226","Throw","Put"};
 		respawnWeapons[] = {"hlc_rifle_SG553SB_RIS","RH_p226","Throw","Put"};		
 	};
-	class FP_B_ROK_Marine_Helicrew_F: FP_B_ROK_Marine_Helipilot_F
+	class FP_CSL_B_ROK_Marine_Helicrew_F: FP_CSL_B_ROK_Marine_Helipilot_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -2198,7 +2442,7 @@ class CfgVehicles
 		linkedItems[] = {"V_TacVest_blk","H_CrewHelmetHeli_B","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};
 		respawnLinkedItems[] = {"V_TacVest_blk","H_CrewHelmetHeli_B","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"};		
 	};
-	class FP_B_ROK_Marine_MMG_F: FP_ROK_Marine_BASE_F
+	class FP_CSL_B_ROK_Marine_MMG_F: FP_ROK_Marine_BASE_F
 	{
 		class SpeechVariants
 		{
@@ -2222,7 +2466,7 @@ class CfgVehicles
 		threat[] = {1,0.1,0.3};
 		icon = "iconManMG";	
 	};
-	class FP_B_ROK_Marine_M_F: FP_ROK_Marine_BASE_F
+	class FP_CSL_B_ROK_Marine_M_F: FP_ROK_Marine_BASE_F
 	{
 		class SpeechVariants
 		{
@@ -2244,7 +2488,7 @@ class CfgVehicles
 		respawnMagazines[] = {"hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		
 	};
-	class FP_B_ROK_Marine_AA_F: FP_ROK_Marine_BASE_F
+	class FP_CSL_B_ROK_Marine_AA_F: FP_ROK_Marine_BASE_F
 	{
 		class SpeechVariants
 		{
@@ -2268,7 +2512,7 @@ class CfgVehicles
 		respawnMagazines[] = {"hlc_30Rnd_556x45_EPR_sg550","hlc_30Rnd_556x45_EPR_sg550","hlc_30Rnd_556x45_EPR_sg550","hlc_30Rnd_556x45_EPR_sg550","hlc_30Rnd_556x45_EPR_sg550","hlc_30Rnd_556x45_EPR_sg550","hlc_30Rnd_556x45_EPR_sg550","hlc_30Rnd_556x45_EPR_sg550","hlc_30Rnd_556x45_EPR_sg550","hlc_30Rnd_556x45_EPR_sg550","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","HandGrenade","HandGrenade","SmokeShell","SmokeShell","rhs_fim92_mag"};
 		icon = "iconManAT";
 	};
-	class FP_B_ROK_Marine_AT_F: FP_ROK_Marine_BASE_F
+	class FP_CSL_B_ROK_Marine_AT_F: FP_ROK_Marine_BASE_F
 	{
 		class SpeechVariants
 		{
@@ -2292,7 +2536,7 @@ class CfgVehicles
 		cost = 100000;	
 		icon = "iconManAT";
 	};
-	class FP_B_ROK_Marine_Officer_F: FP_ROK_Marine_BASE_F
+	class FP_CSL_B_ROK_Marine_Officer_F: FP_ROK_Marine_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -2306,20 +2550,20 @@ class CfgVehicles
 		respawnLinkedItems[] = {"V_CarrierRigKBT_01_Olive_F","H_Beret_blk","NVGoggles_OPFOR","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
 		icon = "iconManOfficer";	
 	};
-	class FP_B_ROK_Marine_FieldOfficer_F: FP_B_ROK_Marine_Officer_F
+	class FP_CSL_B_ROK_Marine_FieldOfficer_F: FP_CSL_B_ROK_Marine_Officer_F
 	{
 		displayName = "Field Officer";
 		linkedItems[] = {"V_CarrierRigKBT_01_light_Olive_F","FP_H_HelmetIA_ROKMC","NVGoggles_OPFOR","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_CarrierRigKBT_01_light_Olive_F","FP_H_HelmetIA_ROKMC","NVGoggles_OPFOR","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};	
 	};
-	class FP_B_ROK_Marine_F: FP_ROK_Marine_BASE_F
+	class FP_CSL_B_ROK_Marine_F: FP_ROK_Marine_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Rifleman";
 		cost = 100000;
 	};
-	class FP_B_ROK_Marine_LAT_F: FP_ROK_Marine_BASE_F
+	class FP_CSL_B_ROK_Marine_LAT_F: FP_ROK_Marine_BASE_F
 	{
 		class SpeechVariants
 		{
@@ -2340,7 +2584,7 @@ class CfgVehicles
 		cost = 100000;
 		icon = "iconManAT";
 	};
-	class FP_B_ROK_Marine_lite_F: FP_ROK_Marine_BASE_F
+	class FP_CSL_B_ROK_Marine_lite_F: FP_ROK_Marine_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -2349,7 +2593,7 @@ class CfgVehicles
 		linkedItems[] = {"V_TacVest_oli","FP_H_MilCap_blk","NVGoggles_OPFOR","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_TacVest_oli","FP_H_MilCap_blk","NVGoggles_OPFOR","ItemMap","ItemCompass","ItemWatch","ItemRadio"};	
 	};
-	class FP_B_ROK_Marine_unarmed_F: FP_ROK_Marine_BASE_F
+	class FP_CSL_B_ROK_Marine_unarmed_F: FP_ROK_Marine_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -2359,7 +2603,7 @@ class CfgVehicles
 		magazines[] = {};
 		respawnMagazines[] = {};
 	};
-	class FP_B_ROK_Marine_RadioOperator_F: FP_ROK_Marine_BASE_F
+	class FP_CSL_B_ROK_Marine_RadioOperator_F: FP_ROK_Marine_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -2367,7 +2611,7 @@ class CfgVehicles
 		backpack = "FP_B_RadioBag_117_Black";
 		cost = 100000;		
 	};
-	class FP_B_ROK_Marine_repair_F: FP_ROK_Marine_BASE_F
+	class FP_CSL_B_ROK_Marine_repair_F: FP_ROK_Marine_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -2381,7 +2625,7 @@ class CfgVehicles
 		picture = "pictureRepair";
 		displayName = "Repair Specialist";
 	};
-	class FP_B_ROK_Marine_SL_F: FP_ROK_Marine_BASE_F
+	class FP_CSL_B_ROK_Marine_SL_F: FP_ROK_Marine_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -2397,7 +2641,7 @@ class CfgVehicles
 		linkedItems[] = {"V_CarrierRigKBT_01_heavy_Olive_F","FP_H_HelmetIA_ROKMC","NVGoggles_OPFOR","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_CarrierRigKBT_01_heavy_Olive_F","FP_H_HelmetIA_ROKMC","NVGoggles_OPFOR","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class FP_B_ROK_Marine_Survivor_F: FP_ROK_Marine_BASE_F
+	class FP_CSL_B_ROK_Marine_Survivor_F: FP_ROK_Marine_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -2408,7 +2652,7 @@ class CfgVehicles
 		weapons[] = {"Throw","Put"};
 		respawnWeapons[] = {"Throw","Put"};
 	};
-	class FP_B_ROK_Marine_TL_F: FP_ROK_Marine_BASE_F
+	class FP_CSL_B_ROK_Marine_TL_F: FP_ROK_Marine_BASE_F
 	{
 
 		scope = 2;
@@ -2425,7 +2669,7 @@ class CfgVehicles
 		linkedItems[] = {"V_CarrierRigKBT_01_heavy_Olive_F","FP_H_HelmetIA_ROKMC","NVGoggles_OPFOR","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_CarrierRigKBT_01_heavy_Olive_F","FP_H_HelmetIA_ROKMC","NVGoggles_OPFOR","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class FP_B_ROK_Marine_UAV_F: FP_ROK_Marine_BASE_F
+	class FP_CSL_B_ROK_Marine_UAV_F: FP_ROK_Marine_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -2450,13 +2694,13 @@ class CfgVehicles
 		linkedItems[] = {"VSM_LBT6094_operator_Multicam","opscorem","JAS_GPNVG18_Tan","rhs_ess_black","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"VSM_LBT6094_operator_Multicam","opscorem","JAS_GPNVG18_Tan","rhs_ess_black","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class FP_B_ROK_UDT_sof_exp_F: FP_ROK_UDT_BASE_F
+	class FP_CSL_B_ROK_UDT_sof_exp_F: FP_ROK_UDT_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "UDT Demo Specialist";
 	};
-	class FP_B_ROK_UDT_sof_JTAC_F: FP_ROK_UDT_BASE_F
+	class FP_CSL_B_ROK_UDT_sof_JTAC_F: FP_ROK_UDT_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -2469,7 +2713,7 @@ class CfgVehicles
 		linkedItems[] = {"VSM_RAV_operator_Multicam","VSM_Mich2000_Multicam","JAS_GPNVG18_Tan","rhs_ess_black","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"VSM_RAV_operator_Multicam","VSM_Mich2000_Multicam","JAS_GPNVG18_Tan","rhs_ess_black","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class FP_B_ROK_UDT_sof_M_F: FP_ROK_UDT_BASE_F
+	class FP_CSL_B_ROK_UDT_sof_M_F: FP_ROK_UDT_BASE_F
 	{
 		class SpeechVariants
 		{
@@ -2490,7 +2734,7 @@ class CfgVehicles
 		magazines[] = {"20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","RH_12Rnd_45cal_usp","RH_12Rnd_45cal_usp","RH_12Rnd_45cal_usp","RH_12Rnd_45cal_usp","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		respawnMagazines[] = {"20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","RH_12Rnd_45cal_usp","RH_12Rnd_45cal_usp","RH_12Rnd_45cal_usp","RH_12Rnd_45cal_usp","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 	};
-	class FP_B_ROK_UDT_sof_medic_F: FP_ROK_UDT_BASE_F
+	class FP_CSL_B_ROK_UDT_sof_medic_F: FP_ROK_UDT_BASE_F
 	{
 		class SpeechVariants
 		{
@@ -2514,13 +2758,13 @@ class CfgVehicles
 		icon = "iconManMedic";
 		picture = "pictureHeal";
 	};
-	class FP_B_ROK_UDT_sof_F: FP_ROK_UDT_BASE_F
+	class FP_CSL_B_ROK_UDT_sof_F: FP_ROK_UDT_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "UDT Scout";
 	};
-	class FP_B_ROK_UDT_sof_LAT_F: FP_ROK_UDT_BASE_F
+	class FP_CSL_B_ROK_UDT_sof_LAT_F: FP_ROK_UDT_BASE_F
 	{
 		class SpeechVariants
 		{
@@ -2540,7 +2784,7 @@ class CfgVehicles
 		respawnWeapons[] = {"FP_hlc_rifle_SG551SB_TAC_ROK_UDT","FP_RH_usp_ROK_UDT","rhs_weap_m72a7","Throw","Put"};
 		icon = "iconManAT";
 	};
-	class FP_B_ROK_UDT_sof_TL_F: FP_ROK_UDT_BASE_F
+	class FP_CSL_B_ROK_UDT_sof_TL_F: FP_ROK_UDT_BASE_F
 	{
 		scope = 2;
 		scopeCurator = 2;
