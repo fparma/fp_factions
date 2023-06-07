@@ -4,69 +4,91 @@ class CfgPatches
 	{
 		units[] = 
 		{
-			"FP_Faction_JSDF_APC_tracked_03_cannon_F",
-			"FP_Faction_JSDF_APC_Wheeled_03_cannon_F",
-			"FP_Faction_JSDF_m1025_w_m2",
-			"FP_Faction_JSDF_m998_w_4dr_fulltop",
-			"FP_Faction_JSDF_AH64D_wd",
-			"FP_Faction_JSDF_UH1H_Armed",
-			"FP_Faction_JSDF_UH1H_Gunship",
-			"FP_Faction_JSDF_UH1H_Unarmed",
-			"FP_Faction_JSDF_UH60M",
-			"FP_Faction_JSDF_UH60M_ESSS",
-			"FP_Faction_JSDF_UH60M_ESSS2",
-			"FP_Faction_JSDF_UH60M2",
-			"FP_Faction_JSDF_C130_Hercules",
-			"FP_Faction_JSDF_Plane_Fighter_01_F",
-			"FP_Faction_JSDF_Plane_Fighter_01_Stealth_F",
-			"FP_Faction_JSDF_Type_90_MBT",
-			"FP_Faction_JSDF_Soldier_BASE",
-			"FP_Faction_JSDF_AmmoBearer",
-			"FP_Faction_JSDF_AAR",
-			"FP_Faction_JSDF_AMMG",
-			"FP_Faction_JSDF_AMANPADS",
-			"FP_Faction_JSDF_ALAT",
-			"FP_Faction_JSDF_AR",
-			"FP_Faction_JSDF_Crewman",
-			"FP_Faction_JSDF_Engineer",
-			"FP_Faction_JSDF_Fighter_Pilot_F",
-			"FP_Faction_JSDF_Helicrew",
-			"FP_Faction_JSDF_Helipilot",
-			"FP_Faction_JSDF_Medic",
-			"FP_Faction_JSDF_MMG",
-			"FP_Faction_JSDF_M",
-			"FP_Faction_JSDF_MANPADS",
-			"FP_Faction_JSDF_LAT",
-			"FP_Faction_JSDF_Rifleman",
-			"FP_Faction_JSDF_RAT",
-			"FP_Faction_JSDF_FST",
-			"FP_Faction_JSDF_Rifleman_Gasmask",
-			"FP_Faction_JSDF_Unarmed",
-			"FP_Faction_JSDF_SL",
-			"FP_Faction_JSDF_TL",			
-			"FP_Faction_JSDF_Desert_AmmoBearer",
-			"FP_Faction_JSDF_Desert_AAR",
-			"FP_Faction_JSDF_Desert_AMMG",
-			"FP_Faction_JSDF_Desert_AMANPADS",
-			"FP_Faction_JSDF_Desert_ALAT",
-			"FP_Faction_JSDF_Desert_AR",
-			"FP_Faction_JSDF_Desert_Crewman",
-			"FP_Faction_JSDF_Desert_Engineer",
-			"FP_Faction_JSDF_Desert_Fighter_Pilot_F",
-			"FP_Faction_JSDF_Desert_Helicrew",
-			"FP_Faction_JSDF_Desert_Helipilot",
-			"FP_Faction_JSDF_Desert_Medic",
-			"FP_Faction_JSDF_Desert_MMG",
-			"FP_Faction_JSDF_Desert_M",
-			"FP_Faction_JSDF_Desert_MANPADS",
-			"FP_Faction_JSDF_Desert_LAT",
-			"FP_Faction_JSDF_Desert_Rifleman",
-			"FP_Faction_JSDF_Desert_RAT",
-			"FP_Faction_JSDF_Desert_FST",
-			"FP_Faction_JSDF_Desert_Rifleman_Gasmask",
-			"FP_Faction_JSDF_Desert_Unarmed",
-			"FP_Faction_JSDF_Desert_SL",
-			"FP_Faction_JSDF_Desert_TL"
+			"FP_CSL_B_JSDF_APC_tracked_03_cannon_F",
+			"FP_CSL_B_JSDF_APC_Wheeled_03_cannon_F",
+			"FP_CSL_B_JSDF_m1025_w_m2",
+			"FP_CSL_B_JSDF_m998_w_4dr_fulltop",
+			"FP_CSL_B_JSDF_AH64D_wd",
+			"FP_CSL_B_JSDF_UH1H_Armed",
+			"FP_CSL_B_JSDF_UH1H_Gunship",
+			"FP_CSL_B_JSDF_UH1H_Unarmed",
+			"FP_CSL_B_JSDF_UH60M",
+			"FP_CSL_B_JSDF_UH60M_ESSS",
+			"FP_CSL_B_JSDF_UH60M_ESSS2",
+			"FP_CSL_B_JSDF_UH60M2",
+			"FP_CSL_B_JSDF_C130_Hercules",
+			"FP_CSL_B_JSDF_Plane_Fighter_01_F",
+			"FP_CSL_B_JSDF_Plane_Fighter_01_Stealth_F",
+			"FP_CSL_B_JSDF_Type_90_MBT",
+			"FP_CSL_B_JSDF_HMG_02_high_F",
+			"FP_CSL_B_JSDF_HMG_02_F",
+			"FP_JSDF_Soldier_BASE",
+			"FP_CSL_B_JSDF_Soldier_A_F",
+			"FP_CSL_B_JSDF_Soldier_AAR_F",
+			"FP_CSL_B_JSDF_Soldier_AMMG_F",
+			"FP_CSL_B_JSDF_Soldier_AAA_F",
+			"FP_CSL_B_JSDF_Soldier_AAT_F",
+			"FP_CSL_B_JSDF_Soldier_AR_F",
+			"FP_CSL_B_JSDF_Crewman_F",
+			"FP_CSL_B_JSDF_Engineer_F",
+			"FP_CSL_B_JSDF_Fighter_Pilot_F",
+			"FP_CSL_B_JSDF_Soldier_GL_F",
+			"FP_CSL_B_JSDF_Helicrew_F",
+			"FP_CSL_B_JSDF_Helipilot_F",
+			"FP_CSL_B_JSDF_Medic_F",
+			"FP_CSL_B_JSDF_Soldier_MMG_F",
+			"FP_CSL_B_JSDF_Soldier_M_F",
+			"FP_CSL_B_JSDF_Soldier_AA_F",
+			"FP_CSL_B_JSDF_Soldier_AT_F",
+			"FP_CSL_B_JSDF_Soldier_F",
+			"FP_CSL_B_JSDF_Soldier_LAT_F",
+			"FP_CSL_B_JSDF_Soldier_FSAT_F",
+			"FP_CSL_B_JSDF_Soldier_Gasmask_F",
+			"FP_CSL_B_JSDF_Soldier_unarmed_F",
+			"FP_CSL_B_JSDF_Soldier_SL_F",
+			"FP_CSL_B_JSDF_Soldier_TL_F",			
+			"FP_CSL_D_B_JSDF_Soldier_A_F",
+			"FP_CSL_D_B_JSDF_Soldier_AAR_F",
+			"FP_CSL_D_B_JSDF_Soldier_AMMG_F",
+			"FP_CSL_D_B_JSDF_Soldier_AAA_F",
+			"FP_CSL_D_B_JSDF_Soldier_AAT_F",
+			"FP_CSL_D_B_JSDF_Soldier_AR_F",
+			"FP_CSL_D_B_JSDF_Crewman_F",
+			"FP_CSL_D_B_JSDF_Engineer_F",
+			"FP_CSL_D_B_JSDF_Fighter_Pilot_F",
+			"FP_CSL_D_B_JSDF_Soldier_GL_F",
+			"FP_CSL_D_B_JSDF_Helicrew_F",
+			"FP_CSL_D_B_JSDF_Helipilot_F",
+			"FP_CSL_D_B_JSDF_Medic_F",
+			"FP_CSL_D_B_JSDF_Soldier_MMG_F",
+			"FP_CSL_D_B_JSDF_Soldier_M_F",
+			"FP_CSL_D_B_JSDF_Soldier_AA_F",
+			"FP_CSL_D_B_JSDF_Soldier_AT_F",
+			"FP_CSL_D_B_JSDF_Soldier_F",
+			"FP_CSL_B_JSDF_Desert_RAT",
+			"FP_CSL_B_JSDF_Desert_FST",
+			"FP_CSL_D_B_JSDF_Soldier_F_Gasmask",
+			"FP_CSL_D_B_JSDF_Soldier_unarmed_F",
+			"FP_CSL_D_B_JSDF_Soldier_SL_F",
+			"FP_CSL_D_B_JSDF_Soldier_TL_F",
+			"FP_JSDF_Airborne_BASE",
+			"FP_CSL_B_JSDF_Airborne_AR_F",
+			"FP_CSL_B_JSDF_Airborne_MMG_F",
+			"FP_CSL_B_JSDF_Airborne_M_F",
+			"FP_CSL_B_JSDF_Airborne_F",
+			"FP_CSL_B_JSDF_Airborne_LAT_F",
+			"FP_CSL_B_JSDF_Airborne_unarmed_F",
+			"FP_CSL_B_JSDF_Airborne_SL_F",
+			"FP_CSL_B_JSDF_Airborne_TL_F",
+			"FP_JSDF_Paratrooper_BASE",
+			"FP_CSL_B_JSDF_Paratrooper_F",
+			"FP_CSL_B_JSDF_Paratrooper_LAT_F",
+			"FP_CSL_B_JSDF_Paratrooper_unarmed_F",
+			"FP_CSL_B_JSDF_Paratrooper_AR_F",
+			"FP_CSL_B_JSDF_Paratrooper_MMG_F",
+			"FP_CSL_B_JSDF_Paratrooper_M_F",
+			"FP_CSL_B_JSDF_Paratrooper_SL_F",
+			"FP_CSL_B_JSDF_Paratrooper_TL_F"
 		};
 		weapons[] = {};
 		requiredVersion = 0.1;
@@ -136,7 +158,7 @@ class CfgGroups
 {
 	class West
 	{
-		class FP_B_JSDF_F
+		class FP_CSL_B_JSDF_F
 		{
 			name = "FP Japan";
 			class Infantry
@@ -153,56 +175,56 @@ class CfgGroups
 						position[] = {0,0,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "FP_Faction_JSDF_SL";
+						vehicle = "FP_CSL_B_JSDF_Soldier_SL_F";
 					};
 					class Unit1
 					{
 						position[] = {5,-5,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_Faction_JSDF_AR";
+						vehicle = "FP_CSL_B_JSDF_Soldier_AR_F";
 					};
 					class Unit2
 					{
 						position[] = {-5,-5,0};
 						rank = "CORPORAL";
 						side = 1;
-						vehicle = "FP_Faction_JSDF_MMG";
+						vehicle = "FP_CSL_B_JSDF_Soldier_MMG_F";
 					};
 					class Unit3
 					{
 						position[] = {10,-10,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_Faction_JSDF_AAR";
+						vehicle = "FP_CSL_B_JSDF_Soldier_AAR_F";
 					};
 					class Unit4
 					{
 						position[] = {-10,-10,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_Faction_JSDF_TL";
+						vehicle = "FP_CSL_B_JSDF_Soldier_TL_F";
 					};
 					class Unit5
 					{
 						position[] = {15,-15,0};
 						rank = "CORPORAL";
 						side = 1;
-						vehicle = "FP_Faction_JSDF_M";
+						vehicle = "FP_CSL_B_JSDF_Soldier_M_F";
 					};
 					class Unit6
 					{
 						position[] = {-15,-15,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_Faction_JSDF_RAT";
+						vehicle = "FP_CSL_B_JSDF_Soldier_LAT_F";
 					};
 					class Unit7
 					{
 						position[] = {20,-20,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_Faction_JSDF_Medic";
+						vehicle = "FP_CSL_B_JSDF_Medic_F";
 					};
 				};
 				class BJSDF_InfSentry
@@ -216,14 +238,14 @@ class CfgGroups
 						position[] = {0,0,0};
 						rank = "CORPORAL";
 						side = 1;
-						vehicle = "FP_Faction_JSDF_GL";
+						vehicle = "FP_CSL_B_JSDF_Soldier_GL_F";
 					};
 					class Unit1
 					{
 						position[] = {5,-5,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_Faction_JSDF_Rifleman";
+						vehicle = "FP_CSL_B_JSDF_Soldier_F";
 					};
 				};
 				class BJSDF_InfSquad
@@ -237,56 +259,56 @@ class CfgGroups
 						position[] = {0,0,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "FP_Faction_JSDF_SL";
+						vehicle = "FP_CSL_B_JSDF_Soldier_SL_F";
 					};
 					class Unit1
 					{
 						position[] = {5,-5,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_Faction_JSDF_Rifleman";
+						vehicle = "FP_CSL_B_JSDF_Soldier_F";
 					};
 					class Unit2
 					{
 						position[] = {-5,-5,0};
 						rank = "CORPORAL";
 						side = 1;
-						vehicle = "FP_Faction_JSDF_RAT";
+						vehicle = "FP_CSL_B_JSDF_Soldier_LAT_F";
 					};
 					class Unit3
 					{
 						position[] = {10,-10,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_Faction_JSDF_M";
+						vehicle = "FP_CSL_B_JSDF_Soldier_M_F";
 					};
 					class Unit4
 					{
 						position[] = {-10,-10,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "FP_Faction_JSDF_TL";
+						vehicle = "FP_CSL_B_JSDF_Soldier_TL_F";
 					};
 					class Unit5
 					{
 						position[] = {15,-15,0};
 						rank = "CORPORAL";
 						side = 1;
-						vehicle = "FP_Faction_JSDF_AR";
+						vehicle = "FP_CSL_B_JSDF_Soldier_AR_F";
 					};
 					class Unit6
 					{
 						position[] = {-15,-15,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_Faction_JSDF_AmmoBearer";
+						vehicle = "FP_CSL_B_JSDF_Soldier_A_F";
 					};
 					class Unit7
 					{
 						position[] = {20,-20,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_Faction_JSDF_Medic";
+						vehicle = "FP_CSL_B_JSDF_Medic_F";
 					};
 				};
 				class BJSDF_InfSquad_Weapons
@@ -300,56 +322,56 @@ class CfgGroups
 						position[] = {0,0,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "FP_Faction_JSDF_SL";
+						vehicle = "FP_CSL_B_JSDF_Soldier_SL_F";
 					};
 					class Unit1
 					{
 						position[] = {5,-5,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_Faction_JSDF_AR";
+						vehicle = "FP_CSL_B_JSDF_Soldier_AR_F";
 					};
 					class Unit2
 					{
 						position[] = {-5,-5,0};
 						rank = "CORPORAL";
 						side = 1;
-						vehicle = "FP_Faction_JSDF_GL";
+						vehicle = "FP_CSL_B_JSDF_Soldier_GL_F";
 					};
 					class Unit3
 					{
 						position[] = {10,-10,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "FP_Faction_JSDF_M";
+						vehicle = "FP_CSL_B_JSDF_Soldier_M_F";
 					};
 					class Unit4
 					{
 						position[] = {-10,-10,0};
 						rank = "CORPORAL";
 						side = 1;
-						vehicle = "FP_Faction_JSDF_LAT";
+						vehicle = "FP_CSL_B_JSDF_Soldier_AT_F";
 					};
 					class Unit5
 					{
 						position[] = {15,-15,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_Faction_JSDF_AmmoBearer";
+						vehicle = "FP_CSL_B_JSDF_Soldier_A_F";
 					};
 					class Unit6
 					{
 						position[] = {-15,-15,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_Faction_JSDF_ALAT";
+						vehicle = "FP_CSL_B_JSDF_Soldier_AAT_F";
 					};
 					class Unit7
 					{
 						position[] = {20,-20,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_Faction_JSDF_Medic";
+						vehicle = "FP_CSL_B_JSDF_Medic_F";
 					};
 				};
 				class BJSDF_InfTeam
@@ -363,28 +385,28 @@ class CfgGroups
 						position[] = {0,0,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "FP_Faction_JSDF_TL";
+						vehicle = "FP_CSL_B_JSDF_Soldier_TL_F";
 					};
 					class Unit1
 					{
 						position[] = {5,-5,0};
 						rank = "CORPORAL";
 						side = 1;
-						vehicle = "FP_Faction_JSDF_AR";
+						vehicle = "FP_CSL_B_JSDF_Soldier_AR_F";
 					};
 					class Unit2
 					{
 						position[] = {-5,-5,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_Faction_JSDF_GL";
+						vehicle = "FP_CSL_B_JSDF_Soldier_GL_F";
 					};
 					class Unit3
 					{
 						position[] = {10,-10,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_Faction_JSDF_RAT";
+						vehicle = "FP_CSL_B_JSDF_Soldier_LAT_F";
 					};				
 				};
 				class BJSDF_InfTeam_AA
@@ -398,28 +420,28 @@ class CfgGroups
 						position[] = {0,0,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "FP_Faction_JSDF_TL";
+						vehicle = "FP_CSL_B_JSDF_Soldier_TL_F";
 					};
 					class Unit1
 					{
 						position[] = {5,-5,0};
 						rank = "CORPORAL";
 						side = 1;
-						vehicle = "FP_Faction_JSDF_MANPADS";
+						vehicle = "FP_CSL_B_JSDF_Soldier_AA_F";
 					};
 					class Unit2
 					{
 						position[] = {-5,-5,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_Faction_JSDF_MANPADS";
+						vehicle = "FP_CSL_B_JSDF_Soldier_AA_F";
 					};
 					class Unit3
 					{
 						position[] = {10,-10,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_Faction_JSDF_AMANPADS";
+						vehicle = "FP_CSL_B_JSDF_Soldier_AAA_F";
 					};				
 				};
 				class BJSDF_InfTeam_AT
@@ -433,31 +455,350 @@ class CfgGroups
 						position[] = {0,0,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "FP_Faction_JSDF_TL";
+						vehicle = "FP_CSL_B_JSDF_Soldier_TL_F";
 					};
 					class Unit1
 					{
 						position[] = {5,-5,0};
 						rank = "CORPORAL";
 						side = 1;
-						vehicle = "FP_Faction_JSDF_LAT";
+						vehicle = "FP_CSL_B_JSDF_Soldier_AT_F";
 					};
 					class Unit2
 					{
 						position[] = {-5,-5,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_Faction_JSDF_LAT";
+						vehicle = "FP_CSL_B_JSDF_Soldier_AT_F";
 					};
 					class Unit3
 					{
 						position[] = {10,-10,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "FP_Faction_JSDF_ALAT";
+						vehicle = "FP_CSL_B_JSDF_Soldier_AAT_F";
 					};				
 				};
 			};
+			class InfantryDesert
+			{
+				name = "Infantry (Desert)";
+				class BJSDF_InfAssault_Des
+				{
+					faction = "FP_Faction_JSDF";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					name = "Assault Squad";
+					side = 1;
+					class Unit0
+					{
+						position[] = {0,0,0};
+						rank = "SERGEANT";
+						side = 1;
+						vehicle = "FP_CSL_D_B_JSDF_Soldier_SL_F";
+					};
+					class Unit1
+					{
+						position[] = {5,-5,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "FP_CSL_D_B_JSDF_Soldier_AR_F";
+					};
+					class Unit2
+					{
+						position[] = {-5,-5,0};
+						rank = "CORPORAL";
+						side = 1;
+						vehicle = "FP_CSL_D_B_JSDF_Soldier_MMG_F";
+					};
+					class Unit3
+					{
+						position[] = {10,-10,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "FP_CSL_D_B_JSDF_Soldier_AAR_F";
+					};
+					class Unit4
+					{
+						position[] = {-10,-10,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "FP_CSL_D_B_JSDF_Soldier_TL_F";
+					};
+					class Unit5
+					{
+						position[] = {15,-15,0};
+						rank = "CORPORAL";
+						side = 1;
+						vehicle = "FP_CSL_D_B_JSDF_Soldier_M_F";
+					};
+					class Unit6
+					{
+						position[] = {-15,-15,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "FP_CSL_B_JSDF_Desert_RAT";
+					};
+					class Unit7
+					{
+						position[] = {20,-20,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "FP_CSL_D_B_JSDF_Medic_F";
+					};
+				};
+				class BJSDF_InfSentry
+				{
+					faction = "FP_Faction_JSDF";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					name = "Sentry";
+					side = 1;
+					class Unit0
+					{
+						position[] = {0,0,0};
+						rank = "CORPORAL";
+						side = 1;
+						vehicle = "FP_CSL_D_B_JSDF_Soldier_GL_F";
+					};
+					class Unit1
+					{
+						position[] = {5,-5,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "FP_CSL_D_B_JSDF_Soldier_F";
+					};
+				};
+				class BJSDF_InfSquad
+				{
+					faction = "FP_Faction_JSDF";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					name = "Rifle Squad";
+					side = 1;
+					class Unit0
+					{
+						position[] = {0,0,0};
+						rank = "SERGEANT";
+						side = 1;
+						vehicle = "FP_CSL_D_B_JSDF_Soldier_SL_F";
+					};
+					class Unit1
+					{
+						position[] = {5,-5,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "FP_CSL_D_B_JSDF_Soldier_F";
+					};
+					class Unit2
+					{
+						position[] = {-5,-5,0};
+						rank = "CORPORAL";
+						side = 1;
+						vehicle = "FP_CSL_B_JSDF_Desert_RAT";
+					};
+					class Unit3
+					{
+						position[] = {10,-10,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "FP_CSL_D_B_JSDF_Soldier_M_F";
+					};
+					class Unit4
+					{
+						position[] = {-10,-10,0};
+						rank = "SERGEANT";
+						side = 1;
+						vehicle = "FP_CSL_D_B_JSDF_Soldier_TL_F";
+					};
+					class Unit5
+					{
+						position[] = {15,-15,0};
+						rank = "CORPORAL";
+						side = 1;
+						vehicle = "FP_CSL_D_B_JSDF_Soldier_AR_F";
+					};
+					class Unit6
+					{
+						position[] = {-15,-15,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "FP_CSL_D_B_JSDF_Soldier_A_F";
+					};
+					class Unit7
+					{
+						position[] = {20,-20,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "FP_CSL_D_B_JSDF_Medic_F";
+					};
+				};
+				class BJSDF_InfSquad_Weapons
+				{
+					faction = "FP_Faction_JSDF";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					name = "Weapons Squad";
+					side = 1;
+					class Unit0
+					{
+						position[] = {0,0,0};
+						rank = "SERGEANT";
+						side = 1;
+						vehicle = "FP_CSL_D_B_JSDF_Soldier_SL_F";
+					};
+					class Unit1
+					{
+						position[] = {5,-5,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "FP_CSL_D_B_JSDF_Soldier_AR_F";
+					};
+					class Unit2
+					{
+						position[] = {-5,-5,0};
+						rank = "CORPORAL";
+						side = 1;
+						vehicle = "FP_CSL_D_B_JSDF_Soldier_GL_F";
+					};
+					class Unit3
+					{
+						position[] = {10,-10,0};
+						rank = "SERGEANT";
+						side = 1;
+						vehicle = "FP_CSL_D_B_JSDF_Soldier_M_F";
+					};
+					class Unit4
+					{
+						position[] = {-10,-10,0};
+						rank = "CORPORAL";
+						side = 1;
+						vehicle = "FP_CSL_D_B_JSDF_Soldier_AT_F";
+					};
+					class Unit5
+					{
+						position[] = {15,-15,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "FP_CSL_D_B_JSDF_Soldier_A_F";
+					};
+					class Unit6
+					{
+						position[] = {-15,-15,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "FP_CSL_D_B_JSDF_Soldier_AAT_F";
+					};
+					class Unit7
+					{
+						position[] = {20,-20,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "FP_CSL_D_B_JSDF_Medic_F";
+					};
+				};
+				class BJSDF_InfTeam
+				{
+					faction = "FP_Faction_JSDF";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					name = "Fire Team";
+					side = 1;
+					class Unit0
+					{
+						position[] = {0,0,0};
+						rank = "SERGEANT";
+						side = 1;
+						vehicle = "FP_CSL_D_B_JSDF_Soldier_TL_F";
+					};
+					class Unit1
+					{
+						position[] = {5,-5,0};
+						rank = "CORPORAL";
+						side = 1;
+						vehicle = "FP_CSL_D_B_JSDF_Soldier_AR_F";
+					};
+					class Unit2
+					{
+						position[] = {-5,-5,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "FP_CSL_D_B_JSDF_Soldier_GL_F";
+					};
+					class Unit3
+					{
+						position[] = {10,-10,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "FP_CSL_B_JSDF_Desert_RAT";
+					};				
+				};
+				class BJSDF_InfTeam_AA
+				{
+					faction = "FP_Faction_JSDF";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					name = "Air-defense Team";
+					side = 1;
+					class Unit0
+					{
+						position[] = {0,0,0};
+						rank = "SERGEANT";
+						side = 1;
+						vehicle = "FP_CSL_D_B_JSDF_Soldier_TL_F";
+					};
+					class Unit1
+					{
+						position[] = {5,-5,0};
+						rank = "CORPORAL";
+						side = 1;
+						vehicle = "FP_CSL_D_B_JSDF_Soldier_AA_F";
+					};
+					class Unit2
+					{
+						position[] = {-5,-5,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "FP_CSL_D_B_JSDF_Soldier_AA_F";
+					};
+					class Unit3
+					{
+						position[] = {10,-10,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "FP_CSL_D_B_JSDF_Soldier_AAA_F";
+					};				
+				};
+				class BJSDF_InfTeam_AT
+				{
+					faction = "FP_Faction_JSDF";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					name = "Anti-armor Team";
+					side = 1;
+					class Unit0
+					{
+						position[] = {0,0,0};
+						rank = "SERGEANT";
+						side = 1;
+						vehicle = "FP_CSL_D_B_JSDF_Soldier_TL_F";
+					};
+					class Unit1
+					{
+						position[] = {5,-5,0};
+						rank = "CORPORAL";
+						side = 1;
+						vehicle = "FP_CSL_D_B_JSDF_Soldier_AT_F";
+					};
+					class Unit2
+					{
+						position[] = {-5,-5,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "FP_CSL_D_B_JSDF_Soldier_AT_F";
+					};
+					class Unit3
+					{
+						position[] = {10,-10,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "FP_CSL_D_B_JSDF_Soldier_AAT_F";
+					};				
+				};
+			};		
 		};
 	};
 };
@@ -465,7 +806,7 @@ class cfgVehicles
 {
 	class B_Plane_Fighter_01_F;
 	class B_Plane_Fighter_01_Stealth_F;
-	class FP_Faction_JSDF_Plane_Fighter_01_F: B_Plane_Fighter_01_F
+	class FP_CSL_B_JSDF_Plane_Fighter_01_F: B_Plane_Fighter_01_F
 	{
 		class TextureSources
 		{
@@ -492,13 +833,13 @@ class cfgVehicles
 			};
 		};
 		author = "FP Mod Team";
-		crew = "FP_Faction_JSDF_Fighter_Pilot_F";
+		crew = "FP_CSL_B_JSDF_Fighter_Pilot_F";
 		displayName = "F/A-181J Black Wasp II";
 		faction = "FP_Faction_JSDF";
 		hiddenSelections[] = {"Camo1","Camo2","CamoGlass","camo_cockpit_1","camo_cockpit_2","camo_cockpit_3","camo_cockpit_5","number_01","number_02","number_03"};
 		hiddenSelectionsTextures[] = {"\fp_factions\JSDF\data\blackwasp\Fighter_01_fuselage_01_japan01_co.paa","\fp_factions\JSDF\data\blackwasp\Fighter_01_fuselage_02_japan01_co.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_glass_01_ca.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_01_co.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_02_co.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_03_co.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_05_co.paa","a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_01_ca.paa","a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_00_ca.paa","a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_01_ca.paa"};
 	};
-	class FP_Faction_JSDF_Plane_Fighter_01_Stealth_F: B_Plane_Fighter_01_Stealth_F
+	class FP_CSL_B_JSDF_Plane_Fighter_01_Stealth_F: B_Plane_Fighter_01_Stealth_F
 	{
 		class TextureSources
 		{
@@ -525,33 +866,33 @@ class cfgVehicles
 			};
 		};
 		author = "FP Mod Team";
-		crew = "FP_Faction_JSDF_Fighter_Pilot_F";
+		crew = "FP_CSL_B_JSDF_Fighter_Pilot_F";
 		displayName = "F/A-181J Black Wasp II (Stealth)";
 		faction = "FP_Faction_JSDF";
 		hiddenSelections[] = {"Camo1","Camo2","CamoGlass","camo_cockpit_1","camo_cockpit_2","camo_cockpit_3","camo_cockpit_5","number_01","number_02","number_03"};
 		hiddenSelectionsTextures[] = {"\fp_factions\JSDF\data\blackwasp\Fighter_01_fuselage_01_japan01_co.paa","\fp_factions\JSDF\data\blackwasp\Fighter_01_fuselage_02_japan01_co.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_glass_01_ca.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_01_co.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_02_co.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_03_co.paa","a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_05_co.paa","a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_01_ca.paa","a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_00_ca.paa","a3\air_f_jets\plane_fighter_01\data\Numbers\Fighter_01_01_ca.paa"};
 	};
 	class FP_C130_UF;
-	class FP_Faction_JSDF_C130_Hercules: FP_C130_UF
+	class FP_CSL_B_JSDF_C130_Hercules: FP_C130_UF
 	{
 		displayName = "C-130 Hercules";
-		crew = "FP_Faction_JSDF_Fighter_Pilot_F";
+		crew = "FP_CSL_B_JSDF_Fighter_Pilot_F";
 		faction = "FP_Faction_JSDF";
 		hiddenSelections[] = {"camo1","camo2"};
 		hiddenSelectionsTextures[] = {"\fp_factions\JSDF\data\hercules\c130j_body_co.paa","\fp_factions\JSDF\data\hercules\c130j_wings_co.paa"};
 	};	
 	class FP_GOR_B_T_APC_tracked_03_cannon_F;
-	class FP_Faction_JSDF_APC_tracked_03_cannon_F: FP_GOR_B_T_APC_tracked_03_cannon_F
+	class FP_CSL_B_JSDF_APC_tracked_03_cannon_F: FP_GOR_B_T_APC_tracked_03_cannon_F
 	{
 		displayName = "Type 89 IFV";
-		crew = "FP_Faction_JSDF_Crewman";
+		crew = "FP_CSL_B_JSDF_Crewman_F";
 		faction = "FP_Faction_JSDF";
 	};	
 	class FP_GOR_B_T_APC_Wheeled_03_cannon_F;
-	class FP_Faction_JSDF_APC_Wheeled_03_cannon_F: FP_GOR_B_T_APC_Wheeled_03_cannon_F
+	class FP_CSL_B_JSDF_APC_Wheeled_03_cannon_F: FP_GOR_B_T_APC_Wheeled_03_cannon_F
 	{
 		displayName = "Type 96 WAPC";
-		crew = "FP_Faction_JSDF_Crewman";
+		crew = "FP_CSL_B_JSDF_Crewman_F";
 		faction = "FP_Faction_JSDF";
 	};
 	class RHS_UH60M
@@ -567,9 +908,9 @@ class cfgVehicles
 			class CargoTurret_04;
 		};
 	};
-	class FP_Faction_JSDF_UH60M: RHS_UH60M
+	class FP_CSL_B_JSDF_UH60M: RHS_UH60M
 	{
-		crew = "FP_Faction_JSDF_Helipilot";
+		crew = "FP_CSL_B_JSDF_Helipilot_F";
 		faction = "FP_Faction_JSDF";
 		hiddenSelections[] = {"camo1","camo2","camo3","filter"};
 		hiddenSelectionsTextures[] = 
@@ -584,18 +925,18 @@ class cfgVehicles
 			class CopilotTurret;
 			class MainTurret: MainTurret
 			{
-				gunnerType = "FP_Faction_JSDF_Helicrew";
+				gunnerType = "FP_CSL_B_JSDF_Helicrew_F";
 			};
 			class RightDoorGun: RightDoorGun
 			{
-				gunnerType = "FP_Faction_JSDF_Helicrew";
+				gunnerType = "FP_CSL_B_JSDF_Helicrew_F";
 			};
 		};
 	};
 	class RHS_UH60M2;
-	class FP_Faction_JSDF_UH60M2: RHS_UH60M2
+	class FP_CSL_B_JSDF_UH60M2: RHS_UH60M2
 	{
-		crew = "FP_Faction_JSDF_Helipilot";
+		crew = "FP_CSL_B_JSDF_Helipilot_F";
 		faction = "FP_Faction_JSDF";
 		hiddenSelections[] = {"camo1","camo2","camo3","filter"};
 		hiddenSelectionsTextures[] = 
@@ -608,9 +949,9 @@ class cfgVehicles
 	};
 	class RHS_UH60M_ESSS;
 	class RHS_UH60M_ESSS2;
-	class FP_Faction_JSDF_UH60M_ESSS: RHS_UH60M_ESSS
+	class FP_CSL_B_JSDF_UH60M_ESSS: RHS_UH60M_ESSS
 	{
-		crew = "FP_Faction_JSDF_Helipilot";
+		crew = "FP_CSL_B_JSDF_Helipilot_F";
 		faction = "FP_Faction_JSDF";
 		hiddenSelections[] = {"camo1","camo2","camo3","filter"};
 		hiddenSelectionsTextures[] = 
@@ -621,9 +962,9 @@ class cfgVehicles
 			"rhsusf\addons\rhsusf_a2port_air\uh60m\data\uh60m_dust_filter_co.paa"
 		};
 	};	
-	class FP_Faction_JSDF_UH60M_ESSS2: RHS_UH60M_ESSS2
+	class FP_CSL_B_JSDF_UH60M_ESSS2: RHS_UH60M_ESSS2
 	{
-		crew = "FP_Faction_JSDF_Helipilot";
+		crew = "FP_CSL_B_JSDF_Helipilot_F";
 		faction = "FP_Faction_JSDF";
 		hiddenSelections[] = {"camo1","camo2","camo3","filter"};
 		hiddenSelectionsTextures[] = 
@@ -635,22 +976,22 @@ class cfgVehicles
 		};
 	};	
 	class RHS_CH_47F;
-	class FP_Faction_JSDF_CH_47F: RHS_CH_47F
+	class FP_CSL_B_JSDF_CH_47F: RHS_CH_47F
 	{
 		side = 1;
-		crew = "FP_Faction_JSDF_Helipilot";
+		crew = "FP_CSL_B_JSDF_Helipilot_F";
 		faction = "FP_Faction_JSDF";
-		typicalCargo[] = {"FP_Faction_JSDF_Helicrew"};
+		typicalCargo[] = {"FP_CSL_B_JSDF_Helicrew_F"};
 	};
 	class rhs_uh1h_hidf;
 	class rhs_uh1h_hidf_gunship;
 	class rhs_uh1h_hidf_unarmed;
-	class FP_Faction_JSDF_UH1H_Armed: rhs_uh1h_hidf
+	class FP_CSL_B_JSDF_UH1H_Armed: rhs_uh1h_hidf
 	{
 		side = 1;
-		crew = "FP_Faction_JSDF_Helipilot";
+		crew = "FP_CSL_B_JSDF_Helipilot_F";
 		faction = "FP_Faction_JSDF";
-		typicalCargo[] = {"FP_Faction_JSDF_Helicrew"};
+		typicalCargo[] = {"FP_CSL_B_JSDF_Helicrew_F"};
 		hiddenSelections[] = {"Camo1","Camo2","Camo_mlod","decals"};
 		hiddenSelectionsTextures[] = 
 		{
@@ -660,10 +1001,10 @@ class cfgVehicles
 			"\fp_factions\JSDF\data\huey\uh1h_jsdf_decals_ca.paa"
 		};
 	};
-	class FP_Faction_JSDF_UH1H_Gunship: rhs_uh1h_hidf_gunship
+	class FP_CSL_B_JSDF_UH1H_Gunship: rhs_uh1h_hidf_gunship
 	{
 		side = 1;
-		crew = "FP_Faction_JSDF_Helipilot";
+		crew = "FP_CSL_B_JSDF_Helipilot_F";
 		faction = "FP_Faction_JSDF";
 		hiddenSelections[] = {"Camo1","Camo2","Camo_mlod","decals"};
 		hiddenSelectionsTextures[] = 
@@ -674,10 +1015,10 @@ class cfgVehicles
 			"\fp_factions\JSDF\data\huey\uh1h_jsdf_decals_ca.paa"
 		};
 	};	
-	class FP_Faction_JSDF_UH1H_Unarmed: rhs_uh1h_hidf_unarmed
+	class FP_CSL_B_JSDF_UH1H_Unarmed: rhs_uh1h_hidf_unarmed
 	{
 		side = 1;
-		crew = "FP_Faction_JSDF_Helipilot";
+		crew = "FP_CSL_B_JSDF_Helipilot_F";
 		faction = "FP_Faction_JSDF";
 		hiddenSelections[] = {"Camo1","Camo2","Camo_mlod","decals"};
 		hiddenSelectionsTextures[] = 
@@ -689,9 +1030,9 @@ class cfgVehicles
 		};
 	};	
 	class RHS_AH64D_wd;
-	class FP_Faction_JSDF_AH64D_wd: RHS_AH64D_wd
+	class FP_CSL_B_JSDF_AH64D_wd: RHS_AH64D_wd
 	{
-		crew = "FP_Faction_JSDF_Helipilot";
+		crew = "FP_CSL_B_JSDF_Helipilot_F";
 		faction = "FP_Faction_JSDF";
 		hiddenSelections[] = {"camo1","camo2","camo3","Pilot_MFD_L","Pilot_MFD_R","Gunner_MFD_L","Gunner_MFD_R"};
 		hiddenSelectionsTextures[] = {"\fp_factions\JSDF\data\apache\AH64_body_jsdf.paa","\fp_factions\JSDF\data\apache\AH64_jsdf_d.paa","","#(argb,8,8,3)color(0,0,0,1.0,co)","#(argb,8,8,3)color(0,0,0,1.0,co)","#(argb,8,8,3)color(0,0,0,1.0,co)","#(argb,8,8,3)color(0,0,0,1.0,co)"};
@@ -700,57 +1041,75 @@ class cfgVehicles
 	class rhsusf_m998_w_4dr_fulltop;
 	class rhsusf_m998_w_2dr_fulltop;
 	class rhsusf_m1025_w_mk19;
-	class FP_Faction_JSDF_m1025_w_m2: rhsusf_m1025_w_m2
+	class FP_CSL_B_JSDF_m1025_w_m2: rhsusf_m1025_w_m2
 	{
 		side = 1;
-		crew = "FP_Faction_JSDF_Rifleman";
+		crew = "FP_CSL_B_JSDF_Soldier_F";
 		faction = "FP_Faction_JSDF";
 	};
-	class FP_Faction_JSDF_m998_w_4dr_fulltop: rhsusf_m998_w_4dr_fulltop
+	class FP_CSL_B_JSDF_m998_w_4dr_fulltop: rhsusf_m998_w_4dr_fulltop
 	{
 		side = 1;
-		crew = "FP_Faction_JSDF_Rifleman";
+		crew = "FP_CSL_B_JSDF_Soldier_F";
 		faction = "FP_Faction_JSDF";
 	};
-	class FP_Faction_JSDF_m998_w_2dr_fulltop: rhsusf_m998_w_2dr_fulltop
+	class FP_CSL_B_JSDF_m998_w_2dr_fulltop: rhsusf_m998_w_2dr_fulltop
 	{
 		side = 1;
-		crew = "FP_Faction_JSDF_Rifleman";
+		crew = "FP_CSL_B_JSDF_Soldier_F";
 		faction = "FP_Faction_JSDF";
 	};
-	class FP_Faction_JSDF_m1025_w_mk19: rhsusf_m1025_w_mk19
+	class FP_CSL_B_JSDF_m1025_w_mk19: rhsusf_m1025_w_mk19
 	{
 		side = 1;
-		crew = "FP_Faction_JSDF_Rifleman";
+		crew = "FP_CSL_B_JSDF_Soldier_F";
 		faction = "FP_Faction_JSDF";
 	};
-	class UK3CB_BAF_MAN_HX60_Cargo_Green_A;
+/*	class UK3CB_BAF_MAN_HX60_Cargo_Green_A;
 	class UK3CB_BAF_MAN_HX60_Cargo_Green_B;
 	class UK3CB_BAF_MAN_HX60_Fuel_Green;
 	class UK3CB_BAF_MAN_HX60_Repair_Green;
 	class UK3CB_BAF_MAN_HX60_Transport_Green;
-	class FP_Faction_JSDF_MAN_HX60_Cargo_Green_A: UK3CB_BAF_MAN_HX60_Cargo_Green_A
+	class FP_CSL_B_JSDF_MAN_HX60_Cargo_Green_A: UK3CB_BAF_MAN_HX60_Cargo_Green_A
 	{
 		side = 1;
-		crew = "FP_Faction_JSDF_Rifleman";
+		crew = "FP_CSL_B_JSDF_Soldier_F";
 		faction = "FP_Faction_JSDF";
 	};
-	class FP_Faction_JSDF_MAN_HX60_Cargo_Green_B: UK3CB_BAF_MAN_HX60_Cargo_Green_B
+	class FP_CSL_B_JSDF_MAN_HX60_Cargo_Green_B: UK3CB_BAF_MAN_HX60_Cargo_Green_B
 	{
 		side = 1;
-		crew = "FP_Faction_JSDF_Rifleman";
+		crew = "FP_CSL_B_JSDF_Soldier_F";
 		faction = "FP_Faction_JSDF";
-	};
+	};*/
 	class I_MBT_03_cannon_F;
-	class FP_Faction_JSDF_Type_90_MBT: I_MBT_03_cannon_F
+	class FP_CSL_B_JSDF_Type_90_MBT: I_MBT_03_cannon_F
 	{
 		side = 1;
-		crew = "FP_Faction_JSDF_Crewman";
+		crew = "FP_CSL_B_JSDF_Crewman_F";
 		displayName = "Type 90 Kyū-maru";
 		faction = "FP_Faction_JSDF";
 		hiddenSelections[] = {"Camo1","Camo2","Camo3","CamoNet"};
 		hiddenSelectionsTextures[] = {"\fp_factions\JSDF\data\leopard\MBT_03_ext01_JSDF_CO.paa","\fp_factions\JSDF\data\leopard\MBT_03_ext02_JSDF_CO.paa","\fp_factions\JSDF\data\leopard\MBT_03_RCWS_JSDF_CO.paa","A3\Armor_F\Data\camonet_NATO_Green_CO.paa"};
-	};	
+	};
+	class I_E_HMG_02_F;
+	class I_E_HMG_02_high_F;
+	class FP_CSL_B_JSDF_HMG_02_high_F: I_E_HMG_02_high_F
+	{
+		scope = 2;
+		scopeCurator = 2;
+		side = 1;
+		crew = "FP_CSL_B_JSDF_Soldier_F";
+		faction = "FP_Faction_JSDF";
+	};
+	class FP_CSL_B_JSDF_HMG_02_F: I_E_HMG_02_F
+	{
+		scope = 2;
+		scopeCurator = 2;
+		side = 1;
+		crew = "FP_CSL_B_JSDF_Soldier_F";
+		faction = "FP_Faction_JSDF";
+	};		
 	class B_AssaultPack_khk;
 	class JSDF_B_AssaultPack_MRAWS_HEAT55_F: B_AssaultPack_khk
 	{
@@ -909,7 +1268,7 @@ class cfgVehicles
 	};
 	class B_Soldier_F;
 	class B_Fighter_Pilot_F;
-	class FP_Faction_JSDF_Soldier_BASE: B_Soldier_F
+	class FP_JSDF_Soldier_BASE: B_Soldier_F
 	{
 		class Wounds
 		{
@@ -946,19 +1305,19 @@ class cfgVehicles
 		linkedItems[] = {"IBA_rifle_Jietai","FP_PASGT_Jietai_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"IBA_rifle_Jietai","FP_PASGT_Jietai_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class FP_Faction_JSDF_Rifleman: FP_Faction_JSDF_Soldier_BASE
+	class FP_CSL_B_JSDF_Soldier_F: FP_JSDF_Soldier_BASE
 	{
 		author = "FP Mod Team";
-		_generalMacro = "FP_Faction_JSDF_Soldier_BASE";
+		_generalMacro = "FP_JSDF_Soldier_BASE";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Rifleman";
 		cost = 100000;
 	};
-	class FP_Faction_JSDF_Unarmed: FP_Faction_JSDF_Soldier_BASE
+	class FP_CSL_B_JSDF_Soldier_unarmed_F: FP_JSDF_Soldier_BASE
 	{
 		author = "FP Mod Team";
-		_generalMacro = "FP_Faction_JSDF_Soldier_BASE";
+		_generalMacro = "FP_JSDF_Soldier_BASE";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Rifleman (Unarmed)";
@@ -968,17 +1327,17 @@ class cfgVehicles
 		respawnMagazines[] = {};
 		cost = 100000;
 	};
-	class FP_Faction_JSDF_AmmoBearer: FP_Faction_JSDF_Soldier_BASE
+	class FP_CSL_B_JSDF_Soldier_A_F: FP_JSDF_Soldier_BASE
 	{
 		author = "FP Mod Team";
-		_generalMacro = "FP_Faction_JSDF_Soldier_BASE";
+		_generalMacro = "FP_JSDF_Soldier_BASE";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Ammo Bearer";
 		backpack = "JSDF_B_Kitbag_sgg_Ammo";
 		cost = 100000;
 	};
-	class FP_Faction_JSDF_Rifleman_Gasmask: FP_Faction_JSDF_Rifleman
+	class FP_CSL_B_JSDF_Soldier_Gasmask_F: FP_CSL_B_JSDF_Soldier_F
 	{
 		displayName = "Rifleman (Gasmask)";
 		backpack = "FP_B_CombinationUnitRespirator_01_RegulatorMask_F";
@@ -986,10 +1345,10 @@ class cfgVehicles
 		respawnLinkedItems[] = {"IBA_rifle_Jietai","FP_PASGT_Jietai_Rhino","rhsusf_ANPVS_14","G_RegulatorMask_F","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		
 	};
-	class FP_Faction_JSDF_RAT: FP_Faction_JSDF_Soldier_BASE
+	class FP_CSL_B_JSDF_Soldier_LAT_F: FP_JSDF_Soldier_BASE
 	{
 		author = "FP Mod Team";
-		_generalMacro = "FP_Faction_JSDF_Soldier_BASE";
+		_generalMacro = "FP_JSDF_Soldier_BASE";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Rifleman (AT)";
@@ -1002,10 +1361,10 @@ class cfgVehicles
 		headgearProbability = 50;
 		allowedHeadgear[] = {"FP_PASGT_Jietai_Rhino","FP_PASGT_Jietai"};
 	};
-	class FP_Faction_JSDF_FST: FP_Faction_JSDF_Soldier_BASE
+	class FP_CSL_B_JSDF_Soldier_FSAT_F: FP_JSDF_Soldier_BASE
 	{
 		author = "FP Mod Team";
-		_generalMacro = "FP_Faction_JSDF_Soldier_BASE";
+		_generalMacro = "FP_JSDF_Soldier_BASE";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Rifleman (Fire Support AT)";
@@ -1018,7 +1377,7 @@ class cfgVehicles
 		headgearProbability = 50;
 		allowedHeadgear[] = {"FP_PASGT_Jietai_Rhino","FP_PASGT_Jietai"};
 	};
-	class FP_Faction_JSDF_AR: FP_Faction_JSDF_Soldier_BASE
+	class FP_CSL_B_JSDF_Soldier_AR_F: FP_JSDF_Soldier_BASE
 	{
 		class SpeechVariants
 		{
@@ -1047,7 +1406,7 @@ class cfgVehicles
 		linkedItems[] = {"IBA_MG_Jietai","FP_PASGT_Jietai_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"IBA_MG_Jietai","FP_PASGT_Jietai_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class FP_Faction_JSDF_AAR: FP_Faction_JSDF_Soldier_BASE
+	class FP_CSL_B_JSDF_Soldier_AAR_F: FP_JSDF_Soldier_BASE
 	{
 		author = "FP Mod Team";
 		scope = 2;
@@ -1057,10 +1416,10 @@ class cfgVehicles
 		cost = 65000;
 		threat[] = {1,0.1,0.3};
 	};
-	class FP_Faction_JSDF_GL: FP_Faction_JSDF_Soldier_BASE
+	class FP_CSL_B_JSDF_Soldier_GL_F: FP_JSDF_Soldier_BASE
 	{
 		author = "FP Mod Team";
-		_generalMacro = "FP_Faction_JSDF_Soldier_BASE";
+		_generalMacro = "FP_JSDF_Soldier_BASE";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Grenadier";
@@ -1070,7 +1429,7 @@ class cfgVehicles
 		magazines[] = {"hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		respawnMagazines[] = {"hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 	};
-	class FP_Faction_JSDF_Medic: FP_Faction_JSDF_Soldier_BASE
+	class FP_CSL_B_JSDF_Medic_F: FP_JSDF_Soldier_BASE
 	{
 		class SpeechVariants
 		{
@@ -1094,7 +1453,7 @@ class cfgVehicles
 		icon = "iconManMedic";
 		picture = "pictureHeal";
 	};
-	class FP_Faction_JSDF_M: FP_Faction_JSDF_Soldier_BASE
+	class FP_CSL_B_JSDF_Soldier_M_F: FP_JSDF_Soldier_BASE
 	{
 		class SpeechVariants
 		{
@@ -1120,7 +1479,7 @@ class cfgVehicles
 		RespawnItems[] = {"FirstAidKit","ACE_RangeCard"};
 		sensitivity = 3;
 	};
-	class FP_Faction_JSDF_MMG: FP_Faction_JSDF_Soldier_BASE
+	class FP_CSL_B_JSDF_Soldier_MMG_F: FP_JSDF_Soldier_BASE
 	{
 		class SpeechVariants
 		{
@@ -1149,7 +1508,7 @@ class cfgVehicles
 		linkedItems[] = {"IBA_MG_Jietai","FP_PASGT_Jietai_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"IBA_MG_Jietai","FP_PASGT_Jietai_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class FP_Faction_JSDF_AMMG: FP_Faction_JSDF_Soldier_BASE
+	class FP_CSL_B_JSDF_Soldier_AMMG_F: FP_JSDF_Soldier_BASE
 	{
 		author = "FP Mod Team";
 		scope = 2;
@@ -1159,7 +1518,7 @@ class cfgVehicles
 		cost = 65000;
 		threat[] = {1,0.1,0.3};
 	};
-	class FP_Faction_JSDF_Crewman: FP_Faction_JSDF_Soldier_BASE
+	class FP_CSL_B_JSDF_Crewman_F: FP_JSDF_Soldier_BASE
 	{
 		author = "FP Mod Team";
 		scope = 2;
@@ -1177,7 +1536,7 @@ class cfgVehicles
 		headgearProbability = 100;
 		allowedHeadgear[] = {"H_HelmetCrew_I"};
 	};
-	class FP_Faction_JSDF_Engineer: FP_Faction_JSDF_Soldier_BASE
+	class FP_CSL_B_JSDF_Engineer_F: FP_JSDF_Soldier_BASE
 	{
 		author = "FP Mod Team";
 		scope = 2;
@@ -1194,7 +1553,7 @@ class cfgVehicles
 		icon = "iconManEngineer";
 		picture = "pictureRepair";
 	};
-	class FP_Faction_JSDF_Helipilot: FP_Faction_JSDF_Crewman
+	class FP_CSL_B_JSDF_Helipilot_F: FP_CSL_B_JSDF_Crewman_F
 	{
 		displayName = "Helicopter Pilot";
 		linkedItems[] = {"V_TacVest_oli","rhsusf_hgu56p","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
@@ -1202,7 +1561,7 @@ class cfgVehicles
 		headgearProbability = 50;
 		allowedHeadgear[] = {"rhsusf_hgu56p","rhsusf_hgu56p_visor"};
 	};
-	class FP_Faction_JSDF_Helicrew: FP_Faction_JSDF_Helipilot
+	class FP_CSL_B_JSDF_Helicrew_F: FP_CSL_B_JSDF_Helipilot_F
 	{
 		displayName = "Helicopter Crew";
 		linkedItems[] = {"V_TacVest_oli","rhsusf_hgu56p_mask","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
@@ -1210,7 +1569,7 @@ class cfgVehicles
 		headgearProbability = 50;
 		allowedHeadgear[] = {"rhsusf_hgu56p_mask","rhsusf_hgu56p_visor_mask"};
 	};
-	class FP_Faction_JSDF_SL: FP_Faction_JSDF_Soldier_BASE
+	class FP_CSL_B_JSDF_Soldier_SL_F: FP_JSDF_Soldier_BASE
 	{
 		author = "FP Mod Team";
 		scope = 2;
@@ -1227,7 +1586,7 @@ class cfgVehicles
 		linkedItems[] = {"IBA_rifle_Jietai","FP_PASGT_Jietai_Rhino","rhsusf_ANPVS_14","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"IBA_rifle_Jietai","FP_PASGT_Jietai_Rhino","rhsusf_ANPVS_14","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class FP_Faction_JSDF_TL: FP_Faction_JSDF_Soldier_BASE
+	class FP_CSL_B_JSDF_Soldier_TL_F: FP_JSDF_Soldier_BASE
 	{
 		author = "FP Mod Team";
 		scope = 2;
@@ -1244,10 +1603,10 @@ class cfgVehicles
 		linkedItems[] = {"IBA_rifle_Jietai","FP_PASGT_Jietai_Rhino","rhsusf_ANPVS_14","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"IBA_rifle_Jietai","FP_PASGT_Jietai_Rhino","rhsusf_ANPVS_14","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class FP_Faction_JSDF_MANPADS: FP_Faction_JSDF_Soldier_BASE
+	class FP_CSL_B_JSDF_Soldier_AA_F: FP_JSDF_Soldier_BASE
 	{
 		author = "FP Mod Team";
-		_generalMacro = "FP_Faction_JSDF_Soldier_BASE";
+		_generalMacro = "FP_JSDF_Soldier_BASE";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Missile Specialist (AA)";
@@ -1258,20 +1617,20 @@ class cfgVehicles
 		backpack = "JSDF_B_Carryall_oli_AA";
 		cost = 100000;
 	};
-	class FP_Faction_JSDF_AMANPADS: FP_Faction_JSDF_Soldier_BASE
+	class FP_CSL_B_JSDF_Soldier_AAA_F: FP_JSDF_Soldier_BASE
 	{
 		author = "FP Mod Team";
-		_generalMacro = "FP_Faction_JSDF_Soldier_BASE";
+		_generalMacro = "FP_JSDF_Soldier_BASE";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Asst. Missile Specialist (AA)";
 		backpack = "JSDF_B_Carryall_oli_AA";
 		cost = 100000;
 	};
-	class FP_Faction_JSDF_LAT: FP_Faction_JSDF_Soldier_BASE
+	class FP_CSL_B_JSDF_Soldier_AT_F: FP_JSDF_Soldier_BASE
 	{
 		author = "FP Mod Team";
-		_generalMacro = "FP_Faction_JSDF_Soldier_BASE";
+		_generalMacro = "FP_JSDF_Soldier_BASE";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Missile Specialist (AT)";
@@ -1284,17 +1643,17 @@ class cfgVehicles
 		headgearProbability = 50;
 		allowedHeadgear[] = {"FP_PASGT_Jietai_Rhino","FP_PASGT_Jietai"};
 	};
-	class FP_Faction_JSDF_ALAT: FP_Faction_JSDF_Soldier_BASE
+	class FP_CSL_B_JSDF_Soldier_AAT_F: FP_JSDF_Soldier_BASE
 	{
 		author = "FP Mod Team";
-		_generalMacro = "FP_Faction_JSDF_Soldier_BASE";
+		_generalMacro = "FP_JSDF_Soldier_BASE";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Asst. Missile Specialist (AT)";
 		backpack = "JSDF_B_Carryall_oli_AT";
 		cost = 100000;
 	};	
-	class FP_Faction_JSDF_Fighter_Pilot_F: B_Fighter_Pilot_F
+	class FP_CSL_B_JSDF_Fighter_Pilot_F: B_Fighter_Pilot_F
 	{
 		author = "FP Mod Team";
         identityTypes[] = {"LanguageCHI_F","Head_Asian","G_HAF_default"};
@@ -1303,7 +1662,7 @@ class cfgVehicles
 		uniformClass = "U_I_pilotCoveralls";
 	};
 	
-	class FP_Faction_JSDF_SFGp_Soldier_BASE: B_Soldier_F
+	class FP_CSL_B_JSDF_SFGp_Soldier_BASE: B_Soldier_F
 	{
 		class Wounds
 		{
@@ -1341,10 +1700,10 @@ class cfgVehicles
 		linkedItems[] = {"VSM_LBT6094_operator_OGA","rhsusf_ach_bare","rhsusf_ANPVS_15","G_Balaclava_TI_blk_F","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"VSM_LBT6094_operator_OGA","rhsusf_ach_bare","rhsusf_ANPVS_15","G_Balaclava_TI_blk_F","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class FP_Faction_JSDF_SFGp_Scout: FP_Faction_JSDF_SFGp_Soldier_BASE
+	class FP_CSL_B_JSDF_SFGp_Scout: FP_CSL_B_JSDF_SFGp_Soldier_BASE
 	{
 		author = "FP Mod Team";
-		_generalMacro = "FP_Faction_JSDF_SFGp_Soldier_BASE";
+		_generalMacro = "FP_CSL_B_JSDF_SFGp_Soldier_BASE";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Recon Scout";
@@ -1353,7 +1712,7 @@ class cfgVehicles
 		allowedHeadgear[] = {"rhsusf_ach_bare","rhsusf_ach_bare_ess"};
 	};
 	class I_Sniper_F;
-	class FP_Faction_JSDF_SFGp_Sniper: I_Sniper_F 
+	class FP_CSL_B_JSDF_SFGp_Sniper: I_Sniper_F 
 	{
 		side = 1;
 		scope = 2;
@@ -1374,7 +1733,7 @@ class cfgVehicles
 	
 	
 	
-	class FP_Faction_JSDF_Desert_Rifleman: FP_Faction_JSDF_Rifleman
+	class FP_CSL_D_B_JSDF_Soldier_F: FP_CSL_B_JSDF_Soldier_F
 	{
 		vehicleClass = "fp_men_desert";
 	    editorSubcategory = "fp_men_desert_EdSubcat";
@@ -1382,7 +1741,7 @@ class cfgVehicles
 		linkedItems[] = {"IBA_rifle_Jietai_Desert","FP_PASGT_Jietai_Desert_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"IBA_rifle_Jietai_Desert","FP_PASGT_Jietai_Desert_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class FP_Faction_JSDF_Desert_Unarmed: FP_Faction_JSDF_Unarmed
+	class FP_CSL_D_B_JSDF_Soldier_unarmed_F: FP_CSL_B_JSDF_Soldier_unarmed_F
 	{
 		vehicleClass = "fp_men_desert";
 	    editorSubcategory = "fp_men_desert_EdSubcat";
@@ -1390,7 +1749,7 @@ class cfgVehicles
 		linkedItems[] = {"IBA_rifle_Jietai_Desert","FP_PASGT_Jietai_Desert_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"IBA_rifle_Jietai_Desert","FP_PASGT_Jietai_Desert_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class FP_Faction_JSDF_Desert_AmmoBearer: FP_Faction_JSDF_AmmoBearer
+	class FP_CSL_D_B_JSDF_Soldier_A_F: FP_CSL_B_JSDF_Soldier_A_F
 	{
 		vehicleClass = "fp_men_desert";
 	    editorSubcategory = "fp_men_desert_EdSubcat";
@@ -1398,7 +1757,7 @@ class cfgVehicles
 		linkedItems[] = {"IBA_rifle_Jietai_Desert","FP_PASGT_Jietai_Desert_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"IBA_rifle_Jietai_Desert","FP_PASGT_Jietai_Desert_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class FP_Faction_JSDF_Desert_Rifleman_Gasmask: FP_Faction_JSDF_Rifleman_Gasmask
+	class FP_CSL_D_B_JSDF_Soldier_F_Gasmask: FP_CSL_B_JSDF_Soldier_Gasmask_F
 	{
 		vehicleClass = "fp_men_desert";
 	    editorSubcategory = "fp_men_desert_EdSubcat";
@@ -1406,7 +1765,7 @@ class cfgVehicles
 		linkedItems[] = {"IBA_rifle_Jietai_Desert","FP_PASGT_Jietai_Desert_Rhino","rhsusf_ANPVS_14","G_RegulatorMask_F","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"IBA_rifle_Jietai_Desert","FP_PASGT_Jietai_Desert_Rhino","rhsusf_ANPVS_14","G_RegulatorMask_F","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class FP_Faction_JSDF_Desert_RAT: FP_Faction_JSDF_RAT
+	class FP_CSL_B_JSDF_Desert_RAT: FP_CSL_B_JSDF_Soldier_LAT_F
 	{
 		vehicleClass = "fp_men_desert";
 	    editorSubcategory = "fp_men_desert_EdSubcat";
@@ -1414,7 +1773,7 @@ class cfgVehicles
 		linkedItems[] = {"IBA_rifle_Jietai_Desert","FP_PASGT_Jietai_Desert_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"IBA_rifle_Jietai_Desert","FP_PASGT_Jietai_Desert_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class FP_Faction_JSDF_Desert_FST: FP_Faction_JSDF_FST
+	class FP_CSL_B_JSDF_Desert_FST: FP_CSL_B_JSDF_Soldier_FSAT_F
 	{
 		vehicleClass = "fp_men_desert";
 	    editorSubcategory = "fp_men_desert_EdSubcat";
@@ -1422,7 +1781,7 @@ class cfgVehicles
 		linkedItems[] = {"IBA_rifle_Jietai_Desert","FP_PASGT_Jietai_Desert_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"IBA_rifle_Jietai_Desert","FP_PASGT_Jietai_Desert_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class FP_Faction_JSDF_Desert_AR: FP_Faction_JSDF_AR
+	class FP_CSL_D_B_JSDF_Soldier_AR_F: FP_CSL_B_JSDF_Soldier_AR_F
 	{
 		vehicleClass = "fp_men_desert";
 	    editorSubcategory = "fp_men_desert_EdSubcat";
@@ -1430,7 +1789,7 @@ class cfgVehicles
 		linkedItems[] = {"IBA_MG_Jietai_Desert","FP_PASGT_Jietai_Desert_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"IBA_MG_Jietai_Desert","FP_PASGT_Jietai_Desert_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class FP_Faction_JSDF_Desert_AAR: FP_Faction_JSDF_AAR
+	class FP_CSL_D_B_JSDF_Soldier_AAR_F: FP_CSL_B_JSDF_Soldier_AAR_F
 	{
 		vehicleClass = "fp_men_desert";
 	    editorSubcategory = "fp_men_desert_EdSubcat";
@@ -1438,7 +1797,7 @@ class cfgVehicles
 		linkedItems[] = {"IBA_rifle_Jietai_Desert","FP_PASGT_Jietai_Desert_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"IBA_rifle_Jietai_Desert","FP_PASGT_Jietai_Desert_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class FP_Faction_JSDF_Desert_M: FP_Faction_JSDF_M
+	class FP_CSL_D_B_JSDF_Soldier_M_F: FP_CSL_B_JSDF_Soldier_M_F
 	{
 		vehicleClass = "fp_men_desert";
 	    editorSubcategory = "fp_men_desert_EdSubcat";
@@ -1446,7 +1805,7 @@ class cfgVehicles
 		linkedItems[] = {"IBA_rifle_Jietai_Desert","FP_PASGT_Jietai_Desert_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"IBA_rifle_Jietai_Desert","FP_PASGT_Jietai_Desert_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class FP_Faction_JSDF_Desert_Medic: FP_Faction_JSDF_Medic
+	class FP_CSL_D_B_JSDF_Medic_F: FP_CSL_B_JSDF_Medic_F
 	{
 		vehicleClass = "fp_men_desert";
 	    editorSubcategory = "fp_men_desert_EdSubcat";
@@ -1454,7 +1813,7 @@ class cfgVehicles
 		linkedItems[] = {"IBA_rifle_Jietai_Desert","FP_PASGT_Jietai_Desert_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"IBA_rifle_Jietai_Desert","FP_PASGT_Jietai_Desert_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class FP_Faction_JSDF_Desert_MMG: FP_Faction_JSDF_MMG
+	class FP_CSL_D_B_JSDF_Soldier_MMG_F: FP_CSL_B_JSDF_Soldier_MMG_F
 	{
 		vehicleClass = "fp_men_desert";
 	    editorSubcategory = "fp_men_desert_EdSubcat";
@@ -1462,7 +1821,7 @@ class cfgVehicles
 		linkedItems[] = {"IBA_rifle_Jietai_Desert","FP_PASGT_Jietai_Desert_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"IBA_rifle_Jietai_Desert","FP_PASGT_Jietai_Desert_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class FP_Faction_JSDF_Desert_AMMG: FP_Faction_JSDF_AMMG
+	class FP_CSL_D_B_JSDF_Soldier_AMMG_F: FP_CSL_B_JSDF_Soldier_AMMG_F
 	{
 		vehicleClass = "fp_men_desert";
 	    editorSubcategory = "fp_men_desert_EdSubcat";
@@ -1470,7 +1829,7 @@ class cfgVehicles
 		linkedItems[] = {"IBA_rifle_Jietai_Desert","FP_PASGT_Jietai_Desert_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"IBA_rifle_Jietai_Desert","FP_PASGT_Jietai_Desert_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class FP_Faction_JSDF_Desert_Crewman: FP_Faction_JSDF_Crewman
+	class FP_CSL_D_B_JSDF_Crewman_F: FP_CSL_B_JSDF_Crewman_F
 	{
 		vehicleClass = "fp_men_desert";
 	    editorSubcategory = "fp_men_desert_EdSubcat";
@@ -1478,7 +1837,7 @@ class cfgVehicles
 		linkedItems[] = {"IBA_blank_Jietai_Desert","H_HelmetCrew_I","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"IBA_blank_Jietai_Desert","H_HelmetCrew_I","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class FP_Faction_JSDF_Desert_Engineer: FP_Faction_JSDF_Engineer
+	class FP_CSL_D_B_JSDF_Engineer_F: FP_CSL_B_JSDF_Engineer_F
 	{
 		vehicleClass = "fp_men_desert";
 	    editorSubcategory = "fp_men_desert_EdSubcat";
@@ -1486,7 +1845,7 @@ class cfgVehicles
 		linkedItems[] = {"IBA_rifle_Jietai_Desert","FP_PASGT_Jietai_Desert_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"IBA_rifle_Jietai_Desert","FP_PASGT_Jietai_Desert_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class FP_Faction_JSDF_Desert_Helipilot: FP_Faction_JSDF_Helipilot
+	class FP_CSL_D_B_JSDF_Helipilot_F: FP_CSL_B_JSDF_Helipilot_F
 	{
 		vehicleClass = "fp_men_desert";
 	    editorSubcategory = "fp_men_desert_EdSubcat";
@@ -1494,7 +1853,7 @@ class cfgVehicles
 		linkedItems[] = {"V_TacVest_khk","rhsusf_hgu56p_mask","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_TacVest_khk","rhsusf_hgu56p_mask","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class FP_Faction_JSDF_Desert_Helicrew: FP_Faction_JSDF_Helicrew
+	class FP_CSL_D_B_JSDF_Helicrew_F: FP_CSL_B_JSDF_Helicrew_F
 	{
 		vehicleClass = "fp_men_desert";
 	    editorSubcategory = "fp_men_desert_EdSubcat";
@@ -1502,7 +1861,7 @@ class cfgVehicles
 		linkedItems[] = {"V_TacVest_khk","rhsusf_hgu56p_mask","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_TacVest_khk","rhsusf_hgu56p_mask","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class FP_Faction_JSDF_Desert_SL: FP_Faction_JSDF_SL
+	class FP_CSL_D_B_JSDF_Soldier_SL_F: FP_CSL_B_JSDF_Soldier_SL_F
 	{
 		vehicleClass = "fp_men_desert";
 	    editorSubcategory = "fp_men_desert_EdSubcat";
@@ -1510,7 +1869,7 @@ class cfgVehicles
 		linkedItems[] = {"IBA_rifle_Jietai_Desert","FP_PASGT_Jietai_Desert_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"IBA_rifle_Jietai_Desert","FP_PASGT_Jietai_Desert_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class FP_Faction_JSDF_Desert_TL: FP_Faction_JSDF_TL
+	class FP_CSL_D_B_JSDF_Soldier_TL_F: FP_CSL_B_JSDF_Soldier_TL_F
 	{
 		vehicleClass = "fp_men_desert";
 	    editorSubcategory = "fp_men_desert_EdSubcat";
@@ -1518,7 +1877,7 @@ class cfgVehicles
 		linkedItems[] = {"IBA_rifle_Jietai_Desert","FP_PASGT_Jietai_Desert_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"IBA_rifle_Jietai_Desert","FP_PASGT_Jietai_Desert_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class FP_Faction_JSDF_Desert_MANPADS: FP_Faction_JSDF_MANPADS
+	class FP_CSL_D_B_JSDF_Soldier_GL_F: FP_CSL_B_JSDF_Soldier_GL_F
 	{
 		vehicleClass = "fp_men_desert";
 	    editorSubcategory = "fp_men_desert_EdSubcat";
@@ -1526,7 +1885,7 @@ class cfgVehicles
 		linkedItems[] = {"IBA_rifle_Jietai_Desert","FP_PASGT_Jietai_Desert_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"IBA_rifle_Jietai_Desert","FP_PASGT_Jietai_Desert_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class FP_Faction_JSDF_Desert_AMANPADS: FP_Faction_JSDF_AMANPADS
+	class FP_CSL_D_B_JSDF_Soldier_AA_F: FP_CSL_B_JSDF_Soldier_AA_F
 	{
 		vehicleClass = "fp_men_desert";
 	    editorSubcategory = "fp_men_desert_EdSubcat";
@@ -1534,7 +1893,7 @@ class cfgVehicles
 		linkedItems[] = {"IBA_rifle_Jietai_Desert","FP_PASGT_Jietai_Desert_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"IBA_rifle_Jietai_Desert","FP_PASGT_Jietai_Desert_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class FP_Faction_JSDF_Desert_LAT: FP_Faction_JSDF_LAT
+	class FP_CSL_D_B_JSDF_Soldier_AAA_F: FP_CSL_B_JSDF_Soldier_AAA_F
 	{
 		vehicleClass = "fp_men_desert";
 	    editorSubcategory = "fp_men_desert_EdSubcat";
@@ -1542,7 +1901,15 @@ class cfgVehicles
 		linkedItems[] = {"IBA_rifle_Jietai_Desert","FP_PASGT_Jietai_Desert_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"IBA_rifle_Jietai_Desert","FP_PASGT_Jietai_Desert_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class FP_Faction_JSDF_Desert_ALAT: FP_Faction_JSDF_ALAT
+	class FP_CSL_D_B_JSDF_Soldier_AT_F: FP_CSL_B_JSDF_Soldier_AT_F
+	{
+		vehicleClass = "fp_men_desert";
+	    editorSubcategory = "fp_men_desert_EdSubcat";
+		uniformClass = "FP_Uniform_Jietai_Desert";
+		linkedItems[] = {"IBA_rifle_Jietai_Desert","FP_PASGT_Jietai_Desert_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"IBA_rifle_Jietai_Desert","FP_PASGT_Jietai_Desert_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	};
+	class FP_CSL_D_B_JSDF_Soldier_AAT_F: FP_CSL_B_JSDF_Soldier_AAT_F
 	{
 		vehicleClass = "fp_men_desert";
 	    editorSubcategory = "fp_men_desert_EdSubcat";
@@ -1551,7 +1918,7 @@ class cfgVehicles
 		respawnLinkedItems[] = {"IBA_rifle_Jietai_Desert","FP_PASGT_Jietai_Desert_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
 	
-	class FP_Faction_JSDF_Airborne_BASE: FP_Faction_JSDF_Soldier_BASE
+	class FP_JSDF_Airborne_BASE: FP_JSDF_Soldier_BASE
 	{
 		class Wounds
 		{
@@ -1565,23 +1932,23 @@ class cfgVehicles
 		linkedItems[] = {"V_TacChestrig_oli_F","FP_PASGT_Jietai_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_TacChestrig_oli_F","FP_PASGT_Jietai_Rhino","rhsusf_ANPVS_14","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class FP_Faction_JSDF_Paratrooper_BASE: FP_Faction_JSDF_Airborne_BASE
+	class FP_JSDF_Paratrooper_BASE: FP_JSDF_Airborne_BASE
 	{
 		backpack = "B_Parachute";
 	};
-	class FP_Faction_JSDF_Airborne_Rifleman: FP_Faction_JSDF_Airborne_BASE
+	class FP_CSL_B_JSDF_Airborne_F: FP_JSDF_Airborne_BASE
 	{
 		author = "FP Mod Team";
-		_generalMacro = "FP_Faction_JSDF_Soldier_BASE";
+		_generalMacro = "FP_JSDF_Soldier_BASE";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Airborne Rifleman";
 		cost = 100000;
 	};
-	class FP_Faction_JSDF_Airborne_Unarmed: FP_Faction_JSDF_Airborne_BASE
+	class FP_CSL_B_JSDF_Airborne_unarmed_F: FP_JSDF_Airborne_BASE
 	{
 		author = "FP Mod Team";
-		_generalMacro = "FP_Faction_JSDF_Airborne_BASE";
+		_generalMacro = "FP_JSDF_Airborne_BASE";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Airborne Rifleman (Unarmed)";
@@ -1591,10 +1958,10 @@ class cfgVehicles
 		respawnMagazines[] = {};
 		cost = 100000;
 	};
-	class FP_Faction_JSDF_Airborne_RAT: FP_Faction_JSDF_Airborne_BASE
+	class FP_CSL_B_JSDF_Airborne_LAT_F: FP_JSDF_Airborne_BASE
 	{
 		author = "FP Mod Team";
-		_generalMacro = "FP_Faction_JSDF_Airborne_BASE";
+		_generalMacro = "FP_JSDF_Airborne_BASE";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Airborne Rifleman (AT)";
@@ -1603,7 +1970,7 @@ class cfgVehicles
 		cost = 100000;
 	};
 
-	class FP_Faction_JSDF_Airborne_AR: FP_Faction_JSDF_Airborne_BASE
+	class FP_CSL_B_JSDF_Airborne_AR_F: FP_JSDF_Airborne_BASE
 	{
 		class SpeechVariants
 		{
@@ -1635,7 +2002,7 @@ class cfgVehicles
 		threat[] = {1,0.1,0.3};
 		icon = "iconManMG";
 	};
-	class FP_Faction_JSDF_Airborne_M: FP_Faction_JSDF_Airborne_BASE
+	class FP_CSL_B_JSDF_Airborne_M_F: FP_JSDF_Airborne_BASE
 	{
 		class SpeechVariants
 		{
@@ -1661,7 +2028,7 @@ class cfgVehicles
 		RespawnItems[] = {"FirstAidKit","ACE_RangeCard"};
 		sensitivity = 3;
 	};
-	class FP_Faction_JSDF_Airborne_MMG: FP_Faction_JSDF_Airborne_AR
+	class FP_CSL_B_JSDF_Airborne_MMG_F: FP_CSL_B_JSDF_Airborne_AR_F
 	{
 		displayName = "Airborne Machinegunner";  
 		weapons[] = {"rhs_weap_m240G","RH_p226","Throw","Put"};
@@ -1669,20 +2036,53 @@ class cfgVehicles
 		magazines[] = {"rhsusf_50Rnd_762x51","rhsusf_50Rnd_762x51","rhsusf_50Rnd_762x51","rhsusf_50Rnd_762x51","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
 		respawnMagazines[] = {"rhsusf_50Rnd_762x51","rhsusf_50Rnd_762x51","rhsusf_50Rnd_762x51","rhsusf_50Rnd_762x51","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
 	};
-	
-	class FP_Faction_JSDF_Paratrooper_Rifleman: FP_Faction_JSDF_Paratrooper_BASE
+	class FP_CSL_B_JSDF_Airborne_SL_F: FP_JSDF_Airborne_BASE
 	{
 		author = "FP Mod Team";
-		_generalMacro = "FP_Faction_JSDF_Soldier_BASE";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "Airborne Squad Leader";
+		weapons[] = {"FP_hlc_rifle_ACR_carb_black_rhsusf_acc_acog","RH_p226","Throw","Put","Binocular"};
+		respawnWeapons[] = {"FP_hlc_rifle_ACR_carb_black_rhsusf_acc_acog","RH_p226","Throw","Put","Binocular"};
+		magazines[] = {"hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","hlc_30rnd_556x45_EPR","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
+		cost = 500000;
+		camouflage = 1.6;
+		sensitivity = 3;
+		icon = "iconManLeader";
+		linkedItems[] = {"V_TacChestrig_oli_F","FP_PASGT_Jietai_Rhino","rhsusf_ANPVS_14","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacChestrig_oli_F","FP_PASGT_Jietai_Rhino","rhsusf_ANPVS_14","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	};
+	class FP_CSL_B_JSDF_Airborne_TL_F: FP_JSDF_Airborne_BASE
+	{
+		author = "FP Mod Team";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "Airborne Team Leader";
+		weapons[] = {"FP_hlc_rifle_ACR_GL_SBR_black_rhsusf_acc_acog","RH_p226","Throw","Put","Binocular"};
+		respawnWeapons[] = {"FP_hlc_rifle_ACR_GL_SBR_black_rhsusf_acc_acog","RH_p226","Throw","Put","Binocular"};
+		magazines[] = {"hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
+		cost = 450000;
+		camouflage = 1.6;
+		sensitivity = 3;
+		icon = "iconManLeader";
+		linkedItems[] = {"V_TacChestrig_oli_F","FP_PASGT_Jietai_Rhino","rhsusf_ANPVS_14","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacChestrig_oli_F","FP_PASGT_Jietai_Rhino","rhsusf_ANPVS_14","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	};
+	class FP_CSL_B_JSDF_Paratrooper_F: FP_JSDF_Paratrooper_BASE
+	{
+		author = "FP Mod Team";
+		_generalMacro = "FP_JSDF_Soldier_BASE";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Paratrooper";
 		cost = 100000;
 	};
-	class FP_Faction_JSDF_Paratrooper_Unarmed: FP_Faction_JSDF_Paratrooper_BASE
+	class FP_CSL_B_JSDF_Paratrooper_unarmed_F: FP_JSDF_Paratrooper_BASE
 	{
 		author = "FP Mod Team";
-		_generalMacro = "FP_Faction_JSDF_Paratrooper_BASE";
+		_generalMacro = "FP_JSDF_Paratrooper_BASE";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Paratrooper (Unarmed)";
@@ -1692,10 +2092,10 @@ class cfgVehicles
 		respawnMagazines[] = {};
 		cost = 100000;
 	};
-	class FP_Faction_JSDF_Paratrooper_RAT: FP_Faction_JSDF_Paratrooper_BASE
+	class FP_CSL_B_JSDF_Paratrooper_LAT_F: FP_JSDF_Paratrooper_BASE
 	{
 		author = "FP Mod Team";
-		_generalMacro = "FP_Faction_JSDF_Paratrooper_BASE";
+		_generalMacro = "FP_JSDF_Paratrooper_BASE";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Paratrooper (AT)";
@@ -1704,7 +2104,7 @@ class cfgVehicles
 		cost = 100000;
 	};
 
-	class FP_Faction_JSDF_Paratrooper_AR: FP_Faction_JSDF_Paratrooper_BASE
+	class FP_CSL_B_JSDF_Paratrooper_AR_F: FP_JSDF_Paratrooper_BASE
 	{
 		class SpeechVariants
 		{
@@ -1736,7 +2136,7 @@ class cfgVehicles
 		threat[] = {1,0.1,0.3};
 		icon = "iconManMG";
 	};
-	class FP_Faction_JSDF_Paratrooper_M: FP_Faction_JSDF_Paratrooper_BASE
+	class FP_CSL_B_JSDF_Paratrooper_M_F: FP_JSDF_Paratrooper_BASE
 	{
 		class SpeechVariants
 		{
@@ -1762,13 +2162,47 @@ class cfgVehicles
 		RespawnItems[] = {"FirstAidKit","ACE_RangeCard"};
 		sensitivity = 3;
 	};
-	class FP_Faction_JSDF_Paratrooper_MMG: FP_Faction_JSDF_Paratrooper_AR
+	class FP_CSL_B_JSDF_Paratrooper_MMG_F: FP_CSL_B_JSDF_Paratrooper_AR_F
 	{
 		displayName = "Paratrooper Machinegunner";  
 		weapons[] = {"rhs_weap_m240G","RH_p226","Throw","Put"};
 		respawnWeapons[] = {"rhs_weap_m240G","RH_p226","Throw","Put"};
 		magazines[] = {"rhsusf_50Rnd_762x51","rhsusf_50Rnd_762x51","rhsusf_50Rnd_762x51","rhsusf_50Rnd_762x51","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
 		respawnMagazines[] = {"rhsusf_50Rnd_762x51","rhsusf_50Rnd_762x51","rhsusf_50Rnd_762x51","rhsusf_50Rnd_762x51","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
+	};
+	class FP_CSL_B_JSDF_Paratrooper_SL_F: FP_JSDF_Airborne_BASE
+	{
+		author = "FP Mod Team";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "Paratrooper Squad Leader";
+		weapons[] = {"FP_hlc_rifle_ACR_carb_black_rhsusf_acc_acog","RH_p226","Throw","Put","Binocular"};
+		respawnWeapons[] = {"FP_hlc_rifle_ACR_carb_black_rhsusf_acc_acog","RH_p226","Throw","Put","Binocular"};
+		magazines[] = {"hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","hlc_30rnd_556x45_EPR","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
+		cost = 500000;
+		camouflage = 1.6;
+		sensitivity = 3;
+		icon = "iconManLeader";
+		linkedItems[] = {"V_TacChestrig_oli_F","FP_PASGT_Jietai_Rhino","rhsusf_ANPVS_14","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacChestrig_oli_F","FP_PASGT_Jietai_Rhino","rhsusf_ANPVS_14","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	};
+	class FP_CSL_B_JSDF_Paratrooper_TL_F: FP_JSDF_Airborne_BASE
+	{
+		author = "FP Mod Team";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "Paratrooper Team Leader";
+		weapons[] = {"FP_hlc_rifle_ACR_GL_SBR_black_rhsusf_acc_acog","RH_p226","Throw","Put","Binocular"};
+		respawnWeapons[] = {"FP_hlc_rifle_ACR_GL_SBR_black_rhsusf_acc_acog","RH_p226","Throw","Put","Binocular"};
+		magazines[] = {"hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_EPR","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
+		cost = 450000;
+		camouflage = 1.6;
+		sensitivity = 3;
+		icon = "iconManLeader";
+		linkedItems[] = {"V_TacChestrig_oli_F","FP_PASGT_Jietai_Rhino","rhsusf_ANPVS_14","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_TacChestrig_oli_F","FP_PASGT_Jietai_Rhino","rhsusf_ANPVS_14","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
 };
 
