@@ -1210,4 +1210,168 @@ class CfgWeapons
 			uniformClass="FP_GOR_og107_mk3_finnishm62_tuck_trop_blench";
 		};
 	};
+	
+	class FP_GOR_Uniform_og107_mk3_klmkwhite_blench: U_Simc_OG107_mk3_blench
+	{
+		scope=2;
+		displayName="OG-107 (Berezhka White, untucked)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_klmkwhite_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_klmkwhite_trop_blench: U_Simc_OG107_mk3_trop_blench
+	{
+		scope=2;
+		displayName="OG-107 (Berezhka White, untucked, sleeves)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_klmkwhite_trop_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_klmkwhite_tuck_blench: U_Simc_OG107_mk3_tuck_blench
+	{
+		scope=2;
+		displayName="OG-107 (Berezhka White, tucked)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_klmkwhite_tuck_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_klmkwhite_tuck_trop_blench: U_Simc_OG107_mk3_tuck_trop_blench
+	{
+		scope=2;
+		displayName="OG-107 (Berezhka White, tucked, sleeves)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_klmkwhite_tuck_trop_blench";
+		};
+	};
+	
+	class FP_GOR_Uniform_og107_mk3_klmkyellow_blench: U_Simc_OG107_mk3_blench
+	{
+		scope=2;
+		displayName="OG-107 (Berezhka Yellow, untucked)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_klmkyellow_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_klmkyellow_trop_blench: U_Simc_OG107_mk3_trop_blench
+	{
+		scope=2;
+		displayName="OG-107 (Berezhka Yellow, untucked, sleeves)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_klmkyellow_trop_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_klmkyellow_tuck_blench: U_Simc_OG107_mk3_tuck_blench
+	{
+		scope=2;
+		displayName="OG-107 (Berezhka Yellow, tucked)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_klmkyellow_tuck_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_klmkyellow_tuck_trop_blench: U_Simc_OG107_mk3_tuck_trop_blench
+	{
+		scope=2;
+		displayName="OG-107 (Berezhka Yellow, tucked, sleeves)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_klmkyellow_tuck_trop_blench";
+		};
+	};
+	
+	class FP_GOR_Uniform_og107_mk3_klmkarid_blench: U_Simc_OG107_mk3_blench
+	{
+		scope=2;
+		displayName="OG-107 (Berezhka Arid, untucked)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_klmkarid_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_klmkarid_trop_blench: U_Simc_OG107_mk3_trop_blench
+	{
+		scope=2;
+		displayName="OG-107 (Berezhka Arid, untucked, sleeves)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_klmkarid_trop_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_klmkarid_tuck_blench: U_Simc_OG107_mk3_tuck_blench
+	{
+		scope=2;
+		displayName="OG-107 (Berezhka Arid, tucked)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_klmkarid_tuck_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_klmkarid_tuck_trop_blench: U_Simc_OG107_mk3_tuck_trop_blench
+	{
+		scope=2;
+		displayName="OG-107 (Berezhka Arid, tucked, sleeves)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_klmkarid_tuck_trop_blench";
+		};
+	};
+	
+	class FP_GOR_Uniform_og107_mk3_klmksnow_blench: U_Simc_OG107_mk3_blench
+	{
+		scope=2;	
+		displayName="OG-107 (Berezhka Winter, untucked)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_klmksnow_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_klmksnow_trop_blench: U_Simc_OG107_mk3_trop_blench
+	{
+		scope=2;
+		displayName="OG-107 (Berezhka Winter, untucked, sleeves)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_klmksnow_trop_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_klmksnow_tuck_blench: U_Simc_OG107_mk3_tuck_blench
+	{
+		scope=2;
+		displayName="OG-107 (Berezhka Winter, tucked)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_klmksnow_tuck_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_klmksnow_tuck_trop_blench: U_Simc_OG107_mk3_tuck_trop_blench
+	{
+		scope=2;
+		displayName="OG-107 (Berezhka Winter, tucked, sleeves)";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_klmksnow_tuck_trop_blench";
+		};
+	};
 };
