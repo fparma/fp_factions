@@ -239,7 +239,9 @@ class CfgPatches
 			"FP_GOR_H_Booniehat_us4cesarid",
 			"FP_GOR_H_Booniehat_us4cesarid_hs",
 			"FP_GOR_H_Booniehat_us4cesocie",
-			"FP_GOR_H_Booniehat_us4cesocie_hs"
+			"FP_GOR_H_Booniehat_us4cesocie_hs",
+			"FP_GOR_H_Booniehat_nutria",
+			"FP_GOR_H_Booniehat_nutria_hs"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -2204,5 +2206,22 @@ class CfgWeapons
 		scope = 2;
 		displayName = "Booniehat (US4CES OCIE, headset)";
 		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_us4cesocie_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_nutria: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_nutria";
+		scope = 2;
+		displayName = "Booniehat (Nutria brown)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_nutria_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_nutria_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_nutria_hs";
+		scope = 2;
+		displayName = "Booniehat (Nutria brown, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_nutria_co.paa"};
 	};
 };

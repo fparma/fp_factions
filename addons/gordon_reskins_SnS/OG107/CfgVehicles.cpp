@@ -1691,4 +1691,55 @@ class CfgVehicles
 			""
 		};
 	};
+	
+	class FP_GOR_og107_mk3_nutria_blench: simc_og107_mk3_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_nutria_blench";
+		displayName="OG-107 (Nutria brown, untucked)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_nutria_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_nutria_trop_blench: simc_og107_mk3_trop_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_nutria_trop_blench";
+		displayName="OG-107 (Nutria brown, untucked, sleeves)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_nutria_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_nutria_tuck_blench: simc_og107_mk3_tuck_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_nutria_tuck_blench";
+		displayName="OG-107 (Nutria brown, tucked)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_nutria_co.paa",
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_nutria_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_nutria_tuck_trop_blench: simc_og107_mk3_tuck_trop_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_nutria_tuck_trop_blench";
+		displayName="OG-107 (Nutria brown, tucked, sleeves)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_nutria_co.paa",
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_nutria_co.paa",
+			"",
+			""
+		};
+	};
 };
