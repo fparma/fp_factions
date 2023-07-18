@@ -38,7 +38,19 @@ class CfgPatches
 			"FP_GOR_V_CarrierRigKBT_heavy_mtp_F",
 			"FP_GOR_V_CarrierRigKBT_multicamcontactwoodland_F",
 			"FP_GOR_V_CarrierRigKBT_light_multicamcontactwoodland_F",
-			"FP_GOR_V_CarrierRigKBT_heavy_multicamcontactwoodland_F"
+			"FP_GOR_V_CarrierRigKBT_heavy_multicamcontactwoodland_F",
+			"FP_GOR_V_CarrierRigKBT_us4ceswoodland_F",
+			"FP_GOR_V_CarrierRigKBT_light_us4ceswoodland_F",
+			"FP_GOR_V_CarrierRigKBT_heavy_us4ceswoodland_F",
+			"FP_GOR_V_CarrierRigKBT_us4cestransitional_F",
+			"FP_GOR_V_CarrierRigKBT_light_us4cestransitional_F",
+			"FP_GOR_V_CarrierRigKBT_heavy_us4cestransitional_F",
+			"FP_GOR_V_CarrierRigKBT_us4cesarid_F",
+			"FP_GOR_V_CarrierRigKBT_light_us4cesarid_F",
+			"FP_GOR_V_CarrierRigKBT_heavy_us4cesarid_F",
+			"FP_GOR_V_CarrierRigKBT_us4cesocie_F",
+			"FP_GOR_V_CarrierRigKBT_light_us4cesocie_F",
+			"FP_GOR_V_CarrierRigKBT_heavy_us4cesocie_F"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -417,6 +429,142 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\modvest\data\ModVest_multicamcontactwoodland_CO.paa"
+		};
+	}; 
+	
+	class FP_GOR_V_CarrierRigKBT_us4ceswoodland_F: V_CarrierRigKBT_01_Olive_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "V_CarrierRigKBT_01_Olive_F";
+		scope = 2;
+		displayName = "Modular Carrier Vest (US4CES Woodland)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\modvest\data\ModVest_us4ceswoodland_CO.paa"
+		};
+	};
+	class FP_GOR_V_CarrierRigKBT_light_us4ceswoodland_F: V_CarrierRigKBT_01_light_Olive_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "V_CarrierRigKBT_01_light_Olive_F";
+		scope = 2;
+		displayName = "Modular Carrier Lite (US4CES Woodland)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\modvest\data\ModVest_us4ceswoodland_CO.paa"
+		};
+	};
+	class FP_GOR_V_CarrierRigKBT_heavy_us4ceswoodland_F: V_CarrierRigKBT_01_heavy_Olive_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "V_CarrierRigKBT_01_heavy_Olive_F";
+		scope = 2;
+		displayName = "Modular Carrier GL Rig (US4CES Woodland)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\modvest\data\ModVest_us4ceswoodland_CO.paa"
+		};
+	}; 
+	
+	class FP_GOR_V_CarrierRigKBT_us4cestransitional_F: V_CarrierRigKBT_01_Olive_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "V_CarrierRigKBT_01_Olive_F";
+		scope = 2;
+		displayName = "Modular Carrier Vest (US4CES Transitional)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\modvest\data\ModVest_us4cestransitional_CO.paa"
+		};
+	};
+	class FP_GOR_V_CarrierRigKBT_light_us4cestransitional_F: V_CarrierRigKBT_01_light_Olive_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "V_CarrierRigKBT_01_light_Olive_F";
+		scope = 2;
+		displayName = "Modular Carrier Lite (US4CES Transitional)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\modvest\data\ModVest_us4cestransitional_CO.paa"
+		};
+	};
+	class FP_GOR_V_CarrierRigKBT_heavy_us4cestransitional_F: V_CarrierRigKBT_01_heavy_Olive_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "V_CarrierRigKBT_01_heavy_Olive_F";
+		scope = 2;
+		displayName = "Modular Carrier GL Rig (US4CES Transitional)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\modvest\data\ModVest_us4cestransitional_CO.paa"
+		};
+	}; 
+	
+	class FP_GOR_V_CarrierRigKBT_us4cesarid_F: V_CarrierRigKBT_01_Olive_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "V_CarrierRigKBT_01_Olive_F";
+		scope = 2;
+		displayName = "Modular Carrier Vest (US4CES Arid)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\modvest\data\ModVest_us4cesarid_CO.paa"
+		};
+	};
+	class FP_GOR_V_CarrierRigKBT_light_us4cesarid_F: V_CarrierRigKBT_01_light_Olive_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "V_CarrierRigKBT_01_light_Olive_F";
+		scope = 2;
+		displayName = "Modular Carrier Lite (US4CES Arid)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\modvest\data\ModVest_us4cesarid_CO.paa"
+		};
+	};
+	class FP_GOR_V_CarrierRigKBT_heavy_us4cesarid_F: V_CarrierRigKBT_01_heavy_Olive_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "V_CarrierRigKBT_01_heavy_Olive_F";
+		scope = 2;
+		displayName = "Modular Carrier GL Rig (US4CES Arid)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\modvest\data\ModVest_us4cesarid_CO.paa"
+		};
+	}; 
+	
+	class FP_GOR_V_CarrierRigKBT_us4cesocie_F: V_CarrierRigKBT_01_Olive_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "V_CarrierRigKBT_01_Olive_F";
+		scope = 2;
+		displayName = "Modular Carrier Vest (US4CES OCIE)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\modvest\data\ModVest_us4cesocie_CO.paa"
+		};
+	};
+	class FP_GOR_V_CarrierRigKBT_light_us4cesocie_F: V_CarrierRigKBT_01_light_Olive_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "V_CarrierRigKBT_01_light_Olive_F";
+		scope = 2;
+		displayName = "Modular Carrier Lite (US4CES OCIE)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\modvest\data\ModVest_us4cesocie_CO.paa"
+		};
+	};
+	class FP_GOR_V_CarrierRigKBT_heavy_us4cesocie_F: V_CarrierRigKBT_01_heavy_Olive_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "V_CarrierRigKBT_01_heavy_Olive_F";
+		scope = 2;
+		displayName = "Modular Carrier GL Rig (US4CES OCIE)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\modvest\data\ModVest_us4cesocie_CO.paa"
 		};
 	}; 
 };

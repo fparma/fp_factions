@@ -121,7 +121,27 @@ class CfgPatches
 			"FP_GOR_Uniform_og107_mk3_finnishm62_blench",
 			"FP_GOR_Uniform_og107_mk3_finnishm62_trop_blench",
 			"FP_GOR_Uniform_og107_mk3_finnishm62_tuck_blench",
-			"FP_GOR_Uniform_og107_mk3_finnishm62_tuck_trop_blench"
+			"FP_GOR_Uniform_og107_mk3_finnishm62_tuck_trop_blench",
+			"FP_GOR_Uniform_og107_mk3_klmkwhite_blench",
+			"FP_GOR_Uniform_og107_mk3_klmkwhite_trop_blench",
+			"FP_GOR_Uniform_og107_mk3_klmkwhite_tuck_blench",
+			"FP_GOR_Uniform_og107_mk3_klmkwhite_tuck_trop_blench",
+			"FP_GOR_Uniform_og107_mk3_klmkyellow_blench",
+			"FP_GOR_Uniform_og107_mk3_klmkyellow_trop_blench",
+			"FP_GOR_Uniform_og107_mk3_klmkyellow_tuck_blench",
+			"FP_GOR_Uniform_og107_mk3_klmkyellow_tuck_trop_blench",
+			"FP_GOR_Uniform_og107_mk3_klmkarid_blench",
+			"FP_GOR_Uniform_og107_mk3_klmkarid_trop_blench",
+			"FP_GOR_Uniform_og107_mk3_klmkarid_tuck_blench",
+			"FP_GOR_Uniform_og107_mk3_klmkarid_tuck_trop_blench",
+			"FP_GOR_Uniform_og107_mk3_klmksnow_blench",
+			"FP_GOR_Uniform_og107_mk3_klmksnow_trop_blench",
+			"FP_GOR_Uniform_og107_mk3_klmksnow_tuck_blench",
+			"FP_GOR_Uniform_og107_mk3_klmksnow_tuck_trop_blench",
+			"FP_GOR_Uniform_og107_mk3_nutria_blench",
+			"FP_GOR_Uniform_og107_mk3_nutria_trop_blench",
+			"FP_GOR_Uniform_og107_mk3_nutria_tuck_blench",
+			"FP_GOR_Uniform_og107_mk3_nutria_tuck_trop_blench"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=

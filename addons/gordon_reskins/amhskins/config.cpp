@@ -92,13 +92,37 @@ class CfgPatches
 			"FP_GOR_H_HelmetHBK_chops_austrianneutarn_F",
 			"FP_GOR_H_HelmetHBK_headset_austrianneutarn_F",
 			"FP_GOR_H_HelmetHBK_ear_austrianneutarn_F",
-			"FP_GOR_H_HelmetHBK_chops_austrianneutarn_F"
+			"FP_GOR_H_HelmetHBK_chops_austrianneutarn_F",
+			"FP_GOR_H_HelmetHBK_chops_atacsfg_F",
+			"FP_GOR_H_HelmetHBK_headset_atacsfg_F",
+			"FP_GOR_H_HelmetHBK_ear_atacsfg_F",
+			"FP_GOR_H_HelmetHBK_chops_atacsfg_F",
+			"FP_GOR_H_HelmetHBK_chops_atacsau_F",
+			"FP_GOR_H_HelmetHBK_headset_atacsau_F",
+			"FP_GOR_H_HelmetHBK_ear_atacsau_F",
+			"FP_GOR_H_HelmetHBK_chops_atacsau_F",
+			"FP_GOR_H_HelmetHBK_chops_us4ceswoodland_F",
+			"FP_GOR_H_HelmetHBK_headset_us4ceswoodland_F",
+			"FP_GOR_H_HelmetHBK_ear_us4ceswoodland_F",
+			"FP_GOR_H_HelmetHBK_chops_us4ceswoodland_F",
+			"FP_GOR_H_HelmetHBK_chops_us4cestransitional_F",
+			"FP_GOR_H_HelmetHBK_headset_us4cestransitional_F",
+			"FP_GOR_H_HelmetHBK_ear_us4cestransitional_F",
+			"FP_GOR_H_HelmetHBK_chops_us4cestransitional_F",
+			"FP_GOR_H_HelmetHBK_chops_us4cesarid_F",
+			"FP_GOR_H_HelmetHBK_headset_us4cesarid_F",
+			"FP_GOR_H_HelmetHBK_ear_us4cesarid_F",
+			"FP_GOR_H_HelmetHBK_chops_us4cesarid_F",
+			"FP_GOR_H_HelmetHBK_chops_us4cesocie_F",
+			"FP_GOR_H_HelmetHBK_headset_us4cesocie_F",
+			"FP_GOR_H_HelmetHBK_ear_us4cesocie_F",
+			"FP_GOR_H_HelmetHBK_chops_us4cesocie_F"
 			
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
 		{
-			"A3_Data_F_Enoch_Loadorder"
+			"A3_Data_F_AOW_Loadorder"
 		};
 	};
 };
@@ -1075,6 +1099,170 @@ class CfgWeapons
 		displayName = "AMH (ATACS Arid/Urban, chops)";
 		picture = "\a3\Characters_F_Enoch\Headgear\data\UI\icon_H_HelmetHBK_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_atacsau_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\FP_Factions\gordon_reskins\amhskins\data\H_HelmetHBK_01.rvmat"};
+	};
+	
+	class FP_GOR_H_HelmetHBK_us4ceswoodland_F: H_HelmetHBK_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_HelmetHBK_us4ceswoodland_F";
+		scope = 2;
+		displayName = "AMH (US4CES Woodland)";
+		picture = "\a3\Characters_F_Enoch\Headgear\data\UI\icon_H_HelmetHBK_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_us4ceswoodland_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\FP_Factions\gordon_reskins\amhskins\data\H_HelmetHBK_01.rvmat"};
+	};
+	class FP_GOR_H_HelmetHBK_headset_us4ceswoodland_F: H_HelmetHBK_headset_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_HelmetHBK_headset_us4ceswoodland_F";
+		scope = 2;
+		displayName = "AMH (US4CES Woodland, headset)";
+		picture = "\a3\Characters_F_Enoch\Headgear\data\UI\icon_H_HelmetHBK_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_us4ceswoodland_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\FP_Factions\gordon_reskins\amhskins\data\H_HelmetHBK_01.rvmat"};
+	};
+	class FP_GOR_H_HelmetHBK_ear_us4ceswoodland_F: H_HelmetHBK_ear_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_HelmetHBK_ear_us4ceswoodland_F";
+		scope = 2;
+		displayName = "AMH (US4CES Woodland, ear protectors)";
+		picture = "\a3\Characters_F_Enoch\Headgear\data\UI\icon_H_HelmetHBK_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_us4ceswoodland_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\FP_Factions\gordon_reskins\amhskins\data\H_HelmetHBK_01.rvmat"};
+	};
+	class FP_GOR_H_HelmetHBK_chops_us4ceswoodland_F: H_HelmetHBK_chops_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_HelmetHBK_chops_us4ceswoodland_F";
+		scope = 2;
+		displayName = "AMH (US4CES Woodland, chops)";
+		picture = "\a3\Characters_F_Enoch\Headgear\data\UI\icon_H_HelmetHBK_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_us4ceswoodland_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\FP_Factions\gordon_reskins\amhskins\data\H_HelmetHBK_01.rvmat"};
+	};
+	
+	class FP_GOR_H_HelmetHBK_us4cestransitional_F: H_HelmetHBK_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_HelmetHBK_us4cestransitional_F";
+		scope = 2;
+		displayName = "AMH (US4CES Transitional)";
+		picture = "\a3\Characters_F_Enoch\Headgear\data\UI\icon_H_HelmetHBK_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_us4cestransitional_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\FP_Factions\gordon_reskins\amhskins\data\H_HelmetHBK_01.rvmat"};
+	};
+	class FP_GOR_H_HelmetHBK_headset_us4cestransitional_F: H_HelmetHBK_headset_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_HelmetHBK_headset_us4cestransitional_F";
+		scope = 2;
+		displayName = "AMH (US4CES Transitional, headset)";
+		picture = "\a3\Characters_F_Enoch\Headgear\data\UI\icon_H_HelmetHBK_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_us4cestransitional_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\FP_Factions\gordon_reskins\amhskins\data\H_HelmetHBK_01.rvmat"};
+	};
+	class FP_GOR_H_HelmetHBK_ear_us4cestransitional_F: H_HelmetHBK_ear_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_HelmetHBK_ear_us4cestransitional_F";
+		scope = 2;
+		displayName = "AMH (US4CES Transitional, ear protectors)";
+		picture = "\a3\Characters_F_Enoch\Headgear\data\UI\icon_H_HelmetHBK_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_us4cestransitional_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\FP_Factions\gordon_reskins\amhskins\data\H_HelmetHBK_01.rvmat"};
+	};
+	class FP_GOR_H_HelmetHBK_chops_us4cestransitional_F: H_HelmetHBK_chops_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_HelmetHBK_chops_us4cestransitional_F";
+		scope = 2;
+		displayName = "AMH (US4CES Transitional, chops)";
+		picture = "\a3\Characters_F_Enoch\Headgear\data\UI\icon_H_HelmetHBK_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_us4cestransitional_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\FP_Factions\gordon_reskins\amhskins\data\H_HelmetHBK_01.rvmat"};
+	};
+	
+	class FP_GOR_H_HelmetHBK_us4cesarid_F: H_HelmetHBK_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_HelmetHBK_us4cesarid_F";
+		scope = 2;
+		displayName = "AMH (US4CES Arid)";
+		picture = "\a3\Characters_F_Enoch\Headgear\data\UI\icon_H_HelmetHBK_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_us4cesarid_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\FP_Factions\gordon_reskins\amhskins\data\H_HelmetHBK_01.rvmat"};
+	};
+	class FP_GOR_H_HelmetHBK_headset_us4cesarid_F: H_HelmetHBK_headset_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_HelmetHBK_headset_us4cesarid_F";
+		scope = 2;
+		displayName = "AMH (US4CES Arid, headset)";
+		picture = "\a3\Characters_F_Enoch\Headgear\data\UI\icon_H_HelmetHBK_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_us4cesarid_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\FP_Factions\gordon_reskins\amhskins\data\H_HelmetHBK_01.rvmat"};
+	};
+	class FP_GOR_H_HelmetHBK_ear_us4cesarid_F: H_HelmetHBK_ear_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_HelmetHBK_ear_us4cesarid_F";
+		scope = 2;
+		displayName = "AMH (US4CES Arid, ear protectors)";
+		picture = "\a3\Characters_F_Enoch\Headgear\data\UI\icon_H_HelmetHBK_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_us4cesarid_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\FP_Factions\gordon_reskins\amhskins\data\H_HelmetHBK_01.rvmat"};
+	};
+	class FP_GOR_H_HelmetHBK_chops_us4cesarid_F: H_HelmetHBK_chops_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_HelmetHBK_chops_us4cesarid_F";
+		scope = 2;
+		displayName = "AMH (US4CES Arid, chops)";
+		picture = "\a3\Characters_F_Enoch\Headgear\data\UI\icon_H_HelmetHBK_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_us4cesarid_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\FP_Factions\gordon_reskins\amhskins\data\H_HelmetHBK_01.rvmat"};
+	};
+	
+	class FP_GOR_H_HelmetHBK_us4cesocie_F: H_HelmetHBK_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_HelmetHBK_us4cesocie_F";
+		scope = 2;
+		displayName = "AMH (US4CES OCIE)";
+		picture = "\a3\Characters_F_Enoch\Headgear\data\UI\icon_H_HelmetHBK_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_us4cesocie_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\FP_Factions\gordon_reskins\amhskins\data\H_HelmetHBK_01.rvmat"};
+	};
+	class FP_GOR_H_HelmetHBK_headset_us4cesocie_F: H_HelmetHBK_headset_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_HelmetHBK_headset_us4cesocie_F";
+		scope = 2;
+		displayName = "AMH (US4CES OCIE, headset)";
+		picture = "\a3\Characters_F_Enoch\Headgear\data\UI\icon_H_HelmetHBK_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_us4cesocie_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\FP_Factions\gordon_reskins\amhskins\data\H_HelmetHBK_01.rvmat"};
+	};
+	class FP_GOR_H_HelmetHBK_ear_us4cesocie_F: H_HelmetHBK_ear_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_HelmetHBK_ear_us4cesocie_F";
+		scope = 2;
+		displayName = "AMH (US4CES OCIE, ear protectors)";
+		picture = "\a3\Characters_F_Enoch\Headgear\data\UI\icon_H_HelmetHBK_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_us4cesocie_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\FP_Factions\gordon_reskins\amhskins\data\H_HelmetHBK_01.rvmat"};
+	};
+	class FP_GOR_H_HelmetHBK_chops_us4cesocie_F: H_HelmetHBK_chops_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_HelmetHBK_chops_us4cesocie_F";
+		scope = 2;
+		displayName = "AMH (US4CES OCIE, chops)";
+		picture = "\a3\Characters_F_Enoch\Headgear\data\UI\icon_H_HelmetHBK_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_us4cesocie_CO.paa"};
 		hiddenSelectionsMaterials[] = {"\FP_Factions\gordon_reskins\amhskins\data\H_HelmetHBK_01.rvmat"};
 	};
 };
