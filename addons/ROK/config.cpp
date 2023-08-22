@@ -70,6 +70,7 @@ class CfgPatches
 			"FP_CSL_B_ROK_Soldier_TL_F",
 			"FP_CSL_B_ROK_Soldier_UAV_F",
 			"FP_CSL_B_ROK_Marine_A_F",
+			"FP_CSL_B_ROK_Marine_AAA_F",
 			"FP_CSL_B_ROK_Marine_AAR_F",
 			"FP_CSL_B_ROK_Marine_AAT_F",
 			"FP_CSL_B_ROK_Marine_AR_F",
@@ -2311,6 +2312,15 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "Asst. Autorifleman";
 		backpack = "FP_ROK_Kitbag_woodland_AAR";
+		cost = 65000;
+		threat[] = {1,0.1,0.3};
+	};
+	class FP_CSL_B_ROK_Marine_AAA_F: FP_ROK_Marine_BASE_F
+	{
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "Asst. Missile Specialist (AA)";
+		backpack = "FP_ROK_Carryall_woodland_AA";
 		cost = 65000;
 		threat[] = {1,0.1,0.3};
 	};

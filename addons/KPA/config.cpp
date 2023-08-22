@@ -52,6 +52,8 @@ class CfgPatches
 			"FP_CSL_O_KPA_Mi8MT",
 			"FP_CSL_O_KPA_Mi8MTV3",
 			"FP_CSL_O_KPA_Mi8T",
+			"FP_CSL_O_KPA_Su25K",
+			"FP_CSL_O_KPA_L159_Fighter_dynamicLoadout_F",
 			"FP_KPA_Soldier_BASE",
 			"FP_CSL_O_KPA_Soldier_A_F",
 			"FP_CSL_O_KPA_Soldier_AAR_F",
@@ -82,6 +84,7 @@ class CfgPatches
 			"FP_CSL_O_KPA_Soldier_SL_F",
 			"FP_CSL_O_KPA_Soldier_TL_F",
 			"FP_CSL_O_KPA_Soldier_UAV_F",
+			"FP_CSL_O_KPA_Soldier_lite_A_F",
 			"FP_CSL_O_KPA_Soldier_lite_AAR_F",
 			"FP_CSL_O_KPA_Soldier_lite_AAA_F",
 			"FP_CSL_O_KPA_Soldier_lite_AR_F",
@@ -631,7 +634,7 @@ class CfgGroups
 					class Unit8
 					{
 						side = 0;
-						vehicle = "FP_CSL_O_KPA_Lite_AmmoBearer";
+						vehicle = "FP_CSL_O_KPA_Soldier_lite_A_F";
 						rank = "PRIVATE";
 						position[] = {-15,-15,0};
 					};
@@ -11424,6 +11427,15 @@ class FP_CSL_O_KPA_SOF_Medic: FP_CSL_O_KPA_SOF_Soldier_BASE
 		respawnWeapons[] = {"Throw","Put"};
 		magazines[] = {};
 		respawnMagazines[] = {};		
+	};
+	class FP_CSL_O_KPA_Soldier_lite_A_F: FP_CSL_O_KPA_Lite_Soldier_BASE
+	{
+		author = "FP Mod Team";
+		_generalMacro = "FP_KPA_Soldier_BASE";
+		scope = 2;
+		scopeCurator = 2;
+		backpack = "KPA_Carryall_cbr_Ammo";
+		displayName = "Ammo Bearer";		
 	};
 	class FP_CSL_O_KPA_Soldier_lite_AR_F: FP_CSL_O_KPA_Lite_Soldier_BASE
 	{
