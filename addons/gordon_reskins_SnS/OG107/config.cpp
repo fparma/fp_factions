@@ -152,5 +152,5 @@ class CfgPatches
 	};
 };
 
-#include "CfgVehicles.cpp"
-#include "CfgWeapons.cpp"
+#include "CfgVehicles.hpp"
+#include "CfgWeapons.hpp"
