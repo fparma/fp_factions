@@ -5,17 +5,22 @@ template = "cba"
 mainprefix = "z"
 folder_optionals = false
 sig_version = 3
-version = "1.0.0"
 
+reuse_private_key = true
+key_name = "fp_gear_v2"
+authority = "fp_gear_v2"
+
+[files]
 exclude = [
     "*.psd",
     "*.png",
     "*.tga"
 ]
-files = [
+include = [
     "*.paa"
 ]
 
-reuse_private_key = true
-key_name = "fp_gear_v2"
-authority = "fp_gear_v2"
+[version]
+major = 2
+minor = 0
+patch = 0
