@@ -4,6 +4,9 @@
 releases/*
 *.biprivatekey
 keys/*
+.hemttout
+hemtt
+hemtt.exe
 ####
 
 build.bat

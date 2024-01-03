@@ -2154,11 +2154,6 @@ class CfgVehicles
 		crew = "FP_CSL_O_KPA_Marine_Crewman_F";
 		faction = "FP_Faction_KPA";
 	};
-		class FP_CSL_O_KPA_APC_BTR50_open: FP_O_APC_BTR50_open
-	{
-		crew = "FP_CSL_O_KPA_Crewman_F";
-		faction = "FP_Faction_KPA";
-	};	
 	class FP_O_TNK_T55;
 	class FP_CSL_O_KPA_T55: FP_O_TNK_T55
 	{
