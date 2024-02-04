@@ -12,10 +12,25 @@ class CfgPatches
 		requiredVersion=0.1;
 		requiredAddons[]= 
 		{
-			"A3_Armor_F_EPB"
+			"A3_Data_F_AOW_Loadorder"
 		};
 	};
 };
+
+class CfgMagazines
+{
+	class 140Rnd_30mm_MP_shells_Tracer_Red;
+	class FP_GOR_140Rnd_30mm_MP_shells_Tracer_Red: 140Rnd_30mm_MP_shells_Tracer_Red
+	{
+		displayNameMFDFormat = "MP-T";
+	};
+	class 60Rnd_30mm_APFSDS_shells_Tracer_Red;
+	class FP_GOR_60Rnd_30mm_APFSDS_shells_Tracer_Red: 60Rnd_30mm_APFSDS_shells_Tracer_Red
+	{
+		displayNameMFDFormat = "APFSDS-T";
+	};
+};
+
 class CfgVehicles
 {
 	class Tank_F;
@@ -416,10 +431,10 @@ class CfgVehicles
 			{
 				magazines[]=
 				{
-					"140Rnd_30mm_MP_shells_Tracer_Red",
-					"140Rnd_30mm_MP_shells_Tracer_Red",
-					"60Rnd_30mm_APFSDS_shells_Tracer_Red",
-					"60Rnd_30mm_APFSDS_shells_Tracer_Red",
+					"FP_GOR_140Rnd_30mm_MP_shells_Tracer_Red",
+					"FP_GOR_140Rnd_30mm_MP_shells_Tracer_Red",
+					"FP_GOR_60Rnd_30mm_APFSDS_shells_Tracer_Red",
+					"FP_GOR_60Rnd_30mm_APFSDS_shells_Tracer_Red",
 					"200Rnd_762x51_Belt_Red",
 					"200Rnd_762x51_Belt_Red",
 					"200Rnd_762x51_Belt_Red",
