@@ -8,14 +8,68 @@ class CfgPatches
 			"FP_GOR_B_APC_tracked_03_cannon_F",
 			"FP_GOR_B_T_APC_tracked_03_cannon_F"
 		};
-		weapons[]={};
+		weapons[]=
+		{
+			"FP_GOR_autocannon_30mm"
+		};
 		requiredVersion=0.1;
 		requiredAddons[]= 
 		{
-			"A3_Armor_F_EPB"
+			"A3_Data_F_AOW_Loadorder",
+			"ace_realisticnames"
 		};
 	};
 };
+
+class CfgMagazines
+{
+	class 140Rnd_30mm_MP_shells_Tracer_Red;
+	class FP_GOR_140Rnd_30mm_MP_shells_Tracer_Red: 140Rnd_30mm_MP_shells_Tracer_Red
+	{
+		displayNameMFDFormat = "MP-T";
+	};
+	class 60Rnd_30mm_APFSDS_shells_Tracer_Red;
+	class FP_GOR_60Rnd_30mm_APFSDS_shells_Tracer_Red: 60Rnd_30mm_APFSDS_shells_Tracer_Red
+	{
+		displayNameMFDFormat = "APFSDS-T";
+	};
+};
+
+class CfgWeapons
+{
+	class autocannon_30mm_CTWS;
+	class autocannon_30mm: autocannon_30mm_CTWS
+	{
+		class AP;
+		class HE;
+	};
+	class FP_GOR_autocannon_30mm: autocannon_30mm
+	{
+		class AP: AP
+		{
+			magazines[]=
+			{
+				"60Rnd_30mm_APFSDS_shells",
+				"60Rnd_30mm_APFSDS_shells_Tracer_Red",
+				"60Rnd_30mm_APFSDS_shells_Tracer_Green",
+				"60Rnd_30mm_APFSDS_shells_Tracer_Yellow",
+				"FP_GOR_60Rnd_30mm_APFSDS_shells_Tracer_Red"
+			};
+		};
+		class HE: HE
+		{
+			magazines[]=
+			{
+				"140Rnd_30mm_MP_shells",
+				"140Rnd_30mm_MP_shells_Tracer_Red",
+				"140Rnd_30mm_MP_shells_Tracer_Green",
+				"140Rnd_30mm_MP_shells_Tracer_Yellow",
+				"FP_GOR_140Rnd_30mm_MP_shells_Tracer_Red"
+			};
+		};
+	};
+};
+
 class CfgVehicles
 {
 	class Tank_F;
@@ -416,10 +470,10 @@ class CfgVehicles
 			{
 				magazines[]=
 				{
-					"140Rnd_30mm_MP_shells_Tracer_Red",
-					"140Rnd_30mm_MP_shells_Tracer_Red",
-					"60Rnd_30mm_APFSDS_shells_Tracer_Red",
-					"60Rnd_30mm_APFSDS_shells_Tracer_Red",
+					"FP_GOR_140Rnd_30mm_MP_shells_Tracer_Red",
+					"FP_GOR_140Rnd_30mm_MP_shells_Tracer_Red",
+					"FP_GOR_60Rnd_30mm_APFSDS_shells_Tracer_Red",
+					"FP_GOR_60Rnd_30mm_APFSDS_shells_Tracer_Red",
 					"200Rnd_762x51_Belt_Red",
 					"200Rnd_762x51_Belt_Red",
 					"200Rnd_762x51_Belt_Red",
@@ -428,6 +482,11 @@ class CfgVehicles
 					"200Rnd_762x51_Belt_Red",
 					"200Rnd_762x51_Belt_Red",
 					"200Rnd_762x51_Belt_Red"
+				};
+				weapons[]=
+				{
+					"FP_GOR_autocannon_30mm",
+					"ACE_LMG_coax_L94A1_mem3"
 				};
 			};
 		};
