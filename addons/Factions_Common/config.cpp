@@ -82,6 +82,10 @@ class CfgVehicleClasses
 	{
 		displayName="Men (Light)";
 	};
+	class fp_men_grom
+	{
+		displayName="Men (SRG Grom)";
+	};
 };
 class CfgEditorSubcategories
 {
@@ -195,6 +199,58 @@ class cfgWeapons
 			class LinkedItemsOptic
 			{
 				item = "rhs_acc_pso1m2";
+				slot = "CowsSlot";
+			};
+		};
+	};
+	class rhs_weap_savz58v_rail_black;
+	class rhs_weap_savz58v_rail_black_FP_CCO: rhs_weap_savz58v_rail_black
+	{
+		scope = 1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				item = "rhs_acc_okp7_picatinny";
+				slot = "CowsSlot";
+			};
+		};
+	};
+	class rhs_weap_asval;
+	class rhs_weap_asval_FP_PSO: rhs_weap_asval
+	{
+		scope = 1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				item = "rhs_acc_pso1m21";
+				slot = "CowsSlot";
+			};
+		};
+	};
+	class FP_AN94_rail;
+	class FP_AN94_rail_CCO: FP_AN94_rail
+	{
+		scope = 1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				item = "rhs_acc_rakursPM";
+				slot = "CowsSlot";
+			};
+		};
+	};
+	class FP_AN94_GP_rail;
+	class FP_AN94_GP_rail_CCO: FP_AN94_GP_rail
+	{
+		scope = 1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				item = "rhs_acc_rakursPM";
 				slot = "CowsSlot";
 			};
 		};
