@@ -329,8 +329,8 @@ class cfgvehicles
 		respawnMagazines[] = {"rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_mag_f1"};
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
-		linkedItems[] = {"UK3CB_V_Pouch","UK3CB_TKM_O_H_Turban_02_1"};
-		respawnLinkedItems[] = {"UK3CB_V_Pouch","UK3CB_TKM_O_H_Turban_02_1"};
+		linkedItems[] = {"V_Chestrig_oli","H_Shemag_olive"};
+		respawnLinkedItems[] = {"V_Chestrig_oli","H_Shemag_olive"};
 	};
 	class FP_Faction_NKIA_Rifleman: FP_Faction_NKIA_Soldier_BASE
 	{
@@ -341,7 +341,7 @@ class cfgvehicles
 		displayName = "Militiaman (AKM)";
 		cost = 100000;
 		headgearProbability = 100;
-		allowedHeadgear[] = {"UK3CB_TKM_O_H_Turban_02_1","UK3CB_TKM_O_H_Turban_02_1"};
+		allowedHeadgear[] = {"H_Shemag_olive","H_Shemag_olive"};
 	};
 	class FP_Faction_NKIA_Rifleman_M16: FP_Faction_NKIA_Soldier_BASE
 	{
@@ -357,9 +357,9 @@ class cfgvehicles
 		respawnWeapons[] = {"FP_M16A1","Throw","Put"};
 		magazines[] = {"30Rnd_556x45_Stanag_green","30Rnd_556x45_Stanag_green","30Rnd_556x45_Stanag_green","30Rnd_556x45_Stanag_green","30Rnd_556x45_Stanag_green","30Rnd_556x45_Stanag_green","rhs_mag_f1"};
 		respawnMagazines[] = {"30Rnd_556x45_Stanag_green","30Rnd_556x45_Stanag_green","30Rnd_556x45_Stanag_green","30Rnd_556x45_Stanag_green","30Rnd_556x45_Stanag_green","30Rnd_556x45_Stanag_green","rhs_mag_f1"};
-		linkedItems[] = {"rhsgref_chestrig","UK3CB_TKM_O_H_Turban_02_1"};
-		respawnLinkedItems[] = {"rhsgref_chestrig","UK3CB_TKM_O_H_Turban_02_1"};
-		allowedHeadgear[] = {"UK3CB_TKM_O_H_Turban_02_1","UK3CB_TKM_O_H_Turban_02_1"};
+		linkedItems[] = {"rhsgref_chestrig","H_Shemag_olive"};
+		respawnLinkedItems[] = {"rhsgref_chestrig","H_Shemag_olive"};
+		allowedHeadgear[] = {"H_Shemag_olive","H_Shemag_olive"};
 	};
 	class FP_Faction_NKIA_Rifleman_M14: FP_Faction_NKIA_Soldier_BASE
 	{
@@ -375,8 +375,8 @@ class cfgvehicles
 		respawnWeapons[] = {"hlc_rifle_M14","Throw","Put"};
 		magazines[] = {"20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","rhs_mag_f1"};
 		respawnMagazines[] = {"20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","rhs_mag_f1"};
-		linkedItems[] = {"rhsgref_alice_webbing","H_ShemagOpen_khk"};
-		respawnLinkedItems[] = {"rhsgref_alice_webbing","H_ShemagOpen_khk"};
+		linkedItems[] = {"V_Chestrig_oli","H_ShemagOpen_khk"};
+		respawnLinkedItems[] = {"V_Chestrig_oli","H_ShemagOpen_khk"};
 		allowedHeadgear[] = {"H_ShemagOpen_khk","H_ShemagOpen_khk"};
 	};
 	class FP_Faction_NKIA_Rifleman_Mauser: FP_Faction_NKIA_Soldier_BASE
@@ -393,9 +393,9 @@ class cfgvehicles
 		respawnWeapons[] = {"rhs_weap_kar98k","Throw","Put"};
 		magazines[] = {"rhsgref_5Rnd_792x57_kar98k","rhsgref_5Rnd_792x57_kar98k","rhsgref_5Rnd_792x57_kar98k","rhsgref_5Rnd_792x57_kar98k","rhsgref_5Rnd_792x57_kar98k","rhsgref_5Rnd_792x57_kar98k","rhs_mag_f1"};
 		respawnMagazines[] = {"rhsgref_5Rnd_792x57_kar98k","rhsgref_5Rnd_792x57_kar98k","rhsgref_5Rnd_792x57_kar98k","rhsgref_5Rnd_792x57_kar98k","rhsgref_5Rnd_792x57_kar98k","rhsgref_5Rnd_792x57_kar98k","rhs_mag_f1"};
-		linkedItems[] = {"UK3CB_V_Pouch","UK3CB_TKC_H_Turban_04_1"};
-		respawnLinkedItems[] = {"UK3CB_V_Pouch","UK3CB_TKC_H_Turban_04_1"};
-		allowedHeadgear[] = {"UK3CB_TKC_H_Turban_04_1","UK3CB_TKC_H_Turban_04_1"};
+		linkedItems[] = {"V_Chestrig_oli","H_ShemagOpen_tan"};
+		respawnLinkedItems[] = {"V_Chestrig_oli","H_ShemagOpen_tan"};
+		allowedHeadgear[] = {"H_ShemagOpen_tan","H_ShemagOpen_tan"};
 	};
 	class FP_Faction_NKIA_Militiaman_PKM: FP_Faction_NKIA_Soldier_BASE
 	{
@@ -422,10 +422,10 @@ class cfgvehicles
 		cost = 95000;
 		threat[] = {1,0.1,0.3};
 		icon = "iconManMG";
-		linkedItems[] = {"rhsgref_alice_webbing","UK3CB_TKM_B_H_Turban_02_1","ItemWatch"};
-		respawnLinkedItems[] = {"rhsgref_alice_webbing","UK3CB_TKM_B_H_Turban_02_1","ItemWatch"};
+		linkedItems[] = {"V_Chestrig_oli","H_Shemag_olive","ItemWatch"};
+		respawnLinkedItems[] = {"V_Chestrig_oli","H_Shemag_olive","ItemWatch"};
 		headgearProbability = 100;
-		allowedHeadgear[] = {"UK3CB_TKM_B_H_Turban_02_1","UK3CB_TKM_B_H_Turban_02_1"};
+		allowedHeadgear[] = {"H_Shemag_olive","H_Shemag_olive"};
 	};
 	class FP_Faction_NKIA_Militiaman_DP: FP_Faction_NKIA_Militiaman_PKM
 	{
@@ -439,9 +439,9 @@ class cfgvehicles
 		respawnWeapons[] = {"str_pul_DP","Throw","Put"};
 		magazines[] = {"47rnd_dpbar","47rnd_dpbar","47rnd_dpbar","47rnd_dpbar","rhs_mag_f1"};
 		respawnMagazines[] = {"47rnd_dpbar","47rnd_dpbar","47rnd_dpbar","47rnd_dpbar","rhs_mag_f1"};
-		linkedItems[] = {"rhsgref_chestrig","UK3CB_H_Shemag_red"};
-		respawnLinkedItems[] = {"rhsgref_chestrig","UK3CB_H_Shemag_red"};
-		allowedHeadgear[] = {"UK3CB_H_Shemag_red","UK3CB_H_Shemag_red"};
+		linkedItems[] = {"rhsgref_chestrig","rhs_tsh4_bala"};
+		respawnLinkedItems[] = {"rhsgref_chestrig","rhs_tsh4_bala"};
+		allowedHeadgear[] = {"rhs_tsh4_bala","rhs_tsh4_bala"};
 	};
 	class FP_Faction_NKIA_CellLeader: FP_Faction_NKIA_Soldier_BASE
 	{
@@ -458,10 +458,10 @@ class cfgvehicles
 		camouflage = 1.6;
 		sensitivity = 3;
 		icon = "iconManLeader";
-		linkedItems[] = {"UK3CB_V_Pouch","UK3CB_H_Beret_Officer","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"UK3CB_V_Pouch","UK3CB_H_Beret_Officer","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"V_Chestrig_oli","H_Beret_blk","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_Chestrig_oli","H_Beret_blk","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 80;
-		allowedHeadgear[] = {"UK3CB_H_Beret_Officer","UK3CB_H_Beret_Officer"};
+		allowedHeadgear[] = {"H_Beret_blk","H_Beret_blk"};
 	};
 	class FP_Faction_NKIA_TL: FP_Faction_NKIA_Soldier_BASE
 	{
@@ -478,10 +478,10 @@ class cfgvehicles
 		camouflage = 1.6;
 		sensitivity = 3;
 		icon = "iconManLeader";
-		linkedItems[] = {"UK3CB_V_Chestrig_TKA_OLI","UK3CB_TKC_H_Turban_05_1","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"UK3CB_V_Chestrig_TKA_OLI","UK3CB_TKC_H_Turban_05_1","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"V_Chestrig_oli","rhs_tsh4","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_Chestrig_oli","rhs_tsh4","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearProbability = 90;
-		allowedHeadgear[] = {"UK3CB_TKC_H_Turban_05_1","UK3CB_TKC_H_Turban_05_1"};
+		allowedHeadgear[] = {"rhs_tsh4","rhs_tsh4"};
 	};
 	class FP_Faction_NKIA_Sharpshooter: FP_Faction_NKIA_Soldier_BASE
 	{
@@ -506,11 +506,11 @@ class cfgvehicles
 		magazines[] = {"rhsgref_10Rnd_792x57_m76","rhsgref_10Rnd_792x57_m76","rhsgref_10Rnd_792x57_m76","rhsgref_10Rnd_792x57_m76","rhsgref_10Rnd_792x57_m76","rhsgref_10Rnd_792x57_m76","rhsgref_10Rnd_792x57_m76","rhsgref_10Rnd_792x57_m76","rhsgref_10Rnd_792x57_m76","rhsgref_10Rnd_792x57_m76","rhs_mag_f1","rhs_mag_f1","rhs_mag_rdg2_white","rhs_mag_rdg2_white"};
 		respawnMagazines[] = {"rhsgref_10Rnd_792x57_m76","rhsgref_10Rnd_792x57_m76","rhsgref_10Rnd_792x57_m76","rhsgref_10Rnd_792x57_m76","rhsgref_10Rnd_792x57_m76","rhsgref_10Rnd_792x57_m76","rhsgref_10Rnd_792x57_m76","rhsgref_10Rnd_792x57_m76","rhsgref_10Rnd_792x57_m76","rhsgref_10Rnd_792x57_m76","rhs_mag_f1","rhs_mag_f1","rhs_mag_rdg2_white","rhs_mag_rdg2_white"};
 		cost = 150000;
-		linkedItems[] = {"UK3CB_V_Pouch","UK3CB_H_Mil_Turban_Wrap","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"UK3CB_V_Pouch","UK3CB_H_Mil_Turban_Wrap","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"V_Chestrig_oli","H_Booniehat_khk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"V_Chestrig_oli","H_Booniehat_khk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		sensitivity = 3;
 		headgearProbability = 60;
-		allowedHeadgear[] = {"UK3CB_H_Mil_Turban_Wrap","UK3CB_H_Mil_Turban_Wrap"};
+		allowedHeadgear[] = {"H_Booniehat_khk","H_Booniehat_khk"};
 	};
 	class FP_Faction_NKIA_Militiaman_RPG: FP_Faction_NKIA_Soldier_BASE
 	{
@@ -540,10 +540,11 @@ class cfgvehicles
 		secondaryAmmoCoef = 0.5;
 		icon = "iconManAT";
 		headgearProbability = 100;
-		linkedItems[] = {"UK3CB_V_Pouch","UK3CB_TKM_I_H_Turban_02_1"};
-		respawnLinkedItems[] = {"UK3CB_V_Pouch","UK3CB_TKM_I_H_Turban_02_1"};
-		allowedHeadgear[] = {"UK3CB_TKM_I_H_Turban_02_1","UK3CB_TKM_I_H_Turban_02_1"};
+		linkedItems[] = {"V_Chestrig_oli","H_ShemagOpen_khk"};
+		respawnLinkedItems[] = {"V_Chestrig_oli","H_ShemagOpen_khk"};
+		allowedHeadgear[] = {"H_ShemagOpen_khk","H_ShemagOpen_khk"};
 	};
+	/*
 	class UK3CB_TKM_O_Datsun_Pkm;
 	class UK3CB_TKM_O_Hilux_Rocket_Arty;
 	class UK3CB_TKM_O_Hilux_Dshkm;
@@ -617,4 +618,5 @@ class cfgvehicles
 		side = 2;
 		crew = "FP_Faction_NKIA_Rifleman";
 	};
+	*/
 };

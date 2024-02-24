@@ -1261,7 +1261,6 @@ class cfgvehicles
 	{
 		displayName = "Grom Sniper";
 		uniformClass = "FP_GOR_rhs_uniform_6sh122_gloves_tochka";
-		allowedHeadgear[] = {"FP_GOR_H_Booniehat_atacsfg_hs"};
 		weapons[] = {"srifle_GM6_LRPS_F","hgun_Rook40_F","Throw","Put"};
 		respawnWeapons[] = {"srifle_GM6_LRPS_F","hgun_Rook40_F","Throw","Put"};
 	    magazines[] = {"ACE_5Rnd_127x99_AMAX_Mag","ACE_5Rnd_127x99_AMAX_Mag","ACE_5Rnd_127x99_API_Mag","ACE_5Rnd_127x99_API_Mag","ACE_5Rnd_127x99_API_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag"};
