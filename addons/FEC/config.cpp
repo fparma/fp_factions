@@ -2,7 +2,7 @@ class CfgPatches
 {
 	class FP_Factions_FEC
 	{
-		units[] = 
+		units[]= 
 		{
 			"FP_Faction_FEC_Soldier_BASE",
 			"FP_Faction_FEC_Rifleman",
@@ -1266,7 +1266,6 @@ class cfgvehicles
 		respawnWeapons[] = {"srifle_GM6_LRPS_F","hgun_Rook40_F","Throw","Put"};
 	    magazines[] = {"ACE_5Rnd_127x99_AMAX_Mag","ACE_5Rnd_127x99_AMAX_Mag","ACE_5Rnd_127x99_API_Mag","ACE_5Rnd_127x99_API_Mag","ACE_5Rnd_127x99_API_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag"};
 		respawnMagazines[] = {"ACE_5Rnd_127x99_AMAX_Mag","ACE_5Rnd_127x99_AMAX_Mag","ACE_5Rnd_127x99_API_Mag","ACE_5Rnd_127x99_API_Mag","ACE_5Rnd_127x99_API_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag"}; 
-		allowedHeadgear[] = {"FP_GOR_H_Booniehat_atacsfg_hs"};
 	    linkedItems[] = {"FP_GOR_rhs_6sh117_svd_atacsfg","FP_GOR_H_Booniehat_atacsfg_hs","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"FP_GOR_rhs_6sh117_svd_atacsfg","FP_GOR_H_Booniehat_atacsfg_hs","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
