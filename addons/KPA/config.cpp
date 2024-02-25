@@ -6974,7 +6974,7 @@ class CfgVehicles
 				hitpoint = "Hit_LWR_6";
 			};
 		};
-		class Hitpoints: HitPoints
+		class HitPoints: HitPoints
 		{
 			class Hit_Optic_Driver
 			{
@@ -7636,7 +7636,7 @@ class CfgVehicles
 				textures[] = {"rhsafrf\addons\rhs_t72_camo\data\rhs_t72b3_01_sand_co.paa","rhsafrf\addons\rhs_t72_camo\data\rhs_t72b3_02_sand_co.paa","rhsafrf\addons\rhs_t72_camo\data\rhs_t72b_03_sand_co.paa","rhsafrf\addons\rhs_t72_camo\data\rhs_t72b_04_sand_co.paa","rhsafrf\addons\rhs_t72_camo\data\rhs_t72b_05_sand_co.paa","rhsafrf\addons\rhs_t72_camo\data\rhs_t90parts_sand_co.paa","rhsafrf\addons\rhs_t72_camo\data\rhs_t90a_02_sand_co.paa","rhsafrf\addons\rhs_t72_camo\data\rhs_t90sa_sand_co.paa"};
 			};
 		};
-		class HitPoints: Hitpoints
+		class HitPoints: HitPoints
 		{
 			class era_1_hitpoint
 			{
@@ -10785,15 +10785,15 @@ class FP_CSL_O_KPA_SOF_Medic: FP_CSL_O_KPA_SOF_Soldier_BASE
 		linkedItems[] = {"vest_sov_webgear","cap_chi_type65_kpa_modern","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"vest_sov_webgear","cap_chi_type65_kpa_modern","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class FP_CSL_O_KPA_WPRG_F: FP_CSL_O_KPA_WPRG_Base
+	class FP_CSL_O_KPA_WPRG_F: FP_CSL_O_KPA_WPRG_BASE
 	{
 		author = "FP Mod Team";
-		_generalMacro = "FP_CSL_O_KPA_WPRG_Base";
+		_generalMacro = "FP_CSL_O_KPA_WPRG_BASE";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Rifleman";		
 	};
-	class FP_CSL_O_KPA_WPRG_unarmed_F: FP_CSL_O_KPA_WPRG_Base
+	class FP_CSL_O_KPA_WPRG_unarmed_F: FP_CSL_O_KPA_WPRG_BASE
 	{
 		author = "FP Mod Team";
 		_generalMacro = "FP_KPA_Soldier_BASE";
@@ -10805,10 +10805,10 @@ class FP_CSL_O_KPA_SOF_Medic: FP_CSL_O_KPA_SOF_Soldier_BASE
 		magazines[] = {};
 		respawnMagazines[] = {};
 	};
-	class FP_CSL_O_KPA_WPRG_SKS_F: FP_CSL_O_KPA_WPRG_Base
+	class FP_CSL_O_KPA_WPRG_SKS_F: FP_CSL_O_KPA_WPRG_BASE
 	{
 		author = "FP Mod Team";
-		_generalMacro = "FP_CSL_O_KPA_WPRG_Base";
+		_generalMacro = "FP_CSL_O_KPA_WPRG_BASE";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Rifleman (SKS)";
@@ -10819,10 +10819,10 @@ class FP_CSL_O_KPA_SOF_Medic: FP_CSL_O_KPA_SOF_Soldier_BASE
 		linkedItems[] = {"vest_chicom_sks","cap_chi_type65_kpa_modern","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"vest_chicom_sks","cap_chi_type65_kpa_modern","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class FP_CSL_O_KPA_WPRG_M1903A1_F: FP_CSL_O_KPA_WPRG_Base
+	class FP_CSL_O_KPA_WPRG_M1903A1_F: FP_CSL_O_KPA_WPRG_BASE
 	{
 		author = "FP Mod Team";
-		_generalMacro = "FP_CSL_O_KPA_WPRG_Base";
+		_generalMacro = "FP_CSL_O_KPA_WPRG_BASE";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Rifleman (M1903A1)";
@@ -10833,10 +10833,10 @@ class FP_CSL_O_KPA_SOF_Medic: FP_CSL_O_KPA_SOF_Soldier_BASE
 		linkedItems[] = {"vest_chicom_sks","cap_chi_type65_kpa_modern","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"vest_chicom_sks","cap_chi_type65_kpa_modern","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class FP_CSL_O_KPA_WPRG_SVT40_F: FP_CSL_O_KPA_WPRG_Base
+	class FP_CSL_O_KPA_WPRG_SVT40_F: FP_CSL_O_KPA_WPRG_BASE
 	{
 		author = "FP Mod Team";
-		_generalMacro = "FP_CSL_O_KPA_WPRG_Base";
+		_generalMacro = "FP_CSL_O_KPA_WPRG_BASE";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Rifleman (SVT-40)";
@@ -10847,7 +10847,7 @@ class FP_CSL_O_KPA_SOF_Medic: FP_CSL_O_KPA_SOF_Soldier_BASE
 		linkedItems[] = {"vest_chicom_sks","cap_chi_type65_kpa_modern","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"vest_chicom_sks","cap_chi_type65_kpa_modern","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class FP_CSL_O_KPA_WPRG_AR_F: FP_CSL_O_KPA_WPRG_Base
+	class FP_CSL_O_KPA_WPRG_AR_F: FP_CSL_O_KPA_WPRG_BASE
 	{
 		class SpeechVariants
 		{

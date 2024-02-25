@@ -325,6 +325,519 @@ class CfgGroups
 						position[] = {10,-5,0};
 					};
 				};
+				class FEC_Meha_Squad
+				{
+					name = "Mehastrelki Rifle Squad";
+					side = 2;
+					faction = "FP_Faction_FEC";
+					class Unit0
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Meha_SL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Meha_Rifleman";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Meha_DM";
+						rank = "CORPORAL";
+						position[] = {-5,-5,0};
+					};
+					class Unit3
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Meha_Rifleman";
+						rank = "PRIVATE";
+						position[] = {10,-10,0};
+					};
+					class Unit4
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Meha_RAT";
+						rank = "PRIVATE";
+						position[] = {-10,-10,0};
+					};
+					class Unit5
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Meha_AR";
+						rank = "CORPORAL";
+						position[] = {15,-15,0};
+					};
+					class Unit6
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Meha_AR";
+						rank = "PRIVATE";
+						position[] = {-15,-15,0};
+					};
+					class Unit7
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Meha_AAR";
+						rank = "PRIVATE";
+						position[] = {20,-20,0};
+					};
+				};
+				class FEC_Meha_WeaponsSquad
+				{
+					name = "Mehastrelki Weapons Squad";
+					side = 2;
+					faction = "FP_Faction_FEC";
+					class Unit0
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Meha_SL";
+						rank = "CORPORAL";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Meha_RAT";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Meha_MANPADS";
+						rank = "CORPORAL";
+						position[] = {-5,-5,0};
+					};
+					class Unit3
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Meha_AAR";
+						rank = "PRIVATE";
+						position[] = {10,-10,0};
+					};
+					class Unit4
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Meha_MG";
+						rank = "PRIVATE";
+						position[] = {-10,-10,0};
+					};
+					class Unit5
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Meha_MG";
+						rank = "CORPORAL";
+						position[] = {15,-15,0};
+					};
+					class Unit6
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Meha_AT";
+						rank = "PRIVATE";
+						position[] = {-15,-15,0};
+					};
+					class Unit7
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Meha_DM";
+						rank = "PRIVATE";
+						position[] = {20,-20,0};
+					};
+				};
+				class FEC_Meha_Team
+				{
+					name = "Mehastrelki Team";
+					side = 2;
+					faction = "FP_Faction_FEC";
+					class Unit0
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Meha_SL";
+						rank = "CORPORAL";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Meha_Rifleman";
+						rank = "CORPORAL";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Meha_RAT";
+						rank = "PRIVATE";
+						position[] = {-5,-5,0};
+					};
+				};
+			};
+			class Motorized 
+			{
+				name = "FEC Motorized Militia";
+				class FEC_Riflesquad
+				{
+					name = "Rifle Section (Ural)";
+					side = 2;
+					faction = "FP_Faction_FEC";
+					class Unit0
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Ural";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_AR";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_MAT";
+						rank = "CORPORAL";
+						position[] = {-5,-5,0};
+					};
+					class Unit3
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Rifleman";
+						rank = "PRIVATE";
+						position[] = {10,-10,0};
+					};
+					class Unit4
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Rifleman";
+						rank = "PRIVATE";
+						position[] = {-10,-10,0};
+					};
+					class Unit5
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Rifleman";
+						rank = "CORPORAL";
+						position[] = {15,-15,0};
+					};
+					class Unit6
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Rifleman";
+						rank = "PRIVATE";
+						position[] = {-15,-15,0};
+					};
+				};
+			};
+			class Mechanized
+			{
+				name = "FEC Mehastrelki";
+				class FEC_Meha_Squad_BMP1
+				{
+					name = "Mehastrelki Rifle Squad (BMP1)";
+					side = 2;
+					faction = "FP_Faction_FEC";
+					class Unit0
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_BMP1";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Meha_Rifleman";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Meha_DM";
+						rank = "CORPORAL";
+						position[] = {-5,-5,0};
+					};
+					class Unit3
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Meha_Rifleman";
+						rank = "PRIVATE";
+						position[] = {10,-10,0};
+					};
+					class Unit4
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Meha_RAT";
+						rank = "PRIVATE";
+						position[] = {-10,-10,0};
+					};
+					class Unit5
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Meha_AR";
+						rank = "CORPORAL";
+						position[] = {15,-15,0};
+					};
+					class Unit6
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Meha_AR";
+						rank = "PRIVATE";
+						position[] = {-15,-15,0};
+					};
+					class Unit7
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Meha_AAR";
+						rank = "PRIVATE";
+						position[] = {20,-20,0};
+					};
+				};
+				class FEC_Meha_Squad_BMP2
+				{
+					name = "Mehastrelki Rifle Squad (BMP2)";
+					side = 2;
+					faction = "FP_Faction_FEC";
+					class Unit0
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_BMP2";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Meha_Rifleman";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Meha_DM";
+						rank = "CORPORAL";
+						position[] = {-5,-5,0};
+					};
+					class Unit3
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Meha_Rifleman";
+						rank = "PRIVATE";
+						position[] = {10,-10,0};
+					};
+					class Unit4
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Meha_RAT";
+						rank = "PRIVATE";
+						position[] = {-10,-10,0};
+					};
+					class Unit5
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Meha_AR";
+						rank = "CORPORAL";
+						position[] = {15,-15,0};
+					};
+					class Unit6
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Meha_AR";
+						rank = "PRIVATE";
+						position[] = {-15,-15,0};
+					};
+					class Unit7
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Meha_AAR";
+						rank = "PRIVATE";
+						position[] = {20,-20,0};
+					};
+				};
+			};
+			class SpecialForces
+			{
+				name = "FEC Grom Unit";
+				class FEC_Grom_Team
+				{
+					name = "Grom DRG Team";
+					side = 2;
+					faction = "FP_Faction_FEC";
+					class Unit0
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Grom_TL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Grom_Engineer";
+						rank = "CORPORAL";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Grom_RAT";
+						rank = "PRIVATE";
+						position[] = {-5,-5,0};
+					};
+					class Unit3
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Grom_Scout";
+						rank = "PRIVATE";
+						position[] = {10,-10,0};
+					};
+				};
+				class FEC_Grom_Recon_Team
+				{
+					name = "Grom Recon Team";
+					side = 2;
+					faction = "FP_Faction_FEC";
+					class Unit0
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Grom_TL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Grom_Sniper";
+						rank = "CORPORAL";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Grom_Sniper";
+						rank = "PRIVATE";
+						position[] = {-5,-5,0};
+					};
+					class Unit3
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Grom_Scout";
+						rank = "PRIVATE";
+						position[] = {10,-10,0};
+					};
+				};
+				class FEC_Grom_AT_Team
+				{
+					name = "Grom AT Team";
+					side = 2;
+					faction = "FP_Faction_FEC";
+					class Unit0
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Grom_TL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Grom_AT";
+						rank = "CORPORAL";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Grom_AT";
+						rank = "PRIVATE";
+						position[] = {-5,-5,0};
+					};
+					class Unit3
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Grom_Scout";
+						rank = "PRIVATE";
+						position[] = {10,-10,0};
+					};
+				};
+				class FEC_Grom_Squad
+				{
+					name = "Grom Squad";
+					side = 2;
+					faction = "FP_Faction_FEC";
+					class Unit0
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Grom_SL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Grom_TL";
+						rank = "CORPORAL";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Grom_Sniper";
+						rank = "PRIVATE";
+						position[] = {-5,-5,0};
+					};
+					class Unit3
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Grom_Engineer";
+						rank = "PRIVATE";
+						position[] = {10,-10,0};
+					};
+					class Unit4
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Grom_MG";
+						rank = "PRIVATE";
+						position[] = {-10,-10,0};
+					};
+					class Unit5
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Grom_RAT";
+						rank = "PRIVATE";
+						position[] = {15,-15,0};
+					};
+					class Unit6
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Grom_Scout";
+						rank = "PRIVATE";
+						position[] = {-15,-15,0};
+					};
+					class Unit7
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Grom_Scout";
+						rank = "PRIVATE";
+						position[] = {20,-20,0};
+					};
+					class Unit8
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Grom_Scout";
+						rank = "PRIVATE";
+						position[] = {-20,-20,0};
+					};
+				};
 			};
 			class Support
 			{
@@ -455,6 +968,87 @@ class CfgGroups
 						vehicle = "FP_Faction_FEC_AMANPADS";
 						rank = "CORPORAL";
 						position[] = {5,-5,0};
+					};
+				};
+				class FEC_Meha_AA_Team
+				{
+					name = "Mehastrelki MANPADS Team";
+					side = 2;
+					faction = "FP_Faction_FEC";
+					class Unit0
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Meha_SL";
+						rank = "CORPORAL";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Meha_MANPADS";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Meha_MANPADS";
+						rank = "PRIVATE";
+						position[] = {-5,-5,0};
+					};
+				};
+				class FEC_Meha_AT_Team
+				{
+					name = "Mehastrelki AT Team";
+					side = 2;
+					faction = "FP_Faction_FEC";
+					class Unit0
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Meha_SL";
+						rank = "CORPORAL";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Meha_AT";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Meha_AT";
+						rank = "PRIVATE";
+						position[] = {-5,-5,0};
+					};
+				};
+				class FEC_Meha_MG_Team
+				{
+					name = "Mehastrelki MG Team";
+					side = 2;
+					faction = "FP_Faction_FEC";
+					class Unit0
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Meha_SL";
+						rank = "CORPORAL";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Meha_MG";
+						rank = "PRIVATE";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 2;
+						vehicle = "FP_Faction_FEC_Meha_MG";
+						rank = "PRIVATE";
+						position[] = {-5,-5,0};
 					};
 				};
 			};

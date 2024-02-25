@@ -386,7 +386,7 @@ class CfgVehicles
 		scope = 0;
 		class Turrets: Turrets
 		{
-			class MainTurret: Mainturret
+			class MainTurret: MainTurret
 			{
 				class Turrets;
 			};
@@ -397,7 +397,7 @@ class CfgVehicles
 		scope = 0;
 		class Turrets: Turrets
 		{
-			class MainTurret: Mainturret
+			class MainTurret: MainTurret
 			{
 				class Turrets: Turrets
 				{
