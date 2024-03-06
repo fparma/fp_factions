@@ -66,7 +66,7 @@ class CfgVehicles
 		uniformClass="FP_GOR_Uniform_Gorka_Armour_Summer";
 		displayName="Gorka (Partizan Summer)";
 		nakedUniform="U_BasicBody";
-		class HitPoints: Hitpoints
+		class HitPoints: HitPoints
 		{
 			class HitFace
 			{

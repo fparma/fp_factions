@@ -2671,7 +2671,7 @@ class cfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Missile Specialist (HAT)";
-		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_CSL_O_O_PLA_Soldier_HAT_F.jpg";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_CSL_O_PLA_Soldier_HAT_F.jpg";
 		backpack = "B_Kitbag_sgg_HAT_PLA";
 		weapons[] = {"arifle_CTAR_blk_F","FP_GOR_launch_O_Vorona_metis_F","Throw","Put"};
 		respawnWeapons[] = {"arifle_CTAR_blk_F","FP_GOR_launch_O_Vorona_metis_F","Throw","Put"};
@@ -3235,7 +3235,7 @@ class cfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Missile Specialist (HAT)";
-		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_CSL_O_O_PLA_Soldier_HAT_F.jpg";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_CSL_O_PLA_Soldier_HAT_F.jpg";
 		backpack = "B_Kitbag_sgg_HAT_PLA";
 		weapons[] = {"arifle_CTAR_blk_F","FP_GOR_launch_O_Vorona_metis_F","Throw","Put"};
 		respawnWeapons[] = {"arifle_CTAR_blk_F","FP_GOR_launch_O_Vorona_metis_F","Throw","Put"};
@@ -3736,7 +3736,7 @@ class cfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Missile Specialist (HAT)";
-		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_CSL_O_O_PLA_Soldier_HAT_F.jpg";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_CSL_O_PLA_Soldier_HAT_F.jpg";
 		backpack = "B_Kitbag_sgg_HAT_PLA";
 		weapons[] = {"arifle_CTAR_blk_F","FP_GOR_launch_O_Vorona_metis_F","Throw","Put"};
 		respawnWeapons[] = {"arifle_CTAR_blk_F","FP_GOR_launch_O_Vorona_metis_F","Throw","Put"};
@@ -4237,7 +4237,7 @@ class cfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Missile Specialist (HAT)";
-		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_CSL_O_O_PLA_Soldier_HAT_F.jpg";
+		editorPreview = "\FP_Factions\PLA\editorpreviews\FP_CSL_O_PLA_Soldier_HAT_F.jpg";
 		backpack = "B_Kitbag_sgg_HAT_PLA";
 		weapons[] = {"arifle_CTAR_blk_F","FP_GOR_launch_O_Vorona_metis_F","Throw","Put"};
 		respawnWeapons[] = {"arifle_CTAR_blk_F","FP_GOR_launch_O_Vorona_metis_F","Throw","Put"};
