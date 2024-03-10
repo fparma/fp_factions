@@ -389,7 +389,19 @@ class CfgPatches
 			"FP_GOR_Uniform_Massif_us4cesocie",
 			"FP_GOR_Uniform_Massif_02_us4cesocie",
 			"FP_GOR_Uniform_Massifjacket_us4cesocie",
-			"FP_GOR_Uniform_Massifjacket_02_us4cesocie"
+			"FP_GOR_Uniform_Massifjacket_02_us4cesocie",
+			"FP_GOR_Uniform_Massif_cadpattw",
+			"FP_GOR_Uniform_Massif_02_cadpattw",
+			"FP_GOR_Uniform_Massifjacket_cadpattw",
+			"FP_GOR_Uniform_Massifjacket_02_cadpattw",
+			"FP_GOR_Uniform_Massif_cadpatmt",
+			"FP_GOR_Uniform_Massif_02_cadpatmt",
+			"FP_GOR_Uniform_Massifjacket_cadpatmt",
+			"FP_GOR_Uniform_Massifjacket_02_cadpatmt",
+			"FP_GOR_Uniform_Massif_cadpatar",
+			"FP_GOR_Uniform_Massif_02_cadpatar",
+			"FP_GOR_Uniform_Massifjacket_cadpatar",
+			"FP_GOR_Uniform_Massifjacket_02_cadpatar"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=

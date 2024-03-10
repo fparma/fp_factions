@@ -241,7 +241,13 @@ class CfgPatches
 			"FP_GOR_H_Booniehat_us4cesocie",
 			"FP_GOR_H_Booniehat_us4cesocie_hs",
 			"FP_GOR_H_Booniehat_nutria",
-			"FP_GOR_H_Booniehat_nutria_hs"
+			"FP_GOR_H_Booniehat_nutria_hs",
+			"FP_GOR_H_Booniehat_cadpattw",
+			"FP_GOR_H_Booniehat_cadpattw_hs",
+			"FP_GOR_H_Booniehat_cadpatmt",
+			"FP_GOR_H_Booniehat_cadpatmt_hs",
+			"FP_GOR_H_Booniehat_cadpatar",
+			"FP_GOR_H_Booniehat_cadpatar_hs"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -2223,5 +2229,54 @@ class CfgWeapons
 		scope = 2;
 		displayName = "Booniehat (Nutria brown, headset)";
 		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_nutria_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_cadpattw: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_cadpattw";
+		scope = 2;
+		displayName = "Booniehat (CADPAT TW)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_cadpattw_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_cadpattw_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_cadpattw_hs";
+		scope = 2;
+		displayName = "Booniehat (CADPAT TW, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_cadpattw_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_cadpatmt: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_cadpatmt";
+		scope = 2;
+		displayName = "Booniehat (CADPAT MT)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_cadpatmt_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_cadpatmt_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_cadpatmt_hs";
+		scope = 2;
+		displayName = "Booniehat (CADPAT MT, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_cadpatmt_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_cadpatar: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_cadpatar";
+		scope = 2;
+		displayName = "Booniehat (CADPAT AR)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_cadpatar_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_cadpatar_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_cadpatar_hs";
+		scope = 2;
+		displayName = "Booniehat (CADPAT AR, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_cadpatar_co.paa"};
 	};
 };
