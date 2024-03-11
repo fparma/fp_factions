@@ -247,7 +247,9 @@ class CfgPatches
 			"FP_GOR_H_Booniehat_cadpatmt",
 			"FP_GOR_H_Booniehat_cadpatmt_hs",
 			"FP_GOR_H_Booniehat_cadpatar",
-			"FP_GOR_H_Booniehat_cadpatar_hs"
+			"FP_GOR_H_Booniehat_cadpatar_hs",
+			"FP_GOR_H_Booniehat_tochkaalt",
+			"FP_GOR_H_Booniehat_tochkaalt_hs"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -2278,5 +2280,22 @@ class CfgWeapons
 		scope = 2;
 		displayName = "Booniehat (CADPAT AR, headset)";
 		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_cadpatar_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_tochkaalt: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_tochkaalt";
+		scope = 2;
+		displayName = "Booniehat (Tochka (Alt.))";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_tochkaalt_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_tochkaalt_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_tochkaalt_hs";
+		scope = 2;
+		displayName = "Booniehat (Tochka (Alt.), headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_tochkaalt_co.paa"};
 	};
 };
