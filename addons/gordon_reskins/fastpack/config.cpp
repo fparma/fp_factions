@@ -37,7 +37,10 @@ class CfgPatches
 			"FP_GOR_fastpack_m90",
 			"FP_GOR_fastpack_m90k",
 			"FP_GOR_fastpack_m90w",
-			"FP_GOR_fastpack_inv"
+			"FP_GOR_fastpack_inv",
+			"FP_GOR_fastpack_cadpattw",
+			"FP_GOR_fastpack_cadpatmt",
+			"FP_GOR_fastpack_cadpatar"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -336,5 +339,33 @@ class CfgVehicles
 		displayName="FP Kitbag (Invisible)";
 		model="\A3\Weapons_F\empty.p3d";
 		picture="";
+	};
+	
+	class FP_GOR_fastpack_cadpattw: B_Kitbag_rgr
+	{
+		author="Gordon Weedman";
+		displayName="Kitbag (CADPAT TW)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\fastpack\data\fastpack_cadpattw_co.paa"
+		};
+	};
+	class FP_GOR_fastpack_cadpatmt: B_Kitbag_rgr
+	{
+		author="Gordon Weedman";
+		displayName="Kitbag (CADPAT MT)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\fastpack\data\fastpack_cadpatmt_co.paa"
+		};
+	};
+	class FP_GOR_fastpack_cadpatar: B_Kitbag_rgr
+	{
+		author="Gordon Weedman";
+		displayName="Kitbag (CADPAT AR)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\fastpack\data\fastpack_cadpatar_co.paa"
+		};
 	};
 }; 
