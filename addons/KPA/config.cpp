@@ -24,7 +24,6 @@ class CfgPatches
 			"FP_CSL_O_KPA_T34",
 			"FP_CSL_O_KPA_T34_DSHK",
 			"FP_CSL_O_KPA_PT76B",
-			"FP_CSL_O_KPA_PT76B_Amphib",
 			"FP_CSL_O_KPA_SU100",
 			"FP_CSL_O_KPA_T55",
 			"FP_CSL_O_KPA_T72M",
