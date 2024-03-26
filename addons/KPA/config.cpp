@@ -24,7 +24,6 @@ class CfgPatches
 			"FP_CSL_O_KPA_T34",
 			"FP_CSL_O_KPA_T34_DSHK",
 			"FP_CSL_O_KPA_PT76B",
-			"FP_CSL_O_KPA_PT76B_Amphib",
 			"FP_CSL_O_KPA_SU100",
 			"FP_CSL_O_KPA_T55",
 			"FP_CSL_O_KPA_T72M",
@@ -2096,9 +2095,6 @@ class CfgVehicles
 	class FP_O_APC_BTR50;
 	class FP_O_APC_BTR50_Ammo;
 	class FP_O_APC_BTR50_DShK;
-	class FP_O_APC_BTR50_Ammo_Amphib;
-	class FP_O_APC_BTR50_Amphib;
-	class FP_O_APC_BTR50_DShK_Amphib;
 	class FP_CSL_O_KPA_BTR50: FP_O_APC_BTR50
 	{
 		author = "FP Mod Team";
@@ -2117,41 +2113,11 @@ class CfgVehicles
 		crew = "FP_CSL_O_KPA_Crewman_F";
 		faction = "FP_Faction_KPA";
 	};
-		class FP_CSL_O_KPA_BTR50_Amphib: FP_O_APC_BTR50_Amphib
-	{
-		author = "FP Mod Team";
-		crew = "FP_CSL_O_KPA_Marine_Crewman_F";
-		faction = "FP_Faction_KPA";
-	};
-	class FP_CSL_O_KPA_BTR50_Ammo_Amphib: FP_O_APC_BTR50_Ammo_Amphib
-	{
-		author = "FP Mod Team";
-		crew = "FP_CSL_O_KPA_Marine_Crewman_F";
-		faction = "FP_Faction_KPA";
-	};
-	class FP_CSL_O_KPA_BTR50_DShK_Amphib: FP_O_APC_BTR50_DShK_Amphib 
-	{
-		author = "FP Mod Team";
-		crew = "FP_CSL_O_KPA_Marine_Crewman_F";
-		faction = "FP_Faction_KPA";
-	};
 	class FP_O_APC_BTR50_open;
-	class FP_O_APC_BTR50_open_Amphib;
-	class FP_O_APC_BTR50_Open_DShK_Amphib;
 	class FP_O_APC_BTR50_Open_DShK;
 	class FP_CSL_O_KPA_APC_BTR50_open: FP_O_APC_BTR50_open
 	{
 		crew = "FP_CSL_O_KPA_Crewman_F";
-		faction = "FP_Faction_KPA";
-	};
-	class FP_CSL_O_KPA_APC_BTR50_open_Amphib: FP_O_APC_BTR50_open_Amphib
-	{
-		crew = "FP_CSL_O_KPA_Marine_Crewman_F";
-		faction = "FP_Faction_KPA";
-	};
-	class FP_CSL_O_KPA_APC_BTR50_Open_DShK_Amphib: FP_O_APC_BTR50_Open_DShK_Amphib
-	{
-		crew = "FP_CSL_O_KPA_Marine_Crewman_F";
 		faction = "FP_Faction_KPA";
 	};
 	class FP_O_TNK_T55;
@@ -2164,16 +2130,7 @@ class CfgVehicles
 		hiddenSelectionsTextures[] = {"\FP_Factions\KPA\data\t55\t_55a_body_dprk_co.paa","\FP_Factions\KPA\data\t55\t_55a_turret_dprk_co.paa","\FP_Factions\KPA\data\t55\t_55a_gun_dprk_co.paa","sim_WT_tanks\T55\t_55a_mount_co.paa"};
 	};
 	class FP_O_TNK_PT76B;
-	class FP_O_TNK_PT76B_Amphib;
 	class FP_CSL_O_KPA_PT76B: FP_O_TNK_PT76B
-	{
-		author = "FP Mod Team";
-		crew = "FP_CSL_O_KPA_Marine_Crewman_F";
-		faction = "FP_Faction_KPA";
-		hiddenSelections[] = {"camo","camo2","camo3","markings"};
-		hiddenselectionstextures[] = {"\FP_Factions\KPA\data\pt76b\pt_76b_body_dprk_co.paa","\FP_Factions\KPA\data\pt76b\pt_76b_turret_dprk_co.paa","\FP_Factions\KPA\data\pt76b\pt_76b_gun_dprk_co.paa","a3\data_f\clear_empty.paa"};
-	};
-	class FP_CSL_O_KPA_PT76B_Amphib: FP_O_TNK_PT76B_Amphib
 	{
 		author = "FP Mod Team";
 		crew = "FP_CSL_O_KPA_Marine_Crewman_F";
