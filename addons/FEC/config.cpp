@@ -69,6 +69,7 @@ class CfgFactionClasses
 		flag = "\FP_Factions\FEC\flag_FEC.paa";
 	};
 };
+
 class CfgGroups
 {
 	class Indep
@@ -1058,6 +1059,7 @@ class CfgGroups
 class cfgvehicles
 {
 	class rhs_sidor;
+	class rhs_rpg_6b3;
 	class rhs_sidor_Eng_FEC: rhs_sidor
 	{
 		scope = 1;
@@ -1121,6 +1123,23 @@ class cfgvehicles
 			{
 				magazine = "MRAWS_HEAT_F";
 				count = 3;
+			};
+		};
+	};
+	class rhs_rpg_FEC_MAT: rhs_rpg_6b3
+	{
+		scope = 1;
+		class TransportMagazines
+		{
+			class _xx_RPG32_F
+			{
+				magazine = "RPG32_F";
+				count = 2;
+			};
+			class _xx_RPG32_HE_F
+			{
+				magazine = "RPG32_HE_F";
+				count = 1;
 			};
 		};
 	};
@@ -1423,8 +1442,8 @@ class cfgvehicles
 		uniformClass = "FP_Uniform_M88_TTsMKK"; 
 		weapons[] = {"rhs_weap_savz58v_black","rhs_weap_m72a7","Throw","Put"};
 		respawnWeapons[] = {"rhs_weap_savz58v_black","rhs_weap_m72a7","Throw","Put"};
-		magazines[] = {"rhs_30Rnd_762x39mm_Savz58","rhs_30Rnd_762x39mm_Savz58","rhs_30Rnd_762x39mm_Savz58","rhs_30Rnd_762x39mm_Savz58","rhs_30Rnd_762x39mm_Savz58","HandGrenade","HandGrenade","rhs_mag_rdg2_white","rhs_mag_rdg2_white"};
-		respawnMagazines[] = {"rhs_30Rnd_762x39mm_Savz58","rhs_30Rnd_762x39mm_Savz58","rhs_30Rnd_762x39mm_Savz58","rhs_30Rnd_762x39mm_Savz58","rhs_30Rnd_762x39mm_Savz58","HandGrenade","HandGrenade","rhs_mag_rdg2_white","rhs_mag_rdg2_white"};
+		magazines[] = {"rhs_30Rnd_762x39mm_Savz58","rhs_30Rnd_762x39mm_Savz58","rhs_30Rnd_762x39mm_Savz58","rhs_30Rnd_762x39mm_Savz58","rhs_30Rnd_762x39mm_Savz58","HandGrenade","HandGrenade","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_m72a7_mag"};
+		respawnMagazines[] = {"rhs_30Rnd_762x39mm_Savz58","rhs_30Rnd_762x39mm_Savz58","rhs_30Rnd_762x39mm_Savz58","rhs_30Rnd_762x39mm_Savz58","rhs_30Rnd_762x39mm_Savz58","HandGrenade","HandGrenade","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_m72a7_mag"};
 		cost = 180000;
 		threat[] = {1,0.7,0.3};
 		secondaryAmmoCoef = 0.5;
@@ -1695,6 +1714,8 @@ class cfgvehicles
 		displayName = "Rifleman (AT)";
 		weapons[] = {"rhs_weap_savz58v_rail_black_FP_CCO","rhs_weap_rpg75","Throw","Put"};
 		respawnWeapons[] = {"rhs_weap_savz58v_rail_black_FP_CCO","rhs_weap_rpg75","Throw","Put"};
+		magazines[] = {"rhs_30Rnd_762x39mm_Savz58","rhs_30Rnd_762x39mm_Savz58","rhs_30Rnd_762x39mm_Savz58","rhs_30Rnd_762x39mm_Savz58","rhs_30Rnd_762x39mm_Savz58","rhs_30Rnd_762x39mm_Savz58","rhs_30Rnd_762x39mm_Savz58","rhs_mag_m67","rhs_mag_m67","rhs_rpg75_mag","SmokeShell"};
+		respawnMagazines[] = {"rhs_30Rnd_762x39mm_Savz58","rhs_30Rnd_762x39mm_Savz58","rhs_30Rnd_762x39mm_Savz58","rhs_30Rnd_762x39mm_Savz58","rhs_30Rnd_762x39mm_Savz58","rhs_30Rnd_762x39mm_Savz58","rhs_30Rnd_762x39mm_Savz58","rhs_mag_m67","rhs_mag_m67","rhs_rpg75_mag","SmokeShell"};
 	};
 	class FP_Faction_FEC_Meha_AR: FP_Faction_FEC_Meha_Rifleman
 	{
@@ -1736,7 +1757,7 @@ class cfgvehicles
 		weapons[] = {"rhs_weap_savz58v_rail_black_FP_CCO","launch_RPG32_green_F","Throw","Put"};
 		respawnWeapons[] = {"rhs_weap_savz58v_rail_black_FP_CCO","launch_RPG32_green_F","Throw","Put"};
 		icon = "iconManAT";
-		backpack = "rhs_rpg_6b3";
+		backpack = "rhs_rpg_FEC_MAT";
 		magazines[] = {"rhs_30Rnd_762x39mm_Savz58","rhs_30Rnd_762x39mm_Savz58","rhs_30Rnd_762x39mm_Savz58","rhs_30Rnd_762x39mm_Savz58","rhs_30Rnd_762x39mm_Savz58","rhs_30Rnd_762x39mm_Savz58","rhs_30Rnd_762x39mm_Savz58","RPG32_F","RPG32_F","RPG32_HE_F","rhs_mag_m67","rhs_mag_m67","SmokeShell"};
 		respawnMagazines[] = {"rhs_30Rnd_762x39mm_Savz58","rhs_30Rnd_762x39mm_Savz58","rhs_30Rnd_762x39mm_Savz58","rhs_30Rnd_762x39mm_Savz58","rhs_30Rnd_762x39mm_Savz58","rhs_30Rnd_762x39mm_Savz58","rhs_30Rnd_762x39mm_Savz58","RPG32_F","RPG32_F","RPG32_HE_F","rhs_mag_m67","rhs_mag_m67","SmokeShell"};
 	    linkedItems[] = {"rhs_6b2_lifchik","FP_Helmet_M76_Cover_OD","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
