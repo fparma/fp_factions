@@ -154,6 +154,8 @@ class CfgPatches
 			"FP_GOR_H_Booniehat_multicamblack_hs",
 			"FP_GOR_H_Booniehat_multicamjungle",
 			"FP_GOR_H_Booniehat_multicamjungle_hs",
+			"FP_GOR_H_Booniehat_multicamwoodland",
+			"FP_GOR_H_Booniehat_multicamwoodland_hs",
 			"FP_GOR_H_Booniehat_reedbrown",
 			"FP_GOR_H_Booniehat_reedbrown_hs",
 			"FP_GOR_H_Booniehat_reedgray",
@@ -211,7 +213,43 @@ class CfgPatches
 			"FP_GOR_H_Booniehat_ogdpm",
 			"FP_GOR_H_Booniehat_ogdpm_hs",
 			"FP_GOR_H_Booniehat_portugueselizard",
-			"FP_GOR_H_Booniehat_portugueselizard_hs"
+			"FP_GOR_H_Booniehat_portugueselizard_hs",
+			"FP_GOR_H_Booniehat_romanianm93autumn",
+			"FP_GOR_H_Booniehat_romanianm93autumn_hs",
+			"FP_GOR_H_Booniehat_romanianm93summer",
+			"FP_GOR_H_Booniehat_romanianm93summer_hs",
+			"FP_GOR_H_Booniehat_romanianm93urban",
+			"FP_GOR_H_Booniehat_romanianm93urban_hs",
+			"FP_GOR_H_Booniehat_battalion32",
+			"FP_GOR_H_Booniehat_battalion32_hs",
+			"FP_GOR_H_Booniehat_realtree",
+			"FP_GOR_H_Booniehat_realtree_hs",
+			"FP_GOR_H_Booniehat_rhodesianearly",
+			"FP_GOR_H_Booniehat_rhodesianearly_hs",
+			"FP_GOR_H_Booniehat_rhodesian",
+			"FP_GOR_H_Booniehat_rhodesian_hs",
+			"FP_GOR_H_Booniehat_rhodesianexperimental",
+			"FP_GOR_H_Booniehat_rhodesianexperimental_hs",
+			"FP_GOR_H_Booniehat_austrianneutarn",
+			"FP_GOR_H_Booniehat_austrianneutarn_hs",
+			"FP_GOR_H_Booniehat_us4ceswoodland",
+			"FP_GOR_H_Booniehat_us4ceswoodland_hs",
+			"FP_GOR_H_Booniehat_us4cestransitional",
+			"FP_GOR_H_Booniehat_us4cestransitional_hs",
+			"FP_GOR_H_Booniehat_us4cesarid",
+			"FP_GOR_H_Booniehat_us4cesarid_hs",
+			"FP_GOR_H_Booniehat_us4cesocie",
+			"FP_GOR_H_Booniehat_us4cesocie_hs",
+			"FP_GOR_H_Booniehat_nutria",
+			"FP_GOR_H_Booniehat_nutria_hs",
+			"FP_GOR_H_Booniehat_cadpattw",
+			"FP_GOR_H_Booniehat_cadpattw_hs",
+			"FP_GOR_H_Booniehat_cadpatmt",
+			"FP_GOR_H_Booniehat_cadpatmt_hs",
+			"FP_GOR_H_Booniehat_cadpatar",
+			"FP_GOR_H_Booniehat_cadpatar_hs",
+			"FP_GOR_H_Booniehat_tochkaalt",
+			"FP_GOR_H_Booniehat_tochkaalt_hs"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -1481,6 +1519,23 @@ class CfgWeapons
 		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_multicamjungle_co.paa"};
 	};
 	
+	class FP_GOR_H_Booniehat_multicamwoodland: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_multicamwoodland";
+		scope = 2;
+		displayName = "Booniehat (Multicam Woodland)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_multicamwoodland_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_multicamwoodland_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_multicamwoodland_hs";
+		scope = 2;
+		displayName = "Booniehat (Multicam Woodland, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_multicamwoodland_co.paa"};
+	};
+	
 	class FP_GOR_H_Booniehat_reedbrown: H_Booniehat_khk
 	{
 		author = "Gordon Weedman";
@@ -1938,5 +1993,309 @@ class CfgWeapons
 		scope = 2;
 		displayName = "Booniehat (Portuguese Lizard, headset)";
 		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_portugueselizard_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_romanianm93autumn: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_romanianm93autumn";
+		scope = 2;
+		displayName = "Booniehat (Romanian M93 Autumn)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_romanianm93autumn_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_romanianm93autumn_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_romanianm93autumn_hs";
+		scope = 2;
+		displayName = "Booniehat (Romanian M93 Autumn, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_romanianm93autumn_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_romanianm93summer: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_romanianm93summer";
+		scope = 2;
+		displayName = "Booniehat (Romanian M93 Summer)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_romanianm93summer_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_romanianm93summer_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_romanianm93summer_hs";
+		scope = 2;
+		displayName = "Booniehat (Romanian M93 Summer, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_romanianm93summer_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_romanianm93urban: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_romanianm93urban";
+		scope = 2;
+		displayName = "Booniehat (Romanian M93 Urban)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_romanianm93urban_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_romanianm93urban_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_romanianm93urban_hs";
+		scope = 2;
+		displayName = "Booniehat (Romanian M93 Urban, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_romanianm93urban_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_battalion32: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_battalion32";
+		scope = 2;
+		displayName = "Booniehat (Battalion 32)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_battalion32_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_battalion32_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_battalion32_hs";
+		scope = 2;
+		displayName = "Booniehat (Battalion 32, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_battalion32_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_realtree: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_realtree";
+		scope = 2;
+		displayName = "Booniehat (Realtree)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_realtree_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_realtree_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_realtree_hs";
+		scope = 2;
+		displayName = "Booniehat (Realtree, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_realtree_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_rhodesianearly: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_rhodesianearly";
+		scope = 2;
+		displayName = "Booniehat (Rhodesian brushstroke (early))";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_rhodesianearly_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_rhodesianearly_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_rhodesianearly_hs";
+		scope = 2;
+		displayName = "Booniehat (Rhodesian brushstroke (early), headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_rhodesianearly_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_rhodesian: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_rhodesian";
+		scope = 2;
+		displayName = "Booniehat (Rhodesian brushstroke)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_rhodesian_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_rhodesian_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_rhodesian_hs";
+		scope = 2;
+		displayName = "Booniehat (Rhodesian brushstroke, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_rhodesian_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_rhodesianexperimental: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_rhodesianexperimental";
+		scope = 2;
+		displayName = "Booniehat (Rhodesian brushstroke (experimental))";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_rhodesianexperimental_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_rhodesianexperimental_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_rhodesianexperimental_hs";
+		scope = 2;
+		displayName = "Booniehat (Rhodesian brushstroke (experimental), headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_rhodesianexperimental_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_austrianneutarn: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_austrianneutarn";
+		scope = 2;
+		displayName = "Booniehat (Austrian Neutarn)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_austrianneutarn_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_austrianneutarn_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_austrianneutarn_hs";
+		scope = 2;
+		displayName = "Booniehat (Austrian Neutarn, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_austrianneutarn_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_us4ceswoodland: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_us4ceswoodland";
+		scope = 2;
+		displayName = "Booniehat (US4CES Woodland)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_us4ceswoodland_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_us4ceswoodland_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_us4ceswoodland_hs";
+		scope = 2;
+		displayName = "Booniehat (US4CES Woodland, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_us4ceswoodland_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_us4cestransitional: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_us4cestransitional";
+		scope = 2;
+		displayName = "Booniehat (US4CES Transitional)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_us4cestransitional_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_us4cestransitional_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_us4cestransitional_hs";
+		scope = 2;
+		displayName = "Booniehat (US4CES Transitional, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_us4cestransitional_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_us4cesarid: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_us4cesarid";
+		scope = 2;
+		displayName = "Booniehat (US4CES Arid)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_us4cesarid_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_us4cesarid_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_us4cesarid_hs";
+		scope = 2;
+		displayName = "Booniehat (US4CES Arid, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_us4cesarid_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_us4cesocie: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_us4cesocie";
+		scope = 2;
+		displayName = "Booniehat (US4CES OCIE)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_us4cesocie_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_us4cesocie_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_us4cesocie_hs";
+		scope = 2;
+		displayName = "Booniehat (US4CES OCIE, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_us4cesocie_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_nutria: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_nutria";
+		scope = 2;
+		displayName = "Booniehat (Nutria brown)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_nutria_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_nutria_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_nutria_hs";
+		scope = 2;
+		displayName = "Booniehat (Nutria brown, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_nutria_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_cadpattw: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_cadpattw";
+		scope = 2;
+		displayName = "Booniehat (CADPAT TW)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_cadpattw_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_cadpattw_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_cadpattw_hs";
+		scope = 2;
+		displayName = "Booniehat (CADPAT TW, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_cadpattw_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_cadpatmt: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_cadpatmt";
+		scope = 2;
+		displayName = "Booniehat (CADPAT MT)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_cadpatmt_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_cadpatmt_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_cadpatmt_hs";
+		scope = 2;
+		displayName = "Booniehat (CADPAT MT, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_cadpatmt_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_cadpatar: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_cadpatar";
+		scope = 2;
+		displayName = "Booniehat (CADPAT AR)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_cadpatar_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_cadpatar_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_cadpatar_hs";
+		scope = 2;
+		displayName = "Booniehat (CADPAT AR, headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_cadpatar_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_tochkaalt: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_tochkaalt";
+		scope = 2;
+		displayName = "Booniehat (Tochka (Alt.))";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_tochkaalt_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_tochkaalt_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_tochkaalt_hs";
+		scope = 2;
+		displayName = "Booniehat (Tochka (Alt.), headset)";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_tochkaalt_co.paa"};
 	};
 };

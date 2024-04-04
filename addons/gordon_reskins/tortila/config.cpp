@@ -36,10 +36,14 @@ class CfgPatches
 			"FP_GOR_tortila_honor",
 			"FP_GOR_tortila_m90",
 			"FP_GOR_tortila_m90k",
+			"FP_GOR_tortila_m90w",
 			"FP_GOR_tortila_emr",
 			"FP_GOR_tortila_flora",
 			"FP_GOR_tortila_olivedrab",
-			"B_Carryall_ghex_F"
+			"B_Carryall_ghex_F",
+			"FP_GOR_tortila_cadpattw",
+			"FP_GOR_tortila_cadpatmt",
+			"FP_GOR_tortila_cadpatar"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -322,6 +326,15 @@ class CfgVehicles
 			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_m90k_co.paa"
 		};
 	};
+	class FP_GOR_tortila_m90w: B_Carryall_oli
+	{
+		author="Gordon Weedman";
+		displayName="Carryall Backpack (Swedish M90W)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_m90w_co.paa"
+		};
+	};
 	class FP_GOR_tortila_emr: B_Carryall_oli
 	{
 		author="Gordon Weedman";
@@ -356,6 +369,33 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_ghex_co.paa"
+		};
+	};
+	class FP_GOR_tortila_cadpattw: B_Carryall_oli
+	{
+		author="Gordon Weedman";
+		displayName="Carryall Backpack (CADPAT TW)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_cadpattw_co.paa"
+		};
+	};
+	class FP_GOR_tortila_cadpatmt: B_Carryall_oli
+	{
+		author="Gordon Weedman";
+		displayName="Carryall Backpack (CADPAT MT)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_cadpatmt_co.paa"
+		};
+	};
+	class FP_GOR_tortila_cadpatar: B_Carryall_oli
+	{
+		author="Gordon Weedman";
+		displayName="Carryall Backpack (CADPAT AR)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_cadpatar_co.paa"
 		};
 	};
 }; 

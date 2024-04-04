@@ -36,8 +36,12 @@ class CfgPatches
 			"FP_GOR_assaultpack_honor",
 			"FP_GOR_assaultpack_m90",
 			"FP_GOR_assaultpack_m90k",
+			"FP_GOR_assaultpack_m90w",
 			"FP_GOR_assaultpack_mtp",
-			"FP_GOR_assaultpack_inv"
+			"FP_GOR_assaultpack_inv",
+			"FP_GOR_assaultpack_cadpattw",
+			"FP_GOR_assaultpack_cadpatmt",
+			"FP_GOR_assaultpack_cadpatar"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -321,6 +325,15 @@ class CfgVehicles
 			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_m90k_co.paa"
 		};
 	};
+	class FP_GOR_assaultpack_m90w: B_AssaultPack_rgr
+	{
+		author="Gordon Weedman";
+		displayName="Assault Pack (Swedish M90W)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_m90w_co.paa"
+		};
+	};
 	class FP_GOR_assaultpack_mtp: B_AssaultPack_rgr
 	{
 		author="Gordon Weedman";
@@ -337,5 +350,33 @@ class CfgVehicles
 		displayName="FP Assault Pack (Invisible)";
 		model="\A3\Weapons_F\empty.p3d";
 		picture="";
+	};
+	
+	class FP_GOR_assaultpack_cadpattw: B_AssaultPack_rgr
+	{
+		author="Gordon Weedman";
+		displayName="Assault Pack (CADPAT TW)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_cadpattw_co.paa"
+		};
+	};
+	class FP_GOR_assaultpack_cadpatmt: B_AssaultPack_rgr
+	{
+		author="Gordon Weedman";
+		displayName="Assault Pack (CADPAT MT)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_cadpatmt_co.paa"
+		};
+	};
+	class FP_GOR_assaultpack_cadpatar: B_AssaultPack_rgr
+	{
+		author="Gordon Weedman";
+		displayName="Assault Pack (CADPAT AR)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_cadpatar_co.paa"
+		};
 	};
 }; 

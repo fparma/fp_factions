@@ -1,0 +1,26 @@
+name = "fp_factions"
+prefix = "fp_factions"
+author = "fparma"
+template = "cba"
+mainprefix = "z"
+folder_optionals = false
+sig_version = 3
+
+reuse_private_key = true
+key_name = "fp_gear_v2"
+authority = "fp_gear_v2"
+
+[files]
+exclude = [
+    "*.psd",
+    "*.png",
+    "*.tga"
+]
+include = [
+    "*.paa"
+]
+
+[version]
+major = 2
+minor = 0
+patch = 0
