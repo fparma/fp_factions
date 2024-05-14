@@ -1118,7 +1118,7 @@ class CfgWeapons
 		scope=2;
 		displayName="ACH (US4CES Arid)";
 		hiddenSelections[]={"camo"};
-		hiddenSelectionsTextures[]={"\FP_Factions\gordon_reskins\RHSACH\data\rhs_helmet_ach_us4cearid_co.paa"};
+		hiddenSelectionsTextures[]={"\FP_Factions\gordon_reskins\RHSACH\data\rhs_helmet_ach_us4cesarid_co.paa"};
 	};
 	class FP_GOR_ach_helmet_us4cearid_rhino: rhsusf_ach_helmet_ocp_alt
 	{
