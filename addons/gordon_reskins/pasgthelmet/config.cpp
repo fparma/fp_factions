@@ -103,7 +103,9 @@ class CfgPatches
 			"FP_GOR_PASGThelmet_lithuaniandesertearly",
 			"FP_GOR_PASGThelmet_lithuaniandesertearly_rhino",
 			"FP_GOR_PASGThelmet_lithuaniandesert",
-			"FP_GOR_PASGThelmet_lithuaniandesert_rhino"
+			"FP_GOR_PASGThelmet_lithuaniandesert_rhino",
+			"FP_GOR_PASGThelmet_vsr",
+			"FP_GOR_PASGThelmet_vsr_rhino"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -1199,6 +1201,29 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_lithuaniandesert_co.paa"
+		};
+	};
+	
+	class FP_GOR_PASGThelmet_vsr : rhsgref_helmet_pasgt_erdl
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl";
+		scope=2;
+		displayName="PASGT (VSR)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_vsr_co.paa"
+		};
+	};
+	class FP_GOR_PASGThelmet_vsr_rhino : rhsgref_helmet_pasgt_erdl_rhino
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhsgref_helmet_pasgt_erdl_rhino";
+		scope=2;
+		displayName="PASGT (VSR, Rhino)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\pasgthelmet\data\pasgt_helmet_vsr_co.paa"
 		};
 	};
 };
