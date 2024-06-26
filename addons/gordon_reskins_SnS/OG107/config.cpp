@@ -141,7 +141,11 @@ class CfgPatches
 			"FP_GOR_Uniform_og107_mk3_nutria_blench",
 			"FP_GOR_Uniform_og107_mk3_nutria_trop_blench",
 			"FP_GOR_Uniform_og107_mk3_nutria_tuck_blench",
-			"FP_GOR_Uniform_og107_mk3_nutria_tuck_trop_blench"
+			"FP_GOR_Uniform_og107_mk3_nutria_tuck_trop_blench",
+			"FP_GOR_Uniform_og107_mk3_bwsplitter_blench",
+			"FP_GOR_Uniform_og107_mk3_bwsplitter_trop_blench",
+			"FP_GOR_Uniform_og107_mk3_bwsplitter_tuck_blench",
+			"FP_GOR_Uniform_og107_mk3_bwsplitter_tuck_trop_blench"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
