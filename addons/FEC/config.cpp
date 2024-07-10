@@ -1270,12 +1270,12 @@ class cfgvehicles
 		_generalMacro = "FP_Faction_FEC_Soldier_BASE";
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "Guerilla (Stg. 58)";
+		displayName = "Guerilla (L1A1)";
 		uniformClass = "FP_Uniform_M88_TTsMKK";
-		weapons[] = {"hlc_rifle_STG58F","Throw","Put"};
-		respawnWeapons[] = {"hlc_rifle_STG58F","Throw","Put"};
-		magazines[] = {"hlc_20Rnd_762x51_B_fal","hlc_20Rnd_762x51_B_fal","hlc_20Rnd_762x51_B_fal","hlc_20Rnd_762x51_B_fal","hlc_20Rnd_762x51_B_fal","hlc_20Rnd_762x51_B_fal","hlc_20Rnd_762x51_B_fal","HandGrenade","HandGrenade","rhs_mag_rdg2_white","rhs_mag_rdg2_white"};
-		respawnMagazines[] = {"hlc_20Rnd_762x51_B_fal","hlc_20Rnd_762x51_B_fal","hlc_20Rnd_762x51_B_fal","hlc_20Rnd_762x51_B_fal","hlc_20Rnd_762x51_B_fal","hlc_20Rnd_762x51_B_fal","hlc_20Rnd_762x51_B_fal","HandGrenade","HandGrenade","rhs_mag_rdg2_white","rhs_mag_rdg2_white"};
+		weapons[] = {"FP_FAL_L1A1","Throw","Put"};
+		respawnWeapons[] = {"FP_FAL_L1A1","Throw","Put"};
+		magazines[] = {"rhs_mag_20Rnd_762x51_m80_fnfal","rhs_mag_20Rnd_762x51_m80_fnfal","rhs_mag_20Rnd_762x51_m80_fnfal","rhs_mag_20Rnd_762x51_m80_fnfal","rhs_mag_20Rnd_762x51_m80_fnfal","rhs_mag_20Rnd_762x51_m80_fnfal","rhs_mag_20Rnd_762x51_m80_fnfal","HandGrenade","HandGrenade","rhs_mag_rdg2_white","rhs_mag_rdg2_white"};
+		respawnMagazines[] = {"rhs_mag_20Rnd_762x51_m80_fnfal","rhs_mag_20Rnd_762x51_m80_fnfal","rhs_mag_20Rnd_762x51_m80_fnfal","rhs_mag_20Rnd_762x51_m80_fnfal","rhs_mag_20Rnd_762x51_m80_fnfal","rhs_mag_20Rnd_762x51_m80_fnfal","rhs_mag_20Rnd_762x51_m80_fnfal","HandGrenade","HandGrenade","rhs_mag_rdg2_white","rhs_mag_rdg2_white"};
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
 	    linkedItems[] = {"rhsgref_alice_webbing","FP_Helmet_M76_Cover_OD","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
@@ -1300,7 +1300,7 @@ class cfgvehicles
 		scopeCurator = 2;
 		displayName = "AR Guerilla";
 		model = "\A3\characters_F\OPFOR\o_officer.p3d";
-		uniformClass = "FP_Uniform_M88_Tochka";  
+		uniformClass = "FP_Uniform_M88_Tochka";   
 		weapons[] = {"str_rpd","str_ngn","Throw","Put"};
 		respawnWeapons[] = {"str_rpd","str_ngn","Throw","Put"};
 		magazines[] = {"100rnd_korob_rpd","100rnd_korob_rpd","7Rnd_nagan_rev","7Rnd_nagan_rev","7Rnd_nagan_rev","HandGrenade","HandGrenade","rhs_mag_rdg2_white","rhs_mag_rdg2_white"};
