@@ -9,7 +9,11 @@ class CfgPatches
 			"FP_GOR_Korzar3_aaf",
 			"FP_GOR_Korzar3_aaf_B",
 			"FP_GOR_Korzar3_aaf_P",
-			"FP_GOR_Korzar3_aaf_R"
+			"FP_GOR_Korzar3_aaf_R",
+			"FP_GOR_Korzar3_spets",
+			"FP_GOR_Korzar3_spets_B",
+			"FP_GOR_Korzar3_spets_P",
+			"FP_GOR_Korzar3_spets_R"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
