@@ -9867,7 +9867,7 @@ class CfgVehicles
 		scope = 1;
 		class TransportMagazines
 		{
-			mag_xx(hlc_75Rnd_762x39_b_rpk, 4);
+			mag_xx(FP_GOR_rhs_60Rnd_545X39_7N24_AK, 4);
 		};		
 	};
 	class KPA_FieldPack_khk_MMG: B_FieldPack_khk
@@ -9920,7 +9920,7 @@ class CfgVehicles
 			mag_xx(rhs_30Rnd_545x39_7N10_AK,6);
 			mag_xx(rhsgref_10Rnd_792x57_m76,6);
 			mag_xx(hlc_VOG25_AK,6);		
-			mag_xx(hlc_75Rnd_762x39_b_rpk,3);
+			mag_xx(FP_GOR_rhs_60Rnd_545X39_7N24_AK,3);
 		};
 	};
 	class B_TacticalPack_oli;
@@ -10072,10 +10072,10 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Autorifleman";
-		weapons[] = {"hlc_rifle_rpk","Throw","Put"};
-		respawnWeapons[] = {"hlc_rifle_rpk","Throw","Put"};
-		magazines[] = {"hlc_75Rnd_762x39_b_rpk","hlc_75Rnd_762x39_b_rpk","hlc_75Rnd_762x39_b_rpk","hlc_75Rnd_762x39_b_rpk","rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rdg2_white","SmokeShellRed"};
-		respawnMagazines[] = {"hlc_75Rnd_762x39_b_rpk","hlc_75Rnd_762x39_b_rpk","hlc_75Rnd_762x39_b_rpk","hlc_75Rnd_762x39_b_rpk","rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rdg2_white","SmokeShellRed"};
+		weapons[] = {"FP_RPK74_mount","Throw","Put"};
+		respawnWeapons[] = {"FP_RPK74_mount","Throw","Put"};
+		magazines[] = {"FP_GOR_rhs_60Rnd_545X39_7N24_AK","FP_GOR_rhs_60Rnd_545X39_7N24_AK","FP_GOR_rhs_60Rnd_545X39_7N24_AK","FP_GOR_rhs_60Rnd_545X39_7N24_AK","rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rdg2_white","SmokeShellRed"};
+		respawnMagazines[] = {"FP_GOR_rhs_60Rnd_545X39_7N24_AK","FP_GOR_rhs_60Rnd_545X39_7N24_AK","FP_GOR_rhs_60Rnd_545X39_7N24_AK","FP_GOR_rhs_60Rnd_545X39_7N24_AK","rhs_mag_rgd5","rhs_mag_rgd5","rhs_mag_rdg2_white","SmokeShellRed"};
 		cost = 95000;
 		threat[] = {1,0.1,0.3};
 		icon = "iconManMG";
