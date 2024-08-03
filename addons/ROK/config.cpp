@@ -2197,8 +2197,8 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Rifleman (AT)";
-		weapons[] = {"hlc_rifle_SG551LB_TAC","RH_p226","rhs_weap_m72a7","Throw","Put"};
-		respawnWeapons[] = {"hlc_rifle_SG551LB_TAC","RH_p226","rhs_weap_m72a7","Throw","Put"};
+		weapons[] = {"hlc_rifle_SG551LB_TAC","RH_p226","FP_HCPF3","Throw","Put"};
+		respawnWeapons[] = {"hlc_rifle_SG551LB_TAC","RH_p226","FP_HCPF3","Throw","Put"};
 		cost = 100000;
 		icon = "iconManAT";
 	};
@@ -2589,8 +2589,8 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Rifleman (AT)";
-		weapons[] = {"hlc_rifle_SG551LB_TAC","RH_p226","rhs_weap_m72a7","Throw","Put"};
-		respawnWeapons[] = {"hlc_rifle_SG551LB_TAC","RH_p226","rhs_weap_m72a7","Throw","Put"};
+		weapons[] = {"hlc_rifle_SG551LB_TAC","RH_p226","FP_HCPF3","Throw","Put"};
+		respawnWeapons[] = {"hlc_rifle_SG551LB_TAC","RH_p226","FP_HCPF3","Throw","Put"};
 		cost = 100000;
 		icon = "iconManAT";
 	};
@@ -2790,8 +2790,8 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "UDT Scout (AT)";
-		weapons[] = {"FP_hlc_rifle_SG551SB_TAC_ROK_UDT","FP_RH_usp_ROK_UDT","rhs_weap_m72a7","Throw","Put"};
-		respawnWeapons[] = {"FP_hlc_rifle_SG551SB_TAC_ROK_UDT","FP_RH_usp_ROK_UDT","rhs_weap_m72a7","Throw","Put"};
+		weapons[] = {"FP_hlc_rifle_SG551SB_TAC_ROK_UDT","FP_RH_usp_ROK_UDT","FP_HCPF3","Throw","Put"};
+		respawnWeapons[] = {"FP_hlc_rifle_SG551SB_TAC_ROK_UDT","FP_RH_usp_ROK_UDT","FP_HCPF3","Throw","Put"};
 		icon = "iconManAT";
 	};
 	class FP_CSL_B_ROK_UDT_sof_TL_F: FP_ROK_UDT_BASE_F

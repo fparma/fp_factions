@@ -23,6 +23,7 @@ class CfgPatches
 			"FP_CSL_O_KPA_bmp1",
 			"FP_CSL_O_KPA_T34",
 			"FP_CSL_O_KPA_T34_DSHK",
+			"FP_CSL_O_KPA_PT76A",
 			"FP_CSL_O_KPA_PT76B",
 			"FP_CSL_O_KPA_SU100",
 			"FP_CSL_O_KPA_T55",
@@ -53,6 +54,7 @@ class CfgPatches
 			"FP_CSL_O_KPA_Mi8T",
 			"FP_CSL_O_KPA_Su25K",
 			"FP_CSL_O_KPA_L159_Fighter_dynamicLoadout_F",
+			"FP_CSL_O_KPA_MIG21",
 			"FP_KPA_Soldier_BASE",
 			"FP_CSL_O_KPA_Soldier_A_F",
 			"FP_CSL_O_KPA_Soldier_AAR_F",
@@ -2128,8 +2130,37 @@ class CfgVehicles
 		faction = "FP_Faction_KPA";
 		hiddenSelections[] = {"Camo","Camo2","Camo3","Camo4"};
 		hiddenSelectionsTextures[] = {"\FP_Factions\KPA\data\t55\t_55a_body_dprk_co.paa","\FP_Factions\KPA\data\t55\t_55a_turret_dprk_co.paa","\FP_Factions\KPA\data\t55\t_55a_gun_dprk_co.paa","sim_WT_tanks\T55\t_55a_mount_co.paa"};
+		class TextureSources
+		{
+			class FP_KPA
+			{
+				author = "CSLeader";
+				displayname = "North Korea";
+				factions[] = {"OPF_F", "OPF_G_F", "FP_Faction_KPA"};
+				textures[] = {"\FP_Factions\KPA\data\t55\t_55a_body_dprk_co.paa","\FP_Factions\KPA\data\t55\t_55a_turret_dprk_co.paa","\FP_Factions\KPA\data\t55\t_55a_gun_dprk_co.paa","sim_WT_tanks\T55\t_55a_mount_co.paa"};
+			};
+		};
 	};
+	class FP_O_TNK_PT76A;
 	class FP_O_TNK_PT76B;
+	class FP_CSL_O_KPA_PT76A: FP_O_TNK_PT76A
+	{
+		author = "FP Mod Team";
+		crew = "FP_CSL_O_KPA_Marine_Crewman_F";
+		faction = "FP_Faction_KPA";
+		hiddenSelections[] = {"camo","camo2","camo3","markings"};
+		hiddenselectionstextures[] = {"\FP_Factions\KPA\data\pt76b\pt_76b_body_dprk_co.paa","\FP_Factions\KPA\data\pt76b\pt_76b_turret_dprk_co.paa","\FP_Factions\KPA\data\pt76b\pt_76b_gun_dprk_co.paa","a3\data_f\clear_empty.paa"};
+		class TextureSources
+		{
+			class FP_KPA
+			{
+				author = "CSLeader";
+				displayname = "North Korea";
+				factions[] = {"OPF_F", "OPF_G_F", "FP_Faction_KPA"};
+				textures[] = {"\FP_Factions\KPA\data\pt76b\pt_76b_body_dprk_co.paa","\FP_Factions\KPA\data\pt76b\pt_76b_turret_dprk_co.paa","\FP_Factions\KPA\data\pt76b\pt_76b_gun_dprk_co.paa","a3\data_f\clear_empty.paa"};
+			};
+		};	
+	};
 	class FP_CSL_O_KPA_PT76B: FP_O_TNK_PT76B
 	{
 		author = "FP Mod Team";
@@ -2137,6 +2168,16 @@ class CfgVehicles
 		faction = "FP_Faction_KPA";
 		hiddenSelections[] = {"camo","camo2","camo3","markings"};
 		hiddenselectionstextures[] = {"\FP_Factions\KPA\data\pt76b\pt_76b_body_dprk_co.paa","\FP_Factions\KPA\data\pt76b\pt_76b_turret_dprk_co.paa","\FP_Factions\KPA\data\pt76b\pt_76b_gun_dprk_co.paa","a3\data_f\clear_empty.paa"};
+		class TextureSources
+		{
+			class FP_KPA
+			{
+				author = "CSLeader";
+				displayname = "North Korea";
+				factions[] = {"OPF_F", "OPF_G_F", "FP_Faction_KPA"};
+				textures[] = {"\FP_Factions\KPA\data\pt76b\pt_76b_body_dprk_co.paa","\FP_Factions\KPA\data\pt76b\pt_76b_turret_dprk_co.paa","\FP_Factions\KPA\data\pt76b\pt_76b_gun_dprk_co.paa","a3\data_f\clear_empty.paa"};
+			};
+		};	
 	};
 	class LandVehicle;
 	class Tank: LandVehicle
@@ -9777,11 +9818,8 @@ class CfgVehicles
 			"\FP_Factions\KPA\data\l159\Plane_Fighter_03_body_2_KPA_CO.paa"
 		};
 	};
-/*	class UK3CB_CW_SOV_O_LATE_MIG21_AA;
-	class UK3CB_CW_SOV_O_LATE_MIG21_AT;
-	class UK3CB_CW_SOV_O_LATE_MIG21;
-	class UK3CB_CW_SOV_O_LATE_MIG21_CAS;
-	class FP_CSL_O_KPA_MIG21_AA: UK3CB_CW_SOV_O_LATE_MIG21_AA
+	class FP_UK3CB_O_Mig21;
+	class FP_CSL_O_KPA_MIG21: FP_UK3CB_O_Mig21
 	{
 		side = 0;
 		scope = 2;
@@ -9790,8 +9828,18 @@ class CfgVehicles
 		faction = "FP_Faction_KPA";
 		hiddenSelections[] = {"camo1","camo2","camo3","gunsight"};
 		hiddenSelectionsTextures[] = {"\FP_Factions\KPA\data\mig21\mig-21_1_kpa_co.paa","\FP_Factions\KPA\data\mig21\mig-21_2_KPA_co.paa","\FP_Factions\KPA\data\mig21\mig-21_3_kpa_co.paa","UK3CB_Factions\addons\UK3CB_Factions_Vehicles\air\UK3CB_Factions_Vehicles_MIG21\data\gunsight1_ca.paa"};			
+		class TextureSources
+		{
+			class FP_KPA
+			{
+				author = "CSLeader";
+				displayname = "North Korea";
+				factions[] = {"OPF_F", "OPF_G_F"};
+				textures[] = {"\FP_Factions\KPA\data\mig21\mig-21_1_kpa_co.paa","\FP_Factions\KPA\data\mig21\mig-21_2_KPA_co.paa","\FP_Factions\KPA\data\mig21\mig-21_3_kpa_co.paa","UK3CB_Factions\addons\UK3CB_Factions_Vehicles\air\UK3CB_Factions_Vehicles_MIG21\data\gunsight1_ca.paa"};
+			};
+		};
 	};
-	class FP_CSL_O_KPA_MIG21_AT: UK3CB_CW_SOV_O_LATE_MIG21_AT
+	/*class FP_CSL_O_KPA_MIG21_AT: UK3CB_CW_SOV_O_LATE_MIG21_AT
 	{
 		side = 0;
 		scope = 2;
@@ -9946,8 +9994,8 @@ class CfgVehicles
 		class TransportMagazines
 		{
 			mag_xx(rhs_30Rnd_545x39_7N10_AK,12);
-			mag_xx(RH_8Rnd_762_tt33, 10);
-			mag_xx(rhs_mag_rgd5, 3);
+			mag_xx(RH_8Rnd_762_tt33,10);
+			mag_xx(rhs_mag_rgd5,3);
 			mag_xx(rhs_mag_rdg2_white,4);			
 		};
 		class TransportItems
@@ -9961,8 +10009,8 @@ class CfgVehicles
 		class TransportMagazines
 		{
 			mag_xx(FP_30rnd_762_FAL_m80,10);
-			mag_xx(RH_8Rnd_762_tt33, 10);
-			mag_xx(rhs_mag_rgd5, 3);
+			mag_xx(RH_8Rnd_762_tt33,10);
+			mag_xx(rhs_mag_rgd5,3);
 			mag_xx(rhs_mag_rdg2_white,4);			
 		};
 		class TransportItems
@@ -9976,8 +10024,8 @@ class CfgVehicles
 		{
 			mag_xx(rhs_10Rnd_762x54mmR_7N1,15);
 			mag_xx(rhs_30Rnd_545x39_7N10_AK,12);
-			mag_xx(RH_8Rnd_762_tt33, 10);
-			mag_xx(rhs_mag_rgd5, 3);
+			mag_xx(RH_8Rnd_762_tt33,10);
+			mag_xx(rhs_mag_rgd5,3);
 			mag_xx(rhs_mag_rdg2_white,4);
 		};
 		class TransportItems
@@ -11881,8 +11929,6 @@ class CfgWeapons
 			};
 		};
 	};
-	class rhs_weap_aks74n;
-	class rhs_weap_aks74n_gp25;
 	class FP_KPA_Type88_rhs_weap_aks74n: rhs_weap_aks74n
 	{
 		scope = 1;
@@ -11958,7 +12004,6 @@ class CfgWeapons
 			};
 		};		
 	};
-	class rhs_weap_aks74un;
 	class FP_KPA_Type88UN: rhs_weap_aks74un
 	{
 		scope = 1;
