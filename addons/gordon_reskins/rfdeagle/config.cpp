@@ -12,6 +12,7 @@ class CfgPatches
 		{
 			"RF_Weapons_Pistols_DEagle"
 		};
+		skipWhenMissingDependencies = 1;
 	};
 };
 
