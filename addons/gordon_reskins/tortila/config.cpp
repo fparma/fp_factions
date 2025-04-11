@@ -60,6 +60,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Carryall Backpack (M81 Woodland)";
+		picture="\fp_factions\gordon_reskins\tortila\data\icons\icon_tortila_woodland_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_woodland_co.paa"
@@ -69,6 +70,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Carryall Backpack (DBC Arid)";
+		picture="\fp_factions\gordon_reskins\tortila\data\icons\icon_tortila_stripeyarid_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_stripeyarid_co.paa"
@@ -78,6 +80,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Carryall Backpack (DBC Desert)";
+		picture="\fp_factions\gordon_reskins\tortila\data\icons\icon_tortila_stripeydesert_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_stripeydesert_co.paa"
@@ -87,6 +90,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Carryall Backpack (DBC Woodland)";
+		picture="\fp_factions\gordon_reskins\tortila\data\icons\icon_tortila_stripeywoodland_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_stripeywoodland_co.paa"
@@ -96,6 +100,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Carryall Backpack (French Lizard C1)";
+		picture="\fp_factions\gordon_reskins\tortila\data\icons\icon_tortila_frenchlizardc1_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_frenchlizardc1_co.paa"
@@ -105,6 +110,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Carryall Backpack (French Lizard A2)";
+		picture="\fp_factions\gordon_reskins\tortila\data\icons\icon_tortila_frenchlizarda2_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_frenchlizarda2_co.paa"
@@ -114,6 +120,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Carryall Backpack (French Lizard Fictional)";
+		picture="\fp_factions\gordon_reskins\tortila\data\icons\icon_tortila_frenchlizardfictional_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_frenchlizardfictional_co.paa"
@@ -123,6 +130,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Carryall Backpack (Tigerstripe jungle)";
+		picture="\fp_factions\gordon_reskins\tortila\data\icons\icon_tortila_tigerstripejungle_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_tigerstripejungle_co.paa"
@@ -132,6 +140,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Carryall Backpack (Tigerstripe desert)";
+		picture="\fp_factions\gordon_reskins\tortila\data\icons\icon_tortila_tigerstripedesert_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_tigerstripedesert_co.paa"
@@ -141,6 +150,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Carryall Backpack (Tigerstripe naval)";
+		picture="\fp_factions\gordon_reskins\tortila\data\icons\icon_tortila_tigerstripenaval_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_tigerstripenaval_co.paa"
@@ -150,6 +160,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Carryall Backpack (Oakleaf summer)";
+		picture="\fp_factions\gordon_reskins\tortila\data\icons\icon_tortila_oakleafsummer_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_oakleafsummer_co.paa"
@@ -159,6 +170,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Carryall Backpack (Oakleaf fall)";
+		picture="\fp_factions\gordon_reskins\tortila\data\icons\icon_tortila_oakleaffall_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_oakleaffall_co.paa"
@@ -168,6 +180,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Carryall Backpack (AUSCAM DPCU)";
+		picture="\fp_factions\gordon_reskins\tortila\data\icons\icon_tortila_auscamdpcu_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_auscamdpcu_co.paa"
@@ -177,6 +190,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Carryall Backpack (AUSCAM DPDU)";
+		picture="\fp_factions\gordon_reskins\tortila\data\icons\icon_tortila_auscamdpdu_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_auscamdpdu_co.paa"
@@ -186,6 +200,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Carryall Backpack (SMK)";
+		picture="\fp_factions\gordon_reskins\tortila\data\icons\icon_tortila_smk_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_smk_co.paa"
@@ -195,6 +210,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Carryall Backpack (CROPAT)";
+		picture="\fp_factions\gordon_reskins\tortila\data\icons\icon_tortila_cropat_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_cropat_co.paa"
@@ -204,6 +220,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Carryall Backpack (CROPAT Desert)";
+		picture="\fp_factions\gordon_reskins\tortila\data\icons\icon_tortila_cropatdesert_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_cropatdesert_co.paa"
@@ -213,6 +230,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Carryall Backpack (British DPM)";
+		picture="\fp_factions\gordon_reskins\tortila\data\icons\icon_tortila_cs95dpm_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_cs95dpm_co.paa"
@@ -222,6 +240,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Carryall Backpack (Polish Pantera)";
+		picture="\fp_factions\gordon_reskins\tortila\data\icons\icon_tortila_pantera_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_pantera_co.paa"
@@ -231,6 +250,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Carryall Backpack (Polish Pantera (Desert))";
+		picture="\fp_factions\gordon_reskins\tortila\data\icons\icon_tortila_panteradesert_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_panteradesert_co.paa"
@@ -240,6 +260,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Carryall Backpack (Czech Vz95)";
+		picture="\fp_factions\gordon_reskins\tortila\data\icons\icon_tortila_vz95woodland_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_vz95woodland_co.paa"
@@ -249,6 +270,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Carryall Backpack (Czech Vz95 (Desert))";
+		picture="\fp_factions\gordon_reskins\tortila\data\icons\icon_tortila_vz95desert_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_vz95desert_co.paa"
@@ -258,6 +280,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Carryall Backpack (Flecktarn (Summer))";
+		picture="\fp_factions\gordon_reskins\tortila\data\icons\icon_tortila_flecktarnsummer_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_flecktarnsummer_co.paa"
@@ -267,6 +290,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Carryall Backpack (Flecktarn (Autumn))";
+		picture="\fp_factions\gordon_reskins\tortila\data\icons\icon_tortila_flecktarnautumn_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_flecktarnautumn_co.paa"
@@ -276,6 +300,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Carryall Backpack (Flecktarn (Desert))";
+		picture="\fp_factions\gordon_reskins\tortila\data\icons\icon_tortila_flecktarndesert_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_flecktarndesert_co.paa"
@@ -285,6 +310,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Carryall Backpack (Ukrainian MM-14)";
+		picture="\fp_factions\gordon_reskins\tortila\data\icons\icon_tortila_mm14_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_mm14_co.paa"
@@ -294,6 +320,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Carryall Backpack (Ukrainian MM-14 Woodland)";
+		picture="\fp_factions\gordon_reskins\tortila\data\icons\icon_tortila_mm14woodland_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_mm14woodland_co.paa"
@@ -303,6 +330,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Carryall Backpack (Project Honor)";
+		picture="\fp_factions\gordon_reskins\tortila\data\icons\icon_tortila_honor_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_honor_co.paa"
@@ -312,6 +340,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Carryall Backpack (Swedish M90)";
+		picture="\fp_factions\gordon_reskins\tortila\data\icons\icon_tortila_m90_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_m90_co.paa"
@@ -321,6 +350,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Carryall Backpack (Swedish M90K)";
+		picture="\fp_factions\gordon_reskins\tortila\data\icons\icon_tortila_m90k_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_m90k_co.paa"
@@ -330,6 +360,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Carryall Backpack (Swedish M90W)";
+		picture="\fp_factions\gordon_reskins\tortila\data\icons\icon_tortila_m90w_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_m90w_co.paa"
@@ -339,6 +370,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Carryall Backpack (EMR)";
+		picture="\fp_factions\gordon_reskins\tortila\data\icons\icon_tortila_emr_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_emr_co.paa"
@@ -348,6 +380,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Carryall Backpack (Flora)";
+		picture="\fp_factions\gordon_reskins\tortila\data\icons\icon_tortila_flora_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_flora_co.paa"
@@ -357,6 +390,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Carryall Backpack (Olive drab)";
+		picture="\fp_factions\gordon_reskins\tortila\data\icons\icon_tortila_olivedrab_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_olivedrab_co.paa"
@@ -375,6 +409,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Carryall Backpack (CADPAT TW)";
+		picture="\fp_factions\gordon_reskins\tortila\data\icons\icon_tortila_cadpattw_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_cadpattw_co.paa"
@@ -384,6 +419,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Carryall Backpack (CADPAT MT)";
+		picture="\fp_factions\gordon_reskins\tortila\data\icons\icon_tortila_cadpatmt_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_cadpatmt_co.paa"
@@ -393,6 +429,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Carryall Backpack (CADPAT AR)";
+		picture="\fp_factions\gordon_reskins\tortila\data\icons\icon_tortila_cadpatar_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\tortila\data\backpack_tortila_cadpatar_co.paa"

@@ -26,6 +26,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (DBC Woodland, untucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_stripeywoodland_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -36,6 +37,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (DBC Woodland, untucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_stripeywoodlandtrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -46,6 +48,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (DBC Woodland, tucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_stripeywoodlandtuck_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -56,6 +59,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (DBC Woodland, tucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_stripeywoodlandtucktrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -67,6 +71,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (DBC Arid, untucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_stripeyarid_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -77,6 +82,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (DBC Arid, untucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_stripeyaridtrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -87,6 +93,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (DBC Arid, tucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_stripeyaridtuck_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -97,6 +104,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (DBC Arid, tucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_stripeyaridtucktrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -108,6 +116,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (DBC Desert, untucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_stripeydesert_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -118,6 +127,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (DBC Desert, untucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_stripeydeserttrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -128,6 +138,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (DBC Desert, tucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_stripeydeserttuck_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -138,6 +149,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (DBC Desert, tucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_stripeydeserttucktrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -149,6 +161,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (British Original DPM, untucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_ogdpm_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -159,6 +172,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (British Original DPM, untucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_ogdpmtrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -169,6 +183,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (British Original DPM, tucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_ogdpmtuck_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -179,6 +194,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (British Original DPM, tucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_ogdpmtucktrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -190,6 +206,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (British DPM, untucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_dpm_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -200,6 +217,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (British DPM, untucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_dpmtrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -210,6 +228,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (British DPM, tucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_dpmtuck_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -220,6 +239,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (British DPM, tucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_dpmtucktrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -231,6 +251,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (British DDPM, untucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_ddpm_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -241,6 +262,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (British DDPM, untucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_ddpmtrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -251,6 +273,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (British DDPM, tucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_ddpmtuck_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -261,6 +284,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (British DDPM, tucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_ddpmtucktrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -272,6 +296,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Irish DPM, untucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_irishdpm_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -282,6 +307,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Irish DPM, untucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_irishdpmtrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -292,6 +318,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Irish DPM, tucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_irishdpmtuck_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -302,6 +329,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Irish DPM, tucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_irishdpmtucktrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -313,6 +341,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Irish DDPM, untucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_irishddpm_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -323,6 +352,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Irish DDPM, untucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_irishddpmtrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -333,6 +363,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Irish DDPM, tucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_irishddpmtuck_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -343,6 +374,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Irish DDPM, tucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_irishddpmtucktrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -354,6 +386,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (IDF, untucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_idf_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -364,6 +397,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (IDF, untucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_idftrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -374,6 +408,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (IDF, tucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_idftuck_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -384,6 +419,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (IDF, tucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_idftucktrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -395,6 +431,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Greek Lizard, untucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_greeklizard_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -405,6 +442,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Greek Lizard, untucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_greeklizardtrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -415,6 +453,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Greek Lizard, tucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_greeklizardtuck_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -425,6 +464,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Greek Lizard, tucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_greeklizardtucktrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -436,6 +476,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Portuguese Lizard, untucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_portugueselizard_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -446,6 +487,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Portuguese Lizard, untucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_portugueselizardtrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -456,6 +498,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Portuguese Lizard, tucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_portugueselizardtuck_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -466,6 +509,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Portuguese Lizard, tucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_portugueselizardtucktrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -477,6 +521,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Danish M84, untucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_danishm84_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -487,6 +532,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Danish M84, untucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_danishm84trop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -497,6 +543,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Danish M84, tucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_danishm84tuck_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -507,6 +554,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Danish M84, tucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_danishm84tucktrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -518,6 +566,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Danish M84 Desert, untucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_danishm84desert_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -528,6 +577,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Danish M84 Desert, untucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_danishm84deserttrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -538,6 +588,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Danish M84 Desert, tucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_danishm84deserttuck_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -548,6 +599,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Danish M84 Desert, tucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_danishm84deserttucktrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -559,6 +611,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Alpenflage, untucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_alpenflage_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -569,6 +622,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Alpenflage, untucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_alpenflagetrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -579,6 +633,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Alpenflage, tucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_alpenflagetuck_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -589,6 +644,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Alpenflage, tucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_alpenflagetucktrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -600,6 +656,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Czech Oblaky, untucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_czechoblaky_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -610,6 +667,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Czech Oblaky, untucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_czechoblakytrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -620,6 +678,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Czech Oblaky, tucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_czechoblakytuck_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -630,6 +689,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Czech Oblaky, tucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_czechoblakytucktrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -641,6 +701,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Czech Oblaky (Green), untucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_czechoblakygreen_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -651,6 +712,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Czech Oblaky (Green), untucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_czechoblakygreentrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -661,6 +723,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Czech Oblaky (Green), tucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_czechoblakygreentuck_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -671,6 +734,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Czech Oblaky (Green), tucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_czechoblakygreentucktrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -682,6 +746,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Czech Oblaky (Field), untucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_czechoblakyfield_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -692,6 +757,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Czech Oblaky (Field), untucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_czechoblakyfieldtrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -702,6 +768,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Czech Oblaky (Field), tucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_czechoblakyfieldtuck_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -712,6 +779,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Czech Oblaky (Field), tucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_czechoblakyfieldtucktrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -723,6 +791,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Romanian M93 Autumn, untucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_romanianm93autumn_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -733,6 +802,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Romanian M93 Autumn, untucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_romanianm93autumntrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -743,6 +813,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Romanian M93 Autumn, tucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_romanianm93autumntuck_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -753,6 +824,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Romanian M93 Autumn, tucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_romanianm93autumntucktrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -764,6 +836,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Romanian M93 Summer, untucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_romanianm93summer_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -774,6 +847,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Romanian M93 Summer, untucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_romanianm93summertrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -784,6 +858,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Romanian M93 Summer, tucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_romanianm93summertuck_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -794,6 +869,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Romanian M93 Summer, tucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_romanianm93summertucktrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -805,6 +881,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Romanian M93 Urban, untucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_romanianm93urban_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -815,6 +892,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Romanian M93 Urban, untucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_romanianm93urbantrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -825,6 +903,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Romanian M93 Urban, tucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_romanianm93urbantuck_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -835,6 +914,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Romanian M93 Urban, tucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_romanianm93urbantucktrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -846,6 +926,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Battalion 32, untucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_battalion32_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -856,6 +937,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Battalion 32, untucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_battalion32trop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -866,6 +948,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Battalion 32, tucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_battalion32tuck_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -876,6 +959,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Battalion 32, tucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_battalion32tucktrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -887,6 +971,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Rhodesian brushstroke (early), untucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_rhodesianearly_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -897,6 +982,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Rhodesian brushstroke (early), untucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_rhodesianearlytrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -907,6 +993,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Rhodesian brushstroke (early), tucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_rhodesianearlytuck_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -917,6 +1004,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Rhodesian brushstroke (early), tucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_rhodesianearlytucktrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -928,6 +1016,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Rhodesian brushstroke, untucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_rhodesian_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -938,6 +1027,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Rhodesian brushstroke, untucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_rhodesiantrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -948,6 +1038,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Rhodesian brushstroke, tucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_rhodesiantuck_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -958,6 +1049,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Rhodesian brushstroke, tucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_rhodesiantucktrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -969,6 +1061,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Rhodesian brushstroke (experimental), untucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_rhodesianexperimental_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -979,6 +1072,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Rhodesian brushstroke (experimental), untucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_rhodesianexperimentaltrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -989,6 +1083,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Rhodesian brushstroke (experimental), tucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_rhodesianexperimentaltuck_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -999,6 +1094,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Rhodesian brushstroke (experimental), tucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_rhodesianexperimentaltucktrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1010,6 +1106,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Strichtarn, untucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_strichtarn_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1020,6 +1117,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Strichtarn, untucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_strichtarntrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1030,6 +1128,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Strichtarn, tucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_strichtarntuck_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1040,6 +1139,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Strichtarn, tucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_strichtarntucktrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1051,6 +1151,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Polish Worm, untucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_polishworm_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1061,6 +1162,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Polish Worm, untucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_polishwormtrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1071,6 +1173,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Polish Worm, tucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_polishwormtuck_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1081,6 +1184,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Polish Worm, tucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_polishwormtucktrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1092,6 +1196,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (US Mitchell (leaves), untucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_mitchellleaves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1102,6 +1207,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (US Mitchell (leaves), untucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_mitchellleavestrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1112,6 +1218,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (US Mitchell (leaves), tucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_mitchellleavestuck_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1122,6 +1229,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (US Mitchell (leaves), tucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_mitchellleavestucktrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1133,6 +1241,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (US Mitchell (clouds), untucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_mitchellclouds_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1143,6 +1252,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (US Mitchell (clouds), untucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_mitchellcloudstrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1153,6 +1263,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (US Mitchell (clouds), tucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_mitchellcloudstuck_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1163,6 +1274,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (US Mitchell (clouds), tucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_mitchellcloudstucktrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1174,6 +1286,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Finnish M62, untucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_finnishm62_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1184,6 +1297,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Finnish M62, untucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_finnishm62trop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1194,6 +1308,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Finnish M62, tucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_finnishm62tuck_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1204,6 +1319,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Finnish M62, tucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_finnishm62tucktrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1215,6 +1331,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Berezhka White, untucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_klmkwhite_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1225,6 +1342,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Berezhka White, untucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_klmkwhitetrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1235,6 +1353,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Berezhka White, tucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_klmkwhitetuck_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1245,6 +1364,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Berezhka White, tucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_klmkwhitetucktrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1256,6 +1376,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Berezhka Yellow, untucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_klmkyellow_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1266,6 +1387,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Berezhka Yellow, untucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_klmkyellowtrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1276,6 +1398,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Berezhka Yellow, tucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_klmkyellowtuck_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1286,6 +1409,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Berezhka Yellow, tucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_klmkyellowtucktrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1297,6 +1421,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Berezhka Arid, untucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_klmkarid_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1307,6 +1432,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Berezhka Arid, untucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_klmkaridtrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1317,6 +1443,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Berezhka Arid, tucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_klmkaridtuck_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1327,6 +1454,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Berezhka Arid, tucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_klmkaridtucktrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1338,6 +1466,7 @@ class CfgWeapons
 	{
 		scope=2;	
 		displayName="OG-107 (Berezhka Winter, untucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_klmksnow_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1348,6 +1477,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Berezhka Winter, untucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_klmksnowtrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1358,6 +1488,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Berezhka Winter, tucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_klmksnowtuck_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1368,6 +1499,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Berezhka Winter, tucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_klmksnowtucktrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1379,6 +1511,7 @@ class CfgWeapons
 	{
 		scope=2;	
 		displayName="OG-107 (Nutria brown, untucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_nutria_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1389,6 +1522,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Nutria brown, untucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_nutriatrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1399,6 +1533,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Nutria brown, tucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_nutriatuck_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1409,6 +1544,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (Nutria brown, tucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_nutriatucktrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1420,6 +1556,7 @@ class CfgWeapons
 	{
 		scope=2;	
 		displayName="OG-107 (BW Splittermuster - starke, untucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_bwsplitter_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1430,6 +1567,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (BW Splittermuster - starke, untucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_bwsplittertrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1440,6 +1578,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (BW Splittermuster - starke, tucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_bwsplittertuck_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1450,6 +1589,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (BW Splittermuster - starke, tucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_bwsplittertucktrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{

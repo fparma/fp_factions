@@ -24,6 +24,7 @@ class CfgWeapons
 		author = "Gordon Weedman";
 		scope = 2;
 		displayName = "Multi-Pocket Vest (Realtree)";
+		picture="\fp_factions\gordon_reskins\bodywarmer\data\icons\icon_bodywarmer_realtree_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\bodywarmer\data\V_Pocketed_cloth_realtree_co.paa"
@@ -35,6 +36,7 @@ class CfgWeapons
 		author = "Gordon Weedman";
 		scope = 2;
 		displayName = "Multi-Pocket Vest (Orange)";
+		picture="\fp_factions\gordon_reskins\bodywarmer\data\icons\icon_bodywarmer_safetyorange_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\bodywarmer\data\V_Pocketed_cloth_safetyorange_co.paa"

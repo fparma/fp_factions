@@ -24,6 +24,7 @@ class CfgWeapons
 		author = "Gordon Weedman";
 		scope = 2;
 		displayName = "Baseball cap (Realtree)";
+		picture="\fp_factions\gordon_reskins\baseballcap\data\icons\icon_cap_realtree_ca.paa";
 		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\baseballcap\data\cap_realtree_co.paa"};
 	};
 	class FP_GOR_H_Cap_realtreemesh: H_Cap_red 
@@ -31,6 +32,7 @@ class CfgWeapons
 		author = "Gordon Weedman";
 		scope = 2;
 		displayName = "Baseball cap (Realtree, mesh)";
+		picture="\fp_factions\gordon_reskins\baseballcap\data\icons\icon_cap_realtreemesh_ca.paa";
 		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\baseballcap\data\cap_realtreemesh_co.paa"};
 	};
 };

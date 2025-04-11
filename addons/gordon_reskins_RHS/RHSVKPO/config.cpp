@@ -258,6 +258,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="VKPO (Russian Syria camo)";
+		picture="\fp_factions\gordon_reskins_rhs\rhsvkpo\data\icons\icon_vkpo_syrian_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -271,6 +272,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="VKPO (Russian Syria camo, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhsvkpo\data\icons\icon_vkpo_syriangloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -285,6 +287,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="VKPO (Desert EMR)";
+		picture="\fp_factions\gordon_reskins_rhs\rhsvkpo\data\icons\icon_vkpo_desertemr_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -298,6 +301,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="VKPO (Desert EMR, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhsvkpo\data\icons\icon_vkpo_desertemrgloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -312,6 +316,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="VKPO (Desert pink)";
+		picture="\fp_factions\gordon_reskins_rhs\rhsvkpo\data\icons\icon_vkpo_desertpink_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -325,6 +330,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="VKPO (Desert pink, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhsvkpo\data\icons\icon_vkpo_desertpinkgloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -339,6 +345,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="VKPO (SURPAT)";
+		picture="\fp_factions\gordon_reskins_rhs\rhsvkpo\data\icons\icon_vkpo_surpat_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -352,6 +359,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="VKPO (SURPAT, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhsvkpo\data\icons\icon_vkpo_surpatgloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -366,6 +374,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="VKPO (Hex Taiga)";
+		picture="\fp_factions\gordon_reskins_rhs\rhsvkpo\data\icons\icon_vkpo_hextaiga_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -379,6 +388,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="VKPO (Hex Taiga, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhsvkpo\data\icons\icon_vkpo_hextaigagloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{

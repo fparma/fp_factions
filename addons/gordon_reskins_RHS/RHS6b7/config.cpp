@@ -186,6 +186,26 @@ class CfgPatches
 			"FP_GOR_6b7_1m_bala2_hextaiga",
 			"FP_GOR_6b7_1m_ess_hextaiga",
 			"FP_GOR_6b7_1m_ess_bala_hextaiga",
+			"FP_GOR_6b7_1m_hexarid",
+			"FP_GOR_6b7_1m_bala1_hexarid",
+			"FP_GOR_6b7_1m_bala2_hexarid",
+			"FP_GOR_6b7_1m_ess_hexarid",
+			"FP_GOR_6b7_1m_ess_bala_hexarid",
+			"FP_GOR_6b7_1m_hexsemiarid",
+			"FP_GOR_6b7_1m_bala1_hexsemiarid",
+			"FP_GOR_6b7_1m_bala2_hexsemiarid",
+			"FP_GOR_6b7_1m_ess_hexsemiarid",
+			"FP_GOR_6b7_1m_ess_bala_hexsemiarid",
+			"FP_GOR_6b7_1m_hexpacific",
+			"FP_GOR_6b7_1m_bala1_hexpacific",
+			"FP_GOR_6b7_1m_bala2_hexpacific",
+			"FP_GOR_6b7_1m_ess_hexpacific",
+			"FP_GOR_6b7_1m_ess_bala_hexpacific",
+			"FP_GOR_6b7_1m_hexurban",
+			"FP_GOR_6b7_1m_bala1_hexurban",
+			"FP_GOR_6b7_1m_bala2_hexurban",
+			"FP_GOR_6b7_1m_ess_hexurban",
+			"FP_GOR_6b7_1m_ess_bala_hexurban",
 			"FP_GOR_6b7_1m_atacsfg",
 			"FP_GOR_6b7_1m_bala1_atacsfg",
 			"FP_GOR_6b7_1m_bala2_atacsfg",
@@ -218,6 +238,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (M81 Woodland)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_woodland_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -229,6 +250,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (M81 Woodland, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_woodland_bala1_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -241,6 +263,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (M81 Woodland, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_woodland_bala2_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -253,6 +276,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (M81 Woodland, ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_woodland_ess_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -264,6 +288,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (M81 Woodland, ESS & Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_woodland_essbala_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -278,6 +303,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (DBC Arid)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_stripeyarid_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -288,7 +314,8 @@ class CfgWeapons
 	{
 		author="Gordon Weedman";
 		scope=2;
-		displayName="6B7-1M (DBC Arid, Balaclava)";
+		displayName="6B7-1M (DBC Arid, Balaclava)";	
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_stripeyarid_bala1_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -301,6 +328,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (DBC Arid, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_stripeyarid_bala2_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -313,6 +341,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (DBC Arid, ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_stripeyarid_ess_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -324,6 +353,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (DBC Arid, ESS & Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_stripeyarid_essbala_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -338,6 +368,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (DBC Woodland)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_stripeywoodland_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -349,6 +380,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (DBC Woodland, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_stripeywoodland_bala1_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -361,6 +393,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (DBC Woodland, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_stripeywoodland_bala2_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -373,6 +406,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (DBC Woodland, ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_stripeywoodland_ess_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -384,6 +418,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (DBC Woodland, ESS & Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_stripeywoodland_essbala_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -398,6 +433,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (DBC Desert)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_stripeydesert_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -409,6 +445,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (DBC Desert, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_stripeydesert_bala1_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -421,6 +458,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (DBC Desert, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_stripeydesert_bala2_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -433,6 +471,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (DBC Desert, ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_stripeydesert_ess_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -444,6 +483,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (DBC Desert, ESS & Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_stripeydesert_essbala_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -458,6 +498,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Tigerstripe Jungle)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_tigerstripejungle_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -469,6 +510,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Tigerstripe Jungle, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_tigerstripejungle_bala1_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -481,6 +523,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Tigerstripe Jungle, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_tigerstripejungle_bala2_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -493,6 +536,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Tigerstripe Jungle, ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_tigerstripejungle_ess_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -504,6 +548,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Tigerstripe Jungle, ESS & Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_tigerstripejungle_essbala_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -518,6 +563,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Tigerstripe Desert)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_tigerstripedesert_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -529,6 +575,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Tigerstripe Desert, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_tigerstripedesert_bala1_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -541,6 +588,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Tigerstripe Desert, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_tigerstripedesert_bala2_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -553,6 +601,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Tigerstripe Desert, ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_tigerstripedesert_ess_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -564,6 +613,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Tigerstripe Desert, ESS & Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_tigerstripedesert_essbala_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -578,6 +628,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Tigerstripe Naval)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_tigerstripenaval_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -589,6 +640,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Tigerstripe Naval, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_tigerstripenaval_bala1_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -601,6 +653,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Tigerstripe Naval, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_tigerstripenaval_bala2_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -613,6 +666,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Tigerstripe Naval, ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_tigerstripenaval_ess_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -624,6 +678,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Tigerstripe Naval, ESS & Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_tigerstripenaval_essbala_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -638,6 +693,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (SMK)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_smk_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -649,6 +705,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (SMK, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_smk_bala1_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -661,6 +718,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (SMK, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_smk_bala2_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -673,6 +731,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (SMK, ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_smk_ess_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -684,6 +743,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (SMK, ESS & Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_smk_essbala_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -698,6 +758,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (CROPAT)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_cropat_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -709,6 +770,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (CROPAT, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_cropat_bala1_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -721,6 +783,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (CROPAT, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_cropat_bala2_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -733,6 +796,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (CROPAT, ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_cropat_ess_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -744,6 +808,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (CROPAT, ESS & Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_cropat_essbala_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -758,6 +823,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (CROPAT Desert)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_cropatdesert_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -769,6 +835,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (CROPAT Desert, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_cropatdesert_bala1_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -781,6 +848,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (CROPAT Desert, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_cropatdesert_bala2_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -793,6 +861,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (CROPAT Desert, ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_cropatdesert_ess_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -804,6 +873,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (CROPAT Desert, ESS & Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_cropatdesert_essbala_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -818,6 +888,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Project Honor)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_honor_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -829,6 +900,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Project Honor, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_honor_bala1_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -841,6 +913,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Project Honor, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_honor_bala2_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -853,6 +926,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Project Honor, ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_honor_ess_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -864,6 +938,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Project Honor, ESS & Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_honor_essbala_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -878,6 +953,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Ukrainian MM-14)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_mm14_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -889,6 +965,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Ukrainian MM-14, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_mm14_bala1_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -901,6 +978,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Ukrainian MM-14, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_mm14_bala2_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -913,6 +991,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Ukrainian MM-14, ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_mm14_ess_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -924,6 +1003,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Ukrainian MM-14, ESS & Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_mm14_essbala_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -938,6 +1018,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Ukrainian MM-14 Woodland)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_mm14woodland_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -949,6 +1030,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Ukrainian MM-14 Woodland, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_mm14woodland_bala1_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -961,6 +1043,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Ukrainian MM-14 Woodland, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_mm14woodland_bala2_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -973,6 +1056,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Ukrainian MM-14 Woodland, ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_mm14woodland_ess_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -984,6 +1068,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Ukrainian MM-14 Woodland, ESS & Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_mm14woodland_essbala_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -998,6 +1083,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (British DPM)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_cs95dpm_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1009,6 +1095,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (British DPM, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_cs95dpm_bala1_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1021,6 +1108,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (British DPM, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_cs95dpm_bala2_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1033,6 +1121,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (British DPM, ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_cs95dpm_ess_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1044,6 +1133,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (British DPM, ESS & Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_cs95dpm_essbala_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1058,6 +1148,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Polish Pantera)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_pantera_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1069,6 +1160,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Polish Pantera, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_pantera_bala1_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1081,6 +1173,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Polish Pantera, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_pantera_bala2_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1093,6 +1186,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Polish Pantera, ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_pantera_ess_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1104,6 +1198,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Polish Pantera, ESS & Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_pantera_essbala_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1118,6 +1213,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Polish Pantera (Desert))";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_panteradesert_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1129,6 +1225,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Polish Pantera (Desert), Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_panteradesert_bala1_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1141,6 +1238,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Polish Pantera (Desert), Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_panteradesert_bala2_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1153,6 +1251,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Polish Pantera (Desert), ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_panteradesert_ess_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1164,6 +1263,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Polish Pantera (Desert), ESS & Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_panteradesert_essbala_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1178,6 +1278,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Czech Vz95)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_vz95woodland_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1189,6 +1290,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Czech Vz95, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_vz95woodland_bala1_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1201,6 +1303,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Czech Vz95, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_vz95woodland_bala2_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1213,6 +1316,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Czech Vz95, ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_vz95woodland_ess_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1224,6 +1328,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Czech Vz95, ESS & Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_vz95woodland_essbala_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1238,6 +1343,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Czech Vz95 (Desert))";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_vz95desert_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1249,6 +1355,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Czech Vz95 (Desert), Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_vz95desert_bala1_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1261,6 +1368,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Czech Vz95 (Desert), Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_vz95desert_bala2_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1273,6 +1381,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Czech Vz95 (Desert), ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_vz95desert_ess_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1284,6 +1393,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Czech Vz95 (Desert), ESS & Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_vz95desert_essbala_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1298,6 +1408,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Flecktarn Summer)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_flecktarnsummer_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1309,6 +1420,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Flecktarn Summer, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_flecktarnsummer_bala1_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1321,6 +1433,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Flecktarn Summer, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_flecktarnsummer_bala2_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1333,6 +1446,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Flecktarn Summer, ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_flecktarnsummer_ess_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1344,6 +1458,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Flecktarn Summer, ESS & Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_flecktarnsummer_essbala_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1358,6 +1473,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Flecktarn Autumn)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_flecktarnautumn_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1369,6 +1485,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Flecktarn Autumn, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_flecktarnautumn_bala1_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1381,6 +1498,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Flecktarn Autumn, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_flecktarnautumn_bala2_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1393,6 +1511,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Flecktarn Autumn, ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_flecktarnautumn_ess_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1404,6 +1523,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Flecktarn Autumn, ESS & Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_flecktarnautumn_essbala_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1418,6 +1538,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Flecktarn Desert)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_flecktarndesert_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1429,6 +1550,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Flecktarn Desert, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_flecktarndesert_bala1_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1441,6 +1563,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Flecktarn Desert, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_flecktarndesert_bala2_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1453,6 +1576,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Flecktarn Desert, ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_flecktarndesert_ess_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1464,6 +1588,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Flecktarn Desert, ESS & Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_flecktarndesert_essbala_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1478,6 +1603,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Flecktarn Snow)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_flecktarnsnow_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1489,6 +1615,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Flecktarn Snow, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_flecktarnsnow_bala1_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1501,6 +1628,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Flecktarn Snow, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_flecktarnsnow_bala2_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1513,6 +1641,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Flecktarn Snow, ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_flecktarnsnow_ess_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1524,6 +1653,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Flecktarn Snow, ESS & Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_flecktarnsnow_essbala_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1538,6 +1668,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Skol)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_skol_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1549,6 +1680,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Skol, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_skol_bala1_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1561,6 +1693,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Skol, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_skol_bala2_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1573,6 +1706,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Skol, ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_skol_ess_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1584,6 +1718,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Skol, ESS & Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_skol_essbala_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1598,6 +1733,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Finnish M05 Maastokuvio)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_m05maasto_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1609,6 +1745,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Finnish M05 Maastokuvio, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_m05maasto_bala1_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1621,6 +1758,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Finnish M05 Maastokuvio, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_m05maasto_bala2_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1633,6 +1771,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Finnish M05 Maastokuvio, ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_m05maasto_ess_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1644,6 +1783,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Finnish M05 Maastokuvio, ESS & Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_m05maasto_essbala_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1658,6 +1798,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Finnish M05 Pakkaskuvio)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_m05pakkas_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1669,6 +1810,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Finnish M05 Pakkaskuvio, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_m05pakkas_bala1_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1681,6 +1823,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Finnish M05 Pakkaskuvio, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_m05pakkas_bala2_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1693,6 +1836,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Finnish M05 Pakkaskuvio, ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_m05pakkas_ess_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1704,6 +1848,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Finnish M05 Pakkaskuvio, ESS & Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_m05pakkas_essbala_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1718,6 +1863,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Finnish M05 Lumikuvio)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_m05lumi_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1729,6 +1875,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Finnish M05 Lumikuvio, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_m05lumi_bala1_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1741,6 +1888,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Finnish M05 Lumikuvio, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_m05lumi_bala2_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1753,6 +1901,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Finnish M05 Lumikuvio, ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_m05lumi_ess_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1764,6 +1913,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Finnish M05 Lumikuvio, ESS & Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_m05lumi_essbala_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1778,6 +1928,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Finnish M05 Hellekuvio)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_m05helle_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1789,6 +1940,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Finnish M05 Hellekuvio, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_m05helle_bala1_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1801,6 +1953,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Finnish M05 Hellekuvio, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_m05helle_bala2_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1813,6 +1966,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Finnish M05 Hellekuvio, ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_m05helle_ess_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1824,6 +1978,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Finnish M05 Hellekuvio, ESS & Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_m05helle_essbala_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1838,6 +1993,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (White)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_white_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1849,6 +2005,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (White, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_white_bala1_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1861,6 +2018,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (White, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_white_bala2_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1873,6 +2031,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (White, ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_white_ess_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1884,6 +2043,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (White, ESS & Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_white_essbala_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1898,6 +2058,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (M81 Snow (green))";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_woodlandsnowgreen_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1909,6 +2070,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (M81 Snow (green), Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_woodlandsnowgreen_bala1_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1921,6 +2083,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (M81 Snow (green), Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_woodlandsnowgreen_bala2_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1933,6 +2096,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (M81 Snow (green), ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_woodlandsnowgreen_ess_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1944,6 +2108,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (M81 Snow (green), ESS & Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_woodlandsnowgreen_essbala_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1958,6 +2123,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (M81 Snow (tan))";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_woodlandsnowtan_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1969,6 +2135,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (M81 Snow (tan), Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_woodlandsnowtan_bala1_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1981,6 +2148,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (M81 Snow (tan), Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_woodlandsnowtan_bala2_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -1993,6 +2161,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (M81 Snow (tan), ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_woodlandsnowtan_ess_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -2004,6 +2173,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (M81 Snow (tan), ESS & Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_woodlandsnowtan_essbala_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -2017,6 +2187,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (SURPAT)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_surpat_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -2028,6 +2199,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (SURPAT, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_surpat_bala1_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -2040,6 +2212,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (SURPAT, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_surpat_bala2_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -2052,6 +2225,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (SURPAT, ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_surpat_ess_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -2063,6 +2237,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (SURPAT, ESS & Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_surpat_essbala_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -2076,6 +2251,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Russian Syria camo)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_syrian_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -2087,6 +2263,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Russian Syria camo, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_syrian_bala1_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -2099,6 +2276,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Russian Syria camo, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_syrian_bala2_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -2111,6 +2289,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Russian Syria camo, ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_syrian_ess_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -2122,6 +2301,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Russian Syria camo, ESS & Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_syrian_essbala_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -2135,6 +2315,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Desert EMR)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_desertemr_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -2146,6 +2327,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Desert EMR, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_desertemr_bala1_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -2158,6 +2340,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Desert EMR, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_desertemr_bala2_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -2170,6 +2353,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Desert EMR, ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_desertemr_ess_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -2181,6 +2365,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Desert EMR, ESS & Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_desertemr_essbala_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -2194,6 +2379,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Desert pink)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_desertpink_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -2205,6 +2391,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Desert pink, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_desertpink_bala1_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -2217,6 +2404,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Desert pink, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_desertpink_bala2_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -2229,6 +2417,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Desert pink, ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_desertpink_ess_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -2240,6 +2429,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Desert pink, ESS & Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_desertpink_essbala_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -2253,6 +2443,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (British MTP)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_mtp_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -2264,6 +2455,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (British MTP, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_mtp_bala1_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -2276,6 +2468,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (British MTP, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_mtp_bala2_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -2288,6 +2481,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (British MTP, ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_mtp_ess_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -2299,6 +2493,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (British MTP, ESS & Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_mtp_essbala_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -2311,7 +2506,8 @@ class CfgWeapons
 	{
 		author="Gordon Weedman";
 		scope=2;
-		displayName="6B7-1M (Hex taiga)";
+		displayName="6B7-1M (Hex Taiga)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_hextaiga_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -2323,6 +2519,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Hex Taiga, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_hextaiga_bala1_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -2335,6 +2532,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Hex Taiga, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_hextaiga_bala2_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -2347,6 +2545,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Hex Taiga, ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_hextaiga_ess_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -2358,6 +2557,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (Hex Taiga, ESS & Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_hextaiga_essbala_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -2366,11 +2566,268 @@ class CfgWeapons
 		};
 	};
 	
+	class FP_GOR_6b7_1m_hexarid: rhs_6b7_1m_emr
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (Hex Arid)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_hexarid_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\RHS6b7\data\6b7-1m_hexarid_co.paa"
+		};
+	};
+	class FP_GOR_6b7_1m_bala1_hexarid: rhs_6b7_1m_bala1_emr
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (Hex Arid, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_hexarid_bala1_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\RHS6b7\data\6b7-1m_hexarid_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\RHS6b7\data\bala1_desert_co.paa"
+		};
+	};
+	class FP_GOR_6b7_1m_bala2_hexarid: rhs_6b7_1m_bala2_emr
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (Hex Arid, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_hexarid_bala2_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\RHS6b7\data\6b7-1m_hexarid_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\RHS6b7\data\bala2_desert_co.paa"
+		};
+	};
+	class FP_GOR_6b7_1m_ess_hexarid: rhs_6b7_1m_emr_ess
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (Hex Arid, ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_hexarid_ess_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\RHS6b7\data\6b7-1m_hexarid_co.paa"
+		};
+	};
+	class FP_GOR_6b7_1m_ess_bala_hexarid: rhs_6b7_1m_emr_ess_bala
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (Hex Arid, ESS & Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_hexarid_essbala_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\RHS6b7\data\6b7-1m_hexarid_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\RHS6b7\data\bala2_desert_co.paa"
+		};
+	};
+	
+	class FP_GOR_6b7_1m_hexsemiarid: rhs_6b7_1m_emr
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (Hex Semiarid)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_hexsemiarid_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\RHS6b7\data\6b7-1m_hexsemiarid_co.paa"
+		};
+	};
+	class FP_GOR_6b7_1m_bala1_hexsemiarid: rhs_6b7_1m_bala1_emr
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (Hex Semi-Arid, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_hexsemiarid_bala1_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\RHS6b7\data\6b7-1m_hexsemiarid_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\RHS6b7\data\bala1_desert_co.paa"
+		};
+	};
+	class FP_GOR_6b7_1m_bala2_hexsemiarid: rhs_6b7_1m_bala2_emr
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (Hex Semi-Arid, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_hexsemiarid_bala2_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\RHS6b7\data\6b7-1m_hexsemiarid_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\RHS6b7\data\bala2_desert_co.paa"
+		};
+	};
+	class FP_GOR_6b7_1m_ess_hexsemiarid: rhs_6b7_1m_emr_ess
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (Hex Semi-Arid, ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_hexsemiarid_ess_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\RHS6b7\data\6b7-1m_hexsemiarid_co.paa"
+		};
+	};
+	class FP_GOR_6b7_1m_ess_bala_hexsemiarid: rhs_6b7_1m_emr_ess_bala
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (Hex Semi-Arid, ESS & Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_hexsemiarid_essbala_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\RHS6b7\data\6b7-1m_hexsemiarid_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\RHS6b7\data\bala2_desert_co.paa"
+		};
+	};
+	
+	class FP_GOR_6b7_1m_hexpacific: rhs_6b7_1m_emr
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (Hex Pacific)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_hexpacific_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\RHS6b7\data\6b7-1m_hexpacific_co.paa"
+		};
+	};
+	class FP_GOR_6b7_1m_bala1_hexpacific: rhs_6b7_1m_bala1_emr
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (Hex Pacific, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_hexpacific_bala1_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\RHS6b7\data\6b7-1m_hexpacific_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\RHS6b7\data\bala1_olive_co.paa"
+		};
+	};
+	class FP_GOR_6b7_1m_bala2_hexpacific: rhs_6b7_1m_bala2_emr
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (Hex Pacific, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_hexpacific_bala2_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\RHS6b7\data\6b7-1m_hexpacific_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\RHS6b7\data\bala2_olive_co.paa"
+		};
+	};
+	class FP_GOR_6b7_1m_ess_hexpacific: rhs_6b7_1m_emr_ess
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (Hex Pacific, ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_hexpacific_ess_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\RHS6b7\data\6b7-1m_hexpacific_co.paa"
+		};
+	};
+	class FP_GOR_6b7_1m_ess_bala_hexpacific: rhs_6b7_1m_emr_ess_bala
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (Hex Pacific, ESS & Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_hexpacific_essbala_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\RHS6b7\data\6b7-1m_hexpacific_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\RHS6b7\data\bala2_olive_co.paa"
+		};
+	};
+	
+	class FP_GOR_6b7_1m_hexurban: rhs_6b7_1m_emr
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (Hex Urban)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_hexurban_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\RHS6b7\data\6b7-1m_hexurban_co.paa"
+		};
+	};
+	class FP_GOR_6b7_1m_bala1_hexurban: rhs_6b7_1m_bala1_emr
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (Hex Urban, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_hexurban_bala1_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\RHS6b7\data\6b7-1m_hexurban_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\RHS6b7\data\bala1_surpat_co.paa"
+		};
+	};
+	class FP_GOR_6b7_1m_bala2_hexurban: rhs_6b7_1m_bala2_emr
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (Hex Urban, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_hexurban_bala2_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\RHS6b7\data\6b7-1m_hexurban_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\RHS6b7\data\bala2_surpat_co.paa"
+		};
+	};
+	class FP_GOR_6b7_1m_ess_hexurban: rhs_6b7_1m_emr_ess
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (Hex Urban, ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_hexurban_ess_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\RHS6b7\data\6b7-1m_hexurban_co.paa"
+		};
+	};
+	class FP_GOR_6b7_1m_ess_bala_hexurban: rhs_6b7_1m_emr_ess_bala
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (Hex Urban, ESS & Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_hexurban_essbala_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\RHS6b7\data\6b7-1m_hexurban_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\RHS6b7\data\bala2_surpat_co.paa"
+		};
+	};
+	
 	class FP_GOR_6b7_1m_atacsfg: rhs_6b7_1m_emr
 	{
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (ATACS Foliage/Green)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_atacsfg_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -2382,6 +2839,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (ATACS Foliage/Green, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_atacsfg_bala1_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -2394,6 +2852,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (ATACS Foliage/Green, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_atacsfg_bala2_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -2406,6 +2865,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (ATACS Foliage/Green, ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_atacsfg_ess_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -2417,6 +2877,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (ATACS Foliage/Green, ESS & Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_atacsfg_essbala_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -2430,6 +2891,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (ATACS Arid/Urban)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_atacsau_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -2441,6 +2903,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (ATACS Arid/Urban, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_atacsau_bala1_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -2453,6 +2916,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (ATACS Arid/Urban, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_atacsau_bala2_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -2465,6 +2929,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (ATACS Arid/Urban, ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_atacsau_ess_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
@@ -2476,6 +2941,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="6B7-1M (ATACS Arid/Urban, ESS & Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_atacsau_essbala_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",

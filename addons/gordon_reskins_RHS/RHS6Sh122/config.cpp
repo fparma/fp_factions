@@ -2554,6 +2554,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Russian Syria camo)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_syrian_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -2567,6 +2568,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Russian Syria camo, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_syriangloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -2581,6 +2583,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Desert EMR)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_desertemr_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -2594,6 +2597,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Desert EMR, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_desertemrgloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -2608,6 +2612,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Desert pink)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_desertpink_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -2621,6 +2626,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Desert pink, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_desertpinkgloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -2635,6 +2641,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (SURPAT)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_surpat_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -2648,6 +2655,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (SURPAT, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_surpatgloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -2662,6 +2670,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (EMR)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_emr_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -2675,6 +2684,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (EMR, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_emrgloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -2689,6 +2699,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (SUMRAK)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_sumrak_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -2702,6 +2713,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (SUMRAK, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_sumrakgloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -2716,6 +2728,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Partizan Autumn)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_partizanautumn_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -2729,6 +2742,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Partizan Autumn, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_partizanautumngloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -2743,6 +2757,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Partizan Autumn/Summer)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_partizanautumnsummer_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -2756,6 +2771,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Partizan Autumn/Summer, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_partizanautumnsummergloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -2770,6 +2786,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Partizan Summer)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_partizansummer_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -2783,6 +2800,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Partizan Summer, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_partizansummergloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -2797,6 +2815,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Partizan Summer/Autumn)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_partizansummerautumn_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -2810,6 +2829,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Partizan Summer/Autumn, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_partizansummerautumngloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -2824,6 +2844,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Partizan M Autumn)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_partizanmautumn_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -2837,6 +2858,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Partizan M Autumn, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_partizanmautumngloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -2851,6 +2873,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Partizan M Autumn/Summer)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_partizanmautumnsummer_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -2864,6 +2887,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Partizan M Autumn/Summer, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_partizanmautumnsummergloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -2878,6 +2902,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Partizan M Summer)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_partizanmsummer_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -2891,6 +2916,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Partizan M Summer, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_partizanmsummergloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -2905,6 +2931,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Partizan M Summer/Autumn)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_partizanmsummerautumn_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -2918,6 +2945,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Partizan M Summer/Autumn, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_partizanmsummerautumngloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -2932,6 +2960,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Winter)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_winter_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -2945,6 +2974,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Winter, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_wintergloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -2959,6 +2989,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Schneetarn)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_schneetarn_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -2972,6 +3003,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Schneetarn, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_schneetarngloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -2986,6 +3018,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Black)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_black_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -2999,6 +3032,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Black, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_blackgloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3013,6 +3047,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (DBC Arid)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_stripeyarid_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3026,6 +3061,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (DBC Arid, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_stripeyaridgloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3040,6 +3076,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (DBC Arid/Desert)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_stripeyariddesert_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3053,6 +3090,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (DBC Arid/Desert, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_stripeyariddesertgloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3067,6 +3105,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (DBC Arid/Woodland)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_stripeyaridwoodland_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3080,6 +3119,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (DBC Arid/Woodland, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_stripeyaridwoodlandgloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3094,6 +3134,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (DBC Desert)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_stripeydesert_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3107,6 +3148,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (DBC Desert, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_stripeydesertgloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3121,6 +3163,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (DBC Desert/Arid)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_stripeydesertarid_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3134,6 +3177,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (DBC Desert/Arid, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_stripeydesertaridgloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3148,6 +3192,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (DBC Woodland)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_stripeywoodland_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3161,6 +3206,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (DBC Woodland, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_stripeywoodlandgloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3175,6 +3221,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (DBC Woodland/Arid)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_stripeywoodlandarid_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3188,6 +3235,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (DBC Woodland/Arid, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_stripeywoodlandaridgloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3202,6 +3250,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Tochka)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_tochka_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3215,6 +3264,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Tochka, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_tochkagloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3229,6 +3279,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Tochka/Amoeba)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_tochkaamoeba_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3242,6 +3293,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Tochka/Amoeba, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_tochkaamoebagloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3256,6 +3308,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Amoeba)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_amoeba_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3269,6 +3322,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Amoeba, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_amoebagloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3283,6 +3337,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Amoeba/Tochka)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_amoebatochka_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3296,6 +3351,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Amoeba/Tochka, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_amoebatochkagloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3310,6 +3366,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (ATACS Arid/Urban)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_atacsau_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3323,6 +3380,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (ATACS Arid/Urban, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_atacsaugloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3337,6 +3395,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (ATACS AU/FG)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_atacsaufg_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3350,6 +3409,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (ATACS AU/FG, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_atacsaufggloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3364,6 +3424,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (ATACS Foliage/Green)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_atacsfg_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3377,6 +3438,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (ATACS Foliage/Green, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_atacsfggloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3391,6 +3453,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (ATACS FG/AU)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_atacsfgau_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3404,6 +3467,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (ATACS FG/AU, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_atacsfgaugloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3418,6 +3482,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Spring & Fall)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_v12_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3431,6 +3496,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Spring & Fall/Gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_v12gloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3445,6 +3511,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Fall & Spring)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_v21_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3458,6 +3525,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Fall & Spring/Gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_v21gloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3472,6 +3540,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Berezhka White)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_klmk1_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3485,6 +3554,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Berezhka White, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_klmk1gloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3499,6 +3569,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Berezhka Yellow)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_klmk2_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3512,6 +3583,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Berezhka Yellow, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_klmk2gloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3526,6 +3598,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Berezhka Arid)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_klmk3_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3539,6 +3612,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Berezhka Arid, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_klmk3gloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3553,6 +3627,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Berezhka Winter)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_klmk4_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3566,6 +3641,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Berezhka Winter, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_klmk4gloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3580,6 +3656,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Urban Night)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_urbannight_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3593,6 +3670,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Urban Night, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_urbannightgloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3607,6 +3685,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Urban Night/Brown)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_urbannightbrown_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3620,6 +3699,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Urban Night/Brown, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_urbannightbrowngloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3634,6 +3714,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Urban Night/Olive)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_urbannightolive_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3647,6 +3728,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Urban Night/Olive, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_urbannightolivegloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3661,6 +3743,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Brown)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_brown_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3674,6 +3757,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Brown, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_browngloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3688,6 +3772,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Brown/Olive)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_brownolive_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3701,6 +3786,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Brown/Olive, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_brownolivegloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3715,6 +3801,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Brown/Urban Night)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_brownurbannnight_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3728,6 +3815,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Brown/Urban Night, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_brownurbannightgloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3742,6 +3830,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Olive)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_olive_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3755,6 +3844,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Olive, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_olivegloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3769,6 +3859,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Olive/Brown)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_olivebrown_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3782,6 +3873,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Olive/Brown, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_olivebrowngloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3796,6 +3888,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Olive/Urban Night)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_oliveurbannight_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3809,6 +3902,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Olive/Urban Night, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_oliveurbannightgloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3823,6 +3917,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Spectre SKVO)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_spectreskvo_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3836,6 +3931,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Spectre SKVO, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_spectreskvogloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3850,6 +3946,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Spectre Summer)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_spectresummer_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3863,6 +3960,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Spectre Summer, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_spectresummergloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3877,6 +3975,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Spectre Spring)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_spectrespring_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3890,6 +3989,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Spectre Spring, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_spectrespringgloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3904,6 +4004,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Sumpfmuster)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_sumpfmuster_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3917,6 +4018,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Sumpfmuster, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_sumpfmustergloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3932,6 +4034,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Tochka (Alt.))";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_tochkaalt_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3945,6 +4048,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Tochka (Alt.), gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_tochkaaltgloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3959,6 +4063,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Tochka (Alt.)/Amoeba)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_tochkaaltamoeba_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3972,6 +4077,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Tochka (Alt.)/Amoeba, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_tochkaaltamoebagloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3986,6 +4092,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Amoeba/Tochka (Alt.))";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_amoebatochkaalt_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -3999,6 +4106,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Amoeba/Tochka (Alt.), gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_amoebatochkaaltgloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -4013,6 +4121,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Tochka (Alt.)/Tochka)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_tochkaalttochka_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -4026,6 +4135,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Tochka (Alt.)/Tochka, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_tochkaalttochkagloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -4040,6 +4150,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Tochka/Tochka (Alt.))";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_tochkatochkaalt_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -4053,6 +4164,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="6Sh122 (Tochka/Tochka (Alt.), gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_tochkatochkaaltgloves_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{

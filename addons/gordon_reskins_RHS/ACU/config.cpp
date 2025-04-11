@@ -619,6 +619,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Army Combat Uniform (EMR)";
+		picture="\fp_factions\gordon_reskins_rhs\acu\data\icons\icon_acu_emr_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -632,6 +633,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Army Combat Uniform (DBC Woodland)";
+		picture="\fp_factions\gordon_reskins_rhs\acu\data\icons\icon_acu_stripeywoodland_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -645,6 +647,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Army Combat Uniform (DBC Arid)";
+		picture="\fp_factions\gordon_reskins_rhs\acu\data\icons\icon_acu_stripeyarid_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -658,6 +661,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Army Combat Uniform (DBC Desert)";
+		picture="\fp_factions\gordon_reskins_rhs\acu\data\icons\icon_acu_stripeydesert_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -671,6 +675,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Army Combat Uniform (M81 Woodland)";
+		picture="\fp_factions\gordon_reskins_rhs\acu\data\icons\icon_acu_woodland_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -684,6 +689,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Army Combat Uniform (British DPM)";
+		picture="\fp_factions\gordon_reskins_rhs\acu\data\icons\icon_acu_cs95dpm_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -697,6 +703,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Army Combat Uniform (MTP)";
+		picture="\fp_factions\gordon_reskins_rhs\acu\data\icons\icon_acu_mtp_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -710,6 +717,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Army Combat Uniform (Multicam)";
+		picture="\fp_factions\gordon_reskins_rhs\acu\data\icons\icon_acu_multicam_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -723,6 +731,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Army Combat Uniform (Multicam Arid)";
+		picture="\fp_factions\gordon_reskins_rhs\acu\data\icons\icon_acu_multicamarid_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -736,6 +745,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Army Combat Uniform (Multicam Jungle)";
+		picture="\fp_factions\gordon_reskins_rhs\acu\data\icons\icon_acu_multicamjungle_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -749,6 +759,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Army Combat Uniform (Multicam Woodland)";
+		picture="\fp_factions\gordon_reskins_rhs\acu\data\icons\icon_acu_multicamwoodland_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -762,6 +773,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Army Combat Uniform (Multicam Black)";
+		picture="\fp_factions\gordon_reskins_rhs\acu\data\icons\icon_acu_multicamblack_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -775,6 +787,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Army Combat Uniform (Polish SG-14)";
+		picture="\fp_factions\gordon_reskins_rhs\acu\data\icons\icon_acu_sg14_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -788,6 +801,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Army Combat Uniform (Polish SG-14 desert)";
+		picture="\fp_factions\gordon_reskins_rhs\acu\data\icons\icon_acu_sg14desert_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -801,6 +815,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Army Combat Uniform (Olive)";
+		picture="\fp_factions\gordon_reskins_rhs\acu\data\icons\icon_acu_olive_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -814,6 +829,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Army Combat Uniform (Tan)";
+		picture="\fp_factions\gordon_reskins_rhs\acu\data\icons\icon_acu_tan_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -827,6 +843,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Army Combat Uniform (Black)";
+		picture="\fp_factions\gordon_reskins_rhs\acu\data\icons\icon_acu_black_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -840,6 +857,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Army Combat Uniform (M81 Urban woodland)";
+		picture="\fp_factions\gordon_reskins_rhs\acu\data\icons\icon_acu_woodlandurban_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -853,6 +871,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Army Combat Uniform (T-PAT)";
+		picture="\fp_factions\gordon_reskins_rhs\acu\data\icons\icon_acu_tpat_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -866,6 +885,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Army Combat Uniform (US 'Chocolate chip')";
+		picture="\fp_factions\gordon_reskins_rhs\acu\data\icons\icon_acu_chocochip_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{
@@ -879,6 +899,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="Army Combat Uniform (US 'Coffee stain')";
+		picture="\fp_factions\gordon_reskins_rhs\acu\data\icons\icon_acu_coffeestain_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: UniformItem
 		{

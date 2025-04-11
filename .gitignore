@@ -10,3 +10,7 @@ hemtt.exe
 ####
 
 build.bat
+
+photoshoot.bat
+
+.hemtt/launch.toml

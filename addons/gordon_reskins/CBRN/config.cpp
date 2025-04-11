@@ -356,6 +356,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="CBRN Suit (M81 Woodland)";
+		picture="\fp_factions\gordon_reskins\cbrn\data\icons\icon_cbrnwoodland_ca.paa";
 		author="Gordon Weedman";
 		hiddenSelections[]=
 		{
@@ -377,6 +378,8 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="CBRN Suit (DBC Arid)";
+		
+		picture="\fp_factions\gordon_reskins\cbrn\data\icons\icon_cbrnstripeyarid_ca.paa";
 		author="Gordon Weedman";
 		hiddenSelections[]=
 		{
@@ -398,6 +401,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="CBRN Suit (DBC Desert)";
+		picture="\fp_factions\gordon_reskins\cbrn\data\icons\icon_cbrnstripeydesert_ca.paa";
 		author="Gordon Weedman";
 		hiddenSelections[]=
 		{
@@ -419,6 +423,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="CBRN Suit (DBC Woodland)";
+		picture="\fp_factions\gordon_reskins\cbrn\data\icons\icon_cbrnstripeywoodland_ca.paa";
 		author="Gordon Weedman";
 		hiddenSelections[]=
 		{
@@ -440,6 +445,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="CBRN Suit (EMR)";
+		picture="\fp_factions\gordon_reskins\cbrn\data\icons\icon_cbrnemr_ca.paa";
 		author="Gordon Weedman";
 		hiddenSelections[]=
 		{
@@ -461,6 +467,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="CBRN Suit (Flora)";
+		picture="\fp_factions\gordon_reskins\cbrn\data\icons\icon_cbrnflora_ca.paa";
 		author="Gordon Weedman";
 		hiddenSelections[]=
 		{
@@ -482,6 +489,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="CBRN Suit (Olive)";
+		picture="\fp_factions\gordon_reskins\cbrn\data\icons\icon_cbrnolive_ca.paa";
 		author="Gordon Weedman";
 		hiddenSelections[]=
 		{
@@ -503,6 +511,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="CBRN Suit (Olive w/ details)";
+		picture="\fp_factions\gordon_reskins\cbrn\data\icons\icon_cbrnoliveb_ca.paa";
 		author="Gordon Weedman";
 		hiddenSelections[]=
 		{
@@ -524,6 +533,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="CBRN Suit (Yellow)";
+		picture="\fp_factions\gordon_reskins\cbrn\data\icons\icon_cbrnyellow_ca.paa";
 		author="Gordon Weedman";
 		hiddenSelections[]=
 		{
@@ -545,6 +555,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="CBRN Suit (Yellow w/ details)";
+		picture="\fp_factions\gordon_reskins\cbrn\data\icons\icon_cbrnyellowb_ca.paa";
 		author="Gordon Weedman";
 		hiddenSelections[]=
 		{
@@ -566,6 +577,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="CBRN Suit (Orange)";
+		picture="\fp_factions\gordon_reskins\cbrn\data\icons\icon_cbrnorange_ca.paa";
 		author="Gordon Weedman";
 		hiddenSelections[]=
 		{
@@ -587,6 +599,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="CBRN Suit (Orange w/ details)";
+		picture="\fp_factions\gordon_reskins\cbrn\data\icons\icon_cbrnorangeb_ca.paa";
 		author="Gordon Weedman";
 		hiddenSelections[]=
 		{
@@ -608,6 +621,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="CBRN Suit (Pink)";
+		picture="\fp_factions\gordon_reskins\cbrn\data\icons\icon_cbrnpink_ca.paa";
 		author="Gordon Weedman";
 		hiddenSelections[]=
 		{
@@ -629,6 +643,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="CBRN Suit (Pink w/ details)";
+		picture="\fp_factions\gordon_reskins\cbrn\data\icons\icon_cbrnpinkb_ca.paa";
 		author="Gordon Weedman";
 		hiddenSelections[]=
 		{
@@ -651,6 +666,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="CBRN Suit (Tan)";
+		picture="\fp_factions\gordon_reskins\cbrn\data\icons\icon_cbrntan_ca.paa";
 		author="Gordon Weedman";
 		hiddenSelections[]=
 		{
@@ -672,6 +688,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="CBRN Suit (Tan w/ details)";
+		picture="\fp_factions\gordon_reskins\cbrn\data\icons\icon_cbrntanb_ca.paa";
 		author="Gordon Weedman";
 		hiddenSelections[]=
 		{
@@ -694,6 +711,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="CBRN Suit (Teal)";
+		picture="\fp_factions\gordon_reskins\cbrn\data\icons\icon_cbrnteal_ca.paa";
 		author="Gordon Weedman";
 		hiddenSelections[]=
 		{
@@ -715,6 +733,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="CBRN Suit (Teal w/ details)";
+		picture="\fp_factions\gordon_reskins\cbrn\data\icons\icon_cbrntealb_ca.paa";
 		author="Gordon Weedman";
 		hiddenSelections[]=
 		{
