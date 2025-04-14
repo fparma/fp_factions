@@ -27,6 +27,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="ALICE Pack (M81 Woodland)";
+		picture="\fp_factions\gordon_reskins\alicepack\data\icons\icon_alicewoodland_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\alicepack\data\alicepack_woodland_co.paa"
@@ -36,6 +37,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="ALICE Pack (6-Color Desert)";
+		picture="\fp_factions\gordon_reskins\alicepack\data\icons\icon_alicechocchip_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\alicepack\data\alicepack_chocchip_co.paa"
@@ -45,6 +47,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="ALICE Pack (3-Color Desert)";
+		picture="\fp_factions\gordon_reskins\alicepack\data\icons\icon_alicecoffee_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\alicepack\data\alicepack_coffee_co.paa"

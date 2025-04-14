@@ -26,6 +26,7 @@ class CfgWeapons
 		_generalMacro = "V_SmershVest_01_F";
 		scope = 2;
 		displayName = "Smersh Vest (Olive)";
+		picture="\fp_factions\gordon_reskins\smersh\data\icons\icon_smersh_olive_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\smersh\data\smersh_Olive_co.paa",
@@ -38,6 +39,7 @@ class CfgWeapons
 		_generalMacro = "V_SmershVest_01_radio_F";
 		scope = 2;
 		displayName = "Smersh Vest (Olive, Tactical Radio)";
+		picture="\fp_factions\gordon_reskins\smersh\data\icons\icon_smersh_olive_radio_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\smersh\data\smersh_Olive_co.paa",

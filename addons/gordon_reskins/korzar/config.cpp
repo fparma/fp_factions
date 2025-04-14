@@ -37,11 +37,12 @@ class CfgWeapons
 	class FP_Korzar3_Olive_P;
 	class FP_Korzar3_Olive_R;
 
-	class FP_GOR_Korzar3_aaf : FP_Korzar3_Olive
+	class FP_GOR_Korzar3_aaf: FP_Korzar3_Olive
 	{
 		author="Gordon Weedman";
 		scope=2;
 		displayName="Korzar-3 (AAF)";
+		picture="\fp_factions\gordon_reskins\korzar\data\icons\icon_korzar_aaf_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\korzar\data\korzar3_aaf_co.paa",
@@ -55,6 +56,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="Korzar-3 (AAF, Bandolier)";
+		picture="\fp_factions\gordon_reskins\korzar\data\icons\icon_korzar_aaf_b_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\korzar\data\korzar3_aaf_co.paa",
@@ -68,6 +70,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="Korzar-3 (AAF, Pouch)";
+		picture="\fp_factions\gordon_reskins\korzar\data\icons\icon_korzar_aaf_p_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\korzar\data\korzar3_aaf_co.paa",
@@ -81,6 +84,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="Korzar-3 (AAF, Radio)";
+		picture="\fp_factions\gordon_reskins\korzar\data\icons\icon_korzar_aaf_r_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\korzar\data\korzar3_aaf_co.paa",
@@ -90,11 +94,12 @@ class CfgWeapons
 		};
 	};
 	
-	class FP_GOR_Korzar3_spets : FP_Korzar3_Olive
+	class FP_GOR_Korzar3_spets: FP_Korzar3_Olive
 	{
 		author="Gordon Weedman";
 		scope=2;
 		displayName="Korzar-3 (Spetsodezhda)";
+		picture="\fp_factions\gordon_reskins\korzar\data\icons\icon_korzar_spets_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\korzar\data\korzar3_spets_co.paa",
@@ -108,6 +113,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="Korzar-3 (Spetsodezhda, Bandolier)";
+		picture="\fp_factions\gordon_reskins\korzar\data\icons\icon_korzar_spets_b_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\korzar\data\korzar3_spets_co.paa",
@@ -121,6 +127,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="Korzar-3 (Spetsodezhda, Pouch)";
+		picture="\fp_factions\gordon_reskins\korzar\data\icons\icon_korzar_spets_p_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\korzar\data\korzar3_spets_co.paa",
@@ -134,6 +141,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="Korzar-3 (Spetsodezhda, Radio)";
+		picture="\fp_factions\gordon_reskins\korzar\data\icons\icon_korzar_spets_r_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\korzar\data\korzar3_spets_co.paa",
@@ -143,11 +151,12 @@ class CfgWeapons
 		};
 	};
 	
-	class FP_GOR_Korzar3_slivawood : FP_Korzar3_Olive
+	class FP_GOR_Korzar3_slivawood: FP_Korzar3_Olive
 	{
 		author="Gordon Weedman";
 		scope=2;
 		displayName="Korzar-3 (Sliva (woodland))";
+		picture="\fp_factions\gordon_reskins\korzar\data\icons\icon_korzar_slivawood_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\korzar\data\korzar3_slivawood_co.paa",
@@ -161,6 +170,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="Korzar-3 (Sliva (woodland), Bandolier)";
+		picture="\fp_factions\gordon_reskins\korzar\data\icons\icon_korzar_slivawood_b_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\korzar\data\korzar3_slivawood_co.paa",
@@ -174,6 +184,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="Korzar-3 (Sliva (woodland), Pouch)";
+		picture="\fp_factions\gordon_reskins\korzar\data\icons\icon_korzar_slivawood_p_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\korzar\data\korzar3_slivawood_co.paa",
@@ -187,6 +198,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="Korzar-3 (Sliva (woodland), Radio)";
+		picture="\fp_factions\gordon_reskins\korzar\data\icons\icon_korzar_slivawood_r_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\korzar\data\korzar3_slivawood_co.paa",
@@ -196,11 +208,12 @@ class CfgWeapons
 		};
 	};
 	
-	class FP_GOR_Korzar3_slivasteppe : FP_Korzar3_Olive
+	class FP_GOR_Korzar3_slivasteppe: FP_Korzar3_Olive
 	{
 		author="Gordon Weedman";
 		scope=2;
 		displayName="Korzar-3 (Sliva (steppe))";
+		picture="\fp_factions\gordon_reskins\korzar\data\icons\icon_korzar_slivasteppe_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\korzar\data\korzar3_slivasteppe_co.paa",
@@ -214,6 +227,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="Korzar-3 (Sliva (steppe), Bandolier)";
+		picture="\fp_factions\gordon_reskins\korzar\data\icons\icon_korzar_slivasteppe_b_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\korzar\data\korzar3_slivasteppe_co.paa",
@@ -227,6 +241,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="Korzar-3 (Sliva (steppe), Pouch)";
+		picture="\fp_factions\gordon_reskins\korzar\data\icons\icon_korzar_slivasteppe_p_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\korzar\data\korzar3_slivasteppe_co.paa",
@@ -240,6 +255,7 @@ class CfgWeapons
 		author="Gordon Weedman";
 		scope=2;
 		displayName="Korzar-3 (Sliva (steppe), Radio)";
+		picture="\fp_factions\gordon_reskins\korzar\data\icons\icon_korzar_slivasteppe_r_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\korzar\data\korzar3_slivasteppe_co.paa",

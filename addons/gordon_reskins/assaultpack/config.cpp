@@ -59,6 +59,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Assault Pack (M81 Woodland)";
+		picture="\fp_factions\gordon_reskins\assaultpack\data\icons\icon_assaultpack_woodland_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_woodland_co.paa"
@@ -68,6 +69,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Assault Pack (DBC Arid)";
+		picture="\fp_factions\gordon_reskins\assaultpack\data\icons\icon_assaultpack_stripeyarid_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_stripeyarid_co.paa"
@@ -77,6 +79,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Assault Pack (DBC Desert)";
+		picture="\fp_factions\gordon_reskins\assaultpack\data\icons\icon_assaultpack_stripeydesert_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_stripeydesert_co.paa"
@@ -86,6 +89,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Assault Pack (DBC Woodland)";
+		picture="\fp_factions\gordon_reskins\assaultpack\data\icons\icon_assaultpack_stripeywoodland_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_stripeywoodland_co.paa"
@@ -95,6 +99,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Assault Pack (French Lizard C1)";
+		picture="\fp_factions\gordon_reskins\assaultpack\data\icons\icon_assaultpack_frenchlizardc1_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_frenchlizardc1_co.paa"
@@ -104,6 +109,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Assault Pack (French Lizard A2)";
+		picture="\fp_factions\gordon_reskins\assaultpack\data\icons\icon_assaultpack_frenchlizarda2_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_frenchlizarda2_co.paa"
@@ -113,6 +119,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Assault Pack (French Lizard Fictional)";
+		picture="\fp_factions\gordon_reskins\assaultpack\data\icons\icon_assaultpack_frenchlizardfictional_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_frenchlizardfictional_co.paa"
@@ -122,6 +129,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Assault Pack (Tigerstripe jungle)";
+		picture="\fp_factions\gordon_reskins\assaultpack\data\icons\icon_assaultpack_tigerstripejungle_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_tigerstripejungle_co.paa"
@@ -131,6 +139,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Assault Pack (Tigerstripe desert)";
+		picture="\fp_factions\gordon_reskins\assaultpack\data\icons\icon_assaultpack_tigerstripedesert_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_tigerstripedesert_co.paa"
@@ -140,6 +149,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Assault Pack (Tigerstripe naval)";
+		picture="\fp_factions\gordon_reskins\assaultpack\data\icons\icon_assaultpack_tigerstripenaval_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_tigerstripenaval_co.paa"
@@ -149,6 +159,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Assault Pack (Oakleaf summer)";
+		picture="\fp_factions\gordon_reskins\assaultpack\data\icons\icon_assaultpack_oakleafsummer_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_oakleafsummer_co.paa"
@@ -158,6 +169,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Assault Pack (Oakleaf fall)";
+		picture="\fp_factions\gordon_reskins\assaultpack\data\icons\icon_assaultpack_oakleaffall_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_oakleaffall_co.paa"
@@ -167,6 +179,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Assault Pack (AUSCAM DPCU)";
+		picture="\fp_factions\gordon_reskins\assaultpack\data\icons\icon_assaultpack_auscampdcu_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_auscamdpcu_co.paa"
@@ -176,6 +189,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Assault Pack (AUSCAM DPDU)";
+		picture="\fp_factions\gordon_reskins\assaultpack\data\icons\icon_assaultpack_auscamdpdu_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_auscamdpdu_co.paa"
@@ -185,6 +199,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Assault Pack (SMK)";
+		picture="\fp_factions\gordon_reskins\assaultpack\data\icons\icon_assaultpack_smk_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_smk_co.paa"
@@ -194,6 +209,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Assault Pack (CROPAT)";
+		picture="\fp_factions\gordon_reskins\assaultpack\data\icons\icon_assaultpack_cropat_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_cropat_co.paa"
@@ -203,6 +219,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Assault Pack (CROPAT Desert)";
+		picture="\fp_factions\gordon_reskins\assaultpack\data\icons\icon_assaultpack_cropatdesert_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_cropatdesert_co.paa"
@@ -212,6 +229,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Assault Pack (British DPM)";
+		picture="\fp_factions\gordon_reskins\assaultpack\data\icons\icon_assaultpack_cs95dpm_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_cs95dpm_co.paa"
@@ -221,6 +239,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Assault Pack (Polish Pantera)";
+		picture="\fp_factions\gordon_reskins\assaultpack\data\icons\icon_assaultpack_pantera_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_pantera_co.paa"
@@ -230,6 +249,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Assault Pack (Polish Pantera (Desert))";
+		picture="\fp_factions\gordon_reskins\assaultpack\data\icons\icon_assaultpack_panteradesert_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_panteradesert_co.paa"
@@ -239,6 +259,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Assault Pack (Czech Vz95)";
+		picture="\fp_factions\gordon_reskins\assaultpack\data\icons\icon_assaultpack_vz95woodland_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_vz95woodland_co.paa"
@@ -248,6 +269,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Assault Pack (Czech Vz95 (Desert))";
+		picture="\fp_factions\gordon_reskins\assaultpack\data\icons\icon_assaultpack_vz95desert_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_vz95desert_co.paa"
@@ -257,6 +279,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Assault Pack (Flecktarn (Summer))";
+		picture="\fp_factions\gordon_reskins\assaultpack\data\icons\icon_assaultpack_flecktarnsummer_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_flecktarnsummer_co.paa"
@@ -266,6 +289,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Assault Pack (Flecktarn (Autumn))";
+		picture="\fp_factions\gordon_reskins\assaultpack\data\icons\icon_assaultpack_flecktarnautumn_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_flecktarnautumn_co.paa"
@@ -275,6 +299,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Assault Pack (Flecktarn (Desert))";
+		picture="\fp_factions\gordon_reskins\assaultpack\data\icons\icon_assaultpack_flecktarndesert_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_flecktarndesert_co.paa"
@@ -284,6 +309,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Assault Pack (Ukrainian MM-14)";
+		picture="\fp_factions\gordon_reskins\assaultpack\data\icons\icon_assaultpack_mm14_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_mm14_co.paa"
@@ -293,6 +319,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Assault Pack (Ukrainian MM-14 Woodland)";
+		picture="\fp_factions\gordon_reskins\assaultpack\data\icons\icon_assaultpack_mm14woodland_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_mm14woodland_co.paa"
@@ -302,6 +329,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Assault Pack (Project Honor)";
+		picture="\fp_factions\gordon_reskins\assaultpack\data\icons\icon_assaultpack_honor_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_honor_co.paa"
@@ -311,6 +339,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Assault Pack (Swedish M90)";
+		picture="\fp_factions\gordon_reskins\assaultpack\data\icons\icon_assaultpack_m90_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_m90_co.paa"
@@ -320,6 +349,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Assault Pack (Swedish M90K)";
+		picture="\fp_factions\gordon_reskins\assaultpack\data\icons\icon_assaultpack_m90k_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_m90k_co.paa"
@@ -329,6 +359,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Assault Pack (Swedish M90W)";
+		picture="\fp_factions\gordon_reskins\assaultpack\data\icons\icon_assaultpack_m90w_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_m90w_co.paa"
@@ -338,6 +369,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Assault Pack (British MTP)";
+		picture="\fp_factions\gordon_reskins\assaultpack\data\icons\icon_assaultpack_mtp_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_mtp_co.paa"
@@ -356,6 +388,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Assault Pack (CADPAT TW)";
+		picture="\fp_factions\gordon_reskins\assaultpack\data\icons\icon_assaultpack_cadpattw_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_cadpattw_co.paa"
@@ -365,6 +398,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Assault Pack (CADPAT MT)";
+		picture="\fp_factions\gordon_reskins\assaultpack\data\icons\icon_assaultpack_cadpatmt_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_cadpatmt_co.paa"
@@ -374,6 +408,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Assault Pack (CADPAT AR)";
+		picture="\fp_factions\gordon_reskins\assaultpack\data\icons\icon_assaultpack_cadpatar_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_cadpatar_co.paa"
