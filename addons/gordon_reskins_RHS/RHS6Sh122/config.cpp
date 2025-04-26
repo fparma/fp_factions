@@ -117,7 +117,25 @@ class CfgPatches
 			"FP_GOR_rhs_uniform_6sh122_tochkatochkaalt",
 			"FP_GOR_rhs_uniform_6sh122_gloves_tochkatochkaalt",
 			"FP_GOR_rhs_uniform_6sh122_tochkaalttochka",
-			"FP_GOR_rhs_uniform_6sh122_gloves_tochkaalttochka"
+			"FP_GOR_rhs_uniform_6sh122_gloves_tochkaalttochka",
+			"FP_GOR_rhs_uniform_6sh122_multicam",
+			"FP_GOR_rhs_uniform_6sh122_gloves_multicam",
+			"FP_GOR_rhs_uniform_6sh122_multicammulticamarid",
+			"FP_GOR_rhs_uniform_6sh122_gloves_multicammulticamarid",
+			"FP_GOR_rhs_uniform_6sh122_multicamarid",
+			"FP_GOR_rhs_uniform_6sh122_gloves_multicamarid",
+			"FP_GOR_rhs_uniform_6sh122_multicamaridmulticam",
+			"FP_GOR_rhs_uniform_6sh122_gloves_multicamaridmulticam",
+			"FP_GOR_rhs_uniform_6sh122_multicamjungle",
+			"FP_GOR_rhs_uniform_6sh122_gloves_multicamjungle",
+			"FP_GOR_rhs_uniform_6sh122_multicamjunglewoodland",
+			"FP_GOR_rhs_uniform_6sh122_gloves_multicamjunglewoodland",
+			"FP_GOR_rhs_uniform_6sh122_multicamblack",
+			"FP_GOR_rhs_uniform_6sh122_gloves_multicamblack",
+			"FP_GOR_rhs_uniform_6sh122_multicamwoodland",
+			"FP_GOR_rhs_uniform_6sh122_gloves_multicamwoodland",
+			"FP_GOR_rhs_uniform_6sh122_multicamwoodlandjungle",
+			"FP_GOR_rhs_uniform_6sh122_gloves_multicamwoodlandjungle"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -2540,6 +2558,386 @@ class CfgVehicles
 			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
 		};
 	}; 	
+	
+	
+	class FP_GOR_rhs_6sh122_multicam: rhs_6sh122_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_multicam";
+		displayName="6Sh122 (Multicam)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_RHS\rhs6sh122\data\122_vest_multicam_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\rhs6sh122\data\122_pant_multicam_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh122_gloves_multicam: rhs_6sh122_gloves_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_gloves_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_gloves_multicam";
+		displayName="6Sh122 (Multicam, gloves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_RHS\rhs6sh122\data\122_vest_multicam_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\rhs6sh122\data\122_pant_multicam_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	}; 	
+	class FP_GOR_rhs_6sh122_multicammulticamarid: rhs_6sh122_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_multicammulticamarid";
+		displayName="6Sh122 (Multicam/Arid)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_RHS\rhs6sh122\data\122_vest_multicam_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\rhs6sh122\data\122_pant_multicamarid_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh122_gloves_multicammulticamarid: rhs_6sh122_gloves_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_gloves_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_gloves_multicammulticamarid";
+		displayName="6Sh122 (Multicam/Arid, gloves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_RHS\rhs6sh122\data\122_vest_multicam_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\rhs6sh122\data\122_pant_multicamarid_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	}; 	
+	class FP_GOR_rhs_6sh122_multicamarid: rhs_6sh122_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_multicamarid";
+		displayName="6Sh122 (Multicam Arid)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_RHS\rhs6sh122\data\122_vest_multicamarid_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\rhs6sh122\data\122_pant_multicamarid_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh122_gloves_multicamarid: rhs_6sh122_gloves_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_gloves_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_gloves_multicamarid";
+		displayName="6Sh122 (Multicam Arid, gloves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_RHS\rhs6sh122\data\122_vest_multicamarid_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\rhs6sh122\data\122_pant_multicamarid_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	}; 	
+	class FP_GOR_rhs_6sh122_multicamaridmulticam: rhs_6sh122_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_multicamaridmulticam";
+		displayName="6Sh122 (Multicam Arid/Multicam)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_RHS\rhs6sh122\data\122_vest_multicamarid_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\rhs6sh122\data\122_pant_multicam_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh122_gloves_multicamaridmulticam: rhs_6sh122_gloves_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_gloves_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_gloves_multicamaridmulticam";
+		displayName="6Sh122 (Multicam Arid/Multicam, gloves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_RHS\rhs6sh122\data\122_vest_multicamarid_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\rhs6sh122\data\122_pant_multicam_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	}; 	
+	class FP_GOR_rhs_6sh122_multicamjungle: rhs_6sh122_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_multicamjungle";
+		displayName="6Sh122 (Multicam Jungle)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_RHS\rhs6sh122\data\122_vest_multicamjungle_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\rhs6sh122\data\122_pant_multicamjungle_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh122_gloves_multicamjungle: rhs_6sh122_gloves_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_gloves_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_gloves_multicamjungle";
+		displayName="6Sh122 (Multicam Jungle, gloves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_RHS\rhs6sh122\data\122_vest_multicamjungle_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\rhs6sh122\data\122_pant_multicamjungle_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	}; 	
+	class FP_GOR_rhs_6sh122_multicamjunglewoodland: rhs_6sh122_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_multicamjunglewoodland";
+		displayName="6Sh122 (Multicam Jungle/Woodland)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_RHS\rhs6sh122\data\122_vest_multicamjungle_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\rhs6sh122\data\122_pant_multicamwoodland_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh122_gloves_multicamjunglewoodland: rhs_6sh122_gloves_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_gloves_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_gloves_multicamjunglewoodland";
+		displayName="6Sh122 (Multicam Jungle/Woodland, gloves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_RHS\rhs6sh122\data\122_vest_multicamjungle_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\rhs6sh122\data\122_pant_multicamwoodland_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	}; 	
+	class FP_GOR_rhs_6sh122_multicamblack: rhs_6sh122_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_multicamblack";
+		displayName="6Sh122 (Multicam Black)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_RHS\rhs6sh122\data\122_vest_multicamblack_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\rhs6sh122\data\122_pant_multicamblack_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh122_gloves_multicamblack: rhs_6sh122_gloves_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_gloves_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_gloves_multicamblack";
+		displayName="6Sh122 (Multicam Black, gloves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_RHS\rhs6sh122\data\122_vest_multicamblack_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\rhs6sh122\data\122_pant_multicamblack_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	}; 	
+	class FP_GOR_rhs_6sh122_multicamwoodland: rhs_6sh122_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_multicamwoodland";
+		displayName="6Sh122 (Multicam Woodland)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_RHS\rhs6sh122\data\122_vest_multicamwoodland_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\rhs6sh122\data\122_pant_multicamwoodland_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh122_gloves_multicamwoodland: rhs_6sh122_gloves_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_gloves_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_gloves_multicamwoodland";
+		displayName="6Sh122 (Multicam Woodland, gloves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_RHS\rhs6sh122\data\122_vest_multicamwoodland_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\rhs6sh122\data\122_pant_multicamwoodland_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	}; 	
+	class FP_GOR_rhs_6sh122_multicamwoodlandjungle: rhs_6sh122_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_multicamwoodlandjungle";
+		displayName="6Sh122 (Multicam Woodland/Jungle)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_RHS\rhs6sh122\data\122_vest_multicamwoodland_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\rhs6sh122\data\122_pant_multicamjungle_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+	class FP_GOR_rhs_6sh122_gloves_multicamwoodlandjungle: rhs_6sh122_gloves_v1_base
+	{
+		author="Gordon Weedman";
+		_generalMacro="rhs_6sh122_gloves_v1_base";
+		scope=1;
+		uniformClass="FP_GOR_rhs_uniform_6sh122_gloves_multicamwoodlandjungle";
+		displayName="6Sh122 (Multicam Woodland/Jungle, gloves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_RHS\rhs6sh122\data\122_vest_multicamwoodland_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\rhs6sh122\data\122_pant_multicamjungle_co.paa",
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	}; 	
 };
 
 
@@ -4170,6 +4568,260 @@ class CfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="FP_GOR_rhs_6sh122_gloves_tochkatochkaalt";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	
+	
+	class FP_GOR_rhs_uniform_6sh122_multicam: rhs_uniform_6sh122_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Multicam)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_multicam_ca.paa";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_multicam";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_gloves_multicam: rhs_uniform_6sh122_gloves_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Multicam, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_multicamgloves_ca.paa";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_gloves_multicam";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_multicammulticamarid: rhs_uniform_6sh122_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Multicam/Arid)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_multicammulticamarid_ca.paa";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_multicammulticamarid";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_gloves_multicammulticamarid: rhs_uniform_6sh122_gloves_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Multicam/Arid, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_multicammulticamaridgloves_ca.paa";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_gloves_multicammulticamarid";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_multicamarid: rhs_uniform_6sh122_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Multicam Arid)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_multicamarid_ca.paa";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_multicamarid";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_gloves_multicamarid: rhs_uniform_6sh122_gloves_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Multicam Arid, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_multicamaridgloves_ca.paa";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_gloves_multicamarid";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_multicamaridmulticam: rhs_uniform_6sh122_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Multicam Arid/Multicam)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_multicamaridmulticam_ca.paa";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_multicamaridmulticam";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_gloves_multicamaridmulticam: rhs_uniform_6sh122_gloves_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Multicam Arid/Multicam, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_multicamaridmulticamgloves_ca.paa";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_gloves_multicamaridmulticam";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_multicamjungle: rhs_uniform_6sh122_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Multicam Jungle)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_multicamjungle_ca.paa";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_multicamjungle";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_gloves_multicamjungle: rhs_uniform_6sh122_gloves_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Multicam Jungle, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_multicamjunglegloves_ca.paa";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_gloves_multicamjungle";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_multicamjunglewoodland: rhs_uniform_6sh122_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Multicam Jungle/Woodland)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_multicamjunglewoodland_ca.paa";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_multicamjunglewoodland";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_gloves_multicamjunglewoodland: rhs_uniform_6sh122_gloves_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Multicam Jungle/Woodland, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_multicamjunglewoodlandgloves_ca.paa";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_gloves_multicamjunglewoodland";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_multicamblack: rhs_uniform_6sh122_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Multicam Black)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_multicamblack_ca.paa";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_multicamblack";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_gloves_multicamblack: rhs_uniform_6sh122_gloves_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Multicam Black, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_multicamblackgloves_ca.paa";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_gloves_multicamblack";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_multicamwoodland: rhs_uniform_6sh122_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Multicam Woodland)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_multicamwoodland_ca.paa";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_multicamwoodland";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_gloves_multicamwoodland: rhs_uniform_6sh122_gloves_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Multicam Woodland, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_multicamwoodlandgloves_ca.paa";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_gloves_multicamwoodland";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_multicamwoodlandjungle: rhs_uniform_6sh122_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Multicam Woodland/Jungle)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_multicamwoodlandjungle_ca.paa";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_multicamwoodlandjungle";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class FP_GOR_rhs_uniform_6sh122_gloves_multicamwoodlandjungle: rhs_uniform_6sh122_gloves_v1
+	{
+		scope=2;
+		displayName="6Sh122 (Multicam Woodland/Jungle, gloves)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6sh122\data\icons\icon_6sh122_multicamwoodlandjunglegloves_ca.paa";
+		author="Gordon Weedman";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_GOR_rhs_6sh122_gloves_multicamwoodlandjungle";
 			containerClass="Supply40";
 			mass=40;
 		};
