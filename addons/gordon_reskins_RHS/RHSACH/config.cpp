@@ -119,7 +119,12 @@ class CfgPatches
 			"FP_GOR_ach_helmet_cadpatar_rhino",
 			"FP_GOR_ach_helmet_cadpatar_rhino_ESS",
 			"FP_GOR_ach_helmet_cadpatar_rhino_headset",
-			"FP_GOR_ach_helmet_cadpatar_rhino_headset_ESS"
+			"FP_GOR_ach_helmet_cadpatar_rhino_headset_ESS",
+			"FP_GOR_ach_helmet_un",
+			"FP_GOR_ach_helmet_un_rhino",
+			"FP_GOR_ach_helmet_un_rhino_ESS",
+			"FP_GOR_ach_helmet_un_rhino_headset",
+			"FP_GOR_ach_helmet_un_rhino_headset_ESS"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -1494,6 +1499,65 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins_RHS\RHSACH\data\rhs_helmet_ach_cadpatar_co.paa",
+			"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa"
+		};
+	};
+	
+	class FP_GOR_ach_helmet_un: rhsusf_ach_helmet_ocp_alt
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="ACH (UN)";
+		picture="\fp_factions\gordon_reskins_rhs\rhsach\data\icons\icon_ach_un_ca.paa";
+		hiddenSelections[]={"camo"};
+		hiddenSelectionsTextures[]={"\FP_Factions\gordon_reskins_RHS\RHSACH\data\rhs_helmet_ach_un_co.paa"};
+	};
+	class FP_GOR_ach_helmet_un_rhino: rhsusf_ach_helmet_ocp_alt
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="ACH (UN, Rhino)";
+		picture="\fp_factions\gordon_reskins_rhs\rhsach\data\icons\icon_ach_unrhino_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_RHS\RHSACH\data\rhs_helmet_ach_un_co.paa",
+			"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa"
+		};
+	};
+	class FP_GOR_ach_helmet_un_rhino_ESS: rhsusf_ach_helmet_ESS_ocp_alt
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="ACH (UN, Rhino/ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhsach\data\icons\icon_ach_unrhinoess_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_RHS\RHSACH\data\rhs_helmet_ach_un_co.paa",
+			"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa"
+		};
+	};
+	
+	class FP_GOR_ach_helmet_un_rhino_headset: rhsusf_ach_helmet_headset_ocp_alt
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="ACH (UN, Rhino/headset)";
+		picture="\fp_factions\gordon_reskins_rhs\rhsach\data\icons\icon_ach_unrhinoheadset_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_RHS\RHSACH\data\rhs_helmet_ach_un_co.paa",
+			"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa"
+		};
+	};
+	class FP_GOR_ach_helmet_un_rhino_headset_ESS: rhsusf_ach_helmet_headset_ess_ocp_alt
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="ACH (UN, Rhino/headset/ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhsach\data\icons\icon_ach_unrhinoheadsetess_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_RHS\RHSACH\data\rhs_helmet_ach_un_co.paa",
 			"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa"
 		};
 	};
