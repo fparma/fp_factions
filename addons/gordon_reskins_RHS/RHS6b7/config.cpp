@@ -215,7 +215,12 @@ class CfgPatches
 			"FP_GOR_6b7_1m_bala1_atacsau",
 			"FP_GOR_6b7_1m_bala2_atacsau",
 			"FP_GOR_6b7_1m_ess_atacsau",
-			"FP_GOR_6b7_1m_ess_bala_atacsau"
+			"FP_GOR_6b7_1m_ess_bala_atacsau",
+			"FP_GOR_6b7_1m_un",
+			"FP_GOR_6b7_1m_bala1_un",
+			"FP_GOR_6b7_1m_bala2_un",
+			"FP_GOR_6b7_1m_ess_un",
+			"FP_GOR_6b7_1m_ess_bala_un"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -2947,6 +2952,70 @@ class CfgWeapons
 			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
 			"\FP_Factions\gordon_reskins_RHS\RHS6b7\data\6b7-1m_atacsau_co.paa",
 			"\FP_Factions\gordon_reskins_RHS\RHS6b7\data\bala2_desert_co.paa"
+		};
+	};
+	
+	class FP_GOR_6b7_1m_un: rhs_6b7_1m_emr
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (UN)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_un_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\RHS6b7\data\6b7-1m_un_co.paa"
+		};
+	};
+	class FP_GOR_6b7_1m_bala1_un: rhs_6b7_1m_bala1_emr
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (UN, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_un_bala1_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\RHS6b7\data\6b7-1m_un_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\RHS6b7\data\bala1_snow_co.paa"
+		};
+	};
+	class FP_GOR_6b7_1m_bala2_un: rhs_6b7_1m_bala2_emr
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (UN, Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_un_bala2_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\RHS6b7\data\6b7-1m_un_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\RHS6b7\data\bala2_snow_co.paa"
+		};
+	};
+	class FP_GOR_6b7_1m_ess_un: rhs_6b7_1m_emr_ess
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (UN, ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_un_ess_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\RHS6b7\data\6b7-1m_un_co.paa"
+		};
+	};
+	class FP_GOR_6b7_1m_ess_bala_un: rhs_6b7_1m_emr_ess_bala
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="6B7-1M (UN, ESS & Balaclava)";
+		picture="\fp_factions\gordon_reskins_rhs\rhs6b7\data\icons\icon_6b7_un_essbala_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"rhsafrf\addons\rhs_infantry2\gear\head\data\rhs_6b7-1m_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\RHS6b7\data\6b7-1m_un_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\RHS6b7\data\bala2_snow_co.paa"
 		};
 	};
 };
