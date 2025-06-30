@@ -1255,7 +1255,7 @@ class CfgVehicles
 		scope = 1;
 		class TransportMagazines
 		{
-			mag_xx(hlc_200rnd_556x45_M_SAW,2);
+			mag_xx(rhsusf_200Rnd_556x45_box,2);
 		};
 	};	
 	class FP_ROK_AssaultPack_woodland_medic: FP_GOR_assaultpack_woodland
@@ -1275,7 +1275,7 @@ class CfgVehicles
 			mag_xx(hlc_30Rnd_556x45_EPR_sg550,10);
 			mag_xx(hlc_20rnd_762x51_b_G3,4);
 			mag_xx(1Rnd_HE_Grenade_shell,6);
-			mag_xx(hlc_200rnd_556x45_M_SAW,1);
+			mag_xx(rhsusf_200Rnd_556x45_box,1);
 		};		
 	};
 	class FP_ROK_Carryall_woodland_AT: FP_GOR_tortila_woodland
@@ -1946,10 +1946,10 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Autorifleman";
-		weapons[] = {"hlc_lmg_minimi_railed","RH_p226","Throw","Put"};
-		respawnWeapons[] = {"hlc_lmg_minimi_railed","RH_p226","Throw","Put"};
-		magazines[] = {"hlc_200rnd_556x45_M_SAW","hlc_200rnd_556x45_M_SAW","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
-		respawnMagazines[] = {"hlc_200rnd_556x45_M_SAW","hlc_200rnd_556x45_M_SAW","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
+		weapons[] = {"rhs_weap_m249_pip_ris","RH_p226","Throw","Put"};
+		respawnWeapons[] = {"rhs_weap_m249_pip_ris","RH_p226","Throw","Put"};
+		magazines[] = {"rhsusf_200Rnd_556x45_box","rhsusf_200Rnd_556x45_box","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
+		respawnMagazines[] = {"rhsusf_200Rnd_556x45_box","rhsusf_200Rnd_556x45_box","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
 		cost = 95000;
 		threat[] = {1,0.1,0.3};
 		icon = "iconManMG";	
@@ -2050,8 +2050,8 @@ class CfgVehicles
 		displayName = "Machinegunner";
 		weapons[] = {"FP_rhs_weap_m240G_optic_arco_blk_F","RH_p226","Throw","Put"};
 		respawnWeapons[] = {"FP_rhs_weap_m240G_optic_arco_blk_F","RH_p226","Throw","Put"};
-		magazines[] = {"hlc_100Rnd_762x51_Barrier_M60E4","hlc_100Rnd_762x51_Barrier_M60E4","hlc_100Rnd_762x51_Barrier_M60E4","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
-		respawnMagazines[] = {"hlc_100Rnd_762x51_Barrier_M60E4","hlc_100Rnd_762x51_Barrier_M60E4","hlc_100Rnd_762x51_Barrier_M60E4","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
+		magazines[] = {"rhsusf_100Rnd_762x51","rhsusf_100Rnd_762x51","rhsusf_100Rnd_762x51","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
+		respawnMagazines[] = {"rhsusf_100Rnd_762x51","rhsusf_100Rnd_762x51","rhsusf_100Rnd_762x51","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
 		cost = 95000;
 		threat[] = {1,0.1,0.3};
 		icon = "iconManMG";	
@@ -2348,10 +2348,10 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Autorifleman";
-		weapons[] = {"hlc_lmg_minimi_railed","RH_p226","Throw","Put"};
-		respawnWeapons[] = {"hlc_lmg_minimi_railed","RH_p226","Throw","Put"};
-		magazines[] = {"hlc_200rnd_556x45_M_SAW","hlc_200rnd_556x45_M_SAW","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
-		respawnMagazines[] = {"hlc_200rnd_556x45_M_SAW","hlc_200rnd_556x45_M_SAW","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
+		weapons[] = {"rhs_weap_m249_pip_ris","RH_p226","Throw","Put"};
+		respawnWeapons[] = {"rhs_weap_m249_pip_ris","RH_p226","Throw","Put"};
+		magazines[] = {"rhsusf_200Rnd_556x45_box","rhsusf_200Rnd_556x45_box","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
+		respawnMagazines[] = {"rhsusf_200Rnd_556x45_box","rhsusf_200Rnd_556x45_box","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
 		cost = 95000;
 		threat[] = {1,0.1,0.3};
 		icon = "iconManMG";	
@@ -2470,8 +2470,8 @@ class CfgVehicles
 		displayName = "Machinegunner";
 		weapons[] = {"FP_rhs_weap_m240G_optic_arco_blk_F","RH_p226","Throw","Put"};
 		respawnWeapons[] = {"FP_rhs_weap_m240G_optic_arco_blk_F","RH_p226","Throw","Put"};
-		magazines[] = {"hlc_100Rnd_762x51_Barrier_M60E4","hlc_100Rnd_762x51_Barrier_M60E4","hlc_100Rnd_762x51_Barrier_M60E4","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
-		respawnMagazines[] = {"hlc_100Rnd_762x51_Barrier_M60E4","hlc_100Rnd_762x51_Barrier_M60E4","hlc_100Rnd_762x51_Barrier_M60E4","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
+		magazines[] = {"rhsusf_100Rnd_762x51","rhsusf_100Rnd_762x51","rhsusf_100Rnd_762x51","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
+		respawnMagazines[] = {"rhsusf_100Rnd_762x51","rhsusf_100Rnd_762x51","rhsusf_100Rnd_762x51","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","RH_15Rnd_9x19_SIG","HandGrenade","HandGrenade","SmokeShell","SmokeShellRed"};
 		cost = 95000;
 		threat[] = {1,0.1,0.3};
 		icon = "iconManMG";	
