@@ -1793,4 +1793,157 @@ class CfgVehicles
 			""
 		};
 	};
+	
+	class FP_GOR_og107_mk3_frogskinjungle_blench: simc_og107_mk3_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_frogskinjungle_blench";
+		displayName="OG-107 (US Frogskin (Jungle), untucked)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_frogskinjungle_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_frogskinjungle_trop_blench: simc_og107_mk3_trop_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_frogskinjungle_trop_blench";
+		displayName="OG-107 (US Frogskin (Jungle), untucked, sleeves)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_frogskinjungle_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_frogskinjungle_tuck_blench: simc_og107_mk3_tuck_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_frogskinjungle_tuck_blench";
+		displayName="OG-107 (US Frogskin (Jungle), tucked)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_frogskinjungle_co.paa",
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_frogskinjungle_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_frogskinjungle_tuck_trop_blench: simc_og107_mk3_tuck_trop_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_frogskinjungle_tuck_trop_blench";
+		displayName="OG-107 (US Frogskin (Jungle), tucked, sleeves)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_frogskinjungle_co.paa",
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_frogskinjungle_co.paa",
+			"",
+			""
+		};
+	};
+	
+	class FP_GOR_og107_mk3_frogskinjunglealt_blench: simc_og107_mk3_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_frogskinjunglealt_blench";
+		displayName="OG-107 (US Frogskin (Jungle (Alt.)), untucked)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_frogskinjunglealt_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_frogskinjunglealt_trop_blench: simc_og107_mk3_trop_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_frogskinjunglealt_trop_blench";
+		displayName="OG-107 (US Frogskin (Jungle (Alt.)), untucked, sleeves)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_frogskinjunglealt_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_frogskinjunglealt_tuck_blench: simc_og107_mk3_tuck_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_frogskinjunglealt_tuck_blench";
+		displayName="OG-107 (US Frogskin (Jungle (Alt.)), tucked)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_frogskinjunglealt_co.paa",
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_frogskinjunglealt_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_frogskinjunglealt_tuck_trop_blench: simc_og107_mk3_tuck_trop_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_frogskinjunglealt_tuck_trop_blench";
+		displayName="OG-107 (US Frogskin (Jungle (Alt.)), tucked, sleeves)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_frogskinjunglealt_co.paa",
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_frogskinjunglealt_co.paa",
+			"",
+			""
+		};
+	};
+	
+	class FP_GOR_og107_mk3_frogskinbeach_blench: simc_og107_mk3_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_frogskinbeach_blench";
+		displayName="OG-107 (US Frogskin (Beach), untucked)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_frogskinbeach_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_frogskinbeach_trop_blench: simc_og107_mk3_trop_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_frogskinbeach_trop_blench";
+		displayName="OG-107 (US Frogskin (Beach), untucked, sleeves)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_frogskinbeach_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_frogskinbeach_tuck_blench: simc_og107_mk3_tuck_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_frogskinbeach_tuck_blench";
+		displayName="OG-107 (US Frogskin (Beach), tucked)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_frogskinbeach_co.paa",
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_frogskinbeach_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_frogskinbeach_tuck_trop_blench: simc_og107_mk3_tuck_trop_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_frogskinbeach_tuck_trop_blench";
+		displayName="OG-107 (US Frogskin (Beach), tucked, sleeves)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_frogskinbeach_co.paa",
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_frogskinbeach_co.paa",
+			"",
+			""
+		};
+	};
 };

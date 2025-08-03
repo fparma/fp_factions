@@ -145,7 +145,19 @@ class CfgPatches
 			"FP_GOR_Uniform_og107_mk3_bwsplitter_blench",
 			"FP_GOR_Uniform_og107_mk3_bwsplitter_trop_blench",
 			"FP_GOR_Uniform_og107_mk3_bwsplitter_tuck_blench",
-			"FP_GOR_Uniform_og107_mk3_bwsplitter_tuck_trop_blench"
+			"FP_GOR_Uniform_og107_mk3_bwsplitter_tuck_trop_blench",
+			"FP_GOR_Uniform_og107_mk3_frogskinjungle_blench",
+			"FP_GOR_Uniform_og107_mk3_frogskinjungle_trop_blench",
+			"FP_GOR_Uniform_og107_mk3_frogskinjungle_tuck_blench",
+			"FP_GOR_Uniform_og107_mk3_frogskinjungle_tuck_trop_blench",
+			"FP_GOR_Uniform_og107_mk3_frogskinjunglealt_blench",
+			"FP_GOR_Uniform_og107_mk3_frogskinjunglealt_trop_blench",
+			"FP_GOR_Uniform_og107_mk3_frogskinjunglealt_tuck_blench",
+			"FP_GOR_Uniform_og107_mk3_frogskinjunglealt_tuck_trop_blench",
+			"FP_GOR_Uniform_og107_mk3_frogskinbeach_blench",
+			"FP_GOR_Uniform_og107_mk3_frogskinbeach_trop_blench",
+			"FP_GOR_Uniform_og107_mk3_frogskinbeach_tuck_blench",
+			"FP_GOR_Uniform_og107_mk3_frogskinbeach_tuck_trop_blench"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
