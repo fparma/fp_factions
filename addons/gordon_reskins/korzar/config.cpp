@@ -21,7 +21,11 @@ class CfgPatches
 			"FP_GOR_Korzar3_slivasteppe",
 			"FP_GOR_Korzar3_slivasteppe_B",
 			"FP_GOR_Korzar3_slivasteppe_P",
-			"FP_GOR_Korzar3_slivasteppe_R"
+			"FP_GOR_Korzar3_slivasteppe_R",
+			"FP_GOR_Korzar3_UN1",
+			"FP_GOR_Korzar3_UN1_B",
+			"FP_GOR_Korzar3_UN1_P",
+			"FP_GOR_Korzar3_UN1_R"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -259,6 +263,63 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\korzar\data\korzar3_slivasteppe_co.paa",
+			"\MSA_CDF_Korzar\data\pouch\camo\Olive\MSA_General_Pouch_co.paa",
+			"\MSA_CDF_Korzar\data\pouch\camo\Olive\MSA_Radio_Pouch_co.paa",
+			"\MSA_CDF_Korzar\data\bandolier\camo\Olive\MSA_UGL_Bandolier_co.paa"
+		};
+	};
+	
+	class FP_GOR_Korzar3_UN: FP_Korzar3_Olive
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="Korzar-3 (UN)";
+		picture="\fp_factions\gordon_reskins\korzar\data\icons\icon_korzar_UN_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\korzar\data\korzar3_UN_co.paa",
+			"\MSA_CDF_Korzar\data\pouch\camo\Olive\MSA_General_Pouch_co.paa",
+			"\MSA_CDF_Korzar\data\pouch\camo\Olive\MSA_Radio_Pouch_co.paa",
+			"\MSA_CDF_Korzar\data\bandolier\camo\Olive\MSA_UGL_Bandolier_co.paa"
+		};
+	};
+	class FP_GOR_Korzar3_UN_B: FP_Korzar3_Olive_B
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="Korzar-3 (UN, Bandolier)";
+		picture="\fp_factions\gordon_reskins\korzar\data\icons\icon_korzar_UN_b_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\korzar\data\korzar3_UN_co.paa",
+			"\MSA_CDF_Korzar\data\pouch\camo\Olive\MSA_General_Pouch_co.paa",
+			"\MSA_CDF_Korzar\data\pouch\camo\Olive\MSA_Radio_Pouch_co.paa",
+			"\MSA_CDF_Korzar\data\bandolier\camo\Olive\MSA_UGL_Bandolier_co.paa"
+		};
+	};
+	class FP_GOR_Korzar3_UN_P: FP_Korzar3_Olive_P
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="Korzar-3 (UN, Pouch)";
+		picture="\fp_factions\gordon_reskins\korzar\data\icons\icon_korzar_UN_p_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\korzar\data\korzar3_UN_co.paa",
+			"\MSA_CDF_Korzar\data\pouch\camo\Olive\MSA_General_Pouch_co.paa",
+			"\MSA_CDF_Korzar\data\pouch\camo\Olive\MSA_Radio_Pouch_co.paa",
+			"\MSA_CDF_Korzar\data\bandolier\camo\Olive\MSA_UGL_Bandolier_co.paa"
+		};
+	};
+	class FP_GOR_Korzar3_UN_R: FP_Korzar3_Olive_R
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="Korzar-3 (UN, Radio)";
+		picture="\fp_factions\gordon_reskins\korzar\data\icons\icon_korzar_UN_r_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\korzar\data\korzar3_UN_co.paa",
 			"\MSA_CDF_Korzar\data\pouch\camo\Olive\MSA_General_Pouch_co.paa",
 			"\MSA_CDF_Korzar\data\pouch\camo\Olive\MSA_Radio_Pouch_co.paa",
 			"\MSA_CDF_Korzar\data\bandolier\camo\Olive\MSA_UGL_Bandolier_co.paa"
