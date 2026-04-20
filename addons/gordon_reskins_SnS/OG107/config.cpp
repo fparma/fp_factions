@@ -157,7 +157,11 @@ class CfgPatches
 			"FP_GOR_Uniform_og107_mk3_frogskinbeach_blench",
 			"FP_GOR_Uniform_og107_mk3_frogskinbeach_trop_blench",
 			"FP_GOR_Uniform_og107_mk3_frogskinbeach_tuck_blench",
-			"FP_GOR_Uniform_og107_mk3_frogskinbeach_tuck_trop_blench"
+			"FP_GOR_Uniform_og107_mk3_frogskinbeach_tuck_trop_blench",
+			"FP_GOR_Uniform_og107_mk3_italianm1929_blench",
+			"FP_GOR_Uniform_og107_mk3_italianm1929_trop_blench",
+			"FP_GOR_Uniform_og107_mk3_italianm1929_tuck_blench",
+			"FP_GOR_Uniform_og107_mk3_italianm1929_tuck_trop_blench"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
