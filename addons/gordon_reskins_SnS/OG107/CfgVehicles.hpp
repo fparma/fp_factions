@@ -1946,4 +1946,55 @@ class CfgVehicles
 			""
 		};
 	};
+	
+	class FP_GOR_og107_mk3_italianm1929_blench: simc_og107_mk3_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_italianm1929_blench";
+		displayName="OG-107 (Italian M1929, untucked)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_italianm1929_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_italianm1929_trop_blench: simc_og107_mk3_trop_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_italianm1929_trop_blench";
+		displayName="OG-107 (Italian M1929, untucked, sleeves)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_italianm1929_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_italianm1929_tuck_blench: simc_og107_mk3_tuck_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_italianm1929_tuck_blench";
+		displayName="OG-107 (Italian M1929, tucked)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_italianm1929_co.paa",
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_italianm1929_co.paa",
+			"",
+			""
+		};
+	};
+	class FP_GOR_og107_mk3_italianm1929_tuck_trop_blench: simc_og107_mk3_tuck_trop_blench
+	{
+		author="Gordon Weedman";
+		uniformClass="FP_GOR_Uniform_og107_mk3_italianm1929_tuck_trop_blench";
+		displayName="OG-107 (Italian M1929, tucked, sleeves)";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_italianm1929_co.paa",
+			"\FP_Factions\gordon_reskins_SnS\OG107\data\og107_italianm1929_co.paa",
+			"",
+			""
+		};
+	};
 };

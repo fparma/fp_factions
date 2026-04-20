@@ -1601,7 +1601,7 @@ class CfgWeapons
 	{
 		scope=2;	
 		displayName="OG-107 (US Frogskin (Jungle), untucked)";
-		//picture="\z\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_frogskinjungle_ca.paa";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_frogskinjungle_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1612,7 +1612,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (US Frogskin (Jungle), untucked, sleeves)";
-		//picture="\z\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_frogskinjungletrop_ca.paa";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_frogskinjungletrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1623,7 +1623,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (US Frogskin (Jungle), tucked)";
-		//picture="\z\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_frogskinjungletuck_ca.paa";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_frogskinjungletuck_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1634,7 +1634,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (US Frogskin (Jungle), tucked, sleeves)";
-		//picture="\z\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_frogskinjungletucktrop_ca.paa";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_frogskinjungletucktrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1646,7 +1646,7 @@ class CfgWeapons
 	{
 		scope=2;	
 		displayName="OG-107 (US Frogskin (Jungle (Alt.)), untucked)";
-		//picture="\z\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_frogskinjunglealt_ca.paa";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_frogskinjunglealt_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1657,7 +1657,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (US Frogskin (Jungle (Alt.)), untucked, sleeves)";
-		//picture="\z\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_frogskinjunglealttrop_ca.paa";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_frogskinjunglealttrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1668,7 +1668,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (US Frogskin (Jungle (Alt.)), tucked)";
-		//picture="\z\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_frogskinjunglealttuck_ca.paa";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_frogskinjunglealttuck_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1679,7 +1679,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (US Frogskin (Jungle (Alt.)), tucked, sleeves)";
-		//picture="\z\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_frogskinjunglealttucktrop_ca.paa";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_frogskinjunglealttucktrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1691,7 +1691,7 @@ class CfgWeapons
 	{
 		scope=2;	
 		displayName="OG-107 (US Frogskin (Beach), untucked)";
-		//picture="\z\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_frogskinbeach_ca.paa";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_frogskinbeach_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1702,7 +1702,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (US Frogskin (Beach), untucked, sleeves)";
-		//picture="\z\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_frogskinbeachtrop_ca.paa";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_frogskinbeachtrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1713,7 +1713,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (US Frogskin (Beach), tucked)";
-		//picture="\z\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_frogskinbeachtuck_ca.paa";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_frogskinbeachtuck_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
@@ -1724,11 +1724,56 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="OG-107 (US Frogskin (Beach), tucked, sleeves)";
-		//picture="\z\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_frogskinbeachtucktrop_ca.paa";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_frogskinbeachtucktrop_ca.paa";
 		author="Gordon Weedman";
 		class ItemInfo: ItemInfo
 		{
 			uniformClass="FP_GOR_og107_mk3_frogskinbeach_tuck_trop_blench";
+		};
+	};
+	
+	class FP_GOR_Uniform_og107_mk3_italianm1929_blench: U_Simc_OG107_mk3_blench
+	{
+		scope=2;	
+		displayName="OG-107 (Italian M1929, untucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_italianm1929_ca.paa";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_italianm1929_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_italianm1929_trop_blench: U_Simc_OG107_mk3_trop_blench
+	{
+		scope=2;
+		displayName="OG-107 (Italian M1929, untucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_italianm1929trop_ca.paa";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_italianm1929_trop_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_italianm1929_tuck_blench: U_Simc_OG107_mk3_tuck_blench
+	{
+		scope=2;
+		displayName="OG-107 (Italian M1929, tucked)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_italianm1929tuck_ca.paa";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_italianm1929_tuck_blench";
+		};
+	};
+	class FP_GOR_Uniform_og107_mk3_italianm1929_tuck_trop_blench: U_Simc_OG107_mk3_tuck_trop_blench
+	{
+		scope=2;
+		displayName="OG-107 (Italian M1929, tucked, sleeves)";
+		picture="\fp_factions\gordon_reskins_sns\og107\data\icons\icon_og107_italianm1929tucktrop_ca.paa";
+		author="Gordon Weedman";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="FP_GOR_og107_mk3_italianm1929_tuck_trop_blench";
 		};
 	};
 };
