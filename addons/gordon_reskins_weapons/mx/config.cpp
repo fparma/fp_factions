@@ -69,6 +69,16 @@ class CfgPatches
 	};
 };
 
+class CfgAmmo
+{
+	class BulletBase;
+	class B_65x39_Caseless: BulletBase
+	{
+		hit = 11;
+		typicalSpeed = 760;
+	};
+};
+
 class CfgMagazines
 {
 	class CA_Magazine;
