@@ -19,7 +19,11 @@ class CfgPatches
 			"FP_GOR_bergen_civred",
 			"FP_GOR_bergen_civblue",
 			"FP_GOR_bergen_civblack",
-			"FP_GOR_bergen_civrealtree"
+			"FP_GOR_bergen_civrealtree",
+			"FP_GOR_bergen_emr",
+			"FP_GOR_bergen_flora",
+			"FP_GOR_bergen_atacsau",
+			"FP_GOR_bergen_atacsfg"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -223,6 +227,62 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\bergen\data\bergen_civrealtree_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\FP_Factions\gordon_reskins\bergen\data\bergen.rvmat"
+		};
+	};
+	class FP_GOR_bergen_emr: B_Bergen_tna_F
+	{
+		author="Gordon Weedman";
+		displayName="Bergen Backpack (EMR)";
+		picture="\fp_factions\gordon_reskins\bergen\data\icons\icon_bergen_emr_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\bergen\data\bergen_emr_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\FP_Factions\gordon_reskins\bergen\data\bergen.rvmat"
+		};
+	};
+	class FP_GOR_bergen_flora: B_Bergen_tna_F
+	{
+		author="Gordon Weedman";
+		displayName="Bergen Backpack (Flora)";
+		picture="\fp_factions\gordon_reskins\bergen\data\icons\icon_bergen_flora_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\bergen\data\bergen_flora_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\FP_Factions\gordon_reskins\bergen\data\bergen.rvmat"
+		};
+	};
+	class FP_GOR_bergen_atacsau: B_Bergen_tna_F
+	{
+		author="Gordon Weedman";
+		displayName="Bergen Backpack (ATACS Arid/Urban)";
+		picture="\fp_factions\gordon_reskins\bergen\data\icons\icon_bergen_atacsau_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\bergen\data\bergen_atacsau_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\FP_Factions\gordon_reskins\bergen\data\bergen.rvmat"
+		};
+	};
+	class FP_GOR_bergen_atacsfg: B_Bergen_tna_F
+	{
+		author="Gordon Weedman";
+		displayName="Bergen Backpack (ATACS Foliage/Green)";
+		picture="\fp_factions\gordon_reskins\bergen\data\icons\icon_bergen_atacsfg_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\bergen\data\bergen_atacsfg_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
