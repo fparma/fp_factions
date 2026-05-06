@@ -37,7 +37,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Bergen Backpack (Olive)";
-		picture="\z\fp_factions\gordon_reskins\bergen\data\icons\icon_bergen_olive_ca.paa";
+		picture="\fp_factions\gordon_reskins\bergen\data\icons\icon_bergen_olive_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\bergen\data\bergen_olive_co.paa"
@@ -51,7 +51,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Bergen Backpack (Tan)";
-		picture="\z\fp_factions\gordon_reskins\bergen\data\icons\icon_bergen_tan_ca.paa";
+		picture="\fp_factions\gordon_reskins\bergen\data\icons\icon_bergen_tan_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\bergen\data\bergen_tan_co.paa"
@@ -65,7 +65,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Bergen Backpack (Black)";
-		picture="\z\fp_factions\gordon_reskins\bergen\data\icons\icon_bergen_black_ca.paa";
+		picture="\fp_factions\gordon_reskins\bergen\data\icons\icon_bergen_black_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\bergen\data\bergen_black_co.paa"
@@ -79,7 +79,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Bergen Backpack (White)";
-		picture="\z\fp_factions\gordon_reskins\bergen\data\icons\icon_bergen_white_ca.paa";
+		picture="\fp_factions\gordon_reskins\bergen\data\icons\icon_bergen_white_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\bergen\data\bergen_white_co.paa"
@@ -93,7 +93,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Bergen Backpack (Coyote)";
-		picture="\z\fp_factions\gordon_reskins\bergen\data\icons\icon_bergen_coyote_ca.paa";
+		picture="\fp_factions\gordon_reskins\bergen\data\icons\icon_bergen_coyote_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\bergen\data\bergen_coyote_co.paa"
@@ -107,7 +107,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Bergen Backpack (M81 Woodland)";
-		picture="\z\fp_factions\gordon_reskins\bergen\data\icons\icon_bergen_woodland_ca.paa";
+		picture="\fp_factions\gordon_reskins\bergen\data\icons\icon_bergen_woodland_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\bergen\data\bergen_woodland_co.paa"
@@ -121,7 +121,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Bergen Backpack (British MTP)";
-		picture="\z\fp_factions\gordon_reskins\bergen\data\icons\icon_bergen_mtp_ca.paa";
+		picture="\fp_factions\gordon_reskins\bergen\data\icons\icon_bergen_mtp_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\bergen\data\bergen_mtp_co.paa"
@@ -135,7 +135,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Bergen Backpack (British DPM)";
-		picture="\z\fp_factions\gordon_reskins\bergen\data\icons\icon_bergen_cs95dpm_ca.paa";
+		picture="\fp_factions\gordon_reskins\bergen\data\icons\icon_bergen_cs95dpm_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\bergen\data\bergen_cs95dpm_co.paa"
@@ -149,7 +149,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Bergen Backpack (British DDPM)";
-		picture="\z\fp_factions\gordon_reskins\bergen\data\icons\icon_bergen_cs95ddpm_ca.paa";
+		picture="\fp_factions\gordon_reskins\bergen\data\icons\icon_bergen_cs95ddpm_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\bergen\data\bergen_cs95ddpm_co.paa"
@@ -163,7 +163,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Bergen Backpack (Civilian (Orange))";
-		picture="\z\fp_factions\gordon_reskins\bergen\data\icons\icon_bergen_civorange_ca.paa";
+		picture="\fp_factions\gordon_reskins\bergen\data\icons\icon_bergen_civorange_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\bergen\data\bergen_civorange_co.paa"
@@ -177,7 +177,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Bergen Backpack (Civilian (Red))";
-		picture="\z\fp_factions\gordon_reskins\bergen\data\icons\icon_bergen_civred_ca.paa";
+		picture="\fp_factions\gordon_reskins\bergen\data\icons\icon_bergen_civred_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\bergen\data\bergen_civred_co.paa"
@@ -191,7 +191,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Bergen Backpack (Civilian (Blue))";
-		picture="\z\fp_factions\gordon_reskins\bergen\data\icons\icon_bergen_civblue_ca.paa";
+		picture="\fp_factions\gordon_reskins\bergen\data\icons\icon_bergen_civblue_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\bergen\data\bergen_civblue_co.paa"
@@ -205,7 +205,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Bergen Backpack (Civilian (Black))";
-		picture="\z\fp_factions\gordon_reskins\bergen\data\icons\icon_bergen_civblack_ca.paa";
+		picture="\fp_factions\gordon_reskins\bergen\data\icons\icon_bergen_civblack_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\bergen\data\bergen_civblack_co.paa"
@@ -219,7 +219,7 @@ class CfgVehicles
 	{
 		author="Gordon Weedman";
 		displayName="Bergen Backpack (Civilian (Realtree))";
-		picture="\z\fp_factions\gordon_reskins\bergen\data\icons\icon_bergen_civrealtree_ca.paa";
+		picture="\fp_factions\gordon_reskins\bergen\data\icons\icon_bergen_civrealtree_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\bergen\data\bergen_civrealtree_co.paa"
