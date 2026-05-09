@@ -23,7 +23,10 @@ class CfgPatches
 			"FP_GOR_bergen_emr",
 			"FP_GOR_bergen_flora",
 			"FP_GOR_bergen_atacsau",
-			"FP_GOR_bergen_atacsfg"
+			"FP_GOR_bergen_atacsfg",
+			"FP_GOR_bergen_sully",
+			"FP_GOR_bergen_vz95woodland",
+			"FP_GOR_bergen_vz95desert"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -283,6 +286,48 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\bergen\data\bergen_atacsfg_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\FP_Factions\gordon_reskins\bergen\data\bergen.rvmat"
+		};
+	};
+	class FP_GOR_bergen_sully: B_Bergen_tna_F
+	{
+		author="Gordon Weedman";
+		displayName="Bergen Backpack (Sully)";
+		picture="\fp_factions\gordon_reskins\bergen\data\icons\icon_bergen_sully_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\bergen\data\bergen_sully_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\FP_Factions\gordon_reskins\bergen\data\bergen.rvmat"
+		};
+	};
+	class FP_GOR_bergen_vz95woodland: B_Bergen_tna_F
+	{
+		author="Gordon Weedman";
+		displayName="Bergen Backpack (Czech Vz95)";
+		picture="\fp_factions\gordon_reskins\bergen\data\icons\icon_bergen_vz95woodland_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\bergen\data\bergen_vz95woodland_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\FP_Factions\gordon_reskins\bergen\data\bergen.rvmat"
+		};
+	};
+	class FP_GOR_bergen_vz95desert: B_Bergen_tna_F
+	{
+		author="Gordon Weedman";
+		displayName="Bergen Backpack (Czech Vz95 (Desert))";
+		picture="\fp_factions\gordon_reskins\bergen\data\icons\icon_bergen_vz95desert_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\bergen\data\bergen_vz95desert_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
