@@ -3,8 +3,7 @@ class CfgPatches
 	class gordon_reskins_bergen
 	{
 		// List of units defined in this "PBO"
-		units[]={};
-		weapons[]=
+		units[]=
 		{
 			"FP_GOR_bergen_olive",
 			"FP_GOR_bergen_tan",
@@ -26,8 +25,13 @@ class CfgPatches
 			"FP_GOR_bergen_atacsfg",
 			"FP_GOR_bergen_sully",
 			"FP_GOR_bergen_vz95woodland",
-			"FP_GOR_bergen_vz95desert"
+			"FP_GOR_bergen_vz95desert",
+			"FP_GOR_bergen_norwegianm98",
+			"FP_GOR_bergen_norwegianm03",
+			"FP_GOR_bergen_norwegianm23woodland",
+			"FP_GOR_bergen_norwegianm23desert"
 		};
+		weapons[]={};
 		requiredVersion=0.1;
 		requiredAddons[]=
 		{
@@ -306,6 +310,7 @@ class CfgVehicles
 			"\FP_Factions\gordon_reskins\bergen\data\bergen.rvmat"
 		};
 	};
+	
 	class FP_GOR_bergen_vz95woodland: B_Bergen_tna_F
 	{
 		author="Gordon Weedman";
@@ -328,6 +333,63 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\bergen\data\bergen_vz95desert_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\FP_Factions\gordon_reskins\bergen\data\bergen.rvmat"
+		};
+	};
+	
+	class FP_GOR_bergen_norwegianm98: B_Bergen_tna_F
+	{
+		author="Gordon Weedman";
+		displayName="Bergen Backpack (Norwegian M/98)";
+		picture="\fp_factions\gordon_reskins\bergen\data\icons\icon_bergen_norwegianm98_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\bergen\data\bergen_norwegianm98_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\FP_Factions\gordon_reskins\bergen\data\bergen.rvmat"
+		};
+	};
+	class FP_GOR_bergen_norwegianm03: B_Bergen_tna_F
+	{
+		author="Gordon Weedman";
+		displayName="Bergen Backpack (Norwegian M/03)";
+		picture="\fp_factions\gordon_reskins\bergen\data\icons\icon_bergen_norwegianm03_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\bergen\data\bergen_norwegianm03_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\FP_Factions\gordon_reskins\bergen\data\bergen.rvmat"
+		};
+	};
+	class FP_GOR_bergen_norwegianm23woodland: B_Bergen_tna_F
+	{
+		author="Gordon Weedman";
+		displayName="Bergen Backpack (Norwegian M/23 (Woodland))";
+		picture="\fp_factions\gordon_reskins\bergen\data\icons\icon_bergen_norwegianm23woodland_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\bergen\data\bergen_norwegianm23woodland_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\FP_Factions\gordon_reskins\bergen\data\bergen.rvmat"
+		};
+	};
+	class FP_GOR_bergen_norwegianm23desert: B_Bergen_tna_F
+	{
+		author="Gordon Weedman";
+		displayName="Bergen Backpack (Norwegian M/23 (Desert))";
+		picture="\fp_factions\gordon_reskins\bergen\data\icons\icon_bergen_norwegianm23desert_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\bergen\data\bergen_norwegianm23desert_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
