@@ -3,8 +3,7 @@ class CfgPatches
 	class gordon_reskins_assaultpack
 	{
 		// List of units defined in this "PBO"
-		units[]={};
-		weapons[]=
+		units[]=
 		{
 			"FP_GOR_assaultpack_woodland",
 			"FP_GOR_assaultpack_stripeyarid",
@@ -41,8 +40,13 @@ class CfgPatches
 			"FP_GOR_assaultpack_inv",
 			"FP_GOR_assaultpack_cadpattw",
 			"FP_GOR_assaultpack_cadpatmt",
-			"FP_GOR_assaultpack_cadpatar"
+			"FP_GOR_assaultpack_cadpatar",
+			"FP_GOR_assaultpack_norwegianm98",
+			"FP_GOR_assaultpack_norwegianm03",
+			"FP_GOR_assaultpack_norwegianm23woodland",
+			"FP_GOR_assaultpack_norwegianm23desert"
 		};
+		weapons[]={};
 		requiredVersion=0.1;
 		requiredAddons[]=
 		{
@@ -412,6 +416,47 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_cadpatar_co.paa"
+		};
+	};
+	
+	class FP_GOR_assaultpack_norwegianm98: B_AssaultPack_rgr
+	{
+		author="Gordon Weedman";
+		displayName="Assault Pack (Norwegian M/98)";
+		picture="\fp_factions\gordon_reskins\assaultpack\data\icons\icon_assaultpack_norwegianm98_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_norwegianm98_co.paa"
+		};
+	};
+	class FP_GOR_assaultpack_norwegianm03: B_AssaultPack_rgr
+	{
+		author="Gordon Weedman";
+		displayName="Assault Pack (Norwegian M/03)";
+		picture="\fp_factions\gordon_reskins\assaultpack\data\icons\icon_assaultpack_norwegianm03_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_norwegianm03_co.paa"
+		};
+	};
+	class FP_GOR_assaultpack_norwegianm23woodland: B_AssaultPack_rgr
+	{
+		author="Gordon Weedman";
+		displayName="Assault Pack (Norwegian M/23 (Woodland))";
+		picture="\fp_factions\gordon_reskins\assaultpack\data\icons\icon_assaultpack_norwegianm23woodland_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_norwegianm23woodland_co.paa"
+		};
+	};
+	class FP_GOR_assaultpack_norwegianm23desert: B_AssaultPack_rgr
+	{
+		author="Gordon Weedman";
+		displayName="Assault Pack (Norwegian M/23 (Desert))";
+		picture="\fp_factions\gordon_reskins\assaultpack\data\icons\icon_assaultpack_norwegianm23desert_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\assaultpack\data\assaultpack_norwegianm23desert_co.paa"
 		};
 	};
 }; 

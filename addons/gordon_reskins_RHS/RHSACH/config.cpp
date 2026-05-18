@@ -124,7 +124,27 @@ class CfgPatches
 			"FP_GOR_ach_helmet_un_rhino",
 			"FP_GOR_ach_helmet_un_rhino_ESS",
 			"FP_GOR_ach_helmet_un_rhino_headset",
-			"FP_GOR_ach_helmet_un_rhino_headset_ESS"
+			"FP_GOR_ach_helmet_un_rhino_headset_ESS",
+			"FP_GOR_ach_helmet_norwegianm98",
+			"FP_GOR_ach_helmet_norwegianm98_rhino",
+			"FP_GOR_ach_helmet_norwegianm98_rhino_ESS",
+			"FP_GOR_ach_helmet_norwegianm98_rhino_headset",
+			"FP_GOR_ach_helmet_norwegianm98_rhino_headset_ESS",
+			"FP_GOR_ach_helmet_norwegianm03",
+			"FP_GOR_ach_helmet_norwegianm03_rhino",
+			"FP_GOR_ach_helmet_norwegianm03_rhino_ESS",
+			"FP_GOR_ach_helmet_norwegianm03_rhino_headset",
+			"FP_GOR_ach_helmet_norwegianm03_rhino_headset_ESS",
+			"FP_GOR_ach_helmet_norwegianm23woodland",
+			"FP_GOR_ach_helmet_norwegianm23woodland_rhino",
+			"FP_GOR_ach_helmet_norwegianm23woodland_rhino_ESS",
+			"FP_GOR_ach_helmet_norwegianm23woodland_rhino_headset",
+			"FP_GOR_ach_helmet_norwegianm23woodland_rhino_headset_ESS",
+			"FP_GOR_ach_helmet_norwegianm23desert",
+			"FP_GOR_ach_helmet_norwegianm23desert_rhino",
+			"FP_GOR_ach_helmet_norwegianm23desert_rhino_ESS",
+			"FP_GOR_ach_helmet_norwegianm23desert_rhino_headset",
+			"FP_GOR_ach_helmet_norwegianm23desert_rhino_headset_ESS"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -1536,7 +1556,6 @@ class CfgWeapons
 			"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa"
 		};
 	};
-	
 	class FP_GOR_ach_helmet_un_rhino_headset: rhsusf_ach_helmet_headset_ocp_alt
 	{
 		author="Gordon Weedman";
@@ -1558,6 +1577,238 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins_RHS\RHSACH\data\rhs_helmet_ach_un_co.paa",
+			"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa"
+		};
+	};
+	
+	class FP_GOR_ach_helmet_norwegianm98: rhsusf_ach_helmet_ocp_alt
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="ACH (Norwegian M/98)";
+		picture="\fp_factions\gordon_reskins_rhs\rhsach\data\icons\icon_ach_norwegianm98_ca.paa";
+		hiddenSelections[]={"camo"};
+		hiddenSelectionsTextures[]={"\FP_Factions\gordon_reskins_RHS\RHSACH\data\rhs_helmet_ach_norwegianm98_co.paa"};
+	};
+	class FP_GOR_ach_helmet_norwegianm98_rhino: rhsusf_ach_helmet_ocp_alt
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="ACH (Norwegian M/98, Rhino)";
+		picture="\fp_factions\gordon_reskins_rhs\rhsach\data\icons\icon_ach_norwegianm98rhino_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_RHS\RHSACH\data\rhs_helmet_ach_norwegianm98_co.paa",
+			"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa"
+		};
+	};
+	class FP_GOR_ach_helmet_norwegianm98_rhino_ESS: rhsusf_ach_helmet_ESS_ocp_alt
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="ACH (Norwegian M/98, Rhino/ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhsach\data\icons\icon_ach_norwegianm98rhinoess_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_RHS\RHSACH\data\rhs_helmet_ach_norwegianm98_co.paa",
+			"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa"
+		};
+	};
+	class FP_GOR_ach_helmet_norwegianm98_rhino_headset: rhsusf_ach_helmet_headset_ocp_alt
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="ACH (Norwegian M/98, Rhino/headset)";
+		picture="\fp_factions\gordon_reskins_rhs\rhsach\data\icons\icon_ach_norwegianm98rhinoheadset_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_RHS\RHSACH\data\rhs_helmet_ach_norwegianm98_co.paa",
+			"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa"
+		};
+	};
+	class FP_GOR_ach_helmet_norwegianm98_rhino_headset_ESS: rhsusf_ach_helmet_headset_ess_ocp_alt
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="ACH (Norwegian M/98, Rhino/headset/ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhsach\data\icons\icon_ach_norwegianm98rhinoheadsetess_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_RHS\RHSACH\data\rhs_helmet_ach_norwegianm98_co.paa",
+			"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa"
+		};
+	};
+	
+	class FP_GOR_ach_helmet_norwegianm03: rhsusf_ach_helmet_ocp_alt
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="ACH (Norwegian M/03)";
+		picture="\fp_factions\gordon_reskins_rhs\rhsach\data\icons\icon_ach_norwegianm03_ca.paa";
+		hiddenSelections[]={"camo"};
+		hiddenSelectionsTextures[]={"\FP_Factions\gordon_reskins_RHS\RHSACH\data\rhs_helmet_ach_norwegianm03_co.paa"};
+	};
+	class FP_GOR_ach_helmet_norwegianm03_rhino: rhsusf_ach_helmet_ocp_alt
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="ACH (Norwegian M/03, Rhino)";
+		picture="\fp_factions\gordon_reskins_rhs\rhsach\data\icons\icon_ach_norwegianm03rhino_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_RHS\RHSACH\data\rhs_helmet_ach_norwegianm03_co.paa",
+			"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa"
+		};
+	};
+	class FP_GOR_ach_helmet_norwegianm03_rhino_ESS: rhsusf_ach_helmet_ESS_ocp_alt
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="ACH (Norwegian M/03, Rhino/ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhsach\data\icons\icon_ach_norwegianm03rhinoess_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_RHS\RHSACH\data\rhs_helmet_ach_norwegianm03_co.paa",
+			"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa"
+		};
+	};
+	class FP_GOR_ach_helmet_norwegianm03_rhino_headset: rhsusf_ach_helmet_headset_ocp_alt
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="ACH (Norwegian M/03, Rhino/headset)";
+		picture="\fp_factions\gordon_reskins_rhs\rhsach\data\icons\icon_ach_norwegianm03rhinoheadset_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_RHS\RHSACH\data\rhs_helmet_ach_norwegianm03_co.paa",
+			"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa"
+		};
+	};
+	class FP_GOR_ach_helmet_norwegianm03_rhino_headset_ESS: rhsusf_ach_helmet_headset_ess_ocp_alt
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="ACH (Norwegian M/03, Rhino/headset/ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhsach\data\icons\icon_ach_norwegianm03rhinoheadsetess_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_RHS\RHSACH\data\rhs_helmet_ach_norwegianm03_co.paa",
+			"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa"
+		};
+	};
+	
+	class FP_GOR_ach_helmet_norwegianm23woodland: rhsusf_ach_helmet_ocp_alt
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="ACH (Norwegian M/23 (Woodland))";
+		picture="\fp_factions\gordon_reskins_rhs\rhsach\data\icons\icon_ach_norwegianm23woodland_ca.paa";
+		hiddenSelections[]={"camo"};
+		hiddenSelectionsTextures[]={"\FP_Factions\gordon_reskins_RHS\RHSACH\data\rhs_helmet_ach_norwegianm23woodland_co.paa"};
+	};
+	class FP_GOR_ach_helmet_norwegianm23woodland_rhino: rhsusf_ach_helmet_ocp_alt
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="ACH (Norwegian M/23 (Woodland), Rhino)";
+		picture="\fp_factions\gordon_reskins_rhs\rhsach\data\icons\icon_ach_norwegianm23woodlandrhino_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_RHS\RHSACH\data\rhs_helmet_ach_norwegianm23woodland_co.paa",
+			"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa"
+		};
+	};
+	class FP_GOR_ach_helmet_norwegianm23woodland_rhino_ESS: rhsusf_ach_helmet_ESS_ocp_alt
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="ACH (Norwegian M/23 (Woodland), Rhino/ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhsach\data\icons\icon_ach_norwegianm23woodlandrhinoess_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_RHS\RHSACH\data\rhs_helmet_ach_norwegianm23woodland_co.paa",
+			"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa"
+		};
+	};
+	class FP_GOR_ach_helmet_norwegianm23woodland_rhino_headset: rhsusf_ach_helmet_headset_ocp_alt
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="ACH (Norwegian M/23 (Woodland), Rhino/headset)";
+		picture="\fp_factions\gordon_reskins_rhs\rhsach\data\icons\icon_ach_norwegianm23woodlandrhinoheadset_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_RHS\RHSACH\data\rhs_helmet_ach_norwegianm23woodland_co.paa",
+			"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa"
+		};
+	};
+	class FP_GOR_ach_helmet_norwegianm23woodland_rhino_headset_ESS: rhsusf_ach_helmet_headset_ess_ocp_alt
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="ACH (Norwegian M/23 (Woodland), Rhino/headset/ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhsach\data\icons\icon_ach_norwegianm23woodlandrhinoheadsetess_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_RHS\RHSACH\data\rhs_helmet_ach_norwegianm23woodland_co.paa",
+			"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa"
+		};
+	};
+	
+	class FP_GOR_ach_helmet_norwegianm23desert: rhsusf_ach_helmet_ocp_alt
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="ACH (Norwegian M/23 (Desert))";
+		picture="\fp_factions\gordon_reskins_rhs\rhsach\data\icons\icon_ach_norwegianm23desert_ca.paa";
+		hiddenSelections[]={"camo"};
+		hiddenSelectionsTextures[]={"\FP_Factions\gordon_reskins_RHS\RHSACH\data\rhs_helmet_ach_norwegianm23desert_co.paa"};
+	};
+	class FP_GOR_ach_helmet_norwegianm23desert_rhino: rhsusf_ach_helmet_ocp_alt
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="ACH (Norwegian M/23 (Desert), Rhino)";
+		picture="\fp_factions\gordon_reskins_rhs\rhsach\data\icons\icon_ach_norwegianm23desertrhino_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_RHS\RHSACH\data\rhs_helmet_ach_norwegianm23desert_co.paa",
+			"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa"
+		};
+	};
+	class FP_GOR_ach_helmet_norwegianm23desert_rhino_ESS: rhsusf_ach_helmet_ESS_ocp_alt
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="ACH (Norwegian M/23 (Desert), Rhino/ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhsach\data\icons\icon_ach_norwegianm23desertrhinoess_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_RHS\RHSACH\data\rhs_helmet_ach_norwegianm23desert_co.paa",
+			"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa"
+		};
+	};
+	class FP_GOR_ach_helmet_norwegianm23desert_rhino_headset: rhsusf_ach_helmet_headset_ocp_alt
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="ACH (Norwegian M/23 (Desert), Rhino/headset)";
+		picture="\fp_factions\gordon_reskins_rhs\rhsach\data\icons\icon_ach_norwegianm23desertrhinoheadset_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_RHS\RHSACH\data\rhs_helmet_ach_norwegianm23desert_co.paa",
+			"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa"
+		};
+	};
+	class FP_GOR_ach_helmet_norwegianm23desert_rhino_headset_ESS: rhsusf_ach_helmet_headset_ess_ocp_alt
+	{
+		author="Gordon Weedman";
+		scope=2;
+		displayName="ACH (Norwegian M/23 (Desert), Rhino/headset/ESS)";
+		picture="\fp_factions\gordon_reskins_rhs\rhsach\data\icons\icon_ach_norwegianm23desertrhinoheadsetess_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins_RHS\RHSACH\data\rhs_helmet_ach_norwegianm23desert_co.paa",
 			"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa"
 		};
 	};

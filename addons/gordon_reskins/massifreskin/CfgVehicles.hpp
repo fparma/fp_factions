@@ -6423,4 +6423,268 @@ class CfgVehicles
 			"\FP_Factions\gordon_reskins\massifreskin\data\massifcadpatar_co.paa"
 		};
 	};
+	
+	class FP_GOR_Massif_norwegianm98: I_soldier_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_norwegianm98";
+		displayName="Massif (Norwegian M/98)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifnorwegianm98_co.paa"
+		};
+	};
+	class FP_GOR_Massif_02_norwegianm98: I_Soldier_02_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_02_norwegianm98";
+		displayName="Massif (Norwegian M/98, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifnorwegianm98_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_norwegianm98: I_E_Uniform_01_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_norwegianm98";
+		displayName="Massif (Norwegian M/98, jacket)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketnorwegianm98_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifnorwegianm98_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\olivegloves_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_02_norwegianm98: I_E_Uniform_01_shortsleeve_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_02_norwegianm98";
+		displayName="Massif (Norwegian M/98, jacket, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketnorwegianm98_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifnorwegianm98_co.paa"
+		};
+	};
+	
+	class FP_GOR_Massif_norwegianm03: I_soldier_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_norwegianm03";
+		displayName="Massif (Norwegian M/03)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifnorwegianm03_co.paa"
+		};
+	};
+	class FP_GOR_Massif_02_norwegianm03: I_Soldier_02_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_02_norwegianm03";
+		displayName="Massif (Norwegian M/03, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifnorwegianm03_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_norwegianm03: I_E_Uniform_01_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_norwegianm03";
+		displayName="Massif (Norwegian M/03, jacket)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketnorwegianm03_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifnorwegianm03_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\coyotegloves_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_02_norwegianm03: I_E_Uniform_01_shortsleeve_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_02_norwegianm03";
+		displayName="Massif (Norwegian M/03, jacket, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketnorwegianm03_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifnorwegianm03_co.paa"
+		};
+	};
+	
+	class FP_GOR_Massif_norwegianm23woodland: I_soldier_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_norwegianm23woodland";
+		displayName="Massif (Norwegian M/23 (Woodland))";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifnorwegianm23woodland_co.paa"
+		};
+	};
+	class FP_GOR_Massif_02_norwegianm23woodland: I_Soldier_02_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_02_norwegianm23woodland";
+		displayName="Massif (Norwegian M/23 (Woodland), sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifnorwegianm23woodland_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_norwegianm23woodland: I_E_Uniform_01_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_norwegianm23woodland";
+		displayName="Massif (Norwegian M/23 (Woodland), jacket)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketnorwegianm23woodland_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifnorwegianm23woodland_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\olivegloves_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_02_norwegianm23woodland: I_E_Uniform_01_shortsleeve_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_02_norwegianm23woodland";
+		displayName="Massif (Norwegian M/23 (Woodland), jacket, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketnorwegianm23woodland_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifnorwegianm23woodland_co.paa"
+		};
+	};
+	
+	class FP_GOR_Massif_norwegianm23desert: I_soldier_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_norwegianm23desert";
+		displayName="Massif (Norwegian M/23 (Desert))";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifnorwegianm23desert_co.paa"
+		};
+	};
+	class FP_GOR_Massif_02_norwegianm23desert: I_Soldier_02_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_Soldier_02_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massif_02_norwegianm23desert";
+		displayName="Massif (Norwegian M/23 (Desert), sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifnorwegianm23desert_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_norwegianm23desert: I_E_Uniform_01_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_norwegianm23desert";
+		displayName="Massif (Norwegian M/23 (Desert), jacket)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketnorwegianm23desert_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifnorwegianm23desert_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\coyotegloves_co.paa"
+		};
+	};
+	class FP_GOR_Massifjacket_02_norwegianm23desert: I_E_Uniform_01_shortsleeve_F
+	{
+		author="Gordon Weedman";
+		_generalMacro="I_E_Uniform_01_shortsleeve_F";
+		scope=1;
+		uniformClass="FP_GOR_Uniform_Massifjacket_02_norwegianm23desert";
+		displayName="Massif (Norwegian M/23 (Desert), jacket, sleeves)";
+		nakedUniform="U_BasicBody";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\massifreskin\data\jacketnorwegianm23desert_co.paa",
+			"\FP_Factions\gordon_reskins\massifreskin\data\massifnorwegianm23desert_co.paa"
+		};
+	};
 };

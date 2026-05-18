@@ -3,8 +3,7 @@ class CfgPatches
 	class gordon_reskins_fastpack
 	{
 		// List of units defined in this "PBO"
-		units[]={};
-		weapons[]=
+		units[]=
 		{
 			"FP_GOR_fastpack_woodland",
 			"FP_GOR_fastpack_stripeyarid",
@@ -40,8 +39,13 @@ class CfgPatches
 			"FP_GOR_fastpack_inv",
 			"FP_GOR_fastpack_cadpattw",
 			"FP_GOR_fastpack_cadpatmt",
-			"FP_GOR_fastpack_cadpatar"
+			"FP_GOR_fastpack_cadpatar",
+			"FP_GOR_fastpack_norwegianm98",
+			"FP_GOR_fastpack_norwegianm03",
+			"FP_GOR_fastpack_norwegianm23woodland",
+			"FP_GOR_fastpack_norwegianm23desert"
 		};
+		weapons[]={};
 		requiredVersion=0.1;
 		requiredAddons[]=
 		{
@@ -400,6 +404,47 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\FP_Factions\gordon_reskins\fastpack\data\fastpack_cadpatar_co.paa"
+		};
+	};
+	
+	class FP_GOR_fastpack_norwegianm98: B_Kitbag_rgr
+	{
+		author="Gordon Weedman";
+		displayName="Kitbag (Norwegian M/98)";
+		picture="\fp_factions\gordon_reskins\fastpack\data\icons\icon_fastpack_norwegianm98_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\fastpack\data\fastpack_norwegianm98_co.paa"
+		};
+	};
+	class FP_GOR_fastpack_norwegianm03: B_Kitbag_rgr
+	{
+		author="Gordon Weedman";
+		displayName="Kitbag (Norwegian M/03)";
+		picture="\fp_factions\gordon_reskins\fastpack\data\icons\icon_fastpack_norwegianm03_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\fastpack\data\fastpack_norwegianm03_co.paa"
+		};
+	};
+	class FP_GOR_fastpack_norwegianm23woodland: B_Kitbag_rgr
+	{
+		author="Gordon Weedman";
+		displayName="Kitbag (Norwegian M/23 (Woodland))";
+		picture="\fp_factions\gordon_reskins\fastpack\data\icons\icon_fastpack_norwegianm23woodland_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\fastpack\data\fastpack_norwegianm23woodland_co.paa"
+		};
+	};
+	class FP_GOR_fastpack_norwegianm23desert: B_Kitbag_rgr
+	{
+		author="Gordon Weedman";
+		displayName="Kitbag (Norwegian M/23 (Desert))";
+		picture="\fp_factions\gordon_reskins\fastpack\data\icons\icon_fastpack_norwegianm23desert_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\FP_Factions\gordon_reskins\fastpack\data\fastpack_norwegianm23desert_co.paa"
 		};
 	};
 }; 

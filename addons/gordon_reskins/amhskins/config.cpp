@@ -116,7 +116,15 @@ class CfgPatches
 			"FP_GOR_H_HelmetHBK_us4cesocie_F",
 			"FP_GOR_H_HelmetHBK_headset_us4cesocie_F",
 			"FP_GOR_H_HelmetHBK_ear_us4cesocie_F",
-			"FP_GOR_H_HelmetHBK_chops_us4cesocie_F"
+			"FP_GOR_H_HelmetHBK_chops_us4cesocie_F",
+			"FP_GOR_H_HelmetHBK_norwegianm23woodland_F",
+			"FP_GOR_H_HelmetHBK_headset_norwegianm23woodland_F",
+			"FP_GOR_H_HelmetHBK_ear_norwegianm23woodland_F",
+			"FP_GOR_H_HelmetHBK_chops_norwegianm23woodland_F",
+			"FP_GOR_H_HelmetHBK_norwegianm23desert_F",
+			"FP_GOR_H_HelmetHBK_headset_norwegianm23desert_F",
+			"FP_GOR_H_HelmetHBK_ear_norwegianm23desert_F",
+			"FP_GOR_H_HelmetHBK_chops_norwegianm23desert_F"
 			
 		};
 		requiredVersion=0.1;
@@ -1263,6 +1271,88 @@ class CfgWeapons
 		displayName = "AMH (US4CES OCIE, chops)";
 		picture="\fp_factions\gordon_reskins\amhskins\data\icons\icon_amh_us4cesocie_chops_ca.paa";
 		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_us4cesocie_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\FP_Factions\gordon_reskins\amhskins\data\H_HelmetHBK_01.rvmat"};
+	};
+	
+	class FP_GOR_H_HelmetHBK_norwegianm23woodland_F: H_HelmetHBK_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_HelmetHBK_norwegianm23woodland_F";
+		scope = 2;
+		displayName = "AMH (Norwegian M/23 (Woodland))";
+		picture="\fp_factions\gordon_reskins\amhskins\data\icons\icon_amh_norwegianm23woodland_ca.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_norwegianm23woodland_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\FP_Factions\gordon_reskins\amhskins\data\H_HelmetHBK_01.rvmat"};
+	};
+	class FP_GOR_H_HelmetHBK_headset_norwegianm23woodland_F: H_HelmetHBK_headset_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_HelmetHBK_headset_norwegianm23woodland_F";
+		scope = 2;
+		displayName = "AMH (Norwegian M/23 (Woodland), headset)";
+		picture="\fp_factions\gordon_reskins\amhskins\data\icons\icon_amh_norwegianm23woodland_headset_ca.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_norwegianm23woodland_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\FP_Factions\gordon_reskins\amhskins\data\H_HelmetHBK_01.rvmat"};
+	};
+	class FP_GOR_H_HelmetHBK_ear_norwegianm23woodland_F: H_HelmetHBK_ear_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_HelmetHBK_ear_norwegianm23woodland_F";
+		scope = 2;
+		displayName = "AMH (Norwegian M/23 (Woodland), ear protectors)";
+		picture="\fp_factions\gordon_reskins\amhskins\data\icons\icon_amh_norwegianm23woodland_ear_ca.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_norwegianm23woodland_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\FP_Factions\gordon_reskins\amhskins\data\H_HelmetHBK_01.rvmat"};
+	};
+	class FP_GOR_H_HelmetHBK_chops_norwegianm23woodland_F: H_HelmetHBK_chops_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_HelmetHBK_chops_norwegianm23woodland_F";
+		scope = 2;
+		displayName = "AMH (Norwegian M/23 (Woodland), chops)";
+		picture="\fp_factions\gordon_reskins\amhskins\data\icons\icon_amh_norwegianm23woodland_chops_ca.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_norwegianm23woodland_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\FP_Factions\gordon_reskins\amhskins\data\H_HelmetHBK_01.rvmat"};
+	};
+	
+	class FP_GOR_H_HelmetHBK_norwegianm23desert_F: H_HelmetHBK_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_HelmetHBK_norwegianm23desert_F";
+		scope = 2;
+		displayName = "AMH (Norwegian M/23 (Desert))";
+		picture="\fp_factions\gordon_reskins\amhskins\data\icons\icon_amh_norwegianm23desert_ca.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_norwegianm23desert_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\FP_Factions\gordon_reskins\amhskins\data\H_HelmetHBK_01.rvmat"};
+	};
+	class FP_GOR_H_HelmetHBK_headset_norwegianm23desert_F: H_HelmetHBK_headset_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_HelmetHBK_headset_norwegianm23desert_F";
+		scope = 2;
+		displayName = "AMH (Norwegian M/23 (Desert), headset)";
+		picture="\fp_factions\gordon_reskins\amhskins\data\icons\icon_amh_norwegianm23desert_headset_ca.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_norwegianm23desert_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\FP_Factions\gordon_reskins\amhskins\data\H_HelmetHBK_01.rvmat"};
+	};
+	class FP_GOR_H_HelmetHBK_ear_norwegianm23desert_F: H_HelmetHBK_ear_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_HelmetHBK_ear_norwegianm23desert_F";
+		scope = 2;
+		displayName = "AMH (Norwegian M/23 (Desert), ear protectors)";
+		picture="\fp_factions\gordon_reskins\amhskins\data\icons\icon_amh_norwegianm23desert_ear_ca.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_norwegianm23desert_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\FP_Factions\gordon_reskins\amhskins\data\H_HelmetHBK_01.rvmat"};
+	};
+	class FP_GOR_H_HelmetHBK_chops_norwegianm23desert_F: H_HelmetHBK_chops_F
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_HelmetHBK_chops_norwegianm23desert_F";
+		scope = 2;
+		displayName = "AMH (Norwegian M/23 (Desert), chops)";
+		picture="\fp_factions\gordon_reskins\amhskins\data\icons\icon_amh_norwegianm23desert_chops_ca.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\amhskins\data\ModHelmet_norwegianm23desert_CO.paa"};
 		hiddenSelectionsMaterials[] = {"\FP_Factions\gordon_reskins\amhskins\data\H_HelmetHBK_01.rvmat"};
 	};
 };

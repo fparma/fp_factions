@@ -249,7 +249,15 @@ class CfgPatches
 			"FP_GOR_H_Booniehat_cadpatar",
 			"FP_GOR_H_Booniehat_cadpatar_hs",
 			"FP_GOR_H_Booniehat_tochkaalt",
-			"FP_GOR_H_Booniehat_tochkaalt_hs"
+			"FP_GOR_H_Booniehat_tochkaalt_hs",
+			"FP_GOR_H_Booniehat_norwegianm98",
+			"FP_GOR_H_Booniehat_norwegianm98_hs",
+			"FP_GOR_H_Booniehat_norwegianm03",
+			"FP_GOR_H_Booniehat_norwegianm03_hs",
+			"FP_GOR_H_Booniehat_norwegianm23woodland",
+			"FP_GOR_H_Booniehat_norwegianm23woodland_hs",
+			"FP_GOR_H_Booniehat_norwegianm23desert",
+			"FP_GOR_H_Booniehat_norwegianm23desert_hs"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -2541,5 +2549,78 @@ class CfgWeapons
 		displayName = "Booniehat (Tochka (Alt.), headset)";
 		picture="\fp_factions\gordon_reskins\boonie\data\icons\icon_boonietockhaalths_ca.paa";
 		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_tochkaalt_co.paa"};
+	};
+	
+	class FP_GOR_H_Booniehat_norwegianm98: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_norwegianm98";
+		scope = 2;
+		displayName = "Booniehat (Norwegian M/98)";
+		picture="\fp_factions\gordon_reskins\boonie\data\icons\icon_boonienorwegianm98_ca.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_norwegianm98_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_norwegianm98_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_norwegianm98_hs";
+		scope = 2;
+		displayName = "Booniehat (Norwegian M/98, headset)";
+		picture="\fp_factions\gordon_reskins\boonie\data\icons\icon_boonienorwegianm98hs_ca.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_norwegianm98_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_norwegianm03: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_norwegianm03";
+		scope = 2;
+		displayName = "Booniehat (Norwegian M/03)";
+		picture="\fp_factions\gordon_reskins\boonie\data\icons\icon_boonienorwegianm03_ca.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_norwegianm03_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_norwegianm03_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_norwegianm03_hs";
+		scope = 2;
+		displayName = "Booniehat (Norwegian M/03, headset)";
+		picture="\fp_factions\gordon_reskins\boonie\data\icons\icon_boonienorwegianm03hs_ca.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_norwegianm03_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_norwegianm23woodland: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_norwegianm23woodland";
+		scope = 2;
+		displayName = "Booniehat (Norwegian M/23 (Woodland))";
+		picture="\fp_factions\gordon_reskins\boonie\data\icons\icon_boonienorwegianm23woodland_ca.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_norwegianm23woodland_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_norwegianm23woodland_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_norwegianm23woodland_hs";
+		scope = 2;
+		displayName = "Booniehat (Norwegian M/23 (Woodland), headset)";
+		picture="\fp_factions\gordon_reskins\boonie\data\icons\icon_boonienorwegianm23woodlandhs_ca.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_norwegianm23woodland_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_norwegianm23desert: H_Booniehat_khk
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_norwegianm23desert";
+		scope = 2;
+		displayName = "Booniehat (Norwegian M/23 (Desert))";
+		picture="\fp_factions\gordon_reskins\boonie\data\icons\icon_boonienorwegianm23desert_ca.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_norwegianm23desert_co.paa"};
+	};
+	class FP_GOR_H_Booniehat_norwegianm23desert_hs: H_Booniehat_khk_hs
+	{
+		author = "Gordon Weedman";
+		_generalMacro = "FP_GOR_H_Booniehat_norwegianm23desert_hs";
+		scope = 2;
+		displayName = "Booniehat (Norwegian M/23 (Desert), headset)";
+		picture="\fp_factions\gordon_reskins\boonie\data\icons\icon_boonienorwegianm23deserths_ca.paa";
+		hiddenSelectionsTextures[] = {"\FP_Factions\gordon_reskins\boonie\data\booniehat_norwegianm23desert_co.paa"};
 	};
 };
