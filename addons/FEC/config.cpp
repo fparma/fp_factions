@@ -1816,8 +1816,8 @@ class cfgvehicles
 		};
 		hiddenSelectionsTextures[] = 
 		{
-			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_vest_tochka_co.paa",
-			"\FP_Factions\gordon_reskins\rhs6sh122\data\122_pant_tochka_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\rhs6sh122\data\122_vest_tochka_co.paa",
+			"\FP_Factions\gordon_reskins_RHS\rhs6sh122\data\122_pant_tochka_co.paa",
 			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
 		};
 		uniformClass = "FP_GOR_rhs_uniform_6sh122_gloves_tochka"; 
